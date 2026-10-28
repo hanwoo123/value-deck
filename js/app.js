@@ -94,7 +94,6 @@
       gid && { href: `#/g/${gid}`, label: '시세표', key: 'values' },
       gid && { href: `#/g/${gid}/calc`, label: '계산기', key: 'calc' },
       { href: '#/safety', label: '거래 안전', key: 'safety' },
-      { href: '#/guide', label: '관리 방법', key: 'guide' },
     ].filter(Boolean);
     topnav.innerHTML = links.map((l) => `<a href="${l.href}"${l.key === route.view ? ' aria-current="page"' : ''}>${l.label}</a>`).join('');
     if (known) gameSelect.value = route.gameId;
@@ -110,7 +109,6 @@
   function parseRoute() {
     const parts = location.hash.replace(/^#\/?/, '').split('/').filter(Boolean);
     if (parts[0] === 'g' && parts[1]) return { view: parts[2] === 'calc' ? 'calc' : 'values', gameId: decodeURIComponent(parts[1]) };
-    if (parts[0] === 'guide') return { view: 'guide' };
     if (parts[0] === 'safety') return { view: 'safety' };
     return { view: 'home' };
   }
@@ -121,7 +119,6 @@
     window.scrollTo(0, 0);
     try {
       if (route.view === 'home') return renderHome();
-      if (route.view === 'guide') return renderGuide();
       if (route.view === 'safety') return renderSafety();
       const meta = state.games.find((g) => g.id === route.gameId);
       if (!meta) return renderNotFound();
@@ -132,7 +129,7 @@
     } catch (err) {
       main.innerHTML = `<div class="empty"><p><strong>데이터를 불러오지 못했어요.</strong></p><p class="muted">${esc(err.message)}</p></div>`;
     }
-    document.title = `${route.view === 'calc' ? '계산기' : route.view === 'values' ? '시세표' : route.view === 'safety' ? '거래 안전' : route.view === 'guide' ? '관리 방법' : 'VALUE DECK'} — VALUE DECK`;
+    document.title = `${route.view === 'calc' ? '계산기' : route.view === 'values' ? '시세표' : route.view === 'safety' ? '거래 안전' : 'VALUE DECK'} — VALUE DECK`;
   }
 
   // ---------- home ----------
@@ -420,67 +417,6 @@
   });
   picker.addEventListener('click', (e) => { if (e.target.closest('[data-close]')) closePicker(); });
   document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && !picker.hidden) closePicker(); });
-
-  // ---------- guide ----------
-  function renderGuide() {
-    main.innerHTML = `
-      <div class="pagehead"><div><div class="eyebrow">Admin Guide</div><h1>사이트 관리 방법</h1>
-      <p>코드를 건드리지 않고 JSON 파일과 이미지만 수정하면 돼요.</p></div></div>
-      <div class="guide">
-        <section>
-          <h2>1. 새 게임 추가</h2>
-          <ol>
-            <li><code>data/</code> 폴더에 게임 파일을 만들어요. 예: <code>data/blox-fruits.json</code> (샘플 파일을 복사하면 편해요)</li>
-            <li><code>data/games.json</code>의 <code>games</code> 배열에 한 줄을 추가해요.</li>
-            <li>이미지는 <code>images/게임id/</code> 폴더에 넣어요.</li>
-          </ol>
-<pre>{
-  "id": "blox-fruits",
-  "name": "블록스 프루츠",
-  "status": "active",
-  "dataFile": "data/blox-fruits.json",
-  "cover": "images/blox-fruits/cover.png",
-  "accent": "#ff8a3d",
-  "description": "열매·게임패스 시세"
-}</pre>
-        </section>
-        <section>
-          <h2>2. 게임 숨기기 / 삭제</h2>
-          <ul>
-            <li>잠깐 내리고 싶으면 <code>"status": "hidden"</code>으로 바꾸면 사이트에서 사라져요. 데이터는 그대로 남아요.</li>
-            <li>완전히 지우려면 <code>games.json</code>에서 해당 항목을 지우고, 게임 JSON과 이미지 폴더도 삭제해요.</li>
-          </ul>
-        </section>
-        <section>
-          <h2>3. 아이템 추가 / 시세 업데이트</h2>
-          <p>게임 JSON의 <code>items</code> 배열을 수정하고, <code>updated</code> 날짜를 바꿔요.</p>
-<pre>{
-  "id": "dragon",            // 고유 ID (영문, 겹치면 안 됨)
-  "name": "용의 열매",
-  "category": "열매",        // categories 목록 중 하나
-  "rarity": "Mythic",        // Mythic / Legendary / Epic / Rare / Common
-  "value": 4500000,          // 숫자만 (쉼표 X)
-  "demand": 5,               // 수요 0~5
-  "trend": "up",             // up / down / stable
-  "image": "images/blox-fruits/dragon.png",
-  "note": ""
-}</pre>
-          <p style="margin-top:var(--space-3)">시세를 바꿀 때는 원래 값을 <code>"prevValue"</code>에 옮겨 적고 <code>"value"</code>를 새 값으로 바꾸면, 카드와 홈의 "최근 시세 변동"에 변동률이 표시돼요. 변동 표시를 없애려면 <code>prevValue</code> 줄을 지우면 돼요.</p>
-        </section>
-        <section>
-          <h2>디스코드 버튼</h2>
-          <p><code>data/games.json</code> 맨 위의 <code>"discordInvite"</code>에 초대 링크를 넣으면 상단에 디스코드 버튼이 생겨요. 예: <code>"discordInvite": "https://discord.gg/abcd1234"</code></p>
-        </section>
-        <section>
-          <h2>4. 이미지</h2>
-          <ul>
-            <li>아이템 이미지는 투명 배경 PNG, 정사각형(256×256 정도)을 추천해요.</li>
-            <li>게임 커버는 16:9 비율(1280×720 정도)을 추천해요.</li>
-            <li>이미지가 없거나 경로가 틀리면 아이템 이름 첫 글자가 대신 표시돼요.</li>
-          </ul>
-        </section>
-      </div>`;
-  }
 
   function renderSafety() {
     main.innerHTML = `
