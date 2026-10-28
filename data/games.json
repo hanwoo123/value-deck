@@ -3,6 +3,15 @@
   "discordInvite": "https://discord.gg/jyaRuSSSba",
   "games": [
     {
+      "id": "cameraman-td",
+      "name": "카메라맨 타워 디펜스",
+      "status": "active",
+      "dataFile": "data/cameraman-td.json",
+      "cover": "images/cameraman-td/cover.png",
+      "accent": "#ff4d6d",
+      "description": "유닛·게임패스·상자 가치 (단위: 젬)"
+    },
+    {
       "id": "sample-pirate",
       "name": "샘플 해적 RPG",
       "status": "active",

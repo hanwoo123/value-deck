@@ -21,7 +21,7 @@
   };
 
   const RARITY_ORDER_DEFAULT = ['Mythic', 'Legendary', 'Epic', 'Rare', 'Common'];
-  const RARITY_KO = { Mythic: '신화', Legendary: '전설', Epic: '영웅', Rare: '희귀', Common: '일반' };
+  const RARITY_KO = { Exclusive: '한정', Godly: '갓', Mythic: '신화', Legendary: '전설', Epic: '영웅', Rare: '희귀', Uncommon: '고급', Common: '일반' };
   const FAIR_RANGE = 0.05; // ±5% 이내면 "비슷함"
 
   // ---------- utils ----------
@@ -34,7 +34,8 @@
     if (abs >= 1e12) return fmt(n / 1e12, 'T');
     if (abs >= 1e9) return fmt(n / 1e9, 'B');
     if (abs >= 1e6) return fmt(n / 1e6, 'M');
-    if (abs >= 1e3) return fmt(n / 1e3, 'K');
+    if (abs >= 1e5) return fmt(n / 1e3, 'K');
+    if (abs >= 1e3) return full(n);
     return String(n);
   }
   function changeOf(i) {
@@ -201,7 +202,7 @@
         <div>
           <div class="eyebrow">Value List</div>
           <h1>${esc(meta.name)} 시세표</h1>
-          <p>${full(data.items.length)}개 아이템 · 업데이트 ${esc(data.updated || '-')}</p>
+          <p>${full(data.items.length)}개 아이템 · 업데이트 ${esc(data.updated || '-')}${data.source ? ' · ' + esc(data.source) : ''}</p>
         </div>
         <a class="btn btn--accent" href="#/g/${encodeURIComponent(meta.id)}/calc">거래 계산기 열기</a>
       </div>
@@ -264,7 +265,10 @@
   }
 
   function itemCard(i, data) {
-    const d = Math.max(0, Math.min(5, Number(i.demand) || 0));
+    const dmax = Number(data.demandMax) || 5;
+    const dval = Math.max(0, Math.min(dmax, Number(i.demand) || 0));
+    const d = Math.round((dval / dmax) * 5);
+    const dLabel = `${dval}/${dmax}`;
     const trend = { up: ['▲', '상승'], down: ['▼', '하락'], stable: ['–', '유지'] }[i.trend] || ['–', '유지'];
     return `
       <article class="item" data-rarity="${esc(i.rarity)}">
@@ -274,8 +278,9 @@
           <div class="item__top"><span class="rarity">${esc(rarityLabel(i.rarity))}</span><span class="cat">${esc(i.category || '')}</span></div>
           <h3 class="item__name">${esc(i.name)}</h3>
           <div class="item__value" title="${full(i.value)}">${compact(i.value)}${data.valueUnit ? ' ' + esc(data.valueUnit) : ''}${changeBadge(changeOf(i))}</div>
+          ${i.note ? `<p class="item__note">${esc(i.note)}</p>` : ''}
           <div class="item__foot">
-            <span class="demand" title="수요 ${d}/5" aria-label="수요 ${d}/5">${[1, 2, 3, 4, 5].map((n) => `<i class="${n <= d ? 'on' : ''}"></i>`).join('')}</span>
+            <span class="demand" title="수요 ${dLabel}" aria-label="수요 ${dLabel}">${[1, 2, 3, 4, 5].map((n) => `<i class="${n <= d ? 'on' : ''}"></i>`).join('')}${dmax !== 5 ? `<b class="demand__num">${dLabel}</b>` : ''}</span>
             <span class="trend trend--${esc(i.trend || 'stable')}" title="${trend[1]}">${trend[0]} ${trend[1]}</span>
           </div>
         </div>

@@ -22,10 +22,13 @@
   --up: #4ade80;
   --down: #f87171;
 
+  --r-exclusive: #2ee6c9;
+  --r-godly: #ffe45c;
   --r-mythic: #ff5e7a;
   --r-legendary: #ffb53d;
   --r-epic: #b57bff;
   --r-rare: #4fb3ff;
+  --r-uncommon: #6fd38a;
   --r-common: #9aa3ae;
 
   --radius: 10px;
@@ -125,10 +128,13 @@ p { margin: 0; }
 .count { font-size: var(--text-xs); color: var(--muted); margin-bottom: var(--space-3); font-family: var(--mono); }
 
 /* rarity */
+[data-rarity="Exclusive"] { --rc: var(--r-exclusive); }
+[data-rarity="Godly"] { --rc: var(--r-godly); }
 [data-rarity="Mythic"] { --rc: var(--r-mythic); }
 [data-rarity="Legendary"] { --rc: var(--r-legendary); }
 [data-rarity="Epic"] { --rc: var(--r-epic); }
 [data-rarity="Rare"] { --rc: var(--r-rare); }
+[data-rarity="Uncommon"] { --rc: var(--r-uncommon); }
 [data-rarity="Common"] { --rc: var(--r-common); }
 
 /* item grid */
@@ -256,3 +262,6 @@ p { margin: 0; }
   .hero__stats { gap: var(--space-6); }
 }
 @media (prefers-reduced-motion: reduce) { * { transition: none !important; animation: none !important; } }
+
+.demand__num { font-weight: 600; font-size: var(--text-xs); color: var(--muted); margin-left: 6px; line-height: 10px; }
+.item__note { font-size: var(--text-xs); color: var(--muted); margin: 2px 0 6px; line-height: 1.35; }
