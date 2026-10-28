@@ -219,6 +219,24 @@ p { margin: 0; }
 .toast { position: fixed; bottom: var(--space-6); left: 50%; transform: translateX(-50%); background: var(--accent); color: var(--accent-ink); padding: var(--space-2) var(--space-4); border-radius: 8px; font-size: var(--text-sm); font-weight: 600; z-index: 60; white-space: nowrap; max-width: calc(100vw - 32px); overflow: hidden; text-overflow: ellipsis; animation: toast 1.8s ease forwards; }
 @keyframes toast { 0% { opacity: 0; transform: translate(-50%, 8px); } 10%, 80% { opacity: 1; transform: translate(-50%, 0); } 100% { opacity: 0; } }
 
+/* deltas & moves */
+.delta { display: inline-block; margin-left: var(--space-2); font-size: var(--text-xs); font-weight: 700; padding: 1px 6px; border-radius: 4px; vertical-align: middle; }
+.delta--up { color: var(--up); background: rgba(74,222,128,.12); }
+.delta--down { color: var(--down); background: rgba(248,113,113,.12); }
+.moves { margin-bottom: var(--space-10); }
+.moves__list { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: var(--space-2); }
+.move { display: grid; grid-template-columns: 44px minmax(0,1fr) auto; gap: var(--space-3); align-items: center; padding: var(--space-2) var(--space-3); background: var(--surface); border: 1px solid var(--border); border-left: 3px solid var(--rc); border-radius: 10px; text-decoration: none; transition: border-color .15s; }
+.move:hover { border-color: #3a4452; border-left-color: var(--rc); }
+.move__text { display: flex; flex-direction: column; min-width: 0; }
+.move__val { display: flex; flex-direction: column; align-items: flex-end; gap: 2px; }
+.move__val .delta { margin-left: 0; }
+.warnbox { border-color: color-mix(in oklab, var(--down) 45%, var(--border)) !important; }
+.warnbox h2 { color: var(--down); }
+.guide strong { color: var(--text); }
+.btn--discord { background: #5865f2; border-color: #5865f2; color: #fff; padding: var(--space-2) var(--space-3); flex-shrink: 0; }
+.btn--discord:hover { background: #4752c4; border-color: #4752c4; }
+.btn--discord[hidden] { display: none; }
+
 /* footer */
 .footer { border-top: 1px solid var(--border); }
 .footer__inner { max-width: var(--wrap); margin: 0 auto; padding: var(--space-6) var(--space-4); display: grid; gap: var(--space-1); font-size: var(--text-xs); }
@@ -229,6 +247,7 @@ p { margin: 0; }
   .side { min-height: 0; }
 }
 @media (max-width: 640px) {
+  .moves__list { grid-template-columns: minmax(0, 1fr); }
   .topbar__inner { flex-wrap: wrap; gap: var(--space-2) var(--space-3); }
   .topnav { order: 3; flex-basis: 100%; overflow-x: auto; }
   .gamepick { margin-left: auto; }

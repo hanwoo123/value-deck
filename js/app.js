@@ -37,6 +37,18 @@
     if (abs >= 1e3) return fmt(n / 1e3, 'K');
     return String(n);
   }
+  function changeOf(i) {
+    const prev = Number(i.prevValue);
+    if (!prev || prev <= 0 || !Number.isFinite(prev)) return null;
+    const pct = ((Number(i.value) - prev) / prev) * 100;
+    if (!Number.isFinite(pct) || Math.abs(pct) < 0.05) return null;
+    return pct;
+  }
+  function changeBadge(pct) {
+    if (pct == null) return '';
+    const up = pct > 0;
+    return `<span class="delta delta--${up ? 'up' : 'down'}" title="이전 시세 대비">${up ? '+' : ''}${(Math.round(pct * 10) / 10).toFixed(1)}%</span>`;
+  }
   const rarityLabel = (r) => RARITY_KO[r] ? `${RARITY_KO[r]}` : r;
   const initial = (name) => esc(String(name || '?').trim().slice(0, 1));
 
@@ -81,6 +93,7 @@
       { href: '#/', label: '홈', key: 'home' },
       gid && { href: `#/g/${gid}`, label: '시세표', key: 'values' },
       gid && { href: `#/g/${gid}/calc`, label: '계산기', key: 'calc' },
+      { href: '#/safety', label: '거래 안전', key: 'safety' },
       { href: '#/guide', label: '관리 방법', key: 'guide' },
     ].filter(Boolean);
     topnav.innerHTML = links.map((l) => `<a href="${l.href}"${l.key === route.view ? ' aria-current="page"' : ''}>${l.label}</a>`).join('');
@@ -98,6 +111,7 @@
     const parts = location.hash.replace(/^#\/?/, '').split('/').filter(Boolean);
     if (parts[0] === 'g' && parts[1]) return { view: parts[2] === 'calc' ? 'calc' : 'values', gameId: decodeURIComponent(parts[1]) };
     if (parts[0] === 'guide') return { view: 'guide' };
+    if (parts[0] === 'safety') return { view: 'safety' };
     return { view: 'home' };
   }
 
@@ -108,6 +122,7 @@
     try {
       if (route.view === 'home') return renderHome();
       if (route.view === 'guide') return renderGuide();
+      if (route.view === 'safety') return renderSafety();
       const meta = state.games.find((g) => g.id === route.gameId);
       if (!meta) return renderNotFound();
       main.innerHTML = '<div class="loading" role="status">불러오는 중…</div>';
@@ -117,7 +132,7 @@
     } catch (err) {
       main.innerHTML = `<div class="empty"><p><strong>데이터를 불러오지 못했어요.</strong></p><p class="muted">${esc(err.message)}</p></div>`;
     }
-    document.title = `${route.view === 'calc' ? '계산기' : route.view === 'values' ? '시세표' : 'VALUE DECK'} — VALUE DECK`;
+    document.title = `${route.view === 'calc' ? '계산기' : route.view === 'values' ? '시세표' : route.view === 'safety' ? '거래 안전' : route.view === 'guide' ? '관리 방법' : 'VALUE DECK'} — VALUE DECK`;
   }
 
   // ---------- home ----------
@@ -126,6 +141,23 @@
     const datas = await Promise.all(state.games.map((g) => loadGame(g.id).catch(() => null)));
     const totalItems = datas.reduce((s, d) => s + (d?.items.length || 0), 0);
     const latest = datas.map((d) => d?.updated).filter(Boolean).sort().pop() || '-';
+    const moves = [];
+    state.games.forEach((g, gi) => (datas[gi]?.items || []).forEach((it) => {
+      const pct = changeOf(it); if (pct != null) moves.push({ g, it, pct });
+    }));
+    moves.sort((a, b) => Math.abs(b.pct) - Math.abs(a.pct));
+    const movesHTML = moves.length ? `
+      <section class="moves" aria-labelledby="movesTitle">
+        <h2 class="section-title" id="movesTitle">최근 시세 변동</h2>
+        <div class="moves__list">
+          ${moves.slice(0, 6).map(({ g, it, pct }) => `
+            <a class="move" href="#/g/${encodeURIComponent(g.id)}" data-rarity="${esc(it.rarity)}">
+              <span class="slot__thumb">${thumb(it)}</span>
+              <span class="move__text"><span class="slot__name">${esc(it.name)}</span><span class="cat">${esc(g.name)}</span></span>
+              <span class="move__val"><span class="slot__val">${compact(it.prevValue)} → ${compact(it.value)}</span>${changeBadge(pct)}</span>
+            </a>`).join('')}
+        </div>
+      </section>` : '';
 
     main.innerHTML = `
       <section class="hero">
@@ -138,6 +170,7 @@
           <div class="stat"><b>${esc(latest)}</b><span>최근 업데이트</span></div>
         </div>
       </section>
+      ${movesHTML}
       <h2 class="section-title">게임 선택</h2>
       ${state.games.length ? `<div class="games">${state.games.map((g, i) => gameCard(g, datas[i])).join('')}</div>`
         : '<div class="empty">아직 등록된 게임이 없어요. data/games.json에 게임을 추가하세요.</div>'}
@@ -243,7 +276,7 @@
         <div class="item__body">
           <div class="item__top"><span class="rarity">${esc(rarityLabel(i.rarity))}</span><span class="cat">${esc(i.category || '')}</span></div>
           <h3 class="item__name">${esc(i.name)}</h3>
-          <div class="item__value" title="${full(i.value)}">${compact(i.value)}${data.valueUnit ? ' ' + esc(data.valueUnit) : ''}</div>
+          <div class="item__value" title="${full(i.value)}">${compact(i.value)}${data.valueUnit ? ' ' + esc(data.valueUnit) : ''}${changeBadge(changeOf(i))}</div>
           <div class="item__foot">
             <span class="demand" title="수요 ${d}/5" aria-label="수요 ${d}/5">${[1, 2, 3, 4, 5].map((n) => `<i class="${n <= d ? 'on' : ''}"></i>`).join('')}</span>
             <span class="trend trend--${esc(i.trend || 'stable')}" title="${trend[1]}">${trend[0]} ${trend[1]}</span>
@@ -432,6 +465,11 @@
   "image": "images/blox-fruits/dragon.png",
   "note": ""
 }</pre>
+          <p style="margin-top:var(--space-3)">시세를 바꿀 때는 원래 값을 <code>"prevValue"</code>에 옮겨 적고 <code>"value"</code>를 새 값으로 바꾸면, 카드와 홈의 "최근 시세 변동"에 변동률이 표시돼요. 변동 표시를 없애려면 <code>prevValue</code> 줄을 지우면 돼요.</p>
+        </section>
+        <section>
+          <h2>디스코드 버튼</h2>
+          <p><code>data/games.json</code> 맨 위의 <code>"discordInvite"</code>에 초대 링크를 넣으면 상단에 디스코드 버튼이 생겨요. 예: <code>"discordInvite": "https://discord.gg/abcd1234"</code></p>
         </section>
         <section>
           <h2>4. 이미지</h2>
@@ -444,6 +482,49 @@
       </div>`;
   }
 
+  function renderSafety() {
+    main.innerHTML = `
+      <div class="pagehead"><div><div class="eyebrow">Trade Safety</div><h1>거래 안전 가이드</h1>
+      <p>거래 전에 한 번만 읽어도 사기 대부분을 피할 수 있어요.</p></div></div>
+      <div class="guide">
+        <section class="warnbox">
+          <h2>절대 하지 말 것</h2>
+          <ul>
+            <li>로블록스 비밀번호, 인증 코드, 쿠키(.ROBLOSECURITY)를 누구에게도 알려주지 마세요. 운영진도 절대 요구하지 않아요.</li>
+            <li>"먼저 주면 바로 보내줄게"라는 말만 믿고 아이템을 먼저 넘기지 마세요.</li>
+            <li>DM으로 온 링크나 파일, "무료 아이템·로벅스" 사이트는 열지 마세요.</li>
+          </ul>
+        </section>
+        <section>
+          <h2>거래 전 확인하기</h2>
+          <ol>
+            <li>시세표와 계산기로 거래가 크게 손해인지 먼저 확인해요.</li>
+            <li>상대가 서버에서 로블록스 인증을 마친 사람인지 확인해요.</li>
+            <li>조건(아이템, 수량, 순서)은 서버 채널에 남겨 기록을 만들어요.</li>
+            <li>가능하면 게임 안의 거래 창이나 로블록스 공식 거래 기능을 사용해요. 양쪽이 확인해야 완료되는 방식이 가장 안전해요.</li>
+          </ol>
+        </section>
+        <section>
+          <h2>자주 보이는 사기 수법</h2>
+          <ul>
+            <li><strong>사칭</strong>: 운영진이나 유명 유저인 척 DM을 보내요. 닉네임이 비슷해도 프로필과 역할을 꼭 확인하세요.</li>
+            <li><strong>중개 사기</strong>: "중개해줄게"라며 가짜 중개인을 끌어들여요. 서버가 지정한 중개인 외에는 믿지 마세요.</li>
+            <li><strong>바꿔치기</strong>: 거래 창에서 마지막 순간에 아이템을 바꾸거나 빼요. 수락 전에 목록을 다시 확인하세요.</li>
+            <li><strong>시세 부풀리기</strong>: "이거 요즘 엄청 올랐어"라며 가치를 속여요. 시세표로 직접 확인하세요.</li>
+          </ul>
+        </section>
+        <section>
+          <h2>사기를 당했다면</h2>
+          <ol>
+            <li>상대 디스코드·로블록스 닉네임과 ID, 대화 캡처, 거래 화면을 저장해요.</li>
+            <li>서버의 신고 티켓으로 증거와 함께 접수해요.</li>
+            <li>로블록스 안의 신고 기능으로도 함께 신고해요.</li>
+          </ol>
+          <p style="margin-top:var(--space-3)">공식 거래 기능 밖에서 한 약속이나 현금 거래는 되돌리기 어려워요. 서버도 손해를 대신 책임지지 않아요.</p>
+        </section>
+      </div>`;
+  }
+
   function renderNotFound() {
     main.innerHTML = `<div class="empty"><p><strong>게임을 찾을 수 없어요.</strong></p><p class="muted">삭제되었거나 숨김 처리된 게임일 수 있어요.</p><p style="margin-top:var(--space-4)"><a class="btn" href="#/">홈으로</a></p></div>`;
   }
@@ -452,6 +533,10 @@
   async function boot() {
     try {
       const cfg = await getJSON('data/games.json');
+      const inv = String(cfg.discordInvite || '').trim();
+      if (/^https:\/\/(discord\.gg|discord\.com\/invite)\/[\w-]+\/?$/.test(inv)) {
+        const b = document.getElementById('discordBtn'); b.href = inv; b.hidden = false;
+      }
       state.games = (cfg.games || []).filter((g) => g && g.id && (g.status || 'active') === 'active');
     } catch (err) {
       main.innerHTML = `<div class="empty"><p><strong>data/games.json을 불러오지 못했어요.</strong></p><p class="muted">${esc(err.message)}</p></div>`;
