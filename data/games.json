@@ -4,7 +4,7 @@
     {
       "id": "sample-pirate",
       "name": "샘플 해적 RPG",
-      "status": "active",
+      "status": "hidden",
       "dataFile": "data/sample-pirate.json",
       "cover": "",
       "accent": "#ff8a3d",
@@ -13,7 +13,7 @@
     {
       "id": "sample-pet",
       "name": "샘플 펫 시뮬레이터",
-      "status": "active",
+      "status": "hidden",
       "dataFile": "data/sample-pet.json",
       "cover": "",
       "accent": "#5ac8fa",
