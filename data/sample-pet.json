@@ -1,0 +1,151 @@
+{
+  "updated": "2026-10-28",
+  "valueUnit": "",
+  "rarities": [
+    "Mythic",
+    "Legendary",
+    "Epic",
+    "Rare",
+    "Common"
+  ],
+  "categories": [
+    "펫",
+    "알",
+    "아이템",
+    "게임패스"
+  ],
+  "items": [
+    {
+      "id": "sample-pet-01",
+      "name": "황금 드래곤",
+      "category": "펫",
+      "rarity": "Mythic",
+      "value": 9800000,
+      "demand": 5,
+      "trend": "up",
+      "image": "",
+      "note": ""
+    },
+    {
+      "id": "sample-pet-02",
+      "name": "무지개 유니콘",
+      "category": "펫",
+      "rarity": "Mythic",
+      "value": 7200000,
+      "demand": 4,
+      "trend": "stable",
+      "image": "",
+      "note": ""
+    },
+    {
+      "id": "sample-pet-03",
+      "name": "우주 고양이",
+      "category": "펫",
+      "rarity": "Legendary",
+      "value": 2600000,
+      "demand": 4,
+      "trend": "up",
+      "image": "",
+      "note": ""
+    },
+    {
+      "id": "sample-pet-04",
+      "name": "네온 여우",
+      "category": "펫",
+      "rarity": "Legendary",
+      "value": 1900000,
+      "demand": 3,
+      "trend": "stable",
+      "image": "",
+      "note": ""
+    },
+    {
+      "id": "sample-pet-05",
+      "name": "크리스탈 늑대",
+      "category": "펫",
+      "rarity": "Epic",
+      "value": 640000,
+      "demand": 3,
+      "trend": "down",
+      "image": "",
+      "note": ""
+    },
+    {
+      "id": "sample-pet-06",
+      "name": "구름 토끼",
+      "category": "펫",
+      "rarity": "Epic",
+      "value": 510000,
+      "demand": 2,
+      "trend": "stable",
+      "image": "",
+      "note": ""
+    },
+    {
+      "id": "sample-pet-07",
+      "name": "숲 거북이",
+      "category": "펫",
+      "rarity": "Rare",
+      "value": 120000,
+      "demand": 2,
+      "trend": "stable",
+      "image": "",
+      "note": ""
+    },
+    {
+      "id": "sample-pet-08",
+      "name": "꼬마 병아리",
+      "category": "펫",
+      "rarity": "Common",
+      "value": 8000,
+      "demand": 1,
+      "trend": "down",
+      "image": "",
+      "note": ""
+    },
+    {
+      "id": "sample-pet-09",
+      "name": "거대 알",
+      "category": "알",
+      "rarity": "Legendary",
+      "value": 1500000,
+      "demand": 4,
+      "trend": "up",
+      "image": "",
+      "note": ""
+    },
+    {
+      "id": "sample-pet-10",
+      "name": "미스터리 알",
+      "category": "알",
+      "rarity": "Rare",
+      "value": 95000,
+      "demand": 2,
+      "trend": "stable",
+      "image": "",
+      "note": ""
+    },
+    {
+      "id": "sample-pet-11",
+      "name": "행운 물약",
+      "category": "아이템",
+      "rarity": "Epic",
+      "value": 300000,
+      "demand": 3,
+      "trend": "up",
+      "image": "",
+      "note": ""
+    },
+    {
+      "id": "sample-pet-12",
+      "name": "자동 부화 패스",
+      "category": "게임패스",
+      "rarity": "Legendary",
+      "value": 1100000,
+      "demand": 3,
+      "trend": "stable",
+      "image": "",
+      "note": ""
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>VALUE DECK — 로블록스 아이템 시세 & 거래 계산기</title>
+  <meta name="description" content="여러 로블록스 게임의 아이템 시세표와 거래 계산기" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 32 32%22%3E%3Crect width=%2232%22 height=%2232%22 rx=%227%22 fill=%22%23c8f04a%22/%3E%3C/svg%3E" />
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@600;700&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <a class="skip" href="#main">본문으로 건너뛰기</a>
+  <header class="topbar">
+    <div class="topbar__inner">
+      <a class="brand" href="#/" aria-label="VALUE DECK 홈">
+        <span class="brand__mark" aria-hidden="true">VD</span>
+        <span class="brand__name">VALUE DECK</span>
+      </a>
+      <nav class="topnav" id="topnav" aria-label="주요 메뉴"></nav>
+      <label class="gamepick">
+        <span class="sr-only">게임 선택</span>
+        <select id="gameSelect"></select>
+      </label>
+    </div>
+  </header>
+
+  <main id="main" tabindex="-1">
+    <div class="loading" role="status">불러오는 중…</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__inner">
+      <p><strong>VALUE DECK</strong> · 커뮤니티가 만드는 거래 참고용 시세표</p>
+      <p class="muted">독립적인 팬 제작 사이트이며 Roblox Corporation 및 각 게임 개발사와 관련이 없습니다. 시세는 참고용이며 실제 거래 결과를 보장하지 않습니다.</p>
+    </div>
+  </footer>
+
+  <div class="modal" id="picker" hidden>
+    <div class="modal__backdrop" data-close></div>
+    <div class="modal__panel" role="dialog" aria-modal="true" aria-labelledby="pickerTitle">
+      <div class="modal__head">
+        <h2 id="pickerTitle">아이템 추가</h2>
+        <button class="iconbtn" data-close aria-label="닫기">✕</button>
+      </div>
+      <input class="input" id="pickerSearch" type="search" placeholder="아이템 이름 검색" autocomplete="off" />
+      <div class="picker__list" id="pickerList"></div>
+    </div>
+  </div>
+
+  <script src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+{
+  "siteName": "VALUE DECK",
+  "games": [
+    {
+      "id": "sample-pirate",
+      "name": "샘플 해적 RPG",
+      "status": "active",
+      "dataFile": "data/sample-pirate.json",
+      "cover": "",
+      "accent": "#ff8a3d",
+      "description": "예시 데이터입니다. 실제 게임 시세로 교체하세요."
+    },
+    {
+      "id": "sample-pet",
+      "name": "샘플 펫 시뮬레이터",
+      "status": "active",
+      "dataFile": "data/sample-pet.json",
+      "cover": "",
+      "accent": "#5ac8fa",
+      "description": "예시 데이터입니다. 실제 게임 시세로 교체하세요."
+    },
+    {
+      "id": "old-game-example",
+      "name": "숨김 처리된 게임 예시",
+      "status": "hidden",
+      "dataFile": "data/sample-pet.json",
+      "cover": "",
+      "accent": "#999999",
+      "description": "status를 hidden으로 두면 사이트에 표시되지 않습니다."
+    }
+  ]
+}

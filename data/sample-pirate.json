@@ -1,0 +1,173 @@
+{
+  "updated": "2026-10-28",
+  "valueUnit": "",
+  "rarities": [
+    "Mythic",
+    "Legendary",
+    "Epic",
+    "Rare",
+    "Common"
+  ],
+  "categories": [
+    "열매",
+    "무기",
+    "장비",
+    "게임패스"
+  ],
+  "items": [
+    {
+      "id": "sample-pirate-01",
+      "name": "용의 열매",
+      "category": "열매",
+      "rarity": "Mythic",
+      "value": 4500000,
+      "demand": 5,
+      "trend": "up",
+      "image": "",
+      "note": ""
+    },
+    {
+      "id": "sample-pirate-02",
+      "name": "폭풍 열매",
+      "category": "열매",
+      "rarity": "Mythic",
+      "value": 3800000,
+      "demand": 4,
+      "trend": "stable",
+      "image": "",
+      "note": ""
+    },
+    {
+      "id": "sample-pirate-03",
+      "name": "그림자 열매",
+      "category": "열매",
+      "rarity": "Legendary",
+      "value": 2100000,
+      "demand": 4,
+      "trend": "up",
+      "image": "",
+      "note": ""
+    },
+    {
+      "id": "sample-pirate-04",
+      "name": "얼음 열매",
+      "category": "열매",
+      "rarity": "Legendary",
+      "value": 1650000,
+      "demand": 3,
+      "trend": "down",
+      "image": "",
+      "note": ""
+    },
+    {
+      "id": "sample-pirate-05",
+      "name": "불꽃 열매",
+      "category": "열매",
+      "rarity": "Epic",
+      "value": 820000,
+      "demand": 3,
+      "trend": "stable",
+      "image": "",
+      "note": ""
+    },
+    {
+      "id": "sample-pirate-06",
+      "name": "모래 열매",
+      "category": "열매",
+      "rarity": "Rare",
+      "value": 240000,
+      "demand": 2,
+      "trend": "down",
+      "image": "",
+      "note": ""
+    },
+    {
+      "id": "sample-pirate-07",
+      "name": "흑도",
+      "category": "무기",
+      "rarity": "Mythic",
+      "value": 3200000,
+      "demand": 5,
+      "trend": "up",
+      "image": "",
+      "note": ""
+    },
+    {
+      "id": "sample-pirate-08",
+      "name": "월광검",
+      "category": "무기",
+      "rarity": "Legendary",
+      "value": 1400000,
+      "demand": 3,
+      "trend": "stable",
+      "image": "",
+      "note": ""
+    },
+    {
+      "id": "sample-pirate-09",
+      "name": "해적 쌍검",
+      "category": "무기",
+      "rarity": "Epic",
+      "value": 560000,
+      "demand": 2,
+      "trend": "stable",
+      "image": "",
+      "note": ""
+    },
+    {
+      "id": "sample-pirate-10",
+      "name": "심해의 투구",
+      "category": "장비",
+      "rarity": "Epic",
+      "value": 470000,
+      "demand": 3,
+      "trend": "up",
+      "image": "",
+      "note": ""
+    },
+    {
+      "id": "sample-pirate-11",
+      "name": "선장 코트",
+      "category": "장비",
+      "rarity": "Rare",
+      "value": 180000,
+      "demand": 2,
+      "trend": "stable",
+      "image": "",
+      "note": ""
+    },
+    {
+      "id": "sample-pirate-12",
+      "name": "2배 경험치 패스",
+      "category": "게임패스",
+      "rarity": "Legendary",
+      "value": 1200000,
+      "demand": 4,
+      "trend": "stable",
+      "image": "",
+      "note": ""
+    },
+    {
+      "id": "sample-pirate-13",
+      "name": "빠른 배 패스",
+      "category": "게임패스",
+      "rarity": "Rare",
+      "value": 300000,
+      "demand": 1,
+      "trend": "down",
+      "image": "",
+      "note": ""
+    },
+    {
+      "id": "sample-pirate-14",
+      "name": "나무 방패",
+      "category": "장비",
+      "rarity": "Common",
+      "value": 15000,
+      "demand": 1,
+      "trend": "stable",
+      "image": "",
+      "note": ""
+    }
+  ]
+}
