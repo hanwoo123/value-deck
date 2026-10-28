@@ -75,7 +75,8 @@
 
   // ---------- nav ----------
   function renderNav(route) {
-    const gid = route.gameId || gameSelect.value || state.games[0]?.id;
+    const known = state.games.some((g) => g.id === route.gameId);
+    const gid = encodeURIComponent((known && route.gameId) || gameSelect.value || state.games[0]?.id || '');
     const links = [
       { href: '#/', label: '홈', key: 'home' },
       gid && { href: `#/g/${gid}`, label: '시세표', key: 'values' },
@@ -83,7 +84,7 @@
       { href: '#/guide', label: '관리 방법', key: 'guide' },
     ].filter(Boolean);
     topnav.innerHTML = links.map((l) => `<a href="${l.href}"${l.key === route.view ? ' aria-current="page"' : ''}>${l.label}</a>`).join('');
-    if (route.gameId) gameSelect.value = route.gameId;
+    if (known) gameSelect.value = route.gameId;
   }
 
   gameSelect.addEventListener('change', () => {
