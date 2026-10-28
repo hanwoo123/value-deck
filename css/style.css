@@ -128,7 +128,7 @@ p { margin: 0; }
 .count { font-size: var(--text-xs); color: var(--muted); margin-bottom: var(--space-3); font-family: var(--mono); }
 
 /* rarity */
-[data-rarity="Exclusive"] { --rc: var(--r-exclusive); }
+[data-rarity="Exclusive"], [data-rarity="Limited"] { --rc: var(--r-exclusive); }
 [data-rarity="Godly"] { --rc: var(--r-godly); }
 [data-rarity="Mythic"] { --rc: var(--r-mythic); }
 [data-rarity="Legendary"] { --rc: var(--r-legendary); }

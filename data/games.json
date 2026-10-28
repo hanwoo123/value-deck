@@ -3,6 +3,15 @@
   "discordInvite": "https://discord.gg/jyaRuSSSba",
   "games": [
     {
+      "id": "blox-fruits",
+      "name": "블록스 프루츠",
+      "status": "active",
+      "dataFile": "data/blox-fruits.json",
+      "cover": "images/blox-fruits/cover.png",
+      "accent": "#3da5ff",
+      "description": "열매·영구 열매·한정 아이템·게임패스 (단위: 벨리)"
+    },
+    {
       "id": "cameraman-td",
       "name": "카메라맨 타워 디펜스",
       "status": "active",

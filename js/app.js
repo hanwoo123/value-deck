@@ -21,7 +21,7 @@
   };
 
   const RARITY_ORDER_DEFAULT = ['Mythic', 'Legendary', 'Epic', 'Rare', 'Common'];
-  const RARITY_KO = { Exclusive: '한정', Godly: '갓', Mythic: '신화', Legendary: '전설', Epic: '영웅', Rare: '희귀', Uncommon: '고급', Common: '일반' };
+  const RARITY_KO = { Limited: '한정', Exclusive: '한정', Godly: '갓', Mythic: '신화', Legendary: '전설', Epic: '영웅', Rare: '희귀', Uncommon: '고급', Common: '일반' };
   const FAIR_RANGE = 0.05; // ±5% 이내면 "비슷함"
 
   // ---------- utils ----------
