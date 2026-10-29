@@ -60,10 +60,11 @@
 - 게임 커버: 16:9 (1280×720 정도)
 - 이미지가 없거나 경로가 틀리면 아이템 이름 첫 글자가 대신 표시됨
 
-### 시세 자동 동기화 (Vaulted Values X)
-카메라맨 타워 디펜스, 블록스 프루츠는 아래 명령 한 번으로 최신 시세와 이미지를 받아온다.
-```
-python tools/sync_vvx.py              # 전체
-python tools/sync_vvx.py blox-fruits  # 한 게임만
-```
-값이 바뀐 아이템은 이전 값이 prevValue로 옮겨져서 사이트에 변동률이 뜬다. 실행 후 commit/push 하면 반영된다.
+### 시세 기준 (BLOX DECKS 기준값)
+한 사이트 값을 그대로 옮기지 않고, 공개된 시세 사이트 여러 곳의 값을 비교해 **중간값**을 쓴다.
+- 블록스 프루츠: VVX, Cosmic Values, BloxFruitsValues.gg, FantasyBlox, Trade Hub, bloxfruit.io (6곳)
+- 카메라맨 TD: VVX 공식, VVX 커뮤니티 리스트 3개, Game.Guide (5곳)
+- 다른 값의 중간값보다 5배 넘게 차이 나는 값(오타·미갱신)은 이상치로 빼고 계산
+- 2곳 이상에 있는 아이템만 반영, 아이템 카드 메모에 `N곳 비교 · 범위` 표시
+- 공개 페이지만 읽고, 비공개 API는 쓰지 않음
+- 매주 비교 초안을 받아보고, 승인한 값만 반영
