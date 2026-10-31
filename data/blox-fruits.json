@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-29",
+  "updated": "2026-10-31",
   "valueUnit": "",
   "demandMax": 10,
   "source": "BLOX DECKS 기준값 · 시세 사이트 6곳 중간값 (단위: 벨리)",
@@ -56,11 +56,12 @@
       "name": "Vibe (Frame Break)",
       "category": "한정 아이템",
       "rarity": "Limited",
-      "value": 12300000000,
+      "value": 11300000000,
+      "prevValue": 12300000000,
       "demand": 8.0,
       "trend": "stable",
       "image": "",
-      "note": "4곳 비교 · 범위 11.7B~13.01B · 안정"
+      "note": "4곳 비교 · 범위 10.86B~13.01B · 안정"
     },
     {
       "id": "galaxy-empyrean-kitsune",

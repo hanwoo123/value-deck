@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-29",
+  "updated": "2026-10-31",
   "valueUnit": "",
   "demandMax": 10,
   "rarities": [
@@ -32,7 +32,8 @@
       "name": "Engineer Cameraman",
       "category": "유닛",
       "rarity": "Exclusive",
-      "value": 4950,
+      "value": 5250,
+      "prevValue": 4950,
       "demand": 9.2,
       "trend": "up",
       "image": "images/cameraman-td/engineer-cameraman.webp",
@@ -65,22 +66,24 @@
       "name": "Premium Pass",
       "category": "게임패스",
       "rarity": "",
-      "value": 2350,
-      "demand": 6.5,
+      "value": 2200,
+      "prevValue": 2350,
+      "demand": 6.2,
       "trend": "stable",
       "image": "images/cameraman-td/premium-pass.webp",
-      "note": "4곳 비교 · 범위 2,225~3,200 · 안정"
+      "note": "4곳 비교 · 범위 1,700~3,200 · 변동 큼"
     },
     {
       "id": "executioner-tv-man",
       "name": "executioner tv man",
       "category": "유닛",
       "rarity": "Exclusive",
-      "value": 2100,
+      "value": 1850,
+      "prevValue": 2100,
       "demand": 3.5,
       "trend": "down",
       "image": "images/cameraman-td/executioner-tv-man.webp",
-      "note": "4곳 비교 · 범위 1,750~3,500 · 하락세"
+      "note": "4곳 비교 · 범위 1,500~3,500 · 하락세"
     },
     {
       "id": "x2-candy",
@@ -105,17 +108,6 @@
       "note": "5곳 비교 · 범위 800~1,100 · 고평가"
     },
     {
-      "id": "headless-tv-man",
-      "name": "headless tv man",
-      "category": "유닛",
-      "rarity": "Exclusive",
-      "value": 930,
-      "demand": 3.0,
-      "trend": "stable",
-      "image": "images/cameraman-td/headless-tv-man.webp",
-      "note": "4곳 비교 · 범위 900~2,450 · 저평가"
-    },
-    {
       "id": "2x-money",
       "name": "2x Money",
       "category": "게임패스",
@@ -127,6 +119,30 @@
       "note": "5곳 비교 · 범위 800~1,025 · 고평가"
     },
     {
+      "id": "headless-tv-man",
+      "name": "headless tv man",
+      "category": "유닛",
+      "rarity": "Exclusive",
+      "value": 830,
+      "prevValue": 930,
+      "demand": 3.0,
+      "trend": "down",
+      "image": "images/cameraman-td/headless-tv-man.webp",
+      "note": "4곳 비교 · 범위 625~2,450 · 하락세"
+    },
+    {
+      "id": "large-scientist-cameraman",
+      "name": "Large Scientist Cameraman",
+      "category": "유닛",
+      "rarity": "Exclusive",
+      "value": 490,
+      "prevValue": 465,
+      "demand": 7.8,
+      "trend": "up",
+      "image": "images/cameraman-td/large-scientist-cameraman.webp",
+      "note": "5곳 비교 · 범위 100~700 · 상승세"
+    },
+    {
       "id": "tv-woman",
       "name": "Tv woman",
       "category": "유닛",
@@ -136,17 +152,6 @@
       "trend": "stable",
       "image": "images/cameraman-td/tv-woman.webp",
       "note": "5곳 비교 · 범위 385~800 · 안정"
-    },
-    {
-      "id": "large-scientist-cameraman",
-      "name": "Large Scientist Cameraman",
-      "category": "유닛",
-      "rarity": "Exclusive",
-      "value": 465,
-      "demand": 7.5,
-      "trend": "stable",
-      "image": "images/cameraman-td/large-scientist-cameraman.webp",
-      "note": "5곳 비교 · 범위 100~700 · 안정"
     },
     {
       "id": "2x-speed",
@@ -208,11 +213,12 @@
       "name": "videotaper titan",
       "category": "유닛",
       "rarity": "Mythic",
-      "value": 295,
+      "value": 280,
+      "prevValue": 295,
       "demand": 5.0,
-      "trend": "stable",
+      "trend": "down",
       "image": "images/cameraman-td/videotaper-titan.webp",
-      "note": "5곳 비교 · 범위 250~385 · 안정"
+      "note": "5곳 비교 · 범위 250~385 · 하락세"
     },
     {
       "id": "upgraded-titan-speakerman",
@@ -230,8 +236,9 @@
       "name": "Scientist Crate",
       "category": "상자",
       "rarity": "",
-      "value": 110,
-      "demand": 7.0,
+      "value": 130,
+      "prevValue": 110,
+      "demand": 7.7,
       "trend": "stable",
       "image": "images/cameraman-td/scientist-crate.webp",
       "note": "5곳 비교 · 범위 80~250 · 고평가"
@@ -252,8 +259,9 @@
       "name": "Pumpkin Farmer",
       "category": "유닛",
       "rarity": "Epic",
-      "value": 46,
-      "demand": 6.5,
+      "value": 64,
+      "prevValue": 46,
+      "demand": 6.1,
       "trend": "stable",
       "image": "images/cameraman-td/pumpkin-farmer.webp",
       "note": "4곳 비교 · 범위 20~110 · 안정"
@@ -263,22 +271,36 @@
       "name": "Scientist Cameraman",
       "category": "유닛",
       "rarity": "Exclusive",
-      "value": 40,
+      "value": 46,
+      "prevValue": 40,
       "demand": 5.3,
       "trend": "stable",
       "image": "images/cameraman-td/scientist-cameraman.webp",
       "note": "5곳 비교 · 범위 10~70 · 안정"
     },
     {
+      "id": "camera-spider",
+      "name": "Camera spider",
+      "category": "유닛",
+      "rarity": "Exclusive",
+      "value": 40,
+      "prevValue": 23,
+      "demand": 3,
+      "trend": "stable",
+      "image": "images/cameraman-td/camera-spider.webp",
+      "note": "4곳 비교 · 범위 20~60 · 안정 · 이상치 1곳 제외"
+    },
+    {
       "id": "camera-repair-drone",
       "name": "Camera Repair Drone",
       "category": "유닛",
       "rarity": "Legendary",
-      "value": 32,
+      "value": 28,
+      "prevValue": 32,
       "demand": 5.8,
       "trend": "stable",
       "image": "images/cameraman-td/camera-repair-drone.webp",
-      "note": "4곳 비교 · 범위 20~50 · 고평가"
+      "note": "4곳 비교 · 범위 20~35 · 안정"
     },
     {
       "id": "dragon-cameraman",
@@ -292,28 +314,6 @@
       "note": "4곳 비교 · 범위 15~45 · 안정"
     },
     {
-      "id": "camera-spider",
-      "name": "Camera spider",
-      "category": "유닛",
-      "rarity": "Exclusive",
-      "value": 23,
-      "demand": 2.5,
-      "trend": "stable",
-      "image": "images/cameraman-td/camera-spider.webp",
-      "note": "5곳 비교 · 범위 5~60 · 안정"
-    },
-    {
-      "id": "halloween-crate",
-      "name": "Halloween Crate",
-      "category": "상자",
-      "rarity": "",
-      "value": 23,
-      "demand": 3,
-      "trend": "stable",
-      "image": "images/cameraman-td/halloween-crate.webp",
-      "note": "3곳 비교 · 범위 5~25 · 안정"
-    },
-    {
       "id": "woman-crate",
       "name": "Woman Crate",
       "category": "상자",
@@ -323,6 +323,18 @@
       "trend": "stable",
       "image": "images/cameraman-td/woman-crate.webp",
       "note": "4곳 비교 · 범위 10~30 · 안정"
+    },
+    {
+      "id": "halloween-crate",
+      "name": "Halloween Crate",
+      "category": "상자",
+      "rarity": "",
+      "value": 15,
+      "prevValue": 23,
+      "demand": 3,
+      "trend": "stable",
+      "image": "images/cameraman-td/halloween-crate.webp",
+      "note": "3곳 비교 · 범위 5~18 · 안정"
     },
     {
       "id": "speakerwoman",
