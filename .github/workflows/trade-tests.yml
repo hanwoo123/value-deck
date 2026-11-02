@@ -17,4 +17,4 @@ jobs:
           cache: npm
       - run: npm ci --no-audit --no-fund
       - run: npm test
-      - run: node --check js/trades.js && node --check js/trade-store.js && node --check js/trade-chat.js
+      - run: node --check js/trades.js && node --check js/trade-store.js && node --check js/trade-chat.js && node --check js/trade-picker.js

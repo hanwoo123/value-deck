@@ -11,10 +11,11 @@ window.ValueDeckTradeChat=(()=>{
     const el=id=>dialog.querySelector('#'+id);
     let room=null,rooms=[],next=null,user=null,timer=null,version=0,destroyed=false,polling=false,loadingRooms=false,loadingMessages=false,turn=0,oldest=null,latest=null,hasOlder=false,tradeFilter=null;
     const status=s=>{el('chat-status').textContent=s;};
+    const gameName=r=>r.game_id==='cameraman-td'?'카메라맨 TD':'블록스 프루츠';
     const partner=r=>r.owner_id===user?.id?r.requester_name:r.owner_name;
     function drawRooms(){
       const visible=rooms.filter(r=>!tradeFilter||String(r.trade_id)===String(tradeFilter));
-      el('chat-rooms').innerHTML=visible.length?visible.map(r=>`<button type="button" class="chat-room" data-room="${r.id}" ${room?.id===r.id?'aria-current="true"':''}><strong>@${esc(partner(r))}</strong><span>거래글 #${r.trade_id}</span></button>`).join(''):'<p class="muted">아직 대화가 없습니다.</p>';
+      el('chat-rooms').innerHTML=visible.length?visible.map(r=>`<button type="button" class="chat-room" data-room="${r.id}" ${room?.id===r.id?'aria-current="true"':''}><strong>@${esc(partner(r))}</strong><span>${gameName(r)} · 거래글 #${r.trade_id}</span></button>`).join(''):'<p class="muted">아직 대화가 없습니다.</p>';
       el('chat-more-rooms').hidden=!next;
     }
     async function refreshRooms(append=false){
@@ -46,7 +47,7 @@ window.ValueDeckTradeChat=(()=>{
     async function select(r){
       version++;room=r;latest=null;oldest=null;loadingMessages=false;
       el('chat-person').textContent='@'+partner(r)+' 님과의 대화';
-      el('chat-offer').textContent='거래글 #'+r.trade_id;
+      el('chat-offer').textContent=gameName(r)+' · 거래글 #'+r.trade_id;
       el('chat-messages').innerHTML='';el('chat-body').value='';el('chat-body').disabled=false;el('chat-send').querySelector('button').disabled=false;status('');drawRooms();
       try{await loadMessages('initial');}catch(e){status(e.message);}
     }

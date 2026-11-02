@@ -3,6 +3,8 @@ window.ValueDeckTradeStore = (() => {
   const config = window.VALUE_DECK_SUPABASE;
   let client;
   let pendingIdentity;
+  let supportsGames=null;
+  const missingGame=e=>['42703','PGRST204'].includes(e?.code)&&String(e.message).includes('game_id');
   function getClient() {
     if (!config?.url || !config?.publishableKey || !window.supabase) throw new Error('거래 게시판 연결을 준비 중입니다.');
     return client ||= window.supabase.createClient(config.url, config.publishableKey, {
@@ -35,22 +37,36 @@ window.ValueDeckTradeStore = (() => {
     return data.session?.user || null;
   }
   function map(row) {
-    return {id:row.id,author:{id:row.owner_id,username:row.roblox_username},give:row.give_items,want:row.want_items,note:row.note,status:row.status,created:row.created_at};
+    return {id:row.id,author:{id:row.owner_id,username:row.roblox_username},give:row.give_items,want:row.want_items,note:row.note,status:row.status,created:row.created_at,gameId:row.game_id||'blox-fruits'};
   }
-  async function list({mine=false,before=null}={}) {
+  async function list({gameId='blox-fruits',mine=false,before=null}={}) {
     const c=getClient();
-    let query=c.from('trade_posts').select('id,owner_id,roblox_username,give_items,want_items,note,status,created_at').order('id',{ascending:false}).limit(21);
-    if (mine) query=query.eq('owner_id',(await identity()).id); else query=query.eq('status','open');
-    if (before) query=query.lt('id',before);
-    const {data,error}=await query;
-    if (error) throw failure(error);
-    const rows=data.slice(0,20);
-    return {trades:rows.map(map),next:data.length>20 ? rows.at(-1).id : null};
+    const user=mine?await identity():null;
+    async function query(withGame){
+      let q=c.from('trade_posts').select('id,owner_id,roblox_username,give_items,want_items,note,status,created_at'+(withGame?',game_id':'')).order('id',{ascending:false}).limit(21);
+      if(withGame)q=q.eq('game_id',gameId);
+      if(mine)q=q.eq('owner_id',user.id);else q=q.eq('status','open');
+      if(before)q=q.lt('id',before);
+      return await q;
+    }
+    if(supportsGames===false&&gameId!=='blox-fruits')throw new Error('카메라맨 TD 거래 연결을 준비 중입니다. 잠시 후 새로고침해 주세요.');
+    let result=await query(supportsGames!==false);
+    if(missingGame(result.error)){
+      supportsGames=false;
+      if(gameId!=='blox-fruits')throw new Error('카메라맨 TD 거래 연결을 준비 중입니다. 잠시 후 새로고침해 주세요.');
+      result=await query(false);
+    }else if(!result.error&&supportsGames!==false)supportsGames=true;
+    if(result.error)throw failure(result.error);
+    const rows=result.data.slice(0,20);
+    return {trades:rows.map(map),next:result.data.length>20?rows.at(-1).id:null};
   }
   async function create(input) {
-    await identity();
-    const {error}=await getClient().from('trade_posts').insert({roblox_username:input.username,give_items:input.give,want_items:input.want,note:input.note});
-    if (error) throw failure(error);
+    await identity();const gameId=input.gameId||'blox-fruits';
+    const body={roblox_username:input.username,give_items:input.give,want_items:input.want,note:input.note};
+    if(supportsGames===false&&gameId!=='blox-fruits')throw new Error('카메라맨 TD 거래 연결을 준비 중입니다. 잠시 후 새로고침해 주세요.');
+    let result=await getClient().from('trade_posts').insert(supportsGames===false?body:{...body,game_id:gameId});
+    if(missingGame(result.error)&&gameId==='blox-fruits'){supportsGames=false;result=await getClient().from('trade_posts').insert(body);}
+    if(result.error)throw failure(result.error);
   }
   async function complete(id) {
     const user=await identity();
