@@ -3,3 +3,8 @@ Thumbs.db
 
 __pycache__/
 *.py[cod]
+
+var/
+.env
+.env.*
+!.env.example

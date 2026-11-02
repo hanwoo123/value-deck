@@ -1,0 +1,19 @@
+# Creates a paid service with a persistent disk when explicitly deployed by the owner.
+services:
+  - type: web
+    name: value-deck
+    runtime: docker
+    plan: starter
+    autoDeployTrigger: commit
+    healthCheckPath: /api/me
+    disk:
+      name: trade-data
+      mountPath: /data
+      sizeGB: 1
+    envVars:
+      - key: SITE_URL
+        sync: false
+      - key: ROBLOX_CLIENT_ID
+        sync: false
+      - key: ROBLOX_CLIENT_SECRET
+        sync: false

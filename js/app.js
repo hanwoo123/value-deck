@@ -94,6 +94,7 @@
       { href: '#/', label: '홈', key: 'home' },
       gid && { href: `#/g/${gid}`, label: '시세표', key: 'values' },
       gid && { href: `#/g/${gid}/calc`, label: '계산기', key: 'calc' },
+      { href: '#/trades', label: '거래 게시판', key: 'trades' },
       { href: '#/safety', label: '거래 안전', key: 'safety' },
     ].filter(Boolean);
     topnav.innerHTML = links.map((l) => `<a href="${l.href}"${l.key === route.view ? ' aria-current="page"' : ''}>${l.label}</a>`).join('');
@@ -110,6 +111,7 @@
   function parseRoute() {
     const parts = location.hash.replace(/^#\/?/, '').split('/').filter(Boolean);
     if (parts[0] === 'g' && parts[1]) return { view: parts[2] === 'calc' ? 'calc' : 'values', gameId: decodeURIComponent(parts[1]), itemId: parts[2] === 'item' && parts[3] ? decodeURIComponent(parts[3]) : null };
+    if (parts[0] === 'trades') return { view: 'trades' };
     if (parts[0] === 'safety') return { view: 'safety' };
     return { view: 'home' };
   }
@@ -119,6 +121,10 @@
     renderNav(route);
     window.scrollTo(0, 0);
     try {
+      if (route.view === 'trades') {
+        document.title = '거래 게시판 — VALUE DECK';
+        return window.ValueDeckTrades.render(main, await loadGame('blox-fruits'));
+      }
       if (route.view === 'home') return renderHome();
       if (route.view === 'safety') return renderSafety();
       const meta = state.games.find((g) => g.id === route.gameId);

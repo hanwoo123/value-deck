@@ -91,3 +91,7 @@ python3 tools/update_values.py --write  # 실제 변경 반영
 출처 설정은 `tools/value-sources.json`, 공개 페이지 파서는 `tools/public_sources.py`입니다. 출처별 최소 가격 개수와 VVX 목록 ID를 검사합니다. 추가 출처는 실제 페이지·단위·아이템 매핑을 검증한 뒤 활성화해야 합니다.
 
 `.github/workflows/update-values.yml`이 예약 갱신·커밋·배포를 수행합니다. `.github/workflows/deploy.yml`은 main에 반영한 사이트 변경을 배포합니다. Pages 배포 액션이 직접 게시하며, 기존 main 브랜치 기반 Pages 설정에서도 실제 배포 성공을 확인했습니다. 예약 작업은 GitHub 사정에 따라 지연되거나 장기 비활성 저장소에서 중단될 수 있습니다. 실패 내역은 저장소 Actions에서 확인할 수 있습니다. 클라우드 환경 Publish와 사이트 배포는 별개입니다.
+
+### 블록스 프루츠 거래 게시판
+
+`#/trades`에서 Roblox 계정 기반 거래글을 지원합니다. 거래 서버와 공식 OAuth 앱 연결 전에는 준비 안내를 표시합니다. 구현 범위와 실제 운영에 필요한 호스팅·OAuth·DNS 절차는 [거래 서버 안내](server/README.md)를 참고하세요. 로컬 실행: `node server/app.mjs`, 서버 테스트: `node --test tests/trades.test.mjs`.
