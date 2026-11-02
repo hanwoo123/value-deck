@@ -287,3 +287,44 @@ p { margin: 0; }
 
 .trade-nickname-input { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; margin-top: 8px; }
 #trade-username { min-width: 0; flex: 1; width: 220px; }
+
+/* Visual trade offers and private conversation panel */
+.trade-card .trade-sides { gap: 16px; }
+.trade-card .trade-sides section { padding: 16px; min-width: 0; border-radius: 12px; background: var(--bg); border: 1px solid var(--border); }
+.trade-card .trade-sides h3 { margin-bottom: 12px; font-size: var(--text-sm); color: var(--muted); }
+.trade-item-grid { display: grid; grid-template-columns: repeat(auto-fit,minmax(180px,1fr)); gap: 10px; padding: 0; margin: 0; list-style: none; }
+.trade-item { display: flex; align-items: center; gap: 12px; padding: 10px; border: 1px solid var(--border); border-radius: 10px; background: var(--surface); min-width: 0; }
+.trade-item-image { width: 64px; height: 64px; flex-shrink: 0; position: relative; border-radius: 10px; display: grid; place-items: center; background: var(--surface-3); color: var(--muted); }
+.trade-item-image img { position: absolute; inset: 6px; width: 52px; height: 52px; object-fit: contain; }
+.trade-item-image img[hidden] { display: none; }
+.trade-item-qty { position: absolute; right: -5px; bottom: -5px; background: var(--accent); color: var(--accent-ink); padding: 2px 6px; border-radius: 5px; font-size: 12px; }
+.trade-item-info { display: grid; gap: 4px; min-width: 0; overflow-wrap: anywhere; }
+.trade-item-info > span { color: var(--muted); font-size: 12px; }
+.trade-item-info .trade-item-value { color: var(--text); font-family: var(--mono); }
+.trade-total { display: flex; justify-content: space-between; gap: 8px; margin-top: 14px; padding-top: 10px; border-top: 1px solid var(--border); color: var(--muted); font-size: 13px; }
+.trade-total strong { color: var(--accent); font-family: var(--mono); }
+.trade-status { display: inline-block; color: var(--accent); background: var(--surface-3); padding: 3px 8px; border-radius: 6px; font-size: 12px; }
+.trade-status--done { color: var(--muted); }
+.trade-actions { display: flex; gap: 8px; flex-wrap: wrap; }
+.trade-chat { width: min(920px,calc(100vw - 24px)); max-height: calc(100dvh - 24px); padding: 20px; border: 1px solid var(--border); border-radius: 16px; background: var(--bg); color: var(--text); }
+.trade-chat::backdrop { background: rgba(0,0,0,.75); }
+.chat-header { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+.chat-notice { font-size: 12px; color: var(--muted); margin: 10px 0 16px; }
+.chat-layout { display: grid; grid-template-columns: 220px minmax(0,1fr); gap: 16px; }
+.chat-layout aside { max-height: 55dvh; overflow-y: auto; border-right: 1px solid var(--border); padding-right: 12px; }
+.chat-room { display: grid; gap: 5px; width: 100%; text-align: left; padding: 12px; margin-bottom: 8px; border: 1px solid var(--border); border-radius: 10px; background: var(--surface); color: var(--text); cursor: pointer; overflow-wrap: anywhere; }
+.chat-room span { color: var(--muted); font-size: 12px; }
+.chat-room[aria-current] { border-color: var(--accent); }
+.chat-conversation { min-width: 0; }
+#chat-messages { height: min(45dvh,400px); min-height: 150px; overflow-y: auto; display: flex; flex-direction: column; gap: 10px; padding: 12px 4px; }
+.chat-bubble { max-width: 88%; align-self: flex-start; padding: 10px 12px; border-radius: 12px; background: var(--surface-2); border: 1px solid var(--border); }
+.chat-bubble--own { align-self: flex-end; border-color: color-mix(in oklab,var(--accent) 35%,var(--border)); }
+.chat-bubble p { white-space: pre-wrap; overflow-wrap: anywhere; }
+.chat-sender,.chat-bubble time { display: block; font-size: 11px; color: var(--muted); }
+.chat-sender { margin-bottom: 4px; }
+.chat-bubble time { margin-top: 6px; }
+#chat-send { display: flex; align-items: stretch; gap: 8px; margin-top: 8px; }
+#chat-body { flex: 1; width: 100%; resize: vertical; min-width: 0; max-height: 160px; }
+#chat-status { min-height: 20px; font-size: 12px; color: var(--muted); }
+@media(max-width:600px) { .trade-item-grid { grid-template-columns: 1fr; } .trade-chat { padding: 14px; } .chat-layout { grid-template-columns: 1fr; gap: 8px; } .chat-layout aside { max-height: 100px; border-right: 0; border-bottom: 1px solid var(--border); padding: 0; } #chat-rooms { display: flex; gap: 8px; } .chat-room { min-width: 160px; } #chat-messages { height: 32dvh; } }
+.trade-chat [hidden], #trade-more[hidden] { display: none !important; }

@@ -10,6 +10,7 @@ window.ValueDeckTradeStore = (() => {
     });
   }
   function failure(error) {
+    if (error?.code==='PGRST202') return new Error('채팅 기능을 준비 중입니다. 잠시 후 다시 확인해 주세요.');
     if (['PGRST205','42P01','42883'].includes(error?.code)) return new Error('거래글 저장 공간을 준비 중입니다. 잠시 후 다시 확인해 주세요.');
     if (error?.code === 'anonymous_provider_disabled') return new Error('거래글 작성 연결을 준비 중입니다.');
     if (error?.code === 'P0001') return new Error(error.message);
@@ -57,5 +58,34 @@ window.ValueDeckTradeStore = (() => {
     if (error) throw failure(error);
     if (data.length!==1) throw new Error('완료할 수 있는 거래글을 찾지 못했습니다. 작성한 브라우저에서 다시 확인해 주세요.');
   }
-  return {current,identity,list,create,complete};
+  async function conversations({before=null}={}) {
+    if (!(await current())) return {rooms:[],next:null};
+    let q=getClient().from('trade_conversations').select('*').order('id',{ascending:false}).limit(31);
+    if(before) q=q.lt('id',before);
+    const {data,error}=await q;
+    if(error) throw failure(error);
+    return {rooms:data.slice(0,30),next:data.length>30?data[29].id:null};
+  }
+  async function startChat(tradeId,username) {
+    await identity();
+    const {data,error}=await getClient().rpc('start_trade_chat',{p_trade_id:Number(tradeId),p_username:username});
+    if(error) throw failure(error);
+    const room=await getClient().from('trade_conversations').select('*').eq('id',data).single();
+    if(room.error) throw failure(room.error);
+    return room.data;
+  }
+  async function messages(conversationId,{after=null,before=null}={}) {
+    let q=getClient().from('trade_messages').select('id,conversation_id,sender_id,body,created_at').eq('conversation_id',conversationId).order('id',{ascending:Boolean(after)}).limit(50);
+    if(after) q=q.gt('id',after);
+    if(before) q=q.lt('id',before);
+    const {data,error}=await q;
+    if(error) throw failure(error);
+    return after ? data : data.reverse();
+  }
+  async function send(conversationId,body) {
+    await identity();
+    const {error}=await getClient().from('trade_messages').insert({conversation_id:conversationId,body});
+    if(error) throw failure(error);
+  }
+  return {current,identity,list,create,complete,conversations,startChat,messages,send};
 })();

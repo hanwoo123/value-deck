@@ -117,6 +117,7 @@
   }
 
   async function router() {
+    window.ValueDeckTradeChat?.destroy();
     const route = parseRoute();
     renderNav(route);
     window.scrollTo(0, 0);

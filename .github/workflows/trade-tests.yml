@@ -1,9 +1,9 @@
 name: Trade board tests
 on:
   push:
-    paths: ['supabase/**', 'tests/supabase-schema.test.mjs', 'js/trade*.js', 'package*.json', '.github/workflows/trade-tests.yml']
+    paths: ['supabase/**', 'tests/supabase-*.test.mjs', 'js/trade*.js', 'package*.json', '.github/workflows/trade-tests.yml']
   pull_request:
-    paths: ['supabase/**', 'tests/supabase-schema.test.mjs', 'js/trade*.js', 'package*.json', '.github/workflows/trade-tests.yml']
+    paths: ['supabase/**', 'tests/supabase-*.test.mjs', 'js/trade*.js', 'package*.json', '.github/workflows/trade-tests.yml']
 permissions:
   contents: read
 jobs:
@@ -17,4 +17,4 @@ jobs:
           cache: npm
       - run: npm ci --no-audit --no-fund
       - run: npm test
-      - run: node --check js/trades.js && node --check js/trade-store.js
+      - run: node --check js/trades.js && node --check js/trade-store.js && node --check js/trade-chat.js

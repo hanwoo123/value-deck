@@ -1,4 +1,4 @@
-/* Roblox-authenticated Blox Fruits trade board. Identity is supplied by the server. */
+/* Blox Fruits trades with self-set Roblox names and anonymous Supabase ownership. */
 window.ValueDeckTrades = (() => {
   const esc = value => String(value ?? '').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   const store=window.ValueDeckTradeStore;
@@ -17,17 +17,24 @@ window.ValueDeckTrades = (() => {
       <p class="muted">내 거래글 관리는 이 브라우저에 연결됩니다. 브라우저 데이터를 지우거나 다른 기기로 접속하면 작성 권한을 되찾기 어려울 수 있습니다.</p>
       <p id="trade-message" role="status" aria-live="polite"></p>
       <details class="trade-compose"><summary class="btn">+ 거래글 작성</summary><form id="trade-form"><div class="trade-sides">${[['give','내가 주는 아이템'],['want','받고 싶은 아이템']].map(([key,label])=>`<section><h2>${label}</h2><div data-slots="${key}">${row()}</div><button class="btn" type="button" data-add-slot="${key}">아이템 추가</button></section>`).join('')}</div><label>메모 (선택, 200자 이내)<textarea class="input" name="note" maxlength="200" rows="2" placeholder="거래 조건을 적어 주세요"></textarea></label><button class="btn btn--accent" type="submit">거래글 등록</button></form></details>
-      <div class="toolbar"><button class="btn" data-list="all" aria-pressed="true">진행 중인 거래</button><button class="btn" data-list="mine" aria-pressed="false">내 거래글</button><button class="btn" id="trade-refresh">새로고침</button></div><div id="trade-list" class="trade-list"></div><button class="btn" id="trade-more" hidden>더 보기</button>`;
+      <div class="toolbar"><button class="btn" data-list="all" aria-pressed="true">진행 중인 거래</button><button class="btn" data-list="mine" aria-pressed="false">내 거래글</button><button class="btn" id="trade-refresh">새로고침</button><button class="btn btn--accent" id="trade-inbox">내 채팅</button></div><div id="trade-list" class="trade-list"></div><button class="btn" id="trade-more" hidden>더 보기</button>`;
     const message=main.querySelector('#trade-message');
     let mine=false, next=null, loading=false;
-    const slotsHTML=slots=>slots.map(x=>`<li>${esc(data.byId[x.id]?.name || x.id)} <strong>× ${x.qty}</strong></li>`).join('');
+    const compact=n=>new Intl.NumberFormat('ko-KR',{notation:n>=1e6?'compact':'standard',maximumFractionDigits:1}).format(n);
+    const total=slots=>slots.reduce((sum,x)=>sum+Number(data.byId[x.id]?.value||0)*x.qty,0);
+    const slotsHTML=slots=>slots.map(x=>{
+      const item=data.byId[x.id];
+      return `<li class="trade-item"><div class="trade-item-image"><span aria-hidden="true">${esc((item?.name||x.id).slice(0,1))}</span>${item?.image?`<img src="${esc(item.image)}" alt="" loading="lazy" onerror="this.hidden=true">`:''}<strong class="trade-item-qty">×${x.qty}</strong></div><div class="trade-item-info"><strong>${esc(item?.name||x.id)}</strong><span>${esc(item?.category||'아이템')}</span><span class="trade-item-value">${compact(Number(item?.value||0)*x.qty)}</span></div></li>`;
+    }).join('');
+    const chat=window.ValueDeckTradeChat.mount(main,data,()=>username);
+    main.querySelector('#trade-inbox').onclick=()=>chat.open();
     async function list(append=false) {
       if (loading) return;
       loading=true;message.textContent='불러오는 중…';
       try {
         const result=await store.list({mine,before:append?next:null});
         identity=await store.current();
-        const html=result.trades.map(t=>`<article class="trade-card"><div class="trade-heading"><a href="https://www.roblox.com/users/profile?username=${encodeURIComponent(t.author.username)}" target="_blank" rel="noopener noreferrer"><strong>@${esc(t.author.username)}</strong></a><span>${t.status==='completed'?'거래 완료':'거래 중'} · ${esc(new Date(t.created).toLocaleDateString('ko-KR'))}</span></div><div class="trade-sides"><section><h3>주는 아이템</h3><ul>${slotsHTML(t.give)}</ul></section><section><h3>받고 싶은 아이템</h3><ul>${slotsHTML(t.want)}</ul></section></div>${t.note?`<p class="trade-note">${esc(t.note)}</p>`:''}${identity?.id===t.author.id&&t.status==='open'?`<button class="btn" data-complete="${t.id}">거래 완료로 표시</button>`:''}</article>`).join('');
+        const html=result.trades.map(t=>`<article class="trade-card"><div class="trade-heading"><a href="https://www.roblox.com/users/profile?username=${encodeURIComponent(t.author.username)}" target="_blank" rel="noopener noreferrer"><strong>@${esc(t.author.username)}</strong></a><span><span class="trade-status ${t.status==='completed'?'trade-status--done':''}">${t.status==='completed'?'거래 완료':'거래 중'}</span> · ${esc(new Date(t.created).toLocaleDateString('ko-KR'))}</span></div><div class="trade-sides"><section><h3>주는 아이템</h3><ul class="trade-item-grid">${slotsHTML(t.give)}</ul><div class="trade-total">시세 합계 <strong>${compact(total(t.give))}</strong></div></section><section><h3>받고 싶은 아이템</h3><ul class="trade-item-grid">${slotsHTML(t.want)}</ul><div class="trade-total">시세 합계 <strong>${compact(total(t.want))}</strong></div></section></div>${t.note?`<p class="trade-note">${esc(t.note)}</p>`:''}<div class="trade-actions">${identity?.id===t.author.id?`<button class="btn" data-inquiries="${t.id}">받은 문의</button>`:t.status==='open'?`<button class="btn btn--accent" data-chat="${t.id}">1:1 채팅</button>`:''}${identity?.id===t.author.id&&t.status==='open'?`<button class="btn" data-complete="${t.id}">거래 완료로 표시</button>`:''}</div></article>`).join('');
         const target=main.querySelector('#trade-list');
         if (append) target.insertAdjacentHTML('beforeend',html);else target.innerHTML=html||'<div class="empty">아직 거래글이 없습니다.</div>';
         next=result.next;main.querySelector('#trade-more').hidden=!next;message.textContent='';return true;
@@ -50,7 +57,12 @@ window.ValueDeckTrades = (() => {
       const slots=side=>[...main.querySelector(`[data-slots="${side}"]`).children].map(r=>({id:r.querySelector('select').value,qty:Number(r.querySelector('input').value)}));
       try{if (!/^[A-Za-z0-9_]{3,20}$/.test(username)) throw new Error('위에서 내 Roblox 사용자 이름을 먼저 저장해 주세요.');await store.create({username,give:slots('give'),want:slots('want'),note:e.target.elements.note.value});const refreshed=await list();e.target.reset();main.querySelector('details').open=false;message.textContent=refreshed?'거래글을 등록했습니다.':'거래글은 등록됐지만 목록을 불러오지 못했습니다. 새로고침해 주세요.';}catch(error){message.textContent=error.message;}finally{button.disabled=false;}
     });
-    main.querySelector('#trade-list').onclick=async e=>{const b=e.target.closest('[data-complete]');if(!b)return;b.disabled=true;try{await store.complete(b.dataset.complete);await list();}catch(error){message.textContent=error.message;b.disabled=false;}};
+    main.querySelector('#trade-list').onclick=async e=>{
+      const complete=e.target.closest('[data-complete]'),start=e.target.closest('[data-chat]'),inquiries=e.target.closest('[data-inquiries]');
+      const button=complete||start||inquiries;if(!button)return;button.disabled=true;
+      try{if(complete){await store.complete(complete.dataset.complete);await list();}else if(start){await chat.start(start.dataset.chat);}else{await chat.open({tradeId:inquiries.dataset.inquiries});}}
+      catch(error){message.textContent=error.message;}finally{button.disabled=false;}
+    };
     await list();
   }
   return {render};

@@ -97,3 +97,5 @@ python3 tools/update_values.py --write  # 실제 변경 반영
 `#/trades`에서 Roblox 사용자 이름을 직접 저장하고 거래글을 등록합니다. 닉네임은 사용자 입력이며 계정 소유 인증을 뜻하지 않습니다. 사이트는 기존 GitHub Pages를 유지하고 거래글만 Supabase에 저장합니다. 별도 Render 서버나 Roblox OAuth 등록은 필요하지 않습니다.
 
 Supabase 초기 설정과 RLS 권한은 [연결 안내](supabase/README.md)를 참고하세요. SQL 적용과 익명 사용자 인증 활성화 전에는 거래글 등록이 작동하지 않습니다. 테스트: `npm ci && npm test`. 닉네임과 작성자 세션은 브라우저에 보관되므로 브라우저 데이터를 지우면 기존 글의 관리 권한을 복구하기 어렵습니다.
+
+거래글은 이미지·수량·현재 시세 합계를 표시합니다. 1:1 채팅은 작성자와 문의자별로 분리되며 **내 채팅**에서 다시 열 수 있습니다. 채팅 활성화를 위해 [채팅 SQL](supabase/migrations/202611020002_trade_chat.sql)을 한 번 더 적용하세요. 기존 거래글은 유지됩니다.
