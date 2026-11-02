@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-01",
+  "updated": "2026-11-02",
   "valueUnit": "",
   "demandMax": 10,
   "rarities": [
@@ -44,12 +44,12 @@
       "name": "Chaos cameraman",
       "category": "유닛",
       "rarity": "Mythic",
-      "value": 3200,
-      "prevValue": 3400,
+      "value": 3075,
+      "prevValue": 3200,
       "demand": 6.0,
       "trend": "down",
       "image": "images/cameraman-td/chaos-cameraman.webp",
-      "note": "4곳 비교 · 범위 2,950~7,900 · 하락세"
+      "note": "2곳 비교 · 범위 3,050~3,100 · 하락세"
     },
     {
       "id": "upgraded-titan-cameraman",
@@ -68,69 +68,72 @@
       "name": "Premium Pass",
       "category": "게임패스",
       "rarity": "",
-      "value": 2200,
-      "prevValue": 2350,
+      "value": 1825,
+      "prevValue": 2200,
       "demand": 6.2,
-      "trend": "stable",
+      "trend": "down",
       "image": "images/cameraman-td/premium-pass.webp",
-      "note": "4곳 비교 · 범위 1,700~3,200 · 변동 큼"
+      "note": "2곳 비교 · 범위 1,700~1,950 · 변동 큼"
     },
     {
       "id": "executioner-tv-man",
       "name": "executioner tv man",
       "category": "유닛",
       "rarity": "Exclusive",
-      "value": 1700,
-      "prevValue": 1850,
+      "value": 1625,
+      "prevValue": 1700,
       "demand": 3.5,
-      "trend": "stable",
+      "trend": "down",
       "image": "images/cameraman-td/executioner-tv-man.webp",
-      "note": "4곳 비교 · 범위 1,250~3,500 · 저평가"
+      "note": "2곳 비교 · 범위 1,250~2,000 · 저평가"
     },
     {
       "id": "x2-candy",
       "name": "x2 candy",
       "category": "게임패스",
       "rarity": "",
-      "value": 1100,
+      "value": 955,
       "demand": 7.5,
       "trend": "down",
       "image": "images/cameraman-td/x2-candy.webp",
-      "note": "4곳 비교 · 범위 1,050~1,250 · 하락세"
+      "note": "2곳 비교 · 범위 925~985 · 하락세",
+      "prevValue": 1100
     },
     {
       "id": "2x-lucky",
       "name": "2x Lucky",
       "category": "게임패스",
       "rarity": "",
-      "value": 930,
+      "value": 1100,
       "demand": 8.2,
-      "trend": "stable",
+      "trend": "up",
       "image": "images/cameraman-td/2x-lucky.webp",
-      "note": "5곳 비교 · 범위 800~1,100 · 고평가"
+      "note": "3곳 비교 · 범위 800~1,100 · 고평가",
+      "prevValue": 930
     },
     {
       "id": "2x-money",
       "name": "2x Money",
       "category": "게임패스",
       "rarity": "",
-      "value": 880,
+      "value": 1025,
       "demand": 7.2,
-      "trend": "stable",
+      "trend": "up",
       "image": "images/cameraman-td/2x-money.webp",
-      "note": "5곳 비교 · 범위 800~1,025 · 고평가"
+      "note": "3곳 비교 · 범위 800~1,025 · 고평가",
+      "prevValue": 880
     },
     {
       "id": "headless-tv-man",
       "name": "headless tv man",
       "category": "유닛",
       "rarity": "Exclusive",
-      "value": 830,
-      "prevValue": 930,
+      "value": 575,
+      "prevValue": 830,
       "demand": 3.0,
       "trend": "down",
       "image": "images/cameraman-td/headless-tv-man.webp",
-      "note": "4곳 비교 · 범위 625~2,450 · 하락세"
+      "note": "2곳 비교 · 범위 525~625 · 하락세"
     },
     {
       "id": "large-scientist-cameraman",
@@ -149,57 +152,60 @@
       "name": "Tv woman",
       "category": "유닛",
       "rarity": "Mythic",
-      "value": 480,
+      "value": 582,
       "demand": 5.5,
-      "trend": "stable",
+      "trend": "up",
       "image": "images/cameraman-td/tv-woman.webp",
-      "note": "5곳 비교 · 범위 385~800 · 안정"
+      "note": "4곳 비교 · 범위 350~950 · 안정",
+      "prevValue": 480
     },
     {
       "id": "cinemaman-titan",
       "name": "CinemaMan Titan",
       "category": "유닛",
       "rarity": "Mythic",
-      "value": 470,
-      "prevValue": 420,
+      "value": 365,
+      "prevValue": 470,
       "demand": 7.8,
-      "trend": "stable",
+      "trend": "down",
       "image": "images/cameraman-td/cinemaman-titan.webp",
-      "note": "5곳 비교 · 범위 330~590 · 안정"
+      "note": "4곳 비교 · 범위 330~395 · 안정"
     },
     {
       "id": "2x-speed",
       "name": "2X speed",
       "category": "게임패스",
       "rarity": "",
-      "value": 445,
+      "value": 520,
       "demand": 6.8,
-      "trend": "stable",
+      "trend": "up",
       "image": "images/cameraman-td/2x-speed.webp",
-      "note": "5곳 비교 · 범위 390~520 · 고평가"
+      "note": "3곳 비교 · 범위 390~520 · 고평가",
+      "prevValue": 445
     },
     {
       "id": "jetpack-cameraman",
       "name": "Jetpack Cameraman",
       "category": "유닛",
       "rarity": "Exclusive",
-      "value": 435,
-      "prevValue": 355,
+      "value": 352,
+      "prevValue": 435,
       "demand": 6.8,
-      "trend": "stable",
+      "trend": "down",
       "image": "images/cameraman-td/jetpack-cameraman.webp",
-      "note": "5곳 비교 · 범위 275~550 · 안정"
+      "note": "4곳 비교 · 범위 270~550 · 안정"
     },
     {
       "id": "large-prototype-titan",
       "name": "large prototype titan",
       "category": "유닛",
       "rarity": "Mythic",
-      "value": 355,
+      "value": 342,
       "demand": 5.5,
-      "trend": "stable",
+      "trend": "down",
       "image": "images/cameraman-td/large-prototype-titan.webp",
-      "note": "5곳 비교 · 범위 285~400 · 안정"
+      "note": "4곳 비교 · 범위 260~400 · 안정",
+      "prevValue": 355
     },
     {
       "id": "glitch-plungerman",
@@ -218,12 +224,12 @@
       "name": "videotaper titan",
       "category": "유닛",
       "rarity": "Mythic",
-      "value": 280,
-      "prevValue": 295,
+      "value": 250,
+      "prevValue": 280,
       "demand": 5.0,
       "trend": "down",
       "image": "images/cameraman-td/videotaper-titan.webp",
-      "note": "5곳 비교 · 범위 250~385 · 하락세"
+      "note": "3곳 비교 · 범위 235~385 · 하락세"
     },
     {
       "id": "upgraded-titan-speakerman",
@@ -241,23 +247,24 @@
       "name": "Scientist Crate",
       "category": "상자",
       "rarity": "",
-      "value": 130,
-      "prevValue": 110,
+      "value": 135,
+      "prevValue": 130,
       "demand": 7.7,
-      "trend": "stable",
+      "trend": "up",
       "image": "images/cameraman-td/scientist-crate.webp",
-      "note": "5곳 비교 · 범위 80~250 · 고평가"
+      "note": "3곳 비교 · 범위 100~145 · 고평가"
     },
     {
       "id": "spider-crate",
       "name": "Spider Crate",
       "category": "상자",
       "rarity": "",
-      "value": 70,
+      "value": 75,
       "demand": 5.0,
-      "trend": "stable",
+      "trend": "up",
       "image": "images/cameraman-td/spider-crate.webp",
-      "note": "4곳 비교 · 범위 40~80 · 안정"
+      "note": "4곳 비교 · 범위 70~90 · 안정",
+      "prevValue": 70
     },
     {
       "id": "pumpkin-farmer",
@@ -288,59 +295,60 @@
       "name": "Camera Repair Drone",
       "category": "유닛",
       "rarity": "Legendary",
-      "value": 28,
-      "prevValue": 32,
+      "value": 25,
+      "prevValue": 28,
       "demand": 5.8,
-      "trend": "stable",
+      "trend": "down",
       "image": "images/cameraman-td/camera-repair-drone.webp",
-      "note": "4곳 비교 · 범위 20~35 · 안정"
+      "note": "2곳 비교 · 범위 15~35 · 안정"
     },
     {
       "id": "woman-crate",
       "name": "Woman Crate",
       "category": "상자",
       "rarity": "",
-      "value": 21,
+      "value": 18,
       "demand": 2.0,
-      "trend": "stable",
+      "trend": "down",
       "image": "images/cameraman-td/woman-crate.webp",
-      "note": "4곳 비교 · 범위 10~30 · 안정"
+      "note": "4곳 비교 · 범위 10~25 · 안정",
+      "prevValue": 21
     },
     {
       "id": "camera-spider",
       "name": "Camera spider",
       "category": "유닛",
       "rarity": "Exclusive",
-      "value": 16,
-      "prevValue": 40,
+      "value": 40,
+      "prevValue": 16,
       "demand": 2.5,
-      "trend": "stable",
+      "trend": "up",
       "image": "images/cameraman-td/camera-spider.webp",
-      "note": "5곳 비교 · 범위 5~60 · 안정"
+      "note": "3곳 비교 · 범위 15~55 · 안정"
     },
     {
       "id": "dragon-cameraman",
       "name": "dragon cameraman",
       "category": "유닛",
       "rarity": "Legendary",
-      "value": 16,
-      "prevValue": 26,
+      "value": 19,
+      "prevValue": 16,
       "demand": 2.9,
-      "trend": "down",
+      "trend": "up",
       "image": "images/cameraman-td/dragon-cameraman.webp",
-      "note": "4곳 비교 · 범위 13~45 · 하락세"
+      "note": "2곳 비교 · 범위 13~25 · 하락세"
     },
     {
       "id": "halloween-crate",
       "name": "Halloween Crate",
       "category": "상자",
       "rarity": "",
-      "value": 15,
-      "prevValue": 23,
+      "value": 18,
+      "prevValue": 15,
       "demand": 3,
-      "trend": "stable",
+      "trend": "up",
       "image": "images/cameraman-td/halloween-crate.webp",
-      "note": "3곳 비교 · 범위 5~18 · 안정"
+      "note": "2곳 비교 · 범위 15~20 · 안정"
     },
     {
       "id": "speakerwoman",
@@ -404,11 +412,12 @@
       "name": "Titan Speakerman",
       "category": "유닛",
       "rarity": "Legendary",
-      "value": 4,
+      "value": 5,
       "demand": 2.0,
-      "trend": "stable",
+      "trend": "up",
       "image": "images/cameraman-td/titan-speakerman.webp",
-      "note": "4곳 비교 · 범위 3~5 · 안정"
+      "note": "3곳 비교 · 범위 5~5 · 안정",
+      "prevValue": 4
     }
   ]
 }

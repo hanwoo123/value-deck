@@ -1,0 +1,39 @@
+name: Deploy site
+on:
+  push:
+    branches: [main]
+    paths:
+      - index.html
+      - css/**
+      - js/**
+      - data/**
+      - images/**
+      - CNAME
+      - .nojekyll
+      - .github/workflows/deploy.yml
+  workflow_dispatch:
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: value-deck-publish
+  cancel-in-progress: false
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    environment:
+      name: github-pages
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/configure-pages@v5
+      - name: Prepare public site
+        run: |
+          mkdir -p /tmp/value-deck-site
+          cp index.html CNAME .nojekyll /tmp/value-deck-site/
+          cp -R css js data images /tmp/value-deck-site/
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: /tmp/value-deck-site
+      - uses: actions/deploy-pages@v4
