@@ -94,4 +94,6 @@ python3 tools/update_values.py --write  # 실제 변경 반영
 
 ### 블록스 프루츠 거래 게시판
 
-`#/trades`에서 Roblox 계정 기반 거래글을 지원합니다. 거래 서버와 공식 OAuth 앱 연결 전에는 준비 안내를 표시합니다. 구현 범위와 실제 운영에 필요한 호스팅·OAuth·DNS 절차는 [거래 서버 안내](server/README.md)를 참고하세요. 로컬 실행: `node server/app.mjs`, 서버 테스트: `node --test tests/trades.test.mjs`.
+`#/trades`에서 Roblox 사용자 이름을 직접 저장하고 거래글을 등록합니다. 닉네임은 사용자 입력이며 계정 소유 인증을 뜻하지 않습니다. 사이트는 기존 GitHub Pages를 유지하고 거래글만 Supabase에 저장합니다. 별도 Render 서버나 Roblox OAuth 등록은 필요하지 않습니다.
+
+Supabase 초기 설정과 RLS 권한은 [연결 안내](supabase/README.md)를 참고하세요. SQL 적용과 익명 사용자 인증 활성화 전에는 거래글 등록이 작동하지 않습니다. 테스트: `npm ci && npm test`. 닉네임과 작성자 세션은 브라우저에 보관되므로 브라우저 데이터를 지우면 기존 글의 관리 권한을 복구하기 어렵습니다.

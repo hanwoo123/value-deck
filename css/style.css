@@ -284,3 +284,6 @@ p { margin: 0; }
 #trade-form textarea { display: block; width: 100%; margin-top: 8px; }
 #trade-more { margin-top: 16px; }
 @media (max-width: 600px) { .trade-sides { grid-template-columns: 1fr; } .trade-card { padding: 14px; } }
+
+.trade-nickname-input { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; margin-top: 8px; }
+#trade-username { min-width: 0; flex: 1; width: 220px; }

@@ -1,9 +1,9 @@
 name: Trade board tests
 on:
   push:
-    paths: ['server/**', 'tests/trades.test.mjs', 'js/trades.js', 'Dockerfile', '.github/workflows/trade-tests.yml']
+    paths: ['supabase/**', 'tests/supabase-schema.test.mjs', 'js/trade*.js', 'package*.json', '.github/workflows/trade-tests.yml']
   pull_request:
-    paths: ['server/**', 'tests/trades.test.mjs', 'js/trades.js', 'Dockerfile', '.github/workflows/trade-tests.yml']
+    paths: ['supabase/**', 'tests/supabase-schema.test.mjs', 'js/trade*.js', 'package*.json', '.github/workflows/trade-tests.yml']
 permissions:
   contents: read
 jobs:
@@ -14,5 +14,7 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '24'
-      - run: node --test tests/trades.test.mjs
-      - run: node --check js/trades.js
+          cache: npm
+      - run: npm ci --no-audit --no-fund
+      - run: npm test
+      - run: node --check js/trades.js && node --check js/trade-store.js
