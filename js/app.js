@@ -109,7 +109,7 @@
   // ---------- router ----------
   function parseRoute() {
     const parts = location.hash.replace(/^#\/?/, '').split('/').filter(Boolean);
-    if (parts[0] === 'g' && parts[1]) return { view: parts[2] === 'calc' ? 'calc' : 'values', gameId: decodeURIComponent(parts[1]) };
+    if (parts[0] === 'g' && parts[1]) return { view: parts[2] === 'calc' ? 'calc' : 'values', gameId: decodeURIComponent(parts[1]), itemId: parts[2] === 'item' && parts[3] ? decodeURIComponent(parts[3]) : null };
     if (parts[0] === 'safety') return { view: 'safety' };
     return { view: 'home' };
   }
@@ -126,7 +126,7 @@
       main.innerHTML = '<div class="loading" role="status">불러오는 중…</div>';
       const data = await loadGame(route.gameId);
       if (route.view === 'calc') renderCalc(meta, data);
-      else renderValues(meta, data);
+      else renderValues(meta, data, route.itemId);
     } catch (err) {
       main.innerHTML = `<div class="empty"><p><strong>데이터를 불러오지 못했어요.</strong></p><p class="muted">${esc(err.message)}</p></div>`;
     }
@@ -149,7 +149,7 @@
         <h2 class="section-title" id="movesTitle">최근 시세 변동</h2>
         <div class="moves__list">
           ${moves.slice(0, 6).map(({ g, it, pct }) => `
-            <a class="move" href="#/g/${encodeURIComponent(g.id)}" data-rarity="${esc(it.rarity)}">
+            <a class="move" href="#/g/${encodeURIComponent(g.id)}/item/${encodeURIComponent(it.id)}" data-rarity="${esc(it.rarity)}">
               <span class="slot__thumb">${thumb(it)}</span>
               <span class="move__text"><span class="slot__name">${esc(it.name)}</span><span class="cat">${esc(g.name)}</span></span>
               <span class="move__val"><span class="slot__val">${compact(it.prevValue)} → ${compact(it.value)}</span>${changeBadge(pct)}</span>
@@ -195,8 +195,11 @@
   }
 
   // ---------- values ----------
-  function renderValues(meta, data) {
+  function renderValues(meta, data, itemId = null) {
     const f = state.filters[meta.id] ||= { q: '', rarity: 'all', category: 'all', sort: 'value-desc' };
+    // A direct item link must remain visible even after previous filtering.
+    const target = itemId && data.byId[itemId];
+    if (target) Object.assign(f, { q: '', rarity: 'all', category: 'all' });
     main.innerHTML = `
       <div class="pagehead">
         <div>
@@ -262,6 +265,15 @@
       toast(`'${data.byId[b.dataset.add].name}' 계산기에 추가됨 (내가 주는 것)`);
     });
     draw();
+    if (target) {
+      const card = document.getElementById(`item-${target.id}`);
+      if (card) {
+        card.classList.add('item--target');
+        card.style.scrollMarginTop = `${document.querySelector('.topbar').getBoundingClientRect().height + 16}px`;
+        card.scrollIntoView({ block: 'center' });
+        card.focus({ preventScroll: true });
+      }
+    }
   }
 
   function itemCard(i, data) {
@@ -271,7 +283,7 @@
     const dLabel = `${dval}/${dmax}`;
     const trend = { up: ['▲', '상승'], down: ['▼', '하락'], stable: ['–', '유지'] }[i.trend] || ['–', '유지'];
     return `
-      <article class="item" data-rarity="${esc(i.rarity)}">
+      <article class="item" id="item-${esc(i.id)}" tabindex="-1" data-rarity="${esc(i.rarity)}">
         <button class="iconbtn item__add" data-add="${esc(i.id)}" aria-label="${esc(i.name)} 계산기에 추가" title="계산기에 추가">+</button>
         <div class="item__img">${thumb(i)}</div>
         <div class="item__body">
