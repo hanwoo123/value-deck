@@ -2,7 +2,7 @@
   "updated": "2026-11-02",
   "valueUnit": "",
   "demandMax": 10,
-  "source": "BLOX DECKS 기준값 · 시세 사이트 6곳 중간값 (단위: 벨리)",
+  "source": "BLOX DECKS 기준값 · 공개 가치표 3개 중간값 (단위: 벨리)",
   "rarities": [
     "Limited",
     "Mythic",

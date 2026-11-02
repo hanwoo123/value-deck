@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Read configured public HTML tables; update only verified >=3% changes."""
+"""Read configured public value-list pages; update only verified >=3% changes."""
 import argparse
 from datetime import datetime
 from decimal import Decimal, InvalidOperation
