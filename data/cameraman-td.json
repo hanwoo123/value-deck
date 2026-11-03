@@ -85,12 +85,13 @@
       "name": "executioner tv man",
       "category": "유닛",
       "rarity": "Exclusive",
-      "value": 1625,
-      "prevValue": 1700,
+      "value": 1675,
+      "prevValue": 1625,
       "demand": 3.5,
-      "trend": "down",
+      "trend": "up",
       "image": "images/cameraman-td/executioner-tv-man.webp",
-      "note": "2곳 비교 · 범위 1,250~2,000 · 저평가"
+      "note": "2곳 비교 · 범위 1,350~2,000 · 저평가",
+      "valueUpdatedAt": "2026-11-04T06:02:04+09:00"
     },
     {
       "id": "x2-candy",
