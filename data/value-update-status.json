@@ -1,116 +1,8 @@
 {
-  "checkedAt": "2026-11-04T00:08:48+09:00",
+  "checkedAt": "2026-11-04T00:11:54+09:00",
   "games": {
-    "blox-fruits": [
-      {
-        "id": "venom",
-        "oldValue": 25000000,
-        "value": 45000000,
-        "sources": [
-          {
-            "id": "1",
-            "value": "25000000"
-          },
-          {
-            "id": "3",
-            "value": "45000000"
-          },
-          {
-            "id": "4",
-            "value": "110000000"
-          }
-        ]
-      }
-    ],
-    "cameraman-td": [
-      {
-        "id": "spider-tv",
-        "oldValue": 9100,
-        "value": 10000,
-        "sources": [
-          {
-            "id": "1",
-            "value": "10000"
-          },
-          {
-            "id": "2",
-            "value": "12500"
-          },
-          {
-            "id": "4",
-            "value": "9100"
-          }
-        ]
-      },
-      {
-        "id": "chaos-cameraman",
-        "oldValue": 3075,
-        "value": 3525,
-        "sources": [
-          {
-            "id": "1",
-            "value": "4000"
-          },
-          {
-            "id": "4",
-            "value": "3050"
-          }
-        ]
-      },
-      {
-        "id": "upgraded-titan-cameraman",
-        "oldValue": 2800,
-        "value": 3012,
-        "sources": [
-          {
-            "id": "1",
-            "value": "3500"
-          },
-          {
-            "id": "4",
-            "value": "2525"
-          }
-        ]
-      },
-      {
-        "id": "premium-pass",
-        "oldValue": 1825,
-        "value": 1725,
-        "sources": [
-          {
-            "id": "1",
-            "value": "1500"
-          },
-          {
-            "id": "4",
-            "value": "1950"
-          }
-        ]
-      },
-      {
-        "id": "cinemaman-titan",
-        "oldValue": 365,
-        "value": 345,
-        "sources": [
-          {
-            "id": "1",
-            "value": "315"
-          },
-          {
-            "id": "2",
-            "value": "330"
-          },
-          {
-            "id": "3",
-            "value": "360"
-          },
-          {
-            "id": "4",
-            "value": "395"
-          }
-        ]
-      }
-    ]
+    "blox-fruits": [],
+    "cameraman-td": []
   },
   "sources": {
     "blox-fruits": {
@@ -148,18 +40,18 @@
   },
   "checks": {
     "blox-fruits": {
-      "state": "updated",
+      "state": "unchanged",
       "successfulSources": 3,
       "eligibleItems": 126,
       "totalItems": 135,
-      "changedItems": 1
+      "changedItems": 0
     },
     "cameraman-td": {
-      "state": "updated",
+      "state": "unchanged",
       "successfulSources": 4,
       "eligibleItems": 32,
       "totalItems": 34,
-      "changedItems": 5
+      "changedItems": 0
     }
   },
   "errors": [],
