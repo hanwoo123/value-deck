@@ -1,8 +1,8 @@
 name: Update game values
 on:
   schedule:
-    # Every day at 09:17 Korea time.
-    - cron: '17 0 * * *'
+    # Every hour at minute 17 (GitHub scheduling may be delayed).
+    - cron: '17 * * * *'
   workflow_dispatch:
 permissions:
   contents: read
@@ -29,6 +29,8 @@ jobs:
       - name: Test update rules
         run: python -m unittest discover -s tests -v
       - name: Fetch verified public sources and apply changes
+        id: collect
+        continue-on-error: true
         run: python tools/update_values.py --write
       - name: Commit changed values and history
         id: commit
@@ -36,6 +38,7 @@ jobs:
         run: |
           set -euo pipefail
           git add data/blox-fruits.json data/cameraman-td.json
+          if [ -f data/value-update-status.json ]; then git add data/value-update-status.json; fi
           if [ -f data/value-history.json ]; then git add data/value-history.json; fi
           if git diff --cached --quiet; then
             echo 'changed=false' >> "$GITHUB_OUTPUT"
@@ -62,3 +65,8 @@ jobs:
           path: /tmp/value-deck-site
       - uses: actions/deploy-pages@v4
         if: steps.commit.outputs.changed == 'true'
+      - name: Report insufficient source coverage
+        if: always() && steps.collect.outcome == 'failure'
+        run: |
+          echo 'Some games could not be verified. See data/value-update-status.json for source diagnostics.'
+          exit 1

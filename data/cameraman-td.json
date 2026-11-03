@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-02",
+  "updated": "2026-11-04",
   "valueUnit": "",
   "demandMax": 10,
   "rarities": [
@@ -21,11 +21,13 @@
       "name": "Spider Tv",
       "category": "유닛",
       "rarity": "Exclusive",
-      "value": 9100,
+      "value": 10000,
       "demand": 9.8,
-      "trend": "stable",
+      "trend": "up",
       "image": "images/cameraman-td/spider-tv.webp",
-      "note": "5곳 비교 · 범위 8,200~12,500 · 고평가"
+      "note": "3곳 비교 · 범위 9,100~12,500 · 고평가",
+      "prevValue": 9100,
+      "valueUpdatedAt": "2026-11-04T00:08:48+09:00"
     },
     {
       "id": "engineer-cameraman",
@@ -44,36 +46,39 @@
       "name": "Chaos cameraman",
       "category": "유닛",
       "rarity": "Mythic",
-      "value": 3075,
-      "prevValue": 3200,
+      "value": 3525,
+      "prevValue": 3075,
       "demand": 6.0,
-      "trend": "down",
+      "trend": "up",
       "image": "images/cameraman-td/chaos-cameraman.webp",
-      "note": "2곳 비교 · 범위 3,050~3,100 · 하락세"
+      "note": "2곳 비교 · 범위 3,050~4,000 · 하락세",
+      "valueUpdatedAt": "2026-11-04T00:08:48+09:00"
     },
     {
       "id": "upgraded-titan-cameraman",
       "name": "upgraded Titan Cameraman",
       "category": "유닛",
       "rarity": "Godly",
-      "value": 2800,
-      "prevValue": 2550,
+      "value": 3012,
+      "prevValue": 2800,
       "demand": 9.0,
-      "trend": "stable",
+      "trend": "up",
       "image": "images/cameraman-td/upgraded-titan-cameraman.webp",
-      "note": "4곳 비교 · 범위 1,750~3,000 · 고평가"
+      "note": "2곳 비교 · 범위 2,525~3,500 · 고평가",
+      "valueUpdatedAt": "2026-11-04T00:08:48+09:00"
     },
     {
       "id": "premium-pass",
       "name": "Premium Pass",
       "category": "게임패스",
       "rarity": "",
-      "value": 1825,
-      "prevValue": 2200,
+      "value": 1725,
+      "prevValue": 1825,
       "demand": 6.2,
       "trend": "down",
       "image": "images/cameraman-td/premium-pass.webp",
-      "note": "2곳 비교 · 범위 1,700~1,950 · 변동 큼"
+      "note": "2곳 비교 · 범위 1,500~1,950 · 변동 큼",
+      "valueUpdatedAt": "2026-11-04T00:08:48+09:00"
     },
     {
       "id": "executioner-tv-man",
@@ -164,12 +169,13 @@
       "name": "CinemaMan Titan",
       "category": "유닛",
       "rarity": "Mythic",
-      "value": 365,
-      "prevValue": 470,
+      "value": 345,
+      "prevValue": 365,
       "demand": 7.8,
       "trend": "down",
       "image": "images/cameraman-td/cinemaman-titan.webp",
-      "note": "4곳 비교 · 범위 330~395 · 안정"
+      "note": "4곳 비교 · 범위 315~395 · 안정",
+      "valueUpdatedAt": "2026-11-04T00:08:48+09:00"
     },
     {
       "id": "2x-speed",

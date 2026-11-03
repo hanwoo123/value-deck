@@ -88,13 +88,40 @@ class UpdateTests(unittest.TestCase):
                 self.assertEqual(len(report['games']['blox-fruits']), 1)
                 self.assertFalse((root / 'data/value-history.json').exists())
                 u.run(root, config, write=True)
-                before = {p: p.read_bytes() for p in (root / 'data').iterdir()}
+                before = {p: p.read_bytes() for p in (root / 'data').iterdir() if p.name != 'value-update-status.json'}
                 u.run(root, config, write=True)
-                self.assertEqual(before, {p: p.read_bytes() for p in (root / 'data').iterdir()})
+                self.assertEqual(before, {p: p.read_bytes() for p in (root / 'data').iterdir() if p.name != 'value-update-status.json'})
                 self.assertEqual(len(json.loads((root / 'data/value-history.json').read_text())), 1)
             with patch.object(u, 'urlopen', side_effect=OSError('source unavailable')):
-                with self.assertRaises(OSError): u.run(root, config, write=True)
-                self.assertEqual(before, {p: p.read_bytes() for p in (root / 'data').iterdir()})
+                report=u.run(root, config, write=True)
+                self.assertEqual(report['state'],'failed')
+                self.assertEqual(json.loads((root/'data/value-update-status.json').read_text())['state'],'failed')
+                self.assertEqual(before, {p: p.read_bytes() for p in (root / 'data').iterdir() if p.name != 'value-update-status.json'})
+
+    def test_failed_source_does_not_block_valid_quorum_or_other_game(self):
+        config={'games':{gid:{'sources':[
+            {'id':str(i),'url':f'https://example.com/{gid}/{i}','verified':True,'parser':'table','table_index':0,'name_header':'Name','value_header':'Value'}
+            for i in range(3)]} for gid in ('blox-fruits','cameraman-td')}}
+        def fetch(source):
+            if source['id']=='2' or ('cameraman-td' in source['url'] and source['id']=='1'):
+                raise ValueError('source changed')
+            return {'a':D(110)}
+        with tempfile.TemporaryDirectory() as directory:
+            root=Path(directory);(root/'data').mkdir()
+            for gid in config['games']:(root/'data'/f'{gid}.json').write_text(json.dumps(self.game()))
+            with patch.object(u,'fetch_source',side_effect=fetch):
+                report=u.run(root,config,write=True)
+            self.assertEqual(report['state'],'failed')
+            self.assertEqual(report['checks']['blox-fruits']['state'],'updated')
+            self.assertEqual(report['checks']['cameraman-td']['state'],'blocked')
+            self.assertEqual(json.loads((root/'data/blox-fruits.json').read_text())['items'][0]['value'],110)
+            self.assertEqual(json.loads((root/'data/cameraman-td.json').read_text())['items'][0]['value'],100)
+            self.assertTrue(json.loads((root/'data/blox-fruits.json').read_text())['items'][0]['valueUpdatedAt'])
+            with patch.object(u,'fetch_source',side_effect=lambda source: (_ for _ in ()).throw(ValueError('offline')) if source['id']=='2' else {'a':D(110)}):
+                report=u.run(root,config,write=True)
+            self.assertEqual(report['state'],'degraded')
+            self.assertTrue(report['errors'])
+            self.assertEqual(report['checks']['cameraman-td']['state'],'updated')
 
     def test_public_page_payloads_and_variants(self):
         from public_sources import page_array, parse_public

@@ -355,3 +355,5 @@ p { margin: 0; }
 .trade-slot input { min-width: 0; width: 100%; padding-inline: 6px; }
 .trade-compose .trade-sides > section { min-width: 0; }
 .trade-slot-choice { gap: 8px; }
+
+.price-check { font-size: var(--text-xs); line-height: 1.6; margin-bottom: 20px; }

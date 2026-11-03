@@ -128,6 +128,7 @@ def update_game(data, quotes, timestamp):
         item['prevValue'] = item['value']
         item['value'] = int(new)
         item['trend'] = 'up' if new > old else 'down'
+        item['valueUpdatedAt'] = timestamp
         comparison = f'{len(kept)}곳 비교 · 범위 {min(kept):,}~{max(kept):,}'
         note = re.sub(r'^\d+곳 비교 · 범위 [^·]+(?:·\s*)?', '', item.get('note', '')).strip()
         item['note'] = comparison + (f' · {note}' if note else '')
@@ -158,54 +159,72 @@ def validate_config(config):
         raise ValueError('\n'.join(errors))
 
 
+def fetch_source(source):
+    if source.get('parser', 'table') == 'table':
+        request = Request(source['url'], headers={'User-Agent': 'VALUE-DECK-price-check/1.0'})
+        with urlopen(request, timeout=30) as response:
+            if urlparse(response.geturl()).scheme != 'https':
+                raise ValueError('Refusing non-HTTPS redirect')
+            html = response.read(5_000_001)
+            if len(html) > 5_000_000:
+                raise ValueError('Source page too large')
+            return parse_table(html.decode('utf-8'), source)
+    response = subprocess.run(['curl', '--fail', '--silent', '--show-error',
+        '--location', '--proto', '=https', '--proto-redir', '=https',
+        '--retry', '1', '--retry-delay', '2', '--max-time', '25', '--max-filesize', '5000000', source['url']],
+        capture_output=True, check=True)
+    return parse_public(response.stdout.decode('utf-8'), source, number, key)
+
+
+def source_error(error):
+    if isinstance(error, subprocess.CalledProcessError):
+        return (error.stderr or b'curl failed').decode('utf-8', errors='replace').strip()[-400:]
+    return f'{type(error).__name__}: {str(error)[:300]}'
+
+
 def run(root, config, write=False):
-    validate_config(config)  # Fail before modifying ANY data if setup is incomplete.
+    validate_config(config)
     timestamp = datetime.now(ZoneInfo('Asia/Seoul')).isoformat(timespec='seconds')
     pending, report = {}, {'checkedAt': timestamp, 'games': {}, 'sources': {
         gid: {s['id']: {'name': s.get('name', s['id']), 'url': s['url']}
               for s in settings['sources'] if s.get('enabled', True)}
-        for gid, settings in config['games'].items()}}
+        for gid, settings in config['games'].items()}, 'checks': {}, 'errors': [], 'coverage': {}}
     for gid, settings in config['games'].items():
         data = json.loads((root / 'data' / f'{gid}.json').read_text())
         quotes = {}
         for source in settings['sources']:
             if not source.get('enabled', True):
                 continue
-            if source.get('parser', 'table') == 'table':
-                request = Request(source['url'], headers={'User-Agent': 'VALUE-DECK-price-check/1.0'})
-                with urlopen(request, timeout=30) as response:
-                    if urlparse(response.geturl()).scheme != 'https':
-                        raise ValueError('Refusing non-HTTPS redirect')
-                    html = response.read(5_000_001)
-                    if len(html) > 5_000_000:
-                        raise ValueError('Source page too large')
-                    parsed = parse_table(html.decode('utf-8'), source)
-            else:
-                # curl uses the environment's supported proxy/CA trust unchanged.
-                response = subprocess.run(['curl', '--fail', '--silent', '--show-error',
-                    '--location', '--proto', '=https', '--proto-redir', '=https',
-                    '--retry', '2', '--retry-delay', '2', '--max-time', '45', '--max-filesize', '5000000', source['url']],
-                    capture_output=True, check=True)
-                parsed = parse_public(response.stdout.decode('utf-8'), source, number, key)
-            mapped = {}
-            names = {item['id']: key(source.get('item_names', {}).get(item['id'], ('Permanent ' + item['name'].removesuffix(' (영구)')) if item.get('category') == '영구 열매' else item['name']))
-                     for item in data['items']}
-            for item in data['items']:
-                # A source label may identify exactly one local variant only.
-                name = names[item['id']]
-                if list(names.values()).count(name) == 1 and name in parsed:
-                    mapped[item['id']] = parsed[name]
-            quotes[source['id']] = mapped
-        changes = update_game(data, quotes, timestamp)
+            try:
+                parsed = fetch_source(source)
+                names = {item['id']: key(source.get('item_names', {}).get(item['id'],
+                    ('Permanent ' + item['name'].removesuffix(' (영구)')) if item.get('category') == '영구 열매' else item['name']))
+                    for item in data['items']}
+                mapped = {item['id']: parsed[names[item['id']]] for item in data['items']
+                    if list(names.values()).count(names[item['id']]) == 1 and names[item['id']] in parsed}
+                if not mapped:
+                    raise ValueError('No matching item prices')
+                quotes[source['id']] = mapped
+            except (ValueError, KeyError, IndexError, OSError, InvalidOperation, subprocess.CalledProcessError) as error:
+                report['errors'].append({'game': gid, 'source': source['id'], 'name': source.get('name', source['id']), 'error': source_error(error)})
+        eligible = sum(consensus([prices[item['id']] for prices in quotes.values() if item['id'] in prices]) is not None for item in data['items'])
+        blocked = len(quotes) < 2 or eligible == 0
+        changes = [] if blocked else update_game(data, quotes, timestamp)
         report['games'][gid] = changes
-        report.setdefault('coverage', {})[gid] = {sid: len(prices) for sid, prices in quotes.items()}
+        report['coverage'][gid] = {sid: len(prices) for sid, prices in quotes.items()}
+        report['checks'][gid] = {'state': 'blocked' if blocked else 'updated' if changes else 'unchanged',
+            'successfulSources': len(quotes), 'eligibleItems': eligible, 'totalItems': len(data['items']), 'changedItems': len(changes)}
         if changes:
             pending[root / 'data' / f'{gid}.json'] = data
-    if write and pending:
-        # All sources and both games must finish successfully before writing.
-        history_path = root / 'data' / 'value-history.json'
-        history = json.loads(history_path.read_text()) if history_path.exists() else []
-        pending[history_path] = history + [report]
+    blocked = any(c['state'] == 'blocked' for c in report['checks'].values())
+    report['state'] = 'failed' if blocked else 'degraded' if report['errors'] else 'ok'
+    if write:
+        # Publish only changes with at least two valid quotes; never reuse stale source prices.
+        if pending:
+            history_path = root / 'data' / 'value-history.json'
+            history = json.loads(history_path.read_text()) if history_path.exists() else []
+            pending[history_path] = history + [report]
+        pending[root / 'data' / 'value-update-status.json'] = report
         for path, content in pending.items():
             temp = path.with_suffix('.json.tmp')
             temp.write_text(json.dumps(content, ensure_ascii=False, indent=2) + '\n')
@@ -219,7 +238,10 @@ def main():
     args = parser.parse_args()
     try:
         config = json.loads((ROOT / 'tools' / 'value-sources.json').read_text())
-        print(json.dumps(run(ROOT, config, args.write), ensure_ascii=False, indent=2))
+        report = run(ROOT, config, args.write)
+        print(json.dumps(report, ensure_ascii=False, indent=2))
+        if report['state'] == 'failed':
+            return 1
     except (ValueError, KeyError, IndexError, OSError, InvalidOperation, subprocess.CalledProcessError) as error:
         print(f'Update aborted; source verification required: {error}', file=sys.stderr)
         return 1

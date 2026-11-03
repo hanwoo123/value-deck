@@ -146,6 +146,19 @@
     document.title = `${route.view === 'calc' ? '계산기' : route.view === 'values' ? '시세표' : route.view === 'safety' ? '거래 안전' : 'VALUE DECK'} — VALUE DECK`;
   }
 
+  async function renderPriceCheck(node,gameId=null) {
+    try {
+      const report=await getJSON('data/value-update-status.json');
+      const checks=gameId?[report.checks?.[gameId]].filter(Boolean):Object.values(report.checks||{});
+      const blocked=checks.some(c=>c.state==='blocked');
+      const changes=checks.reduce((sum,c)=>sum+c.changedItems,0);
+      const time=new Date(report.checkedAt).toLocaleString('ko-KR',{timeZone:'Asia/Seoul',month:'numeric',day:'numeric',hour:'2-digit',minute:'2-digit'});
+      if(node?.isConnected)node.textContent=`최근 시세 확인 ${time} (한국 시간) · ${blocked?'일부 시세 확인 중단':changes?changes+'개 시세 반영':'확인된 시세 기준 3% 이상 변동 없음'}${report.errors?.some(e=>!gameId||e.game===gameId)?' · 일부 출처 확인 실패':''} · 매시간 자동 확인`;
+    } catch {
+      if(node?.isConnected)node.textContent='시세 확인 기록을 불러오지 못했습니다.';
+    }
+  }
+
   // ---------- home ----------
   async function renderHome() {
     main.innerHTML = '<div class="loading" role="status">불러오는 중…</div>';
@@ -154,9 +167,9 @@
     const latest = datas.map((d) => d?.updated).filter(Boolean).sort().pop() || '-';
     const moves = [];
     state.games.forEach((g, gi) => (datas[gi]?.items || []).forEach((it) => {
-      const pct = changeOf(it); if (pct != null) moves.push({ g, it, pct });
+      const pct = changeOf(it); if (pct != null) moves.push({ g, it, pct, changedAt:it.valueUpdatedAt||'' });
     }));
-    moves.sort((a, b) => Math.abs(b.pct) - Math.abs(a.pct));
+    moves.sort((a,b)=>b.changedAt.localeCompare(a.changedAt)||Math.abs(b.pct)-Math.abs(a.pct));
     const movesHTML = moves.length ? `
       <section class="moves" aria-labelledby="movesTitle">
         <h2 class="section-title" id="movesTitle">최근 시세 변동</h2>
@@ -181,11 +194,13 @@
           <div class="stat"><b>${esc(latest)}</b><span>최근 업데이트</span></div>
         </div>
       </section>
+      <p class="muted price-check" id="priceCheckStatus" role="status">최근 시세 확인 기록을 불러오는 중…</p>
       ${movesHTML}
       <h2 class="section-title">게임 선택</h2>
       ${state.games.length ? `<div class="games">${state.games.map((g, i) => gameCard(g, datas[i])).join('')}</div>`
         : '<div class="empty">아직 등록된 게임이 없어요. data/games.json에 게임을 추가하세요.</div>'}
     `;
+    renderPriceCheck(main.querySelector('#priceCheckStatus'));
   }
 
   function gameCard(g, d) {
@@ -222,6 +237,7 @@
         </div>
         <a class="btn btn--accent" href="#/g/${encodeURIComponent(meta.id)}/calc">거래 계산기 열기</a>
       </div>
+      <p class="muted price-check" id="gamePriceCheckStatus" role="status">최근 시세 확인 기록을 불러오는 중…</p>
       <div class="toolbar">
         <input class="input" id="q" type="search" placeholder="아이템 이름 검색" value="${esc(f.q)}" aria-label="아이템 검색" />
         <select class="select" id="cat" aria-label="분류">
@@ -243,6 +259,7 @@
       <div class="items" id="items"></div>
     `;
     main.querySelector('#sort').value = f.sort;
+    renderPriceCheck(main.querySelector('#gamePriceCheckStatus'),meta.id);
 
     const draw = () => {
       const q = f.q.trim().toLowerCase();

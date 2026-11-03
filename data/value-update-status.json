@@ -1,0 +1,180 @@
+{
+  "checkedAt": "2026-11-04T00:08:48+09:00",
+  "games": {
+    "blox-fruits": [
+      {
+        "id": "venom",
+        "oldValue": 25000000,
+        "value": 45000000,
+        "sources": [
+          {
+            "id": "1",
+            "value": "25000000"
+          },
+          {
+            "id": "3",
+            "value": "45000000"
+          },
+          {
+            "id": "4",
+            "value": "110000000"
+          }
+        ]
+      }
+    ],
+    "cameraman-td": [
+      {
+        "id": "spider-tv",
+        "oldValue": 9100,
+        "value": 10000,
+        "sources": [
+          {
+            "id": "1",
+            "value": "10000"
+          },
+          {
+            "id": "2",
+            "value": "12500"
+          },
+          {
+            "id": "4",
+            "value": "9100"
+          }
+        ]
+      },
+      {
+        "id": "chaos-cameraman",
+        "oldValue": 3075,
+        "value": 3525,
+        "sources": [
+          {
+            "id": "1",
+            "value": "4000"
+          },
+          {
+            "id": "4",
+            "value": "3050"
+          }
+        ]
+      },
+      {
+        "id": "upgraded-titan-cameraman",
+        "oldValue": 2800,
+        "value": 3012,
+        "sources": [
+          {
+            "id": "1",
+            "value": "3500"
+          },
+          {
+            "id": "4",
+            "value": "2525"
+          }
+        ]
+      },
+      {
+        "id": "premium-pass",
+        "oldValue": 1825,
+        "value": 1725,
+        "sources": [
+          {
+            "id": "1",
+            "value": "1500"
+          },
+          {
+            "id": "4",
+            "value": "1950"
+          }
+        ]
+      },
+      {
+        "id": "cinemaman-titan",
+        "oldValue": 365,
+        "value": 345,
+        "sources": [
+          {
+            "id": "1",
+            "value": "315"
+          },
+          {
+            "id": "2",
+            "value": "330"
+          },
+          {
+            "id": "3",
+            "value": "360"
+          },
+          {
+            "id": "4",
+            "value": "395"
+          }
+        ]
+      }
+    ]
+  },
+  "sources": {
+    "blox-fruits": {
+      "1": {
+        "name": "VVX",
+        "url": "https://blox-fruits.vaultedvaluesx.com/value-list"
+      },
+      "3": {
+        "name": "BloxFruitsValues.gg",
+        "url": "https://bloxfruitsvalues.gg/values"
+      },
+      "4": {
+        "name": "FantasyBlox",
+        "url": "https://fantasyblox.com/games/blox-fruits/values"
+      }
+    },
+    "cameraman-td": {
+      "1": {
+        "name": "VVX 공식",
+        "url": "https://cameraman-td.vaultedvaluesx.com/value-list"
+      },
+      "2": {
+        "name": "VVX 커뮤니티: Peak values ig",
+        "url": "https://cameraman-td.vaultedvaluesx.com/lists/peak-values-ig-7ad104da-cfda-812b-af36-2c33958f98fb"
+      },
+      "3": {
+        "name": "VVX 커뮤니티: CTD VALUE",
+        "url": "https://cameraman-td.vaultedvaluesx.com/lists/ctd-value-289bb241-c5a4-89b0-a927-d028ac7ae6de"
+      },
+      "4": {
+        "name": "VVX 커뮤니티: Second-Best Value List",
+        "url": "https://cameraman-td.vaultedvaluesx.com/lists/better-value-list-2dd620c2-6007-836b-afc1-05d2d3a8a344"
+      }
+    }
+  },
+  "checks": {
+    "blox-fruits": {
+      "state": "updated",
+      "successfulSources": 3,
+      "eligibleItems": 126,
+      "totalItems": 135,
+      "changedItems": 1
+    },
+    "cameraman-td": {
+      "state": "updated",
+      "successfulSources": 4,
+      "eligibleItems": 32,
+      "totalItems": 34,
+      "changedItems": 5
+    }
+  },
+  "errors": [],
+  "coverage": {
+    "blox-fruits": {
+      "1": 129,
+      "3": 122,
+      "4": 121
+    },
+    "cameraman-td": {
+      "1": 34,
+      "2": 23,
+      "3": 11,
+      "4": 32
+    }
+  },
+  "state": "ok"
+}

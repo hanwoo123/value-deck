@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-02",
+  "updated": "2026-11-04",
   "valueUnit": "",
   "demandMax": 10,
   "source": "BLOX DECKS 기준값 · 공개 가치표 3개 중간값 (단위: 벨리)",
@@ -1118,11 +1118,13 @@
       "name": "Venom",
       "category": "열매",
       "rarity": "Mythic",
-      "value": 25000000,
+      "value": 45000000,
       "demand": 8.5,
-      "trend": "stable",
+      "trend": "up",
       "image": "images/blox-fruits/venom.webp",
-      "note": "6곳 비교 · 범위 25M~40M · 안정"
+      "note": "3곳 비교 · 범위 25,000,000~110,000,000 · 안정",
+      "prevValue": 25000000,
+      "valueUpdatedAt": "2026-11-04T00:08:48+09:00"
     },
     {
       "id": "lightning",
