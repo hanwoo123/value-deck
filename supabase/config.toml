@@ -1,0 +1,4 @@
+project_id = "value-deck"
+
+[functions.trade-discord]
+verify_jwt = false

@@ -1,6 +1,6 @@
 {
   "name": "value-deck",
   "private": true,
-  "scripts": {"test": "node --test tests/supabase-*.test.mjs"},
+  "scripts": {"test": "node --test tests/supabase-*.test.mjs tests/discord-*.test.mjs"},
   "devDependencies": {"@electric-sql/pglite": "0.3.14"}
 }
