@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-04",
+  "updated": "2026-11-05",
   "valueUnit": "",
   "demandMax": 10,
   "rarities": [
@@ -302,12 +302,13 @@
       "name": "Camera Repair Drone",
       "category": "유닛",
       "rarity": "Legendary",
-      "value": 25,
-      "prevValue": 28,
+      "value": 20,
+      "prevValue": 25,
       "demand": 5.8,
       "trend": "down",
       "image": "images/cameraman-td/camera-repair-drone.webp",
-      "note": "2곳 비교 · 범위 15~35 · 안정"
+      "note": "2곳 비교 · 범위 15~25 · 안정",
+      "valueUpdatedAt": "2026-11-05T02:59:44+09:00"
     },
     {
       "id": "woman-crate",
@@ -338,12 +339,13 @@
       "name": "dragon cameraman",
       "category": "유닛",
       "rarity": "Legendary",
-      "value": 19,
-      "prevValue": 16,
+      "value": 15,
+      "prevValue": 19,
       "demand": 2.9,
-      "trend": "up",
+      "trend": "down",
       "image": "images/cameraman-td/dragon-cameraman.webp",
-      "note": "2곳 비교 · 범위 13~25 · 하락세"
+      "note": "2곳 비교 · 범위 5~25 · 하락세",
+      "valueUpdatedAt": "2026-11-05T02:59:44+09:00"
     },
     {
       "id": "halloween-crate",
@@ -362,11 +364,13 @@
       "name": "SpeakerWoman",
       "category": "유닛",
       "rarity": "Epic",
-      "value": 8,
+      "value": 4,
       "demand": 3.0,
-      "trend": "stable",
+      "trend": "down",
       "image": "images/cameraman-td/speakerwoman.webp",
-      "note": "4곳 비교 · 범위 8~11 · 불안정"
+      "note": "3곳 비교 · 범위 3~8 · 불안정",
+      "prevValue": 8,
+      "valueUpdatedAt": "2026-11-05T02:59:44+09:00"
     },
     {
       "id": "ninja-cameraman",
