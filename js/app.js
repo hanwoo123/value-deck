@@ -50,7 +50,8 @@
     const up = pct > 0;
     return `<span class="delta delta--${up ? 'up' : 'down'}" title="이전 시세 대비">${up ? '+' : ''}${(Math.round(pct * 10) / 10).toFixed(1)}%</span>`;
   }
-  const rarityLabel = (r) => RARITY_KO[r] ? `${RARITY_KO[r]}` : r;
+  const hasPrice = item => typeof item?.value === 'number' && Number.isFinite(item.value) && item.value > 0;
+  const rarityLabel = (r) => r === 'Unknown' ? '등급 확인 중' : RARITY_KO[r] ? `${RARITY_KO[r]}` : r;
   const initial = (name) => esc(String(name || '?').trim().slice(0, 1));
 
   function thumb(item) {
@@ -274,7 +275,7 @@
         'demand-desc': (a, b) => (b.demand || 0) - (a.demand || 0) || b.value - a.value,
         name: (a, b) => a.name.localeCompare(b.name, 'ko') || rIdx(a.rarity) - rIdx(b.rarity),
       };
-      list.sort(sorters[f.sort]);
+      list.sort((a,b)=>(f.sort.startsWith('value-')?Number(hasPrice(b))-Number(hasPrice(a)):0)||sorters[f.sort](a,b));
       main.querySelector('#count').textContent = `${list.length}개 표시 중`;
       main.querySelector('#items').innerHTML = list.length ? list.map((i) => itemCard(i, data)).join('')
         : '<div class="empty" style="grid-column:1/-1">조건에 맞는 아이템이 없어요.</div>';
@@ -319,11 +320,12 @@
         <div class="item__body">
           <div class="item__top"><span class="rarity">${esc(rarityLabel(i.rarity))}</span><span class="cat">${esc(i.category || '')}</span></div>
           <h3 class="item__name">${esc(i.name)}</h3>
-          <div class="item__value" title="${full(i.value)}">${compact(i.value)}${data.valueUnit ? ' ' + esc(data.valueUnit) : ''}${changeBadge(changeOf(i))}</div>
+          <div class="item__value" title="${hasPrice(i)?full(i.value):'시세 확인 중'}">${hasPrice(i)?compact(i.value):'시세 확인 중'}${hasPrice(i)&&data.valueUnit ? ' ' + esc(data.valueUnit) : ''}${changeBadge(changeOf(i))}</div>
+          ${!hasPrice(i)&&i.referenceValue?`<p class="item__note"><a href="${esc(i.referenceUrl)}" target="_blank" rel="noopener noreferrer">${esc(i.referenceSource)} 참고 ${full(i.referenceValue)}</a> · 비교 시세 미확정</p>`:''}
           ${i.note ? `<p class="item__note">${esc(i.note)}</p>` : ''}
           <div class="item__foot">
             <span class="demand" title="수요 ${dLabel}" aria-label="수요 ${dLabel}">${[1, 2, 3, 4, 5].map((n) => `<i class="${n <= d ? 'on' : ''}"></i>`).join('')}${dmax !== 5 ? `<b class="demand__num">${dLabel}</b>` : ''}</span>
-            <span class="trend trend--${esc(i.trend || 'stable')}" title="${trend[1]}">${trend[0]} ${trend[1]}</span>
+            <span class="trend trend--${esc(i.trend || 'stable')}" title="${hasPrice(i)?trend[1]:'비교 시세 확인 중'}">${hasPrice(i)?trend[0]+' '+trend[1]:'— 확인 중'}</span>
           </div>
         </div>
       </article>`;
@@ -336,7 +338,7 @@
     const ex = c[side].find((s) => s.id === itemId);
     if (ex) ex.qty = Math.min(999, ex.qty + 1); else c[side].push({ id: itemId, qty: 1 });
   }
-  const sideTotal = (list, data) => list.reduce((s, x) => s + (data.byId[x.id]?.value || 0) * x.qty, 0);
+  const sideTotal = (list, data) => list.some(x=>!hasPrice(data.byId[x.id]))?null:list.reduce((s,x)=>s+data.byId[x.id].value*x.qty,0);
 
   function renderCalc(meta, data) {
     const c = calcOf(meta.id);
@@ -361,14 +363,14 @@
       <section class="side side--${key}" aria-label="${title}">
         <div class="side__head">
           <div><div class="side__label">${label}</div><h2>${title}</h2></div>
-          <div class="side__total" title="${full(sideTotal(list, data))}">${compact(sideTotal(list, data))}</div>
+          <div class="side__total" title="${sideTotal(list,data)===null?'시세 확인 중':full(sideTotal(list,data))}">${sideTotal(list,data)===null?'시세 확인 중':compact(sideTotal(list,data))}</div>
         </div>
         <div class="slots">
           ${list.map((x) => {
             const it = data.byId[x.id];
             return `<div class="slot" data-rarity="${esc(it.rarity)}">
               <div class="slot__thumb">${thumb(it)}</div>
-              <div><div class="slot__name">${esc(it.name)}</div><div class="slot__val">${compact(it.value)} × ${x.qty} = ${compact(it.value * x.qty)}</div></div>
+              <div><div class="slot__name">${esc(it.name)}</div><div class="slot__val">${hasPrice(it)?compact(it.value)+' × '+x.qty+' = '+compact(it.value*x.qty):'시세 확인 중 × '+x.qty}</div></div>
               <div class="qty">
                 <button type="button" data-act="dec" data-side="${key}" data-id="${esc(x.id)}" aria-label="${esc(it.name)} 수량 줄이기">−</button>
                 <span>${x.qty}</span>
@@ -384,21 +386,23 @@
 
     const draw = () => {
       const give = sideTotal(c.give, data), get = sideTotal(c.get, data);
-      const diff = get - give;
+      const pending = give===null||get===null;
+      const diff = pending?null:get-give;
       const base = Math.max(give, get);
       let cls = 'empty', label = '대기 중', note = '양쪽에 아이템을 추가하세요';
-      if (give > 0 || get > 0) {
+      if (pending) { cls='empty';label='비교 보류';note='시세 확인 중인 아이템이 포함되어 있습니다'; }
+      else if (give > 0 || get > 0) {
         const ratio = base ? Math.abs(diff) / base : 0;
         if (ratio <= FAIR_RANGE) { cls = 'fair'; label = '비슷함'; note = `차이 ±${Math.round(FAIR_RANGE * 100)}% 이내`; }
         else if (diff > 0) { cls = 'win'; label = '이득'; note = `받는 쪽이 ${Math.round(ratio * 100)}% 더 높아요`; }
         else { cls = 'lose'; label = '손해'; note = `주는 쪽이 ${Math.round(ratio * 100)}% 더 높아요`; }
       }
-      const pct = give + get ? (get / (give + get)) * 100 : 50;
+      const pct = pending?50:give + get ? (get / (give + get)) * 100 : 50;
       main.querySelector('#calc').innerHTML = `
         ${sideHTML('give', '내가 주는 것', 'YOU GIVE')}
         <div class="verdict verdict--${cls}" aria-live="polite">
           <div class="verdict__badge">${label}</div>
-          <div class="verdict__diff">${diff > 0 ? '+' : ''}${compact(diff)}</div>
+          <div class="verdict__diff">${pending?'—':(diff>0?'+':'')+compact(diff)}</div>
           <div class="verdict__bar" aria-hidden="true"><span style="width:${pct}%"></span></div>
           <small>${note}</small>
         </div>
@@ -449,7 +453,7 @@
       <button class="pick" type="button" data-pick="${esc(i.id)}" data-rarity="${esc(i.rarity)}">
         <span class="slot__thumb">${thumb(i)}</span>
         <span><span class="slot__name" style="display:block">${esc(i.name)}</span><span class="rarity">${esc(rarityLabel(i.rarity))}</span> <span class="cat">${esc(i.category || '')}</span></span>
-        <span class="pick__val">${compact(i.value)}</span>
+        <span class="pick__val">${hasPrice(i)?compact(i.value):'시세 확인 중'}</span>
       </button>`).join('') : '<div class="empty">검색 결과가 없어요.</div>';
   }
   pickerSearch.addEventListener('input', drawPicker);

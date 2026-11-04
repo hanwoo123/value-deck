@@ -118,21 +118,26 @@ def update_game(data, quotes, timestamp):
         if result is None:
             continue
         candidate, kept = result
-        old = Decimal(str(item['value']))
-        if not old.is_finite() or old <= 0:
+        initial = item.get('value') is None and item.get('valueStatus') == 'pending'
+        old = None if initial else Decimal(str(item['value']))
+        if old is not None and (not old.is_finite() or old <= 0):
             continue
         # Round to the site's integer units BEFORE testing the threshold.
         new = candidate.quantize(Decimal('1'))
-        if abs(new-old) * 100 < old * 3:
+        if old is not None and abs(new-old) * 100 < old * 3:
             continue
-        item['prevValue'] = item['value']
+        if old is not None:
+            item['prevValue'] = item['value']
+        else:
+            item.pop('prevValue',None)
+            item['valueStatus'] = 'confirmed'
         item['value'] = int(new)
-        item['trend'] = 'up' if new > old else 'down'
+        item['trend'] = 'stable' if old is None else 'up' if new > old else 'down'
         item['valueUpdatedAt'] = timestamp
         comparison = f'{len(kept)}곳 비교 · 범위 {min(kept):,}~{max(kept):,}'
         note = re.sub(r'^\d+곳 비교 · 범위 [^·]+(?:·\s*)?', '', item.get('note', '')).strip()
         item['note'] = comparison + (f' · {note}' if note else '')
-        changes.append({'id': item['id'], 'oldValue': int(old), 'value': int(new),
+        changes.append({'id': item['id'], 'oldValue': int(old) if old is not None else None, 'value': int(new),
                         'sources': [{'id': sid, 'value': str(v)} for sid, v in evidence if v in kept]})
     if changes:
         data['updated'] = timestamp[:10]

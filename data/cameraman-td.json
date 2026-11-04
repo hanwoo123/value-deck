@@ -7,7 +7,8 @@
     "Godly",
     "Mythic",
     "Legendary",
-    "Epic"
+    "Epic",
+    "Unknown"
   ],
   "categories": [
     "유닛",
@@ -429,6 +430,54 @@
       "image": "images/cameraman-td/titan-speakerman.webp",
       "note": "3곳 비교 · 범위 5~5 · 안정",
       "prevValue": 4
+    },
+    {
+      "id": "hacked-cameraman",
+      "name": "Hacked Cameraman",
+      "category": "유닛",
+      "rarity": "Unknown",
+      "value": null,
+      "valueStatus": "pending",
+      "referenceValue": 1500,
+      "referenceSource": "VVX 공식",
+      "referenceUrl": "https://cameraman-td.vaultedvaluesx.com/cameraman-td/items/item-9677b268-b485-4a1c-8ef0-0bda49360aa5",
+      "demand": 7.0,
+      "trend": "stable",
+      "image": "images/cameraman-td/hacked-cameraman.webp",
+      "note": "공식 가치표 등급 미표기",
+      "addedAt": "2026-11-05T06:29:01+09:00"
+    },
+    {
+      "id": "pharaoh-cameraman",
+      "name": "Pharaoh Cameraman",
+      "category": "유닛",
+      "rarity": "Unknown",
+      "value": null,
+      "valueStatus": "pending",
+      "referenceValue": 5000,
+      "referenceSource": "VVX 공식",
+      "referenceUrl": "https://cameraman-td.vaultedvaluesx.com/cameraman-td/items/item-6aa5e431-3817-4466-80ca-7aa5e726c5c6",
+      "demand": 5.0,
+      "trend": "stable",
+      "image": "images/cameraman-td/pharaoh-cameraman.webp",
+      "note": "공식 가치표 등급 미표기",
+      "addedAt": "2026-11-05T06:29:01+09:00"
+    },
+    {
+      "id": "upgraded-titan-tv-man",
+      "name": "Upgraded Titan TV Man",
+      "category": "유닛",
+      "rarity": "Unknown",
+      "value": null,
+      "valueStatus": "pending",
+      "referenceValue": 3500,
+      "referenceSource": "VVX 공식",
+      "referenceUrl": "https://cameraman-td.vaultedvaluesx.com/cameraman-td/items/item-c08cd270-4526-4e39-8aa9-b1d84469ae5f",
+      "demand": 7.5,
+      "trend": "stable",
+      "image": "images/cameraman-td/upgraded-titan-tv-man.webp",
+      "note": "공식 가치표 등급 미표기",
+      "addedAt": "2026-11-05T06:29:01+09:00"
     }
   ]
 }

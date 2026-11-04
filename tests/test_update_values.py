@@ -123,6 +123,19 @@ class UpdateTests(unittest.TestCase):
             self.assertTrue(report['errors'])
             self.assertEqual(report['checks']['cameraman-td']['state'],'updated')
 
+    def test_pending_new_unit_waits_for_two_sources_then_gets_first_price(self):
+        data=self.game();item=data['items'][0];item.update(value=None,valueStatus='pending',referenceValue=1500)
+        original=copy.deepcopy(data)
+        self.assertEqual(u.update_game(data,{'official':{'a':D(1500)}},'2026-11-05'),[])
+        self.assertEqual(data,original)
+        changes=u.update_game(data,{'official':{'a':D(1500)},'community':{'a':D(1700)}},'2026-11-05')
+        self.assertEqual(item['value'],1600)
+        self.assertEqual(item['valueStatus'],'confirmed')
+        self.assertNotIn('prevValue',item)
+        self.assertEqual(item['trend'],'stable')
+        self.assertIsNone(changes[0]['oldValue'])
+        self.assertEqual(item['valueUpdatedAt'],'2026-11-05')
+
     def test_public_page_payloads_and_variants(self):
         from public_sources import page_array, parse_public
         def page(field, rows):

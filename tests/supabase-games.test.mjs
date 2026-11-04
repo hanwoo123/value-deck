@@ -20,4 +20,14 @@ const post=(await db.query(insert,['cameraman-td',ctd,'[{"id":"engineer-camerama
 await deny("update public.trade_posts set game_id='blox-fruits' where id=$1",[post.id]);await deny("insert into public.trade_game_items values('cameraman-td','fake')");
 await role(b);const newRoom=(await db.query('select public.start_trade_chat($1,$2) as id',[post.id,'Buyer'])).rows[0].id;assert.equal((await db.query('select game_id from public.trade_conversations where id=$1',[newRoom])).rows[0].game_id,'cameraman-td');
 assert.equal((await db.query('select * from public.trade_posts where game_id=$1',['blox-fruits'])).rows.length,1);assert.equal((await db.query('select * from public.trade_posts where game_id=$1',['cameraman-td'])).rows.length,1);
+await db.exec('reset role');
+await db.exec(sql('202611050001_ctd_new_units.sql'));await db.exec(sql('202611050001_ctd_new_units.sql'));
+assert.equal((await db.query('select count(*) as n from public.trade_posts')).rows[0].n,2);
+assert.equal((await db.query('select count(*) as n from public.trade_messages')).rows[0].n,1);
+await role(b);
+for(const id of ['hacked-cameraman','pharaoh-cameraman','upgraded-titan-tv-man']){
+ assert.equal((await db.query('select public.valid_game_trade_slots($1,$2::jsonb) as valid',['cameraman-td',JSON.stringify([{id,qty:1}])])).rows[0].valid,true);
+ assert.equal((await db.query('select public.valid_game_trade_slots($1,$2::jsonb) as valid',['blox-fruits',JSON.stringify([{id,qty:1}])])).rows[0].valid,false);
+}
+console.log('PASS new CTD allowlist, repeatability and post/message preservation');
 console.log('PASS both game catalogs, cross-game rejection, immutable game/author, legacy posts/chats preserved, game-aware conversations, migration repeatability');await db.close();
