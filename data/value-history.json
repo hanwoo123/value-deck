@@ -3120,5 +3120,113 @@
       }
     },
     "state": "ok"
+  },
+  {
+    "checkedAt": "2026-11-05T08:42:04+09:00",
+    "games": {
+      "blox-fruits": [
+        {
+          "id": "magnet",
+          "oldValue": 525000000,
+          "value": 505000000,
+          "sources": [
+            {
+              "id": "1",
+              "value": "280000000"
+            },
+            {
+              "id": "3",
+              "value": "540000000"
+            },
+            {
+              "id": "4",
+              "value": "505000000"
+            }
+          ]
+        }
+      ],
+      "cameraman-td": [
+        {
+          "id": "upgraded-titan-cameraman",
+          "oldValue": 3012,
+          "value": 2912,
+          "sources": [
+            {
+              "id": "1",
+              "value": "3300"
+            },
+            {
+              "id": "4",
+              "value": "2525"
+            }
+          ]
+        }
+      ]
+    },
+    "sources": {
+      "blox-fruits": {
+        "1": {
+          "name": "VVX",
+          "url": "https://blox-fruits.vaultedvaluesx.com/value-list"
+        },
+        "3": {
+          "name": "BloxFruitsValues.gg",
+          "url": "https://bloxfruitsvalues.gg/values"
+        },
+        "4": {
+          "name": "FantasyBlox",
+          "url": "https://fantasyblox.com/games/blox-fruits/values"
+        }
+      },
+      "cameraman-td": {
+        "1": {
+          "name": "VVX 공식",
+          "url": "https://cameraman-td.vaultedvaluesx.com/value-list"
+        },
+        "2": {
+          "name": "VVX 커뮤니티: Peak values ig",
+          "url": "https://cameraman-td.vaultedvaluesx.com/lists/peak-values-ig-7ad104da-cfda-812b-af36-2c33958f98fb"
+        },
+        "3": {
+          "name": "VVX 커뮤니티: CTD VALUE",
+          "url": "https://cameraman-td.vaultedvaluesx.com/lists/ctd-value-289bb241-c5a4-89b0-a927-d028ac7ae6de"
+        },
+        "4": {
+          "name": "VVX 커뮤니티: Second-Best Value List",
+          "url": "https://cameraman-td.vaultedvaluesx.com/lists/better-value-list-2dd620c2-6007-836b-afc1-05d2d3a8a344"
+        }
+      }
+    },
+    "checks": {
+      "blox-fruits": {
+        "state": "updated",
+        "successfulSources": 3,
+        "eligibleItems": 126,
+        "totalItems": 135,
+        "changedItems": 1
+      },
+      "cameraman-td": {
+        "state": "updated",
+        "successfulSources": 4,
+        "eligibleItems": 32,
+        "totalItems": 37,
+        "changedItems": 1
+      }
+    },
+    "errors": [],
+    "coverage": {
+      "blox-fruits": {
+        "1": 129,
+        "3": 122,
+        "4": 122
+      },
+      "cameraman-td": {
+        "1": 37,
+        "2": 23,
+        "3": 11,
+        "4": 32
+      }
+    },
+    "state": "ok"
   }
 ]

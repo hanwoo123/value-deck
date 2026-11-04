@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-04",
+  "updated": "2026-11-05",
   "valueUnit": "",
   "demandMax": 10,
   "source": "BLOX DECKS 기준값 · 공개 가치표 3개 중간값 (단위: 벨리)",
@@ -863,11 +863,13 @@
       "name": "Magnet",
       "category": "열매",
       "rarity": "Mythic",
-      "value": 525000000,
+      "value": 505000000,
       "demand": 7.0,
-      "trend": "stable",
+      "trend": "down",
       "image": "images/blox-fruits/magnet.webp",
-      "note": "6곳 비교 · 범위 280M~620M · 안정"
+      "note": "3곳 비교 · 범위 280,000,000~540,000,000 · 안정",
+      "prevValue": 525000000,
+      "valueUpdatedAt": "2026-11-05T08:42:04+09:00"
     },
     {
       "id": "flame-perm",

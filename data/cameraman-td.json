@@ -60,13 +60,13 @@
       "name": "upgraded Titan Cameraman",
       "category": "유닛",
       "rarity": "Godly",
-      "value": 3012,
-      "prevValue": 2800,
+      "value": 2912,
+      "prevValue": 3012,
       "demand": 9.0,
-      "trend": "up",
+      "trend": "down",
       "image": "images/cameraman-td/upgraded-titan-cameraman.webp",
-      "note": "2곳 비교 · 범위 2,525~3,500 · 고평가",
-      "valueUpdatedAt": "2026-11-04T00:08:48+09:00"
+      "note": "2곳 비교 · 범위 2,525~3,300 · 고평가",
+      "valueUpdatedAt": "2026-11-05T08:42:04+09:00"
     },
     {
       "id": "premium-pass",
