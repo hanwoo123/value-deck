@@ -20,14 +20,18 @@
    **웹훅 방식을 선택하는 경우:** 채널 설정 → 연동(Integrations) → 웹후크(Webhooks)에서 생성한 URL을 `DISCORD_WEBHOOK_URL`에 저장하고 `TRADE_WEBHOOK_SECRET`도 저장합니다. 이 경우 봇 토큰/채널 ID는 설정하지 않습니다. 봇 설정이 하나라도 있으면 봇 방식으로 검사하며 불완전한 설정으로 웹훅에 자동 우회하지 않습니다.
 
    `SUPABASE_URL`, `SUPABASE_SERVICE_ROLE_KEY`는 Edge Function 런타임이 제공하는 서버용 값입니다. 프런트엔드에 추가하거나 저장소에 복사하지 않습니다. 봇 토큰이나 웹훅 URL을 이전 대화에 올렸다면 반드시 재발급/재생성해서 폐기한 값이 사용되지 않도록 합니다.
-3. 이 저장소를 내려받은 PC에서 [Supabase CLI](https://supabase.com/docs/guides/cli/getting-started)를 준비하고 다음을 실행합니다. 관리 권한이 있는 본인 Supabase 계정으로 로그인합니다. 공개 publishable key만으로는 함수 배포가 불가능합니다. 이 채팅에는 Supabase 관리용 연결과 새 비밀 설정이 없어 아직 실제 배포/전송을 수행하지 않았습니다.
+3. **브라우저에서 배포하는 방법:** Supabase **Edge Functions → Functions → Deploy a new function → Via Editor**로 들어갑니다. 기본 코드를 지우고 [단일 배포 파일](trade-discord-dashboard.js)의 전체 내용을 붙여넣습니다. 함수 이름을 **`trade-discord`**로 지정해 배포합니다. 파일에는 실제 토큰이 없으며 2번의 Secrets에서 값을 읽습니다. 별도 카탈로그 파일이나 import 설정을 복사할 필요는 없습니다.
+
+   배포 후 함수 설정의 **Verify JWT / Verify JWT with legacy secret**을 끕니다. 함수 자체의 `x-trade-webhook-secret` 공유 비밀 검증을 사용하며, 그 값이 없거나 틀리면 DB와 Discord에 접근하기 전에 거부합니다. SQL 자동 실행은 JWT 헤더 대신 이 공유 비밀을 보냅니다. 켜 두면 자동 실행 요청이 함수에 도달하기 전에 401로 차단될 수 있습니다.
+
+   **CLI를 사용할 경우:** 저장소를 내려받은 PC에서 [Supabase CLI](https://supabase.com/docs/guides/cli/getting-started)를 준비하고 아래를 실행해도 됩니다. 공개 publishable key만으로 함수 배포가 되지는 않습니다. 관리 권한이 있는 본인 Supabase 계정으로 로그인합니다.
 
    ```sh
    supabase login
    supabase functions deploy trade-discord --project-ref xmdmwchfbroitizgtmlo --no-verify-jwt
    ```
 
-   JWT 검증 대신 2번의 서버 전용 공유 비밀 헤더를 검사합니다. 비밀이 없거나 맞지 않으면 DB/Discord 호출 전에 거부합니다. 함수는 요청에 들어온 거래글 내용을 전달하지 않고 DB의 전송 대기열과 공개 거래글을 다시 읽습니다.
+   두 배포 방식은 동일한 코드입니다. 이 채팅에는 Supabase 관리용 연결과 비밀 설정 읽기 권한이 없어 실제 함수 배포·전송을 대신 수행하지 않았습니다. 웹 편집기에 붙여넣는 파일을 갱신하려면 `npm run build:discord`를 실행합니다. 테스트가 원본과 단일 배포 파일의 일치를 검사합니다.
 4. Supabase **SQL Editor**에서 `migrations/202611050002_discord_outbox.sql` 전체를 실행합니다. 기존 글을 전송 대기열에 소급해서 넣지 않습니다. 이 시점 이후 생성한 새 글만 대기열에 들어갑니다. 사적 채팅 테이블에는 트리거를 설치하지 않습니다.
 5. Supabase **Vault**에 아래 두 항목을 생성합니다. 비밀값을 SQL 파일이나 채팅에 넣을 필요가 없습니다.
 

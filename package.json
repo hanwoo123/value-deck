@@ -1,6 +1,12 @@
 {
   "name": "value-deck",
   "private": true,
-  "scripts": {"test": "node --test tests/supabase-*.test.mjs tests/discord-*.test.mjs"},
-  "devDependencies": {"@electric-sql/pglite": "0.3.14"}
+  "scripts": {
+    "test": "node tools/build-discord.mjs --check && node --test tests/supabase-*.test.mjs tests/discord-*.test.mjs",
+    "build:discord": "node tools/build-discord.mjs"
+  },
+  "devDependencies": {
+    "@electric-sql/pglite": "0.3.14",
+    "esbuild": "0.25.12"
+  }
 }
