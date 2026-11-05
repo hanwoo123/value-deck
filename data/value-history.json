@@ -3784,5 +3784,741 @@
       }
     },
     "state": "ok"
+  },
+  {
+    "checkedAt": "2026-11-06T06:56:14+09:00",
+    "games": {
+      "blox-fruits": [
+        {
+          "id": "lightning-perm",
+          "oldValue": 2530000000,
+          "value": 2200000000,
+          "sources": [
+            {
+              "id": "3",
+              "value": "1840000000"
+            },
+            {
+              "id": "4",
+              "value": "2560000000.00"
+            }
+          ]
+        },
+        {
+          "id": "portal-perm",
+          "oldValue": 2800000000,
+          "value": 2400000000,
+          "sources": [
+            {
+              "id": "1",
+              "value": "3040000000"
+            },
+            {
+              "id": "3",
+              "value": "1700000000"
+            },
+            {
+              "id": "4",
+              "value": "2400000000.0"
+            }
+          ]
+        },
+        {
+          "id": "phoenix-perm",
+          "oldValue": 2400000000,
+          "value": 2720000000,
+          "sources": [
+            {
+              "id": "1",
+              "value": "3040000000"
+            },
+            {
+              "id": "4",
+              "value": "2400000000.0"
+            }
+          ]
+        },
+        {
+          "id": "sound-perm",
+          "oldValue": 2200000000,
+          "value": 2040000000,
+          "sources": [
+            {
+              "id": "1",
+              "value": "2720000000"
+            },
+            {
+              "id": "3",
+              "value": "1590000000"
+            },
+            {
+              "id": "4",
+              "value": "2040000000.00"
+            }
+          ]
+        },
+        {
+          "id": "buddha-perm",
+          "oldValue": 1910000000,
+          "value": 1800000000,
+          "sources": [
+            {
+              "id": "1",
+              "value": "2000000000"
+            },
+            {
+              "id": "3",
+              "value": "1330000000"
+            },
+            {
+              "id": "4",
+              "value": "1800000000.0"
+            }
+          ]
+        },
+        {
+          "id": "rubber-perm",
+          "oldValue": 1280000000,
+          "value": 1040000000,
+          "sources": [
+            {
+              "id": "1",
+              "value": "1040000000"
+            },
+            {
+              "id": "3",
+              "value": "740000000"
+            },
+            {
+              "id": "4",
+              "value": "1280000000.00"
+            }
+          ]
+        },
+        {
+          "id": "light-perm",
+          "oldValue": 1000000000,
+          "value": 960000000,
+          "sources": [
+            {
+              "id": "1",
+              "value": "960000000"
+            },
+            {
+              "id": "3",
+              "value": "700000000"
+            },
+            {
+              "id": "4",
+              "value": "1200000000.0"
+            }
+          ]
+        },
+        {
+          "id": "diamond-perm",
+          "oldValue": 900000000,
+          "value": 840000000,
+          "sources": [
+            {
+              "id": "1",
+              "value": "840000000"
+            },
+            {
+              "id": "3",
+              "value": "600000000"
+            },
+            {
+              "id": "4",
+              "value": "1030000000.00"
+            }
+          ]
+        },
+        {
+          "id": "eagle-perm",
+          "oldValue": 1000000000,
+          "value": 820000000,
+          "sources": [
+            {
+              "id": "1",
+              "value": "820000000"
+            },
+            {
+              "id": "3",
+              "value": "590000000"
+            },
+            {
+              "id": "4",
+              "value": "1000000000"
+            }
+          ]
+        },
+        {
+          "id": "dark-perm",
+          "oldValue": 920000000,
+          "value": 800000000,
+          "sources": [
+            {
+              "id": "1",
+              "value": "800000000"
+            },
+            {
+              "id": "3",
+              "value": "580000000"
+            },
+            {
+              "id": "4",
+              "value": "920000000"
+            }
+          ]
+        },
+        {
+          "id": "sand-perm",
+          "oldValue": 760000000,
+          "value": 720000000,
+          "sources": [
+            {
+              "id": "1",
+              "value": "720000000"
+            },
+            {
+              "id": "3",
+              "value": "520000000"
+            },
+            {
+              "id": "4",
+              "value": "800000000"
+            }
+          ]
+        },
+        {
+          "id": "ice-perm",
+          "oldValue": 680000000,
+          "value": 640000000,
+          "sources": [
+            {
+              "id": "1",
+              "value": "640000000"
+            },
+            {
+              "id": "3",
+              "value": "450000000"
+            },
+            {
+              "id": "4",
+              "value": "680000000"
+            }
+          ]
+        },
+        {
+          "id": "lightning",
+          "oldValue": 27500000,
+          "value": 22500000,
+          "sources": [
+            {
+              "id": "3",
+              "value": "20000000"
+            },
+            {
+              "id": "4",
+              "value": "25000000"
+            }
+          ]
+        }
+      ],
+      "cameraman-td": [
+        {
+          "id": "spider-tv",
+          "oldValue": 10000,
+          "value": 12000,
+          "sources": [
+            {
+              "id": "1",
+              "value": "12000"
+            }
+          ],
+          "reason": "price_basis_correction"
+        },
+        {
+          "id": "engineer-cameraman",
+          "oldValue": 5250,
+          "value": 7150,
+          "sources": [
+            {
+              "id": "1",
+              "value": "7150"
+            }
+          ],
+          "reason": "price_basis_correction"
+        },
+        {
+          "id": "chaos-cameraman",
+          "oldValue": 3275,
+          "value": 3750,
+          "sources": [
+            {
+              "id": "1",
+              "value": "3750"
+            }
+          ],
+          "reason": "price_basis_correction"
+        },
+        {
+          "id": "upgraded-titan-cameraman",
+          "oldValue": 2762,
+          "value": 3250,
+          "sources": [
+            {
+              "id": "1",
+              "value": "3250"
+            }
+          ],
+          "reason": "price_basis_correction"
+        },
+        {
+          "id": "premium-pass",
+          "oldValue": 1725,
+          "value": 1300,
+          "sources": [
+            {
+              "id": "1",
+              "value": "1300"
+            }
+          ],
+          "reason": "price_basis_correction"
+        },
+        {
+          "id": "executioner-tv-man",
+          "oldValue": 1675,
+          "value": 1200,
+          "sources": [
+            {
+              "id": "1",
+              "value": "1200"
+            }
+          ],
+          "reason": "price_basis_correction"
+        },
+        {
+          "id": "x2-candy",
+          "oldValue": 955,
+          "value": 925,
+          "sources": [
+            {
+              "id": "1",
+              "value": "925"
+            }
+          ],
+          "reason": "price_basis_correction"
+        },
+        {
+          "id": "2x-lucky",
+          "oldValue": 1100,
+          "value": 1200,
+          "sources": [
+            {
+              "id": "1",
+              "value": "1200"
+            }
+          ],
+          "reason": "price_basis_correction"
+        },
+        {
+          "id": "2x-money",
+          "oldValue": 1025,
+          "value": 1200,
+          "sources": [
+            {
+              "id": "1",
+              "value": "1200"
+            }
+          ],
+          "reason": "price_basis_correction"
+        },
+        {
+          "id": "headless-tv-man",
+          "oldValue": 575,
+          "value": 500,
+          "sources": [
+            {
+              "id": "1",
+              "value": "500"
+            }
+          ],
+          "reason": "price_basis_correction"
+        },
+        {
+          "id": "large-scientist-cameraman",
+          "oldValue": 100,
+          "value": 475,
+          "sources": [
+            {
+              "id": "1",
+              "value": "475"
+            }
+          ],
+          "reason": "price_basis_correction"
+        },
+        {
+          "id": "tv-woman",
+          "oldValue": 582,
+          "value": 240,
+          "sources": [
+            {
+              "id": "1",
+              "value": "240"
+            }
+          ],
+          "reason": "price_basis_correction"
+        },
+        {
+          "id": "cinemaman-titan",
+          "oldValue": 345,
+          "value": 315,
+          "sources": [
+            {
+              "id": "1",
+              "value": "315"
+            }
+          ],
+          "reason": "price_basis_correction"
+        },
+        {
+          "id": "jetpack-cameraman",
+          "oldValue": 352,
+          "value": 570,
+          "sources": [
+            {
+              "id": "1",
+              "value": "570"
+            }
+          ],
+          "reason": "price_basis_correction"
+        },
+        {
+          "id": "large-prototype-titan",
+          "oldValue": 342,
+          "value": 235,
+          "sources": [
+            {
+              "id": "1",
+              "value": "235"
+            }
+          ],
+          "reason": "price_basis_correction"
+        },
+        {
+          "id": "glitch-plungerman",
+          "oldValue": 290,
+          "value": 235,
+          "sources": [
+            {
+              "id": "1",
+              "value": "235"
+            }
+          ],
+          "reason": "price_basis_correction"
+        },
+        {
+          "id": "videotaper-titan",
+          "oldValue": 250,
+          "value": 225,
+          "sources": [
+            {
+              "id": "1",
+              "value": "225"
+            }
+          ],
+          "reason": "price_basis_correction"
+        },
+        {
+          "id": "upgraded-titan-speakerman",
+          "oldValue": 275,
+          "value": 160,
+          "sources": [
+            {
+              "id": "1",
+              "value": "160"
+            }
+          ],
+          "reason": "price_basis_correction"
+        },
+        {
+          "id": "scientist-crate",
+          "oldValue": 135,
+          "value": 250,
+          "sources": [
+            {
+              "id": "1",
+              "value": "250"
+            }
+          ],
+          "reason": "price_basis_correction"
+        },
+        {
+          "id": "spider-crate",
+          "oldValue": 75,
+          "value": 70,
+          "sources": [
+            {
+              "id": "1",
+              "value": "70"
+            }
+          ],
+          "reason": "price_basis_correction"
+        },
+        {
+          "id": "pumpkin-farmer",
+          "oldValue": 59,
+          "value": 40,
+          "sources": [
+            {
+              "id": "1",
+              "value": "40"
+            }
+          ],
+          "reason": "price_basis_correction"
+        },
+        {
+          "id": "scientist-cameraman",
+          "oldValue": 46,
+          "value": 50,
+          "sources": [
+            {
+              "id": "1",
+              "value": "50"
+            }
+          ],
+          "reason": "price_basis_correction"
+        },
+        {
+          "id": "camera-repair-drone",
+          "oldValue": 20,
+          "value": 25,
+          "sources": [
+            {
+              "id": "1",
+              "value": "25"
+            }
+          ],
+          "reason": "price_basis_correction"
+        },
+        {
+          "id": "woman-crate",
+          "oldValue": 18,
+          "value": 10,
+          "sources": [
+            {
+              "id": "1",
+              "value": "10"
+            }
+          ],
+          "reason": "price_basis_correction"
+        },
+        {
+          "id": "camera-spider",
+          "oldValue": 40,
+          "value": 15,
+          "sources": [
+            {
+              "id": "1",
+              "value": "15"
+            }
+          ],
+          "reason": "price_basis_correction"
+        },
+        {
+          "id": "dragon-cameraman",
+          "oldValue": 15,
+          "value": 5,
+          "sources": [
+            {
+              "id": "1",
+              "value": "5"
+            }
+          ],
+          "reason": "price_basis_correction"
+        },
+        {
+          "id": "halloween-crate",
+          "oldValue": 18,
+          "value": 15,
+          "sources": [
+            {
+              "id": "1",
+              "value": "15"
+            }
+          ],
+          "reason": "price_basis_correction"
+        },
+        {
+          "id": "speakerwoman",
+          "oldValue": 4,
+          "value": 3,
+          "sources": [
+            {
+              "id": "1",
+              "value": "3"
+            }
+          ],
+          "reason": "price_basis_correction"
+        },
+        {
+          "id": "ninja-cameraman",
+          "oldValue": 5,
+          "value": 2,
+          "sources": [
+            {
+              "id": "1",
+              "value": "2"
+            }
+          ],
+          "reason": "price_basis_correction"
+        },
+        {
+          "id": "titan-cameraman",
+          "oldValue": 5,
+          "value": 2,
+          "sources": [
+            {
+              "id": "1",
+              "value": "2"
+            }
+          ],
+          "reason": "price_basis_correction"
+        },
+        {
+          "id": "laser-cameraman-car",
+          "oldValue": 5,
+          "value": 2,
+          "sources": [
+            {
+              "id": "1",
+              "value": "2"
+            }
+          ],
+          "reason": "price_basis_correction"
+        },
+        {
+          "id": "titan-tv-man",
+          "oldValue": 5,
+          "value": 2,
+          "sources": [
+            {
+              "id": "1",
+              "value": "2"
+            }
+          ],
+          "reason": "price_basis_correction"
+        },
+        {
+          "id": "titan-speakerman",
+          "oldValue": 5,
+          "value": 1,
+          "sources": [
+            {
+              "id": "1",
+              "value": "1"
+            }
+          ],
+          "reason": "price_basis_correction"
+        },
+        {
+          "id": "hacked-cameraman",
+          "oldValue": null,
+          "value": 1500,
+          "sources": [
+            {
+              "id": "1",
+              "value": "1500"
+            }
+          ],
+          "reason": "price_basis_correction"
+        },
+        {
+          "id": "upgraded-titan-tv-man",
+          "oldValue": null,
+          "value": 4000,
+          "sources": [
+            {
+              "id": "1",
+              "value": "4000"
+            }
+          ],
+          "reason": "price_basis_correction"
+        }
+      ]
+    },
+    "sources": {
+      "blox-fruits": {
+        "1": {
+          "name": "VVX",
+          "url": "https://blox-fruits.vaultedvaluesx.com/value-list"
+        },
+        "3": {
+          "name": "BloxFruitsValues.gg",
+          "url": "https://bloxfruitsvalues.gg/values"
+        },
+        "4": {
+          "name": "FantasyBlox",
+          "url": "https://fantasyblox.com/games/blox-fruits/values"
+        }
+      },
+      "cameraman-td": {
+        "1": {
+          "name": "VVX 기본 가치표",
+          "url": "https://cameraman-td.vaultedvaluesx.com/value-list"
+        },
+        "2": {
+          "name": "VVX 커뮤니티: Peak values ig",
+          "url": "https://cameraman-td.vaultedvaluesx.com/lists/peak-values-ig-7ad104da-cfda-812b-af36-2c33958f98fb"
+        },
+        "3": {
+          "name": "VVX 커뮤니티: CTD VALUE",
+          "url": "https://cameraman-td.vaultedvaluesx.com/lists/ctd-value-289bb241-c5a4-89b0-a927-d028ac7ae6de"
+        },
+        "4": {
+          "name": "VVX 커뮤니티: Second-Best Value List",
+          "url": "https://cameraman-td.vaultedvaluesx.com/lists/better-value-list-2dd620c2-6007-836b-afc1-05d2d3a8a344"
+        }
+      }
+    },
+    "checks": {
+      "blox-fruits": {
+        "state": "updated",
+        "successfulSources": 3,
+        "eligibleItems": 126,
+        "totalItems": 135,
+        "changedItems": 13,
+        "pricePolicy": {
+          "mode": "consensus"
+        }
+      },
+      "cameraman-td": {
+        "state": "updated",
+        "successfulSources": 4,
+        "eligibleItems": 36,
+        "totalItems": 37,
+        "changedItems": 35,
+        "pricePolicy": {
+          "mode": "primary",
+          "source_id": "1"
+        }
+      }
+    },
+    "errors": [],
+    "coverage": {
+      "blox-fruits": {
+        "1": 129,
+        "3": 122,
+        "4": 122
+      },
+      "cameraman-td": {
+        "1": 36,
+        "2": 23,
+        "3": 11,
+        "4": 32
+      }
+    },
+    "state": "ok"
   }
 ]

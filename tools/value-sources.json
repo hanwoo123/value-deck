@@ -77,7 +77,7 @@
       "sources": [
         {
           "id": "1",
-          "name": "VVX 공식",
+          "name": "VVX 기본 가치표",
           "url": "https://cameraman-td.vaultedvaluesx.com/value-list",
           "verified": true,
           "item_names": {},
@@ -131,7 +131,11 @@
           "enabled": false,
           "reason": "공개 페이지 또는 단위를 검증하지 못해 비교에서 제외"
         }
-      ]
+      ],
+      "price_policy": {
+        "mode": "primary",
+        "source_id": "1"
+      }
     }
   }
 }

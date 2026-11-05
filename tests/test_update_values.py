@@ -52,6 +52,57 @@ class UpdateTests(unittest.TestCase):
         self.assertEqual(u.update_game(data, {'x': {'a': D(110)}, 'y': {'a': D(110)}}, '2026-11-03'), [])
         self.assertEqual(data, original)
 
+    def test_primary_corrects_large_scientist_and_ignores_community_votes(self):
+        data = self.game(100)
+        policy = {'mode': 'primary', 'source_id': 'official'}
+        quotes = {'official': {'a': D(475)}, 'peak': {'a': D(100)},
+                  'ctd': {'a': D(100)}, 'second': {'a': D(580)}}
+        changes = u.update_game(data, quotes, '2026-11-06', policy)
+        item = data['items'][0]
+        self.assertEqual(item['value'], 475)
+        self.assertEqual(changes[0]['sources'], [{'id': 'official', 'value': '475'}])
+        self.assertNotIn('곳 비교', item['note'])
+        quotes['peak']['a'] = D(1)
+        self.assertEqual(u.update_game(data, quotes, '2026-11-07', policy), [])
+        self.assertEqual(item['value'], 475)
+        quotes['official']['a'] = D(480)
+        self.assertEqual(u.update_game(data, quotes, '2026-11-08', policy), [])
+        self.assertEqual(item['value'], 475)
+        quotes['official']['a'] = D(500)
+        self.assertEqual(u.update_game(data, quotes, '2026-11-09', policy)[0]['value'], 500)
+
+    def test_primary_resolves_single_quote_and_clears_non_numeric_old_reference(self):
+        policy = {'mode': 'primary', 'source_id': 'official'}
+        data = self.game(None)
+        data['items'][0].update(valueStatus='pending', referenceValue=3500)
+        u.update_game(data, {'official': {'a': D(4000)}}, '2026-11-06', policy)
+        self.assertEqual(data['items'][0]['value'], 4000)
+        self.assertEqual(data['items'][0]['referenceValue'], 4000)
+        changes = u.update_game(data, {'official': {}, 'community': {'a': D(5000)}}, '2026-11-07', policy)
+        self.assertIsNone(data['items'][0]['value'])
+        self.assertNotIn('referenceValue', data['items'][0])
+        self.assertNotIn('prevValue', data['items'][0])
+        self.assertIsNone(changes[0]['value'])
+
+    def test_missing_primary_blocks_instead_of_falling_back_to_community(self):
+        config = {'games': {gid: {'sources': [
+            {'id': str(i), 'url': f'https://example.com/{gid}/{i}', 'verified': True,
+             'parser': 'table', 'table_index': 0, 'name_header': 'Name', 'value_header': 'Value'}
+            for i in range(3)]} for gid in ('blox-fruits', 'cameraman-td')}}
+        config['games']['cameraman-td']['price_policy'] = {'mode': 'primary', 'source_id': '0'}
+        def fetch(source):
+            if source['id'] == '0': raise OSError('offline')
+            return {'a': D(110)}
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory); (root / 'data').mkdir()
+            for gid in config['games']: (root / 'data' / f'{gid}.json').write_text(json.dumps(self.game()))
+            with patch.object(u, 'fetch_source', side_effect=fetch): report = u.run(root, config, write=True)
+            self.assertEqual(report['checks']['cameraman-td']['state'], 'blocked')
+            self.assertEqual(json.loads((root / 'data/cameraman-td.json').read_text())['items'][0]['value'], 100)
+            self.assertEqual(report['checks']['blox-fruits']['state'], 'updated')
+        config['games']['cameraman-td']['price_policy']['source_id'] = 'missing'
+        with self.assertRaises(ValueError): u.validate_config(config)
+
     def test_numbers_and_ambiguous_prices(self):
         self.assertEqual(u.number('1.5B'), D(1500000000))
         self.assertEqual(u.number('1,200'), D(1200))

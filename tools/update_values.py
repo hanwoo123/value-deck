@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Read configured public value-list pages; update only verified >=3% changes."""
+"""Read public value-list pages; apply each game's verified pricing policy."""
 import argparse
 from datetime import datetime
 from decimal import Decimal, InvalidOperation
@@ -110,12 +110,30 @@ def consensus(values):
     return (median(kept), kept) if len(kept) >= 2 else None
 
 
-def update_game(data, quotes, timestamp):
+def select_prices(evidence, policy=None):
+    if policy and policy.get('mode') == 'primary':
+        values = [v for sid, v in evidence if sid == policy['source_id']]
+        return (values[0], values) if values else None
+    return consensus([v for _, v in evidence])
+
+
+def update_game(data, quotes, timestamp, policy=None):
     changes = []
     for item in data['items']:
         evidence = [(sid, prices[item['id']]) for sid, prices in quotes.items() if item['id'] in prices]
-        result = consensus([v for _, v in evidence])
+        primary = policy and policy.get('mode') == 'primary'
+        basis = 'primary:' + policy['source_id'] if primary else 'consensus'
+        result = select_prices(evidence, policy)
         if result is None:
+            if primary:
+                old = item.get('value')
+                item.update(value=None, valueStatus='pending', valueBasis=basis, trend='stable',
+                            note='VVX 기준표에 확정 숫자 시세 없음')
+                item.pop('prevValue', None)
+                item.pop('referenceValue', None)
+                if old is not None:
+                    item['valueUpdatedAt'] = timestamp
+                    changes.append({'id': item['id'], 'oldValue': old, 'value': None, 'sources': []})
             continue
         candidate, kept = result
         initial = item.get('value') is None and item.get('valueStatus') == 'pending'
@@ -124,7 +142,13 @@ def update_game(data, quotes, timestamp):
             continue
         # Round to the site's integer units BEFORE testing the threshold.
         new = candidate.quantize(Decimal('1'))
-        if old is not None and abs(new-old) * 100 < old * 3:
+        basis_changed = primary and item.get('valueBasis') != basis
+        if primary:
+            item.update(valueBasis=basis, valueStatus='confirmed',
+                        note=f'VVX 기본 가치표 기준 · {int(new):,} 젬')
+            if 'referenceValue' in item:
+                item['referenceValue'] = int(new)
+        if old is not None and (new == old or (not basis_changed and abs(new-old) * 100 < old * 3)):
             continue
         if old is not None:
             item['prevValue'] = item['value']
@@ -134,11 +158,12 @@ def update_game(data, quotes, timestamp):
         item['value'] = int(new)
         item['trend'] = 'stable' if old is None else 'up' if new > old else 'down'
         item['valueUpdatedAt'] = timestamp
-        comparison = f'{len(kept)}곳 비교 · 범위 {min(kept):,}~{max(kept):,}'
-        note = re.sub(r'^\d+곳 비교 · 범위 [^·]+(?:·\s*)?', '', item.get('note', '')).strip()
-        item['note'] = comparison + (f' · {note}' if note else '')
+        if not primary:
+            comparison = f'{len(kept)}곳 비교 · 범위 {min(kept):,}~{max(kept):,}'
+            note = re.sub(r'^\d+곳 비교 · 범위 [^·]+(?:·\s*)?', '', item.get('note', '')).strip()
+            item['note'] = comparison + (f' · {note}' if note else '')
         changes.append({'id': item['id'], 'oldValue': int(old) if old is not None else None, 'value': int(new),
-                        'sources': [{'id': sid, 'value': str(v)} for sid, v in evidence if v in kept]})
+                        'sources': [{'id': sid, 'value': str(v)} for sid, v in evidence if v in kept and (not primary or sid == policy['source_id'])]})
     if changes:
         data['updated'] = timestamp[:10]
     return changes
@@ -148,8 +173,14 @@ def validate_config(config):
     errors = []
     for gid in ('blox-fruits', 'cameraman-td'):
         sources = [s for s in config['games'][gid]['sources'] if s.get('enabled', True)]
-        if len(sources) < 2 or len({s['id'] for s in sources}) != len(sources):
-            errors.append(f'{gid}: need at least two distinct source IDs')
+        policy = config['games'][gid].get('price_policy', {'mode': 'consensus'})
+        primary = policy.get('mode') == 'primary'
+        if policy.get('mode') not in ('primary', 'consensus'):
+            errors.append(f'{gid}: unknown price policy')
+        if primary and policy.get('source_id') not in {s['id'] for s in sources}:
+            errors.append(f'{gid}: enabled primary source missing')
+        if len(sources) < (1 if primary else 2) or len({s['id'] for s in sources}) != len(sources):
+            errors.append(f'{gid}: insufficient or duplicate enabled source IDs')
         urls = []
         for source in sources:
             url = urlparse(source.get('url') or '')
@@ -196,6 +227,8 @@ def run(root, config, write=False):
         for gid, settings in config['games'].items()}, 'checks': {}, 'errors': [], 'coverage': {}}
     for gid, settings in config['games'].items():
         data = json.loads((root / 'data' / f'{gid}.json').read_text())
+        original = json.dumps(data, sort_keys=True)
+        policy = settings.get('price_policy')
         quotes = {}
         for source in settings['sources']:
             if not source.get('enabled', True):
@@ -212,20 +245,21 @@ def run(root, config, write=False):
                 quotes[source['id']] = mapped
             except (ValueError, KeyError, IndexError, OSError, InvalidOperation, subprocess.CalledProcessError) as error:
                 report['errors'].append({'game': gid, 'source': source['id'], 'name': source.get('name', source['id']), 'error': source_error(error)})
-        eligible = sum(consensus([prices[item['id']] for prices in quotes.values() if item['id'] in prices]) is not None for item in data['items'])
-        blocked = len(quotes) < 2 or eligible == 0
-        changes = [] if blocked else update_game(data, quotes, timestamp)
+        eligible = sum(select_prices([(sid, prices[item['id']]) for sid, prices in quotes.items() if item['id'] in prices], policy) is not None for item in data['items'])
+        primary = policy and policy.get('mode') == 'primary'
+        blocked = (policy['source_id'] not in quotes if primary else len(quotes) < 2) or eligible == 0
+        changes = [] if blocked else update_game(data, quotes, timestamp, policy)
         report['games'][gid] = changes
         report['coverage'][gid] = {sid: len(prices) for sid, prices in quotes.items()}
         report['checks'][gid] = {'state': 'blocked' if blocked else 'updated' if changes else 'unchanged',
-            'successfulSources': len(quotes), 'eligibleItems': eligible, 'totalItems': len(data['items']), 'changedItems': len(changes)}
-        if changes:
+            'pricePolicy': policy or {'mode': 'consensus'}, 'successfulSources': len(quotes), 'eligibleItems': eligible, 'totalItems': len(data['items']), 'changedItems': len(changes)}
+        if json.dumps(data, sort_keys=True) != original:
             pending[root / 'data' / f'{gid}.json'] = data
     blocked = any(c['state'] == 'blocked' for c in report['checks'].values())
     report['state'] = 'failed' if blocked else 'degraded' if report['errors'] else 'ok'
     if write:
-        # Publish only changes with at least two valid quotes; never reuse stale source prices.
-        if pending:
+        # Publish only verified policy results; never fall back to stale source prices.
+        if any(report['games'].values()):
             history_path = root / 'data' / 'value-history.json'
             history = json.loads(history_path.read_text()) if history_path.exists() else []
             pending[history_path] = history + [report]

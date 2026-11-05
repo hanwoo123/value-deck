@@ -456,13 +456,13 @@
       "name": "Lightning (영구)",
       "category": "영구 열매",
       "rarity": "Legendary",
-      "value": 2530000000,
+      "value": 2200000000,
       "demand": 8.0,
       "trend": "down",
       "image": "images/blox-fruits/lightning.webp",
-      "note": "2곳 비교 · 범위 2,500,000,000~2,560,000,000.00",
-      "prevValue": 2650000000,
-      "valueUpdatedAt": "2026-11-04T18:17:57+09:00"
+      "note": "2곳 비교 · 범위 1,840,000,000~2,560,000,000.00",
+      "prevValue": 2530000000,
+      "valueUpdatedAt": "2026-11-06T06:56:14+09:00"
     },
     {
       "id": "red-lightning",
@@ -482,38 +482,39 @@
       "name": "Portal (영구)",
       "category": "영구 열매",
       "rarity": "Legendary",
-      "value": 2800000000,
+      "value": 2400000000,
       "demand": 9.0,
-      "trend": "up",
+      "trend": "down",
       "image": "images/blox-fruits/portal.webp",
-      "note": "3곳 비교 · 범위 2,640,000,000.00~3,040,000,000",
-      "prevValue": 2380000000
+      "note": "3곳 비교 · 범위 1,700,000,000~3,040,000,000",
+      "prevValue": 2800000000,
+      "valueUpdatedAt": "2026-11-06T06:56:14+09:00"
     },
     {
       "id": "phoenix-perm",
       "name": "Phoenix (영구)",
       "category": "영구 열매",
       "rarity": "Legendary",
-      "value": 2400000000,
+      "value": 2720000000,
       "demand": 3.0,
-      "trend": "down",
+      "trend": "up",
       "image": "images/blox-fruits/phoenix.webp",
-      "note": "3곳 비교 · 범위 2,300,000,000~3,040,000,000",
-      "prevValue": 2640000000,
-      "valueUpdatedAt": "2026-11-04T18:17:57+09:00"
+      "note": "2곳 비교 · 범위 2,400,000,000.0~3,040,000,000",
+      "prevValue": 2400000000,
+      "valueUpdatedAt": "2026-11-06T06:56:14+09:00"
     },
     {
       "id": "sound-perm",
       "name": "Sound (영구)",
       "category": "영구 열매",
       "rarity": "Legendary",
-      "value": 2200000000,
+      "value": 2040000000,
       "demand": 3.5,
       "trend": "down",
       "image": "images/blox-fruits/sound.webp",
-      "note": "3곳 비교 · 범위 2,040,000,000.00~2,720,000,000",
-      "prevValue": 2290000000,
-      "valueUpdatedAt": "2026-11-04T18:17:57+09:00"
+      "note": "3곳 비교 · 범위 1,590,000,000~2,720,000,000",
+      "prevValue": 2200000000,
+      "valueUpdatedAt": "2026-11-06T06:56:14+09:00"
     },
     {
       "id": "dog-blade",
@@ -568,13 +569,13 @@
       "name": "Buddha (영구)",
       "category": "영구 열매",
       "rarity": "Legendary",
-      "value": 1910000000,
+      "value": 1800000000,
       "demand": 10.0,
       "trend": "down",
       "image": "images/blox-fruits/buddha.webp",
-      "note": "3곳 비교 · 범위 1,800,000,000.0~2,000,000,000",
-      "prevValue": 1980000000,
-      "valueUpdatedAt": "2026-11-04T18:17:57+09:00"
+      "note": "3곳 비교 · 범위 1,330,000,000~2,000,000,000",
+      "prevValue": 1910000000,
+      "valueUpdatedAt": "2026-11-06T06:56:14+09:00"
     },
     {
       "id": "love-perm",
@@ -680,37 +681,39 @@
       "name": "Rubber (영구)",
       "category": "영구 열매",
       "rarity": "Rare",
-      "value": 1280000000,
+      "value": 1040000000,
       "demand": 3.0,
       "trend": "down",
       "image": "images/blox-fruits/rubber.webp",
-      "note": "3곳 비교 · 범위 1,040,000,000~1,740,000,000",
-      "prevValue": 1400000000,
-      "valueUpdatedAt": "2026-11-04T18:17:57+09:00"
+      "note": "3곳 비교 · 범위 740,000,000~1,280,000,000.00",
+      "prevValue": 1280000000,
+      "valueUpdatedAt": "2026-11-06T06:56:14+09:00"
     },
     {
       "id": "light-perm",
       "name": "Light (영구)",
       "category": "영구 열매",
       "rarity": "Rare",
-      "value": 1000000000,
+      "value": 960000000,
       "demand": 7.0,
-      "trend": "up",
+      "trend": "down",
       "image": "images/blox-fruits/light.webp",
-      "note": "3곳 비교 · 범위 960,000,000~1,320,000,000.00",
-      "prevValue": 915000000
+      "note": "3곳 비교 · 범위 700,000,000~1,200,000,000.0",
+      "prevValue": 1000000000,
+      "valueUpdatedAt": "2026-11-06T06:56:14+09:00"
     },
     {
       "id": "diamond-perm",
       "name": "Diamond (영구)",
       "category": "영구 열매",
       "rarity": "Uncommon",
-      "value": 900000000,
+      "value": 840000000,
       "demand": 3.0,
-      "trend": "up",
+      "trend": "down",
       "image": "images/blox-fruits/diamond.webp",
-      "note": "3곳 비교 · 범위 840,000,000~1,160,000,000.00",
-      "prevValue": 780000000
+      "note": "3곳 비교 · 범위 600,000,000~1,030,000,000.00",
+      "prevValue": 900000000,
+      "valueUpdatedAt": "2026-11-06T06:56:14+09:00"
     },
     {
       "id": "celestial-pain",
@@ -729,26 +732,26 @@
       "name": "Eagle (영구)",
       "category": "영구 열매",
       "rarity": "Uncommon",
-      "value": 1000000000,
+      "value": 820000000,
       "demand": 3.0,
       "trend": "down",
       "image": "images/blox-fruits/eagle.webp",
-      "note": "3곳 비교 · 범위 820,000,000~1,300,000,000",
-      "prevValue": 1070000000,
-      "valueUpdatedAt": "2026-11-04T18:17:57+09:00"
+      "note": "3곳 비교 · 범위 590,000,000~1,000,000,000",
+      "prevValue": 1000000000,
+      "valueUpdatedAt": "2026-11-06T06:56:14+09:00"
     },
     {
       "id": "dark-perm",
       "name": "Dark (영구)",
       "category": "영구 열매",
       "rarity": "Uncommon",
-      "value": 920000000,
+      "value": 800000000,
       "demand": 3.0,
       "trend": "down",
       "image": "images/blox-fruits/dark.webp",
-      "note": "3곳 비교 · 범위 800,000,000~1,260,000,000",
-      "prevValue": 1020000000,
-      "valueUpdatedAt": "2026-11-04T18:17:57+09:00"
+      "note": "3곳 비교 · 범위 580,000,000~920,000,000",
+      "prevValue": 920000000,
+      "valueUpdatedAt": "2026-11-06T06:56:14+09:00"
     },
     {
       "id": "sadness-pain",
@@ -767,13 +770,13 @@
       "name": "Sand (영구)",
       "category": "영구 열매",
       "rarity": "Uncommon",
-      "value": 760000000,
+      "value": 720000000,
       "demand": 2.0,
       "trend": "down",
       "image": "images/blox-fruits/sand.webp",
-      "note": "2곳 비교 · 범위 720,000,000~800,000,000",
-      "prevValue": 800000000,
-      "valueUpdatedAt": "2026-11-04T18:17:57+09:00"
+      "note": "3곳 비교 · 범위 520,000,000~800,000,000",
+      "prevValue": 760000000,
+      "valueUpdatedAt": "2026-11-06T06:56:14+09:00"
     },
     {
       "id": "legendary-scrolls",
@@ -793,13 +796,13 @@
       "name": "Ice (영구)",
       "category": "영구 열매",
       "rarity": "Uncommon",
-      "value": 680000000,
+      "value": 640000000,
       "demand": 6.0,
       "trend": "down",
       "image": "images/blox-fruits/ice.webp",
-      "note": "3곳 비교 · 범위 640,000,000~900,000,000",
-      "prevValue": 740000000,
-      "valueUpdatedAt": "2026-11-04T18:17:57+09:00"
+      "note": "3곳 비교 · 범위 450,000,000~680,000,000",
+      "prevValue": 680000000,
+      "valueUpdatedAt": "2026-11-06T06:56:14+09:00"
     },
     {
       "id": "kitsune",
@@ -1186,12 +1189,13 @@
       "name": "Lightning",
       "category": "열매",
       "rarity": "Legendary",
-      "value": 27500000,
+      "value": 22500000,
       "demand": 6.0,
-      "trend": "up",
+      "trend": "down",
       "image": "images/blox-fruits/lightning.webp",
-      "note": "2곳 비교 · 범위 25,000,000~30,000,000 · 안정",
-      "prevValue": 22500000
+      "note": "2곳 비교 · 범위 20,000,000~25,000,000 · 안정",
+      "prevValue": 27500000,
+      "valueUpdatedAt": "2026-11-06T06:56:14+09:00"
     },
     {
       "id": "scarlet-ghost",

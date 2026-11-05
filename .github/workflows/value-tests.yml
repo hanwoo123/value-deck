@@ -1,0 +1,17 @@
+name: Value update tests
+on:
+  push:
+    paths: ['tools/update_values.py', 'tools/public_sources.py', 'tools/value-sources.json', 'tests/test_update_values.py', '.github/workflows/value-tests.yml']
+  pull_request:
+    paths: ['tools/update_values.py', 'tools/public_sources.py', 'tools/value-sources.json', 'tests/test_update_values.py', '.github/workflows/value-tests.yml']
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m unittest discover -s tests -v
