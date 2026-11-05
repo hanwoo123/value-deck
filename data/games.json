@@ -9,7 +9,7 @@
       "dataFile": "data/blox-fruits.json",
       "cover": "images/blox-fruits/cover.png",
       "accent": "#3da5ff",
-      "description": "열매·영구 열매·한정 아이템·게임패스 (단위: 벨리)"
+      "description": "등급·분류별 임시 비교점수 · 실제 거래가격 아님"
     },
     {
       "id": "cameraman-td",
@@ -18,7 +18,7 @@
       "dataFile": "data/cameraman-td.json",
       "cover": "images/cameraman-td/cover.png",
       "accent": "#ff4d6d",
-      "description": "유닛·게임패스·상자 가치 (단위: 젬)"
+      "description": "등급·분류별 임시 비교점수 · 실제 거래가격 아님"
     },
     {
       "id": "sample-pirate",

@@ -1,4 +1,4 @@
-/* VALUE DECK — 정적 시세표 + 거래 계산기
+/* VALUE DECK — 정적 참고점수표 + 거래 계산기
  * 데이터: data/games.json (게임 목록) + 게임별 JSON (아이템)
  */
 (() => {
@@ -48,7 +48,7 @@
   function changeBadge(pct) {
     if (pct == null) return '';
     const up = pct > 0;
-    return `<span class="delta delta--${up ? 'up' : 'down'}" title="이전 시세 대비">${up ? '+' : ''}${(Math.round(pct * 10) / 10).toFixed(1)}%</span>`;
+    return `<span class="delta delta--${up ? 'up' : 'down'}" title="이전 점수 대비">${up ? '+' : ''}${(Math.round(pct * 10) / 10).toFixed(1)}%</span>`;
   }
   const hasPrice = item => typeof item?.value === 'number' && Number.isFinite(item.value) && item.value > 0;
   const rarityLabel = (r) => r === 'Unknown' ? '등급 확인 중' : RARITY_KO[r] ? `${RARITY_KO[r]}` : r;
@@ -93,7 +93,7 @@
     const gid = encodeURIComponent((known && route.gameId) || gameSelect.value || state.games[0]?.id || '');
     const links = [
       { href: '#/', label: '홈', key: 'home' },
-      gid && { href: `#/g/${gid}`, label: '시세표', key: 'values' },
+      gid && { href: `#/g/${gid}`, label: '참고점수표', key: 'values' },
       gid && { href: `#/g/${gid}/calc`, label: '계산기', key: 'calc' },
       { href: `#/trades/${gid || 'blox-fruits'}`, label: '거래 게시판', key: 'trades' },
       { href: '#/safety', label: '거래 안전', key: 'safety' },
@@ -145,20 +145,20 @@
     } catch (err) {
       main.innerHTML = `<div class="empty"><p><strong>데이터를 불러오지 못했어요.</strong></p><p class="muted">${esc(err.message)}</p></div>`;
     }
-    document.title = `${route.view === 'calc' ? '계산기' : route.view === 'values' ? '시세표' : route.view === 'safety' ? '거래 안전' : 'VALUE DECK'} — VALUE DECK`;
+    document.title = `${route.view === 'calc' ? '계산기' : route.view === 'values' ? '참고점수표' : route.view === 'safety' ? '거래 안전' : 'VALUE DECK'} — VALUE DECK`;
   }
 
   async function renderPriceCheck(node,gameId=null) {
     try {
       const report=await getJSON('data/value-update-status.json');
-      if(report.state==='paused'){if(node?.isConnected)node.textContent=report.message;return;}
+      if(['paused','provisional'].includes(report.state)){if(node?.isConnected)node.textContent=report.message;return;}
       const checks=gameId?[report.checks?.[gameId]].filter(Boolean):Object.values(report.checks||{});
       const blocked=checks.some(c=>c.state==='blocked');
       const changes=checks.reduce((sum,c)=>sum+c.changedItems,0);
       const time=new Date(report.checkedAt).toLocaleString('ko-KR',{timeZone:'Asia/Seoul',month:'numeric',day:'numeric',hour:'2-digit',minute:'2-digit'});
-      if(node?.isConnected)node.textContent=`최근 시세 확인 ${time} (한국 시간) · ${blocked?'일부 가격 제공 중단단':changes?changes+'개 시세 반영':'확인된 시세 기준 3% 이상 변동 없음'}${report.errors?.some(e=>!gameId||e.game===gameId)?' · 일부 출처 확인 실패':''} · 매시간 자동 확인`;
+      if(node?.isConnected)node.textContent=`최근 시세 확인 ${time} (한국 시간) · ${blocked?'일부 시세 확인 중단':changes?changes+'개 시세 반영':'확인된 시세 기준 3% 이상 변동 없음'}${report.errors?.some(e=>!gameId||e.game===gameId)?' · 일부 출처 확인 실패':''} · 매시간 자동 확인`;
     } catch {
-      if(node?.isConnected)node.textContent='시세 확인 기록을 불러오지 못했습니다.';
+      if(node?.isConnected)node.textContent='기준 안내을 불러오지 못했습니다.';
     }
   }
 
@@ -175,7 +175,7 @@
     moves.sort((a,b)=>b.changedAt.localeCompare(a.changedAt)||Math.abs(b.pct)-Math.abs(a.pct));
     const movesHTML = moves.length ? `
       <section class="moves" aria-labelledby="movesTitle">
-        <h2 class="section-title" id="movesTitle">최근 시세 변동</h2>
+        <h2 class="section-title" id="movesTitle">최근 기준 수정</h2>
         <div class="moves__list">
           ${moves.slice(0, 6).map(({ g, it, pct }) => `
             <a class="move" href="#/g/${encodeURIComponent(g.id)}/item/${encodeURIComponent(it.id)}" data-rarity="${esc(it.rarity)}">
@@ -189,15 +189,15 @@
     main.innerHTML = `
       <section class="hero">
         <div class="eyebrow">Roblox Trading Hub</div>
-        <h1>거래 전에 <em>시세</em>부터 확인하세요</h1>
-        <p>여러 로블록스 게임의 아이템 시세표와 거래 계산기를 한곳에서. 내가 주는 것과 받는 것을 넣으면 거래가 이득인지 바로 보여줘요.</p>
+        <h1>거래 전에 <em>참고 기준</em>부터 확인하세요</h1>
+        <p>여러 로블록스 게임의 아이템 참고점수표와 거래 계산기를 한곳에서. 내가 주는 것과 받는 것을 넣으면 임시 기준에 따른 점수 차이를 비교해요.</p>
         <div class="hero__stats">
           <div class="stat"><b>${state.games.length}</b><span>지원 게임</span></div>
           <div class="stat"><b>${full(totalItems)}</b><span>등록 아이템</span></div>
           <div class="stat"><b>${esc(latest)}</b><span>최근 업데이트</span></div>
         </div>
       </section>
-      <p class="muted price-check" id="priceCheckStatus" role="status">최근 시세 확인 기록을 불러오는 중…</p>
+      <p class="muted price-check" id="priceCheckStatus" role="status">기준 안내을 불러오는 중…</p>
       ${movesHTML}
       <h2 class="section-title">게임 선택</h2>
       ${state.games.length ? `<div class="games">${state.games.map((g, i) => gameCard(g, datas[i])).join('')}</div>`
@@ -210,7 +210,7 @@
     const cover = g.cover ? `<img src="${esc(g.cover)}" alt="" loading="lazy" onerror="this.remove()">` : '';
     return `
       <article class="gamecard" style="--g:${esc(g.accent || '#c8f04a')}">
-        <a class="gamecard__cover" href="#/g/${encodeURIComponent(g.id)}" aria-label="${esc(g.name)} 시세표">
+        <a class="gamecard__cover" href="#/g/${encodeURIComponent(g.id)}" aria-label="${esc(g.name)} 참고점수표">
           <span class="gamecard__initial" aria-hidden="true">${initial(g.name)}</span>${cover}
         </a>
         <div class="gamecard__body">
@@ -218,7 +218,7 @@
           <div class="gamecard__meta"><span>${d ? full(d.items.length) : '-'} items</span><span>${esc(d?.updated || '')}</span></div>
           ${g.description ? `<p class="muted" style="font-size:var(--text-xs)">${esc(g.description)}</p>` : ''}
           <div class="gamecard__actions">
-            <a class="btn" href="#/g/${encodeURIComponent(g.id)}">시세표</a>
+            <a class="btn" href="#/g/${encodeURIComponent(g.id)}">참고점수표</a>
             <a class="btn btn--accent" href="#/g/${encodeURIComponent(g.id)}/calc">계산기</a>
           </div>
         </div>
@@ -235,12 +235,12 @@
       <div class="pagehead">
         <div>
           <div class="eyebrow">Value List</div>
-          <h1>${esc(meta.name)} 시세표</h1>
+          <h1>${esc(meta.name)} 참고점수표</h1>
           <p>${full(data.items.length)}개 아이템 · 업데이트 ${esc(data.updated || '-')}${data.source ? ' · ' + esc(data.source) : ''}</p>
         </div>
         <a class="btn btn--accent" href="#/g/${encodeURIComponent(meta.id)}/calc">거래 계산기 열기</a>
       </div>
-      <p class="muted price-check" id="gamePriceCheckStatus" role="status">최근 시세 확인 기록을 불러오는 중…</p>
+      <p class="muted price-check" id="gamePriceCheckStatus" role="status">기준 안내을 불러오는 중…</p>
       <div class="toolbar">
         <input class="input" id="q" type="search" placeholder="아이템 이름 검색" value="${esc(f.q)}" aria-label="아이템 검색" />
         <select class="select" id="cat" aria-label="분류">
@@ -322,10 +322,10 @@
         <div class="item__body">
           <div class="item__top"><span class="rarity">${esc(rarityLabel(i.rarity))}</span><span class="cat">${esc(i.category || '')}</span></div>
           <h3 class="item__name">${esc(i.name)}</h3>
-          <div class="item__value" title="${hasPrice(i)?full(i.value):'가격 제공 중단'}">${hasPrice(i)?compact(i.value):'가격 제공 중단'}${hasPrice(i)&&data.valueUnit ? ' ' + esc(data.valueUnit) : ''}${changeBadge(changeOf(i))}</div>
+          <div class="item__value" title="${hasPrice(i)?full(i.value):'점수 미정'}">${hasPrice(i)?compact(i.value):'점수 미정'}${hasPrice(i)&&data.valueUnit ? ' ' + esc(data.valueUnit) : ''}${changeBadge(changeOf(i))}</div>
           ${!hasPrice(i)&&i.referenceValue?`<p class="item__note"><a href="${esc(i.referenceUrl)}" target="_blank" rel="noopener noreferrer">${esc(i.referenceSource)} 참고 ${full(i.referenceValue)}</a> · 비교 시세 미확정</p>`:''}
           ${i.note ? `<p class="item__note">${esc(i.note)}</p>` : ''}
-          <div class="item__foot"><span class="muted">${hasPrice(i)?'참고 가격':'가격 제공 중단'}</span></div>
+          <div class="item__foot"><span class="muted">${hasPrice(i)?'임시 비교점수':'점수 미정'}</span></div>
         </div>
       </article>`;
   }
@@ -349,7 +349,7 @@
         <div>
           <div class="eyebrow">Trade Calculator</div>
           <h1>${esc(meta.name)} 거래 계산기</h1>
-          <p>양쪽에 아이템을 넣으면 시세 기준으로 거래 결과를 계산해요. 업데이트 ${esc(data.updated || '-')}</p>
+          <p>양쪽에 아이템을 넣으면 등급·분류별 임시 점수를 합산해요. 실제 거래가의 이득·손해 판정이 아닙니다. 업데이트 ${esc(data.updated || '-')}</p>
         </div>
         <button class="btn" id="swap" type="button">⇄ 양쪽 바꾸기</button>
       </div>
@@ -362,14 +362,14 @@
       <section class="side side--${key}" aria-label="${title}">
         <div class="side__head">
           <div><div class="side__label">${label}</div><h2>${title}</h2></div>
-          <div class="side__total" title="${sideTotal(list,data)===null?'가격 제공 중단':full(sideTotal(list,data))}">${sideTotal(list,data)===null?'가격 제공 중단':compact(sideTotal(list,data))}</div>
+          <div class="side__total" title="${sideTotal(list,data)===null?'점수 미정':full(sideTotal(list,data))}">${sideTotal(list,data)===null?'점수 미정':compact(sideTotal(list,data))}</div>
         </div>
         <div class="slots">
           ${list.map((x) => {
             const it = data.byId[x.id];
             return `<div class="slot" data-rarity="${esc(it.rarity)}">
               <div class="slot__thumb">${thumb(it)}</div>
-              <div><div class="slot__name">${esc(it.name)}</div><div class="slot__val">${hasPrice(it)?compact(it.value)+' × '+x.qty+' = '+compact(it.value*x.qty):'가격 제공 중단 × '+x.qty}</div></div>
+              <div><div class="slot__name">${esc(it.name)}</div><div class="slot__val">${hasPrice(it)?compact(it.value)+' × '+x.qty+' = '+compact(it.value*x.qty):'점수 미정 × '+x.qty}</div></div>
               <div class="qty">
                 <button type="button" data-act="dec" data-side="${key}" data-id="${esc(x.id)}" aria-label="${esc(it.name)} 수량 줄이기">−</button>
                 <span>${x.qty}</span>
@@ -389,12 +389,12 @@
       const diff = pending?null:get-give;
       const base = Math.max(give, get);
       let cls = 'empty', label = '대기 중', note = '양쪽에 아이템을 추가하세요';
-      if (pending) { cls='empty';label='비교 보류';note='가격 제공 중단인 아이템이 포함되어 있습니다'; }
+      if (pending) { cls='empty';label='비교 보류';note='점수 미정인 아이템이 포함되어 있습니다'; }
       else if (give > 0 || get > 0) {
         const ratio = base ? Math.abs(diff) / base : 0;
-        if (ratio <= FAIR_RANGE) { cls = 'fair'; label = '비슷함'; note = `차이 ±${Math.round(FAIR_RANGE * 100)}% 이내`; }
-        else if (diff > 0) { cls = 'win'; label = '이득'; note = `받는 쪽이 ${Math.round(ratio * 100)}% 더 높아요`; }
-        else { cls = 'lose'; label = '손해'; note = `주는 쪽이 ${Math.round(ratio * 100)}% 더 높아요`; }
+        if (ratio <= FAIR_RANGE) { cls = 'fair'; label = '점수 비슷함'; note = `차이 ±${Math.round(FAIR_RANGE * 100)}% 이내`; }
+        else if (diff > 0) { cls = 'win'; label = '받는 쪽 점수 높음'; note = `받는 쪽이 ${Math.round(ratio * 100)}% 더 높아요`; }
+        else { cls = 'lose'; label = '주는 쪽 점수 높음'; note = `주는 쪽이 ${Math.round(ratio * 100)}% 더 높아요`; }
       }
       const pct = pending?50:give + get ? (get / (give + get)) * 100 : 50;
       main.querySelector('#calc').innerHTML = `
@@ -452,7 +452,7 @@
       <button class="pick" type="button" data-pick="${esc(i.id)}" data-rarity="${esc(i.rarity)}">
         <span class="slot__thumb">${thumb(i)}</span>
         <span><span class="slot__name" style="display:block">${esc(i.name)}</span><span class="rarity">${esc(rarityLabel(i.rarity))}</span> <span class="cat">${esc(i.category || '')}</span></span>
-        <span class="pick__val">${hasPrice(i)?compact(i.value):'가격 제공 중단'}</span>
+        <span class="pick__val">${hasPrice(i)?compact(i.value):'점수 미정'}</span>
       </button>`).join('') : '<div class="empty">검색 결과가 없어요.</div>';
   }
   pickerSearch.addEventListener('input', drawPicker);
@@ -484,7 +484,7 @@
         <section>
           <h2>거래 전 확인하기</h2>
           <ol>
-            <li>시세표와 계산기로 거래가 크게 손해인지 먼저 확인해요.</li>
+            <li>참고점수표와 계산기로 거래가 크게 손해인지 먼저 확인해요.</li>
             <li>상대가 서버에서 로블록스 인증을 마친 사람인지 확인해요.</li>
             <li>조건(아이템, 수량, 순서)은 서버 채널에 남겨 기록을 만들어요.</li>
             <li>가능하면 게임 안의 거래 창이나 로블록스 공식 거래 기능을 사용해요. 양쪽이 확인해야 완료되는 방식이 가장 안전해요.</li>
@@ -496,7 +496,7 @@
             <li><strong>사칭</strong>: 운영진이나 유명 유저인 척 DM을 보내요. 닉네임이 비슷해도 프로필과 역할을 꼭 확인하세요.</li>
             <li><strong>중개 사기</strong>: "중개해줄게"라며 가짜 중개인을 끌어들여요. 서버가 지정한 중개인 외에는 믿지 마세요.</li>
             <li><strong>바꿔치기</strong>: 거래 창에서 마지막 순간에 아이템을 바꾸거나 빼요. 수락 전에 목록을 다시 확인하세요.</li>
-            <li><strong>시세 부풀리기</strong>: "이거 요즘 엄청 올랐어"라며 가치를 속여요. 시세표로 직접 확인하세요.</li>
+            <li><strong>시세 부풀리기</strong>: "이거 요즘 엄청 올랐어"라며 가치를 속여요. 참고점수표로 직접 확인하세요.</li>
           </ul>
         </section>
         <section>

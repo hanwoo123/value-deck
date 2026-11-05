@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "unit": "참고점",
+  "description": "운영자가 임시로 정한 등급·분류별 비교점수. 실제 거래가격, 젬, 벨리 또는 로벅스와 환산하지 않습니다.",
+  "rarityPoints": {
+    "Common": 1,
+    "Uncommon": 5,
+    "Rare": 15,
+    "Epic": 40,
+    "Legendary": 100,
+    "Mythic": 300,
+    "Exclusive": 600,
+    "Limited": 600,
+    "Godly": 800,
+    "Unknown": null
+  },
+  "games": {
+    "blox-fruits": {
+      "categoryPoints": {"게임패스": 250},
+      "categoryMultipliers": {"영구 열매": 4},
+      "overrides": {}
+    },
+    "cameraman-td": {
+      "categoryPoints": {"게임패스": 250, "상자": 50},
+      "categoryMultipliers": {},
+      "overrides": {}
+    }
+  }
+}
