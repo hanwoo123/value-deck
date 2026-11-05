@@ -222,6 +222,8 @@ def source_error(error):
 
 
 def run(root, config, write=False):
+    if config.get('collection_enabled') is False:
+        raise ValueError('External price collection is paused pending reuse permission')
     validate_config(config)
     timestamp = datetime.now(ZoneInfo('Asia/Seoul')).isoformat(timespec='seconds')
     pending, report = {}, {'checkedAt': timestamp, 'games': {}, 'sources': {

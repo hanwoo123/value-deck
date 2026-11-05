@@ -137,5 +137,7 @@
         "source_id": "1"
       }
     }
-  }
+  },
+  "collection_enabled": false,
+  "pause_reason": "외부 시세의 재게시 허용 범위 확인 전 자동 수집 중단"
 }

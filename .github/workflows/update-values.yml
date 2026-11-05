@@ -1,8 +1,5 @@
 name: Update game values
 on:
-  schedule:
-    # Every hour at minute 17 (GitHub scheduling may be delayed).
-    - cron: '17 * * * *'
   workflow_dispatch:
 permissions:
   contents: read

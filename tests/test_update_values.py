@@ -219,6 +219,15 @@ class UpdateTests(unittest.TestCase):
             ('fantasyblox', 'initialOverrides', {'itemName': 'Dragon', 'category': 'fruits', 'value': '100', 'permValue': '500'})]:
             self.assertEqual(parse_public(page(field, [row]), {'parser': parser, 'minimum_prices': 2}, u.number, u.key), parsed)
 
+    def test_collection_pause_blocks_network_and_writes(self):
+        config = json.loads((Path(__file__).parents[1] / 'tools/value-sources.json').read_text())
+        config['collection_enabled'] = False
+        with tempfile.TemporaryDirectory() as directory, patch.object(u, 'fetch_source') as network:
+            with self.assertRaisesRegex(ValueError, 'paused'):
+                u.run(Path(directory), config, write=True)
+            network.assert_not_called()
+            self.assertEqual(list(Path(directory).iterdir()), [])
+
     def test_missing_sources_fails_before_network_or_write(self):
         config = json.loads((Path(__file__).parents[1] / 'tools/value-sources.json').read_text())
         config['games']['blox-fruits']['sources'][0]['url'] = None
