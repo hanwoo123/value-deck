@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-05",
+  "updated": "2026-11-06",
   "valueUnit": "",
   "demandMax": 10,
   "rarities": [
@@ -47,26 +47,26 @@
       "name": "Chaos cameraman",
       "category": "유닛",
       "rarity": "Mythic",
-      "value": 3525,
-      "prevValue": 3075,
+      "value": 3275,
+      "prevValue": 3525,
       "demand": 6.0,
-      "trend": "up",
+      "trend": "down",
       "image": "images/cameraman-td/chaos-cameraman.webp",
-      "note": "2곳 비교 · 범위 3,050~4,000 · 하락세",
-      "valueUpdatedAt": "2026-11-04T00:08:48+09:00"
+      "note": "2곳 비교 · 범위 3,050~3,500 · 하락세",
+      "valueUpdatedAt": "2026-11-06T00:30:05+09:00"
     },
     {
       "id": "upgraded-titan-cameraman",
       "name": "upgraded Titan Cameraman",
       "category": "유닛",
       "rarity": "Godly",
-      "value": 2912,
-      "prevValue": 3012,
+      "value": 2762,
+      "prevValue": 2912,
       "demand": 9.0,
       "trend": "down",
       "image": "images/cameraman-td/upgraded-titan-cameraman.webp",
-      "note": "2곳 비교 · 범위 2,525~3,300 · 고평가",
-      "valueUpdatedAt": "2026-11-05T08:42:04+09:00"
+      "note": "2곳 비교 · 범위 2,525~3,000 · 고평가",
+      "valueUpdatedAt": "2026-11-06T00:30:05+09:00"
     },
     {
       "id": "premium-pass",
@@ -147,12 +147,13 @@
       "name": "Large Scientist Cameraman",
       "category": "유닛",
       "rarity": "Exclusive",
-      "value": 620,
-      "prevValue": 490,
+      "value": 100,
+      "prevValue": 620,
       "demand": 7.7,
-      "trend": "up",
+      "trend": "down",
       "image": "images/cameraman-td/large-scientist-cameraman.webp",
-      "note": "4곳 비교 · 범위 290~700 · 상승세 · 이상치 1곳 제외"
+      "note": "3곳 비교 · 범위 100~475 · 상승세 · 이상치 1곳 제외",
+      "valueUpdatedAt": "2026-11-06T00:30:05+09:00"
     },
     {
       "id": "tv-woman",

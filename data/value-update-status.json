@@ -1,83 +1,147 @@
 {
-  "checkedAt": "2026-11-05T15:51:29+09:00",
+  "checkedAt": "2026-11-06T00:30:05+09:00",
   "games": {
     "blox-fruits": [
       {
-        "id": "legendary-scrolls",
-        "oldValue": 655000000,
-        "value": 555000000,
+        "id": "east-dragon-perm",
+        "oldValue": 7325000000,
+        "value": 6500000000,
         "sources": [
           {
             "id": "1",
-            "value": "480000000"
+            "value": "8050000000"
           },
           {
             "id": "3",
-            "value": "630000000"
+            "value": "4950000000"
           }
         ]
       },
       {
-        "id": "2x-money",
-        "oldValue": 480000000,
-        "value": 420000000,
+        "id": "west-dragon-perm",
+        "oldValue": 7325000000,
+        "value": 6500000000,
         "sources": [
           {
             "id": "1",
-            "value": "300000000"
+            "value": "8050000000"
           },
           {
             "id": "3",
-            "value": "420000000"
-          },
-          {
-            "id": "4",
-            "value": "480000000"
+            "value": "4950000000"
           }
         ]
       },
       {
-        "id": "2x-mastery",
-        "oldValue": 470000000,
-        "value": 420000000,
+        "id": "kitsune-perm",
+        "oldValue": 5630000000,
+        "value": 5400000000,
         "sources": [
           {
             "id": "1",
-            "value": "300000000"
+            "value": "6980000000"
           },
           {
             "id": "3",
-            "value": "420000000"
+            "value": "3950000000"
           },
           {
             "id": "4",
-            "value": "480000000"
+            "value": "5400000000.0"
           }
         ]
       },
       {
-        "id": "1-fruit-storage",
-        "oldValue": 415000000,
-        "value": 400000000,
+        "id": "control-perm",
+        "oldValue": 5630000000,
+        "value": 5400000000,
         "sources": [
           {
             "id": "1",
-            "value": "270000000"
+            "value": "6980000000"
           },
           {
             "id": "3",
-            "value": "400000000"
+            "value": "3950000000"
           },
           {
             "id": "4",
-            "value": "415000000"
+            "value": "5400000000.0"
+          }
+        ]
+      },
+      {
+        "id": "west-dragon",
+        "oldValue": 3410000000,
+        "value": 2960000000,
+        "sources": [
+          {
+            "id": "1",
+            "value": "3220000000"
+          },
+          {
+            "id": "3",
+            "value": "2700000000"
+          }
+        ]
+      },
+      {
+        "id": "east-dragon",
+        "oldValue": 2870000000,
+        "value": 2520000000,
+        "sources": [
+          {
+            "id": "1",
+            "value": "2740000000"
+          },
+          {
+            "id": "3",
+            "value": "2300000000"
+          }
+        ]
+      },
+      {
+        "id": "kitsune",
+        "oldValue": 600000000,
+        "value": 450000000,
+        "sources": [
+          {
+            "id": "1",
+            "value": "450000000"
+          },
+          {
+            "id": "3",
+            "value": "450000000"
+          },
+          {
+            "id": "4",
+            "value": "600000000"
+          }
+        ]
+      },
+      {
+        "id": "magnet",
+        "oldValue": 505000000,
+        "value": 360000000,
+        "sources": [
+          {
+            "id": "1",
+            "value": "360000000"
+          },
+          {
+            "id": "3",
+            "value": "350000000"
+          },
+          {
+            "id": "4",
+            "value": "505000000"
           }
         ]
       },
       {
         "id": "control",
-        "oldValue": 140000000,
-        "value": 120000000,
+        "oldValue": 120000000,
+        "value": 90000000,
         "sources": [
           {
             "id": "1",
@@ -85,7 +149,7 @@
           },
           {
             "id": "3",
-            "value": "140000000"
+            "value": "90000000"
           },
           {
             "id": "4",
@@ -95,8 +159,8 @@
       },
       {
         "id": "tiger",
-        "oldValue": 120000000,
-        "value": 110000000,
+        "oldValue": 110000000,
+        "value": 80000000,
         "sources": [
           {
             "id": "1",
@@ -104,7 +168,7 @@
           },
           {
             "id": "3",
-            "value": "120000000"
+            "value": "80000000"
           },
           {
             "id": "4",
@@ -114,8 +178,8 @@
       },
       {
         "id": "yeti",
-        "oldValue": 100000000,
-        "value": 95000000,
+        "oldValue": 95000000,
+        "value": 70000000,
         "sources": [
           {
             "id": "1",
@@ -123,54 +187,66 @@
           },
           {
             "id": "3",
-            "value": "100000000"
+            "value": "70000000"
           },
           {
             "id": "4",
             "value": "95000000"
           }
         ]
-      },
+      }
+    ],
+    "cameraman-td": [
       {
-        "id": "venom",
-        "oldValue": 45000000,
-        "value": 100000000,
+        "id": "chaos-cameraman",
+        "oldValue": 3525,
+        "value": 3275,
         "sources": [
           {
             "id": "1",
-            "value": "100000000"
-          },
-          {
-            "id": "3",
-            "value": "45000000"
+            "value": "3500"
           },
           {
             "id": "4",
-            "value": "120000000"
+            "value": "3050"
           }
         ]
       },
       {
-        "id": "scarlet-ghost",
-        "oldValue": 50000000,
-        "value": 20000000,
+        "id": "upgraded-titan-cameraman",
+        "oldValue": 2912,
+        "value": 2762,
         "sources": [
           {
             "id": "1",
-            "value": "20000000"
-          },
-          {
-            "id": "3",
-            "value": "55000000"
+            "value": "3000"
           },
           {
             "id": "4",
-            "value": "20000000"
+            "value": "2525"
+          }
+        ]
+      },
+      {
+        "id": "large-scientist-cameraman",
+        "oldValue": 620,
+        "value": 100,
+        "sources": [
+          {
+            "id": "1",
+            "value": "475"
+          },
+          {
+            "id": "2",
+            "value": "100"
+          },
+          {
+            "id": "3",
+            "value": "100"
           }
         ]
       }
-    ],
-    "cameraman-td": []
+    ]
   },
   "sources": {
     "blox-fruits": {
@@ -212,14 +288,14 @@
       "successfulSources": 3,
       "eligibleItems": 126,
       "totalItems": 135,
-      "changedItems": 9
+      "changedItems": 11
     },
     "cameraman-td": {
-      "state": "unchanged",
+      "state": "updated",
       "successfulSources": 4,
-      "eligibleItems": 32,
+      "eligibleItems": 33,
       "totalItems": 37,
-      "changedItems": 0
+      "changedItems": 3
     }
   },
   "errors": [],

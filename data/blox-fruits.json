@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-05",
+  "updated": "2026-11-06",
   "valueUnit": "",
   "demandMax": 10,
   "source": "BLOX DECKS 기준값 · 공개 가치표 3개 중간값 (단위: 벨리)",
@@ -136,50 +136,52 @@
       "name": "East Dragon (영구)",
       "category": "영구 열매",
       "rarity": "Mythic",
-      "value": 7325000000,
+      "value": 6500000000,
       "demand": 9.0,
-      "trend": "up",
+      "trend": "down",
       "image": "images/blox-fruits/east-dragon.webp",
-      "note": "2곳 비교 · 범위 6,600,000,000~8,050,000,000",
-      "prevValue": 6670000000
+      "note": "2곳 비교 · 범위 4,950,000,000~8,050,000,000",
+      "prevValue": 7325000000,
+      "valueUpdatedAt": "2026-11-06T00:30:05+09:00"
     },
     {
       "id": "west-dragon-perm",
       "name": "West Dragon (영구)",
       "category": "영구 열매",
       "rarity": "Mythic",
-      "value": 7325000000,
+      "value": 6500000000,
       "demand": 9.0,
-      "trend": "up",
+      "trend": "down",
       "image": "images/blox-fruits/west-dragon.webp",
-      "note": "2곳 비교 · 범위 6,600,000,000~8,050,000,000",
-      "prevValue": 6590000000
+      "note": "2곳 비교 · 범위 4,950,000,000~8,050,000,000",
+      "prevValue": 7325000000,
+      "valueUpdatedAt": "2026-11-06T00:30:05+09:00"
     },
     {
       "id": "kitsune-perm",
       "name": "Kitsune (영구)",
       "category": "영구 열매",
       "rarity": "Mythic",
-      "value": 5630000000,
+      "value": 5400000000,
       "demand": 10.0,
       "trend": "down",
       "image": "images/blox-fruits/kitsune.webp",
-      "note": "3곳 비교 · 범위 5,400,000,000.0~6,980,000,000",
-      "prevValue": 6020000000,
-      "valueUpdatedAt": "2026-11-04T18:17:57+09:00"
+      "note": "3곳 비교 · 범위 3,950,000,000~6,980,000,000",
+      "prevValue": 5630000000,
+      "valueUpdatedAt": "2026-11-06T00:30:05+09:00"
     },
     {
       "id": "control-perm",
       "name": "Control (영구)",
       "category": "영구 열매",
       "rarity": "Mythic",
-      "value": 5630000000,
+      "value": 5400000000,
       "demand": 7.5,
       "trend": "down",
       "image": "images/blox-fruits/control.webp",
-      "note": "3곳 비교 · 범위 5,400,000,000.0~6,980,000,000",
-      "prevValue": 6020000000,
-      "valueUpdatedAt": "2026-11-04T18:17:57+09:00"
+      "note": "3곳 비교 · 범위 3,950,000,000~6,980,000,000",
+      "prevValue": 5630000000,
+      "valueUpdatedAt": "2026-11-06T00:30:05+09:00"
     },
     {
       "id": "purple-lightning",
@@ -251,12 +253,13 @@
       "name": "West Dragon",
       "category": "열매",
       "rarity": "Mythic",
-      "value": 3410000000,
+      "value": 2960000000,
       "demand": 10.0,
       "trend": "down",
       "image": "images/blox-fruits/west-dragon.webp",
-      "note": "2곳 비교 · 범위 3,220,000,000~3,600,000,000 · 안정",
-      "prevValue": 3540000000
+      "note": "2곳 비교 · 범위 2,700,000,000~3,220,000,000 · 안정",
+      "prevValue": 3410000000,
+      "valueUpdatedAt": "2026-11-06T00:30:05+09:00"
     },
     {
       "id": "spirit-perm",
@@ -324,12 +327,13 @@
       "name": "East Dragon",
       "category": "열매",
       "rarity": "Mythic",
-      "value": 2870000000,
+      "value": 2520000000,
       "demand": 9.5,
       "trend": "down",
       "image": "images/blox-fruits/east-dragon.webp",
-      "note": "2곳 비교 · 범위 2,740,000,000~3,000,000,000 · 안정",
-      "prevValue": 2970000000
+      "note": "2곳 비교 · 범위 2,300,000,000~2,740,000,000 · 안정",
+      "prevValue": 2870000000,
+      "valueUpdatedAt": "2026-11-06T00:30:05+09:00"
     },
     {
       "id": "shadow-perm",
@@ -802,13 +806,13 @@
       "name": "Kitsune",
       "category": "열매",
       "rarity": "Mythic",
-      "value": 600000000,
+      "value": 450000000,
       "demand": 10.0,
       "trend": "down",
       "image": "images/blox-fruits/kitsune.webp",
-      "note": "3곳 비교 · 범위 600,000,000~680,000,000 · 고평가",
-      "prevValue": 660000000,
-      "valueUpdatedAt": "2026-11-04T18:17:57+09:00"
+      "note": "3곳 비교 · 범위 450,000,000~600,000,000 · 고평가",
+      "prevValue": 600000000,
+      "valueUpdatedAt": "2026-11-06T00:30:05+09:00"
     },
     {
       "id": "azura-bomb",
@@ -864,13 +868,13 @@
       "name": "Magnet",
       "category": "열매",
       "rarity": "Mythic",
-      "value": 505000000,
+      "value": 360000000,
       "demand": 7.0,
       "trend": "down",
       "image": "images/blox-fruits/magnet.webp",
-      "note": "3곳 비교 · 범위 280,000,000~540,000,000 · 안정",
-      "prevValue": 525000000,
-      "valueUpdatedAt": "2026-11-05T08:42:04+09:00"
+      "note": "3곳 비교 · 범위 350,000,000~505,000,000 · 안정",
+      "prevValue": 505000000,
+      "valueUpdatedAt": "2026-11-06T00:30:05+09:00"
     },
     {
       "id": "flame-perm",
@@ -1063,13 +1067,13 @@
       "name": "Control",
       "category": "열매",
       "rarity": "Mythic",
-      "value": 120000000,
+      "value": 90000000,
       "demand": 7.0,
       "trend": "down",
       "image": "images/blox-fruits/control.webp",
-      "note": "3곳 비교 · 범위 90,000,000~140,000,000 · 안정",
-      "prevValue": 140000000,
-      "valueUpdatedAt": "2026-11-05T15:51:29+09:00"
+      "note": "3곳 비교 · 범위 90,000,000~120,000,000 · 안정",
+      "prevValue": 120000000,
+      "valueUpdatedAt": "2026-11-06T00:30:05+09:00"
     },
     {
       "id": "torment-pain",
@@ -1099,26 +1103,26 @@
       "name": "Tiger",
       "category": "열매",
       "rarity": "Mythic",
-      "value": 110000000,
+      "value": 80000000,
       "demand": 7.0,
       "trend": "down",
       "image": "images/blox-fruits/tiger.webp",
-      "note": "3곳 비교 · 범위 80,000,000~120,000,000 · 안정",
-      "prevValue": 120000000,
-      "valueUpdatedAt": "2026-11-05T15:51:29+09:00"
+      "note": "3곳 비교 · 범위 80,000,000~110,000,000 · 안정",
+      "prevValue": 110000000,
+      "valueUpdatedAt": "2026-11-06T00:30:05+09:00"
     },
     {
       "id": "yeti",
       "name": "Yeti",
       "category": "열매",
       "rarity": "Mythic",
-      "value": 95000000,
+      "value": 70000000,
       "demand": 6.5,
       "trend": "down",
       "image": "images/blox-fruits/yeti.webp",
-      "note": "3곳 비교 · 범위 70,000,000~100,000,000 · 안정",
-      "prevValue": 100000000,
-      "valueUpdatedAt": "2026-11-05T15:51:29+09:00"
+      "note": "3곳 비교 · 범위 70,000,000~95,000,000 · 안정",
+      "prevValue": 95000000,
+      "valueUpdatedAt": "2026-11-06T00:30:05+09:00"
     },
     {
       "id": "bomb-perm",
