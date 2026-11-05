@@ -151,11 +151,12 @@
   async function renderPriceCheck(node,gameId=null) {
     try {
       const report=await getJSON('data/value-update-status.json');
+      if(report.state==='paused'){if(node?.isConnected)node.textContent=report.message;return;}
       const checks=gameId?[report.checks?.[gameId]].filter(Boolean):Object.values(report.checks||{});
       const blocked=checks.some(c=>c.state==='blocked');
       const changes=checks.reduce((sum,c)=>sum+c.changedItems,0);
       const time=new Date(report.checkedAt).toLocaleString('ko-KR',{timeZone:'Asia/Seoul',month:'numeric',day:'numeric',hour:'2-digit',minute:'2-digit'});
-      if(node?.isConnected)node.textContent=`최근 시세 확인 ${time} (한국 시간) · ${blocked?'일부 시세 확인 중단':changes?changes+'개 시세 반영':'확인된 시세 기준 3% 이상 변동 없음'}${report.errors?.some(e=>!gameId||e.game===gameId)?' · 일부 출처 확인 실패':''} · 매시간 자동 확인`;
+      if(node?.isConnected)node.textContent=`최근 시세 확인 ${time} (한국 시간) · ${blocked?'일부 가격 제공 중단단':changes?changes+'개 시세 반영':'확인된 시세 기준 3% 이상 변동 없음'}${report.errors?.some(e=>!gameId||e.game===gameId)?' · 일부 출처 확인 실패':''} · 매시간 자동 확인`;
     } catch {
       if(node?.isConnected)node.textContent='시세 확인 기록을 불러오지 못했습니다.';
     }
@@ -249,7 +250,7 @@
         <select class="select" id="sort" aria-label="정렬">
           <option value="value-desc">가치 높은 순</option>
           <option value="value-asc">가치 낮은 순</option>
-          <option value="demand-desc">수요 높은 순</option>
+
           <option value="name">이름순</option>
         </select>
       </div>
@@ -321,13 +322,10 @@
         <div class="item__body">
           <div class="item__top"><span class="rarity">${esc(rarityLabel(i.rarity))}</span><span class="cat">${esc(i.category || '')}</span></div>
           <h3 class="item__name">${esc(i.name)}</h3>
-          <div class="item__value" title="${hasPrice(i)?full(i.value):'시세 확인 중'}">${hasPrice(i)?compact(i.value):'시세 확인 중'}${hasPrice(i)&&data.valueUnit ? ' ' + esc(data.valueUnit) : ''}${changeBadge(changeOf(i))}</div>
+          <div class="item__value" title="${hasPrice(i)?full(i.value):'가격 제공 중단'}">${hasPrice(i)?compact(i.value):'가격 제공 중단'}${hasPrice(i)&&data.valueUnit ? ' ' + esc(data.valueUnit) : ''}${changeBadge(changeOf(i))}</div>
           ${!hasPrice(i)&&i.referenceValue?`<p class="item__note"><a href="${esc(i.referenceUrl)}" target="_blank" rel="noopener noreferrer">${esc(i.referenceSource)} 참고 ${full(i.referenceValue)}</a> · 비교 시세 미확정</p>`:''}
           ${i.note ? `<p class="item__note">${esc(i.note)}</p>` : ''}
-          <div class="item__foot">
-            <span class="demand" title="수요 ${dLabel}" aria-label="수요 ${dLabel}">${[1, 2, 3, 4, 5].map((n) => `<i class="${n <= d ? 'on' : ''}"></i>`).join('')}${dmax !== 5 ? `<b class="demand__num">${dLabel}</b>` : ''}</span>
-            <span class="trend trend--${esc(i.trend || 'stable')}" title="${hasPrice(i)?trend[1]:'비교 시세 확인 중'}">${hasPrice(i)?trend[0]+' '+trend[1]:'— 확인 중'}</span>
-          </div>
+          <div class="item__foot"><span class="muted">${hasPrice(i)?'참고 가격':'가격 제공 중단'}</span></div>
         </div>
       </article>`;
   }
@@ -364,14 +362,14 @@
       <section class="side side--${key}" aria-label="${title}">
         <div class="side__head">
           <div><div class="side__label">${label}</div><h2>${title}</h2></div>
-          <div class="side__total" title="${sideTotal(list,data)===null?'시세 확인 중':full(sideTotal(list,data))}">${sideTotal(list,data)===null?'시세 확인 중':compact(sideTotal(list,data))}</div>
+          <div class="side__total" title="${sideTotal(list,data)===null?'가격 제공 중단':full(sideTotal(list,data))}">${sideTotal(list,data)===null?'가격 제공 중단':compact(sideTotal(list,data))}</div>
         </div>
         <div class="slots">
           ${list.map((x) => {
             const it = data.byId[x.id];
             return `<div class="slot" data-rarity="${esc(it.rarity)}">
               <div class="slot__thumb">${thumb(it)}</div>
-              <div><div class="slot__name">${esc(it.name)}</div><div class="slot__val">${hasPrice(it)?compact(it.value)+' × '+x.qty+' = '+compact(it.value*x.qty):'시세 확인 중 × '+x.qty}</div></div>
+              <div><div class="slot__name">${esc(it.name)}</div><div class="slot__val">${hasPrice(it)?compact(it.value)+' × '+x.qty+' = '+compact(it.value*x.qty):'가격 제공 중단 × '+x.qty}</div></div>
               <div class="qty">
                 <button type="button" data-act="dec" data-side="${key}" data-id="${esc(x.id)}" aria-label="${esc(it.name)} 수량 줄이기">−</button>
                 <span>${x.qty}</span>
@@ -391,7 +389,7 @@
       const diff = pending?null:get-give;
       const base = Math.max(give, get);
       let cls = 'empty', label = '대기 중', note = '양쪽에 아이템을 추가하세요';
-      if (pending) { cls='empty';label='비교 보류';note='시세 확인 중인 아이템이 포함되어 있습니다'; }
+      if (pending) { cls='empty';label='비교 보류';note='가격 제공 중단인 아이템이 포함되어 있습니다'; }
       else if (give > 0 || get > 0) {
         const ratio = base ? Math.abs(diff) / base : 0;
         if (ratio <= FAIR_RANGE) { cls = 'fair'; label = '비슷함'; note = `차이 ±${Math.round(FAIR_RANGE * 100)}% 이내`; }
@@ -454,7 +452,7 @@
       <button class="pick" type="button" data-pick="${esc(i.id)}" data-rarity="${esc(i.rarity)}">
         <span class="slot__thumb">${thumb(i)}</span>
         <span><span class="slot__name" style="display:block">${esc(i.name)}</span><span class="rarity">${esc(rarityLabel(i.rarity))}</span> <span class="cat">${esc(i.category || '')}</span></span>
-        <span class="pick__val">${hasPrice(i)?compact(i.value):'시세 확인 중'}</span>
+        <span class="pick__val">${hasPrice(i)?compact(i.value):'가격 제공 중단'}</span>
       </button>`).join('') : '<div class="empty">검색 결과가 없어요.</div>';
   }
   pickerSearch.addEventListener('input', drawPicker);

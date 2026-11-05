@@ -33,10 +33,10 @@ window.ValueDeckTrades = (() => {
     let mine=false, next=null, loading=false, visibleDeadlines=[];
     const compact=n=>new Intl.NumberFormat('ko-KR',{notation:n>=1e6?'compact':'standard',maximumFractionDigits:1}).format(n);
     const hasPrice=item=>typeof item?.value==='number'&&Number.isFinite(item.value)&&item.value>0;
-    const total=slots=>slots.some(x=>!hasPrice(data.byId[x.id]))?'시세 확인 중':compact(slots.reduce((sum,x)=>sum+data.byId[x.id].value*x.qty,0));
+    const total=slots=>slots.some(x=>!hasPrice(data.byId[x.id]))?'가격 제공 중단':compact(slots.reduce((sum,x)=>sum+data.byId[x.id].value*x.qty,0));
     const slotsHTML=slots=>slots.map(x=>{
       const item=data.byId[x.id];
-      return `<li class="trade-item"><div class="trade-item-image"><span aria-hidden="true">${esc((item?.name||x.id).slice(0,1))}</span>${item?.image?`<img src="${esc(item.image)}" alt="" loading="lazy" onerror="this.hidden=true">`:''}<strong class="trade-item-qty">×${x.qty}</strong></div><div class="trade-item-info"><strong>${esc(item?.name||x.id)}</strong><span>${esc(item?.category||'아이템')}</span><span class="trade-item-value">${hasPrice(item)?compact(item.value*x.qty):'시세 확인 중'}</span></div></li>`;
+      return `<li class="trade-item"><div class="trade-item-image"><span aria-hidden="true">${esc((item?.name||x.id).slice(0,1))}</span>${item?.image?`<img src="${esc(item.image)}" alt="" loading="lazy" onerror="this.hidden=true">`:''}<strong class="trade-item-qty">×${x.qty}</strong></div><div class="trade-item-info"><strong>${esc(item?.name||x.id)}</strong><span>${esc(item?.category||'아이템')}</span><span class="trade-item-value">${hasPrice(item)?compact(item.value*x.qty):'가격 제공 중단'}</span></div></li>`;
     }).join('');
     const chat=window.ValueDeckTradeChat.mount(main,data,()=>username);
     main.querySelector('#trade-inbox').onclick=()=>chat.open();
