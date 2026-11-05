@@ -219,6 +219,14 @@ class UpdateTests(unittest.TestCase):
             ('fantasyblox', 'initialOverrides', {'itemName': 'Dragon', 'category': 'fruits', 'value': '100', 'permValue': '500'})]:
             self.assertEqual(parse_public(page(field, [row]), {'parser': parser, 'minimum_prices': 2}, u.number, u.key), parsed)
 
+    def test_vvx_exclusion_blocks_all_subdomains_before_any_request(self):
+        with patch.object(u, 'urlopen') as network, patch.object(u.subprocess, 'run') as curl:
+            for host in ['vaultedvaluesx.com', 'www.vaultedvaluesx.com', 'cameraman-td.vaultedvaluesx.com', 'blox-fruits.vaultedvaluesx.com']:
+                with self.assertRaisesRegex(ValueError, 'VVX collection excluded'):
+                    u.fetch_source({'url': 'https://' + host + '/value-list', 'parser': 'vvx'})
+            network.assert_not_called()
+            curl.assert_not_called()
+
     def test_collection_pause_blocks_network_and_writes(self):
         config = json.loads((Path(__file__).parents[1] / 'tools/value-sources.json').read_text())
         config['collection_enabled'] = False

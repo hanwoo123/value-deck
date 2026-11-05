@@ -199,6 +199,9 @@ def validate_config(config):
 
 
 def fetch_source(source):
+    hostname = (urlparse(source.get('url') or '').hostname or '').lower()
+    if hostname == 'vaultedvaluesx.com' or hostname.endswith('.vaultedvaluesx.com'):
+        raise ValueError('VVX collection excluded by site operator')
     if source.get('parser', 'table') == 'table':
         request = Request(source['url'], headers={'User-Agent': 'VALUE-DECK-price-check/1.0'})
         with urlopen(request, timeout=30) as response:

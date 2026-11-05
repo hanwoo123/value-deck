@@ -8,10 +8,11 @@
           "url": "https://blox-fruits.vaultedvaluesx.com/value-list",
           "verified": true,
           "item_names": {},
-          "enabled": true,
+          "enabled": false,
           "parser": "vvx",
           "list_id": "faed5cc6-be8d-4114-aef3-344dcc879783",
-          "minimum_prices": 70
+          "minimum_prices": 70,
+          "reason": "사용자 요청으로 VVX 및 VVX 커뮤니티 목록 수집 제외"
         },
         {
           "id": "2",
@@ -81,10 +82,11 @@
           "url": "https://cameraman-td.vaultedvaluesx.com/value-list",
           "verified": true,
           "item_names": {},
-          "enabled": true,
+          "enabled": false,
           "parser": "vvx",
           "list_id": "0d2a00fc-86ef-898e-a0fc-c047bc5daf93",
-          "minimum_prices": 25
+          "minimum_prices": 25,
+          "reason": "사용자 요청으로 VVX 및 VVX 커뮤니티 목록 수집 제외"
         },
         {
           "id": "2",
@@ -92,10 +94,11 @@
           "url": "https://cameraman-td.vaultedvaluesx.com/lists/peak-values-ig-7ad104da-cfda-812b-af36-2c33958f98fb",
           "verified": true,
           "item_names": {},
-          "enabled": true,
+          "enabled": false,
           "parser": "vvx",
           "list_id": "7ad104da-cfda-812b-af36-2c33958f98fb",
-          "minimum_prices": 10
+          "minimum_prices": 10,
+          "reason": "사용자 요청으로 VVX 및 VVX 커뮤니티 목록 수집 제외"
         },
         {
           "id": "3",
@@ -103,10 +106,11 @@
           "url": "https://cameraman-td.vaultedvaluesx.com/lists/ctd-value-289bb241-c5a4-89b0-a927-d028ac7ae6de",
           "verified": true,
           "item_names": {},
-          "enabled": true,
+          "enabled": false,
           "parser": "vvx",
           "list_id": "289bb241-c5a4-89b0-a927-d028ac7ae6de",
-          "minimum_prices": 10
+          "minimum_prices": 10,
+          "reason": "사용자 요청으로 VVX 및 VVX 커뮤니티 목록 수집 제외"
         },
         {
           "id": "4",
@@ -114,10 +118,11 @@
           "url": "https://cameraman-td.vaultedvaluesx.com/lists/better-value-list-2dd620c2-6007-836b-afc1-05d2d3a8a344",
           "verified": true,
           "item_names": {},
-          "enabled": true,
+          "enabled": false,
           "parser": "vvx",
           "list_id": "2dd620c2-6007-836b-afc1-05d2d3a8a344",
-          "minimum_prices": 10
+          "minimum_prices": 10,
+          "reason": "사용자 요청으로 VVX 및 VVX 커뮤니티 목록 수집 제외"
         },
         {
           "id": "5",
@@ -133,8 +138,7 @@
         }
       ],
       "price_policy": {
-        "mode": "primary",
-        "source_id": "1"
+        "mode": "consensus"
       }
     }
   },
