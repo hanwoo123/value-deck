@@ -15,6 +15,7 @@ window.ValueDeckTradeStore = (() => {
     if (error?.code==='PGRST202') return new Error('채팅 기능을 준비 중입니다. 잠시 후 다시 확인해 주세요.');
     if (['PGRST205','42P01','42883'].includes(error?.code)) return new Error('거래글 저장 공간을 준비 중입니다. 잠시 후 다시 확인해 주세요.');
     if (error?.code === 'anonymous_provider_disabled') return new Error('거래글 작성 연결을 준비 중입니다.');
+    if (error?.code === '23503') return new Error('거래글 또는 대화의 보존 기간이 끝났습니다. 목록을 새로고침해 주세요.');
     if (error?.code === 'P0001') return new Error(error.message);
     return new Error('거래 게시판에 연결하지 못했습니다. 잠시 후 다시 시도해 주세요.');
   }
@@ -37,15 +38,17 @@ window.ValueDeckTradeStore = (() => {
     return data.session?.user || null;
   }
   function map(row) {
-    return {id:row.id,author:{id:row.owner_id,username:row.roblox_username},give:row.give_items,want:row.want_items,note:row.note,status:row.status,created:row.created_at,gameId:row.game_id||'blox-fruits'};
+    const deadline=Date.parse(row.created_at)+6*60*60*1000;
+    const expired=(row.status==='open'&&deadline<=Date.now())||(row.status==='completed'&&Math.abs(Date.parse(row.completed_at)-deadline)<1000);
+    return {id:row.id,expired,closedAt:row.completed_at,author:{id:row.owner_id,username:row.roblox_username},give:row.give_items,want:row.want_items,note:row.note,status:expired?'completed':row.status,created:row.created_at,gameId:row.game_id||'blox-fruits'};
   }
   async function list({gameId='blox-fruits',mine=false,before=null}={}) {
     const c=getClient();
     const user=mine?await identity():null;
     async function query(withGame){
-      let q=c.from('trade_posts').select('id,owner_id,roblox_username,give_items,want_items,note,status,created_at'+(withGame?',game_id':'')).order('id',{ascending:false}).limit(21);
+      let q=c.from('trade_posts').select('id,owner_id,roblox_username,give_items,want_items,note,status,created_at,completed_at'+(withGame?',game_id':'')).order('id',{ascending:false}).limit(21);
       if(withGame)q=q.eq('game_id',gameId);
-      if(mine)q=q.eq('owner_id',user.id);else q=q.eq('status','open');
+      if(mine)q=q.eq('owner_id',user.id);else q=q.eq('status','open').gt('created_at',new Date(Date.now()-6*60*60*1000).toISOString());
       if(before)q=q.lt('id',before);
       return await q;
     }

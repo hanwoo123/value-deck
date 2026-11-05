@@ -119,6 +119,7 @@
   }
 
   async function router() {
+    window.ValueDeckTrades?.cleanup();
     window.ValueDeckTradeChat?.destroy();
     window.ValueDeckTradePicker?.destroy();
     const route = parseRoute();
