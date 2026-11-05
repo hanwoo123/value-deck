@@ -1,44 +1,176 @@
 {
-  "checkedAt": "2026-11-05T08:42:04+09:00",
+  "checkedAt": "2026-11-05T15:51:29+09:00",
   "games": {
     "blox-fruits": [
       {
-        "id": "magnet",
-        "oldValue": 525000000,
-        "value": 505000000,
+        "id": "legendary-scrolls",
+        "oldValue": 655000000,
+        "value": 555000000,
         "sources": [
           {
             "id": "1",
-            "value": "280000000"
+            "value": "480000000"
           },
           {
             "id": "3",
-            "value": "540000000"
+            "value": "630000000"
+          }
+        ]
+      },
+      {
+        "id": "2x-money",
+        "oldValue": 480000000,
+        "value": 420000000,
+        "sources": [
+          {
+            "id": "1",
+            "value": "300000000"
+          },
+          {
+            "id": "3",
+            "value": "420000000"
           },
           {
             "id": "4",
-            "value": "505000000"
+            "value": "480000000"
+          }
+        ]
+      },
+      {
+        "id": "2x-mastery",
+        "oldValue": 470000000,
+        "value": 420000000,
+        "sources": [
+          {
+            "id": "1",
+            "value": "300000000"
+          },
+          {
+            "id": "3",
+            "value": "420000000"
+          },
+          {
+            "id": "4",
+            "value": "480000000"
+          }
+        ]
+      },
+      {
+        "id": "1-fruit-storage",
+        "oldValue": 415000000,
+        "value": 400000000,
+        "sources": [
+          {
+            "id": "1",
+            "value": "270000000"
+          },
+          {
+            "id": "3",
+            "value": "400000000"
+          },
+          {
+            "id": "4",
+            "value": "415000000"
+          }
+        ]
+      },
+      {
+        "id": "control",
+        "oldValue": 140000000,
+        "value": 120000000,
+        "sources": [
+          {
+            "id": "1",
+            "value": "90000000"
+          },
+          {
+            "id": "3",
+            "value": "140000000"
+          },
+          {
+            "id": "4",
+            "value": "120000000"
+          }
+        ]
+      },
+      {
+        "id": "tiger",
+        "oldValue": 120000000,
+        "value": 110000000,
+        "sources": [
+          {
+            "id": "1",
+            "value": "80000000"
+          },
+          {
+            "id": "3",
+            "value": "120000000"
+          },
+          {
+            "id": "4",
+            "value": "110000000"
+          }
+        ]
+      },
+      {
+        "id": "yeti",
+        "oldValue": 100000000,
+        "value": 95000000,
+        "sources": [
+          {
+            "id": "1",
+            "value": "70000000"
+          },
+          {
+            "id": "3",
+            "value": "100000000"
+          },
+          {
+            "id": "4",
+            "value": "95000000"
+          }
+        ]
+      },
+      {
+        "id": "venom",
+        "oldValue": 45000000,
+        "value": 100000000,
+        "sources": [
+          {
+            "id": "1",
+            "value": "100000000"
+          },
+          {
+            "id": "3",
+            "value": "45000000"
+          },
+          {
+            "id": "4",
+            "value": "120000000"
+          }
+        ]
+      },
+      {
+        "id": "scarlet-ghost",
+        "oldValue": 50000000,
+        "value": 20000000,
+        "sources": [
+          {
+            "id": "1",
+            "value": "20000000"
+          },
+          {
+            "id": "3",
+            "value": "55000000"
+          },
+          {
+            "id": "4",
+            "value": "20000000"
           }
         ]
       }
     ],
-    "cameraman-td": [
-      {
-        "id": "upgraded-titan-cameraman",
-        "oldValue": 3012,
-        "value": 2912,
-        "sources": [
-          {
-            "id": "1",
-            "value": "3300"
-          },
-          {
-            "id": "4",
-            "value": "2525"
-          }
-        ]
-      }
-    ]
+    "cameraman-td": []
   },
   "sources": {
     "blox-fruits": {
@@ -80,14 +212,14 @@
       "successfulSources": 3,
       "eligibleItems": 126,
       "totalItems": 135,
-      "changedItems": 1
+      "changedItems": 9
     },
     "cameraman-td": {
-      "state": "updated",
+      "state": "unchanged",
       "successfulSources": 4,
       "eligibleItems": 32,
       "totalItems": 37,
-      "changedItems": 1
+      "changedItems": 0
     }
   },
   "errors": [],

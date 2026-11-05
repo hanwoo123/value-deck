@@ -776,12 +776,13 @@
       "name": "Legendary Scrolls",
       "category": "게임패스",
       "rarity": "",
-      "value": 655000000,
+      "value": 555000000,
       "demand": 3.0,
-      "trend": "up",
+      "trend": "down",
       "image": "images/blox-fruits/legendary-scrolls.webp",
-      "note": "2곳 비교 · 범위 630,000,000~680,000,000 · 안정",
-      "prevValue": 615000000
+      "note": "2곳 비교 · 범위 480,000,000~630,000,000 · 안정",
+      "prevValue": 655000000,
+      "valueUpdatedAt": "2026-11-05T15:51:29+09:00"
     },
     {
       "id": "ice-perm",
@@ -899,24 +900,26 @@
       "name": "2x Money",
       "category": "게임패스",
       "rarity": "",
-      "value": 480000000,
+      "value": 420000000,
       "demand": 10.0,
-      "trend": "up",
+      "trend": "down",
       "image": "images/blox-fruits/2x-money.webp",
-      "note": "3곳 비교 · 범위 420,000,000~520,000,000 · 고평가",
-      "prevValue": 405000000
+      "note": "3곳 비교 · 범위 300,000,000~480,000,000 · 고평가",
+      "prevValue": 480000000,
+      "valueUpdatedAt": "2026-11-05T15:51:29+09:00"
     },
     {
       "id": "2x-mastery",
       "name": "2x Mastery",
       "category": "게임패스",
       "rarity": "",
-      "value": 470000000,
+      "value": 420000000,
       "demand": 10.0,
-      "trend": "up",
+      "trend": "down",
       "image": "images/blox-fruits/2x-mastery.webp",
-      "note": "3곳 비교 · 범위 420,000,000~520,000,000 · 고평가",
-      "prevValue": 405000000
+      "note": "3곳 비교 · 범위 300,000,000~480,000,000 · 고평가",
+      "prevValue": 470000000,
+      "valueUpdatedAt": "2026-11-05T15:51:29+09:00"
     },
     {
       "id": "eagle-matrix",
@@ -935,13 +938,13 @@
       "name": "+1 Fruit Storage",
       "category": "게임패스",
       "rarity": "",
-      "value": 415000000,
+      "value": 400000000,
       "demand": 10.0,
       "trend": "down",
       "image": "images/blox-fruits/1-fruit-storage.webp",
-      "note": "3곳 비교 · 범위 400,000,000~480,000,000 · 고평가",
-      "prevValue": 470000000,
-      "valueUpdatedAt": "2026-11-04T18:17:57+09:00"
+      "note": "3곳 비교 · 범위 270,000,000~415,000,000 · 고평가",
+      "prevValue": 415000000,
+      "valueUpdatedAt": "2026-11-05T15:51:29+09:00"
     },
     {
       "id": "green-lightning",
@@ -1060,12 +1063,13 @@
       "name": "Control",
       "category": "열매",
       "rarity": "Mythic",
-      "value": 140000000,
+      "value": 120000000,
       "demand": 7.0,
-      "trend": "up",
+      "trend": "down",
       "image": "images/blox-fruits/control.webp",
-      "note": "3곳 비교 · 범위 140,000,000~150,000,000 · 안정",
-      "prevValue": 130000000
+      "note": "3곳 비교 · 범위 90,000,000~140,000,000 · 안정",
+      "prevValue": 140000000,
+      "valueUpdatedAt": "2026-11-05T15:51:29+09:00"
     },
     {
       "id": "torment-pain",
@@ -1095,24 +1099,26 @@
       "name": "Tiger",
       "category": "열매",
       "rarity": "Mythic",
-      "value": 120000000,
+      "value": 110000000,
       "demand": 7.0,
-      "trend": "up",
+      "trend": "down",
       "image": "images/blox-fruits/tiger.webp",
-      "note": "3곳 비교 · 범위 115,000,000~130,000,000 · 안정",
-      "prevValue": 108000000
+      "note": "3곳 비교 · 범위 80,000,000~120,000,000 · 안정",
+      "prevValue": 120000000,
+      "valueUpdatedAt": "2026-11-05T15:51:29+09:00"
     },
     {
       "id": "yeti",
       "name": "Yeti",
       "category": "열매",
       "rarity": "Mythic",
-      "value": 100000000,
+      "value": 95000000,
       "demand": 6.5,
-      "trend": "up",
+      "trend": "down",
       "image": "images/blox-fruits/yeti.webp",
-      "note": "3곳 비교 · 범위 100,000,000~120,000,000 · 안정",
-      "prevValue": 95000000
+      "note": "3곳 비교 · 범위 70,000,000~100,000,000 · 안정",
+      "prevValue": 100000000,
+      "valueUpdatedAt": "2026-11-05T15:51:29+09:00"
     },
     {
       "id": "bomb-perm",
@@ -1163,13 +1169,13 @@
       "name": "Venom",
       "category": "열매",
       "rarity": "Mythic",
-      "value": 45000000,
+      "value": 100000000,
       "demand": 8.5,
       "trend": "up",
       "image": "images/blox-fruits/venom.webp",
-      "note": "3곳 비교 · 범위 25,000,000~110,000,000 · 안정",
-      "prevValue": 25000000,
-      "valueUpdatedAt": "2026-11-04T00:08:48+09:00"
+      "note": "3곳 비교 · 범위 45,000,000~120,000,000 · 안정",
+      "prevValue": 45000000,
+      "valueUpdatedAt": "2026-11-05T15:51:29+09:00"
     },
     {
       "id": "lightning",
@@ -1188,12 +1194,13 @@
       "name": "Scarlet Ghost",
       "category": "한정 아이템",
       "rarity": "Limited",
-      "value": 50000000,
+      "value": 20000000,
       "demand": 4.5,
-      "trend": "up",
+      "trend": "down",
       "image": "images/blox-fruits/scarlet-ghost.webp",
       "note": "3곳 비교 · 범위 20,000,000~55,000,000 · 안정",
-      "prevValue": 20000000
+      "prevValue": 50000000,
+      "valueUpdatedAt": "2026-11-05T15:51:29+09:00"
     },
     {
       "id": "t-rex",
