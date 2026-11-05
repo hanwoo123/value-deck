@@ -60,6 +60,8 @@ class UpdateTests(unittest.TestCase):
         changes = u.update_game(data, quotes, '2026-11-06', policy)
         item = data['items'][0]
         self.assertEqual(item['value'], 475)
+        self.assertNotIn('prevValue', item)
+        self.assertEqual(item['trend'], 'stable')
         self.assertEqual(changes[0]['sources'], [{'id': 'official', 'value': '475'}])
         self.assertNotIn('곳 비교', item['note'])
         quotes['peak']['a'] = D(1)
@@ -70,6 +72,16 @@ class UpdateTests(unittest.TestCase):
         self.assertEqual(item['value'], 475)
         quotes['official']['a'] = D(500)
         self.assertEqual(u.update_game(data, quotes, '2026-11-09', policy)[0]['value'], 500)
+        self.assertEqual(item['prevValue'], 475)
+        self.assertEqual(item['trend'], 'up')
+
+    def test_basis_change_resets_stale_delta_even_when_price_is_unchanged(self):
+        data = self.game(475)
+        data['items'][0].update(prevValue=100, trend='up')
+        policy = {'mode': 'primary', 'source_id': 'official'}
+        self.assertEqual(u.update_game(data, {'official': {'a': D(475)}}, '2026-11-06', policy), [])
+        self.assertNotIn('prevValue', data['items'][0])
+        self.assertEqual(data['items'][0]['trend'], 'stable')
 
     def test_primary_resolves_single_quote_and_clears_non_numeric_old_reference(self):
         policy = {'mode': 'primary', 'source_id': 'official'}

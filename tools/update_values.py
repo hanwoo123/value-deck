@@ -143,6 +143,9 @@ def update_game(data, quotes, timestamp, policy=None):
         # Round to the site's integer units BEFORE testing the threshold.
         new = candidate.quantize(Decimal('1'))
         basis_changed = primary and item.get('valueBasis') != basis
+        if basis_changed:
+            item.pop('prevValue', None)
+            item['trend'] = 'stable'
         if primary:
             item.update(valueBasis=basis, valueStatus='confirmed',
                         note=f'VVX 기본 가치표 기준 · {int(new):,} 젬')
@@ -150,13 +153,13 @@ def update_game(data, quotes, timestamp, policy=None):
                 item['referenceValue'] = int(new)
         if old is not None and (new == old or (not basis_changed and abs(new-old) * 100 < old * 3)):
             continue
-        if old is not None:
+        if old is not None and not basis_changed:
             item['prevValue'] = item['value']
         else:
             item.pop('prevValue',None)
             item['valueStatus'] = 'confirmed'
         item['value'] = int(new)
-        item['trend'] = 'stable' if old is None else 'up' if new > old else 'down'
+        item['trend'] = 'stable' if old is None or basis_changed else 'up' if new > old else 'down'
         item['valueUpdatedAt'] = timestamp
         if not primary:
             comparison = f'{len(kept)}곳 비교 · 범위 {min(kept):,}~{max(kept):,}'
