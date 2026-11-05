@@ -1,0 +1,29 @@
+{
+  "sources": [
+    {
+      "id": "bfv-gg",
+      "name": "BloxFruitsValues.gg",
+      "url": "https://bloxfruitsvalues.gg/values",
+      "termsUrl": "https://bloxfruitsvalues.gg/terms",
+      "robotsUrl": "https://bloxfruitsvalues.gg/robots.txt",
+      "parser": "bloxfruitsvalues",
+      "minimumPrices": 70,
+      "reviewedTermsHash": "c78ecf0f4042be261f0c3160f51bb655196dc222884ba695c68d230e13acb9a4",
+      "reviewedAt": "2026-11-06",
+      "reviewResult": "No explicit prohibition of read-only public numeric comparison found in reviewed terms; not an express republication license. No private/API access, original prose, ratings or images collected."
+    },
+    {
+      "id": "cosmic-bfv",
+      "name": "BloxFruitsValues.com (Cosmic Values)",
+      "url": "https://bloxfruitsvalues.com/values",
+      "termsUrl": "https://bloxfruitsvalues.com/terms-of-service",
+      "robotsUrl": "https://bloxfruitsvalues.com/robots.txt",
+      "parser": "cosmic-public",
+      "minimumPrices": 30,
+      "maximumAgeDays": 7,
+      "reviewedTermsHash": "13423921f5693f722b8249e8860ed49a6c9d26f523883bc9703acbd4c7f96a80",
+      "reviewedAt": "2026-11-06",
+      "reviewResult": "No explicit prohibition of read-only public numeric comparison found in reviewed terms; not an express republication license. No private/API access, original prose, ratings or images collected."
+    }
+  ]
+}

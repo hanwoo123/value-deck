@@ -1,9 +1,9 @@
 name: Value update tests
 on:
   push:
-    paths: ['tools/update_values.py', 'tools/public_sources.py', 'tools/value-sources.json', 'tests/test_update_values.py', 'tests/test_reference_values.py', 'tools/set_reference_values.py', 'data/reference-rules.json', '.github/workflows/value-tests.yml']
+    paths: ['tools/update_values.py', 'tools/update_comparisons.py', 'tools/comparison-sources.json', 'tests/test_comparisons.py', '.github/workflows/update-comparisons.yml', 'tools/public_sources.py', 'tools/value-sources.json', 'tests/test_update_values.py', 'tests/test_reference_values.py', 'tools/set_reference_values.py', 'data/reference-rules.json', '.github/workflows/value-tests.yml']
   pull_request:
-    paths: ['tools/update_values.py', 'tools/public_sources.py', 'tools/value-sources.json', 'tests/test_update_values.py', 'tests/test_reference_values.py', 'tools/set_reference_values.py', 'data/reference-rules.json', '.github/workflows/value-tests.yml']
+    paths: ['tools/update_values.py', 'tools/update_comparisons.py', 'tools/comparison-sources.json', 'tests/test_comparisons.py', '.github/workflows/update-comparisons.yml', 'tools/public_sources.py', 'tools/value-sources.json', 'tests/test_update_values.py', 'tests/test_reference_values.py', 'tools/set_reference_values.py', 'data/reference-rules.json', '.github/workflows/value-tests.yml']
 permissions:
   contents: read
 jobs:

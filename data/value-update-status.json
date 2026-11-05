@@ -1,8 +1,17 @@
 {
-  "state": "provisional",
-  "message": "운영자 임시 비교점수 · 실제 거래 시세나 젬·벨리 가격이 아닙니다. 같은 등급·분류는 같은 점수이며 수요·희소성 차이를 반영하지 않습니다.",
-  "registeredItems": {
-    "blox-fruits": 135,
-    "cameraman-td": 36
-  }
+  "state": "comparison",
+  "checkedAt": "2026-11-06T08:40:39+09:00",
+  "games": {
+    "blox-fruits": {
+      "mode": "comparison",
+      "pricedItems": 45,
+      "sourceCount": 2,
+      "message": "공개 사이트 2곳 숫자 비교 · 45개 항목 비교 가능 · 출처가 같은 원본을 사용했을 수 있으며 독립된 실거래 조사로 확인한 값이 아닙니다."
+    },
+    "cameraman-td": {
+      "mode": "provisional",
+      "message": "등급·분류별 임시 비교점수 · 실제 거래 시세나 젬 가격이 아닙니다. 외부 비교 출처 검토 중입니다."
+    }
+  },
+  "comparisonErrors": []
 }

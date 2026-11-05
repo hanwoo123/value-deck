@@ -2,7 +2,7 @@
 
 사용자 요청에 따라 VVX 기본표와 VVX 안의 커뮤니티 목록을 전부 수집 대상에서 제외했습니다. 세 커뮤니티 목록 역시 별도 사이트가 아닌 VVX의 목록입니다. 설정에서 비활성화했고 수집 함수에서도 VVX의 루트 및 모든 하위 도메인을 요청 전에 거절합니다.
 
-외부 자동 갱신은 현재 중단 상태입니다. 수동 참고가 전환 초안은 `operator-reference-prices-draft` 로컬 브랜치에만 보관하며 게시하지 않았습니다. 공개 사이트의 기존 저장 가격은 아직 교체하지 않았습니다.
+기존 전체 출처 자동 갱신은 중단 상태입니다. 추가 검토 후 블록스 프루츠에 한해 두 사이트의 공개 숫자 비교를 별도 수집기로 적용합니다(문서 마지막 적용 결정 참고). 수동 참고가 전환 초안은 `operator-reference-prices-draft` 로컬 브랜치에만 보관하며 게시하지 않았습니다. 기존 외부 가격·수요·공개 변동 이력은 2026-11-06 제거했으며, 현재 공개 사이트는 운영자 임시 비교점수를 사용합니다.
 
 ## 카메라맨 TD 후보
 
@@ -34,3 +34,35 @@
 - CameramanTowerDefense.com 본문을 새 환경에서 읽었습니다. 자체 시세가 아니라 VVX 보드 56개 항목의 관측값이라고 명시하므로 대체 가격 출처에 연결하지 않습니다.
 - Pro Game Guides 원문을 읽었으나 재게시 권한을 확인하지 못해 가격표를 복제하지 않았습니다.
 - 현재 사이트에는 외부 시세 대신 운영자가 정한 등급·분류별 임시 비교점수를 적용합니다. 실제 게임 화폐 가격이나 실거래 시세를 뜻하지 않습니다.
+
+## 약관 원문 재검토 — 2026-11-06
+
+현재 환경에서 아래 원문을 직접 읽었습니다. 금지 문구가 없다는 사실과 외부 사이트에서 가격표를 자동 수집·재게시할 권한을 확인했다는 것은 구분합니다. 공개 페이지에 사실인 숫자가 있다는 이유만으로 모든 이용이 금지된다고 단정하지도 않습니다. 이 표는 법적 허용 여부의 확정 판단이 아니라 연결을 재개할 근거를 확인한 기록입니다.
+
+| 후보 | 읽은 문서 | 확인 결과 | 연결 상태 |
+| --- | --- | --- | --- |
+| bloxfruit.io | https://bloxfruit.io/terms/ | `Use automated tools to scrape or download content`를 금지하며 무단 복제도 제한 | 제외 |
+| FantasyBlox | https://fantasyblox.com/legal/terms-of-service | 4항 자동화로 서비스 복제 제한, 9항 원본 자료 무단 재게시 제한 | 제외 |
+| BloxFruitsValues.com (Cosmic Values 운영) | https://bloxfruitsvalues.com/terms-of-service | 원문에 가격표 자동 수집·외부 재게시를 명시적으로 허용한 조항을 확인하지 못함. 이용자 콘텐츠의 사용 허락은 해당 서비스에 부여한 것이며 우리 사이트에 대한 허락이 아님 | 허용 근거 미확인 |
+| BloxFruitsValues.gg | https://bloxfruitsvalues.gg/terms | 기존 검토에서 가격표 외부 재게시 허용 근거 미확인. .com과는 별도 도메인으로 구분 | 허용 근거 미확인 |
+| Cameraman Tower Defense Wiki | https://www.cameramantower-defense.wiki/en/terms-of-service | 약관은 정보·오락 목적 안내와 오용 금지 등을 명시. CC 등 공개 데이터 라이선스나 자동 재게시 허용은 확인하지 못함. 가치표는 2026-10-24 관측값으로 현재 가격과도 구분 필요 | 허용 근거·최신성 미확인 |
+| CameramanTowerDefense.com | https://cameramantowerdefense.com/values/ | 본문에서 숫자가 VVX 보드에서 왔다고 명시 | VVX 제외 요청에 따라 제외 |
+| Pro Game Guides | https://progameguides.com/roblox/cameraman-tower-defense-trading-value-list-roblox/ | 본문은 읽었으나 약관 링크는 `gamurs.group/terms/`이며 이 도메인은 현재 환경에서 접근 차단. `/terms/`는 404이므로 약관으로 취급하지 않음 | 약관 확인 미완료 |
+| Of Zen and Computing | https://www.ofzenandcomputing.com/cameraman-tower-defense-trading-value-list-roblox/ | 본문은 읽었으나 추정한 약관 경로는 홈페이지로 리디렉션됨. 해당 응답을 약관 확인으로 취급하지 않음 | 약관·이용 범위 미확인 |
+| BloxRant | https://bloxrant.com/ | 사이트에서 403 차단 응답. 이를 우회하지 않음 | 원문 확인 불가 |
+
+### 공개 API/저장소 추가 검토
+
+- https://github.com/Cyerc/123demands-Value-Fetcher 는 MIT로 공개된 **수집 코드**입니다. 그 라이선스가 외부 123demands 가격 데이터의 재배포 허락까지 증명하지 않으므로 가격 출처 라이선스로 사용하지 않습니다.
+- https://github.com/iliaprogrammer/bloxfruits-api 는 README에서 외부 웹사이트 스크래핑과 `No license has been specified`를 명시합니다. 공개 API 코드라는 이유로 가격 이용 허락을 확보한 것으로 취급하지 않습니다.
+- https://github.com/gloomysummer/ctd-guide-wiki 는 README에서 가격 원문을 VVX로 명시합니다. 다른 도메인·GitHub를 거쳐 VVX 값이 다시 들어오지 않도록 제외합니다.
+
+현재 확인한 후보로는 두 게임의 자동 수집·재게시 범위를 확인한 독립 출처 두 곳을 확보하지 못했습니다. 이번 검토에서 가격을 복구하거나 자동 수집을 재개하지 않았습니다. 임시 점수를 외부 시세로 바꾸어 표시하지 않습니다.
+
+## 적용 결정 — 공개 숫자 비교에 한정
+
+추가로 두 블록스 프루츠 사이트의 robots 원문을 읽어 공개 `/values`가 허용되어 있고 `/api/` 등에 제한이 있음을 확인했습니다. 검토한 약관에 명시적인 읽기 전용 공개 가격 숫자 비교 금지 조항이 없다는 범위에서 가격 숫자·이름 대응·관측일만 사용하기로 했습니다. 명시적 재게시 허락을 받았다거나 평균 계산으로 원본의 이용 조건이 소멸한다는 의미가 아닙니다. 약관·robots를 검사하고 공개 HTML만 읽으며 서술·디자인·수요 평가·이미지는 수집하지 않습니다. 가격 비교로 사용할 수 없는 항목을 임시 점수로 채우지 않습니다.
+
+BloxFruitsValues.com 공개 HTML의 `initialItems`에 있는 `metadata.regValue` 및 `metadata.permValue`와 BloxFruitsValues.gg의 `physical_value`/`permanent_value`만 사용합니다. 게임 상점 `beliPrice`·`robuxPrice`는 사용하지 않습니다. 개별 관측 날짜와 출처 원문 링크를 표시합니다. 약관의 검토 시점과 텍스트 해시는 `tools/comparison-sources.json`에 기록했으며 변경 시 수집을 멈춥니다.
+
+카타디는 이번에 같은 조건으로 확인한 두 출처를 확보하지 못해 외부 가격으로 전환하지 않았습니다. 임시 비교점수 표시를 유지하고 블록스 프루츠의 거래가치와 섞지 않습니다.
