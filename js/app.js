@@ -154,7 +154,7 @@
   async function renderPriceCheck(node,gameId=null) {
     try {
       const report=await getJSON('data/value-update-status.json');
-      if(['paused','provisional'].includes(report.state)){if(node?.isConnected)node.textContent=report.message;return;}
+      if(['paused','provisional'].includes(report.state)){if(node?.isConnected)node.textContent=report.state==='paused'?'자동 갱신 중단 · 기존 기준값을 사용합니다.':'임시 기준값 · 실제 거래가격이 아닙니다.';return;}
       if(report.state==='comparison'){
         const info=gameId?report.games?.[gameId]:null;
         if(gameId==='cameraman-td'&&(info?.refreshState==='blocked'||/error: (401|403)/.test(report.ctdReferenceError||''))){
@@ -164,14 +164,14 @@
           return;
         }
         const time=new Date(info?.checkedAt||report.checkedAt).toLocaleString('ko-KR',{timeZone:'Asia/Seoul'});
-        if(node?.isConnected)node.textContent=(info?.message||'블록스 프루츠: 공개 가격 비교 · 카타디: VVX 공개 참고가')+(info?.mode==='provisional'?'':' · 최근 가격 확인 '+time+' (한국 시간) · 6시간마다 확인')+(report.comparisonErrors?.length?' · 최근 수집 일부 실패: 기존 관측 날짜를 확인하세요':'')+(report.ctdReferenceError&&(!gameId||gameId==='cameraman-td')?' · 카타디 자료 갱신 실패: 기존 관측일을 확인하세요':'');
+        if(node?.isConnected)node.textContent=(info?.mode==='provisional'?'임시 기준값':`계산 기준값${info?' · '+full(info.pricedItems??info.referencedItems??0)+'개 항목 확인':''}`)+(info?.mode==='provisional'?'':' · 최근 가격 확인 '+time+' (한국 시간) · 6시간마다 확인')+(report.comparisonErrors?.length?' · 최근 수집 일부 실패: 기존 관측 날짜를 확인하세요':'')+(report.ctdReferenceError&&(!gameId||gameId==='cameraman-td')?' · 카타디 자료 갱신 실패: 기존 관측일을 확인하세요':'');
         return;
       }
       const checks=gameId?[report.checks?.[gameId]].filter(Boolean):Object.values(report.checks||{});
       const blocked=checks.some(c=>c.state==='blocked');
       const changes=checks.reduce((sum,c)=>sum+c.changedItems,0);
       const time=new Date(report.checkedAt).toLocaleString('ko-KR',{timeZone:'Asia/Seoul',month:'numeric',day:'numeric',hour:'2-digit',minute:'2-digit'});
-      if(node?.isConnected)node.textContent=`최근 시세 확인 ${time} (한국 시간) · ${blocked?'일부 시세 확인 중단':changes?changes+'개 시세 반영':'확인된 시세 기준 3% 이상 변동 없음'}${report.errors?.some(e=>!gameId||e.game===gameId)?' · 일부 출처 확인 실패':''} · 매시간 자동 확인`;
+      if(node?.isConnected)node.textContent=`최근 시세 확인 ${time} (한국 시간) · ${blocked?'일부 시세 확인 중단':changes?changes+'개 시세 반영':'확인된 시세 기준 3% 이상 변동 없음'}${report.errors?.some(e=>!gameId||e.game===gameId)?' · 일부 자료 확인 실패':''} · 매시간 자동 확인`;
     } catch {
       if(node?.isConnected)node.textContent='기준 안내를 불러오지 못했습니다.';
     }
@@ -205,7 +205,7 @@
       <section class="hero">
         <div class="eyebrow">Roblox Trading Hub</div>
         <h1>거래 전에 <em>참고 기준</em>부터 확인하세요</h1>
-        <p>여러 로블록스 게임의 아이템 참고자료와 거래 계산기를 한곳에서. 내가 주는 것과 받는 것을 넣으면 임시 기준에 따른 점수 차이를 비교해요.</p>
+        <p>여러 로블록스 게임의 아이템 참고자료와 거래 계산기를 한곳에서. 내가 주는 것과 받는 것을 넣으면 표시된 기준값의 차이를 비교해요.</p>
         <div class="hero__stats">
           <div class="stat"><b>${state.games.length}</b><span>지원 게임</span></div>
           <div class="stat"><b>${full(totalItems)}</b><span>등록 아이템</span></div>
@@ -251,7 +251,7 @@
         <div>
           <div class="eyebrow">Value List</div>
           <h1>${esc(meta.name)} 참고자료</h1>
-          <p>${full(data.items.length)}개 아이템 · 업데이트 ${esc(data.updated || '-')}${data.source ? ' · ' + esc(data.source) : ''}</p>
+          <p>${full(data.items.length)}개 아이템 · 업데이트 ${esc(data.updated || '-')}</p>
         </div>
         <a class="btn btn--accent" href="#/g/${encodeURIComponent(meta.id)}/calc">거래 계산기 열기</a>
       </div>
@@ -326,7 +326,7 @@
 
   function itemCard(i, data) {
     const singleQuote=i.valueStatus==='insufficient'&&i.priceQuotes?.length===1?i.priceQuotes[0]:null;
-    const display=hasPrice(i)?compact(i.value)+(i.valueStatus==='single'?' · 단일 출처':i.valueStatus==='disputed-reference'?' · VVX 참고':''):singleQuote?quoteText(singleQuote)+(singleQuote.unit?' '+singleQuote.unit:'')+' · 단일 출처':missingPrice(data);
+    const display=hasPrice(i)?compact(i.value):singleQuote?quoteText(singleQuote)+(singleQuote.unit?' '+singleQuote.unit:'')+' · 합산 보류':missingPrice(data);
     const dmax = Number(data.demandMax) || 5;
     const dval = Math.max(0, Math.min(dmax, Number(i.demand) || 0));
     const d = Math.round((dval / dmax) * 5);
@@ -339,11 +339,9 @@
         <div class="item__body">
           <div class="item__top"><span class="rarity">${esc(rarityLabel(i.rarity))}</span><span class="cat">${esc(i.category || '')}</span></div>
           <h3 class="item__name">${esc(i.name)}</h3>
-          <div class="item__value" title="${hasPrice(i)?full(i.value):singleQuote?quoteText(singleQuote,full)+' · 단일 출처 참고값':missingPrice(data)}">${display}${hasPrice(i)&&data.valueUnit ? ' ' + esc(data.valueUnit) : ''}${changeBadge(changeOf(i))}</div>
-          ${!hasPrice(i)&&i.referenceValue?`<p class="item__note"><a href="${esc(i.referenceUrl)}" target="_blank" rel="noopener noreferrer">${esc(i.referenceSource)} 참고 ${full(i.referenceValue)}</a> · 비교 시세 미확정</p>`:''}
-          ${i.note ? `<p class="item__note">${esc(i.note)}</p>` : ''}
-          ${i.priceQuotes?.length?`<details class="item__sources"><summary>출처별 숫자 보기 (${i.priceQuotes.length}곳)</summary><ul>${i.priceQuotes.map(q=>`<li><a href="${esc(q.url)}" target="_blank" rel="noopener noreferrer">${esc(q.name)}</a>: ${quoteText(q,full)}${q.unit?' '+esc(q.unit):''}<br><small>${q.publishedAt?'자료 수정 '+esc(new Date(q.publishedAt).toLocaleDateString('ko-KR')):'자료 수정일 미표기'} · 관측 ${esc(new Date(q.observedAt).toLocaleDateString('ko-KR'))}</small></li>`).join('')}</ul></details>`:''}
-          <div class="item__foot"><span class="muted">${externalPrices(data)?(hasPrice(i)?(i.valueStatus==='single'?'단일 출처 참고가':i.valueStatus==='disputed-reference'?'편차 큰 항목 · VVX 표기값':'공개값 비교 평균'):singleQuote?'단일 출처 참고 · 합산 보류':'가격 비교 보류'):(hasPrice(i)?'임시 비교점수':'점수 미정')}</span></div>
+          <div class="item__value" title="${hasPrice(i)?full(i.value):singleQuote?quoteText(singleQuote,full)+' · 참고값':missingPrice(data)}">${display}${hasPrice(i)&&data.valueUnit ? ' ' + esc(data.valueUnit) : ''}${changeBadge(changeOf(i))}</div>
+          ${!externalPrices(data)&&i.note ? `<p class="item__note">${esc(i.note)}</p>` : ''}
+          <div class="item__foot"><span class="muted">${externalPrices(data)?(hasPrice(i)?(i.valueStatus==='single'?'참고 기준값':i.valueStatus==='disputed-reference'?'가격 편차 큼 · 참고값':'비교 기준값'):singleQuote?'참고값 · 합산 보류':'숫자 미확인 · 합산 보류'):(hasPrice(i)?'임시 비교점수':'점수 미정')}</span></div>
         </div>
       </article>`;
   }
@@ -367,7 +365,7 @@
         <div>
           <div class="eyebrow">Trade Calculator</div>
           <h1>${esc(meta.name)} 거래 계산기</h1>
-          <p>${data.pricingMode==='reference'?'현재 카타디 자료는 단일 출처의 범위입니다. 평균과 합산은 보류합니다.':externalPrices(data)?'표시된 참고가로 합산합니다. 단일 출처와 출처 간 편차가 큰 값도 포함될 수 있으며 실거래 체결가가 아닙니다.':'등급·분류별 임시 점수를 합산합니다. 실제 거래가격이 아닙니다.'} 업데이트 ${esc(data.updated || '-')}</p>
+          <p>${data.pricingMode==='reference'?'현재 자료는 범위로 표시됩니다. 확정 기준값이 없어 합산을 보류합니다.':externalPrices(data)?'표시된 기준값으로 합산합니다. 편차가 큰 참고값이 포함될 수 있으며 실제 거래 체결가가 아닙니다.':'등급·분류별 임시 점수를 합산합니다. 실제 거래가격이 아닙니다.'} 업데이트 ${esc(data.updated || '-')}</p>
         </div>
         <button class="btn" id="swap" type="button">⇄ 양쪽 바꾸기</button>
       </div>

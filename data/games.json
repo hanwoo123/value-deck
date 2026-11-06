@@ -9,7 +9,7 @@
       "dataFile": "data/blox-fruits.json",
       "cover": "images/blox-fruits/cover.png",
       "accent": "#3da5ff",
-      "description": "공개 사이트 거래가치 비교 · 출처·범위·관측일 표시"
+      "description": "아이템 참고값 · 거래 비교 계산기"
     },
     {
       "id": "cameraman-td",
@@ -18,7 +18,7 @@
       "dataFile": "data/cameraman-td.json",
       "cover": "images/cameraman-td/cover.png",
       "accent": "#ff4d6d",
-      "description": "VVX 공개 참고가 · 단일 출처 · 숫자 없는 항목은 보류"
+      "description": "유닛 참고값 · 숫자 없는 항목은 합산 보류"
     },
     {
       "id": "sample-pirate",
