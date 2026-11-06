@@ -1,6 +1,6 @@
 {
   "state": "comparison",
-  "checkedAt": "2026-11-06T09:14:21+09:00",
+  "checkedAt": "2026-11-06T09:32:51+09:00",
   "games": {
     "blox-fruits": {
       "mode": "comparison",
@@ -16,5 +16,6 @@
       "message": "외부 자료 범위 33개 · 단일 출처 참고 · 평균·실거래 시세로 검증하지 않았으며 계산에 합산하지 않습니다."
     }
   },
-  "comparisonErrors": []
+  "comparisonErrors": [],
+  "ctdReferenceError": "Command '['curl', '--fail', '--silent', '--show-error', '--proto', '=https', '--max-time', '25', '--max-filesize', '5000000', '--user-agent', 'BLOX-DECKS-price-comparison/1.0', 'https://www.ofzenandcomputing.com/disclosure-policy/']' returned non-zer"
 }
