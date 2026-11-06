@@ -1,22 +1,27 @@
 {
   "state": "comparison",
-  "checkedAt": "2026-11-06T23:39:24+09:00",
+  "checkedAt": "2026-11-07T04:34:14+09:00",
   "games": {
     "blox-fruits": {
       "mode": "comparison",
       "pricedItems": 135,
-      "sourceCount": 3,
-      "message": "공개 사이트 3곳 숫자 비교 · 135개 항목 숫자 확인 · 단일 출처·편차 큰 값은 별도 표시 · 출처가 같은 원본을 사용했을 수 있으며 독립된 실거래 조사로 확인한 값이 아닙니다."
+      "sourceCount": 2,
+      "message": "공개 사이트 2곳 숫자 비교 · 135개 항목 숫자 확인 · 단일 출처·편차 큰 값은 별도 표시 · 출처가 같은 원본을 사용했을 수 있으며 독립된 실거래 조사로 확인한 값이 아닙니다."
     },
     "cameraman-td": {
       "mode": "comparison",
       "referencedItems": 36,
       "sourceCount": 1,
-      "checkedAt": "2026-11-06T23:40:15+09:00",
-      "lastAttemptAt": "2026-11-06T23:40:15+09:00",
+      "checkedAt": "2026-11-07T04:35:03+09:00",
+      "lastAttemptAt": "2026-11-07T04:35:03+09:00",
       "refreshState": "ok",
       "message": "VVX 공개 숫자 36개 · 단일 출처 참고가 · 6시간마다 확인"
     }
   },
-  "comparisonErrors": []
+  "comparisonErrors": [
+    {
+      "id": "bfv-gg",
+      "error": "Terms changed: review required before collection"
+    }
+  ]
 }
