@@ -10,7 +10,15 @@
       "minimumPrices": 70,
       "reviewedTermsHash": "c78ecf0f4042be261f0c3160f51bb655196dc222884ba695c68d230e13acb9a4",
       "reviewedAt": "2026-11-06",
-      "reviewResult": "No explicit prohibition of read-only public numeric comparison found in reviewed terms; not an express republication license. No private/API access, original prose, ratings or images collected."
+      "reviewResult": "No explicit prohibition of read-only public numeric comparison found in reviewed terms; not an express republication license. No private/API access, original prose, ratings or images collected.",
+      "itemNames": {
+        "1-fruit-storage": "Fruit Storage",
+        "arcsteel-magnet": "Arc Steel Magnet",
+        "eagle-matrix": "Matrix Eagle",
+        "eagle-requiem": "Requiem Eagle",
+        "eagle-glacier": "Glacier Eagle",
+        "meme-meme": "Meme"
+      }
     },
     {
       "id": "cosmic-bfv",
@@ -23,7 +31,51 @@
       "maximumAgeDays": 7,
       "reviewedTermsHash": "13423921f5693f722b8249e8860ed49a6c9d26f523883bc9703acbd4c7f96a80",
       "reviewedAt": "2026-11-06",
-      "reviewResult": "No explicit prohibition of read-only public numeric comparison found in reviewed terms; not an express republication license. No private/API access, original prose, ratings or images collected."
+      "reviewResult": "No explicit prohibition of read-only public numeric comparison found in reviewed terms; not an express republication license. No private/API access, original prose, ratings or images collected.",
+      "itemNames": {
+        "rabid-dogblade": "Rabid Dog Blade"
+      },
+      "extraPages": [
+        "https://bloxfruitsvalues.com/values/gamepasses",
+        "https://bloxfruitsvalues.com/values/limiteds",
+        "https://bloxfruitsvalues.com/values/limiteds/eclipse",
+        "https://bloxfruitsvalues.com/values/limiteds/super-spirit-pain",
+        "https://bloxfruitsvalues.com/values/limiteds/dragon-token",
+        "https://bloxfruitsvalues.com/values/fruits/love",
+        "https://bloxfruitsvalues.com/values/fruits/quake",
+        "https://bloxfruitsvalues.com/values/fruits/magma",
+        "https://bloxfruitsvalues.com/values/fruits/ghost",
+        "https://bloxfruitsvalues.com/values/fruits/rubber",
+        "https://bloxfruitsvalues.com/values/fruits/light",
+        "https://bloxfruitsvalues.com/values/fruits/diamond",
+        "https://bloxfruitsvalues.com/values/limiteds/celestial-pain",
+        "https://bloxfruitsvalues.com/values/fruits/eagle",
+        "https://bloxfruitsvalues.com/values/fruits/dark",
+        "https://bloxfruitsvalues.com/values/limiteds/sadness-pain",
+        "https://bloxfruitsvalues.com/values/fruits/sand",
+        "https://bloxfruitsvalues.com/values/fruits/ice",
+        "https://bloxfruitsvalues.com/values/limiteds/azura-bomb",
+        "https://bloxfruitsvalues.com/values/limiteds/frustration-pain",
+        "https://bloxfruitsvalues.com/values/limiteds/nuclear-bomb",
+        "https://bloxfruitsvalues.com/values/limiteds/thermite-bomb",
+        "https://bloxfruitsvalues.com/values/fruits/flame",
+        "https://bloxfruitsvalues.com/values/limiteds/eagle-matrix",
+        "https://bloxfruitsvalues.com/values/limiteds/eagle-requiem",
+        "https://bloxfruitsvalues.com/values/limiteds/emerald-diamond",
+        "https://bloxfruitsvalues.com/values/fruits/spike",
+        "https://bloxfruitsvalues.com/values/limiteds/ruby-diamond",
+        "https://bloxfruitsvalues.com/values/limiteds/torment-pain",
+        "https://bloxfruitsvalues.com/values/fruits/smoke",
+        "https://bloxfruitsvalues.com/values/fruits/bomb",
+        "https://bloxfruitsvalues.com/values/fruits/spring",
+        "https://bloxfruitsvalues.com/values/limiteds/eagle-glacier",
+        "https://bloxfruitsvalues.com/values/fruits/blade",
+        "https://bloxfruitsvalues.com/values/fruits/spin",
+        "https://bloxfruitsvalues.com/values/limiteds/topaz-diamond",
+        "https://bloxfruitsvalues.com/values/limiteds/celebration-bomb",
+        "https://bloxfruitsvalues.com/values/fruits/rocket"
+      ],
+      "requestIntervalSeconds": 1
     }
   ]
 }

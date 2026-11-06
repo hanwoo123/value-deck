@@ -66,3 +66,26 @@
 BloxFruitsValues.com 공개 HTML의 `initialItems`에 있는 `metadata.regValue` 및 `metadata.permValue`와 BloxFruitsValues.gg의 `physical_value`/`permanent_value`만 사용합니다. 게임 상점 `beliPrice`·`robuxPrice`는 사용하지 않습니다. 개별 관측 날짜와 출처 원문 링크를 표시합니다. 약관의 검토 시점과 텍스트 해시는 `tools/comparison-sources.json`에 기록했으며 변경 시 수집을 멈춥니다.
 
 카타디는 이번에 같은 조건으로 확인한 두 출처를 확보하지 못해 외부 가격으로 전환하지 않았습니다. 임시 비교점수 표시를 유지하고 블록스 프루츠의 거래가치와 섞지 않습니다.
+
+## 누락 항목 전수 대조 — 2026-11-06
+
+블록스 프루츠 전체 135개를 대상으로 다시 대조했습니다. 기존 수집기는 BloxFruitsValues.com의 첫 열매 목록 24개만 읽고 게임패스·한정 아이템 목록과 하위 상세 페이지를 누락했습니다. 공개 사이트맵의 경로와 실제 원문을 확인해 분류 목록 2개 및 상세 페이지 36개(총 추가 페이지 38개)를 같은 출처에 합쳤습니다. 공개 상세 `item` 객체와 React Flight의 `$D` 날짜 직렬화를 읽으며 Gamepasses/Limiteds의 거래가치도 `metadata.regValue`에서 읽습니다. API/로그인/제한 페이지는 요청하지 않습니다.
+
+- 공개 수치 비교 가능: 111개(기존 45개에서 66개 증가).
+- 단일 출처 참고만 가능: 23개. 숫자·출처는 표시하되 평균과 계산기 합산은 보류.
+- 검증된 숫자 없음: Eclipse 1개. `Chromatic Eclipse`를 같은 아이템으로 추정해 넣지 않음.
+- 공개 원문 수정일이 오래됐거나 값을 비워둔 경우 두 번째 출처를 확보한 것으로 세지 않습니다. 일반/영구·기본/변형 아이템을 합쳐 빈칸을 채우지 않습니다.
+- 확인한 명시적 표기 차이만 설정에 기록합니다: +1 Fruit Storage/Fruit Storage, Arcsteel/Arc Steel, Eagle Matrix/Matrix Eagle, Eagle Requiem/Requiem Eagle, Eagle Glacier/Glacier Eagle, Meme-Meme/Meme. 실제 공개 이름을 유지하고 게임/변형이 불명확한 다른 별칭은 사용하지 않습니다.
+
+개별 대조 결과: `docs/blox-fruits-coverage.csv`. 여러 공개 페이지를 방문해도 한 사이트는 출처 하나로만 셉니다.
+
+### 카타디 추가 후보 조사
+
+- CTD Hub: https://cameramantowerdefensehub.wiki/trading/ — 검색에서 별도 가격표를 찾았으나 원문 접근 도메인 추가가 필요. 검색 요약의 가격 기준일은 2026-10-21이므로 현재 자료와 구분해야 함.
+- Google Sites: https://sites.google.com/view/ctdvalues/values — 제목 `ST: CTD Website - Values`, 게임 및 단위·원본·날짜 확인 전에는 연결하지 않음.
+- Google Sites: https://sites.google.com/view/ctdvaluelist/home — 설명은 Classic Tower Defense를 가리켜 Cameraman TD와 다른 게임일 가능성이 높음. 같은 CTD 약칭이라는 이유로 사용하지 않음.
+- https://github.com/Mentalitys-valueweb/Ctd-Value-List-website — 원문 README는 Dimasha Studios의 CTD라고 명시. Aligators Games의 Cameraman TD 자료로 사용하지 않음.
+- 추가 블록스 프루츠 후보 https://123demands.com/ — 공개 수집 코드에서 `https://123demands.com/api/value-list?gameId=bf`를 확인. API가 존재한다는 사실만 확인했으며 운영자 문서·robots·이용 조건을 읽기 전에는 호출하지 않음.
+- Pro Game Guides의 실제 약관은 https://gamurs.group/terms/ 에 있으므로 기존 작업 환경 허용 목록 밖인 해당 도메인 추가가 필요.
+
+필수 원문 확인용 `gamurs.group`, `cameramantowerdefensehub.wiki` 두 도메인만 추가하는 환경 설정 초안을 저장했습니다. 저장 결과는 `requires_publish: true`이며 아직 실행 환경에 적용됐다고 주장하지 않습니다. 두 곳을 읽기 전까지 카타디 외부 비교값을 만들거나 임시 점수를 실제 젬 가격으로 바꾸지 않습니다. 모든 인터넷 사이트를 빠짐없이 검색했다는 뜻은 아니며, 이번에 발견하고 접근·원문·게임 정체를 확인한 범위를 기록한 것입니다.

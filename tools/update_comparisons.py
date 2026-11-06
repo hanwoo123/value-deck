@@ -5,6 +5,7 @@ from html.parser import HTMLParser
 import json
 from pathlib import Path
 import subprocess
+import time
 from datetime import datetime, timedelta
 from decimal import Decimal
 from urllib.parse import urlparse
@@ -12,7 +13,7 @@ from urllib.robotparser import RobotFileParser
 from zoneinfo import ZoneInfo
 import sys
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from public_sources import page_array
+from public_sources import page_array, page_object
 from update_values import number, key
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -43,7 +44,14 @@ def get(url):
 
 def parse_quotes(html,source,now):
     prices={};dates={}
-    rows=page_array(html,'fruits' if source['parser']=='bloxfruitsvalues' else 'initialItems')
+    if source['parser']=='bloxfruitsvalues':
+        rows=page_array(html,'fruits')
+    else:
+        try: rows=page_array(html,'initialItems')
+        except ValueError:
+            row=page_object(html,'item')
+            if not isinstance(row.get('metadata'),dict) or not isinstance(row.get('name'),str):raise ValueError('Invalid public item detail')
+            rows=[row]
     def add(name,raw,published):
         try:v=number(raw)
         except ValueError:return
@@ -52,6 +60,7 @@ def parse_quotes(html,source,now):
         prices[name]=v;dates[name]=published
     for row in rows:
         published=row.get('updatedAt')
+        if isinstance(published,str):published=published.removeprefix('$D')
         if published:
             age=now-datetime.fromisoformat(published.replace('Z','+00:00'))
             if age>timedelta(days=source.get('maximumAgeDays',7)) or age<timedelta(days=-1):continue
@@ -60,9 +69,9 @@ def parse_quotes(html,source,now):
             if row.get('category')=='fruit':add('Permanent '+row['name'],row.get('permanent_value'),published)
         elif source['parser']=='cosmic-public':
             metadata=row.get('metadata') or {}
-            if row.get('category')=='Fruits':
+            if row.get('category') in ('Fruits','Gamepasses','Limiteds'):
                 add(row['name'],metadata.get('regValue'),published)
-                add('Permanent '+row['name'],metadata.get('permValue'),published)
+                if row['category']=='Fruits':add('Permanent '+row['name'],metadata.get('permValue'),published)
         else:raise ValueError('Unknown public parser')
     if len(prices)<source['minimumPrices']:raise ValueError('Unexpected public quote coverage')
     return prices,dates
@@ -70,11 +79,26 @@ def parse_quotes(html,source,now):
 def fetch_source(source,now):
     robots=get(source['robotsUrl'])
     rp=RobotFileParser();rp.parse(robots.splitlines())
-    for url in [source['termsUrl'],source['url']]:
+    urls=list(dict.fromkeys([source['url']]+source.get('extraPages',[])))
+    if len(urls)>64 or any(urlparse(u).hostname!=urlparse(source['url']).hostname for u in urls):raise ValueError('Unexpected public page manifest')
+    for url in [source['termsUrl']]+urls:
         if not rp.can_fetch('BLOX-DECKS-price-comparison',url):raise ValueError('Robots disallow access')
     terms=get(source['termsUrl'])
     if terms_hash(terms)!=source['reviewedTermsHash']:raise ValueError('Terms changed: review required before collection')
-    return parse_quotes(get(source['url']),source,now)
+    prices={};dates={};links={};errors=[];consecutive=0
+    for index,url in enumerate(urls):
+        if index:time.sleep(source.get('requestIntervalSeconds',1))
+        try:
+            parsed,published=parse_quotes(get(url),dict(source,minimumPrices=0),now)
+            for name,value in parsed.items():
+                if name in prices and prices[name]!=value:raise ValueError('Conflicting quotes from same publisher')
+                prices[name]=value;dates[name]=published.get(name);links[name]=url
+            consecutive=0
+        except (ValueError,OSError,KeyError,subprocess.CalledProcessError) as error:
+            errors.append({'url':url,'error':str(error)[:160]});consecutive+=1
+            if consecutive>=3:break
+    if len(prices)<source['minimumPrices']:raise ValueError('Unexpected aggregate public quote coverage')
+    return prices,dates,links,errors
 
 def apply(data,sources,results,now):
     stamp=now.isoformat(timespec='seconds');changed=[];count=0
@@ -87,9 +111,11 @@ def apply(data,sources,results,now):
         quotes=[]
         for source in sources:
             if source['id'] not in results:continue
-            prices,dates=results[source['id']]
-            if name in prices:
-                quotes.append({'id':source['id'],'name':source['name'],'url':source['url'],'value':int(prices[name]),'observedAt':stamp,'publishedAt':dates.get(name)})
+            prices,dates,*extra=results[source['id']]
+            links=extra[0] if extra else {}
+            source_name=key(source.get('itemNames',{}).get(item['id'],name))
+            if source_name in prices:
+                quotes.append({'id':source['id'],'name':source['name'],'url':links.get(source_name,source['url']),'value':int(prices[source_name]),'observedAt':stamp,'publishedAt':dates.get(source_name)})
         value=None;status='insufficient';reason='비교 자료 부족'
         if len(quotes)>=2:
             vals=[Decimal(q['value']) for q in quotes]
@@ -108,7 +134,10 @@ def apply(data,sources,results,now):
 def run(root=ROOT,fetcher=fetch_source,write=False):
     config=json.loads((root/'tools/comparison-sources.json').read_text());now=datetime.now(ZoneInfo('Asia/Seoul'));results={};errors=[]
     for s in config['sources']:
-        try:results[s['id']]=fetcher(s,now)
+        try:
+            results[s['id']]=fetcher(s,now)
+            if len(results[s['id']])>3:
+                errors.extend({'id':s['id'],**e} for e in results[s['id']][3])
         except (ValueError,OSError,KeyError,subprocess.CalledProcessError) as e:errors.append({'id':s['id'],'error':str(e)[:250]})
     if len(results)<2:
         # Leave published quotes and their original observation date intact; never relabel stale data as checked.

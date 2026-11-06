@@ -53,3 +53,21 @@ def parse_public(html, source, number, key):
     if len(prices) < source.get('minimum_prices', 10):
         raise ValueError('Public price coverage unexpectedly low')
     return prices
+
+
+def page_object(html, field):
+    """Read one object embedded in a public detail page, never an API endpoint."""
+    chunks = re.finditer(r'self\.__next_f\.push\(\[1,("(?:[^"\\]|\\.)*")\]\)', html)
+    payload = ''.join(json.loads(m.group(1)) for m in chunks)
+    marker = json.dumps(field) + ':'
+    objects = []
+    for match in re.finditer(re.escape(marker), payload):
+        try:
+            value, _ = json.JSONDecoder().raw_decode(payload[match.end():])
+            if isinstance(value, dict) and value not in objects:
+                objects.append(value)
+        except json.JSONDecodeError:
+            continue
+    if len(objects) != 1:
+        raise ValueError(f'Expected one public {field} object')
+    return objects[0]

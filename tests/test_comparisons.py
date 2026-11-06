@@ -29,6 +29,23 @@ class ComparisonTests(unittest.TestCase):
         rows=[{'name':'Venom','category':'Fruits','updatedAt':'2026-11-05T00:00:00Z','metadata':{'regValue':100,'permValue':500,'beliPrice':999,'robuxPrice':9999}}, {'name':'Old','category':'Fruits','updatedAt':'2026-01-01T00:00:00Z','metadata':{'regValue':999}}]
         prices,dates=m.parse_quotes(self.page('initialItems',rows),{'parser':'cosmic-public','minimumPrices':2},self.now)
         self.assertEqual(prices,{'venom':D(100),'permanent venom':D(500)});self.assertEqual(dates['venom'],rows[0]['updatedAt'])
+    def test_gamepass_and_detail_pages_decode_public_flight_dates(self):
+        row={'name':'Fruit Notifier','category':'Gamepasses','updatedAt':'$D2026-11-05T00:00:00Z','metadata':{'regValue':2500000000,'robuxPrice':2700,'permValue':0}}
+        prices,dates=m.parse_quotes(self.page('initialItems',[row]),{'parser':'cosmic-public','minimumPrices':1},self.now)
+        self.assertEqual(prices,{'fruit notifier':D(2500000000)})
+        self.assertEqual(dates['fruit notifier'],'2026-11-05T00:00:00Z')
+        payload=json.dumps({'item':row},separators=(',',':'))
+        html='<script>self.__next_f.push([1,'+json.dumps(payload)+'])</script>'
+        self.assertEqual(m.parse_quotes(html,{'parser':'cosmic-public','minimumPrices':1},self.now)[0],prices)
+
+    def test_aliases_are_explicit_and_pages_from_same_site_do_not_increase_quorum(self):
+        d=self.data();d['items'][0].update(id='storage',name='+1 Fruit Storage',category='게임패스')
+        sources=copy.deepcopy(self.sources);sources[0]['itemNames']={'storage':'Fruit Storage'}
+        count,_=m.apply(d,sources,{'a':({'fruit storage':D(100)},{})},self.now)
+        self.assertEqual(count,0);self.assertIsNone(d['items'][0]['value']);self.assertEqual(len(d['items'][0]['priceQuotes']),1)
+        count,_=m.apply(d,sources,{'a':({'fruit storage':D(100)},{}),'b':({'+1 fruit storage':D(120)},{})},self.now)
+        self.assertEqual(count,1);self.assertEqual(d['items'][0]['value'],110)
+
     def test_terms_change_and_robots_disallow_block_before_value_page(self):
         source={'robotsUrl':'https://a.example/robots.txt','termsUrl':'https://a.example/terms','url':'https://a.example/values','reviewedTermsHash':m.terms_hash('<p>Reviewed</p>')}
         with patch.object(m,'get',side_effect=['User-agent: *\nAllow: /','<p>Changed</p>']) as get:

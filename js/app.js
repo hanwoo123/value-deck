@@ -317,6 +317,8 @@
   }
 
   function itemCard(i, data) {
+    const singleQuote=i.valueStatus==='insufficient'&&i.priceQuotes?.length===1?i.priceQuotes[0]:null;
+    const display=hasPrice(i)?compact(i.value):singleQuote?compact(singleQuote.value)+' · 단일 출처':missingPrice(data);
     const dmax = Number(data.demandMax) || 5;
     const dval = Math.max(0, Math.min(dmax, Number(i.demand) || 0));
     const d = Math.round((dval / dmax) * 5);
@@ -329,11 +331,11 @@
         <div class="item__body">
           <div class="item__top"><span class="rarity">${esc(rarityLabel(i.rarity))}</span><span class="cat">${esc(i.category || '')}</span></div>
           <h3 class="item__name">${esc(i.name)}</h3>
-          <div class="item__value" title="${hasPrice(i)?full(i.value):missingPrice(data)}">${hasPrice(i)?compact(i.value):missingPrice(data)}${hasPrice(i)&&data.valueUnit ? ' ' + esc(data.valueUnit) : ''}${changeBadge(changeOf(i))}</div>
+          <div class="item__value" title="${hasPrice(i)?full(i.value):singleQuote?full(singleQuote.value)+' · 단일 출처 참고값':missingPrice(data)}">${display}${hasPrice(i)&&data.valueUnit ? ' ' + esc(data.valueUnit) : ''}${changeBadge(changeOf(i))}</div>
           ${!hasPrice(i)&&i.referenceValue?`<p class="item__note"><a href="${esc(i.referenceUrl)}" target="_blank" rel="noopener noreferrer">${esc(i.referenceSource)} 참고 ${full(i.referenceValue)}</a> · 비교 시세 미확정</p>`:''}
           ${i.note ? `<p class="item__note">${esc(i.note)}</p>` : ''}
           ${i.priceQuotes?.length?`<details class="item__sources"><summary>출처별 숫자 보기 (${i.priceQuotes.length}곳)</summary><ul>${i.priceQuotes.map(q=>`<li><a href="${esc(q.url)}" target="_blank" rel="noopener noreferrer">${esc(q.name)}</a>: ${full(q.value)}<br><small>${q.publishedAt?'자료 수정 '+esc(new Date(q.publishedAt).toLocaleDateString('ko-KR')):'자료 수정일 미표기'} · 관측 ${esc(new Date(q.observedAt).toLocaleDateString('ko-KR'))}</small></li>`).join('')}</ul></details>`:''}
-          <div class="item__foot"><span class="muted">${data.pricingMode==='comparison'?(hasPrice(i)?'공개값 비교 평균':'가격 비교 보류'):(hasPrice(i)?'임시 비교점수':'점수 미정')}</span></div>
+          <div class="item__foot"><span class="muted">${data.pricingMode==='comparison'?(hasPrice(i)?'공개값 비교 평균':singleQuote?'단일 출처 참고 · 합산 보류':'가격 비교 보류'):(hasPrice(i)?'임시 비교점수':'점수 미정')}</span></div>
         </div>
       </article>`;
   }
