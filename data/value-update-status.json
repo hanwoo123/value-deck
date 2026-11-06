@@ -1,6 +1,6 @@
 {
   "state": "comparison",
-  "checkedAt": "2026-11-06T09:41:39+09:00",
+  "checkedAt": "2026-11-06T16:02:26+09:00",
   "games": {
     "blox-fruits": {
       "mode": "comparison",
@@ -13,7 +13,10 @@
       "referencedItems": 33,
       "sourceCount": 1,
       "checkedAt": "2026-11-06T09:29:06+09:00",
-      "message": "외부 자료 범위 33개 · 단일 출처 참고 · 평균·실거래 시세로 검증하지 않았으며 계산에 합산하지 않습니다."
+      "message": "외부 자료 범위 33개 · 단일 출처 참고 · 평균·실거래 시세로 검증하지 않았으며 계산에 합산하지 않습니다.",
+      "lastAttemptAt": "2026-11-06T16:03:13+09:00",
+      "refreshState": "blocked",
+      "httpStatus": 403
     }
   },
   "comparisonErrors": [],
