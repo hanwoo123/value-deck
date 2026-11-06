@@ -31,6 +31,10 @@ jobs:
         id: collect
         continue-on-error: true
         run: python tools/update_comparisons.py --write
+      - name: Refresh dated single-source CTD ranges
+        id: ctd
+        continue-on-error: true
+        run: python tools/update_ctd_references.py --write
       - name: Commit changed values and history
         id: commit
         shell: bash
@@ -69,3 +73,7 @@ jobs:
         run: |
           echo 'Some games could not be verified. See data/value-update-status.json for source diagnostics.'
           exit 1
+
+      - name: Report CTD reference collection failure
+        if: always() && steps.ctd.outcome == 'failure'
+        run: exit 1

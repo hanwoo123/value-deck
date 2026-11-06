@@ -34,7 +34,8 @@ def terms_hash(html):
 
 def get(url):
     host=(urlparse(url).hostname or '').lower()
-    if urlparse(url).scheme!='https' or host=='vaultedvaluesx.com' or host.endswith('.vaultedvaluesx.com'):
+    excluded=('vaultedvaluesx.com','progameguides.com','fruityblox.com')
+    if urlparse(url).scheme!='https' or any(host==h or host.endswith('.'+h) for h in excluded):
         raise ValueError('Excluded destination')
     # No redirects: a source cannot redirect collection to an excluded host/API.
     r=subprocess.run(['curl','--fail','--silent','--show-error','--proto','=https','--max-time','25','--max-filesize','5000000','--user-agent','BLOX-DECKS-price-comparison/1.0',url],capture_output=True,check=True)
@@ -145,7 +146,7 @@ def run(root=ROOT,fetcher=fetch_source,write=False):
             p=root/'data/value-update-status.json';old=json.loads(p.read_text());old['lastAttemptAt']=now.isoformat(timespec='seconds');old['comparisonErrors']=errors;p.write_text(json.dumps(old,ensure_ascii=False,indent=2)+'\n')
         return {'state':'blocked','errors':errors}
     p=root/'data/blox-fruits.json';data=json.loads(p.read_text());count,changes=apply(data,config['sources'],results,now)
-    report={'state':'comparison','checkedAt':now.isoformat(timespec='seconds'),'games':{'blox-fruits':{'mode':'comparison','pricedItems':count,'sourceCount':len(results),'message':f'공개 사이트 {len(results)}곳 숫자 비교 · {count}개 항목 비교 가능 · 출처가 같은 원본을 사용했을 수 있으며 독립된 실거래 조사로 확인한 값이 아닙니다.'},'cameraman-td':{'mode':'provisional','message':'등급·분류별 임시 비교점수 · 실제 거래 시세나 젬 가격이 아닙니다. 외부 비교 출처 검토 중입니다.'}},'comparisonErrors':errors}
+    report={'state':'comparison','checkedAt':now.isoformat(timespec='seconds'),'games':{'blox-fruits':{'mode':'comparison','pricedItems':count,'sourceCount':len(results),'message':f'공개 사이트 {len(results)}곳 숫자 비교 · {count}개 항목 비교 가능 · 출처가 같은 원본을 사용했을 수 있으며 독립된 실거래 조사로 확인한 값이 아닙니다.'},'cameraman-td':json.loads((root/'data/value-update-status.json').read_text()).get('games',{}).get('cameraman-td',{'mode':'provisional','message':'카타디 자료 검토 중'})},'comparisonErrors':errors}
     if write:
         pending={p:data,root/'data/value-update-status.json':report}
         for path,content in pending.items():

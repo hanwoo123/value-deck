@@ -9,8 +9,11 @@
       "message": "공개 사이트 2곳 숫자 비교 · 111개 항목 비교 가능 · 출처가 같은 원본을 사용했을 수 있으며 독립된 실거래 조사로 확인한 값이 아닙니다."
     },
     "cameraman-td": {
-      "mode": "provisional",
-      "message": "등급·분류별 임시 비교점수 · 실제 거래 시세나 젬 가격이 아닙니다. 외부 비교 출처 검토 중입니다."
+      "mode": "reference",
+      "referencedItems": 33,
+      "sourceCount": 1,
+      "checkedAt": "2026-11-06T09:29:06+09:00",
+      "message": "외부 자료 범위 33개 · 단일 출처 참고 · 평균·실거래 시세로 검증하지 않았으며 계산에 합산하지 않습니다."
     }
   },
   "comparisonErrors": []

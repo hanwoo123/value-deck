@@ -89,3 +89,11 @@ BloxFruitsValues.com 공개 HTML의 `initialItems`에 있는 `metadata.regValue`
 - Pro Game Guides의 실제 약관은 https://gamurs.group/terms/ 에 있으므로 기존 작업 환경 허용 목록 밖인 해당 도메인 추가가 필요.
 
 필수 원문 확인용 `gamurs.group`, `cameramantowerdefensehub.wiki` 두 도메인만 추가하는 환경 설정 초안을 저장했습니다. 저장 결과는 `requires_publish: true`이며 아직 실행 환경에 적용됐다고 주장하지 않습니다. 두 곳을 읽기 전까지 카타디 외부 비교값을 만들거나 임시 점수를 실제 젬 가격으로 바꾸지 않습니다. 모든 인터넷 사이트를 빠짐없이 검색했다는 뜻은 아니며, 이번에 발견하고 접근·원문·게임 정체를 확인한 범위를 기록한 것입니다.
+
+## 게시된 새 환경에서의 최종 확인 — 2026-11-06
+
+- 실제 GAMURS 약관 https://gamurs.group/terms 를 읽었습니다. 3항은 `unauthorised automated means of compiling information`을 제한하며 복제·데이터베이스 입력·게시 등을 제한하고, 6항은 콘텐츠 재이용을 제한합니다. 적용 사이트 목록에 Pro Game Guides가 명시되어 있어 가격 수집 대상으로 추가하지 않았습니다. `robots Allow`만 보고 약관상 허용됐다고 해석하지 않습니다.
+- CTD Hub https://cameramantowerdefensehub.wiki/trading/ 는 현재 숫자 시세를 확립하지 못했다고 명시하고, 설명에 사용하는 기존 목록은 VVX 자료라고 밝힙니다. 새로운 독립 가격표로 사용하지 않습니다.
+- Of Zen and Computing 원문 https://www.ofzenandcomputing.com/cameraman-tower-defense-trading-value-list-roblox/ 에서 공개된 숫자 범위만 읽습니다. 게시자 정책 https://www.ofzenandcomputing.com/disclosure-policy/ 및 robots 원문을 확인했습니다. 이 정책은 재게시 라이선스가 아니라 disclosure 문서이며, 별도 수집·재게시 허락을 받았다고 주장하지 않습니다. 공개 숫자의 제한적 요약·출처 링크·날짜만 표시하는 운영 결정입니다.
+- 공개 범위는 33개 기존 카탈로그 아이템에 대응합니다. 동일 게시물의 Top 10과 본문 표에 중복된 행을 여러 출처로 세지 않습니다. 수요 점수와 설명·이미지는 수집하지 않습니다. 표의 `Value in gems` 열만 읽고 다른 게임 비교 예시나 획득 비용은 읽지 않습니다.
+- 원문에 확인되지 않는 4개는 숫자를 만들지 않습니다. 33개도 한 출처에서만 확인한 범위이므로 `value=null`을 유지하고 비교 평균·합산에 사용하지 않습니다.

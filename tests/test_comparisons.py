@@ -58,6 +58,18 @@ class ComparisonTests(unittest.TestCase):
         with patch.object(m.subprocess,'run') as request:
             with self.assertRaises(ValueError):m.get('https://cameraman-td.vaultedvaluesx.com/value-list')
             request.assert_not_called()
+    def test_blox_refresh_preserves_existing_ctd_reference_mode(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root=Path(directory);(root/'tools').mkdir();(root/'data').mkdir()
+            (root/'tools/comparison-sources.json').write_text(json.dumps({'sources':self.sources}))
+            (root/'data/blox-fruits.json').write_text(json.dumps(self.data()))
+            ctd={'mode':'reference','referencedItems':33,'checkedAt':'2026-11-06T00:00:00Z'}
+            (root/'data/value-update-status.json').write_text(json.dumps({'games':{'cameraman-td':ctd}}))
+            def quote(s,now):return {'venom':D(100)},{}
+            report=m.run(root,quote,True)
+            self.assertEqual(report['games']['cameraman-td'],ctd)
+            self.assertEqual(report['games']['blox-fruits']['pricedItems'],1)
+
     def test_failed_run_preserves_prices_and_original_observation_date(self):
         with tempfile.TemporaryDirectory() as directory:
             root=Path(directory);(root/'tools').mkdir();(root/'data').mkdir()

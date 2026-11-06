@@ -31,6 +31,8 @@ def generate(root=ROOT):
     rules = json.loads((root / 'data/reference-rules.json').read_text())
     if rules['version'] != 1 or rules['unit'] != '참고점':
         raise ValueError('Unknown reference rules')
+    if any(json.loads((root / 'data' / (gid + '.json')).read_text()).get('pricingMode') in ('comparison','reference') for gid in rules['games']):
+        raise ValueError('External comparison/reference data must not be overwritten by provisional points')
     today = datetime.now(ZoneInfo('Asia/Seoul')).date().isoformat()
     pending = {}
     counts = {}
