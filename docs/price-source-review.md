@@ -97,3 +97,7 @@ BloxFruitsValues.com 공개 HTML의 `initialItems`에 있는 `metadata.regValue`
 - Of Zen and Computing 원문 https://www.ofzenandcomputing.com/cameraman-tower-defense-trading-value-list-roblox/ 에서 공개된 숫자 범위만 읽습니다. 게시자 정책 https://www.ofzenandcomputing.com/disclosure-policy/ 및 robots 원문을 확인했습니다. 이 정책은 재게시 라이선스가 아니라 disclosure 문서이며, 별도 수집·재게시 허락을 받았다고 주장하지 않습니다. 공개 숫자의 제한적 요약·출처 링크·날짜만 표시하는 운영 결정입니다.
 - 공개 범위는 33개 기존 카탈로그 아이템에 대응합니다. 동일 게시물의 Top 10과 본문 표에 중복된 행을 여러 출처로 세지 않습니다. 수요 점수와 설명·이미지는 수집하지 않습니다. 표의 `Value in gems` 열만 읽고 다른 게임 비교 예시나 획득 비용은 읽지 않습니다.
 - 원문에 확인되지 않는 4개는 숫자를 만들지 않습니다. 33개도 한 출처에서만 확인한 범위이므로 `value=null`을 유지하고 비교 평균·합산에 사용하지 않습니다.
+
+### 첫 자동 실행 검증 결과
+
+사이트 게시와 로컬 원문 확인은 성공했지만 GitHub 실행 `42137591815`에서는 Of Zen and Computing 게시자 정책 페이지의 curl 요청이 실패했습니다. 정확한 HTTP 원인은 확보하지 못했으므로 차단 원인을 단정하지 않습니다. 카타디 파일을 덮어쓰지 않고 기존 관측일을 유지했으며 공개 상태 파일의 `ctdReferenceError`로 실패를 알립니다. 자동 수집이 성공했다고 취급하지 않습니다. 블록스 프루츠 수집과 정적 사이트 배포는 성공했습니다.

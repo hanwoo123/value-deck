@@ -8,7 +8,7 @@ import re
 from urllib.robotparser import RobotFileParser
 from zoneinfo import ZoneInfo
 from update_comparisons import get, terms_hash
-from update_values import Tables, number, key
+from update_values import Tables, number, key, source_error
 
 ROOT=Path(__file__).resolve().parents[1]
 
@@ -69,5 +69,5 @@ if __name__=='__main__':
     try:print(json.dumps(run(write=a.write),ensure_ascii=False))
     except Exception as e:
         if a.write:
-            path=ROOT/'data/value-update-status.json';report=json.loads(path.read_text());report['ctdReferenceError']=str(e)[:250];path.write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
+            path=ROOT/'data/value-update-status.json';report=json.loads(path.read_text());report['ctdReferenceError']=source_error(e)[:250];path.write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
         raise
