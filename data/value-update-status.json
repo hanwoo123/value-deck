@@ -1,6 +1,6 @@
 {
   "state": "comparison",
-  "checkedAt": "2026-11-06T09:32:51+09:00",
+  "checkedAt": "2026-11-06T09:41:39+09:00",
   "games": {
     "blox-fruits": {
       "mode": "comparison",
@@ -17,5 +17,5 @@
     }
   },
   "comparisonErrors": [],
-  "ctdReferenceError": "Command '['curl', '--fail', '--silent', '--show-error', '--proto', '=https', '--max-time', '25', '--max-filesize', '5000000', '--user-agent', 'BLOX-DECKS-price-comparison/1.0', 'https://www.ofzenandcomputing.com/disclosure-policy/']' returned non-zer"
+  "ctdReferenceError": "curl: (22) The requested URL returned error: 403"
 }
