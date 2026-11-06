@@ -1,14 +1,14 @@
 {
-  "id": "ctd-zen",
-  "name": "Of Zen and Computing",
-  "url": "https://www.ofzenandcomputing.com/cameraman-tower-defense-trading-value-list-roblox/",
-  "robotsUrl": "https://www.ofzenandcomputing.com/robots.txt",
-  "policyUrl": "https://www.ofzenandcomputing.com/disclosure-policy/",
-  "reviewedPolicyHash": "809bb06851784c93af975b44b3e5714d86062b14435b40d26fcf63cbf8bff961",
+  "id": "vvx-ctd",
+  "name": "VVX 공개 가치표",
+  "url": "https://cameraman-td.vaultedvaluesx.com/value-list",
+  "robotsUrl": "https://cameraman-td.vaultedvaluesx.com/robots.txt",
+  "termsUrl": "https://www.vaultedvaluesx.com/terms-of-service",
+  "parser": "vvx-public",
+  "listId": "0d2a00fc-86ef-898e-a0fc-c047bc5daf93",
+  "minimumPrices": 25,
+  "allowVvxPublic": true,
+  "reviewedTermsHash": "eb169843fe7fe6a48510d20d575c8a44b99655a2377dedf1d2e0ac2df5ce92af",
   "reviewedAt": "2026-11-06",
-  "policyReview": "Available disclosure policy and robots reviewed; standalone terms/republication license not found. Limited public numeric ranges with attribution only. No claim of permission or independent market verification. PGG and VVX are excluded.",
-  "itemNames": {
-    "videotaper-titan": "VideoTapper Titan",
-    "x2-candy": "2x Candy"
-  }
+  "reviewResult": "User explicitly requested VVX reinstatement. Public numeric fields only, source attributed, robots and terms checked. No claim that attribution or averaging grants a republication license."
 }

@@ -164,7 +164,7 @@
           return;
         }
         const time=new Date(info?.checkedAt||report.checkedAt).toLocaleString('ko-KR',{timeZone:'Asia/Seoul'});
-        if(node?.isConnected)node.textContent=(info?.message||'블록스 프루츠: 공개 가격 비교 · 카타디: 단일 출처 범위')+(info?.mode==='provisional'?'':' · 최근 가격 확인 '+time+' (한국 시간) · 6시간마다 확인')+(report.comparisonErrors?.length?' · 최근 수집 일부 실패: 기존 관측 날짜를 확인하세요':'')+(report.ctdReferenceError&&(!gameId||gameId==='cameraman-td')?' · 카타디 자료 갱신 실패: 기존 관측일을 확인하세요':'');
+        if(node?.isConnected)node.textContent=(info?.message||'블록스 프루츠: 공개 가격 비교 · 카타디: VVX 공개 참고가')+(info?.mode==='provisional'?'':' · 최근 가격 확인 '+time+' (한국 시간) · 6시간마다 확인')+(report.comparisonErrors?.length?' · 최근 수집 일부 실패: 기존 관측 날짜를 확인하세요':'')+(report.ctdReferenceError&&(!gameId||gameId==='cameraman-td')?' · 카타디 자료 갱신 실패: 기존 관측일을 확인하세요':'');
         return;
       }
       const checks=gameId?[report.checks?.[gameId]].filter(Boolean):Object.values(report.checks||{});
@@ -326,7 +326,7 @@
 
   function itemCard(i, data) {
     const singleQuote=i.valueStatus==='insufficient'&&i.priceQuotes?.length===1?i.priceQuotes[0]:null;
-    const display=hasPrice(i)?compact(i.value):singleQuote?quoteText(singleQuote)+(singleQuote.unit?' '+singleQuote.unit:'')+' · 단일 출처':missingPrice(data);
+    const display=hasPrice(i)?compact(i.value)+(i.valueStatus==='single'?' · 단일 출처':i.valueStatus==='disputed-reference'?' · VVX 참고':''):singleQuote?quoteText(singleQuote)+(singleQuote.unit?' '+singleQuote.unit:'')+' · 단일 출처':missingPrice(data);
     const dmax = Number(data.demandMax) || 5;
     const dval = Math.max(0, Math.min(dmax, Number(i.demand) || 0));
     const d = Math.round((dval / dmax) * 5);
@@ -343,7 +343,7 @@
           ${!hasPrice(i)&&i.referenceValue?`<p class="item__note"><a href="${esc(i.referenceUrl)}" target="_blank" rel="noopener noreferrer">${esc(i.referenceSource)} 참고 ${full(i.referenceValue)}</a> · 비교 시세 미확정</p>`:''}
           ${i.note ? `<p class="item__note">${esc(i.note)}</p>` : ''}
           ${i.priceQuotes?.length?`<details class="item__sources"><summary>출처별 숫자 보기 (${i.priceQuotes.length}곳)</summary><ul>${i.priceQuotes.map(q=>`<li><a href="${esc(q.url)}" target="_blank" rel="noopener noreferrer">${esc(q.name)}</a>: ${quoteText(q,full)}${q.unit?' '+esc(q.unit):''}<br><small>${q.publishedAt?'자료 수정 '+esc(new Date(q.publishedAt).toLocaleDateString('ko-KR')):'자료 수정일 미표기'} · 관측 ${esc(new Date(q.observedAt).toLocaleDateString('ko-KR'))}</small></li>`).join('')}</ul></details>`:''}
-          <div class="item__foot"><span class="muted">${externalPrices(data)?(hasPrice(i)?'공개값 비교 평균':singleQuote?'단일 출처 참고 · 합산 보류':'가격 비교 보류'):(hasPrice(i)?'임시 비교점수':'점수 미정')}</span></div>
+          <div class="item__foot"><span class="muted">${externalPrices(data)?(hasPrice(i)?(i.valueStatus==='single'?'단일 출처 참고가':i.valueStatus==='disputed-reference'?'편차 큰 항목 · VVX 표기값':'공개값 비교 평균'):singleQuote?'단일 출처 참고 · 합산 보류':'가격 비교 보류'):(hasPrice(i)?'임시 비교점수':'점수 미정')}</span></div>
         </div>
       </article>`;
   }
@@ -367,7 +367,7 @@
         <div>
           <div class="eyebrow">Trade Calculator</div>
           <h1>${esc(meta.name)} 거래 계산기</h1>
-          <p>${data.pricingMode==='reference'?'현재 카타디 자료는 단일 출처의 범위입니다. 평균과 합산은 보류합니다.':externalPrices(data)?'출처별 공개값의 비교 평균으로 합산합니다. 실제 거래 체결가를 의미하지 않습니다.':'등급·분류별 임시 점수를 합산합니다. 실제 거래가격이 아닙니다.'} 업데이트 ${esc(data.updated || '-')}</p>
+          <p>${data.pricingMode==='reference'?'현재 카타디 자료는 단일 출처의 범위입니다. 평균과 합산은 보류합니다.':externalPrices(data)?'표시된 참고가로 합산합니다. 단일 출처와 출처 간 편차가 큰 값도 포함될 수 있으며 실거래 체결가가 아닙니다.':'등급·분류별 임시 점수를 합산합니다. 실제 거래가격이 아닙니다.'} 업데이트 ${esc(data.updated || '-')}</p>
         </div>
         <button class="btn" id="swap" type="button">⇄ 양쪽 바꾸기</button>
       </div>

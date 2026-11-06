@@ -22,7 +22,7 @@ class ComparisonTests(unittest.TestCase):
         self.assertNotIn('prevValue',d['items'][0]);self.assertNotIn('demand',d['items'][0]);self.assertEqual(len(d['items'][0]['priceQuotes']),2)
         self.assertEqual(d['pricingMode'],'comparison');self.assertEqual(d['valueUnit'],'거래가치')
     def test_missing_quorum_and_wide_disagreement_never_fall_back_to_reference_points(self):
-        for result in [{'a':({'venom':D(100)},{})},{'a':({'venom':D(100)},{}),'b':({'venom':D(1000)},{})}]:
+        for result in [{},{'a':({'venom':D(100)},{}),'b':({'venom':D(1000)},{})}]:
             d=self.data();count,_=m.apply(d,self.sources,result,self.now);self.assertIsNone(d['items'][0]['value']);self.assertEqual(count,0)
     def page(self,field,rows):return '<script>self.__next_f.push([1,'+json.dumps(json.dumps({field:rows},separators=(',',':')))+'])</script>'
     def test_cosmic_quotes_use_trade_metadata_and_exclude_old_rows(self):
@@ -42,7 +42,7 @@ class ComparisonTests(unittest.TestCase):
         d=self.data();d['items'][0].update(id='storage',name='+1 Fruit Storage',category='게임패스')
         sources=copy.deepcopy(self.sources);sources[0]['itemNames']={'storage':'Fruit Storage'}
         count,_=m.apply(d,sources,{'a':({'fruit storage':D(100)},{})},self.now)
-        self.assertEqual(count,0);self.assertIsNone(d['items'][0]['value']);self.assertEqual(len(d['items'][0]['priceQuotes']),1)
+        self.assertEqual(count,1);self.assertEqual(d['items'][0]['value'],100);self.assertEqual(d['items'][0]['valueStatus'],'single');self.assertEqual(len(d['items'][0]['priceQuotes']),1)
         count,_=m.apply(d,sources,{'a':({'fruit storage':D(100)},{}),'b':({'+1 fruit storage':D(120)},{})},self.now)
         self.assertEqual(count,1);self.assertEqual(d['items'][0]['value'],110)
 
@@ -69,6 +69,15 @@ class ComparisonTests(unittest.TestCase):
             report=m.run(root,quote,True)
             self.assertEqual(report['games']['cameraman-td'],ctd)
             self.assertEqual(report['games']['blox-fruits']['pricedItems'],1)
+
+    def test_vvx_requires_explicit_public_scope_and_correct_list(self):
+        with patch.object(m.subprocess,'run') as request:
+            with self.assertRaises(ValueError):m.get('https://cameraman-td.vaultedvaluesx.com/api/private',allow_vvx=True)
+            request.assert_not_called()
+        rows=[{'name':'A','category':'Exclusive','priceSourceListId':'reviewed','rawValues':{'value':'475','permValue':None}}]
+        html=self.page('items',rows)
+        self.assertEqual(m.parse_quotes(html,{'parser':'vvx-public','listId':'reviewed','minimumPrices':1},self.now)[0]['a'],D(475))
+        with self.assertRaises(ValueError):m.parse_quotes(html,{'parser':'vvx-public','listId':'different','minimumPrices':1},self.now)
 
     def test_failed_run_preserves_prices_and_original_observation_date(self):
         with tempfile.TemporaryDirectory() as directory:

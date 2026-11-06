@@ -76,6 +76,20 @@
         "https://bloxfruitsvalues.com/values/fruits/rocket"
       ],
       "requestIntervalSeconds": 1
+    },
+    {
+      "id": "vvx-bf",
+      "name": "VVX 공개 가치표",
+      "url": "https://blox-fruits.vaultedvaluesx.com/value-list",
+      "robotsUrl": "https://blox-fruits.vaultedvaluesx.com/robots.txt",
+      "termsUrl": "https://www.vaultedvaluesx.com/terms-of-service",
+      "parser": "vvx-public",
+      "listId": "faed5cc6-be8d-4114-aef3-344dcc879783",
+      "minimumPrices": 70,
+      "allowVvxPublic": true,
+      "reviewedTermsHash": "eb169843fe7fe6a48510d20d575c8a44b99655a2377dedf1d2e0ac2df5ce92af",
+      "reviewedAt": "2026-11-06",
+      "reviewResult": "User explicitly requested VVX reinstatement. Public numeric fields only, source attributed, robots and terms checked. No claim that attribution or averaging grants a republication license."
     }
   ]
 }

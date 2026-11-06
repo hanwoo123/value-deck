@@ -1,24 +1,22 @@
 {
   "state": "comparison",
-  "checkedAt": "2026-11-06T16:02:26+09:00",
+  "checkedAt": "2026-11-06T23:26:25+09:00",
   "games": {
     "blox-fruits": {
       "mode": "comparison",
-      "pricedItems": 111,
-      "sourceCount": 2,
-      "message": "공개 사이트 2곳 숫자 비교 · 111개 항목 비교 가능 · 출처가 같은 원본을 사용했을 수 있으며 독립된 실거래 조사로 확인한 값이 아닙니다."
+      "pricedItems": 135,
+      "sourceCount": 3,
+      "message": "공개 사이트 3곳 숫자 비교 · 135개 항목 숫자 확인 · 단일 출처·편차 큰 값은 별도 표시 · 출처가 같은 원본을 사용했을 수 있으며 독립된 실거래 조사로 확인한 값이 아닙니다."
     },
     "cameraman-td": {
-      "mode": "reference",
-      "referencedItems": 33,
+      "mode": "comparison",
+      "referencedItems": 36,
       "sourceCount": 1,
-      "checkedAt": "2026-11-06T09:29:06+09:00",
-      "message": "외부 자료 범위 33개 · 단일 출처 참고 · 평균·실거래 시세로 검증하지 않았으며 계산에 합산하지 않습니다.",
-      "lastAttemptAt": "2026-11-06T16:03:13+09:00",
-      "refreshState": "blocked",
-      "httpStatus": 403
+      "checkedAt": "2026-11-06T23:26:23+09:00",
+      "lastAttemptAt": "2026-11-06T23:26:23+09:00",
+      "refreshState": "ok",
+      "message": "VVX 공개 숫자 36개 · 단일 출처 참고가 · 6시간마다 확인"
     }
   },
-  "comparisonErrors": [],
-  "ctdReferenceError": "curl: (22) The requested URL returned error: 403"
+  "comparisonErrors": []
 }

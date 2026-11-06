@@ -7,7 +7,7 @@ from pathlib import Path
 import re
 from urllib.robotparser import RobotFileParser
 from zoneinfo import ZoneInfo
-from update_comparisons import get, terms_hash
+from update_comparisons import get, terms_hash, fetch_source
 from update_values import Tables, number, key, source_error
 
 ROOT=Path(__file__).resolve().parents[1]
@@ -49,16 +49,28 @@ def apply(data,ranges,published,source,now):
 
 def run(root=ROOT,write=False):
     source=json.loads((root/'tools/ctd-reference-source.json').read_text());now=datetime.now(ZoneInfo('Asia/Seoul'))
-    rp=RobotFileParser();rp.parse(get(source['robotsUrl']).splitlines())
-    for url in [source['url'],source['policyUrl']]:
-        if not rp.can_fetch('BLOX-DECKS-price-comparison',url):raise ValueError('Robots disallow access')
-    if terms_hash(get(source['policyUrl']))!=source['reviewedPolicyHash']:raise ValueError('Publisher policy changed: review required')
-    ranges,published=parse_ranges(get(source['url']))
-    if now-datetime.fromisoformat(published.replace('Z','+00:00'))>timedelta(days=7):raise ValueError('Published ranges older than seven days')
-    path=root/'data/cameraman-td.json';data=json.loads(path.read_text());count=apply(data,ranges,published,source,now)
+    path=root/'data/cameraman-td.json';data=json.loads(path.read_text())
+    if source.get('parser')=='vvx-public':
+        prices,dates,links,errors=fetch_source(source,now);count=0;stamp=now.isoformat(timespec='seconds')
+        for item in data['items']:
+            for field in ['prevValue','demand','referenceValue','referenceUrl','referenceSource','valueUpdatedAt']:item.pop(field,None)
+            name=key(item['name']);value=int(prices[name]) if name in prices else None;quotes=[]
+            if value is not None:
+                count+=1;quotes=[{'id':source['id'],'name':source['name'],'url':links.get(name,source['url']),'value':value,'publishedAt':dates.get(name),'observedAt':stamp}]
+            item.update(value=value,valueStatus='single' if quotes else 'insufficient',valueBasis='vvx-public-reference-v1',trend='stable',priceQuotes=quotes,note='VVX 공개 표기값 · 단일 출처 참고가' if quotes else '숫자로 확정된 값이 없어 가격 보류')
+        data.update(pricingMode='comparison',valueUnit='참고가치',updated=stamp[:10],source='VVX 공개 가치표의 숫자 · 단일 출처 참고 · 게임 화폐 환산·실거래가 보장 아님')
+        published=None;mode='comparison';message=f'VVX 공개 숫자 {count}개 · 단일 출처 참고가 · 6시간마다 확인'
+    else:
+        rp=RobotFileParser();rp.parse(get(source['robotsUrl']).splitlines())
+        for url in [source['url'],source['policyUrl']]:
+            if not rp.can_fetch('BLOX-DECKS-price-comparison',url):raise ValueError('Robots disallow access')
+        if terms_hash(get(source['policyUrl']))!=source['reviewedPolicyHash']:raise ValueError('Publisher policy changed: review required')
+        ranges,published=parse_ranges(get(source['url']))
+        if now-datetime.fromisoformat(published.replace('Z','+00:00'))>timedelta(days=7):raise ValueError('Published ranges older than seven days')
+        count=apply(data,ranges,published,source,now);mode='reference';message=f'외부 자료 범위 {count}개 · 단일 출처 참고 · 합산 보류'
     if write:
         status_path=root/'data/value-update-status.json';report=json.loads(status_path.read_text())
-        report['games']['cameraman-td']={'mode':'reference','referencedItems':count,'sourceCount':1,'checkedAt':now.isoformat(timespec='seconds'),'lastAttemptAt':now.isoformat(timespec='seconds'),'refreshState':'ok','message':f'외부 자료 범위 {count}개 · 단일 출처 참고 · 평균·실거래 시세로 검증하지 않았으며 계산에 합산하지 않습니다.'}
+        report['games']['cameraman-td']={'mode':mode,'referencedItems':count,'sourceCount':1,'checkedAt':now.isoformat(timespec='seconds'),'lastAttemptAt':now.isoformat(timespec='seconds'),'refreshState':'ok','message':message}
         report.pop('ctdReferenceError',None)
         for p,value in [(path,data),(status_path,report)]:
             tmp=p.with_suffix('.json.tmp');tmp.write_text(json.dumps(value,ensure_ascii=False,indent=2)+'\n');tmp.replace(p)

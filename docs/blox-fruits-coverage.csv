@@ -1,136 +1,136 @@
-id,name,status,comparison_value,source_count,source_urls
-eclipse,Eclipse,insufficient,,0,
-rabid-dogblade,Rabid DogBlade,insufficient,,1,https://bloxfruitsvalues.com/values/limiteds
-doghouse-frame-break,Doghouse (Frame Break),insufficient,,1,https://bloxfruitsvalues.com/values/limiteds
-vibe-frame-break,Vibe (Frame Break),insufficient,,1,https://bloxfruitsvalues.com/values/limiteds
-galaxy-empyrean-kitsune,Galaxy Empyrean Kitsune,insufficient,,1,https://bloxfruitsvalues.com/values/limiteds
-crimson-kitsune,Crimson Kitsune,comparison,7035000000,2,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values/limiteds
-parrot,Parrot,insufficient,,1,https://bloxfruitsvalues.com/values/limiteds
-ember-west-dragon,Ember West Dragon,insufficient,,1,https://bloxfruitsvalues.com/values/limiteds
-permanent-dragon-token,Permanent Dragon Token,insufficient,,1,https://bloxfruitsvalues.gg/values
-meme-meme,Meme-Meme,comparison,6120000000,2,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values/limiteds
-east-dragon-perm,East Dragon (영구),comparison,4935000000,2,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values
-west-dragon-perm,West Dragon (영구),comparison,4935000000,2,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values
-kitsune-perm,Kitsune (영구),comparison,3925000000,2,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values
-control-perm,Control (영구),comparison,3925000000,2,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values
-purple-lightning,Purple Lightning,comparison,5255000000,2,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values/limiteds
-magnet-perm,Magnet (영구),comparison,3391000000,2,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values
-tiger-perm,Tiger (영구),comparison,2885000000,2,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values
-yeti-perm,Yeti (영구),comparison,2885000000,2,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values
-fruit-notifier,Fruit Notifier,comparison,3205000000,2,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values/gamepasses
-west-dragon,West Dragon,comparison,2700000000,2,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values
-spirit-perm,Spirit (영구),comparison,2370000000,2,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values
-super-spirit-pain,Super Spirit Pain,comparison,2795000000,2,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values/limiteds/super-spirit-pain
-gas-perm,Gas (영구),comparison,2310000000,2,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values
-dragon-token,Dragon Token,insufficient,,1,https://bloxfruitsvalues.gg/values
-venom-perm,Venom (영구),insufficient,,1,https://bloxfruitsvalues.gg/values
-east-dragon,East Dragon,comparison,2275000000,2,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values
-shadow-perm,Shadow (영구),comparison,2225000000,2,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values
-dough-perm,Dough (영구),comparison,2195000000,2,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values
-t-rex-perm,T-Rex (영구),comparison,2130000000,2,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values
-mammoth-perm,Mammoth (영구),comparison,2125000000,2,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values
-divine-portal,Divine Portal,comparison,2260000000,2,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values/limiteds
-arcsteel-magnet,Arcsteel Magnet,comparison,2240000000,2,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values/limiteds
-gravity-perm,Gravity (영구),comparison,2085000000,2,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values
-blizzard-perm,Blizzard (영구),comparison,2015000000,2,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values
-pain-perm,Pain (영구),comparison,1950000000,2,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values
+id,name,status,reference_value,source_count,source_urls
+eclipse,Eclipse,single,57000000000,1,https://blox-fruits.vaultedvaluesx.com/value-list
+rabid-dogblade,Rabid DogBlade,comparison,17625000000,2,https://bloxfruitsvalues.com/values/limiteds | https://blox-fruits.vaultedvaluesx.com/value-list
+doghouse-frame-break,Doghouse (Frame Break),single,11040000000,1,https://bloxfruitsvalues.com/values/limiteds
+vibe-frame-break,Vibe (Frame Break),single,8190000000,1,https://bloxfruitsvalues.com/values/limiteds
+galaxy-empyrean-kitsune,Galaxy Empyrean Kitsune,comparison,10295000000,2,https://bloxfruitsvalues.com/values/limiteds | https://blox-fruits.vaultedvaluesx.com/value-list
+crimson-kitsune,Crimson Kitsune,comparison,7660000000,3,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values/limiteds | https://blox-fruits.vaultedvaluesx.com/value-list
+parrot,Parrot,single,6090000000,1,https://bloxfruitsvalues.com/values/limiteds
+ember-west-dragon,Ember West Dragon,comparison,6800000000,2,https://bloxfruitsvalues.com/values/limiteds | https://blox-fruits.vaultedvaluesx.com/value-list
+permanent-dragon-token,Permanent Dragon Token,disputed-reference,2500000000,2,https://bloxfruitsvalues.gg/values | https://blox-fruits.vaultedvaluesx.com/value-list
+meme-meme,Meme-Meme,comparison,5790000000,3,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values/limiteds | https://blox-fruits.vaultedvaluesx.com/value-list
+east-dragon-perm,East Dragon (영구),comparison,5973333333,3,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values | https://blox-fruits.vaultedvaluesx.com/value-list
+west-dragon-perm,West Dragon (영구),comparison,5973333333,3,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values | https://blox-fruits.vaultedvaluesx.com/value-list
+kitsune-perm,Kitsune (영구),comparison,4943333333,3,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values | https://blox-fruits.vaultedvaluesx.com/value-list
+control-perm,Control (영구),comparison,4943333333,3,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values | https://blox-fruits.vaultedvaluesx.com/value-list
+purple-lightning,Purple Lightning,comparison,5373333333,3,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values/limiteds | https://blox-fruits.vaultedvaluesx.com/value-list
+magnet-perm,Magnet (영구),comparison,3927333333,3,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values | https://blox-fruits.vaultedvaluesx.com/value-list
+tiger-perm,Tiger (영구),comparison,3810000000,3,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values | https://blox-fruits.vaultedvaluesx.com/value-list
+yeti-perm,Yeti (영구),comparison,3810000000,3,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values | https://blox-fruits.vaultedvaluesx.com/value-list
+fruit-notifier,Fruit Notifier,disputed-reference,5170000000,3,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values/gamepasses | https://blox-fruits.vaultedvaluesx.com/value-list
+west-dragon,West Dragon,comparison,2873333333,3,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values | https://blox-fruits.vaultedvaluesx.com/value-list
+spirit-perm,Spirit (영구),disputed-reference,5160000000,3,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values | https://blox-fruits.vaultedvaluesx.com/value-list
+super-spirit-pain,Super Spirit Pain,comparison,2923333333,3,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values/limiteds/super-spirit-pain | https://blox-fruits.vaultedvaluesx.com/value-list
+gas-perm,Gas (영구),disputed-reference,5000000000,3,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values | https://blox-fruits.vaultedvaluesx.com/value-list
+dragon-token,Dragon Token,disputed-reference,1200000000,2,https://bloxfruitsvalues.gg/values | https://blox-fruits.vaultedvaluesx.com/value-list
+venom-perm,Venom (영구),disputed-reference,4840000000,2,https://bloxfruitsvalues.gg/values | https://blox-fruits.vaultedvaluesx.com/value-list
+east-dragon,East Dragon,comparison,2430000000,3,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values | https://blox-fruits.vaultedvaluesx.com/value-list
+shadow-perm,Shadow (영구),disputed-reference,4760000000,3,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values | https://blox-fruits.vaultedvaluesx.com/value-list
+dough-perm,Dough (영구),disputed-reference,4680000000,3,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values | https://blox-fruits.vaultedvaluesx.com/value-list
+t-rex-perm,T-Rex (영구),disputed-reference,4520000000,3,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values | https://blox-fruits.vaultedvaluesx.com/value-list
+mammoth-perm,Mammoth (영구),disputed-reference,4520000000,3,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values | https://blox-fruits.vaultedvaluesx.com/value-list
+divine-portal,Divine Portal,comparison,2093333333,3,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values/limiteds | https://blox-fruits.vaultedvaluesx.com/value-list
+arcsteel-magnet,Arcsteel Magnet,disputed-reference,5200000000,3,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values/limiteds | https://blox-fruits.vaultedvaluesx.com/value-list
+gravity-perm,Gravity (영구),disputed-reference,4360000000,3,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values | https://blox-fruits.vaultedvaluesx.com/value-list
+blizzard-perm,Blizzard (영구),comparison,2650000000,3,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values | https://blox-fruits.vaultedvaluesx.com/value-list
+pain-perm,Pain (영구),comparison,2580000000,3,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values | https://blox-fruits.vaultedvaluesx.com/value-list
 lightning-perm,Lightning (영구),comparison,1835000000,2,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values
-red-lightning,Red Lightning,comparison,2100000000,2,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values/limiteds
-portal-perm,Portal (영구),comparison,1705000000,2,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values
-phoenix-perm,Phoenix (영구),insufficient,,1,https://bloxfruitsvalues.gg/values
-sound-perm,Sound (영구),comparison,1590000000,2,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values
-dog-blade,Dog Blade,comparison,1815000000,2,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values/limiteds
-spider-perm,Spider (영구),comparison,1475000000,2,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values
-creation-perm,Creation (영구),comparison,1415000000,2,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values
-runic-fiend,Runic Fiend,insufficient,,1,https://bloxfruitsvalues.com/values/limiteds
-buddha-perm,Buddha (영구),comparison,1325000000,2,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values
-love-perm,Love (영구),comparison,1350000000,2,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values/fruits/love
-mythical-scrolls,Mythical Scrolls,comparison,1260000000,2,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values/gamepasses
-quake-perm,Quake (영구),comparison,1085000000,2,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values/fruits/quake
-werewolf,Werewolf,comparison,965000000,2,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values/limiteds
-fiend-yeti,Fiend Yeti,comparison,1125000000,2,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values/limiteds
-magma-perm,Magma (영구),comparison,845000000,2,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values/fruits/magma
-dark-blade,Dark Blade,comparison,975000000,2,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values/gamepasses
-ghost-perm,Ghost (영구),comparison,795000000,2,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values/fruits/ghost
-rubber-perm,Rubber (영구),comparison,745000000,2,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values/fruits/rubber
-light-perm,Light (영구),comparison,695000000,2,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values/fruits/light
-diamond-perm,Diamond (영구),comparison,600000000,2,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values/fruits/diamond
-celestial-pain,Celestial Pain,comparison,740000000,2,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values/limiteds/celestial-pain
-eagle-perm,Eagle (영구),comparison,587500000,2,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values/fruits/eagle
-dark-perm,Dark (영구),comparison,575000000,2,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values/fruits/dark
-sadness-pain,Sadness Pain,comparison,645000000,2,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values/limiteds/sadness-pain
-sand-perm,Sand (영구),comparison,515000000,2,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values/fruits/sand
-legendary-scrolls,Legendary Scrolls,comparison,555000000,2,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values/gamepasses
-ice-perm,Ice (영구),comparison,450000000,2,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values/fruits/ice
-kitsune,Kitsune,comparison,450000000,2,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values
-azura-bomb,Azura Bomb,comparison,525000000,2,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values/limiteds/azura-bomb
-frustration-pain,Frustration Pain,comparison,480000000,2,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values/limiteds/frustration-pain
-nuclear-bomb,Nuclear Bomb,comparison,495000000,2,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values/limiteds/nuclear-bomb
-thermite-bomb,Thermite Bomb,comparison,465000000,2,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values/limiteds/thermite-bomb
-magnet,Magnet,comparison,355000000,2,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values
-flame-perm,Flame (영구),comparison,390000000,2,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values/fruits/flame
-starlight-gravity,Starlight Gravity,comparison,365000000,2,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values/limiteds
-2x-money,2x Money,comparison,360000000,2,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values/gamepasses
-2x-mastery,2x Mastery,comparison,360000000,2,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values/gamepasses
-eagle-matrix,Eagle Matrix,comparison,285000000,2,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values/limiteds/eagle-matrix
-1-fruit-storage,+1 Fruit Storage,comparison,335000000,2,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values/gamepasses
-green-lightning,Green Lightning,comparison,235000004,2,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values/limiteds
-rose-quartz-diamond,Rose Quartz Diamond,comparison,240000000,2,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values/limiteds
-2x-boss-drops,2x Boss Drops,comparison,240000000,2,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values/gamepasses
-fast-boats,Fast Boats,comparison,240000000,2,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values/gamepasses
-eagle-requiem,Eagle Requiem,comparison,160000000,2,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values/limiteds/eagle-requiem
-emerald-diamond,Emerald Diamond,comparison,180000000,2,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values/limiteds/emerald-diamond
-yellow-lightning,Yellow Lightning,comparison,150000000,2,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values/limiteds
-spike-perm,Spike (영구),comparison,130000000,2,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values/fruits/spike
-ruby-diamond,Ruby Diamond,comparison,115000000,2,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values/limiteds/ruby-diamond
-control,Control,comparison,90000000,2,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values
-torment-pain,Torment Pain,comparison,115000000,2,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values/limiteds/torment-pain
-smoke-perm,Smoke (영구),comparison,76500000,2,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values/fruits/smoke
-tiger,Tiger,comparison,80000000,2,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values
-yeti,Yeti,comparison,70000000,2,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values
-bomb-perm,Bomb (영구),comparison,62500000,2,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values/fruits/bomb
-gas,Gas,comparison,60000000,2,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values
-spring-perm,Spring (영구),comparison,47500000,2,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values/fruits/spring
-dough,Dough,comparison,30000000,2,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values
-venom,Venom,comparison,100000000,2,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values
+red-lightning,Red Lightning,comparison,2346666667,3,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values/limiteds | https://blox-fruits.vaultedvaluesx.com/value-list
+portal-perm,Portal (영구),comparison,2150000000,3,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values | https://blox-fruits.vaultedvaluesx.com/value-list
+phoenix-perm,Phoenix (영구),disputed-reference,3040000000,2,https://bloxfruitsvalues.gg/values | https://blox-fruits.vaultedvaluesx.com/value-list
+sound-perm,Sound (영구),comparison,1966666667,3,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values | https://blox-fruits.vaultedvaluesx.com/value-list
+dog-blade,Dog Blade,comparison,1563333333,3,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values/limiteds | https://blox-fruits.vaultedvaluesx.com/value-list
+spider-perm,Spider (영구),comparison,1783333333,3,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values | https://blox-fruits.vaultedvaluesx.com/value-list
+creation-perm,Creation (영구),comparison,1690000000,3,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values | https://blox-fruits.vaultedvaluesx.com/value-list
+runic-fiend,Runic Fiend,single,1380000000,1,https://bloxfruitsvalues.com/values/limiteds
+buddha-perm,Buddha (영구),comparison,1550000000,3,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values | https://blox-fruits.vaultedvaluesx.com/value-list
+love-perm,Love (영구),comparison,1593333333,3,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values/fruits/love | https://blox-fruits.vaultedvaluesx.com/value-list
+mythical-scrolls,Mythical Scrolls,comparison,1346666667,3,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values/gamepasses | https://blox-fruits.vaultedvaluesx.com/value-list
+quake-perm,Quake (영구),comparison,1230000000,3,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values/fruits/quake | https://blox-fruits.vaultedvaluesx.com/value-list
+werewolf,Werewolf,comparison,1046666667,3,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values/limiteds | https://blox-fruits.vaultedvaluesx.com/value-list
+fiend-yeti,Fiend Yeti,comparison,1076666667,3,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values/limiteds | https://blox-fruits.vaultedvaluesx.com/value-list
+magma-perm,Magma (영구),comparison,990000000,3,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values/fruits/magma | https://blox-fruits.vaultedvaluesx.com/value-list
+dark-blade,Dark Blade,comparison,1116666667,3,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values/gamepasses | https://blox-fruits.vaultedvaluesx.com/value-list
+ghost-perm,Ghost (영구),comparison,916666667,3,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values/fruits/ghost | https://blox-fruits.vaultedvaluesx.com/value-list
+rubber-perm,Rubber (영구),comparison,843333333,3,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values/fruits/rubber | https://blox-fruits.vaultedvaluesx.com/value-list
+light-perm,Light (영구),comparison,783333333,3,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values/fruits/light | https://blox-fruits.vaultedvaluesx.com/value-list
+diamond-perm,Diamond (영구),comparison,680000000,3,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values/fruits/diamond | https://blox-fruits.vaultedvaluesx.com/value-list
+celestial-pain,Celestial Pain,comparison,870000000,3,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values/limiteds/celestial-pain | https://blox-fruits.vaultedvaluesx.com/value-list
+eagle-perm,Eagle (영구),comparison,665000000,3,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values/fruits/eagle | https://blox-fruits.vaultedvaluesx.com/value-list
+dark-perm,Dark (영구),comparison,650000000,3,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values/fruits/dark | https://blox-fruits.vaultedvaluesx.com/value-list
+sadness-pain,Sadness Pain,comparison,746666667,3,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values/limiteds/sadness-pain | https://blox-fruits.vaultedvaluesx.com/value-list
+sand-perm,Sand (영구),comparison,583333333,3,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values/fruits/sand | https://blox-fruits.vaultedvaluesx.com/value-list
+legendary-scrolls,Legendary Scrolls,comparison,530000000,3,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values/gamepasses | https://blox-fruits.vaultedvaluesx.com/value-list
+ice-perm,Ice (영구),comparison,513333333,3,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values/fruits/ice | https://blox-fruits.vaultedvaluesx.com/value-list
+kitsune,Kitsune,comparison,450000000,3,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values | https://blox-fruits.vaultedvaluesx.com/value-list
+azura-bomb,Azura Bomb,comparison,550000000,3,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values/limiteds/azura-bomb | https://blox-fruits.vaultedvaluesx.com/value-list
+frustration-pain,Frustration Pain,disputed-reference,980000000,3,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values/limiteds/frustration-pain | https://blox-fruits.vaultedvaluesx.com/value-list
+nuclear-bomb,Nuclear Bomb,comparison,530000000,3,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values/limiteds/nuclear-bomb | https://blox-fruits.vaultedvaluesx.com/value-list
+thermite-bomb,Thermite Bomb,comparison,510000000,3,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values/limiteds/thermite-bomb | https://blox-fruits.vaultedvaluesx.com/value-list
+magnet,Magnet,comparison,356666667,3,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values | https://blox-fruits.vaultedvaluesx.com/value-list
+flame-perm,Flame (영구),comparison,410000000,3,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values/fruits/flame | https://blox-fruits.vaultedvaluesx.com/value-list
+starlight-gravity,Starlight Gravity,comparison,410000000,3,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values/limiteds | https://blox-fruits.vaultedvaluesx.com/value-list
+2x-money,2x Money,comparison,340000000,3,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values/gamepasses | https://blox-fruits.vaultedvaluesx.com/value-list
+2x-mastery,2x Mastery,comparison,340000000,3,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values/gamepasses | https://blox-fruits.vaultedvaluesx.com/value-list
+eagle-matrix,Eagle Matrix,comparison,273333333,3,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values/limiteds/eagle-matrix | https://blox-fruits.vaultedvaluesx.com/value-list
+1-fruit-storage,+1 Fruit Storage,comparison,313333333,3,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values/gamepasses | https://blox-fruits.vaultedvaluesx.com/value-list
+green-lightning,Green Lightning,disputed-reference,450000000,3,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values/limiteds | https://blox-fruits.vaultedvaluesx.com/value-list
+rose-quartz-diamond,Rose Quartz Diamond,comparison,276666667,3,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values/limiteds | https://blox-fruits.vaultedvaluesx.com/value-list
+2x-boss-drops,2x Boss Drops,comparison,220000000,3,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values/gamepasses | https://blox-fruits.vaultedvaluesx.com/value-list
+fast-boats,Fast Boats,comparison,220000000,3,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values/gamepasses | https://blox-fruits.vaultedvaluesx.com/value-list
+eagle-requiem,Eagle Requiem,comparison,163333333,3,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values/limiteds/eagle-requiem | https://blox-fruits.vaultedvaluesx.com/value-list
+emerald-diamond,Emerald Diamond,comparison,193333333,3,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values/limiteds/emerald-diamond | https://blox-fruits.vaultedvaluesx.com/value-list
+yellow-lightning,Yellow Lightning,comparison,140000000,3,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values/limiteds | https://blox-fruits.vaultedvaluesx.com/value-list
+spike-perm,Spike (영구),comparison,133333333,3,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values/fruits/spike | https://blox-fruits.vaultedvaluesx.com/value-list
+ruby-diamond,Ruby Diamond,comparison,130000000,3,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values/limiteds/ruby-diamond | https://blox-fruits.vaultedvaluesx.com/value-list
+control,Control,comparison,90000000,3,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values | https://blox-fruits.vaultedvaluesx.com/value-list
+torment-pain,Torment Pain,disputed-reference,170000000,3,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values/limiteds/torment-pain | https://blox-fruits.vaultedvaluesx.com/value-list
+smoke-perm,Smoke (영구),comparison,91000000,3,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values/fruits/smoke | https://blox-fruits.vaultedvaluesx.com/value-list
+tiger,Tiger,comparison,80000000,3,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values | https://blox-fruits.vaultedvaluesx.com/value-list
+yeti,Yeti,comparison,70000000,3,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values | https://blox-fruits.vaultedvaluesx.com/value-list
+bomb-perm,Bomb (영구),comparison,71666667,3,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values/fruits/bomb | https://blox-fruits.vaultedvaluesx.com/value-list
+gas,Gas,comparison,60000000,3,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values | https://blox-fruits.vaultedvaluesx.com/value-list
+spring-perm,Spring (영구),comparison,51666667,3,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values/fruits/spring | https://blox-fruits.vaultedvaluesx.com/value-list
+dough,Dough,comparison,30000000,3,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values | https://blox-fruits.vaultedvaluesx.com/value-list
+venom,Venom,comparison,100000000,3,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values | https://blox-fruits.vaultedvaluesx.com/value-list
 lightning,Lightning,comparison,20000000,2,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values
-scarlet-ghost,Scarlet Ghost,insufficient,,1,https://bloxfruitsvalues.gg/values
-t-rex,T-Rex,comparison,20000000,2,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values
-eagle-glacier,Eagle Glacier,insufficient,,1,https://bloxfruitsvalues.gg/values
-blade-perm,Blade (영구),insufficient,,1,https://bloxfruitsvalues.gg/values
-spin-perm,Spin (영구),insufficient,,1,https://bloxfruitsvalues.gg/values
-topaz-diamond,Topaz Diamond,insufficient,,1,https://bloxfruitsvalues.gg/values
-pain,Pain,comparison,10000000,2,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values
-gravity,Gravity,comparison,10000000,2,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values
-mammoth,Mammoth,comparison,10000000,2,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values
-spirit,Spirit,comparison,10000000,2,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values
-portal,Portal,comparison,10000000,2,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values
-buddha,Buddha,comparison,10000000,2,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values
-celebration-bomb,Celebration Bomb,insufficient,,1,https://bloxfruitsvalues.gg/values
-lime-blade,Lime Blade,insufficient,,1,https://bloxfruitsvalues.gg/values
-rocket-perm,Rocket (영구),insufficient,,1,https://bloxfruitsvalues.gg/values
-shadow,Shadow,comparison,6500000,2,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values
-blizzard,Blizzard,comparison,5000000,2,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values
-phoenix,Phoenix,insufficient,,1,https://bloxfruitsvalues.gg/values
-creation,Creation,comparison,2500000,2,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values
-sound,Sound,comparison,2500000,2,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values
-spider,Spider,comparison,1500000,2,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values
-love,Love,comparison,1500000,2,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values/fruits/love
-magma,Magma,comparison,1150000,2,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values/fruits/magma
-quake,Quake,comparison,1000000,2,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values/fruits/quake
-diamond,Diamond,comparison,1000000,2,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values/fruits/diamond
-light,Light,comparison,800000,2,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values/fruits/light
-ghost,Ghost,comparison,800000,2,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values/fruits/ghost
-eagle,Eagle,comparison,800000,2,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values/fruits/eagle
-rubber,Rubber,comparison,700000,2,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values/fruits/rubber
-ice,Ice,comparison,550000,2,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values/fruits/ice
-sand,Sand,comparison,420000,2,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values/fruits/sand
-dark,Dark,comparison,400000,2,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values/fruits/dark
-flame,Flame,comparison,250000,2,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values/fruits/flame
-spike,Spike,comparison,180000,2,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values/fruits/spike
-smoke,Smoke,comparison,100000,2,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values/fruits/smoke
-bomb,Bomb,comparison,80000,2,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values/fruits/bomb
-spring,Spring,comparison,60000,2,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values/fruits/spring
-blade,Blade,insufficient,,1,https://bloxfruitsvalues.gg/values
-spin,Spin,insufficient,,1,https://bloxfruitsvalues.gg/values
-rocket,Rocket,insufficient,,1,https://bloxfruitsvalues.gg/values
+scarlet-ghost,Scarlet Ghost,disputed-reference,20000000,2,https://bloxfruitsvalues.gg/values | https://blox-fruits.vaultedvaluesx.com/value-list
+t-rex,T-Rex,comparison,20000000,3,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values | https://blox-fruits.vaultedvaluesx.com/value-list
+eagle-glacier,Eagle Glacier,comparison,21666667,3,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values/limiteds/eagle-glacier | https://blox-fruits.vaultedvaluesx.com/value-list
+blade-perm,Blade (영구),comparison,25000000,2,https://bloxfruitsvalues.gg/values | https://blox-fruits.vaultedvaluesx.com/value-list
+spin-perm,Spin (영구),comparison,15000000,2,https://bloxfruitsvalues.gg/values | https://blox-fruits.vaultedvaluesx.com/value-list
+topaz-diamond,Topaz Diamond,comparison,22500000,2,https://bloxfruitsvalues.gg/values | https://blox-fruits.vaultedvaluesx.com/value-list
+pain,Pain,comparison,10000000,3,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values | https://blox-fruits.vaultedvaluesx.com/value-list
+gravity,Gravity,comparison,10000000,3,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values | https://blox-fruits.vaultedvaluesx.com/value-list
+mammoth,Mammoth,comparison,10000000,3,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values | https://blox-fruits.vaultedvaluesx.com/value-list
+spirit,Spirit,comparison,10000000,3,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values | https://blox-fruits.vaultedvaluesx.com/value-list
+portal,Portal,comparison,10000000,3,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values | https://blox-fruits.vaultedvaluesx.com/value-list
+buddha,Buddha,comparison,10000000,3,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values | https://blox-fruits.vaultedvaluesx.com/value-list
+celebration-bomb,Celebration Bomb,comparison,7500000,2,https://bloxfruitsvalues.gg/values | https://blox-fruits.vaultedvaluesx.com/value-list
+lime-blade,Lime Blade,comparison,10000000,2,https://bloxfruitsvalues.gg/values | https://blox-fruits.vaultedvaluesx.com/value-list
+rocket-perm,Rocket (영구),comparison,10000000,2,https://bloxfruitsvalues.gg/values | https://blox-fruits.vaultedvaluesx.com/value-list
+shadow,Shadow,comparison,7000000,3,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values | https://blox-fruits.vaultedvaluesx.com/value-list
+blizzard,Blizzard,comparison,5000000,3,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values | https://blox-fruits.vaultedvaluesx.com/value-list
+phoenix,Phoenix,comparison,2750000,2,https://bloxfruitsvalues.gg/values | https://blox-fruits.vaultedvaluesx.com/value-list
+creation,Creation,comparison,2500000,3,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values | https://blox-fruits.vaultedvaluesx.com/value-list
+sound,Sound,comparison,2500000,3,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values | https://blox-fruits.vaultedvaluesx.com/value-list
+spider,Spider,comparison,1500000,3,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values | https://blox-fruits.vaultedvaluesx.com/value-list
+love,Love,comparison,1500000,3,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values/fruits/love | https://blox-fruits.vaultedvaluesx.com/value-list
+magma,Magma,comparison,1150000,3,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values/fruits/magma | https://blox-fruits.vaultedvaluesx.com/value-list
+quake,Quake,comparison,1000000,3,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values/fruits/quake | https://blox-fruits.vaultedvaluesx.com/value-list
+diamond,Diamond,comparison,1000000,3,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values/fruits/diamond | https://blox-fruits.vaultedvaluesx.com/value-list
+light,Light,comparison,800000,3,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values/fruits/light | https://blox-fruits.vaultedvaluesx.com/value-list
+ghost,Ghost,comparison,800000,3,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values/fruits/ghost | https://blox-fruits.vaultedvaluesx.com/value-list
+eagle,Eagle,comparison,800000,3,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values/fruits/eagle | https://blox-fruits.vaultedvaluesx.com/value-list
+rubber,Rubber,comparison,700000,3,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values/fruits/rubber | https://blox-fruits.vaultedvaluesx.com/value-list
+ice,Ice,comparison,550000,3,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values/fruits/ice | https://blox-fruits.vaultedvaluesx.com/value-list
+sand,Sand,comparison,420000,3,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values/fruits/sand | https://blox-fruits.vaultedvaluesx.com/value-list
+dark,Dark,comparison,400000,3,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values/fruits/dark | https://blox-fruits.vaultedvaluesx.com/value-list
+flame,Flame,comparison,250000,3,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values/fruits/flame | https://blox-fruits.vaultedvaluesx.com/value-list
+spike,Spike,comparison,180000,3,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values/fruits/spike | https://blox-fruits.vaultedvaluesx.com/value-list
+smoke,Smoke,comparison,100000,3,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values/fruits/smoke | https://blox-fruits.vaultedvaluesx.com/value-list
+bomb,Bomb,comparison,80000,3,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values/fruits/bomb | https://blox-fruits.vaultedvaluesx.com/value-list
+spring,Spring,comparison,60000,3,https://bloxfruitsvalues.gg/values | https://bloxfruitsvalues.com/values/fruits/spring | https://blox-fruits.vaultedvaluesx.com/value-list
+blade,Blade,comparison,50000,2,https://bloxfruitsvalues.gg/values | https://blox-fruits.vaultedvaluesx.com/value-list
+spin,Spin,comparison,7500,2,https://bloxfruitsvalues.gg/values | https://blox-fruits.vaultedvaluesx.com/value-list
+rocket,Rocket,comparison,5000,2,https://bloxfruitsvalues.gg/values | https://blox-fruits.vaultedvaluesx.com/value-list

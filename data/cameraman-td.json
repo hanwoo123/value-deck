@@ -1,6 +1,6 @@
 {
   "updated": "2026-11-06",
-  "valueUnit": "자료 표기 젬",
+  "valueUnit": "참고가치",
   "demandMax": 10,
   "rarities": [
     "Exclusive",
@@ -15,29 +15,27 @@
     "게임패스",
     "상자"
   ],
-  "source": "공개 자료의 단일 출처 범위 · 확정 시세·비교 평균 아님 · 계산 보류",
+  "source": "VVX 공개 가치표의 숫자 · 단일 출처 참고 · 게임 화폐 환산·실거래가 보장 아님",
   "items": [
     {
       "id": "spider-tv",
       "name": "Spider Tv",
       "category": "유닛",
       "rarity": "Exclusive",
-      "value": null,
+      "value": 12000,
       "trend": "stable",
       "image": "images/cameraman-td/spider-tv.webp",
-      "note": "공개 자료 1곳의 범위 · 독립 검증·평균 계산 전이며 합산하지 않습니다",
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "note": "VVX 공개 표기값 · 단일 출처 참고가",
+      "valueStatus": "single",
+      "valueBasis": "vvx-public-reference-v1",
       "priceQuotes": [
         {
-          "id": "ctd-zen",
-          "name": "Of Zen and Computing",
-          "url": "https://www.ofzenandcomputing.com/cameraman-tower-defense-trading-value-list-roblox/",
-          "low": 8000,
-          "high": 12000,
-          "unit": "자료 표기 젬",
-          "publishedAt": "2026-11-03T21:33:19+05:30",
-          "observedAt": "2026-11-06T09:29:06+09:00"
+          "id": "vvx-ctd",
+          "name": "VVX 공개 가치표",
+          "url": "https://cameraman-td.vaultedvaluesx.com/value-list",
+          "value": 12000,
+          "publishedAt": null,
+          "observedAt": "2026-11-06T23:26:23+09:00"
         }
       ]
     },
@@ -46,22 +44,20 @@
       "name": "Engineer Cameraman",
       "category": "유닛",
       "rarity": "Exclusive",
-      "value": null,
+      "value": 7150,
       "trend": "stable",
       "image": "images/cameraman-td/engineer-cameraman.webp",
-      "note": "공개 자료 1곳의 범위 · 독립 검증·평균 계산 전이며 합산하지 않습니다",
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "note": "VVX 공개 표기값 · 단일 출처 참고가",
+      "valueStatus": "single",
+      "valueBasis": "vvx-public-reference-v1",
       "priceQuotes": [
         {
-          "id": "ctd-zen",
-          "name": "Of Zen and Computing",
-          "url": "https://www.ofzenandcomputing.com/cameraman-tower-defense-trading-value-list-roblox/",
-          "low": 5000,
-          "high": 7000,
-          "unit": "자료 표기 젬",
-          "publishedAt": "2026-11-03T21:33:19+05:30",
-          "observedAt": "2026-11-06T09:29:06+09:00"
+          "id": "vvx-ctd",
+          "name": "VVX 공개 가치표",
+          "url": "https://cameraman-td.vaultedvaluesx.com/value-list",
+          "value": 7150,
+          "publishedAt": null,
+          "observedAt": "2026-11-06T23:26:23+09:00"
         }
       ]
     },
@@ -70,22 +66,20 @@
       "name": "Chaos cameraman",
       "category": "유닛",
       "rarity": "Mythic",
-      "value": null,
+      "value": 3750,
       "trend": "stable",
       "image": "images/cameraman-td/chaos-cameraman.webp",
-      "note": "공개 자료 1곳의 범위 · 독립 검증·평균 계산 전이며 합산하지 않습니다",
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "note": "VVX 공개 표기값 · 단일 출처 참고가",
+      "valueStatus": "single",
+      "valueBasis": "vvx-public-reference-v1",
       "priceQuotes": [
         {
-          "id": "ctd-zen",
-          "name": "Of Zen and Computing",
-          "url": "https://www.ofzenandcomputing.com/cameraman-tower-defense-trading-value-list-roblox/",
-          "low": 3000,
-          "high": 8000,
-          "unit": "자료 표기 젬",
-          "publishedAt": "2026-11-03T21:33:19+05:30",
-          "observedAt": "2026-11-06T09:29:06+09:00"
+          "id": "vvx-ctd",
+          "name": "VVX 공개 가치표",
+          "url": "https://cameraman-td.vaultedvaluesx.com/value-list",
+          "value": 3750,
+          "publishedAt": null,
+          "observedAt": "2026-11-06T23:26:23+09:00"
         }
       ]
     },
@@ -94,22 +88,20 @@
       "name": "upgraded Titan Cameraman",
       "category": "유닛",
       "rarity": "Godly",
-      "value": null,
+      "value": 3250,
       "trend": "stable",
       "image": "images/cameraman-td/upgraded-titan-cameraman.webp",
-      "note": "공개 자료 1곳의 범위 · 독립 검증·평균 계산 전이며 합산하지 않습니다",
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "note": "VVX 공개 표기값 · 단일 출처 참고가",
+      "valueStatus": "single",
+      "valueBasis": "vvx-public-reference-v1",
       "priceQuotes": [
         {
-          "id": "ctd-zen",
-          "name": "Of Zen and Computing",
-          "url": "https://www.ofzenandcomputing.com/cameraman-tower-defense-trading-value-list-roblox/",
-          "low": 3000,
-          "high": 5000,
-          "unit": "자료 표기 젬",
-          "publishedAt": "2026-11-03T21:33:19+05:30",
-          "observedAt": "2026-11-06T09:29:06+09:00"
+          "id": "vvx-ctd",
+          "name": "VVX 공개 가치표",
+          "url": "https://cameraman-td.vaultedvaluesx.com/value-list",
+          "value": 3250,
+          "publishedAt": null,
+          "observedAt": "2026-11-06T23:26:23+09:00"
         }
       ]
     },
@@ -118,22 +110,20 @@
       "name": "Premium Pass",
       "category": "게임패스",
       "rarity": "",
-      "value": null,
+      "value": 1300,
       "trend": "stable",
       "image": "images/cameraman-td/premium-pass.webp",
-      "note": "공개 자료 1곳의 범위 · 독립 검증·평균 계산 전이며 합산하지 않습니다",
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "note": "VVX 공개 표기값 · 단일 출처 참고가",
+      "valueStatus": "single",
+      "valueBasis": "vvx-public-reference-v1",
       "priceQuotes": [
         {
-          "id": "ctd-zen",
-          "name": "Of Zen and Computing",
-          "url": "https://www.ofzenandcomputing.com/cameraman-tower-defense-trading-value-list-roblox/",
-          "low": 1600,
-          "high": 2000,
-          "unit": "자료 표기 젬",
-          "publishedAt": "2026-11-03T21:33:19+05:30",
-          "observedAt": "2026-11-06T09:29:06+09:00"
+          "id": "vvx-ctd",
+          "name": "VVX 공개 가치표",
+          "url": "https://cameraman-td.vaultedvaluesx.com/value-list",
+          "value": 1300,
+          "publishedAt": null,
+          "observedAt": "2026-11-06T23:26:23+09:00"
         }
       ]
     },
@@ -142,22 +132,20 @@
       "name": "executioner tv man",
       "category": "유닛",
       "rarity": "Exclusive",
-      "value": null,
+      "value": 1200,
       "trend": "stable",
       "image": "images/cameraman-td/executioner-tv-man.webp",
-      "note": "공개 자료 1곳의 범위 · 독립 검증·평균 계산 전이며 합산하지 않습니다",
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "note": "VVX 공개 표기값 · 단일 출처 참고가",
+      "valueStatus": "single",
+      "valueBasis": "vvx-public-reference-v1",
       "priceQuotes": [
         {
-          "id": "ctd-zen",
-          "name": "Of Zen and Computing",
-          "url": "https://www.ofzenandcomputing.com/cameraman-tower-defense-trading-value-list-roblox/",
-          "low": 1000,
-          "high": 3000,
-          "unit": "자료 표기 젬",
-          "publishedAt": "2026-11-03T21:33:19+05:30",
-          "observedAt": "2026-11-06T09:29:06+09:00"
+          "id": "vvx-ctd",
+          "name": "VVX 공개 가치표",
+          "url": "https://cameraman-td.vaultedvaluesx.com/value-list",
+          "value": 1200,
+          "publishedAt": null,
+          "observedAt": "2026-11-06T23:26:23+09:00"
         }
       ]
     },
@@ -166,22 +154,20 @@
       "name": "x2 candy",
       "category": "게임패스",
       "rarity": "",
-      "value": null,
+      "value": 925,
       "trend": "stable",
       "image": "images/cameraman-td/x2-candy.webp",
-      "note": "공개 자료 1곳의 범위 · 독립 검증·평균 계산 전이며 합산하지 않습니다",
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "note": "VVX 공개 표기값 · 단일 출처 참고가",
+      "valueStatus": "single",
+      "valueBasis": "vvx-public-reference-v1",
       "priceQuotes": [
         {
-          "id": "ctd-zen",
-          "name": "Of Zen and Computing",
-          "url": "https://www.ofzenandcomputing.com/cameraman-tower-defense-trading-value-list-roblox/",
-          "low": 800,
-          "high": 1000,
-          "unit": "자료 표기 젬",
-          "publishedAt": "2026-11-03T21:33:19+05:30",
-          "observedAt": "2026-11-06T09:29:06+09:00"
+          "id": "vvx-ctd",
+          "name": "VVX 공개 가치표",
+          "url": "https://cameraman-td.vaultedvaluesx.com/value-list",
+          "value": 925,
+          "publishedAt": null,
+          "observedAt": "2026-11-06T23:26:23+09:00"
         }
       ]
     },
@@ -190,22 +176,20 @@
       "name": "2x Lucky",
       "category": "게임패스",
       "rarity": "",
-      "value": null,
+      "value": 1200,
       "trend": "stable",
       "image": "images/cameraman-td/2x-lucky.webp",
-      "note": "공개 자료 1곳의 범위 · 독립 검증·평균 계산 전이며 합산하지 않습니다",
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "note": "VVX 공개 표기값 · 단일 출처 참고가",
+      "valueStatus": "single",
+      "valueBasis": "vvx-public-reference-v1",
       "priceQuotes": [
         {
-          "id": "ctd-zen",
-          "name": "Of Zen and Computing",
-          "url": "https://www.ofzenandcomputing.com/cameraman-tower-defense-trading-value-list-roblox/",
-          "low": 1000,
-          "high": 1500,
-          "unit": "자료 표기 젬",
-          "publishedAt": "2026-11-03T21:33:19+05:30",
-          "observedAt": "2026-11-06T09:29:06+09:00"
+          "id": "vvx-ctd",
+          "name": "VVX 공개 가치표",
+          "url": "https://cameraman-td.vaultedvaluesx.com/value-list",
+          "value": 1200,
+          "publishedAt": null,
+          "observedAt": "2026-11-06T23:26:23+09:00"
         }
       ]
     },
@@ -214,22 +198,20 @@
       "name": "2x Money",
       "category": "게임패스",
       "rarity": "",
-      "value": null,
+      "value": 1200,
       "trend": "stable",
       "image": "images/cameraman-td/2x-money.webp",
-      "note": "공개 자료 1곳의 범위 · 독립 검증·평균 계산 전이며 합산하지 않습니다",
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "note": "VVX 공개 표기값 · 단일 출처 참고가",
+      "valueStatus": "single",
+      "valueBasis": "vvx-public-reference-v1",
       "priceQuotes": [
         {
-          "id": "ctd-zen",
-          "name": "Of Zen and Computing",
-          "url": "https://www.ofzenandcomputing.com/cameraman-tower-defense-trading-value-list-roblox/",
-          "low": 900,
-          "high": 1200,
-          "unit": "자료 표기 젬",
-          "publishedAt": "2026-11-03T21:33:19+05:30",
-          "observedAt": "2026-11-06T09:29:06+09:00"
+          "id": "vvx-ctd",
+          "name": "VVX 공개 가치표",
+          "url": "https://cameraman-td.vaultedvaluesx.com/value-list",
+          "value": 1200,
+          "publishedAt": null,
+          "observedAt": "2026-11-06T23:26:23+09:00"
         }
       ]
     },
@@ -238,22 +220,20 @@
       "name": "headless tv man",
       "category": "유닛",
       "rarity": "Exclusive",
-      "value": null,
+      "value": 500,
       "trend": "stable",
       "image": "images/cameraman-td/headless-tv-man.webp",
-      "note": "공개 자료 1곳의 범위 · 독립 검증·평균 계산 전이며 합산하지 않습니다",
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "note": "VVX 공개 표기값 · 단일 출처 참고가",
+      "valueStatus": "single",
+      "valueBasis": "vvx-public-reference-v1",
       "priceQuotes": [
         {
-          "id": "ctd-zen",
-          "name": "Of Zen and Computing",
-          "url": "https://www.ofzenandcomputing.com/cameraman-tower-defense-trading-value-list-roblox/",
-          "low": 500,
-          "high": 1000,
-          "unit": "자료 표기 젬",
-          "publishedAt": "2026-11-03T21:33:19+05:30",
-          "observedAt": "2026-11-06T09:29:06+09:00"
+          "id": "vvx-ctd",
+          "name": "VVX 공개 가치표",
+          "url": "https://cameraman-td.vaultedvaluesx.com/value-list",
+          "value": 500,
+          "publishedAt": null,
+          "observedAt": "2026-11-06T23:26:23+09:00"
         }
       ]
     },
@@ -262,22 +242,20 @@
       "name": "Large Scientist Cameraman",
       "category": "유닛",
       "rarity": "Exclusive",
-      "value": null,
+      "value": 475,
       "trend": "stable",
       "image": "images/cameraman-td/large-scientist-cameraman.webp",
-      "note": "공개 자료 1곳의 범위 · 독립 검증·평균 계산 전이며 합산하지 않습니다",
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "note": "VVX 공개 표기값 · 단일 출처 참고가",
+      "valueStatus": "single",
+      "valueBasis": "vvx-public-reference-v1",
       "priceQuotes": [
         {
-          "id": "ctd-zen",
-          "name": "Of Zen and Computing",
-          "url": "https://www.ofzenandcomputing.com/cameraman-tower-defense-trading-value-list-roblox/",
-          "low": 500,
-          "high": 1000,
-          "unit": "자료 표기 젬",
-          "publishedAt": "2026-11-03T21:33:19+05:30",
-          "observedAt": "2026-11-06T09:29:06+09:00"
+          "id": "vvx-ctd",
+          "name": "VVX 공개 가치표",
+          "url": "https://cameraman-td.vaultedvaluesx.com/value-list",
+          "value": 475,
+          "publishedAt": null,
+          "observedAt": "2026-11-06T23:26:23+09:00"
         }
       ]
     },
@@ -286,22 +264,20 @@
       "name": "Tv woman",
       "category": "유닛",
       "rarity": "Mythic",
-      "value": null,
+      "value": 240,
       "trend": "stable",
       "image": "images/cameraman-td/tv-woman.webp",
-      "note": "공개 자료 1곳의 범위 · 독립 검증·평균 계산 전이며 합산하지 않습니다",
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "note": "VVX 공개 표기값 · 단일 출처 참고가",
+      "valueStatus": "single",
+      "valueBasis": "vvx-public-reference-v1",
       "priceQuotes": [
         {
-          "id": "ctd-zen",
-          "name": "Of Zen and Computing",
-          "url": "https://www.ofzenandcomputing.com/cameraman-tower-defense-trading-value-list-roblox/",
-          "low": 300,
-          "high": 500,
-          "unit": "자료 표기 젬",
-          "publishedAt": "2026-11-03T21:33:19+05:30",
-          "observedAt": "2026-11-06T09:29:06+09:00"
+          "id": "vvx-ctd",
+          "name": "VVX 공개 가치표",
+          "url": "https://cameraman-td.vaultedvaluesx.com/value-list",
+          "value": 240,
+          "publishedAt": null,
+          "observedAt": "2026-11-06T23:26:23+09:00"
         }
       ]
     },
@@ -310,22 +286,20 @@
       "name": "CinemaMan Titan",
       "category": "유닛",
       "rarity": "Mythic",
-      "value": null,
+      "value": 315,
       "trend": "stable",
       "image": "images/cameraman-td/cinemaman-titan.webp",
-      "note": "공개 자료 1곳의 범위 · 독립 검증·평균 계산 전이며 합산하지 않습니다",
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "note": "VVX 공개 표기값 · 단일 출처 참고가",
+      "valueStatus": "single",
+      "valueBasis": "vvx-public-reference-v1",
       "priceQuotes": [
         {
-          "id": "ctd-zen",
-          "name": "Of Zen and Computing",
-          "url": "https://www.ofzenandcomputing.com/cameraman-tower-defense-trading-value-list-roblox/",
-          "low": 300,
-          "high": 500,
-          "unit": "자료 표기 젬",
-          "publishedAt": "2026-11-03T21:33:19+05:30",
-          "observedAt": "2026-11-06T09:29:06+09:00"
+          "id": "vvx-ctd",
+          "name": "VVX 공개 가치표",
+          "url": "https://cameraman-td.vaultedvaluesx.com/value-list",
+          "value": 315,
+          "publishedAt": null,
+          "observedAt": "2026-11-06T23:26:23+09:00"
         }
       ]
     },
@@ -334,22 +308,20 @@
       "name": "2X speed",
       "category": "게임패스",
       "rarity": "",
-      "value": null,
+      "value": 520,
       "trend": "stable",
       "image": "images/cameraman-td/2x-speed.webp",
-      "note": "공개 자료 1곳의 범위 · 독립 검증·평균 계산 전이며 합산하지 않습니다",
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "note": "VVX 공개 표기값 · 단일 출처 참고가",
+      "valueStatus": "single",
+      "valueBasis": "vvx-public-reference-v1",
       "priceQuotes": [
         {
-          "id": "ctd-zen",
-          "name": "Of Zen and Computing",
-          "url": "https://www.ofzenandcomputing.com/cameraman-tower-defense-trading-value-list-roblox/",
-          "low": 500,
-          "high": 600,
-          "unit": "자료 표기 젬",
-          "publishedAt": "2026-11-03T21:33:19+05:30",
-          "observedAt": "2026-11-06T09:29:06+09:00"
+          "id": "vvx-ctd",
+          "name": "VVX 공개 가치표",
+          "url": "https://cameraman-td.vaultedvaluesx.com/value-list",
+          "value": 520,
+          "publishedAt": null,
+          "observedAt": "2026-11-06T23:26:23+09:00"
         }
       ]
     },
@@ -358,22 +330,20 @@
       "name": "Jetpack Cameraman",
       "category": "유닛",
       "rarity": "Exclusive",
-      "value": null,
+      "value": 570,
       "trend": "stable",
       "image": "images/cameraman-td/jetpack-cameraman.webp",
-      "note": "공개 자료 1곳의 범위 · 독립 검증·평균 계산 전이며 합산하지 않습니다",
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "note": "VVX 공개 표기값 · 단일 출처 참고가",
+      "valueStatus": "single",
+      "valueBasis": "vvx-public-reference-v1",
       "priceQuotes": [
         {
-          "id": "ctd-zen",
-          "name": "Of Zen and Computing",
-          "url": "https://www.ofzenandcomputing.com/cameraman-tower-defense-trading-value-list-roblox/",
-          "low": 500,
-          "high": 1000,
-          "unit": "자료 표기 젬",
-          "publishedAt": "2026-11-03T21:33:19+05:30",
-          "observedAt": "2026-11-06T09:29:06+09:00"
+          "id": "vvx-ctd",
+          "name": "VVX 공개 가치표",
+          "url": "https://cameraman-td.vaultedvaluesx.com/value-list",
+          "value": 570,
+          "publishedAt": null,
+          "observedAt": "2026-11-06T23:26:23+09:00"
         }
       ]
     },
@@ -382,22 +352,20 @@
       "name": "large prototype titan",
       "category": "유닛",
       "rarity": "Mythic",
-      "value": null,
+      "value": 235,
       "trend": "stable",
       "image": "images/cameraman-td/large-prototype-titan.webp",
-      "note": "공개 자료 1곳의 범위 · 독립 검증·평균 계산 전이며 합산하지 않습니다",
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "note": "VVX 공개 표기값 · 단일 출처 참고가",
+      "valueStatus": "single",
+      "valueBasis": "vvx-public-reference-v1",
       "priceQuotes": [
         {
-          "id": "ctd-zen",
-          "name": "Of Zen and Computing",
-          "url": "https://www.ofzenandcomputing.com/cameraman-tower-defense-trading-value-list-roblox/",
-          "low": 100,
-          "high": 250,
-          "unit": "자료 표기 젬",
-          "publishedAt": "2026-11-03T21:33:19+05:30",
-          "observedAt": "2026-11-06T09:29:06+09:00"
+          "id": "vvx-ctd",
+          "name": "VVX 공개 가치표",
+          "url": "https://cameraman-td.vaultedvaluesx.com/value-list",
+          "value": 235,
+          "publishedAt": null,
+          "observedAt": "2026-11-06T23:26:23+09:00"
         }
       ]
     },
@@ -406,22 +374,20 @@
       "name": "Glitch plungerman",
       "category": "유닛",
       "rarity": "Mythic",
-      "value": null,
+      "value": 235,
       "trend": "stable",
       "image": "images/cameraman-td/glitch-plungerman.webp",
-      "note": "공개 자료 1곳의 범위 · 독립 검증·평균 계산 전이며 합산하지 않습니다",
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "note": "VVX 공개 표기값 · 단일 출처 참고가",
+      "valueStatus": "single",
+      "valueBasis": "vvx-public-reference-v1",
       "priceQuotes": [
         {
-          "id": "ctd-zen",
-          "name": "Of Zen and Computing",
-          "url": "https://www.ofzenandcomputing.com/cameraman-tower-defense-trading-value-list-roblox/",
-          "low": 100,
-          "high": 250,
-          "unit": "자료 표기 젬",
-          "publishedAt": "2026-11-03T21:33:19+05:30",
-          "observedAt": "2026-11-06T09:29:06+09:00"
+          "id": "vvx-ctd",
+          "name": "VVX 공개 가치표",
+          "url": "https://cameraman-td.vaultedvaluesx.com/value-list",
+          "value": 235,
+          "publishedAt": null,
+          "observedAt": "2026-11-06T23:26:23+09:00"
         }
       ]
     },
@@ -430,22 +396,20 @@
       "name": "videotaper titan",
       "category": "유닛",
       "rarity": "Mythic",
-      "value": null,
+      "value": 225,
       "trend": "stable",
       "image": "images/cameraman-td/videotaper-titan.webp",
-      "note": "공개 자료 1곳의 범위 · 독립 검증·평균 계산 전이며 합산하지 않습니다",
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "note": "VVX 공개 표기값 · 단일 출처 참고가",
+      "valueStatus": "single",
+      "valueBasis": "vvx-public-reference-v1",
       "priceQuotes": [
         {
-          "id": "ctd-zen",
-          "name": "Of Zen and Computing",
-          "url": "https://www.ofzenandcomputing.com/cameraman-tower-defense-trading-value-list-roblox/",
-          "low": 100,
-          "high": 250,
-          "unit": "자료 표기 젬",
-          "publishedAt": "2026-11-03T21:33:19+05:30",
-          "observedAt": "2026-11-06T09:29:06+09:00"
+          "id": "vvx-ctd",
+          "name": "VVX 공개 가치표",
+          "url": "https://cameraman-td.vaultedvaluesx.com/value-list",
+          "value": 225,
+          "publishedAt": null,
+          "observedAt": "2026-11-06T23:26:23+09:00"
         }
       ]
     },
@@ -454,22 +418,20 @@
       "name": "Upgraded Titan Speakerman",
       "category": "유닛",
       "rarity": "Mythic",
-      "value": null,
+      "value": 160,
       "trend": "stable",
       "image": "images/cameraman-td/upgraded-titan-speakerman.webp",
-      "note": "공개 자료 1곳의 범위 · 독립 검증·평균 계산 전이며 합산하지 않습니다",
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "note": "VVX 공개 표기값 · 단일 출처 참고가",
+      "valueStatus": "single",
+      "valueBasis": "vvx-public-reference-v1",
       "priceQuotes": [
         {
-          "id": "ctd-zen",
-          "name": "Of Zen and Computing",
-          "url": "https://www.ofzenandcomputing.com/cameraman-tower-defense-trading-value-list-roblox/",
-          "low": 100,
-          "high": 250,
-          "unit": "자료 표기 젬",
-          "publishedAt": "2026-11-03T21:33:19+05:30",
-          "observedAt": "2026-11-06T09:29:06+09:00"
+          "id": "vvx-ctd",
+          "name": "VVX 공개 가치표",
+          "url": "https://cameraman-td.vaultedvaluesx.com/value-list",
+          "value": 160,
+          "publishedAt": null,
+          "observedAt": "2026-11-06T23:26:23+09:00"
         }
       ]
     },
@@ -478,22 +440,20 @@
       "name": "Scientist Crate",
       "category": "상자",
       "rarity": "",
-      "value": null,
+      "value": 250,
       "trend": "stable",
       "image": "images/cameraman-td/scientist-crate.webp",
-      "note": "공개 자료 1곳의 범위 · 독립 검증·평균 계산 전이며 합산하지 않습니다",
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "note": "VVX 공개 표기값 · 단일 출처 참고가",
+      "valueStatus": "single",
+      "valueBasis": "vvx-public-reference-v1",
       "priceQuotes": [
         {
-          "id": "ctd-zen",
-          "name": "Of Zen and Computing",
-          "url": "https://www.ofzenandcomputing.com/cameraman-tower-defense-trading-value-list-roblox/",
-          "low": 120,
-          "high": 160,
-          "unit": "자료 표기 젬",
-          "publishedAt": "2026-11-03T21:33:19+05:30",
-          "observedAt": "2026-11-06T09:29:06+09:00"
+          "id": "vvx-ctd",
+          "name": "VVX 공개 가치표",
+          "url": "https://cameraman-td.vaultedvaluesx.com/value-list",
+          "value": 250,
+          "publishedAt": null,
+          "observedAt": "2026-11-06T23:26:23+09:00"
         }
       ]
     },
@@ -502,22 +462,20 @@
       "name": "Spider Crate",
       "category": "상자",
       "rarity": "",
-      "value": null,
+      "value": 70,
       "trend": "stable",
       "image": "images/cameraman-td/spider-crate.webp",
-      "note": "공개 자료 1곳의 범위 · 독립 검증·평균 계산 전이며 합산하지 않습니다",
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "note": "VVX 공개 표기값 · 단일 출처 참고가",
+      "valueStatus": "single",
+      "valueBasis": "vvx-public-reference-v1",
       "priceQuotes": [
         {
-          "id": "ctd-zen",
-          "name": "Of Zen and Computing",
-          "url": "https://www.ofzenandcomputing.com/cameraman-tower-defense-trading-value-list-roblox/",
-          "low": 70,
-          "high": 100,
-          "unit": "자료 표기 젬",
-          "publishedAt": "2026-11-03T21:33:19+05:30",
-          "observedAt": "2026-11-06T09:29:06+09:00"
+          "id": "vvx-ctd",
+          "name": "VVX 공개 가치표",
+          "url": "https://cameraman-td.vaultedvaluesx.com/value-list",
+          "value": 70,
+          "publishedAt": null,
+          "observedAt": "2026-11-06T23:26:23+09:00"
         }
       ]
     },
@@ -526,22 +484,20 @@
       "name": "Pumpkin Farmer",
       "category": "유닛",
       "rarity": "Epic",
-      "value": null,
+      "value": 40,
       "trend": "stable",
       "image": "images/cameraman-td/pumpkin-farmer.webp",
-      "note": "공개 자료 1곳의 범위 · 독립 검증·평균 계산 전이며 합산하지 않습니다",
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "note": "VVX 공개 표기값 · 단일 출처 참고가",
+      "valueStatus": "single",
+      "valueBasis": "vvx-public-reference-v1",
       "priceQuotes": [
         {
-          "id": "ctd-zen",
-          "name": "Of Zen and Computing",
-          "url": "https://www.ofzenandcomputing.com/cameraman-tower-defense-trading-value-list-roblox/",
-          "low": 50,
-          "high": 75,
-          "unit": "자료 표기 젬",
-          "publishedAt": "2026-11-03T21:33:19+05:30",
-          "observedAt": "2026-11-06T09:29:06+09:00"
+          "id": "vvx-ctd",
+          "name": "VVX 공개 가치표",
+          "url": "https://cameraman-td.vaultedvaluesx.com/value-list",
+          "value": 40,
+          "publishedAt": null,
+          "observedAt": "2026-11-06T23:26:23+09:00"
         }
       ]
     },
@@ -550,22 +506,20 @@
       "name": "Scientist Cameraman",
       "category": "유닛",
       "rarity": "Exclusive",
-      "value": null,
+      "value": 50,
       "trend": "stable",
       "image": "images/cameraman-td/scientist-cameraman.webp",
-      "note": "공개 자료 1곳의 범위 · 독립 검증·평균 계산 전이며 합산하지 않습니다",
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "note": "VVX 공개 표기값 · 단일 출처 참고가",
+      "valueStatus": "single",
+      "valueBasis": "vvx-public-reference-v1",
       "priceQuotes": [
         {
-          "id": "ctd-zen",
-          "name": "Of Zen and Computing",
-          "url": "https://www.ofzenandcomputing.com/cameraman-tower-defense-trading-value-list-roblox/",
-          "low": 50,
-          "high": 75,
-          "unit": "자료 표기 젬",
-          "publishedAt": "2026-11-03T21:33:19+05:30",
-          "observedAt": "2026-11-06T09:29:06+09:00"
+          "id": "vvx-ctd",
+          "name": "VVX 공개 가치표",
+          "url": "https://cameraman-td.vaultedvaluesx.com/value-list",
+          "value": 50,
+          "publishedAt": null,
+          "observedAt": "2026-11-06T23:26:23+09:00"
         }
       ]
     },
@@ -574,22 +528,20 @@
       "name": "Camera Repair Drone",
       "category": "유닛",
       "rarity": "Legendary",
-      "value": null,
+      "value": 25,
       "trend": "stable",
       "image": "images/cameraman-td/camera-repair-drone.webp",
-      "note": "공개 자료 1곳의 범위 · 독립 검증·평균 계산 전이며 합산하지 않습니다",
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "note": "VVX 공개 표기값 · 단일 출처 참고가",
+      "valueStatus": "single",
+      "valueBasis": "vvx-public-reference-v1",
       "priceQuotes": [
         {
-          "id": "ctd-zen",
-          "name": "Of Zen and Computing",
-          "url": "https://www.ofzenandcomputing.com/cameraman-tower-defense-trading-value-list-roblox/",
-          "low": 30,
-          "high": 80,
-          "unit": "자료 표기 젬",
-          "publishedAt": "2026-11-03T21:33:19+05:30",
-          "observedAt": "2026-11-06T09:29:06+09:00"
+          "id": "vvx-ctd",
+          "name": "VVX 공개 가치표",
+          "url": "https://cameraman-td.vaultedvaluesx.com/value-list",
+          "value": 25,
+          "publishedAt": null,
+          "observedAt": "2026-11-06T23:26:23+09:00"
         }
       ]
     },
@@ -598,22 +550,20 @@
       "name": "Woman Crate",
       "category": "상자",
       "rarity": "",
-      "value": null,
+      "value": 10,
       "trend": "stable",
       "image": "images/cameraman-td/woman-crate.webp",
-      "note": "공개 자료 1곳의 범위 · 독립 검증·평균 계산 전이며 합산하지 않습니다",
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "note": "VVX 공개 표기값 · 단일 출처 참고가",
+      "valueStatus": "single",
+      "valueBasis": "vvx-public-reference-v1",
       "priceQuotes": [
         {
-          "id": "ctd-zen",
-          "name": "Of Zen and Computing",
-          "url": "https://www.ofzenandcomputing.com/cameraman-tower-defense-trading-value-list-roblox/",
-          "low": 10,
-          "high": 20,
-          "unit": "자료 표기 젬",
-          "publishedAt": "2026-11-03T21:33:19+05:30",
-          "observedAt": "2026-11-06T09:29:06+09:00"
+          "id": "vvx-ctd",
+          "name": "VVX 공개 가치표",
+          "url": "https://cameraman-td.vaultedvaluesx.com/value-list",
+          "value": 10,
+          "publishedAt": null,
+          "observedAt": "2026-11-06T23:26:23+09:00"
         }
       ]
     },
@@ -622,22 +572,20 @@
       "name": "Camera spider",
       "category": "유닛",
       "rarity": "Exclusive",
-      "value": null,
+      "value": 15,
       "trend": "stable",
       "image": "images/cameraman-td/camera-spider.webp",
-      "note": "공개 자료 1곳의 범위 · 독립 검증·평균 계산 전이며 합산하지 않습니다",
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "note": "VVX 공개 표기값 · 단일 출처 참고가",
+      "valueStatus": "single",
+      "valueBasis": "vvx-public-reference-v1",
       "priceQuotes": [
         {
-          "id": "ctd-zen",
-          "name": "Of Zen and Computing",
-          "url": "https://www.ofzenandcomputing.com/cameraman-tower-defense-trading-value-list-roblox/",
-          "low": 10,
-          "high": 20,
-          "unit": "자료 표기 젬",
-          "publishedAt": "2026-11-03T21:33:19+05:30",
-          "observedAt": "2026-11-06T09:29:06+09:00"
+          "id": "vvx-ctd",
+          "name": "VVX 공개 가치표",
+          "url": "https://cameraman-td.vaultedvaluesx.com/value-list",
+          "value": 15,
+          "publishedAt": null,
+          "observedAt": "2026-11-06T23:26:23+09:00"
         }
       ]
     },
@@ -646,22 +594,20 @@
       "name": "dragon cameraman",
       "category": "유닛",
       "rarity": "Legendary",
-      "value": null,
+      "value": 5,
       "trend": "stable",
       "image": "images/cameraman-td/dragon-cameraman.webp",
-      "note": "공개 자료 1곳의 범위 · 독립 검증·평균 계산 전이며 합산하지 않습니다",
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "note": "VVX 공개 표기값 · 단일 출처 참고가",
+      "valueStatus": "single",
+      "valueBasis": "vvx-public-reference-v1",
       "priceQuotes": [
         {
-          "id": "ctd-zen",
-          "name": "Of Zen and Computing",
-          "url": "https://www.ofzenandcomputing.com/cameraman-tower-defense-trading-value-list-roblox/",
-          "low": 8,
-          "high": 15,
-          "unit": "자료 표기 젬",
-          "publishedAt": "2026-11-03T21:33:19+05:30",
-          "observedAt": "2026-11-06T09:29:06+09:00"
+          "id": "vvx-ctd",
+          "name": "VVX 공개 가치표",
+          "url": "https://cameraman-td.vaultedvaluesx.com/value-list",
+          "value": 5,
+          "publishedAt": null,
+          "observedAt": "2026-11-06T23:26:23+09:00"
         }
       ]
     },
@@ -670,22 +616,20 @@
       "name": "Halloween Crate",
       "category": "상자",
       "rarity": "",
-      "value": null,
+      "value": 15,
       "trend": "stable",
       "image": "images/cameraman-td/halloween-crate.webp",
-      "note": "공개 자료 1곳의 범위 · 독립 검증·평균 계산 전이며 합산하지 않습니다",
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "note": "VVX 공개 표기값 · 단일 출처 참고가",
+      "valueStatus": "single",
+      "valueBasis": "vvx-public-reference-v1",
       "priceQuotes": [
         {
-          "id": "ctd-zen",
-          "name": "Of Zen and Computing",
-          "url": "https://www.ofzenandcomputing.com/cameraman-tower-defense-trading-value-list-roblox/",
-          "low": 15,
-          "high": 20,
-          "unit": "자료 표기 젬",
-          "publishedAt": "2026-11-03T21:33:19+05:30",
-          "observedAt": "2026-11-06T09:29:06+09:00"
+          "id": "vvx-ctd",
+          "name": "VVX 공개 가치표",
+          "url": "https://cameraman-td.vaultedvaluesx.com/value-list",
+          "value": 15,
+          "publishedAt": null,
+          "observedAt": "2026-11-06T23:26:23+09:00"
         }
       ]
     },
@@ -694,22 +638,20 @@
       "name": "SpeakerWoman",
       "category": "유닛",
       "rarity": "Epic",
-      "value": null,
+      "value": 3,
       "trend": "stable",
       "image": "images/cameraman-td/speakerwoman.webp",
-      "note": "공개 자료 1곳의 범위 · 독립 검증·평균 계산 전이며 합산하지 않습니다",
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "note": "VVX 공개 표기값 · 단일 출처 참고가",
+      "valueStatus": "single",
+      "valueBasis": "vvx-public-reference-v1",
       "priceQuotes": [
         {
-          "id": "ctd-zen",
-          "name": "Of Zen and Computing",
-          "url": "https://www.ofzenandcomputing.com/cameraman-tower-defense-trading-value-list-roblox/",
-          "low": 8,
-          "high": 15,
-          "unit": "자료 표기 젬",
-          "publishedAt": "2026-11-03T21:33:19+05:30",
-          "observedAt": "2026-11-06T09:29:06+09:00"
+          "id": "vvx-ctd",
+          "name": "VVX 공개 가치표",
+          "url": "https://cameraman-td.vaultedvaluesx.com/value-list",
+          "value": 3,
+          "publishedAt": null,
+          "observedAt": "2026-11-06T23:26:23+09:00"
         }
       ]
     },
@@ -718,22 +660,20 @@
       "name": "Ninja Cameraman",
       "category": "유닛",
       "rarity": "Legendary",
-      "value": null,
+      "value": 2,
       "trend": "stable",
       "image": "images/cameraman-td/ninja-cameraman.webp",
-      "note": "공개 자료 1곳의 범위 · 독립 검증·평균 계산 전이며 합산하지 않습니다",
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "note": "VVX 공개 표기값 · 단일 출처 참고가",
+      "valueStatus": "single",
+      "valueBasis": "vvx-public-reference-v1",
       "priceQuotes": [
         {
-          "id": "ctd-zen",
-          "name": "Of Zen and Computing",
-          "url": "https://www.ofzenandcomputing.com/cameraman-tower-defense-trading-value-list-roblox/",
-          "low": 5,
-          "high": 10,
-          "unit": "자료 표기 젬",
-          "publishedAt": "2026-11-03T21:33:19+05:30",
-          "observedAt": "2026-11-06T09:29:06+09:00"
+          "id": "vvx-ctd",
+          "name": "VVX 공개 가치표",
+          "url": "https://cameraman-td.vaultedvaluesx.com/value-list",
+          "value": 2,
+          "publishedAt": null,
+          "observedAt": "2026-11-06T23:26:23+09:00"
         }
       ]
     },
@@ -742,22 +682,20 @@
       "name": "Titan Cameraman",
       "category": "유닛",
       "rarity": "Legendary",
-      "value": null,
+      "value": 2,
       "trend": "stable",
       "image": "images/cameraman-td/titan-cameraman.webp",
-      "note": "공개 자료 1곳의 범위 · 독립 검증·평균 계산 전이며 합산하지 않습니다",
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "note": "VVX 공개 표기값 · 단일 출처 참고가",
+      "valueStatus": "single",
+      "valueBasis": "vvx-public-reference-v1",
       "priceQuotes": [
         {
-          "id": "ctd-zen",
-          "name": "Of Zen and Computing",
-          "url": "https://www.ofzenandcomputing.com/cameraman-tower-defense-trading-value-list-roblox/",
-          "low": 5,
-          "high": 10,
-          "unit": "자료 표기 젬",
-          "publishedAt": "2026-11-03T21:33:19+05:30",
-          "observedAt": "2026-11-06T09:29:06+09:00"
+          "id": "vvx-ctd",
+          "name": "VVX 공개 가치표",
+          "url": "https://cameraman-td.vaultedvaluesx.com/value-list",
+          "value": 2,
+          "publishedAt": null,
+          "observedAt": "2026-11-06T23:26:23+09:00"
         }
       ]
     },
@@ -766,22 +704,20 @@
       "name": "Laser Cameraman Car",
       "category": "유닛",
       "rarity": "Legendary",
-      "value": null,
+      "value": 2,
       "trend": "stable",
       "image": "images/cameraman-td/laser-cameraman-car.webp",
-      "note": "공개 자료 1곳의 범위 · 독립 검증·평균 계산 전이며 합산하지 않습니다",
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "note": "VVX 공개 표기값 · 단일 출처 참고가",
+      "valueStatus": "single",
+      "valueBasis": "vvx-public-reference-v1",
       "priceQuotes": [
         {
-          "id": "ctd-zen",
-          "name": "Of Zen and Computing",
-          "url": "https://www.ofzenandcomputing.com/cameraman-tower-defense-trading-value-list-roblox/",
-          "low": 5,
-          "high": 10,
-          "unit": "자료 표기 젬",
-          "publishedAt": "2026-11-03T21:33:19+05:30",
-          "observedAt": "2026-11-06T09:29:06+09:00"
+          "id": "vvx-ctd",
+          "name": "VVX 공개 가치표",
+          "url": "https://cameraman-td.vaultedvaluesx.com/value-list",
+          "value": 2,
+          "publishedAt": null,
+          "observedAt": "2026-11-06T23:26:23+09:00"
         }
       ]
     },
@@ -790,35 +726,42 @@
       "name": "Titan TV Man",
       "category": "유닛",
       "rarity": "Legendary",
-      "value": null,
+      "value": 2,
       "trend": "stable",
       "image": "images/cameraman-td/titan-tv-man.webp",
-      "note": "확인된 외부 숫자 자료 없음",
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
-      "priceQuotes": []
+      "note": "VVX 공개 표기값 · 단일 출처 참고가",
+      "valueStatus": "single",
+      "valueBasis": "vvx-public-reference-v1",
+      "priceQuotes": [
+        {
+          "id": "vvx-ctd",
+          "name": "VVX 공개 가치표",
+          "url": "https://cameraman-td.vaultedvaluesx.com/value-list",
+          "value": 2,
+          "publishedAt": null,
+          "observedAt": "2026-11-06T23:26:23+09:00"
+        }
+      ]
     },
     {
       "id": "titan-speakerman",
       "name": "Titan Speakerman",
       "category": "유닛",
       "rarity": "Legendary",
-      "value": null,
+      "value": 1,
       "trend": "stable",
       "image": "images/cameraman-td/titan-speakerman.webp",
-      "note": "공개 자료 1곳의 범위 · 독립 검증·평균 계산 전이며 합산하지 않습니다",
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "note": "VVX 공개 표기값 · 단일 출처 참고가",
+      "valueStatus": "single",
+      "valueBasis": "vvx-public-reference-v1",
       "priceQuotes": [
         {
-          "id": "ctd-zen",
-          "name": "Of Zen and Computing",
-          "url": "https://www.ofzenandcomputing.com/cameraman-tower-defense-trading-value-list-roblox/",
-          "low": 5,
-          "high": 10,
-          "unit": "자료 표기 젬",
-          "publishedAt": "2026-11-03T21:33:19+05:30",
-          "observedAt": "2026-11-06T09:29:06+09:00"
+          "id": "vvx-ctd",
+          "name": "VVX 공개 가치표",
+          "url": "https://cameraman-td.vaultedvaluesx.com/value-list",
+          "value": 1,
+          "publishedAt": null,
+          "observedAt": "2026-11-06T23:26:23+09:00"
         }
       ]
     },
@@ -827,14 +770,23 @@
       "name": "Hacked Cameraman",
       "category": "유닛",
       "rarity": "Exclusive",
-      "value": null,
-      "valueStatus": "insufficient",
+      "value": 1500,
+      "valueStatus": "single",
       "trend": "stable",
       "image": "images/cameraman-td/hacked-cameraman.webp",
-      "note": "확인된 외부 숫자 자료 없음",
+      "note": "VVX 공개 표기값 · 단일 출처 참고가",
       "addedAt": "2026-11-05T06:29:01+09:00",
-      "valueBasis": "public-range-reference-v1",
-      "priceQuotes": []
+      "valueBasis": "vvx-public-reference-v1",
+      "priceQuotes": [
+        {
+          "id": "vvx-ctd",
+          "name": "VVX 공개 가치표",
+          "url": "https://cameraman-td.vaultedvaluesx.com/value-list",
+          "value": 1500,
+          "publishedAt": null,
+          "observedAt": "2026-11-06T23:26:23+09:00"
+        }
+      ]
     },
     {
       "id": "pharaoh-cameraman",
@@ -845,9 +797,9 @@
       "valueStatus": "insufficient",
       "trend": "stable",
       "image": "images/cameraman-td/pharaoh-cameraman.webp",
-      "note": "확인된 외부 숫자 자료 없음",
+      "note": "숫자로 확정된 값이 없어 가격 보류",
       "addedAt": "2026-11-05T06:29:01+09:00",
-      "valueBasis": "public-range-reference-v1",
+      "valueBasis": "vvx-public-reference-v1",
       "priceQuotes": []
     },
     {
@@ -855,15 +807,24 @@
       "name": "Upgraded Titan TV Man",
       "category": "유닛",
       "rarity": "Godly",
-      "value": null,
-      "valueStatus": "insufficient",
+      "value": 4000,
+      "valueStatus": "single",
       "trend": "stable",
       "image": "images/cameraman-td/upgraded-titan-tv-man.webp",
-      "note": "확인된 외부 숫자 자료 없음",
+      "note": "VVX 공개 표기값 · 단일 출처 참고가",
       "addedAt": "2026-11-05T06:29:01+09:00",
-      "valueBasis": "public-range-reference-v1",
-      "priceQuotes": []
+      "valueBasis": "vvx-public-reference-v1",
+      "priceQuotes": [
+        {
+          "id": "vvx-ctd",
+          "name": "VVX 공개 가치표",
+          "url": "https://cameraman-td.vaultedvaluesx.com/value-list",
+          "value": 4000,
+          "publishedAt": null,
+          "observedAt": "2026-11-06T23:26:23+09:00"
+        }
+      ]
     }
   ],
-  "pricingMode": "reference"
+  "pricingMode": "comparison"
 }
