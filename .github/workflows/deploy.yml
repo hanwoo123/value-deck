@@ -4,6 +4,7 @@ on:
     branches: [main]
     paths:
       - index.html
+      - robots.txt
       - css/**
       - js/**
       - data/**
@@ -31,7 +32,7 @@ jobs:
       - name: Prepare public site
         run: |
           mkdir -p /tmp/value-deck-site
-          cp index.html CNAME .nojekyll /tmp/value-deck-site/
+          cp index.html robots.txt CNAME .nojekyll /tmp/value-deck-site/
           cp -R css js data images /tmp/value-deck-site/
       - uses: actions/upload-pages-artifact@v3
         with:

@@ -52,7 +52,7 @@ jobs:
         if: steps.commit.outputs.changed == 'true'
         run: |
           mkdir -p /tmp/value-deck-site
-          cp index.html CNAME .nojekyll /tmp/value-deck-site/
+          cp index.html robots.txt CNAME .nojekyll /tmp/value-deck-site/
           cp -R css js data images /tmp/value-deck-site/
       - uses: actions/configure-pages@v5
         if: steps.commit.outputs.changed == 'true'

@@ -1,0 +1,4 @@
+# Allow crawlers to read the noindex directive in index.html.
+# Disallowing the page would prevent removal of an existing indexed page.
+User-agent: *
+Allow: /
