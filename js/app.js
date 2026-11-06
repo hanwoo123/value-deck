@@ -157,6 +157,12 @@
       if(['paused','provisional'].includes(report.state)){if(node?.isConnected)node.textContent=report.message;return;}
       if(report.state==='comparison'){
         const info=gameId?report.games?.[gameId]:null;
+        if(gameId==='cameraman-td'&&(info?.refreshState==='blocked'||/error: (401|403)/.test(report.ctdReferenceError||''))){
+          const last=info.checkedAt?new Date(info.checkedAt).toLocaleString('ko-KR',{timeZone:'Asia/Seoul'}):'없음';
+          const attempt=info.lastAttemptAt?new Date(info.lastAttemptAt).toLocaleString('ko-KR',{timeZone:'Asia/Seoul'}):'미확인';
+          if(node?.isConnected)node.textContent=`카타디 자동 확인: 6시간 간격 · 게시자 접속 거절(HTTP ${info.httpStatus||report.ctdReferenceError.match(/error: (401|403)/)?.[1]}) · 마지막 시도 ${attempt} · 마지막 성공 ${last} (한국 시간) · 기존 자료의 날짜를 유지합니다.`;
+          return;
+        }
         const time=new Date(info?.checkedAt||report.checkedAt).toLocaleString('ko-KR',{timeZone:'Asia/Seoul'});
         if(node?.isConnected)node.textContent=(info?.message||'블록스 프루츠: 공개 가격 비교 · 카타디: 단일 출처 범위')+(info?.mode==='provisional'?'':' · 최근 가격 확인 '+time+' (한국 시간) · 6시간마다 확인')+(report.comparisonErrors?.length?' · 최근 수집 일부 실패: 기존 관측 날짜를 확인하세요':'')+(report.ctdReferenceError&&(!gameId||gameId==='cameraman-td')?' · 카타디 자료 갱신 실패: 기존 관측일을 확인하세요':'');
         return;

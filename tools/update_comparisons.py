@@ -38,7 +38,7 @@ def get(url):
     if urlparse(url).scheme!='https' or any(host==h or host.endswith('.'+h) for h in excluded):
         raise ValueError('Excluded destination')
     # No redirects: a source cannot redirect collection to an excluded host/API.
-    r=subprocess.run(['curl','--fail','--silent','--show-error','--proto','=https','--max-time','25','--max-filesize','5000000','--user-agent','BLOX-DECKS-price-comparison/1.0',url],capture_output=True,check=True)
+    r=subprocess.run(['curl','--fail','--silent','--show-error','--proto','=https','--retry','1','--retry-delay','2','--retry-max-time','15','--max-time','25','--max-filesize','5000000','--user-agent','BLOX-DECKS-price-comparison/1.0',url],capture_output=True,check=True)
     text=r.stdout.decode('utf-8')
     if len(r.stdout)>5000000:raise ValueError('Page too large')
     return text

@@ -58,16 +58,26 @@ def run(root=ROOT,write=False):
     path=root/'data/cameraman-td.json';data=json.loads(path.read_text());count=apply(data,ranges,published,source,now)
     if write:
         status_path=root/'data/value-update-status.json';report=json.loads(status_path.read_text())
-        report['games']['cameraman-td']={'mode':'reference','referencedItems':count,'sourceCount':1,'checkedAt':now.isoformat(timespec='seconds'),'message':f'외부 자료 범위 {count}개 · 단일 출처 참고 · 평균·실거래 시세로 검증하지 않았으며 계산에 합산하지 않습니다.'}
+        report['games']['cameraman-td']={'mode':'reference','referencedItems':count,'sourceCount':1,'checkedAt':now.isoformat(timespec='seconds'),'lastAttemptAt':now.isoformat(timespec='seconds'),'refreshState':'ok','message':f'외부 자료 범위 {count}개 · 단일 출처 참고 · 평균·실거래 시세로 검증하지 않았으며 계산에 합산하지 않습니다.'}
         report.pop('ctdReferenceError',None)
         for p,value in [(path,data),(status_path,report)]:
             tmp=p.with_suffix('.json.tmp');tmp.write_text(json.dumps(value,ensure_ascii=False,indent=2)+'\n');tmp.replace(p)
     return {'items':count,'publishedAt':published}
+
+def record_failure(path,error,now):
+    report=json.loads(path.read_text());message=source_error(error)[:250]
+    report['ctdReferenceError']=message
+    info=report.setdefault('games',{}).setdefault('cameraman-td',{})
+    info['lastAttemptAt']=now.isoformat(timespec='seconds')
+    info['refreshState']='blocked' if 'error: 403' in message or 'error: 401' in message else 'error'
+    info['httpStatus']=403 if 'error: 403' in message else 401 if 'error: 401' in message else None
+    # checkedAt and all published quote observation dates intentionally stay unchanged.
+    tmp=path.with_suffix('.json.tmp');tmp.write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n');tmp.replace(path)
 
 if __name__=='__main__':
     p=argparse.ArgumentParser();p.add_argument('--write',action='store_true');a=p.parse_args()
     try:print(json.dumps(run(write=a.write),ensure_ascii=False))
     except Exception as e:
         if a.write:
-            path=ROOT/'data/value-update-status.json';report=json.loads(path.read_text());report['ctdReferenceError']=source_error(e)[:250];path.write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
+            record_failure(ROOT/'data/value-update-status.json',e,datetime.now(ZoneInfo('Asia/Seoul')))
         raise
