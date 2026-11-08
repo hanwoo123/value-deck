@@ -1,6 +1,6 @@
 {
   "state": "comparison",
-  "checkedAt": "2026-11-08T22:40:35+09:00",
+  "checkedAt": "2026-11-09T07:16:55+09:00",
   "games": {
     "blox-fruits": {
       "mode": "comparison",
@@ -10,12 +10,12 @@
     },
     "cameraman-td": {
       "mode": "comparison",
-      "referencedItems": 36,
+      "referencedItems": 37,
       "sourceCount": 1,
-      "checkedAt": "2026-11-08T22:41:23+09:00",
-      "lastAttemptAt": "2026-11-08T22:41:23+09:00",
+      "checkedAt": "2026-11-09T07:17:41+09:00",
+      "lastAttemptAt": "2026-11-09T07:17:41+09:00",
       "refreshState": "ok",
-      "message": "VVX 공개 숫자 36개 · 단일 출처 참고가 · 6시간마다 확인"
+      "message": "VVX 공개 숫자 37개 · 단일 출처 참고가 · 6시간마다 확인"
     }
   },
   "comparisonErrors": [
