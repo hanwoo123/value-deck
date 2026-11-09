@@ -1,19 +1,19 @@
 {
   "state": "comparison",
-  "checkedAt": "2026-11-09T15:54:40+09:00",
+  "checkedAt": "2026-11-10T07:32:27+09:00",
   "games": {
     "blox-fruits": {
       "mode": "comparison",
-      "pricedItems": 135,
+      "pricedItems": 133,
       "sourceCount": 2,
-      "message": "공개 사이트 2곳 숫자 비교 · 135개 항목 숫자 확인 · 단일 출처·편차 큰 값은 별도 표시 · 출처가 같은 원본을 사용했을 수 있으며 독립된 실거래 조사로 확인한 값이 아닙니다."
+      "message": "공개 사이트 2곳 숫자 비교 · 133개 항목 숫자 확인 · 단일 출처·편차 큰 값은 별도 표시 · 출처가 같은 원본을 사용했을 수 있으며 독립된 실거래 조사로 확인한 값이 아닙니다."
     },
     "cameraman-td": {
       "mode": "comparison",
       "referencedItems": 37,
       "sourceCount": 1,
-      "checkedAt": "2026-11-09T15:55:27+09:00",
-      "lastAttemptAt": "2026-11-09T15:55:27+09:00",
+      "checkedAt": "2026-11-10T07:33:18+09:00",
+      "lastAttemptAt": "2026-11-10T07:33:18+09:00",
       "refreshState": "ok",
       "message": "VVX 공개 숫자 37개 · 단일 출처 참고가 · 6시간마다 확인"
     }
