@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-10",
+  "updated": "2026-11-11",
   "valueUnit": "참고가치",
   "demandMax": 10,
   "rarities": [
@@ -35,7 +35,7 @@
           "url": "https://cameraman-td.vaultedvaluesx.com/value-list",
           "value": 15000,
           "publishedAt": null,
-          "observedAt": "2026-11-10T16:31:49+09:00"
+          "observedAt": "2026-11-11T04:53:46+09:00"
         }
       ]
     },
@@ -44,7 +44,7 @@
       "name": "Engineer Cameraman",
       "category": "유닛",
       "rarity": "Exclusive",
-      "value": 6800,
+      "value": 7000,
       "trend": "stable",
       "image": "images/cameraman-td/engineer-cameraman.webp",
       "note": "VVX 공개 표기값 · 단일 출처 참고가",
@@ -55,9 +55,9 @@
           "id": "vvx-ctd",
           "name": "VVX 공개 가치표",
           "url": "https://cameraman-td.vaultedvaluesx.com/value-list",
-          "value": 6800,
+          "value": 7000,
           "publishedAt": null,
-          "observedAt": "2026-11-10T16:31:49+09:00"
+          "observedAt": "2026-11-11T04:53:46+09:00"
         }
       ]
     },
@@ -66,7 +66,7 @@
       "name": "Chaos cameraman",
       "category": "유닛",
       "rarity": "Mythic",
-      "value": 3800,
+      "value": 4000,
       "trend": "stable",
       "image": "images/cameraman-td/chaos-cameraman.webp",
       "note": "VVX 공개 표기값 · 단일 출처 참고가",
@@ -77,9 +77,9 @@
           "id": "vvx-ctd",
           "name": "VVX 공개 가치표",
           "url": "https://cameraman-td.vaultedvaluesx.com/value-list",
-          "value": 3800,
+          "value": 4000,
           "publishedAt": null,
-          "observedAt": "2026-11-10T16:31:49+09:00"
+          "observedAt": "2026-11-11T04:53:46+09:00"
         }
       ]
     },
@@ -101,7 +101,7 @@
           "url": "https://cameraman-td.vaultedvaluesx.com/value-list",
           "value": 3100,
           "publishedAt": null,
-          "observedAt": "2026-11-10T16:31:49+09:00"
+          "observedAt": "2026-11-11T04:53:46+09:00"
         }
       ]
     },
@@ -123,7 +123,7 @@
           "url": "https://cameraman-td.vaultedvaluesx.com/value-list",
           "value": 1800,
           "publishedAt": null,
-          "observedAt": "2026-11-10T16:31:49+09:00"
+          "observedAt": "2026-11-11T04:53:46+09:00"
         }
       ]
     },
@@ -145,7 +145,7 @@
           "url": "https://cameraman-td.vaultedvaluesx.com/value-list",
           "value": 1500,
           "publishedAt": null,
-          "observedAt": "2026-11-10T16:31:49+09:00"
+          "observedAt": "2026-11-11T04:53:46+09:00"
         }
       ]
     },
@@ -154,7 +154,7 @@
       "name": "x2 candy",
       "category": "게임패스",
       "rarity": "",
-      "value": 1400,
+      "value": 1600,
       "trend": "stable",
       "image": "images/cameraman-td/x2-candy.webp",
       "note": "VVX 공개 표기값 · 단일 출처 참고가",
@@ -165,9 +165,9 @@
           "id": "vvx-ctd",
           "name": "VVX 공개 가치표",
           "url": "https://cameraman-td.vaultedvaluesx.com/value-list",
-          "value": 1400,
+          "value": 1600,
           "publishedAt": null,
-          "observedAt": "2026-11-10T16:31:49+09:00"
+          "observedAt": "2026-11-11T04:53:46+09:00"
         }
       ]
     },
@@ -176,7 +176,7 @@
       "name": "2x Lucky",
       "category": "게임패스",
       "rarity": "",
-      "value": 1500,
+      "value": 1600,
       "trend": "stable",
       "image": "images/cameraman-td/2x-lucky.webp",
       "note": "VVX 공개 표기값 · 단일 출처 참고가",
@@ -187,9 +187,9 @@
           "id": "vvx-ctd",
           "name": "VVX 공개 가치표",
           "url": "https://cameraman-td.vaultedvaluesx.com/value-list",
-          "value": 1500,
+          "value": 1600,
           "publishedAt": null,
-          "observedAt": "2026-11-10T16:31:49+09:00"
+          "observedAt": "2026-11-11T04:53:46+09:00"
         }
       ]
     },
@@ -198,7 +198,7 @@
       "name": "2x Money",
       "category": "게임패스",
       "rarity": "",
-      "value": 1550,
+      "value": 1650,
       "trend": "stable",
       "image": "images/cameraman-td/2x-money.webp",
       "note": "VVX 공개 표기값 · 단일 출처 참고가",
@@ -209,9 +209,9 @@
           "id": "vvx-ctd",
           "name": "VVX 공개 가치표",
           "url": "https://cameraman-td.vaultedvaluesx.com/value-list",
-          "value": 1550,
+          "value": 1650,
           "publishedAt": null,
-          "observedAt": "2026-11-10T16:31:49+09:00"
+          "observedAt": "2026-11-11T04:53:46+09:00"
         }
       ]
     },
@@ -233,7 +233,7 @@
           "url": "https://cameraman-td.vaultedvaluesx.com/value-list",
           "value": 400,
           "publishedAt": null,
-          "observedAt": "2026-11-10T16:31:49+09:00"
+          "observedAt": "2026-11-11T04:53:46+09:00"
         }
       ]
     },
@@ -255,7 +255,7 @@
           "url": "https://cameraman-td.vaultedvaluesx.com/value-list",
           "value": 400,
           "publishedAt": null,
-          "observedAt": "2026-11-10T16:31:49+09:00"
+          "observedAt": "2026-11-11T04:53:46+09:00"
         }
       ]
     },
@@ -277,7 +277,7 @@
           "url": "https://cameraman-td.vaultedvaluesx.com/value-list",
           "value": 235,
           "publishedAt": null,
-          "observedAt": "2026-11-10T16:31:49+09:00"
+          "observedAt": "2026-11-11T04:53:46+09:00"
         }
       ]
     },
@@ -286,7 +286,7 @@
       "name": "CinemaMan Titan",
       "category": "유닛",
       "rarity": "Mythic",
-      "value": 315,
+      "value": 250,
       "trend": "stable",
       "image": "images/cameraman-td/cinemaman-titan.webp",
       "note": "VVX 공개 표기값 · 단일 출처 참고가",
@@ -297,9 +297,9 @@
           "id": "vvx-ctd",
           "name": "VVX 공개 가치표",
           "url": "https://cameraman-td.vaultedvaluesx.com/value-list",
-          "value": 315,
+          "value": 250,
           "publishedAt": null,
-          "observedAt": "2026-11-10T16:31:49+09:00"
+          "observedAt": "2026-11-11T04:53:46+09:00"
         }
       ]
     },
@@ -308,7 +308,7 @@
       "name": "2X speed",
       "category": "게임패스",
       "rarity": "",
-      "value": 800,
+      "value": 925,
       "trend": "stable",
       "image": "images/cameraman-td/2x-speed.webp",
       "note": "VVX 공개 표기값 · 단일 출처 참고가",
@@ -319,9 +319,9 @@
           "id": "vvx-ctd",
           "name": "VVX 공개 가치표",
           "url": "https://cameraman-td.vaultedvaluesx.com/value-list",
-          "value": 800,
+          "value": 925,
           "publishedAt": null,
-          "observedAt": "2026-11-10T16:31:49+09:00"
+          "observedAt": "2026-11-11T04:53:46+09:00"
         }
       ]
     },
@@ -343,7 +343,7 @@
           "url": "https://cameraman-td.vaultedvaluesx.com/value-list",
           "value": 450,
           "publishedAt": null,
-          "observedAt": "2026-11-10T16:31:49+09:00"
+          "observedAt": "2026-11-11T04:53:46+09:00"
         }
       ]
     },
@@ -365,7 +365,7 @@
           "url": "https://cameraman-td.vaultedvaluesx.com/value-list",
           "value": 220,
           "publishedAt": null,
-          "observedAt": "2026-11-10T16:31:49+09:00"
+          "observedAt": "2026-11-11T04:53:46+09:00"
         }
       ]
     },
@@ -374,7 +374,7 @@
       "name": "Glitch plungerman",
       "category": "유닛",
       "rarity": "Mythic",
-      "value": 200,
+      "value": 150,
       "trend": "stable",
       "image": "images/cameraman-td/glitch-plungerman.webp",
       "note": "VVX 공개 표기값 · 단일 출처 참고가",
@@ -385,9 +385,9 @@
           "id": "vvx-ctd",
           "name": "VVX 공개 가치표",
           "url": "https://cameraman-td.vaultedvaluesx.com/value-list",
-          "value": 200,
+          "value": 150,
           "publishedAt": null,
-          "observedAt": "2026-11-10T16:31:49+09:00"
+          "observedAt": "2026-11-11T04:53:46+09:00"
         }
       ]
     },
@@ -396,7 +396,7 @@
       "name": "videotaper titan",
       "category": "유닛",
       "rarity": "Mythic",
-      "value": 210,
+      "value": 150,
       "trend": "stable",
       "image": "images/cameraman-td/videotaper-titan.webp",
       "note": "VVX 공개 표기값 · 단일 출처 참고가",
@@ -407,9 +407,9 @@
           "id": "vvx-ctd",
           "name": "VVX 공개 가치표",
           "url": "https://cameraman-td.vaultedvaluesx.com/value-list",
-          "value": 210,
+          "value": 150,
           "publishedAt": null,
-          "observedAt": "2026-11-10T16:31:49+09:00"
+          "observedAt": "2026-11-11T04:53:46+09:00"
         }
       ]
     },
@@ -431,7 +431,7 @@
           "url": "https://cameraman-td.vaultedvaluesx.com/value-list",
           "value": 160,
           "publishedAt": null,
-          "observedAt": "2026-11-10T16:31:49+09:00"
+          "observedAt": "2026-11-11T04:53:46+09:00"
         }
       ]
     },
@@ -440,7 +440,7 @@
       "name": "Scientist Crate",
       "category": "상자",
       "rarity": "",
-      "value": 250,
+      "value": 300,
       "trend": "stable",
       "image": "images/cameraman-td/scientist-crate.webp",
       "note": "VVX 공개 표기값 · 단일 출처 참고가",
@@ -451,9 +451,9 @@
           "id": "vvx-ctd",
           "name": "VVX 공개 가치표",
           "url": "https://cameraman-td.vaultedvaluesx.com/value-list",
-          "value": 250,
+          "value": 300,
           "publishedAt": null,
-          "observedAt": "2026-11-10T16:31:49+09:00"
+          "observedAt": "2026-11-11T04:53:46+09:00"
         }
       ]
     },
@@ -475,7 +475,7 @@
           "url": "https://cameraman-td.vaultedvaluesx.com/value-list",
           "value": 70,
           "publishedAt": null,
-          "observedAt": "2026-11-10T16:31:49+09:00"
+          "observedAt": "2026-11-11T04:53:46+09:00"
         }
       ]
     },
@@ -497,7 +497,7 @@
           "url": "https://cameraman-td.vaultedvaluesx.com/value-list",
           "value": 30,
           "publishedAt": null,
-          "observedAt": "2026-11-10T16:31:49+09:00"
+          "observedAt": "2026-11-11T04:53:46+09:00"
         }
       ]
     },
@@ -519,7 +519,7 @@
           "url": "https://cameraman-td.vaultedvaluesx.com/value-list",
           "value": 30,
           "publishedAt": null,
-          "observedAt": "2026-11-10T16:31:49+09:00"
+          "observedAt": "2026-11-11T04:53:46+09:00"
         }
       ]
     },
@@ -541,7 +541,7 @@
           "url": "https://cameraman-td.vaultedvaluesx.com/value-list",
           "value": 25,
           "publishedAt": null,
-          "observedAt": "2026-11-10T16:31:49+09:00"
+          "observedAt": "2026-11-11T04:53:46+09:00"
         }
       ]
     },
@@ -563,7 +563,7 @@
           "url": "https://cameraman-td.vaultedvaluesx.com/value-list",
           "value": 10,
           "publishedAt": null,
-          "observedAt": "2026-11-10T16:31:49+09:00"
+          "observedAt": "2026-11-11T04:53:46+09:00"
         }
       ]
     },
@@ -585,7 +585,7 @@
           "url": "https://cameraman-td.vaultedvaluesx.com/value-list",
           "value": 15,
           "publishedAt": null,
-          "observedAt": "2026-11-10T16:31:49+09:00"
+          "observedAt": "2026-11-11T04:53:46+09:00"
         }
       ]
     },
@@ -607,7 +607,7 @@
           "url": "https://cameraman-td.vaultedvaluesx.com/value-list",
           "value": 5,
           "publishedAt": null,
-          "observedAt": "2026-11-10T16:31:49+09:00"
+          "observedAt": "2026-11-11T04:53:46+09:00"
         }
       ]
     },
@@ -629,7 +629,7 @@
           "url": "https://cameraman-td.vaultedvaluesx.com/value-list",
           "value": 15,
           "publishedAt": null,
-          "observedAt": "2026-11-10T16:31:49+09:00"
+          "observedAt": "2026-11-11T04:53:46+09:00"
         }
       ]
     },
@@ -651,7 +651,7 @@
           "url": "https://cameraman-td.vaultedvaluesx.com/value-list",
           "value": 3,
           "publishedAt": null,
-          "observedAt": "2026-11-10T16:31:49+09:00"
+          "observedAt": "2026-11-11T04:53:46+09:00"
         }
       ]
     },
@@ -673,7 +673,7 @@
           "url": "https://cameraman-td.vaultedvaluesx.com/value-list",
           "value": 2,
           "publishedAt": null,
-          "observedAt": "2026-11-10T16:31:49+09:00"
+          "observedAt": "2026-11-11T04:53:46+09:00"
         }
       ]
     },
@@ -695,7 +695,7 @@
           "url": "https://cameraman-td.vaultedvaluesx.com/value-list",
           "value": 2,
           "publishedAt": null,
-          "observedAt": "2026-11-10T16:31:49+09:00"
+          "observedAt": "2026-11-11T04:53:46+09:00"
         }
       ]
     },
@@ -717,7 +717,7 @@
           "url": "https://cameraman-td.vaultedvaluesx.com/value-list",
           "value": 2,
           "publishedAt": null,
-          "observedAt": "2026-11-10T16:31:49+09:00"
+          "observedAt": "2026-11-11T04:53:46+09:00"
         }
       ]
     },
@@ -739,7 +739,7 @@
           "url": "https://cameraman-td.vaultedvaluesx.com/value-list",
           "value": 2,
           "publishedAt": null,
-          "observedAt": "2026-11-10T16:31:49+09:00"
+          "observedAt": "2026-11-11T04:53:46+09:00"
         }
       ]
     },
@@ -761,7 +761,7 @@
           "url": "https://cameraman-td.vaultedvaluesx.com/value-list",
           "value": 1,
           "publishedAt": null,
-          "observedAt": "2026-11-10T16:31:49+09:00"
+          "observedAt": "2026-11-11T04:53:46+09:00"
         }
       ]
     },
@@ -784,7 +784,7 @@
           "url": "https://cameraman-td.vaultedvaluesx.com/value-list",
           "value": 1950,
           "publishedAt": null,
-          "observedAt": "2026-11-10T16:31:49+09:00"
+          "observedAt": "2026-11-11T04:53:46+09:00"
         }
       ]
     },
@@ -807,7 +807,7 @@
           "url": "https://cameraman-td.vaultedvaluesx.com/value-list",
           "value": 22000,
           "publishedAt": null,
-          "observedAt": "2026-11-10T16:31:49+09:00"
+          "observedAt": "2026-11-11T04:53:46+09:00"
         }
       ]
     },
@@ -830,7 +830,7 @@
           "url": "https://cameraman-td.vaultedvaluesx.com/value-list",
           "value": 5425,
           "publishedAt": null,
-          "observedAt": "2026-11-10T16:31:49+09:00"
+          "observedAt": "2026-11-11T04:53:46+09:00"
         }
       ]
     }
