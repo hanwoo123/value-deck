@@ -1,6 +1,6 @@
 {
   "state": "comparison",
-  "checkedAt": "2026-11-12T16:26:45+09:00",
+  "checkedAt": "2026-11-13T05:09:19+09:00",
   "games": {
     "blox-fruits": {
       "mode": "comparison",
@@ -12,8 +12,8 @@
       "mode": "comparison",
       "referencedItems": 37,
       "sourceCount": 1,
-      "checkedAt": "2026-11-12T16:27:30+09:00",
-      "lastAttemptAt": "2026-11-12T16:27:30+09:00",
+      "checkedAt": "2026-11-13T05:10:12+09:00",
+      "lastAttemptAt": "2026-11-13T05:10:12+09:00",
       "refreshState": "ok",
       "message": "VVX 공개 숫자 37개 · 단일 출처 참고가 · 6시간마다 확인"
     }
