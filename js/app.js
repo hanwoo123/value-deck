@@ -21,7 +21,7 @@
   };
 
   const RARITY_ORDER_DEFAULT = ['Mythic', 'Legendary', 'Epic', 'Rare', 'Common'];
-  const RARITY_KO = { Limited: '한정', Exclusive: '한정', Godly: '갓', Mythic: '신화', Legendary: '전설', Epic: '영웅', Rare: '희귀', Uncommon: '고급', Common: '일반' };
+  const RARITY_KO = { NotApplicable: '패스·묶음', Limited: '한정', Exclusive: '한정', Godly: '갓', Mythic: '신화', Legendary: '전설', Epic: '영웅', Rare: '희귀', Uncommon: '고급', Common: '일반' };
   const FAIR_RANGE = 0.05; // ±5% 이내면 "비슷함"
 
   // ---------- utils ----------
@@ -261,6 +261,7 @@
         <a class="btn btn--accent" href="#/g/${encodeURIComponent(meta.id)}/calc">거래 계산기 열기</a>
       </div>
       <p class="muted price-check" id="gamePriceCheckStatus" role="status">기준 안내를 불러오는 중…</p>
+      ${data.rarityNote ? `<p class="muted">${esc(data.rarityNote)}</p>` : ''}
       <div class="toolbar">
         <input class="input" id="q" type="search" placeholder="아이템 이름 검색" value="${esc(f.q)}" aria-label="아이템 검색" />
         <select class="select" id="cat" aria-label="분류">
