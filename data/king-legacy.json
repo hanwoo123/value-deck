@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-14",
+  "updated": "2026-11-15",
   "valueUnit": "목록 참고가치",
   "pricingMode": "comparison",
   "rarities": [
@@ -53,7 +53,7 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
+      "priceReviewedAt": "2026-11-15T03:20:29+09:00",
       "priceValidUntil": null
     },
     {
@@ -76,7 +76,7 @@
           "unit": "목록 참고가치",
           "unitVerified": false,
           "publishedAt": null,
-          "observedAt": "2026-11-14T20:01:38+09:00"
+          "observedAt": "2026-11-15T03:20:29+09:00"
         }
       ],
       "rarityStatus": "verified",
@@ -96,8 +96,8 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
-      "priceValidUntil": "2026-11-21T20:01:38+09:00"
+      "priceReviewedAt": "2026-11-15T03:20:29+09:00",
+      "priceValidUntil": "2026-11-22T03:20:29+09:00"
     },
     {
       "id": "tree-fruit",
@@ -119,7 +119,7 @@
           "unit": "목록 참고가치",
           "unitVerified": false,
           "publishedAt": null,
-          "observedAt": "2026-11-14T20:01:38+09:00"
+          "observedAt": "2026-11-15T03:20:29+09:00"
         }
       ],
       "rarityStatus": "verified",
@@ -139,8 +139,8 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
-      "priceValidUntil": "2026-11-21T20:01:38+09:00"
+      "priceReviewedAt": "2026-11-15T03:20:29+09:00",
+      "priceValidUntil": "2026-11-22T03:20:29+09:00"
     },
     {
       "id": "phoenix-fruit",
@@ -162,7 +162,7 @@
           "unit": "목록 참고가치",
           "unitVerified": false,
           "publishedAt": null,
-          "observedAt": "2026-11-14T20:01:38+09:00"
+          "observedAt": "2026-11-15T03:20:29+09:00"
         }
       ],
       "rarityStatus": "verified",
@@ -182,8 +182,8 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
-      "priceValidUntil": "2026-11-21T20:01:38+09:00"
+      "priceReviewedAt": "2026-11-15T03:20:29+09:00",
+      "priceValidUntil": "2026-11-22T03:20:29+09:00"
     },
     {
       "id": "gate-fruit",
@@ -205,7 +205,7 @@
           "unit": "목록 참고가치",
           "unitVerified": false,
           "publishedAt": null,
-          "observedAt": "2026-11-14T20:01:38+09:00"
+          "observedAt": "2026-11-15T03:20:29+09:00"
         }
       ],
       "rarityStatus": "verified",
@@ -225,8 +225,8 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
-      "priceValidUntil": "2026-11-21T20:01:38+09:00"
+      "priceReviewedAt": "2026-11-15T03:20:29+09:00",
+      "priceValidUntil": "2026-11-22T03:20:29+09:00"
     },
     {
       "id": "dragon-fruit",
@@ -248,7 +248,7 @@
           "unit": "목록 참고가치",
           "unitVerified": false,
           "publishedAt": null,
-          "observedAt": "2026-11-14T20:01:38+09:00"
+          "observedAt": "2026-11-15T03:20:29+09:00"
         }
       ],
       "rarityStatus": "verified",
@@ -269,8 +269,8 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
-      "priceValidUntil": "2026-11-21T20:01:38+09:00"
+      "priceReviewedAt": "2026-11-15T03:20:29+09:00",
+      "priceValidUntil": "2026-11-22T03:20:29+09:00"
     },
     {
       "id": "melody-fruit",
@@ -292,7 +292,7 @@
           "unit": "목록 참고가치",
           "unitVerified": false,
           "publishedAt": null,
-          "observedAt": "2026-11-14T20:01:38+09:00"
+          "observedAt": "2026-11-15T03:20:29+09:00"
         }
       ],
       "rarityStatus": "verified",
@@ -312,8 +312,8 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
-      "priceValidUntil": "2026-11-21T20:01:38+09:00"
+      "priceReviewedAt": "2026-11-15T03:20:29+09:00",
+      "priceValidUntil": "2026-11-22T03:20:29+09:00"
     },
     {
       "id": "dough-fruit",
@@ -335,7 +335,7 @@
           "unit": "목록 참고가치",
           "unitVerified": false,
           "publishedAt": null,
-          "observedAt": "2026-11-14T20:01:38+09:00"
+          "observedAt": "2026-11-15T03:20:29+09:00"
         }
       ],
       "rarityStatus": "verified",
@@ -355,8 +355,8 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
-      "priceValidUntil": "2026-11-21T20:01:38+09:00"
+      "priceReviewedAt": "2026-11-15T03:20:29+09:00",
+      "priceValidUntil": "2026-11-22T03:20:29+09:00"
     },
     {
       "id": "pter-fruit",
@@ -378,7 +378,7 @@
           "unit": "목록 참고가치",
           "unitVerified": false,
           "publishedAt": null,
-          "observedAt": "2026-11-14T20:01:38+09:00"
+          "observedAt": "2026-11-15T03:20:29+09:00"
         }
       ],
       "rarityStatus": "verified",
@@ -398,8 +398,8 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
-      "priceValidUntil": "2026-11-21T20:01:38+09:00"
+      "priceReviewedAt": "2026-11-15T03:20:29+09:00",
+      "priceValidUntil": "2026-11-22T03:20:29+09:00"
     },
     {
       "id": "toy-fruit",
@@ -421,7 +421,7 @@
           "unit": "목록 참고가치",
           "unitVerified": false,
           "publishedAt": null,
-          "observedAt": "2026-11-14T20:01:38+09:00"
+          "observedAt": "2026-11-15T03:20:29+09:00"
         }
       ],
       "rarityStatus": "verified",
@@ -441,8 +441,8 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
-      "priceValidUntil": "2026-11-21T20:01:38+09:00"
+      "priceReviewedAt": "2026-11-15T03:20:29+09:00",
+      "priceValidUntil": "2026-11-22T03:20:29+09:00"
     },
     {
       "id": "spino-fruit",
@@ -464,7 +464,7 @@
           "unit": "목록 참고가치",
           "unitVerified": false,
           "publishedAt": null,
-          "observedAt": "2026-11-14T20:01:38+09:00"
+          "observedAt": "2026-11-15T03:20:29+09:00"
         }
       ],
       "rarityStatus": "verified",
@@ -484,8 +484,8 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
-      "priceValidUntil": "2026-11-21T20:01:38+09:00"
+      "priceReviewedAt": "2026-11-15T03:20:29+09:00",
+      "priceValidUntil": "2026-11-22T03:20:29+09:00"
     },
     {
       "id": "allo-fruit",
@@ -507,7 +507,7 @@
           "unit": "목록 참고가치",
           "unitVerified": false,
           "publishedAt": null,
-          "observedAt": "2026-11-14T20:01:38+09:00"
+          "observedAt": "2026-11-15T03:20:29+09:00"
         }
       ],
       "rarityStatus": "verified",
@@ -527,8 +527,8 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
-      "priceValidUntil": "2026-11-21T20:01:38+09:00"
+      "priceReviewedAt": "2026-11-15T03:20:29+09:00",
+      "priceValidUntil": "2026-11-22T03:20:29+09:00"
     },
     {
       "id": "rumble-fruit",
@@ -550,7 +550,7 @@
           "unit": "목록 참고가치",
           "unitVerified": false,
           "publishedAt": null,
-          "observedAt": "2026-11-14T20:01:38+09:00"
+          "observedAt": "2026-11-15T03:20:29+09:00"
         }
       ],
       "rarityStatus": "verified",
@@ -570,8 +570,8 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
-      "priceValidUntil": "2026-11-21T20:01:38+09:00"
+      "priceReviewedAt": "2026-11-15T03:20:29+09:00",
+      "priceValidUntil": "2026-11-22T03:20:29+09:00"
     },
     {
       "id": "brachio-fruit",
@@ -593,7 +593,7 @@
           "unit": "목록 참고가치",
           "unitVerified": false,
           "publishedAt": null,
-          "observedAt": "2026-11-14T20:01:38+09:00"
+          "observedAt": "2026-11-15T03:20:29+09:00"
         }
       ],
       "rarityStatus": "verified",
@@ -613,8 +613,8 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
-      "priceValidUntil": "2026-11-21T20:01:38+09:00"
+      "priceReviewedAt": "2026-11-15T03:20:29+09:00",
+      "priceValidUntil": "2026-11-22T03:20:29+09:00"
     },
     {
       "id": "palm-fruit",
@@ -636,7 +636,7 @@
           "unit": "목록 참고가치",
           "unitVerified": false,
           "publishedAt": null,
-          "observedAt": "2026-11-14T20:01:38+09:00"
+          "observedAt": "2026-11-15T03:20:29+09:00"
         }
       ],
       "rarityStatus": "verified",
@@ -656,8 +656,8 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
-      "priceValidUntil": "2026-11-21T20:01:38+09:00"
+      "priceReviewedAt": "2026-11-15T03:20:29+09:00",
+      "priceValidUntil": "2026-11-22T03:20:29+09:00"
     },
     {
       "id": "gas-fruit",
@@ -679,7 +679,7 @@
           "unit": "목록 참고가치",
           "unitVerified": false,
           "publishedAt": null,
-          "observedAt": "2026-11-14T20:01:38+09:00"
+          "observedAt": "2026-11-15T03:20:29+09:00"
         }
       ],
       "rarityStatus": "verified",
@@ -699,8 +699,8 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
-      "priceValidUntil": "2026-11-21T20:01:38+09:00"
+      "priceReviewedAt": "2026-11-15T03:20:29+09:00",
+      "priceValidUntil": "2026-11-22T03:20:29+09:00"
     },
     {
       "id": "magma-fruit",
@@ -722,7 +722,7 @@
           "unit": "목록 참고가치",
           "unitVerified": false,
           "publishedAt": null,
-          "observedAt": "2026-11-14T20:01:38+09:00"
+          "observedAt": "2026-11-15T03:20:29+09:00"
         }
       ],
       "rarityStatus": "verified",
@@ -742,8 +742,8 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
-      "priceValidUntil": "2026-11-21T20:01:38+09:00"
+      "priceReviewedAt": "2026-11-15T03:20:29+09:00",
+      "priceValidUntil": "2026-11-22T03:20:29+09:00"
     },
     {
       "id": "light-fruit",
@@ -765,7 +765,7 @@
           "unit": "목록 참고가치",
           "unitVerified": false,
           "publishedAt": null,
-          "observedAt": "2026-11-14T20:01:38+09:00"
+          "observedAt": "2026-11-15T03:20:29+09:00"
         }
       ],
       "rarityStatus": "verified",
@@ -785,8 +785,8 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
-      "priceValidUntil": "2026-11-21T20:01:38+09:00"
+      "priceReviewedAt": "2026-11-15T03:20:29+09:00",
+      "priceValidUntil": "2026-11-22T03:20:29+09:00"
     },
     {
       "id": "quake-fruit",
@@ -808,7 +808,7 @@
           "unit": "목록 참고가치",
           "unitVerified": false,
           "publishedAt": null,
-          "observedAt": "2026-11-14T20:01:38+09:00"
+          "observedAt": "2026-11-15T03:20:29+09:00"
         }
       ],
       "rarityStatus": "verified",
@@ -828,8 +828,8 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
-      "priceValidUntil": "2026-11-21T20:01:38+09:00"
+      "priceReviewedAt": "2026-11-15T03:20:29+09:00",
+      "priceValidUntil": "2026-11-22T03:20:29+09:00"
     },
     {
       "id": "flame-fruit",
@@ -851,7 +851,7 @@
           "unit": "목록 참고가치",
           "unitVerified": false,
           "publishedAt": null,
-          "observedAt": "2026-11-14T20:01:38+09:00"
+          "observedAt": "2026-11-15T03:20:29+09:00"
         }
       ],
       "rarityStatus": "verified",
@@ -871,8 +871,8 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
-      "priceValidUntil": "2026-11-21T20:01:38+09:00"
+      "priceReviewedAt": "2026-11-15T03:20:29+09:00",
+      "priceValidUntil": "2026-11-22T03:20:29+09:00"
     },
     {
       "id": "snow-fruit",
@@ -894,7 +894,7 @@
           "unit": "목록 참고가치",
           "unitVerified": false,
           "publishedAt": null,
-          "observedAt": "2026-11-14T20:01:38+09:00"
+          "observedAt": "2026-11-15T03:20:29+09:00"
         }
       ],
       "rarityStatus": "verified",
@@ -914,8 +914,8 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
-      "priceValidUntil": "2026-11-21T20:01:38+09:00"
+      "priceReviewedAt": "2026-11-15T03:20:29+09:00",
+      "priceValidUntil": "2026-11-22T03:20:29+09:00"
     },
     {
       "id": "ice-fruit",
@@ -937,7 +937,7 @@
           "unit": "목록 참고가치",
           "unitVerified": false,
           "publishedAt": null,
-          "observedAt": "2026-11-14T20:01:38+09:00"
+          "observedAt": "2026-11-15T03:20:29+09:00"
         }
       ],
       "rarityStatus": "verified",
@@ -957,8 +957,8 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
-      "priceValidUntil": "2026-11-21T20:01:38+09:00"
+      "priceReviewedAt": "2026-11-15T03:20:29+09:00",
+      "priceValidUntil": "2026-11-22T03:20:29+09:00"
     },
     {
       "id": "control-fruit",
@@ -980,7 +980,7 @@
           "unit": "목록 참고가치",
           "unitVerified": false,
           "publishedAt": null,
-          "observedAt": "2026-11-14T20:01:38+09:00"
+          "observedAt": "2026-11-15T03:20:29+09:00"
         }
       ],
       "rarityStatus": "verified",
@@ -1000,8 +1000,8 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
-      "priceValidUntil": "2026-11-21T20:01:38+09:00"
+      "priceReviewedAt": "2026-11-15T03:20:29+09:00",
+      "priceValidUntil": "2026-11-22T03:20:29+09:00"
     },
     {
       "id": "buddha-fruit",
@@ -1023,7 +1023,7 @@
           "unit": "목록 참고가치",
           "unitVerified": false,
           "publishedAt": null,
-          "observedAt": "2026-11-14T20:01:38+09:00"
+          "observedAt": "2026-11-15T03:20:29+09:00"
         }
       ],
       "rarityStatus": "verified",
@@ -1043,8 +1043,8 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
-      "priceValidUntil": "2026-11-21T20:01:38+09:00"
+      "priceReviewedAt": "2026-11-15T03:20:29+09:00",
+      "priceValidUntil": "2026-11-22T03:20:29+09:00"
     },
     {
       "id": "gravity-fruit",
@@ -1066,7 +1066,7 @@
           "unit": "목록 참고가치",
           "unitVerified": false,
           "publishedAt": null,
-          "observedAt": "2026-11-14T20:01:38+09:00"
+          "observedAt": "2026-11-15T03:20:29+09:00"
         }
       ],
       "rarityStatus": "verified",
@@ -1086,8 +1086,8 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
-      "priceValidUntil": "2026-11-21T20:01:38+09:00"
+      "priceReviewedAt": "2026-11-15T03:20:29+09:00",
+      "priceValidUntil": "2026-11-22T03:20:29+09:00"
     },
     {
       "id": "dark-fruit",
@@ -1109,7 +1109,7 @@
           "unit": "목록 참고가치",
           "unitVerified": false,
           "publishedAt": null,
-          "observedAt": "2026-11-14T20:01:38+09:00"
+          "observedAt": "2026-11-15T03:20:29+09:00"
         }
       ],
       "rarityStatus": "verified",
@@ -1129,8 +1129,8 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
-      "priceValidUntil": "2026-11-21T20:01:38+09:00"
+      "priceReviewedAt": "2026-11-15T03:20:29+09:00",
+      "priceValidUntil": "2026-11-22T03:20:29+09:00"
     },
     {
       "id": "noirceur",
@@ -1152,7 +1152,7 @@
           "unit": "목록 참고가치",
           "unitVerified": false,
           "publishedAt": null,
-          "observedAt": "2026-11-14T20:01:38+09:00"
+          "observedAt": "2026-11-15T03:20:29+09:00"
         }
       ],
       "rarityStatus": "verified",
@@ -1173,8 +1173,8 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
-      "priceValidUntil": "2026-11-21T20:01:38+09:00"
+      "priceReviewedAt": "2026-11-15T03:20:29+09:00",
+      "priceValidUntil": "2026-11-22T03:20:29+09:00"
     },
     {
       "id": "cerulean-blossom",
@@ -1196,7 +1196,7 @@
           "unit": "목록 참고가치",
           "unitVerified": false,
           "publishedAt": null,
-          "observedAt": "2026-11-14T20:01:38+09:00"
+          "observedAt": "2026-11-15T03:20:29+09:00"
         }
       ],
       "rarityStatus": "verified",
@@ -1217,8 +1217,8 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
-      "priceValidUntil": "2026-11-21T20:01:38+09:00"
+      "priceReviewedAt": "2026-11-15T03:20:29+09:00",
+      "priceValidUntil": "2026-11-22T03:20:29+09:00"
     },
     {
       "id": "ancient-sword",
@@ -1240,7 +1240,7 @@
           "unit": "목록 참고가치",
           "unitVerified": false,
           "publishedAt": null,
-          "observedAt": "2026-11-14T20:01:38+09:00"
+          "observedAt": "2026-11-15T03:20:29+09:00"
         }
       ],
       "rarityStatus": "verified",
@@ -1261,8 +1261,8 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
-      "priceValidUntil": "2026-11-21T20:01:38+09:00"
+      "priceReviewedAt": "2026-11-15T03:20:29+09:00",
+      "priceValidUntil": "2026-11-22T03:20:29+09:00"
     },
     {
       "id": "true-muramasa",
@@ -1294,7 +1294,7 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
+      "priceReviewedAt": "2026-11-15T03:20:29+09:00",
       "priceValidUntil": null
     },
     {
@@ -1317,7 +1317,7 @@
           "unit": "목록 참고가치",
           "unitVerified": false,
           "publishedAt": null,
-          "observedAt": "2026-11-14T20:01:38+09:00"
+          "observedAt": "2026-11-15T03:20:29+09:00"
         }
       ],
       "rarityStatus": "verified",
@@ -1338,8 +1338,8 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
-      "priceValidUntil": "2026-11-21T20:01:38+09:00"
+      "priceReviewedAt": "2026-11-15T03:20:29+09:00",
+      "priceValidUntil": "2026-11-22T03:20:29+09:00"
     },
     {
       "id": "dread-broom",
@@ -1370,7 +1370,7 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
+      "priceReviewedAt": "2026-11-15T03:20:29+09:00",
       "priceValidUntil": null
     },
     {
@@ -1393,7 +1393,7 @@
           "unit": "목록 참고가치",
           "unitVerified": false,
           "publishedAt": null,
-          "observedAt": "2026-11-14T20:01:38+09:00"
+          "observedAt": "2026-11-15T03:20:29+09:00"
         }
       ],
       "rarityStatus": "verified",
@@ -1414,8 +1414,8 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
-      "priceValidUntil": "2026-11-21T20:01:38+09:00"
+      "priceReviewedAt": "2026-11-15T03:20:29+09:00",
+      "priceValidUntil": "2026-11-22T03:20:29+09:00"
     },
     {
       "id": "phoenix-blade",
@@ -1437,7 +1437,7 @@
           "unit": "목록 참고가치",
           "unitVerified": false,
           "publishedAt": null,
-          "observedAt": "2026-11-14T20:01:38+09:00"
+          "observedAt": "2026-11-15T03:20:29+09:00"
         }
       ],
       "rarityStatus": "verified",
@@ -1458,8 +1458,8 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
-      "priceValidUntil": "2026-11-21T20:01:38+09:00"
+      "priceReviewedAt": "2026-11-15T03:20:29+09:00",
+      "priceValidUntil": "2026-11-22T03:20:29+09:00"
     },
     {
       "id": "acroscythe",
@@ -1481,7 +1481,7 @@
           "unit": "목록 참고가치",
           "unitVerified": false,
           "publishedAt": null,
-          "observedAt": "2026-11-14T20:01:38+09:00"
+          "observedAt": "2026-11-15T03:20:29+09:00"
         }
       ],
       "rarityStatus": "verified",
@@ -1502,8 +1502,8 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
-      "priceValidUntil": "2026-11-21T20:01:38+09:00"
+      "priceReviewedAt": "2026-11-15T03:20:29+09:00",
+      "priceValidUntil": "2026-11-22T03:20:29+09:00"
     },
     {
       "id": "scepter-of-flames",
@@ -1525,7 +1525,7 @@
           "unit": "목록 참고가치",
           "unitVerified": false,
           "publishedAt": null,
-          "observedAt": "2026-11-14T20:01:38+09:00"
+          "observedAt": "2026-11-15T03:20:29+09:00"
         }
       ],
       "rarityStatus": "verified",
@@ -1546,8 +1546,8 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
-      "priceValidUntil": "2026-11-21T20:01:38+09:00"
+      "priceReviewedAt": "2026-11-15T03:20:29+09:00",
+      "priceValidUntil": "2026-11-22T03:20:29+09:00"
     },
     {
       "id": "authentic-triple-katana",
@@ -1569,7 +1569,7 @@
           "unit": "목록 참고가치",
           "unitVerified": false,
           "publishedAt": null,
-          "observedAt": "2026-11-14T20:01:38+09:00"
+          "observedAt": "2026-11-15T03:20:29+09:00"
         }
       ],
       "rarityStatus": "verified",
@@ -1590,8 +1590,8 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
-      "priceValidUntil": "2026-11-21T20:01:38+09:00"
+      "priceReviewedAt": "2026-11-15T03:20:29+09:00",
+      "priceValidUntil": "2026-11-22T03:20:29+09:00"
     },
     {
       "id": "avalon",
@@ -1613,7 +1613,7 @@
           "unit": "목록 참고가치",
           "unitVerified": false,
           "publishedAt": null,
-          "observedAt": "2026-11-14T20:01:38+09:00"
+          "observedAt": "2026-11-15T03:20:29+09:00"
         }
       ],
       "rarityStatus": "verified",
@@ -1634,8 +1634,8 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
-      "priceValidUntil": "2026-11-21T20:01:38+09:00"
+      "priceReviewedAt": "2026-11-15T03:20:29+09:00",
+      "priceValidUntil": "2026-11-22T03:20:29+09:00"
     },
     {
       "id": "longaevus",
@@ -1657,7 +1657,7 @@
           "unit": "목록 참고가치",
           "unitVerified": false,
           "publishedAt": null,
-          "observedAt": "2026-11-14T20:01:38+09:00"
+          "observedAt": "2026-11-15T03:20:29+09:00"
         }
       ],
       "rarityStatus": "verified",
@@ -1678,8 +1678,8 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
-      "priceValidUntil": "2026-11-21T20:01:38+09:00"
+      "priceReviewedAt": "2026-11-15T03:20:29+09:00",
+      "priceValidUntil": "2026-11-22T03:20:29+09:00"
     },
     {
       "id": "daybreak-cleaver",
@@ -1701,7 +1701,7 @@
           "unit": "목록 참고가치",
           "unitVerified": false,
           "publishedAt": null,
-          "observedAt": "2026-11-14T20:01:38+09:00"
+          "observedAt": "2026-11-15T03:20:29+09:00"
         }
       ],
       "rarityStatus": "verified",
@@ -1722,8 +1722,8 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
-      "priceValidUntil": "2026-11-21T20:01:38+09:00"
+      "priceReviewedAt": "2026-11-15T03:20:29+09:00",
+      "priceValidUntil": "2026-11-22T03:20:29+09:00"
     },
     {
       "id": "aquatic-anchor",
@@ -1745,7 +1745,7 @@
           "unit": "목록 참고가치",
           "unitVerified": false,
           "publishedAt": null,
-          "observedAt": "2026-11-14T20:01:38+09:00"
+          "observedAt": "2026-11-15T03:20:29+09:00"
         }
       ],
       "rarityStatus": "verified",
@@ -1766,8 +1766,8 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
-      "priceValidUntil": "2026-11-21T20:01:38+09:00"
+      "priceReviewedAt": "2026-11-15T03:20:29+09:00",
+      "priceValidUntil": "2026-11-22T03:20:29+09:00"
     },
     {
       "id": "dragon-band",
@@ -1789,7 +1789,7 @@
           "unit": "목록 참고가치",
           "unitVerified": false,
           "publishedAt": null,
-          "observedAt": "2026-11-14T20:01:38+09:00"
+          "observedAt": "2026-11-15T03:20:29+09:00"
         }
       ],
       "rarityStatus": "verified",
@@ -1809,8 +1809,8 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
-      "priceValidUntil": "2026-11-21T20:01:38+09:00"
+      "priceReviewedAt": "2026-11-15T03:20:29+09:00",
+      "priceValidUntil": "2026-11-22T03:20:29+09:00"
     },
     {
       "id": "crustacean-armor",
@@ -1832,7 +1832,7 @@
           "unit": "목록 참고가치",
           "unitVerified": false,
           "publishedAt": null,
-          "observedAt": "2026-11-14T20:01:38+09:00"
+          "observedAt": "2026-11-15T03:20:29+09:00"
         }
       ],
       "rarityStatus": "verified",
@@ -1852,8 +1852,8 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
-      "priceValidUntil": "2026-11-21T20:01:38+09:00"
+      "priceReviewedAt": "2026-11-15T03:20:29+09:00",
+      "priceValidUntil": "2026-11-22T03:20:29+09:00"
     },
     {
       "id": "exp-crown",
@@ -1875,7 +1875,7 @@
           "unit": "목록 참고가치",
           "unitVerified": false,
           "publishedAt": null,
-          "observedAt": "2026-11-14T20:01:38+09:00"
+          "observedAt": "2026-11-15T03:20:29+09:00"
         }
       ],
       "rarityStatus": "verified",
@@ -1897,8 +1897,8 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
-      "priceValidUntil": "2026-11-21T20:01:38+09:00"
+      "priceReviewedAt": "2026-11-15T03:20:29+09:00",
+      "priceValidUntil": "2026-11-22T03:20:29+09:00"
     },
     {
       "id": "water-kimono",
@@ -1920,7 +1920,7 @@
           "unit": "목록 참고가치",
           "unitVerified": false,
           "publishedAt": null,
-          "observedAt": "2026-11-14T20:01:38+09:00"
+          "observedAt": "2026-11-15T03:20:29+09:00"
         }
       ],
       "rarityStatus": "verified",
@@ -1940,8 +1940,8 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
-      "priceValidUntil": "2026-11-21T20:01:38+09:00"
+      "priceReviewedAt": "2026-11-15T03:20:29+09:00",
+      "priceValidUntil": "2026-11-22T03:20:29+09:00"
     },
     {
       "id": "drakenfyr-cape",
@@ -1963,7 +1963,7 @@
           "unit": "목록 참고가치",
           "unitVerified": false,
           "publishedAt": null,
-          "observedAt": "2026-11-14T20:01:38+09:00"
+          "observedAt": "2026-11-15T03:20:29+09:00"
         }
       ],
       "rarityStatus": "verified",
@@ -1983,8 +1983,8 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
-      "priceValidUntil": "2026-11-21T20:01:38+09:00"
+      "priceReviewedAt": "2026-11-15T03:20:29+09:00",
+      "priceValidUntil": "2026-11-22T03:20:29+09:00"
     },
     {
       "id": "night-necklace",
@@ -2006,7 +2006,7 @@
           "unit": "목록 참고가치",
           "unitVerified": false,
           "publishedAt": null,
-          "observedAt": "2026-11-14T20:01:38+09:00"
+          "observedAt": "2026-11-15T03:20:29+09:00"
         }
       ],
       "rarityStatus": "verified",
@@ -2026,8 +2026,8 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
-      "priceValidUntil": "2026-11-21T20:01:38+09:00"
+      "priceReviewedAt": "2026-11-15T03:20:29+09:00",
+      "priceValidUntil": "2026-11-22T03:20:29+09:00"
     },
     {
       "id": "oceanic-tanto",
@@ -2049,7 +2049,7 @@
           "unit": "목록 참고가치",
           "unitVerified": false,
           "publishedAt": null,
-          "observedAt": "2026-11-14T20:01:38+09:00"
+          "observedAt": "2026-11-15T03:20:29+09:00"
         }
       ],
       "rarityStatus": "verified",
@@ -2069,8 +2069,8 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
-      "priceValidUntil": "2026-11-21T20:01:38+09:00"
+      "priceReviewedAt": "2026-11-15T03:20:29+09:00",
+      "priceValidUntil": "2026-11-22T03:20:29+09:00"
     },
     {
       "id": "dominion-cloak",
@@ -2092,7 +2092,7 @@
           "unit": "목록 참고가치",
           "unitVerified": false,
           "publishedAt": null,
-          "observedAt": "2026-11-14T20:01:38+09:00"
+          "observedAt": "2026-11-15T03:20:29+09:00"
         }
       ],
       "rarityStatus": "verified",
@@ -2112,8 +2112,8 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
-      "priceValidUntil": "2026-11-21T20:01:38+09:00"
+      "priceReviewedAt": "2026-11-15T03:20:29+09:00",
+      "priceValidUntil": "2026-11-22T03:20:29+09:00"
     },
     {
       "id": "inferno-cloak",
@@ -2135,7 +2135,7 @@
           "unit": "목록 참고가치",
           "unitVerified": false,
           "publishedAt": null,
-          "observedAt": "2026-11-14T20:01:38+09:00"
+          "observedAt": "2026-11-15T03:20:29+09:00"
         }
       ],
       "rarityStatus": "verified",
@@ -2155,8 +2155,8 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
-      "priceValidUntil": "2026-11-21T20:01:38+09:00"
+      "priceReviewedAt": "2026-11-15T03:20:29+09:00",
+      "priceValidUntil": "2026-11-22T03:20:29+09:00"
     },
     {
       "id": "floffy-glasses",
@@ -2178,7 +2178,7 @@
           "unit": "목록 참고가치",
           "unitVerified": false,
           "publishedAt": null,
-          "observedAt": "2026-11-14T20:01:38+09:00"
+          "observedAt": "2026-11-15T03:20:29+09:00"
         }
       ],
       "rarityStatus": "verified",
@@ -2198,8 +2198,8 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
-      "priceValidUntil": "2026-11-21T20:01:38+09:00"
+      "priceReviewedAt": "2026-11-15T03:20:29+09:00",
+      "priceValidUntil": "2026-11-22T03:20:29+09:00"
     },
     {
       "id": "glacies-shoulder",
@@ -2221,7 +2221,7 @@
           "unit": "목록 참고가치",
           "unitVerified": false,
           "publishedAt": null,
-          "observedAt": "2026-11-14T20:01:38+09:00"
+          "observedAt": "2026-11-15T03:20:29+09:00"
         }
       ],
       "rarityStatus": "verified",
@@ -2243,8 +2243,8 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
-      "priceValidUntil": "2026-11-21T20:01:38+09:00"
+      "priceReviewedAt": "2026-11-15T03:20:29+09:00",
+      "priceValidUntil": "2026-11-22T03:20:29+09:00"
     },
     {
       "id": "nativitatis",
@@ -2266,7 +2266,7 @@
           "unit": "목록 참고가치",
           "unitVerified": false,
           "publishedAt": null,
-          "observedAt": "2026-11-14T20:01:38+09:00"
+          "observedAt": "2026-11-15T03:20:29+09:00"
         }
       ],
       "rarityStatus": "verified",
@@ -2287,8 +2287,8 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
-      "priceValidUntil": "2026-11-21T20:01:38+09:00"
+      "priceReviewedAt": "2026-11-15T03:20:29+09:00",
+      "priceValidUntil": "2026-11-22T03:20:29+09:00"
     },
     {
       "id": "green-dryadalis",
@@ -2310,7 +2310,7 @@
           "unit": "목록 참고가치",
           "unitVerified": false,
           "publishedAt": null,
-          "observedAt": "2026-11-14T20:01:38+09:00"
+          "observedAt": "2026-11-15T03:20:29+09:00"
         }
       ],
       "rarityStatus": "verified",
@@ -2331,8 +2331,8 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
-      "priceValidUntil": "2026-11-21T20:01:38+09:00"
+      "priceReviewedAt": "2026-11-15T03:20:29+09:00",
+      "priceValidUntil": "2026-11-22T03:20:29+09:00"
     },
     {
       "id": "cervus",
@@ -2354,7 +2354,7 @@
           "unit": "목록 참고가치",
           "unitVerified": false,
           "publishedAt": null,
-          "observedAt": "2026-11-14T20:01:38+09:00"
+          "observedAt": "2026-11-15T03:20:29+09:00"
         }
       ],
       "rarityStatus": "verified",
@@ -2375,8 +2375,8 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
-      "priceValidUntil": "2026-11-21T20:01:38+09:00"
+      "priceReviewedAt": "2026-11-15T03:20:29+09:00",
+      "priceValidUntil": "2026-11-22T03:20:29+09:00"
     },
     {
       "id": "dark-beard-hat",
@@ -2398,7 +2398,7 @@
           "unit": "목록 참고가치",
           "unitVerified": false,
           "publishedAt": null,
-          "observedAt": "2026-11-14T20:01:38+09:00"
+          "observedAt": "2026-11-15T03:20:29+09:00"
         }
       ],
       "rarityStatus": "verified",
@@ -2418,8 +2418,8 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
-      "priceValidUntil": "2026-11-21T20:01:38+09:00"
+      "priceReviewedAt": "2026-11-15T03:20:29+09:00",
+      "priceValidUntil": "2026-11-22T03:20:29+09:00"
     },
     {
       "id": "abyss-sentinel-armor",
@@ -2441,7 +2441,7 @@
           "unit": "목록 참고가치",
           "unitVerified": false,
           "publishedAt": null,
-          "observedAt": "2026-11-14T20:01:38+09:00"
+          "observedAt": "2026-11-15T03:20:29+09:00"
         }
       ],
       "rarityStatus": "verified",
@@ -2461,8 +2461,8 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
-      "priceValidUntil": "2026-11-21T20:01:38+09:00"
+      "priceReviewedAt": "2026-11-15T03:20:29+09:00",
+      "priceValidUntil": "2026-11-22T03:20:29+09:00"
     },
     {
       "id": "metal-fin",
@@ -2484,7 +2484,7 @@
           "unit": "목록 참고가치",
           "unitVerified": false,
           "publishedAt": null,
-          "observedAt": "2026-11-14T20:01:38+09:00"
+          "observedAt": "2026-11-15T03:20:29+09:00"
         }
       ],
       "rarityStatus": "verified",
@@ -2504,8 +2504,8 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
-      "priceValidUntil": "2026-11-21T20:01:38+09:00"
+      "priceReviewedAt": "2026-11-15T03:20:29+09:00",
+      "priceValidUntil": "2026-11-22T03:20:29+09:00"
     },
     {
       "id": "oceanic-tentacle",
@@ -2527,7 +2527,7 @@
           "unit": "목록 참고가치",
           "unitVerified": false,
           "publishedAt": null,
-          "observedAt": "2026-11-14T20:01:38+09:00"
+          "observedAt": "2026-11-15T03:20:29+09:00"
         }
       ],
       "rarityStatus": "verified",
@@ -2547,8 +2547,8 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
-      "priceValidUntil": "2026-11-21T20:01:38+09:00"
+      "priceReviewedAt": "2026-11-15T03:20:29+09:00",
+      "priceValidUntil": "2026-11-22T03:20:29+09:00"
     },
     {
       "id": "tomoe-taiko",
@@ -2570,7 +2570,7 @@
           "unit": "목록 참고가치",
           "unitVerified": false,
           "publishedAt": null,
-          "observedAt": "2026-11-14T20:01:38+09:00"
+          "observedAt": "2026-11-15T03:20:29+09:00"
         }
       ],
       "rarityStatus": "verified",
@@ -2590,8 +2590,8 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
-      "priceValidUntil": "2026-11-21T20:01:38+09:00"
+      "priceReviewedAt": "2026-11-15T03:20:29+09:00",
+      "priceValidUntil": "2026-11-22T03:20:29+09:00"
     },
     {
       "id": "lucidus-coat",
@@ -2613,7 +2613,7 @@
           "unit": "목록 참고가치",
           "unitVerified": false,
           "publishedAt": null,
-          "observedAt": "2026-11-14T20:01:38+09:00"
+          "observedAt": "2026-11-15T03:20:29+09:00"
         }
       ],
       "rarityStatus": "verified",
@@ -2633,8 +2633,8 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
-      "priceValidUntil": "2026-11-21T20:01:38+09:00"
+      "priceReviewedAt": "2026-11-15T03:20:29+09:00",
+      "priceValidUntil": "2026-11-22T03:20:29+09:00"
     },
     {
       "id": "sally-crown",
@@ -2656,7 +2656,7 @@
           "unit": "목록 참고가치",
           "unitVerified": false,
           "publishedAt": null,
-          "observedAt": "2026-11-14T20:01:38+09:00"
+          "observedAt": "2026-11-15T03:20:29+09:00"
         }
       ],
       "rarityStatus": "verified",
@@ -2676,8 +2676,8 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
-      "priceValidUntil": "2026-11-21T20:01:38+09:00"
+      "priceReviewedAt": "2026-11-15T03:20:29+09:00",
+      "priceValidUntil": "2026-11-22T03:20:29+09:00"
     },
     {
       "id": "dragon-necklace",
@@ -2699,7 +2699,7 @@
           "unit": "목록 참고가치",
           "unitVerified": false,
           "publishedAt": null,
-          "observedAt": "2026-11-14T20:01:38+09:00"
+          "observedAt": "2026-11-15T03:20:29+09:00"
         }
       ],
       "rarityStatus": "verified",
@@ -2719,8 +2719,8 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
-      "priceValidUntil": "2026-11-21T20:01:38+09:00"
+      "priceReviewedAt": "2026-11-15T03:20:29+09:00",
+      "priceValidUntil": "2026-11-22T03:20:29+09:00"
     },
     {
       "id": "tengu-mask",
@@ -2742,7 +2742,7 @@
           "unit": "목록 참고가치",
           "unitVerified": false,
           "publishedAt": null,
-          "observedAt": "2026-11-14T20:01:38+09:00"
+          "observedAt": "2026-11-15T03:20:29+09:00"
         }
       ],
       "rarityStatus": "verified",
@@ -2762,8 +2762,8 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
-      "priceValidUntil": "2026-11-21T20:01:38+09:00"
+      "priceReviewedAt": "2026-11-15T03:20:29+09:00",
+      "priceValidUntil": "2026-11-22T03:20:29+09:00"
     },
     {
       "id": "oni-mask",
@@ -2785,7 +2785,7 @@
           "unit": "목록 참고가치",
           "unitVerified": false,
           "publishedAt": null,
-          "observedAt": "2026-11-14T20:01:38+09:00"
+          "observedAt": "2026-11-15T03:20:29+09:00"
         }
       ],
       "rarityStatus": "verified",
@@ -2805,8 +2805,8 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
-      "priceValidUntil": "2026-11-21T20:01:38+09:00"
+      "priceReviewedAt": "2026-11-15T03:20:29+09:00",
+      "priceValidUntil": "2026-11-22T03:20:29+09:00"
     },
     {
       "id": "shadow-cloak",
@@ -2828,7 +2828,7 @@
           "unit": "목록 참고가치",
           "unitVerified": false,
           "publishedAt": null,
-          "observedAt": "2026-11-14T20:01:38+09:00"
+          "observedAt": "2026-11-15T03:20:29+09:00"
         }
       ],
       "rarityStatus": "verified",
@@ -2848,8 +2848,8 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
-      "priceValidUntil": "2026-11-21T20:01:38+09:00"
+      "priceReviewedAt": "2026-11-15T03:20:29+09:00",
+      "priceValidUntil": "2026-11-22T03:20:29+09:00"
     },
     {
       "id": "sentinel-armor",
@@ -2871,7 +2871,7 @@
           "unit": "목록 참고가치",
           "unitVerified": false,
           "publishedAt": null,
-          "observedAt": "2026-11-14T20:01:38+09:00"
+          "observedAt": "2026-11-15T03:20:29+09:00"
         }
       ],
       "rarityStatus": "verified",
@@ -2891,8 +2891,8 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
-      "priceValidUntil": "2026-11-21T20:01:38+09:00"
+      "priceReviewedAt": "2026-11-15T03:20:29+09:00",
+      "priceValidUntil": "2026-11-22T03:20:29+09:00"
     },
     {
       "id": "flame-hair",
@@ -2914,7 +2914,7 @@
           "unit": "목록 참고가치",
           "unitVerified": false,
           "publishedAt": null,
-          "observedAt": "2026-11-14T20:01:38+09:00"
+          "observedAt": "2026-11-15T03:20:29+09:00"
         }
       ],
       "rarityStatus": "verified",
@@ -2934,8 +2934,8 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
-      "priceValidUntil": "2026-11-21T20:01:38+09:00"
+      "priceReviewedAt": "2026-11-15T03:20:29+09:00",
+      "priceValidUntil": "2026-11-22T03:20:29+09:00"
     },
     {
       "id": "crimson-scarf",
@@ -2957,7 +2957,7 @@
           "unit": "목록 참고가치",
           "unitVerified": false,
           "publishedAt": null,
-          "observedAt": "2026-11-14T20:01:38+09:00"
+          "observedAt": "2026-11-15T03:20:29+09:00"
         }
       ],
       "rarityStatus": "verified",
@@ -2977,8 +2977,8 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
-      "priceValidUntil": "2026-11-21T20:01:38+09:00"
+      "priceReviewedAt": "2026-11-15T03:20:29+09:00",
+      "priceValidUntil": "2026-11-22T03:20:29+09:00"
     },
     {
       "id": "depth-kings-tail",
@@ -3011,7 +3011,7 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
+      "priceReviewedAt": "2026-11-15T03:20:29+09:00",
       "priceValidUntil": null
     },
     {
@@ -3045,7 +3045,7 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
+      "priceReviewedAt": "2026-11-15T03:20:29+09:00",
       "priceValidUntil": null
     },
     {
@@ -3079,7 +3079,7 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
+      "priceReviewedAt": "2026-11-15T03:20:29+09:00",
       "priceValidUntil": null
     },
     {
@@ -3113,7 +3113,7 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
+      "priceReviewedAt": "2026-11-15T03:20:29+09:00",
       "priceValidUntil": null
     },
     {
@@ -3147,7 +3147,7 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
+      "priceReviewedAt": "2026-11-15T03:20:29+09:00",
       "priceValidUntil": null
     },
     {
@@ -3181,7 +3181,7 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
+      "priceReviewedAt": "2026-11-15T03:20:29+09:00",
       "priceValidUntil": null
     },
     {
@@ -3204,7 +3204,7 @@
           "unit": "목록 참고가치",
           "unitVerified": false,
           "publishedAt": null,
-          "observedAt": "2026-11-14T20:01:38+09:00"
+          "observedAt": "2026-11-15T03:20:29+09:00"
         }
       ],
       "rarityStatus": "not-applicable",
@@ -3224,8 +3224,8 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
-      "priceValidUntil": "2026-11-21T20:01:38+09:00"
+      "priceReviewedAt": "2026-11-15T03:20:29+09:00",
+      "priceValidUntil": "2026-11-22T03:20:29+09:00"
     },
     {
       "id": "conqueror",
@@ -3247,7 +3247,7 @@
           "unit": "목록 참고가치",
           "unitVerified": false,
           "publishedAt": null,
-          "observedAt": "2026-11-14T20:01:38+09:00"
+          "observedAt": "2026-11-15T03:20:29+09:00"
         }
       ],
       "rarityStatus": "not-applicable",
@@ -3267,8 +3267,8 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
-      "priceValidUntil": "2026-11-21T20:01:38+09:00"
+      "priceReviewedAt": "2026-11-15T03:20:29+09:00",
+      "priceValidUntil": "2026-11-22T03:20:29+09:00"
     },
     {
       "id": "blazeice-pack",
@@ -3290,7 +3290,7 @@
           "unit": "목록 참고가치",
           "unitVerified": false,
           "publishedAt": null,
-          "observedAt": "2026-11-14T20:01:38+09:00"
+          "observedAt": "2026-11-15T03:20:29+09:00"
         }
       ],
       "rarityStatus": "not-applicable",
@@ -3310,8 +3310,8 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
-      "priceValidUntil": "2026-11-21T20:01:38+09:00"
+      "priceReviewedAt": "2026-11-15T03:20:29+09:00",
+      "priceValidUntil": "2026-11-22T03:20:29+09:00"
     },
     {
       "id": "1-slot-passive",
@@ -3333,7 +3333,7 @@
           "unit": "목록 참고가치",
           "unitVerified": false,
           "publishedAt": null,
-          "observedAt": "2026-11-14T20:01:38+09:00"
+          "observedAt": "2026-11-15T03:20:29+09:00"
         }
       ],
       "rarityStatus": "not-applicable",
@@ -3353,8 +3353,8 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
-      "priceValidUntil": "2026-11-21T20:01:38+09:00"
+      "priceReviewedAt": "2026-11-15T03:20:29+09:00",
+      "priceValidUntil": "2026-11-22T03:20:29+09:00"
     },
     {
       "id": "2x-money",
@@ -3376,7 +3376,7 @@
           "unit": "목록 참고가치",
           "unitVerified": false,
           "publishedAt": null,
-          "observedAt": "2026-11-14T20:01:38+09:00"
+          "observedAt": "2026-11-15T03:20:29+09:00"
         }
       ],
       "rarityStatus": "not-applicable",
@@ -3396,8 +3396,8 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
-      "priceValidUntil": "2026-11-21T20:01:38+09:00"
+      "priceReviewedAt": "2026-11-15T03:20:29+09:00",
+      "priceValidUntil": "2026-11-22T03:20:29+09:00"
     },
     {
       "id": "2x-drop-item",
@@ -3419,7 +3419,7 @@
           "unit": "목록 참고가치",
           "unitVerified": false,
           "publishedAt": null,
-          "observedAt": "2026-11-14T20:01:38+09:00"
+          "observedAt": "2026-11-15T03:20:29+09:00"
         }
       ],
       "rarityStatus": "not-applicable",
@@ -3439,8 +3439,8 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
-      "priceValidUntil": "2026-11-21T20:01:38+09:00"
+      "priceReviewedAt": "2026-11-15T03:20:29+09:00",
+      "priceValidUntil": "2026-11-22T03:20:29+09:00"
     },
     {
       "id": "night-blade",
@@ -3462,7 +3462,7 @@
           "unit": "목록 참고가치",
           "unitVerified": false,
           "publishedAt": null,
-          "observedAt": "2026-11-14T20:01:38+09:00"
+          "observedAt": "2026-11-15T03:20:29+09:00"
         }
       ],
       "rarityStatus": "not-applicable",
@@ -3482,8 +3482,8 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
-      "priceValidUntil": "2026-11-21T20:01:38+09:00"
+      "priceReviewedAt": "2026-11-15T03:20:29+09:00",
+      "priceValidUntil": "2026-11-22T03:20:29+09:00"
     },
     {
       "id": "coffin-boat",
@@ -3505,7 +3505,7 @@
           "unit": "목록 참고가치",
           "unitVerified": false,
           "publishedAt": null,
-          "observedAt": "2026-11-14T20:01:38+09:00"
+          "observedAt": "2026-11-15T03:20:29+09:00"
         }
       ],
       "rarityStatus": "not-applicable",
@@ -3525,8 +3525,8 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
-      "priceValidUntil": "2026-11-21T20:01:38+09:00"
+      "priceReviewedAt": "2026-11-15T03:20:29+09:00",
+      "priceValidUntil": "2026-11-22T03:20:29+09:00"
     },
     {
       "id": "1-fruit-storage",
@@ -3548,7 +3548,7 @@
           "unit": "목록 참고가치",
           "unitVerified": false,
           "publishedAt": null,
-          "observedAt": "2026-11-14T20:01:38+09:00"
+          "observedAt": "2026-11-15T03:20:29+09:00"
         }
       ],
       "rarityStatus": "not-applicable",
@@ -3568,8 +3568,8 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
-      "priceValidUntil": "2026-11-21T20:01:38+09:00"
+      "priceReviewedAt": "2026-11-15T03:20:29+09:00",
+      "priceValidUntil": "2026-11-22T03:20:29+09:00"
     },
     {
       "id": "legacy-pose",
@@ -3591,7 +3591,7 @@
           "unit": "목록 참고가치",
           "unitVerified": false,
           "publishedAt": null,
-          "observedAt": "2026-11-14T20:01:38+09:00"
+          "observedAt": "2026-11-15T03:20:29+09:00"
         }
       ],
       "rarityStatus": "not-applicable",
@@ -3611,8 +3611,8 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
-      "priceValidUntil": "2026-11-21T20:01:38+09:00"
+      "priceReviewedAt": "2026-11-15T03:20:29+09:00",
+      "priceValidUntil": "2026-11-22T03:20:29+09:00"
     },
     {
       "id": "animation-any",
@@ -3634,7 +3634,7 @@
           "unit": "목록 참고가치",
           "unitVerified": false,
           "publishedAt": null,
-          "observedAt": "2026-11-14T20:01:38+09:00"
+          "observedAt": "2026-11-15T03:20:29+09:00"
         }
       ],
       "rarityStatus": "not-applicable",
@@ -3654,8 +3654,8 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
-      "priceValidUntil": "2026-11-21T20:01:38+09:00"
+      "priceReviewedAt": "2026-11-15T03:20:29+09:00",
+      "priceValidUntil": "2026-11-22T03:20:29+09:00"
     },
     {
       "id": "2x-exp-12-hours",
@@ -3677,7 +3677,7 @@
           "unit": "목록 참고가치",
           "unitVerified": false,
           "publishedAt": null,
-          "observedAt": "2026-11-14T20:01:38+09:00"
+          "observedAt": "2026-11-15T03:20:29+09:00"
         }
       ],
       "rarityStatus": "not-applicable",
@@ -3697,8 +3697,8 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
-      "priceValidUntil": "2026-11-21T20:01:38+09:00"
+      "priceReviewedAt": "2026-11-15T03:20:29+09:00",
+      "priceValidUntil": "2026-11-22T03:20:29+09:00"
     },
     {
       "id": "race-rerolls",
@@ -3720,7 +3720,7 @@
           "unit": "목록 참고가치",
           "unitVerified": false,
           "publishedAt": null,
-          "observedAt": "2026-11-14T20:01:38+09:00"
+          "observedAt": "2026-11-15T03:20:29+09:00"
         }
       ],
       "rarityStatus": "not-applicable",
@@ -3740,8 +3740,8 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
-      "priceValidUntil": "2026-11-21T20:01:38+09:00"
+      "priceReviewedAt": "2026-11-15T03:20:29+09:00",
+      "priceValidUntil": "2026-11-22T03:20:29+09:00"
     },
     {
       "id": "refund-stats",
@@ -3763,7 +3763,7 @@
           "unit": "목록 참고가치",
           "unitVerified": false,
           "publishedAt": null,
-          "observedAt": "2026-11-14T20:01:38+09:00"
+          "observedAt": "2026-11-15T03:20:29+09:00"
         }
       ],
       "rarityStatus": "not-applicable",
@@ -3783,8 +3783,8 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
-      "priceValidUntil": "2026-11-21T20:01:38+09:00"
+      "priceReviewedAt": "2026-11-15T03:20:29+09:00",
+      "priceValidUntil": "2026-11-22T03:20:29+09:00"
     },
     {
       "id": "hellroot-bundle",
@@ -3806,7 +3806,7 @@
           "unit": "목록 참고가치",
           "unitVerified": false,
           "publishedAt": null,
-          "observedAt": "2026-11-14T20:01:38+09:00"
+          "observedAt": "2026-11-15T03:20:29+09:00"
         }
       ],
       "rarityStatus": "not-applicable",
@@ -3826,8 +3826,8 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
-      "priceValidUntil": "2026-11-21T20:01:38+09:00"
+      "priceReviewedAt": "2026-11-15T03:20:29+09:00",
+      "priceValidUntil": "2026-11-22T03:20:29+09:00"
     },
     {
       "id": "primal-pack",
@@ -3849,7 +3849,7 @@
           "unit": "목록 참고가치",
           "unitVerified": false,
           "publishedAt": null,
-          "observedAt": "2026-11-14T20:01:38+09:00"
+          "observedAt": "2026-11-15T03:20:29+09:00"
         }
       ],
       "rarityStatus": "not-applicable",
@@ -3869,8 +3869,8 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
-      "priceValidUntil": "2026-11-21T20:01:38+09:00"
+      "priceReviewedAt": "2026-11-15T03:20:29+09:00",
+      "priceValidUntil": "2026-11-22T03:20:29+09:00"
     },
     {
       "id": "acrospear-mats",
@@ -3892,7 +3892,7 @@
           "unit": "목록 참고가치",
           "unitVerified": false,
           "publishedAt": null,
-          "observedAt": "2026-11-14T20:01:38+09:00"
+          "observedAt": "2026-11-15T03:20:29+09:00"
         }
       ],
       "rarityStatus": "not-applicable",
@@ -3912,8 +3912,8 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
-      "priceValidUntil": "2026-11-21T20:01:38+09:00"
+      "priceReviewedAt": "2026-11-15T03:20:29+09:00",
+      "priceValidUntil": "2026-11-22T03:20:29+09:00"
     },
     {
       "id": "cyborg-v2-mats",
@@ -3935,7 +3935,7 @@
           "unit": "목록 참고가치",
           "unitVerified": false,
           "publishedAt": null,
-          "observedAt": "2026-11-14T20:01:38+09:00"
+          "observedAt": "2026-11-15T03:20:29+09:00"
         }
       ],
       "rarityStatus": "not-applicable",
@@ -3955,8 +3955,8 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
-      "priceValidUntil": "2026-11-21T20:01:38+09:00"
+      "priceReviewedAt": "2026-11-15T03:20:29+09:00",
+      "priceValidUntil": "2026-11-22T03:20:29+09:00"
     },
     {
       "id": "spark-stone-mats",
@@ -3978,7 +3978,7 @@
           "unit": "목록 참고가치",
           "unitVerified": false,
           "publishedAt": null,
-          "observedAt": "2026-11-14T20:01:38+09:00"
+          "observedAt": "2026-11-15T03:20:29+09:00"
         }
       ],
       "rarityStatus": "not-applicable",
@@ -3998,8 +3998,8 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
-      "priceValidUntil": "2026-11-21T20:01:38+09:00"
+      "priceReviewedAt": "2026-11-15T03:20:29+09:00",
+      "priceValidUntil": "2026-11-22T03:20:29+09:00"
     },
     {
       "id": "phoenix-blade-v2-mats",
@@ -4021,7 +4021,7 @@
           "unit": "목록 참고가치",
           "unitVerified": false,
           "publishedAt": null,
-          "observedAt": "2026-11-14T20:01:38+09:00"
+          "observedAt": "2026-11-15T03:20:29+09:00"
         }
       ],
       "rarityStatus": "not-applicable",
@@ -4041,8 +4041,8 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
-      "priceValidUntil": "2026-11-21T20:01:38+09:00"
+      "priceReviewedAt": "2026-11-15T03:20:29+09:00",
+      "priceValidUntil": "2026-11-22T03:20:29+09:00"
     },
     {
       "id": "dark-stone-mats",
@@ -4064,7 +4064,7 @@
           "unit": "목록 참고가치",
           "unitVerified": false,
           "publishedAt": null,
-          "observedAt": "2026-11-14T20:01:38+09:00"
+          "observedAt": "2026-11-15T03:20:29+09:00"
         }
       ],
       "rarityStatus": "not-applicable",
@@ -4084,8 +4084,8 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
-      "priceValidUntil": "2026-11-21T20:01:38+09:00"
+      "priceReviewedAt": "2026-11-15T03:20:29+09:00",
+      "priceValidUntil": "2026-11-22T03:20:29+09:00"
     },
     {
       "id": "poison-stone-mats",
@@ -4107,7 +4107,7 @@
           "unit": "목록 참고가치",
           "unitVerified": false,
           "publishedAt": null,
-          "observedAt": "2026-11-14T20:01:38+09:00"
+          "observedAt": "2026-11-15T03:20:29+09:00"
         }
       ],
       "rarityStatus": "not-applicable",
@@ -4127,8 +4127,8 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
-      "priceValidUntil": "2026-11-21T20:01:38+09:00"
+      "priceReviewedAt": "2026-11-15T03:20:29+09:00",
+      "priceValidUntil": "2026-11-22T03:20:29+09:00"
     },
     {
       "id": "blaze-stone-mats",
@@ -4150,7 +4150,7 @@
           "unit": "목록 참고가치",
           "unitVerified": false,
           "publishedAt": null,
-          "observedAt": "2026-11-14T20:01:38+09:00"
+          "observedAt": "2026-11-15T03:20:29+09:00"
         }
       ],
       "rarityStatus": "not-applicable",
@@ -4170,8 +4170,8 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
-      "priceValidUntil": "2026-11-21T20:01:38+09:00"
+      "priceReviewedAt": "2026-11-15T03:20:29+09:00",
+      "priceValidUntil": "2026-11-22T03:20:29+09:00"
     },
     {
       "id": "abyss-stone-mats",
@@ -4193,7 +4193,7 @@
           "unit": "목록 참고가치",
           "unitVerified": false,
           "publishedAt": null,
-          "observedAt": "2026-11-14T20:01:38+09:00"
+          "observedAt": "2026-11-15T03:20:29+09:00"
         }
       ],
       "rarityStatus": "not-applicable",
@@ -4213,8 +4213,8 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
-      "priceValidUntil": "2026-11-21T20:01:38+09:00"
+      "priceReviewedAt": "2026-11-15T03:20:29+09:00",
+      "priceValidUntil": "2026-11-22T03:20:29+09:00"
     },
     {
       "id": "gale-stone-mats",
@@ -4236,7 +4236,7 @@
           "unit": "목록 참고가치",
           "unitVerified": false,
           "publishedAt": null,
-          "observedAt": "2026-11-14T20:01:38+09:00"
+          "observedAt": "2026-11-15T03:20:29+09:00"
         }
       ],
       "rarityStatus": "not-applicable",
@@ -4256,8 +4256,8 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
-      "priceValidUntil": "2026-11-21T20:01:38+09:00"
+      "priceReviewedAt": "2026-11-15T03:20:29+09:00",
+      "priceValidUntil": "2026-11-22T03:20:29+09:00"
     },
     {
       "id": "bloodthirsty-stone-mats",
@@ -4279,7 +4279,7 @@
           "unit": "목록 참고가치",
           "unitVerified": false,
           "publishedAt": null,
-          "observedAt": "2026-11-14T20:01:38+09:00"
+          "observedAt": "2026-11-15T03:20:29+09:00"
         }
       ],
       "rarityStatus": "not-applicable",
@@ -4299,8 +4299,8 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
-      "priceValidUntil": "2026-11-21T20:01:38+09:00"
+      "priceReviewedAt": "2026-11-15T03:20:29+09:00",
+      "priceValidUntil": "2026-11-22T03:20:29+09:00"
     },
     {
       "id": "light-stone-mats",
@@ -4322,7 +4322,7 @@
           "unit": "목록 참고가치",
           "unitVerified": false,
           "publishedAt": null,
-          "observedAt": "2026-11-14T20:01:38+09:00"
+          "observedAt": "2026-11-15T03:20:29+09:00"
         }
       ],
       "rarityStatus": "not-applicable",
@@ -4342,8 +4342,8 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
-      "priceValidUntil": "2026-11-21T20:01:38+09:00"
+      "priceReviewedAt": "2026-11-15T03:20:29+09:00",
+      "priceValidUntil": "2026-11-22T03:20:29+09:00"
     },
     {
       "id": "glacier-stone-mats",
@@ -4365,7 +4365,7 @@
           "unit": "목록 참고가치",
           "unitVerified": false,
           "publishedAt": null,
-          "observedAt": "2026-11-14T20:01:38+09:00"
+          "observedAt": "2026-11-15T03:20:29+09:00"
         }
       ],
       "rarityStatus": "not-applicable",
@@ -4385,8 +4385,8 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
-      "priceValidUntil": "2026-11-21T20:01:38+09:00"
+      "priceReviewedAt": "2026-11-15T03:20:29+09:00",
+      "priceValidUntil": "2026-11-22T03:20:29+09:00"
     },
     {
       "id": "tempestas-stone-mats",
@@ -4408,7 +4408,7 @@
           "unit": "목록 참고가치",
           "unitVerified": false,
           "publishedAt": null,
-          "observedAt": "2026-11-14T20:01:38+09:00"
+          "observedAt": "2026-11-15T03:20:29+09:00"
         }
       ],
       "rarityStatus": "not-applicable",
@@ -4428,8 +4428,8 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
-      "priceValidUntil": "2026-11-21T20:01:38+09:00"
+      "priceReviewedAt": "2026-11-15T03:20:29+09:00",
+      "priceValidUntil": "2026-11-22T03:20:29+09:00"
     },
     {
       "id": "disillusion-stone-mats",
@@ -4451,7 +4451,7 @@
           "unit": "목록 참고가치",
           "unitVerified": false,
           "publishedAt": null,
-          "observedAt": "2026-11-14T20:01:38+09:00"
+          "observedAt": "2026-11-15T03:20:29+09:00"
         }
       ],
       "rarityStatus": "not-applicable",
@@ -4471,8 +4471,8 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
-      "priceValidUntil": "2026-11-21T20:01:38+09:00"
+      "priceReviewedAt": "2026-11-15T03:20:29+09:00",
+      "priceValidUntil": "2026-11-22T03:20:29+09:00"
     },
     {
       "id": "perm-erebus",
@@ -4503,7 +4503,7 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
+      "priceReviewedAt": "2026-11-15T03:20:29+09:00",
       "priceValidUntil": null
     },
     {
@@ -4526,7 +4526,7 @@
           "unit": "목록 참고가치",
           "unitVerified": false,
           "publishedAt": null,
-          "observedAt": "2026-11-14T20:01:38+09:00"
+          "observedAt": "2026-11-15T03:20:29+09:00"
         }
       ],
       "rarityStatus": "base-fruit",
@@ -4547,8 +4547,8 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
-      "priceValidUntil": "2026-11-21T20:01:38+09:00"
+      "priceReviewedAt": "2026-11-15T03:20:29+09:00",
+      "priceValidUntil": "2026-11-22T03:20:29+09:00"
     },
     {
       "id": "perm-dough",
@@ -4570,7 +4570,7 @@
           "unit": "목록 참고가치",
           "unitVerified": false,
           "publishedAt": null,
-          "observedAt": "2026-11-14T20:01:38+09:00"
+          "observedAt": "2026-11-15T03:20:29+09:00"
         }
       ],
       "rarityStatus": "base-fruit",
@@ -4590,8 +4590,8 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
-      "priceValidUntil": "2026-11-21T20:01:38+09:00"
+      "priceReviewedAt": "2026-11-15T03:20:29+09:00",
+      "priceValidUntil": "2026-11-22T03:20:29+09:00"
     },
     {
       "id": "perm-phoenix",
@@ -4613,7 +4613,7 @@
           "unit": "목록 참고가치",
           "unitVerified": false,
           "publishedAt": null,
-          "observedAt": "2026-11-14T20:01:38+09:00"
+          "observedAt": "2026-11-15T03:20:29+09:00"
         }
       ],
       "rarityStatus": "base-fruit",
@@ -4633,8 +4633,8 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
-      "priceValidUntil": "2026-11-21T20:01:38+09:00"
+      "priceReviewedAt": "2026-11-15T03:20:29+09:00",
+      "priceValidUntil": "2026-11-22T03:20:29+09:00"
     },
     {
       "id": "perm-pter",
@@ -4656,7 +4656,7 @@
           "unit": "목록 참고가치",
           "unitVerified": false,
           "publishedAt": null,
-          "observedAt": "2026-11-14T20:01:38+09:00"
+          "observedAt": "2026-11-15T03:20:29+09:00"
         }
       ],
       "rarityStatus": "base-fruit",
@@ -4676,8 +4676,8 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
-      "priceValidUntil": "2026-11-21T20:01:38+09:00"
+      "priceReviewedAt": "2026-11-15T03:20:29+09:00",
+      "priceValidUntil": "2026-11-22T03:20:29+09:00"
     },
     {
       "id": "perm-tree",
@@ -4699,7 +4699,7 @@
           "unit": "목록 참고가치",
           "unitVerified": false,
           "publishedAt": null,
-          "observedAt": "2026-11-14T20:01:38+09:00"
+          "observedAt": "2026-11-15T03:20:29+09:00"
         }
       ],
       "rarityStatus": "base-fruit",
@@ -4719,8 +4719,8 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
-      "priceValidUntil": "2026-11-21T20:01:38+09:00"
+      "priceReviewedAt": "2026-11-15T03:20:29+09:00",
+      "priceValidUntil": "2026-11-22T03:20:29+09:00"
     },
     {
       "id": "perm-gate",
@@ -4742,7 +4742,7 @@
           "unit": "목록 참고가치",
           "unitVerified": false,
           "publishedAt": null,
-          "observedAt": "2026-11-14T20:01:38+09:00"
+          "observedAt": "2026-11-15T03:20:29+09:00"
         }
       ],
       "rarityStatus": "base-fruit",
@@ -4762,8 +4762,8 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
-      "priceValidUntil": "2026-11-21T20:01:38+09:00"
+      "priceReviewedAt": "2026-11-15T03:20:29+09:00",
+      "priceValidUntil": "2026-11-22T03:20:29+09:00"
     },
     {
       "id": "perm-toy",
@@ -4785,7 +4785,7 @@
           "unit": "목록 참고가치",
           "unitVerified": false,
           "publishedAt": null,
-          "observedAt": "2026-11-14T20:01:38+09:00"
+          "observedAt": "2026-11-15T03:20:29+09:00"
         }
       ],
       "rarityStatus": "base-fruit",
@@ -4805,8 +4805,8 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
-      "priceValidUntil": "2026-11-21T20:01:38+09:00"
+      "priceReviewedAt": "2026-11-15T03:20:29+09:00",
+      "priceValidUntil": "2026-11-22T03:20:29+09:00"
     },
     {
       "id": "perm-melody",
@@ -4828,7 +4828,7 @@
           "unit": "목록 참고가치",
           "unitVerified": false,
           "publishedAt": null,
-          "observedAt": "2026-11-14T20:01:38+09:00"
+          "observedAt": "2026-11-15T03:20:29+09:00"
         }
       ],
       "rarityStatus": "base-fruit",
@@ -4848,8 +4848,8 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
-      "priceValidUntil": "2026-11-21T20:01:38+09:00"
+      "priceReviewedAt": "2026-11-15T03:20:29+09:00",
+      "priceValidUntil": "2026-11-22T03:20:29+09:00"
     },
     {
       "id": "perm-demon",
@@ -4871,7 +4871,7 @@
           "unit": "목록 참고가치",
           "unitVerified": false,
           "publishedAt": null,
-          "observedAt": "2026-11-14T20:01:38+09:00"
+          "observedAt": "2026-11-15T03:20:29+09:00"
         }
       ],
       "rarityStatus": "base-fruit",
@@ -4891,8 +4891,8 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
-      "priceValidUntil": "2026-11-21T20:01:38+09:00"
+      "priceReviewedAt": "2026-11-15T03:20:29+09:00",
+      "priceValidUntil": "2026-11-22T03:20:29+09:00"
     },
     {
       "id": "perm-quake",
@@ -4914,7 +4914,7 @@
           "unit": "목록 참고가치",
           "unitVerified": false,
           "publishedAt": null,
-          "observedAt": "2026-11-14T20:01:38+09:00"
+          "observedAt": "2026-11-15T03:20:29+09:00"
         }
       ],
       "rarityStatus": "base-fruit",
@@ -4934,8 +4934,8 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
-      "priceValidUntil": "2026-11-21T20:01:38+09:00"
+      "priceReviewedAt": "2026-11-15T03:20:29+09:00",
+      "priceValidUntil": "2026-11-22T03:20:29+09:00"
     },
     {
       "id": "perm-rumble",
@@ -4957,7 +4957,7 @@
           "unit": "목록 참고가치",
           "unitVerified": false,
           "publishedAt": null,
-          "observedAt": "2026-11-14T20:01:38+09:00"
+          "observedAt": "2026-11-15T03:20:29+09:00"
         }
       ],
       "rarityStatus": "base-fruit",
@@ -4977,8 +4977,8 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
-      "priceValidUntil": "2026-11-21T20:01:38+09:00"
+      "priceReviewedAt": "2026-11-15T03:20:29+09:00",
+      "priceValidUntil": "2026-11-22T03:20:29+09:00"
     },
     {
       "id": "perm-gas",
@@ -5000,7 +5000,7 @@
           "unit": "목록 참고가치",
           "unitVerified": false,
           "publishedAt": null,
-          "observedAt": "2026-11-14T20:01:38+09:00"
+          "observedAt": "2026-11-15T03:20:29+09:00"
         }
       ],
       "rarityStatus": "base-fruit",
@@ -5020,8 +5020,8 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
-      "priceValidUntil": "2026-11-21T20:01:38+09:00"
+      "priceReviewedAt": "2026-11-15T03:20:29+09:00",
+      "priceValidUntil": "2026-11-22T03:20:29+09:00"
     },
     {
       "id": "perm-control",
@@ -5043,7 +5043,7 @@
           "unit": "목록 참고가치",
           "unitVerified": false,
           "publishedAt": null,
-          "observedAt": "2026-11-14T20:01:38+09:00"
+          "observedAt": "2026-11-15T03:20:29+09:00"
         }
       ],
       "rarityStatus": "base-fruit",
@@ -5063,8 +5063,8 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
-      "priceValidUntil": "2026-11-21T20:01:38+09:00"
+      "priceReviewedAt": "2026-11-15T03:20:29+09:00",
+      "priceValidUntil": "2026-11-22T03:20:29+09:00"
     },
     {
       "id": "perm-light",
@@ -5086,7 +5086,7 @@
           "unit": "목록 참고가치",
           "unitVerified": false,
           "publishedAt": null,
-          "observedAt": "2026-11-14T20:01:38+09:00"
+          "observedAt": "2026-11-15T03:20:29+09:00"
         }
       ],
       "rarityStatus": "base-fruit",
@@ -5106,8 +5106,8 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
-      "priceValidUntil": "2026-11-21T20:01:38+09:00"
+      "priceReviewedAt": "2026-11-15T03:20:29+09:00",
+      "priceValidUntil": "2026-11-22T03:20:29+09:00"
     },
     {
       "id": "perm-snow",
@@ -5129,7 +5129,7 @@
           "unit": "목록 참고가치",
           "unitVerified": false,
           "publishedAt": null,
-          "observedAt": "2026-11-14T20:01:38+09:00"
+          "observedAt": "2026-11-15T03:20:29+09:00"
         }
       ],
       "rarityStatus": "base-fruit",
@@ -5149,8 +5149,8 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
-      "priceValidUntil": "2026-11-21T20:01:38+09:00"
+      "priceReviewedAt": "2026-11-15T03:20:29+09:00",
+      "priceValidUntil": "2026-11-22T03:20:29+09:00"
     },
     {
       "id": "perm-spino",
@@ -5172,7 +5172,7 @@
           "unit": "목록 참고가치",
           "unitVerified": false,
           "publishedAt": null,
-          "observedAt": "2026-11-14T20:01:38+09:00"
+          "observedAt": "2026-11-15T03:20:29+09:00"
         }
       ],
       "rarityStatus": "base-fruit",
@@ -5192,8 +5192,8 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
-      "priceValidUntil": "2026-11-21T20:01:38+09:00"
+      "priceReviewedAt": "2026-11-15T03:20:29+09:00",
+      "priceValidUntil": "2026-11-22T03:20:29+09:00"
     },
     {
       "id": "perm-gravity",
@@ -5215,7 +5215,7 @@
           "unit": "목록 참고가치",
           "unitVerified": false,
           "publishedAt": null,
-          "observedAt": "2026-11-14T20:01:38+09:00"
+          "observedAt": "2026-11-15T03:20:29+09:00"
         }
       ],
       "rarityStatus": "base-fruit",
@@ -5235,8 +5235,8 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
-      "priceValidUntil": "2026-11-21T20:01:38+09:00"
+      "priceReviewedAt": "2026-11-15T03:20:29+09:00",
+      "priceValidUntil": "2026-11-22T03:20:29+09:00"
     },
     {
       "id": "perm-buddha",
@@ -5258,7 +5258,7 @@
           "unit": "목록 참고가치",
           "unitVerified": false,
           "publishedAt": null,
-          "observedAt": "2026-11-14T20:01:38+09:00"
+          "observedAt": "2026-11-15T03:20:29+09:00"
         }
       ],
       "rarityStatus": "base-fruit",
@@ -5278,8 +5278,8 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
-      "priceValidUntil": "2026-11-21T20:01:38+09:00"
+      "priceReviewedAt": "2026-11-15T03:20:29+09:00",
+      "priceValidUntil": "2026-11-22T03:20:29+09:00"
     },
     {
       "id": "perm-flame",
@@ -5301,7 +5301,7 @@
           "unit": "목록 참고가치",
           "unitVerified": false,
           "publishedAt": null,
-          "observedAt": "2026-11-14T20:01:38+09:00"
+          "observedAt": "2026-11-15T03:20:29+09:00"
         }
       ],
       "rarityStatus": "base-fruit",
@@ -5321,8 +5321,8 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
-      "priceValidUntil": "2026-11-21T20:01:38+09:00"
+      "priceReviewedAt": "2026-11-15T03:20:29+09:00",
+      "priceValidUntil": "2026-11-22T03:20:29+09:00"
     },
     {
       "id": "perm-allo",
@@ -5344,7 +5344,7 @@
           "unit": "목록 참고가치",
           "unitVerified": false,
           "publishedAt": null,
-          "observedAt": "2026-11-14T20:01:38+09:00"
+          "observedAt": "2026-11-15T03:20:29+09:00"
         }
       ],
       "rarityStatus": "base-fruit",
@@ -5364,8 +5364,8 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
-      "priceValidUntil": "2026-11-21T20:01:38+09:00"
+      "priceReviewedAt": "2026-11-15T03:20:29+09:00",
+      "priceValidUntil": "2026-11-22T03:20:29+09:00"
     },
     {
       "id": "perm-magma",
@@ -5387,7 +5387,7 @@
           "unit": "목록 참고가치",
           "unitVerified": false,
           "publishedAt": null,
-          "observedAt": "2026-11-14T20:01:38+09:00"
+          "observedAt": "2026-11-15T03:20:29+09:00"
         }
       ],
       "rarityStatus": "base-fruit",
@@ -5407,8 +5407,8 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
-      "priceValidUntil": "2026-11-21T20:01:38+09:00"
+      "priceReviewedAt": "2026-11-15T03:20:29+09:00",
+      "priceValidUntil": "2026-11-22T03:20:29+09:00"
     },
     {
       "id": "perm-brachio",
@@ -5430,7 +5430,7 @@
           "unit": "목록 참고가치",
           "unitVerified": false,
           "publishedAt": null,
-          "observedAt": "2026-11-14T20:01:38+09:00"
+          "observedAt": "2026-11-15T03:20:29+09:00"
         }
       ],
       "rarityStatus": "base-fruit",
@@ -5450,8 +5450,8 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
-      "priceValidUntil": "2026-11-21T20:01:38+09:00"
+      "priceReviewedAt": "2026-11-15T03:20:29+09:00",
+      "priceValidUntil": "2026-11-22T03:20:29+09:00"
     },
     {
       "id": "perm-venom",
@@ -5473,7 +5473,7 @@
           "unit": "목록 참고가치",
           "unitVerified": false,
           "publishedAt": null,
-          "observedAt": "2026-11-14T20:01:38+09:00"
+          "observedAt": "2026-11-15T03:20:29+09:00"
         }
       ],
       "rarityStatus": "base-fruit",
@@ -5493,8 +5493,8 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
-      "priceValidUntil": "2026-11-21T20:01:38+09:00"
+      "priceReviewedAt": "2026-11-15T03:20:29+09:00",
+      "priceValidUntil": "2026-11-22T03:20:29+09:00"
     },
     {
       "id": "perm-ice",
@@ -5516,7 +5516,7 @@
           "unit": "목록 참고가치",
           "unitVerified": false,
           "publishedAt": null,
-          "observedAt": "2026-11-14T20:01:38+09:00"
+          "observedAt": "2026-11-15T03:20:29+09:00"
         }
       ],
       "rarityStatus": "base-fruit",
@@ -5536,8 +5536,8 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
-      "priceValidUntil": "2026-11-21T20:01:38+09:00"
+      "priceReviewedAt": "2026-11-15T03:20:29+09:00",
+      "priceValidUntil": "2026-11-22T03:20:29+09:00"
     },
     {
       "id": "perm-dark",
@@ -5559,7 +5559,7 @@
           "unit": "목록 참고가치",
           "unitVerified": false,
           "publishedAt": null,
-          "observedAt": "2026-11-14T20:01:38+09:00"
+          "observedAt": "2026-11-15T03:20:29+09:00"
         }
       ],
       "rarityStatus": "base-fruit",
@@ -5579,8 +5579,8 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
-      "priceValidUntil": "2026-11-21T20:01:38+09:00"
+      "priceReviewedAt": "2026-11-15T03:20:29+09:00",
+      "priceValidUntil": "2026-11-22T03:20:29+09:00"
     },
     {
       "id": "perm-love",
@@ -5602,7 +5602,7 @@
           "unit": "목록 참고가치",
           "unitVerified": false,
           "publishedAt": null,
-          "observedAt": "2026-11-14T20:01:38+09:00"
+          "observedAt": "2026-11-15T03:20:29+09:00"
         }
       ],
       "rarityStatus": "base-fruit",
@@ -5622,8 +5622,8 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
-      "priceValidUntil": "2026-11-21T20:01:38+09:00"
+      "priceReviewedAt": "2026-11-15T03:20:29+09:00",
+      "priceValidUntil": "2026-11-22T03:20:29+09:00"
     },
     {
       "id": "perm-rubber",
@@ -5645,7 +5645,7 @@
           "unit": "목록 참고가치",
           "unitVerified": false,
           "publishedAt": null,
-          "observedAt": "2026-11-14T20:01:38+09:00"
+          "observedAt": "2026-11-15T03:20:29+09:00"
         }
       ],
       "rarityStatus": "base-fruit",
@@ -5665,8 +5665,8 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
-      "priceValidUntil": "2026-11-21T20:01:38+09:00"
+      "priceReviewedAt": "2026-11-15T03:20:29+09:00",
+      "priceValidUntil": "2026-11-22T03:20:29+09:00"
     },
     {
       "id": "perm-paw",
@@ -5688,7 +5688,7 @@
           "unit": "목록 참고가치",
           "unitVerified": false,
           "publishedAt": null,
-          "observedAt": "2026-11-14T20:01:38+09:00"
+          "observedAt": "2026-11-15T03:20:29+09:00"
         }
       ],
       "rarityStatus": "base-fruit",
@@ -5709,8 +5709,8 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
-      "priceValidUntil": "2026-11-21T20:01:38+09:00"
+      "priceReviewedAt": "2026-11-15T03:20:29+09:00",
+      "priceValidUntil": "2026-11-22T03:20:29+09:00"
     },
     {
       "id": "perm-telekinesis",
@@ -5732,7 +5732,7 @@
           "unit": "목록 참고가치",
           "unitVerified": false,
           "publishedAt": null,
-          "observedAt": "2026-11-14T20:01:38+09:00"
+          "observedAt": "2026-11-15T03:20:29+09:00"
         }
       ],
       "rarityStatus": "base-fruit",
@@ -5752,8 +5752,8 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
-      "priceValidUntil": "2026-11-21T20:01:38+09:00"
+      "priceReviewedAt": "2026-11-15T03:20:29+09:00",
+      "priceValidUntil": "2026-11-22T03:20:29+09:00"
     },
     {
       "id": "perm-bomb",
@@ -5775,7 +5775,7 @@
           "unit": "목록 참고가치",
           "unitVerified": false,
           "publishedAt": null,
-          "observedAt": "2026-11-14T20:01:38+09:00"
+          "observedAt": "2026-11-15T03:20:29+09:00"
         }
       ],
       "rarityStatus": "base-fruit",
@@ -5795,8 +5795,8 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
-      "priceValidUntil": "2026-11-21T20:01:38+09:00"
+      "priceReviewedAt": "2026-11-15T03:20:29+09:00",
+      "priceValidUntil": "2026-11-22T03:20:29+09:00"
     }
   ],
   "rarityCheckedAt": "2026-11-14T19:16:23+09:00",
@@ -5808,7 +5808,7 @@
     "refreshHours": 6
   },
   "priceReview": {
-    "checkedAt": "2026-11-14T20:01:38+09:00",
+    "checkedAt": "2026-11-15T03:20:29+09:00",
     "method": "whole-public-html",
     "priced": 126,
     "ranges": 0,

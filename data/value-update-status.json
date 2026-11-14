@@ -1,6 +1,6 @@
 {
   "state": "comparison",
-  "checkedAt": "2026-11-14T15:45:42+09:00",
+  "checkedAt": "2026-11-15T03:19:27+09:00",
   "games": {
     "blox-fruits": {
       "mode": "comparison",
@@ -14,8 +14,8 @@
       "rangeItems": 1,
       "unpricedItems": 16,
       "sourceCount": 1,
-      "checkedAt": "2026-11-14T20:01:36+09:00",
-      "lastAttemptAt": "2026-11-14T20:01:36+09:00",
+      "checkedAt": "2026-11-15T03:20:28+09:00",
+      "lastAttemptAt": "2026-11-15T03:20:28+09:00",
       "refreshState": "ok",
       "message": "공개 원문 전체 확인 · 단일 목록 참고값"
     },
@@ -25,8 +25,8 @@
       "rangeItems": 0,
       "unpricedItems": 10,
       "sourceCount": 1,
-      "checkedAt": "2026-11-14T20:01:38+09:00",
-      "lastAttemptAt": "2026-11-14T20:01:38+09:00",
+      "checkedAt": "2026-11-15T03:20:29+09:00",
+      "lastAttemptAt": "2026-11-15T03:20:29+09:00",
       "refreshState": "ok",
       "message": "공개 원문 전체 확인 · 단일 목록 참고값"
     }
