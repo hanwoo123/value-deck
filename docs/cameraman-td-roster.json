@@ -295,5 +295,8 @@
     "이미지 원문/CDN 요청이 HTTP 403을 반환하여 신규 이미지는 추가하지 않음. 기존 이름 대체 표시 사용.",
     "기존 6시간 갱신기가 동일 이름으로 VVX 공개 숫자를 확인하는 경우 기존 로직으로 가격 반영.",
     "신규 거래 아이템 ID는 별도 SQL 적용 전 운영 DB에서 허용되지 않음."
-  ]
+  ],
+  "historicalSnapshot": true,
+  "supersededBy": "docs/catalog-audit-20261114.json",
+  "currentImagesSupplement": "docs/catalog-images-20261114.json"
 }

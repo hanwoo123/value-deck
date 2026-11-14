@@ -360,3 +360,5 @@ p { margin: 0; }
 .price-check { font-size: var(--text-xs); line-height: 1.6; margin-bottom: 20px; }
 
 .item__sources{font-size:.78rem;color:var(--muted);margin:8px 0;overflow-wrap:anywhere}.item__sources summary{cursor:pointer}.item__sources ul{padding-left:18px}.item__sources li{margin:7px 0}.item__sources a{text-decoration:underline}
+
+.catalog-note { font-size: var(--text-xs); line-height: 1.6; margin: 0 0 var(--space-3); }

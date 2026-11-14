@@ -9,13 +9,26 @@
       "message": "공개 사이트 2곳 숫자 비교 · 133개 항목 숫자 확인 · 단일 출처·편차 큰 값은 별도 표시 · 출처가 같은 원본을 사용했을 수 있으며 독립된 실거래 조사로 확인한 값이 아닙니다."
     },
     "cameraman-td": {
-      "mode": "comparison",
-      "referencedItems": 36,
+      "mode": "reference-list",
+      "referencedItems": 45,
+      "rangeItems": 1,
+      "unpricedItems": 16,
       "sourceCount": 1,
-      "checkedAt": "2026-11-14T15:46:32+09:00",
-      "lastAttemptAt": "2026-11-14T15:46:32+09:00",
+      "checkedAt": "2026-11-14T20:01:36+09:00",
+      "lastAttemptAt": "2026-11-14T20:01:36+09:00",
       "refreshState": "ok",
-      "message": "VVX 공개 숫자 36개 · 단일 출처 참고가 · 6시간마다 확인"
+      "message": "공개 원문 전체 확인 · 단일 목록 참고값"
+    },
+    "king-legacy": {
+      "mode": "reference-list",
+      "referencedItems": 126,
+      "rangeItems": 0,
+      "unpricedItems": 10,
+      "sourceCount": 1,
+      "checkedAt": "2026-11-14T20:01:38+09:00",
+      "lastAttemptAt": "2026-11-14T20:01:38+09:00",
+      "refreshState": "ok",
+      "message": "공개 원문 전체 확인 · 단일 목록 참고값"
     }
   },
   "comparisonErrors": [

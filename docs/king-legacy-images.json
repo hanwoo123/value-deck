@@ -1039,5 +1039,8 @@
       "name": "Perm Telekinesis",
       "reason": "정확한 아이템 이미지 미확인"
     }
-  ]
+  ],
+  "historicalSnapshot": true,
+  "supersededBy": "docs/catalog-audit-20261114.json",
+  "currentImagesSupplement": "docs/catalog-images-20261114.json"
 }

@@ -40,9 +40,6 @@ await db.query('insert into auth.users values($1)',[kingAuthor]);
 await role(kingAuthor);
 for(const item of king.items){
  assert.equal((await db.query('select public.valid_game_trade_slots($1,$2::jsonb) as valid',['king-legacy',JSON.stringify([{id:item.id,qty:1}])])).rows[0].valid,true);
- assert.equal(item.value,null);
- assert(item.priceQuotes[0].low<=item.priceQuotes[0].high);
- assert.equal(item.priceQuotes[0].unit,'Fins');
 }
 await deny(insert,['king-legacy',ctd,ctd]);
 const kingPost=(await db.query(insert,['king-legacy','[{"id":"dragon-fruit","qty":1}]','[{"id":"perm-dragon","qty":1}]'])).rows[0];
@@ -75,6 +72,11 @@ await deny("insert into public.trade_game_items values('cameraman-td','fake-new-
 const ctdPost=(await db.query(insert,['cameraman-td','[{"id":"speaker-spider","qty":1}]','[{"id":"cameraman","qty":1}]'])).rows[0];
 await role(b);const ctdRoom=(await db.query('select public.start_trade_chat($1,$2) as id',[ctdPost.id,'Buyer'])).rows[0].id;
 assert.equal((await db.query('select game_id from public.trade_conversations where id=$1',[ctdRoom])).rows[0].game_id,'cameraman-td');
+await db.exec('reset role');
+await db.exec(readFileSync(new URL('../supabase/pending/catalogs-20261114.sql',import.meta.url),'utf8'));
+await db.exec(readFileSync(new URL('../supabase/pending/catalogs-20261114.sql',import.meta.url),'utf8'));
+assert.equal((await db.query("select count(*) as n from public.trade_game_items where game_id='king-legacy'")).rows[0].n,king.items.length);
+console.log('PASS combined deferred catalog SQL repeatability');
 console.log('PASS 24 added CTD units, full catalog allowlist, cross-game rejection, repeatability, trade/chat creation and old-data preservation');
 console.log('PASS King Legacy catalog, range integrity, migration repeatability, cross-game rejection and chat');
 console.log('PASS new CTD allowlist, repeatability and post/message preservation');

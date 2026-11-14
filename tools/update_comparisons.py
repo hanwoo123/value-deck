@@ -34,7 +34,7 @@ def terms_hash(html):
 
 def get(url,allow_vvx=False):
     host=(urlparse(url).hostname or '').lower()
-    if allow_vvx and (host=='vaultedvaluesx.com' or host.endswith('.vaultedvaluesx.com')) and (host not in ('vaultedvaluesx.com','www.vaultedvaluesx.com','blox-fruits.vaultedvaluesx.com','cameraman-td.vaultedvaluesx.com') or urlparse(url).path not in ('/value-list','/terms-of-service','/robots.txt') or urlparse(url).query):
+    if allow_vvx and (host=='vaultedvaluesx.com' or host.endswith('.vaultedvaluesx.com')) and (host not in ('vaultedvaluesx.com','www.vaultedvaluesx.com','blox-fruits.vaultedvaluesx.com','cameraman-td.vaultedvaluesx.com','king-legacy.vaultedvaluesx.com') or urlparse(url).path not in ('/value-list','/terms-of-service','/robots.txt') or urlparse(url).query):
         raise ValueError('VVX access limited to reviewed public pages')
     excluded=('progameguides.com','fruityblox.com')+(() if allow_vvx else ('vaultedvaluesx.com',))
     if urlparse(url).scheme!='https' or any(host==h or host.endswith('.'+h) for h in excluded):
@@ -162,7 +162,8 @@ def run(root=ROOT,fetcher=fetch_source,write=False):
             p=root/'data/value-update-status.json';old=json.loads(p.read_text());old['lastAttemptAt']=now.isoformat(timespec='seconds');old['comparisonErrors']=errors;p.write_text(json.dumps(old,ensure_ascii=False,indent=2)+'\n')
         return {'state':'blocked','errors':errors}
     p=root/'data/blox-fruits.json';data=json.loads(p.read_text());count,changes=apply(data,config['sources'],results,now)
-    report={'state':'comparison','checkedAt':now.isoformat(timespec='seconds'),'games':{'blox-fruits':{'mode':'comparison','pricedItems':count,'sourceCount':len(results),'message':f'공개 사이트 {len(results)}곳 숫자 비교 · {count}개 항목 숫자 확인 · 단일 출처·편차 큰 값은 별도 표시 · 출처가 같은 원본을 사용했을 수 있으며 독립된 실거래 조사로 확인한 값이 아닙니다.'},'cameraman-td':json.loads((root/'data/value-update-status.json').read_text()).get('games',{}).get('cameraman-td',{'mode':'provisional','message':'카타디 자료 검토 중'})},'comparisonErrors':errors}
+    previous_report=json.loads((root/'data/value-update-status.json').read_text())
+    report={'state':'comparison','checkedAt':now.isoformat(timespec='seconds'),'games':{**previous_report.get('games',{}),'blox-fruits':{'mode':'comparison','pricedItems':count,'sourceCount':len(results),'message':f'공개 사이트 {len(results)}곳 숫자 비교 · {count}개 항목 숫자 확인 · 단일 출처·편차 큰 값은 별도 표시 · 출처가 같은 원본을 사용했을 수 있으며 독립된 실거래 조사로 확인한 값이 아닙니다.'}},'comparisonErrors':errors}
     if write:
         pending={p:data,root/'data/value-update-status.json':report}
         for path,content in pending.items():

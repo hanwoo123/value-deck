@@ -1,7 +1,7 @@
 {
   "updated": "2026-11-14",
-  "valueUnit": "Fins",
-  "pricingMode": "reference",
+  "valueUnit": "목록 참고가치",
+  "pricingMode": "comparison",
   "rarities": [
     "Limited",
     "Mythic",
@@ -22,7 +22,7 @@
     "번들",
     "영구 열매"
   ],
-  "source": "공개 자료의 단일 출처 범위 · 원문 수정 2026-11-09 · 확정 시세·비교 평균 아님 · 수동 확인 · 합산 보류",
+  "source": "공개 가치 목록의 단일 출처 표기값 · 평균·확정 거래가 아님",
   "items": [
     {
       "id": "erebus",
@@ -31,11 +31,17 @@
       "rarity": "Mythic",
       "value": null,
       "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
       "image": "",
-      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
-      "priceQuotes": [
+      "note": "현재 원문에 확인되는 숫자 없음 · 합산 보류",
+      "priceQuotes": [],
+      "rarityStatus": "verified",
+      "rarityBasis": "item",
+      "raritySourceIds": [
+        "update11"
+      ],
+      "historicalQuotes": [
         {
           "id": "pgg-king-legacy",
           "name": "Pro Game Guides",
@@ -47,24 +53,38 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "rarityStatus": "verified",
-      "rarityBasis": "item",
-      "raritySourceIds": [
-        "update11"
-      ]
+      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
+      "priceValidUntil": null
     },
     {
       "id": "demon-fruit",
       "name": "Demon Fruit",
       "category": "열매",
       "rarity": "Legendary",
-      "value": null,
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "value": 7,
+      "valueStatus": "single",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
       "image": "images/king-legacy/demon-fruit.webp",
-      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "priceQuotes": [
+        {
+          "id": "vvx-king",
+          "name": "VVX 공개 가치표",
+          "url": "https://king-legacy.vaultedvaluesx.com/value-list",
+          "value": 7,
+          "unit": "목록 참고가치",
+          "unitVerified": false,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:38+09:00"
+        }
+      ],
+      "rarityStatus": "verified",
+      "rarityBasis": "item",
+      "raritySourceIds": [
+        "fruits"
+      ],
+      "historicalQuotes": [
         {
           "id": "pgg-king-legacy",
           "name": "Pro Game Guides",
@@ -76,24 +96,38 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "rarityStatus": "verified",
-      "rarityBasis": "item",
-      "raritySourceIds": [
-        "fruits"
-      ]
+      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
+      "priceValidUntil": "2026-11-21T20:01:38+09:00"
     },
     {
       "id": "tree-fruit",
       "name": "Tree Fruit",
       "category": "열매",
       "rarity": "Legendary",
-      "value": null,
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "value": 10,
+      "valueStatus": "single",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
       "image": "images/king-legacy/tree-fruit.webp",
-      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "priceQuotes": [
+        {
+          "id": "vvx-king",
+          "name": "VVX 공개 가치표",
+          "url": "https://king-legacy.vaultedvaluesx.com/value-list",
+          "value": 10,
+          "unit": "목록 참고가치",
+          "unitVerified": false,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:38+09:00"
+        }
+      ],
+      "rarityStatus": "verified",
+      "rarityBasis": "item",
+      "raritySourceIds": [
+        "fruits"
+      ],
+      "historicalQuotes": [
         {
           "id": "pgg-king-legacy",
           "name": "Pro Game Guides",
@@ -105,24 +139,38 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "rarityStatus": "verified",
-      "rarityBasis": "item",
-      "raritySourceIds": [
-        "fruits"
-      ]
+      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
+      "priceValidUntil": "2026-11-21T20:01:38+09:00"
     },
     {
       "id": "phoenix-fruit",
       "name": "Phoenix Fruit",
       "category": "열매",
       "rarity": "Legendary",
-      "value": null,
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "value": 5,
+      "valueStatus": "single",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
       "image": "images/king-legacy/phoenix-fruit.webp",
-      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "priceQuotes": [
+        {
+          "id": "vvx-king",
+          "name": "VVX 공개 가치표",
+          "url": "https://king-legacy.vaultedvaluesx.com/value-list",
+          "value": 5,
+          "unit": "목록 참고가치",
+          "unitVerified": false,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:38+09:00"
+        }
+      ],
+      "rarityStatus": "verified",
+      "rarityBasis": "item",
+      "raritySourceIds": [
+        "fruits"
+      ],
+      "historicalQuotes": [
         {
           "id": "pgg-king-legacy",
           "name": "Pro Game Guides",
@@ -134,24 +182,38 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "rarityStatus": "verified",
-      "rarityBasis": "item",
-      "raritySourceIds": [
-        "fruits"
-      ]
+      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
+      "priceValidUntil": "2026-11-21T20:01:38+09:00"
     },
     {
       "id": "gate-fruit",
       "name": "Gate Fruit",
       "category": "열매",
       "rarity": "Legendary",
-      "value": null,
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "value": 5,
+      "valueStatus": "single",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
       "image": "images/king-legacy/gate-fruit.webp",
-      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "priceQuotes": [
+        {
+          "id": "vvx-king",
+          "name": "VVX 공개 가치표",
+          "url": "https://king-legacy.vaultedvaluesx.com/value-list",
+          "value": 5,
+          "unit": "목록 참고가치",
+          "unitVerified": false,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:38+09:00"
+        }
+      ],
+      "rarityStatus": "verified",
+      "rarityBasis": "item",
+      "raritySourceIds": [
+        "fruits"
+      ],
+      "historicalQuotes": [
         {
           "id": "pgg-king-legacy",
           "name": "Pro Game Guides",
@@ -163,24 +225,39 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "rarityStatus": "verified",
-      "rarityBasis": "item",
-      "raritySourceIds": [
-        "fruits"
-      ]
+      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
+      "priceValidUntil": "2026-11-21T20:01:38+09:00"
     },
     {
       "id": "dragon-fruit",
       "name": "Dragon Fruit",
       "category": "열매",
       "rarity": "Mythic",
-      "value": null,
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "value": 15,
+      "valueStatus": "single",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
       "image": "images/king-legacy/dragon-fruit.webp",
-      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "priceQuotes": [
+        {
+          "id": "vvx-king",
+          "name": "VVX 공개 가치표",
+          "url": "https://king-legacy.vaultedvaluesx.com/value-list",
+          "value": 15,
+          "unit": "목록 참고가치",
+          "unitVerified": false,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:38+09:00"
+        }
+      ],
+      "rarityStatus": "verified",
+      "rarityBasis": "item",
+      "raritySourceIds": [
+        "update11",
+        "fruits"
+      ],
+      "historicalQuotes": [
         {
           "id": "pgg-king-legacy",
           "name": "Pro Game Guides",
@@ -192,25 +269,38 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "rarityStatus": "verified",
-      "rarityBasis": "item",
-      "raritySourceIds": [
-        "update11",
-        "fruits"
-      ]
+      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
+      "priceValidUntil": "2026-11-21T20:01:38+09:00"
     },
     {
       "id": "melody-fruit",
       "name": "Melody Fruit",
       "category": "열매",
       "rarity": "Legendary",
-      "value": null,
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "value": 2,
+      "valueStatus": "single",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
       "image": "images/king-legacy/melody-fruit.webp",
-      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "priceQuotes": [
+        {
+          "id": "vvx-king",
+          "name": "VVX 공개 가치표",
+          "url": "https://king-legacy.vaultedvaluesx.com/value-list",
+          "value": 2,
+          "unit": "목록 참고가치",
+          "unitVerified": false,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:38+09:00"
+        }
+      ],
+      "rarityStatus": "verified",
+      "rarityBasis": "item",
+      "raritySourceIds": [
+        "fruits"
+      ],
+      "historicalQuotes": [
         {
           "id": "pgg-king-legacy",
           "name": "Pro Game Guides",
@@ -222,24 +312,38 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "rarityStatus": "verified",
-      "rarityBasis": "item",
-      "raritySourceIds": [
-        "fruits"
-      ]
+      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
+      "priceValidUntil": "2026-11-21T20:01:38+09:00"
     },
     {
       "id": "dough-fruit",
       "name": "Dough Fruit",
       "category": "열매",
       "rarity": "Legendary",
-      "value": null,
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "value": 5,
+      "valueStatus": "single",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
       "image": "images/king-legacy/dough-fruit.webp",
-      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "priceQuotes": [
+        {
+          "id": "vvx-king",
+          "name": "VVX 공개 가치표",
+          "url": "https://king-legacy.vaultedvaluesx.com/value-list",
+          "value": 5,
+          "unit": "목록 참고가치",
+          "unitVerified": false,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:38+09:00"
+        }
+      ],
+      "rarityStatus": "verified",
+      "rarityBasis": "item",
+      "raritySourceIds": [
+        "fruits"
+      ],
+      "historicalQuotes": [
         {
           "id": "pgg-king-legacy",
           "name": "Pro Game Guides",
@@ -251,24 +355,38 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "rarityStatus": "verified",
-      "rarityBasis": "item",
-      "raritySourceIds": [
-        "fruits"
-      ]
+      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
+      "priceValidUntil": "2026-11-21T20:01:38+09:00"
     },
     {
       "id": "pter-fruit",
       "name": "Pter Fruit",
       "category": "열매",
       "rarity": "Mythic",
-      "value": null,
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "value": 3,
+      "valueStatus": "single",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
-      "image": "",
-      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "image": "images/king-legacy/pter-fruit.webp",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "priceQuotes": [
+        {
+          "id": "vvx-king",
+          "name": "VVX 공개 가치표",
+          "url": "https://king-legacy.vaultedvaluesx.com/value-list",
+          "value": 3,
+          "unit": "목록 참고가치",
+          "unitVerified": false,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:38+09:00"
+        }
+      ],
+      "rarityStatus": "verified",
+      "rarityBasis": "item",
+      "raritySourceIds": [
+        "fruits"
+      ],
+      "historicalQuotes": [
         {
           "id": "pgg-king-legacy",
           "name": "Pro Game Guides",
@@ -280,24 +398,38 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "rarityStatus": "verified",
-      "rarityBasis": "item",
-      "raritySourceIds": [
-        "fruits"
-      ]
+      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
+      "priceValidUntil": "2026-11-21T20:01:38+09:00"
     },
     {
       "id": "toy-fruit",
       "name": "Toy Fruit",
       "category": "열매",
       "rarity": "Legendary",
-      "value": null,
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "value": 1,
+      "valueStatus": "single",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
       "image": "images/king-legacy/toy-fruit.webp",
-      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "priceQuotes": [
+        {
+          "id": "vvx-king",
+          "name": "VVX 공개 가치표",
+          "url": "https://king-legacy.vaultedvaluesx.com/value-list",
+          "value": 1,
+          "unit": "목록 참고가치",
+          "unitVerified": false,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:38+09:00"
+        }
+      ],
+      "rarityStatus": "verified",
+      "rarityBasis": "item",
+      "raritySourceIds": [
+        "fruits"
+      ],
+      "historicalQuotes": [
         {
           "id": "pgg-king-legacy",
           "name": "Pro Game Guides",
@@ -309,24 +441,38 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "rarityStatus": "verified",
-      "rarityBasis": "item",
-      "raritySourceIds": [
-        "fruits"
-      ]
+      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
+      "priceValidUntil": "2026-11-21T20:01:38+09:00"
     },
     {
       "id": "spino-fruit",
       "name": "Spino Fruit",
       "category": "열매",
       "rarity": "Rare",
-      "value": null,
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "value": 4,
+      "valueStatus": "single",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
       "image": "images/king-legacy/spino-fruit.webp",
-      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "priceQuotes": [
+        {
+          "id": "vvx-king",
+          "name": "VVX 공개 가치표",
+          "url": "https://king-legacy.vaultedvaluesx.com/value-list",
+          "value": 4,
+          "unit": "목록 참고가치",
+          "unitVerified": false,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:38+09:00"
+        }
+      ],
+      "rarityStatus": "verified",
+      "rarityBasis": "item",
+      "raritySourceIds": [
+        "fruits"
+      ],
+      "historicalQuotes": [
         {
           "id": "pgg-king-legacy",
           "name": "Pro Game Guides",
@@ -338,24 +484,38 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "rarityStatus": "verified",
-      "rarityBasis": "item",
-      "raritySourceIds": [
-        "fruits"
-      ]
+      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
+      "priceValidUntil": "2026-11-21T20:01:38+09:00"
     },
     {
       "id": "allo-fruit",
       "name": "Allo Fruit",
       "category": "열매",
       "rarity": "Rare",
-      "value": null,
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "value": 3,
+      "valueStatus": "single",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
       "image": "images/king-legacy/allo-fruit.webp",
-      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "priceQuotes": [
+        {
+          "id": "vvx-king",
+          "name": "VVX 공개 가치표",
+          "url": "https://king-legacy.vaultedvaluesx.com/value-list",
+          "value": 3,
+          "unit": "목록 참고가치",
+          "unitVerified": false,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:38+09:00"
+        }
+      ],
+      "rarityStatus": "verified",
+      "rarityBasis": "item",
+      "raritySourceIds": [
+        "fruits"
+      ],
+      "historicalQuotes": [
         {
           "id": "pgg-king-legacy",
           "name": "Pro Game Guides",
@@ -367,24 +527,38 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "rarityStatus": "verified",
-      "rarityBasis": "item",
-      "raritySourceIds": [
-        "fruits"
-      ]
+      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
+      "priceValidUntil": "2026-11-21T20:01:38+09:00"
     },
     {
       "id": "rumble-fruit",
       "name": "Rumble Fruit",
       "category": "열매",
       "rarity": "Epic",
-      "value": null,
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "value": 1,
+      "valueStatus": "single",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
       "image": "images/king-legacy/rumble-fruit.webp",
-      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "priceQuotes": [
+        {
+          "id": "vvx-king",
+          "name": "VVX 공개 가치표",
+          "url": "https://king-legacy.vaultedvaluesx.com/value-list",
+          "value": 1,
+          "unit": "목록 참고가치",
+          "unitVerified": false,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:38+09:00"
+        }
+      ],
+      "rarityStatus": "verified",
+      "rarityBasis": "item",
+      "raritySourceIds": [
+        "fruits"
+      ],
+      "historicalQuotes": [
         {
           "id": "pgg-king-legacy",
           "name": "Pro Game Guides",
@@ -396,24 +570,38 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "rarityStatus": "verified",
-      "rarityBasis": "item",
-      "raritySourceIds": [
-        "fruits"
-      ]
+      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
+      "priceValidUntil": "2026-11-21T20:01:38+09:00"
     },
     {
       "id": "brachio-fruit",
       "name": "Brachio Fruit",
       "category": "열매",
       "rarity": "Rare",
-      "value": null,
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "value": 2,
+      "valueStatus": "single",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
       "image": "images/king-legacy/brachio-fruit.webp",
-      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "priceQuotes": [
+        {
+          "id": "vvx-king",
+          "name": "VVX 공개 가치표",
+          "url": "https://king-legacy.vaultedvaluesx.com/value-list",
+          "value": 2,
+          "unit": "목록 참고가치",
+          "unitVerified": false,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:38+09:00"
+        }
+      ],
+      "rarityStatus": "verified",
+      "rarityBasis": "item",
+      "raritySourceIds": [
+        "fruits"
+      ],
+      "historicalQuotes": [
         {
           "id": "pgg-king-legacy",
           "name": "Pro Game Guides",
@@ -425,24 +613,38 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "rarityStatus": "verified",
-      "rarityBasis": "item",
-      "raritySourceIds": [
-        "fruits"
-      ]
+      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
+      "priceValidUntil": "2026-11-21T20:01:38+09:00"
     },
     {
       "id": "palm-fruit",
       "name": "Palm Fruit",
       "category": "열매",
       "rarity": "Rare",
-      "value": null,
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "value": 2,
+      "valueStatus": "single",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
       "image": "images/king-legacy/palm-fruit.webp",
-      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "priceQuotes": [
+        {
+          "id": "vvx-king",
+          "name": "VVX 공개 가치표",
+          "url": "https://king-legacy.vaultedvaluesx.com/value-list",
+          "value": 2,
+          "unit": "목록 참고가치",
+          "unitVerified": false,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:38+09:00"
+        }
+      ],
+      "rarityStatus": "verified",
+      "rarityBasis": "item",
+      "raritySourceIds": [
+        "fruits"
+      ],
+      "historicalQuotes": [
         {
           "id": "pgg-king-legacy",
           "name": "Pro Game Guides",
@@ -454,24 +656,38 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "rarityStatus": "verified",
-      "rarityBasis": "item",
-      "raritySourceIds": [
-        "fruits"
-      ]
+      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
+      "priceValidUntil": "2026-11-21T20:01:38+09:00"
     },
     {
       "id": "gas-fruit",
       "name": "Gas Fruit",
       "category": "열매",
       "rarity": "Epic",
-      "value": null,
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "value": 1,
+      "valueStatus": "single",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
       "image": "images/king-legacy/gas-fruit.webp",
-      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "priceQuotes": [
+        {
+          "id": "vvx-king",
+          "name": "VVX 공개 가치표",
+          "url": "https://king-legacy.vaultedvaluesx.com/value-list",
+          "value": 1,
+          "unit": "목록 참고가치",
+          "unitVerified": false,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:38+09:00"
+        }
+      ],
+      "rarityStatus": "verified",
+      "rarityBasis": "item",
+      "raritySourceIds": [
+        "fruits"
+      ],
+      "historicalQuotes": [
         {
           "id": "pgg-king-legacy",
           "name": "Pro Game Guides",
@@ -483,24 +699,38 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "rarityStatus": "verified",
-      "rarityBasis": "item",
-      "raritySourceIds": [
-        "fruits"
-      ]
+      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
+      "priceValidUntil": "2026-11-21T20:01:38+09:00"
     },
     {
       "id": "magma-fruit",
       "name": "Magma Fruit",
       "category": "열매",
       "rarity": "Epic",
-      "value": null,
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "value": 1,
+      "valueStatus": "single",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
       "image": "images/king-legacy/magma-fruit.webp",
-      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "priceQuotes": [
+        {
+          "id": "vvx-king",
+          "name": "VVX 공개 가치표",
+          "url": "https://king-legacy.vaultedvaluesx.com/value-list",
+          "value": 1,
+          "unit": "목록 참고가치",
+          "unitVerified": false,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:38+09:00"
+        }
+      ],
+      "rarityStatus": "verified",
+      "rarityBasis": "item",
+      "raritySourceIds": [
+        "fruits"
+      ],
+      "historicalQuotes": [
         {
           "id": "pgg-king-legacy",
           "name": "Pro Game Guides",
@@ -512,24 +742,38 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "rarityStatus": "verified",
-      "rarityBasis": "item",
-      "raritySourceIds": [
-        "fruits"
-      ]
+      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
+      "priceValidUntil": "2026-11-21T20:01:38+09:00"
     },
     {
       "id": "light-fruit",
       "name": "Light Fruit",
       "category": "열매",
       "rarity": "Epic",
-      "value": null,
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "value": 1,
+      "valueStatus": "single",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
       "image": "images/king-legacy/light-fruit.webp",
-      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "priceQuotes": [
+        {
+          "id": "vvx-king",
+          "name": "VVX 공개 가치표",
+          "url": "https://king-legacy.vaultedvaluesx.com/value-list",
+          "value": 1,
+          "unit": "목록 참고가치",
+          "unitVerified": false,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:38+09:00"
+        }
+      ],
+      "rarityStatus": "verified",
+      "rarityBasis": "item",
+      "raritySourceIds": [
+        "fruits"
+      ],
+      "historicalQuotes": [
         {
           "id": "pgg-king-legacy",
           "name": "Pro Game Guides",
@@ -541,24 +785,38 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "rarityStatus": "verified",
-      "rarityBasis": "item",
-      "raritySourceIds": [
-        "fruits"
-      ]
+      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
+      "priceValidUntil": "2026-11-21T20:01:38+09:00"
     },
     {
       "id": "quake-fruit",
       "name": "Quake Fruit",
       "category": "열매",
       "rarity": "Epic",
-      "value": null,
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "value": 1,
+      "valueStatus": "single",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
       "image": "images/king-legacy/quake-fruit.webp",
-      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "priceQuotes": [
+        {
+          "id": "vvx-king",
+          "name": "VVX 공개 가치표",
+          "url": "https://king-legacy.vaultedvaluesx.com/value-list",
+          "value": 1,
+          "unit": "목록 참고가치",
+          "unitVerified": false,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:38+09:00"
+        }
+      ],
+      "rarityStatus": "verified",
+      "rarityBasis": "item",
+      "raritySourceIds": [
+        "fruits"
+      ],
+      "historicalQuotes": [
         {
           "id": "pgg-king-legacy",
           "name": "Pro Game Guides",
@@ -570,24 +828,38 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "rarityStatus": "verified",
-      "rarityBasis": "item",
-      "raritySourceIds": [
-        "fruits"
-      ]
+      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
+      "priceValidUntil": "2026-11-21T20:01:38+09:00"
     },
     {
       "id": "flame-fruit",
       "name": "Flame Fruit",
       "category": "열매",
       "rarity": "Epic",
-      "value": null,
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "value": 1,
+      "valueStatus": "single",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
-      "image": "",
-      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "image": "images/king-legacy/flame-fruit.webp",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "priceQuotes": [
+        {
+          "id": "vvx-king",
+          "name": "VVX 공개 가치표",
+          "url": "https://king-legacy.vaultedvaluesx.com/value-list",
+          "value": 1,
+          "unit": "목록 참고가치",
+          "unitVerified": false,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:38+09:00"
+        }
+      ],
+      "rarityStatus": "verified",
+      "rarityBasis": "item",
+      "raritySourceIds": [
+        "fruits"
+      ],
+      "historicalQuotes": [
         {
           "id": "pgg-king-legacy",
           "name": "Pro Game Guides",
@@ -599,24 +871,38 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "rarityStatus": "verified",
-      "rarityBasis": "item",
-      "raritySourceIds": [
-        "fruits"
-      ]
+      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
+      "priceValidUntil": "2026-11-21T20:01:38+09:00"
     },
     {
       "id": "snow-fruit",
       "name": "Snow Fruit",
       "category": "열매",
       "rarity": "Epic",
-      "value": null,
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "value": 1,
+      "valueStatus": "single",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
       "image": "images/king-legacy/perm-snow.webp",
-      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "priceQuotes": [
+        {
+          "id": "vvx-king",
+          "name": "VVX 공개 가치표",
+          "url": "https://king-legacy.vaultedvaluesx.com/value-list",
+          "value": 1,
+          "unit": "목록 참고가치",
+          "unitVerified": false,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:38+09:00"
+        }
+      ],
+      "rarityStatus": "verified",
+      "rarityBasis": "item",
+      "raritySourceIds": [
+        "fruits"
+      ],
+      "historicalQuotes": [
         {
           "id": "pgg-king-legacy",
           "name": "Pro Game Guides",
@@ -628,24 +914,38 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "rarityStatus": "verified",
-      "rarityBasis": "item",
-      "raritySourceIds": [
-        "fruits"
-      ]
+      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
+      "priceValidUntil": "2026-11-21T20:01:38+09:00"
     },
     {
       "id": "ice-fruit",
       "name": "Ice Fruit",
       "category": "열매",
       "rarity": "Epic",
-      "value": null,
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "value": 1,
+      "valueStatus": "single",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
       "image": "images/king-legacy/ice-fruit.webp",
-      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "priceQuotes": [
+        {
+          "id": "vvx-king",
+          "name": "VVX 공개 가치표",
+          "url": "https://king-legacy.vaultedvaluesx.com/value-list",
+          "value": 1,
+          "unit": "목록 참고가치",
+          "unitVerified": false,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:38+09:00"
+        }
+      ],
+      "rarityStatus": "verified",
+      "rarityBasis": "item",
+      "raritySourceIds": [
+        "fruits"
+      ],
+      "historicalQuotes": [
         {
           "id": "pgg-king-legacy",
           "name": "Pro Game Guides",
@@ -657,24 +957,38 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "rarityStatus": "verified",
-      "rarityBasis": "item",
-      "raritySourceIds": [
-        "fruits"
-      ]
+      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
+      "priceValidUntil": "2026-11-21T20:01:38+09:00"
     },
     {
       "id": "control-fruit",
       "name": "Control Fruit",
       "category": "열매",
       "rarity": "Rare",
-      "value": null,
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "value": 0.75,
+      "valueStatus": "single",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
       "image": "images/king-legacy/control-fruit.webp",
-      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "priceQuotes": [
+        {
+          "id": "vvx-king",
+          "name": "VVX 공개 가치표",
+          "url": "https://king-legacy.vaultedvaluesx.com/value-list",
+          "value": 0.75,
+          "unit": "목록 참고가치",
+          "unitVerified": false,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:38+09:00"
+        }
+      ],
+      "rarityStatus": "verified",
+      "rarityBasis": "item",
+      "raritySourceIds": [
+        "fruits"
+      ],
+      "historicalQuotes": [
         {
           "id": "pgg-king-legacy",
           "name": "Pro Game Guides",
@@ -686,24 +1000,38 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "rarityStatus": "verified",
-      "rarityBasis": "item",
-      "raritySourceIds": [
-        "fruits"
-      ]
+      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
+      "priceValidUntil": "2026-11-21T20:01:38+09:00"
     },
     {
       "id": "buddha-fruit",
       "name": "Buddha Fruit",
       "category": "열매",
       "rarity": "Rare",
-      "value": null,
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "value": 0.75,
+      "valueStatus": "single",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
       "image": "images/king-legacy/perm-buddha.webp",
-      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "priceQuotes": [
+        {
+          "id": "vvx-king",
+          "name": "VVX 공개 가치표",
+          "url": "https://king-legacy.vaultedvaluesx.com/value-list",
+          "value": 0.75,
+          "unit": "목록 참고가치",
+          "unitVerified": false,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:38+09:00"
+        }
+      ],
+      "rarityStatus": "verified",
+      "rarityBasis": "item",
+      "raritySourceIds": [
+        "fruits"
+      ],
+      "historicalQuotes": [
         {
           "id": "pgg-king-legacy",
           "name": "Pro Game Guides",
@@ -715,24 +1043,38 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "rarityStatus": "verified",
-      "rarityBasis": "item",
-      "raritySourceIds": [
-        "fruits"
-      ]
+      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
+      "priceValidUntil": "2026-11-21T20:01:38+09:00"
     },
     {
       "id": "gravity-fruit",
       "name": "Gravity Fruit",
       "category": "열매",
       "rarity": "Rare",
-      "value": null,
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "value": 0.75,
+      "valueStatus": "single",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
       "image": "images/king-legacy/gravity-fruit.webp",
-      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "priceQuotes": [
+        {
+          "id": "vvx-king",
+          "name": "VVX 공개 가치표",
+          "url": "https://king-legacy.vaultedvaluesx.com/value-list",
+          "value": 0.75,
+          "unit": "목록 참고가치",
+          "unitVerified": false,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:38+09:00"
+        }
+      ],
+      "rarityStatus": "verified",
+      "rarityBasis": "item",
+      "raritySourceIds": [
+        "fruits"
+      ],
+      "historicalQuotes": [
         {
           "id": "pgg-king-legacy",
           "name": "Pro Game Guides",
@@ -744,24 +1086,38 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "rarityStatus": "verified",
-      "rarityBasis": "item",
-      "raritySourceIds": [
-        "fruits"
-      ]
+      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
+      "priceValidUntil": "2026-11-21T20:01:38+09:00"
     },
     {
       "id": "dark-fruit",
       "name": "Dark Fruit",
       "category": "열매",
       "rarity": "Rare",
-      "value": null,
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "value": 0.75,
+      "valueStatus": "single",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
       "image": "images/king-legacy/dark-fruit.webp",
-      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "priceQuotes": [
+        {
+          "id": "vvx-king",
+          "name": "VVX 공개 가치표",
+          "url": "https://king-legacy.vaultedvaluesx.com/value-list",
+          "value": 0.75,
+          "unit": "목록 참고가치",
+          "unitVerified": false,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:38+09:00"
+        }
+      ],
+      "rarityStatus": "verified",
+      "rarityBasis": "item",
+      "raritySourceIds": [
+        "fruits"
+      ],
+      "historicalQuotes": [
         {
           "id": "pgg-king-legacy",
           "name": "Pro Game Guides",
@@ -773,24 +1129,39 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "rarityStatus": "verified",
-      "rarityBasis": "item",
-      "raritySourceIds": [
-        "fruits"
-      ]
+      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
+      "priceValidUntil": "2026-11-21T20:01:38+09:00"
     },
     {
       "id": "noirceur",
       "name": "Noirceur",
       "category": "무기",
       "rarity": "Epic",
-      "value": null,
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "value": 4500,
+      "valueStatus": "single",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
       "image": "images/king-legacy/noirceur.webp",
-      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "priceQuotes": [
+        {
+          "id": "vvx-king",
+          "name": "VVX 공개 가치표",
+          "url": "https://king-legacy.vaultedvaluesx.com/value-list",
+          "value": 4500,
+          "unit": "목록 참고가치",
+          "unitVerified": false,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:38+09:00"
+        }
+      ],
+      "rarityStatus": "verified",
+      "rarityBasis": "item",
+      "raritySourceIds": [
+        "swords",
+        "bloxodes-swords"
+      ],
+      "historicalQuotes": [
         {
           "id": "pgg-king-legacy",
           "name": "Pro Game Guides",
@@ -802,25 +1173,39 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "rarityStatus": "verified",
-      "rarityBasis": "item",
-      "raritySourceIds": [
-        "swords",
-        "bloxodes-swords"
-      ]
+      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
+      "priceValidUntil": "2026-11-21T20:01:38+09:00"
     },
     {
       "id": "cerulean-blossom",
       "name": "Cerulean Blossom",
       "category": "무기",
       "rarity": "Epic",
-      "value": null,
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "value": 2100,
+      "valueStatus": "single",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
       "image": "images/king-legacy/cerulean-blossom.webp",
-      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "priceQuotes": [
+        {
+          "id": "vvx-king",
+          "name": "VVX 공개 가치표",
+          "url": "https://king-legacy.vaultedvaluesx.com/value-list",
+          "value": 2100,
+          "unit": "목록 참고가치",
+          "unitVerified": false,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:38+09:00"
+        }
+      ],
+      "rarityStatus": "verified",
+      "rarityBasis": "item",
+      "raritySourceIds": [
+        "swords",
+        "bloxodes-swords"
+      ],
+      "historicalQuotes": [
         {
           "id": "pgg-king-legacy",
           "name": "Pro Game Guides",
@@ -832,25 +1217,39 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "rarityStatus": "verified",
-      "rarityBasis": "item",
-      "raritySourceIds": [
-        "swords",
-        "bloxodes-swords"
-      ]
+      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
+      "priceValidUntil": "2026-11-21T20:01:38+09:00"
     },
     {
       "id": "ancient-sword",
       "name": "Ancient Sword",
       "category": "무기",
       "rarity": "Epic",
-      "value": null,
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "value": 350,
+      "valueStatus": "single",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
       "image": "images/king-legacy/ancient-sword.webp",
-      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "priceQuotes": [
+        {
+          "id": "vvx-king",
+          "name": "VVX 공개 가치표",
+          "url": "https://king-legacy.vaultedvaluesx.com/value-list",
+          "value": 350,
+          "unit": "목록 참고가치",
+          "unitVerified": false,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:38+09:00"
+        }
+      ],
+      "rarityStatus": "verified",
+      "rarityBasis": "item",
+      "raritySourceIds": [
+        "swords",
+        "bloxodes-swords"
+      ],
+      "historicalQuotes": [
         {
           "id": "pgg-king-legacy",
           "name": "Pro Game Guides",
@@ -862,12 +1261,8 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "rarityStatus": "verified",
-      "rarityBasis": "item",
-      "raritySourceIds": [
-        "swords",
-        "bloxodes-swords"
-      ]
+      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
+      "priceValidUntil": "2026-11-21T20:01:38+09:00"
     },
     {
       "id": "true-muramasa",
@@ -876,11 +1271,18 @@
       "rarity": "Legendary",
       "value": null,
       "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
       "image": "images/king-legacy/true-muramasa.webp",
-      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
-      "priceQuotes": [
+      "note": "현재 원문에 확인되는 숫자 없음 · 합산 보류",
+      "priceQuotes": [],
+      "rarityStatus": "verified",
+      "rarityBasis": "item",
+      "raritySourceIds": [
+        "central-swords",
+        "namu-swords"
+      ],
+      "historicalQuotes": [
         {
           "id": "pgg-king-legacy",
           "name": "Pro Game Guides",
@@ -892,25 +1294,39 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "rarityStatus": "verified",
-      "rarityBasis": "item",
-      "raritySourceIds": [
-        "central-swords",
-        "namu-swords"
-      ]
+      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
+      "priceValidUntil": null
     },
     {
       "id": "abyssal-crab-axe",
       "name": "Abyssal Crab Axe",
       "category": "무기",
       "rarity": "Legendary",
-      "value": null,
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "value": 30,
+      "valueStatus": "single",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
       "image": "images/king-legacy/abyssal-crab-axe.webp",
-      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "priceQuotes": [
+        {
+          "id": "vvx-king",
+          "name": "VVX 공개 가치표",
+          "url": "https://king-legacy.vaultedvaluesx.com/value-list",
+          "value": 30,
+          "unit": "목록 참고가치",
+          "unitVerified": false,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:38+09:00"
+        }
+      ],
+      "rarityStatus": "verified",
+      "rarityBasis": "item",
+      "raritySourceIds": [
+        "swords",
+        "bloxodes-swords"
+      ],
+      "historicalQuotes": [
         {
           "id": "pgg-king-legacy",
           "name": "Pro Game Guides",
@@ -922,12 +1338,8 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "rarityStatus": "verified",
-      "rarityBasis": "item",
-      "raritySourceIds": [
-        "swords",
-        "bloxodes-swords"
-      ]
+      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
+      "priceValidUntil": "2026-11-21T20:01:38+09:00"
     },
     {
       "id": "dread-broom",
@@ -936,11 +1348,17 @@
       "rarity": "Limited",
       "value": null,
       "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
       "image": "images/king-legacy/dread-broom.webp",
-      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
-      "priceQuotes": [
+      "note": "현재 원문에 확인되는 숫자 없음 · 합산 보류",
+      "priceQuotes": [],
+      "rarityStatus": "verified",
+      "rarityBasis": "item",
+      "raritySourceIds": [
+        "bloxodes-swords"
+      ],
+      "historicalQuotes": [
         {
           "id": "pgg-king-legacy",
           "name": "Pro Game Guides",
@@ -952,24 +1370,39 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "rarityStatus": "verified",
-      "rarityBasis": "item",
-      "raritySourceIds": [
-        "bloxodes-swords"
-      ]
+      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
+      "priceValidUntil": null
     },
     {
       "id": "ethereal",
       "name": "Ethereal",
       "category": "무기",
       "rarity": "Legendary",
-      "value": null,
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "value": 4.5,
+      "valueStatus": "single",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
       "image": "images/king-legacy/ethereal.webp",
-      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "priceQuotes": [
+        {
+          "id": "vvx-king",
+          "name": "VVX 공개 가치표",
+          "url": "https://king-legacy.vaultedvaluesx.com/value-list",
+          "value": 4.5,
+          "unit": "목록 참고가치",
+          "unitVerified": false,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:38+09:00"
+        }
+      ],
+      "rarityStatus": "verified",
+      "rarityBasis": "item",
+      "raritySourceIds": [
+        "swords",
+        "bloxodes-swords"
+      ],
+      "historicalQuotes": [
         {
           "id": "pgg-king-legacy",
           "name": "Pro Game Guides",
@@ -981,25 +1414,39 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "rarityStatus": "verified",
-      "rarityBasis": "item",
-      "raritySourceIds": [
-        "swords",
-        "bloxodes-swords"
-      ]
+      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
+      "priceValidUntil": "2026-11-21T20:01:38+09:00"
     },
     {
       "id": "phoenix-blade",
       "name": "Phoenix Blade",
       "category": "무기",
       "rarity": "Epic",
-      "value": null,
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "value": 4.5,
+      "valueStatus": "single",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
       "image": "images/king-legacy/phoenix-blade.webp",
-      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "priceQuotes": [
+        {
+          "id": "vvx-king",
+          "name": "VVX 공개 가치표",
+          "url": "https://king-legacy.vaultedvaluesx.com/value-list",
+          "value": 4.5,
+          "unit": "목록 참고가치",
+          "unitVerified": false,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:38+09:00"
+        }
+      ],
+      "rarityStatus": "verified",
+      "rarityBasis": "item",
+      "raritySourceIds": [
+        "swords",
+        "bloxodes-swords"
+      ],
+      "historicalQuotes": [
         {
           "id": "pgg-king-legacy",
           "name": "Pro Game Guides",
@@ -1011,25 +1458,39 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "rarityStatus": "verified",
-      "rarityBasis": "item",
-      "raritySourceIds": [
-        "swords",
-        "bloxodes-swords"
-      ]
+      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
+      "priceValidUntil": "2026-11-21T20:01:38+09:00"
     },
     {
       "id": "acroscythe",
       "name": "Acroscythe",
       "category": "무기",
       "rarity": "Legendary",
-      "value": null,
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "value": 4,
+      "valueStatus": "single",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
       "image": "images/king-legacy/acroscythe.webp",
-      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "priceQuotes": [
+        {
+          "id": "vvx-king",
+          "name": "VVX 공개 가치표",
+          "url": "https://king-legacy.vaultedvaluesx.com/value-list",
+          "value": 4,
+          "unit": "목록 참고가치",
+          "unitVerified": false,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:38+09:00"
+        }
+      ],
+      "rarityStatus": "verified",
+      "rarityBasis": "item",
+      "raritySourceIds": [
+        "swords",
+        "bloxodes-swords"
+      ],
+      "historicalQuotes": [
         {
           "id": "pgg-king-legacy",
           "name": "Pro Game Guides",
@@ -1041,25 +1502,39 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "rarityStatus": "verified",
-      "rarityBasis": "item",
-      "raritySourceIds": [
-        "swords",
-        "bloxodes-swords"
-      ]
+      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
+      "priceValidUntil": "2026-11-21T20:01:38+09:00"
     },
     {
       "id": "scepter-of-flames",
       "name": "Scepter of Flames",
       "category": "무기",
       "rarity": "Epic",
-      "value": null,
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "value": 7,
+      "valueStatus": "single",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
       "image": "images/king-legacy/scepter-of-flames.webp",
-      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "priceQuotes": [
+        {
+          "id": "vvx-king",
+          "name": "VVX 공개 가치표",
+          "url": "https://king-legacy.vaultedvaluesx.com/value-list",
+          "value": 7,
+          "unit": "목록 참고가치",
+          "unitVerified": false,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:38+09:00"
+        }
+      ],
+      "rarityStatus": "verified",
+      "rarityBasis": "item",
+      "raritySourceIds": [
+        "swords",
+        "bloxodes-swords"
+      ],
+      "historicalQuotes": [
         {
           "id": "pgg-king-legacy",
           "name": "Pro Game Guides",
@@ -1071,25 +1546,39 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "rarityStatus": "verified",
-      "rarityBasis": "item",
-      "raritySourceIds": [
-        "swords",
-        "bloxodes-swords"
-      ]
+      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
+      "priceValidUntil": "2026-11-21T20:01:38+09:00"
     },
     {
       "id": "authentic-triple-katana",
       "name": "Authentic Triple Katana",
       "category": "무기",
       "rarity": "Legendary",
-      "value": null,
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "value": 3.5,
+      "valueStatus": "single",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
       "image": "images/king-legacy/authentic-triple-katana.webp",
-      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "priceQuotes": [
+        {
+          "id": "vvx-king",
+          "name": "VVX 공개 가치표",
+          "url": "https://king-legacy.vaultedvaluesx.com/value-list",
+          "value": 3.5,
+          "unit": "목록 참고가치",
+          "unitVerified": false,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:38+09:00"
+        }
+      ],
+      "rarityStatus": "verified",
+      "rarityBasis": "item",
+      "raritySourceIds": [
+        "swords",
+        "bloxodes-swords"
+      ],
+      "historicalQuotes": [
         {
           "id": "pgg-king-legacy",
           "name": "Pro Game Guides",
@@ -1101,25 +1590,39 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "rarityStatus": "verified",
-      "rarityBasis": "item",
-      "raritySourceIds": [
-        "swords",
-        "bloxodes-swords"
-      ]
+      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
+      "priceValidUntil": "2026-11-21T20:01:38+09:00"
     },
     {
       "id": "avalon",
       "name": "Avalon",
       "category": "무기",
       "rarity": "Legendary",
-      "value": null,
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "value": 1,
+      "valueStatus": "single",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
       "image": "images/king-legacy/avalon.webp",
-      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "priceQuotes": [
+        {
+          "id": "vvx-king",
+          "name": "VVX 공개 가치표",
+          "url": "https://king-legacy.vaultedvaluesx.com/value-list",
+          "value": 1,
+          "unit": "목록 참고가치",
+          "unitVerified": false,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:38+09:00"
+        }
+      ],
+      "rarityStatus": "verified",
+      "rarityBasis": "item",
+      "raritySourceIds": [
+        "swords",
+        "bloxodes-swords"
+      ],
+      "historicalQuotes": [
         {
           "id": "pgg-king-legacy",
           "name": "Pro Game Guides",
@@ -1131,25 +1634,39 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "rarityStatus": "verified",
-      "rarityBasis": "item",
-      "raritySourceIds": [
-        "swords",
-        "bloxodes-swords"
-      ]
+      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
+      "priceValidUntil": "2026-11-21T20:01:38+09:00"
     },
     {
       "id": "longaevus",
       "name": "Longaevus",
       "category": "무기",
       "rarity": "Legendary",
-      "value": null,
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "value": 1,
+      "valueStatus": "single",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
       "image": "images/king-legacy/longaevus.webp",
-      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "priceQuotes": [
+        {
+          "id": "vvx-king",
+          "name": "VVX 공개 가치표",
+          "url": "https://king-legacy.vaultedvaluesx.com/value-list",
+          "value": 1,
+          "unit": "목록 참고가치",
+          "unitVerified": false,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:38+09:00"
+        }
+      ],
+      "rarityStatus": "verified",
+      "rarityBasis": "item",
+      "raritySourceIds": [
+        "swords",
+        "bloxodes-swords"
+      ],
+      "historicalQuotes": [
         {
           "id": "pgg-king-legacy",
           "name": "Pro Game Guides",
@@ -1161,25 +1678,39 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "rarityStatus": "verified",
-      "rarityBasis": "item",
-      "raritySourceIds": [
-        "swords",
-        "bloxodes-swords"
-      ]
+      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
+      "priceValidUntil": "2026-11-21T20:01:38+09:00"
     },
     {
       "id": "daybreak-cleaver",
       "name": "Daybreak Cleaver",
       "category": "무기",
       "rarity": "Epic",
-      "value": null,
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "value": 1,
+      "valueStatus": "single",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
       "image": "images/king-legacy/daybreak-cleaver.webp",
-      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "priceQuotes": [
+        {
+          "id": "vvx-king",
+          "name": "VVX 공개 가치표",
+          "url": "https://king-legacy.vaultedvaluesx.com/value-list",
+          "value": 1,
+          "unit": "목록 참고가치",
+          "unitVerified": false,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:38+09:00"
+        }
+      ],
+      "rarityStatus": "verified",
+      "rarityBasis": "item",
+      "raritySourceIds": [
+        "swords",
+        "bloxodes-swords"
+      ],
+      "historicalQuotes": [
         {
           "id": "pgg-king-legacy",
           "name": "Pro Game Guides",
@@ -1191,25 +1722,39 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "rarityStatus": "verified",
-      "rarityBasis": "item",
-      "raritySourceIds": [
-        "swords",
-        "bloxodes-swords"
-      ]
+      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
+      "priceValidUntil": "2026-11-21T20:01:38+09:00"
     },
     {
       "id": "aquatic-anchor",
       "name": "Aquatic Anchor",
       "category": "무기",
       "rarity": "Epic",
-      "value": null,
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "value": 1,
+      "valueStatus": "single",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
       "image": "images/king-legacy/aquatic-anchor.webp",
-      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "priceQuotes": [
+        {
+          "id": "vvx-king",
+          "name": "VVX 공개 가치표",
+          "url": "https://king-legacy.vaultedvaluesx.com/value-list",
+          "value": 1,
+          "unit": "목록 참고가치",
+          "unitVerified": false,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:38+09:00"
+        }
+      ],
+      "rarityStatus": "verified",
+      "rarityBasis": "item",
+      "raritySourceIds": [
+        "swords",
+        "bloxodes-swords"
+      ],
+      "historicalQuotes": [
         {
           "id": "pgg-king-legacy",
           "name": "Pro Game Guides",
@@ -1221,25 +1766,38 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "rarityStatus": "verified",
-      "rarityBasis": "item",
-      "raritySourceIds": [
-        "swords",
-        "bloxodes-swords"
-      ]
+      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
+      "priceValidUntil": "2026-11-21T20:01:38+09:00"
     },
     {
       "id": "dragon-band",
       "name": "Dragon Band",
       "category": "장비",
       "rarity": "Legendary",
-      "value": null,
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "value": 350,
+      "valueStatus": "single",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
       "image": "images/king-legacy/dragon-band.webp",
-      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "priceQuotes": [
+        {
+          "id": "vvx-king",
+          "name": "VVX 공개 가치표",
+          "url": "https://king-legacy.vaultedvaluesx.com/value-list",
+          "value": 350,
+          "unit": "목록 참고가치",
+          "unitVerified": false,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:38+09:00"
+        }
+      ],
+      "rarityStatus": "verified",
+      "rarityBasis": "item",
+      "raritySourceIds": [
+        "accessories"
+      ],
+      "historicalQuotes": [
         {
           "id": "pgg-king-legacy",
           "name": "Pro Game Guides",
@@ -1251,24 +1809,38 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "rarityStatus": "verified",
-      "rarityBasis": "item",
-      "raritySourceIds": [
-        "accessories"
-      ]
+      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
+      "priceValidUntil": "2026-11-21T20:01:38+09:00"
     },
     {
       "id": "crustacean-armor",
       "name": "Crustacean Armor",
       "category": "장비",
       "rarity": "Legendary",
-      "value": null,
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "value": 120,
+      "valueStatus": "single",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
       "image": "images/king-legacy/crustacean-armor.webp",
-      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "priceQuotes": [
+        {
+          "id": "vvx-king",
+          "name": "VVX 공개 가치표",
+          "url": "https://king-legacy.vaultedvaluesx.com/value-list",
+          "value": 120,
+          "unit": "목록 참고가치",
+          "unitVerified": false,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:38+09:00"
+        }
+      ],
+      "rarityStatus": "verified",
+      "rarityBasis": "item",
+      "raritySourceIds": [
+        "accessories"
+      ],
+      "historicalQuotes": [
         {
           "id": "pgg-king-legacy",
           "name": "Pro Game Guides",
@@ -1280,24 +1852,40 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "rarityStatus": "verified",
-      "rarityBasis": "item",
-      "raritySourceIds": [
-        "accessories"
-      ]
+      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
+      "priceValidUntil": "2026-11-21T20:01:38+09:00"
     },
     {
       "id": "exp-crown",
       "name": "EXP Crown",
       "category": "장비",
       "rarity": "Limited",
-      "value": null,
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "value": 200,
+      "valueStatus": "single",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
       "image": "images/king-legacy/exp-crown.webp",
-      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "priceQuotes": [
+        {
+          "id": "vvx-king",
+          "name": "VVX 공개 가치표",
+          "url": "https://king-legacy.vaultedvaluesx.com/value-list",
+          "value": 200,
+          "unit": "목록 참고가치",
+          "unitVerified": false,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:38+09:00"
+        }
+      ],
+      "rarityStatus": "verified",
+      "rarityBasis": "item",
+      "raritySourceIds": [
+        "accessories",
+        "wiki-limited",
+        "wiki-exp"
+      ],
+      "historicalQuotes": [
         {
           "id": "pgg-king-legacy",
           "name": "Pro Game Guides",
@@ -1309,26 +1897,38 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "rarityStatus": "verified",
-      "rarityBasis": "item",
-      "raritySourceIds": [
-        "accessories",
-        "wiki-limited",
-        "wiki-exp"
-      ]
+      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
+      "priceValidUntil": "2026-11-21T20:01:38+09:00"
     },
     {
       "id": "water-kimono",
       "name": "Water Kimono",
       "category": "장비",
       "rarity": "Epic",
-      "value": null,
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "value": 42.5,
+      "valueStatus": "single",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
       "image": "images/king-legacy/water-kimono.webp",
-      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "priceQuotes": [
+        {
+          "id": "vvx-king",
+          "name": "VVX 공개 가치표",
+          "url": "https://king-legacy.vaultedvaluesx.com/value-list",
+          "value": 42.5,
+          "unit": "목록 참고가치",
+          "unitVerified": false,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:38+09:00"
+        }
+      ],
+      "rarityStatus": "verified",
+      "rarityBasis": "item",
+      "raritySourceIds": [
+        "accessories"
+      ],
+      "historicalQuotes": [
         {
           "id": "pgg-king-legacy",
           "name": "Pro Game Guides",
@@ -1340,24 +1940,38 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "rarityStatus": "verified",
-      "rarityBasis": "item",
-      "raritySourceIds": [
-        "accessories"
-      ]
+      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
+      "priceValidUntil": "2026-11-21T20:01:38+09:00"
     },
     {
       "id": "drakenfyr-cape",
       "name": "Drakenfyr Cape",
       "category": "장비",
       "rarity": "Legendary",
-      "value": null,
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "value": 13,
+      "valueStatus": "single",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
       "image": "images/king-legacy/drakenfyr-cape.webp",
-      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "priceQuotes": [
+        {
+          "id": "vvx-king",
+          "name": "VVX 공개 가치표",
+          "url": "https://king-legacy.vaultedvaluesx.com/value-list",
+          "value": 13,
+          "unit": "목록 참고가치",
+          "unitVerified": false,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:38+09:00"
+        }
+      ],
+      "rarityStatus": "verified",
+      "rarityBasis": "item",
+      "raritySourceIds": [
+        "accessories"
+      ],
+      "historicalQuotes": [
         {
           "id": "pgg-king-legacy",
           "name": "Pro Game Guides",
@@ -1369,24 +1983,38 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "rarityStatus": "verified",
-      "rarityBasis": "item",
-      "raritySourceIds": [
-        "accessories"
-      ]
+      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
+      "priceValidUntil": "2026-11-21T20:01:38+09:00"
     },
     {
       "id": "night-necklace",
       "name": "Night Necklace",
       "category": "장비",
       "rarity": "Legendary",
-      "value": null,
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "value": 19,
+      "valueStatus": "single",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
       "image": "images/king-legacy/night-necklace.webp",
-      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "priceQuotes": [
+        {
+          "id": "vvx-king",
+          "name": "VVX 공개 가치표",
+          "url": "https://king-legacy.vaultedvaluesx.com/value-list",
+          "value": 19,
+          "unit": "목록 참고가치",
+          "unitVerified": false,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:38+09:00"
+        }
+      ],
+      "rarityStatus": "verified",
+      "rarityBasis": "item",
+      "raritySourceIds": [
+        "accessories"
+      ],
+      "historicalQuotes": [
         {
           "id": "pgg-king-legacy",
           "name": "Pro Game Guides",
@@ -1398,24 +2026,38 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "rarityStatus": "verified",
-      "rarityBasis": "item",
-      "raritySourceIds": [
-        "accessories"
-      ]
+      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
+      "priceValidUntil": "2026-11-21T20:01:38+09:00"
     },
     {
       "id": "oceanic-tanto",
       "name": "Oceanic tanto",
       "category": "장비",
       "rarity": "Legendary",
-      "value": null,
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "value": 12,
+      "valueStatus": "single",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
       "image": "images/king-legacy/oceanic-tanto.webp",
-      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "priceQuotes": [
+        {
+          "id": "vvx-king",
+          "name": "VVX 공개 가치표",
+          "url": "https://king-legacy.vaultedvaluesx.com/value-list",
+          "value": 12,
+          "unit": "목록 참고가치",
+          "unitVerified": false,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:38+09:00"
+        }
+      ],
+      "rarityStatus": "verified",
+      "rarityBasis": "item",
+      "raritySourceIds": [
+        "accessories"
+      ],
+      "historicalQuotes": [
         {
           "id": "pgg-king-legacy",
           "name": "Pro Game Guides",
@@ -1427,24 +2069,38 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "rarityStatus": "verified",
-      "rarityBasis": "item",
-      "raritySourceIds": [
-        "accessories"
-      ]
+      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
+      "priceValidUntil": "2026-11-21T20:01:38+09:00"
     },
     {
       "id": "dominion-cloak",
       "name": "Dominion Cloak",
       "category": "장비",
       "rarity": "Legendary",
-      "value": null,
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "value": 10,
+      "valueStatus": "single",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
       "image": "images/king-legacy/dominion-cloak.webp",
-      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "priceQuotes": [
+        {
+          "id": "vvx-king",
+          "name": "VVX 공개 가치표",
+          "url": "https://king-legacy.vaultedvaluesx.com/value-list",
+          "value": 10,
+          "unit": "목록 참고가치",
+          "unitVerified": false,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:38+09:00"
+        }
+      ],
+      "rarityStatus": "verified",
+      "rarityBasis": "item",
+      "raritySourceIds": [
+        "accessories"
+      ],
+      "historicalQuotes": [
         {
           "id": "pgg-king-legacy",
           "name": "Pro Game Guides",
@@ -1456,24 +2112,38 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "rarityStatus": "verified",
-      "rarityBasis": "item",
-      "raritySourceIds": [
-        "accessories"
-      ]
+      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
+      "priceValidUntil": "2026-11-21T20:01:38+09:00"
     },
     {
       "id": "inferno-cloak",
       "name": "Inferno Cloak",
       "category": "장비",
       "rarity": "Legendary",
-      "value": null,
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "value": 4,
+      "valueStatus": "single",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
       "image": "images/king-legacy/inferno-cloak.webp",
-      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "priceQuotes": [
+        {
+          "id": "vvx-king",
+          "name": "VVX 공개 가치표",
+          "url": "https://king-legacy.vaultedvaluesx.com/value-list",
+          "value": 4,
+          "unit": "목록 참고가치",
+          "unitVerified": false,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:38+09:00"
+        }
+      ],
+      "rarityStatus": "verified",
+      "rarityBasis": "item",
+      "raritySourceIds": [
+        "accessories"
+      ],
+      "historicalQuotes": [
         {
           "id": "pgg-king-legacy",
           "name": "Pro Game Guides",
@@ -1485,24 +2155,38 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "rarityStatus": "verified",
-      "rarityBasis": "item",
-      "raritySourceIds": [
-        "accessories"
-      ]
+      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
+      "priceValidUntil": "2026-11-21T20:01:38+09:00"
     },
     {
       "id": "floffy-glasses",
       "name": "Floffy Glasses",
       "category": "장비",
       "rarity": "Legendary",
-      "value": null,
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "value": 4,
+      "valueStatus": "single",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
       "image": "images/king-legacy/floffy-glasses.webp",
-      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "priceQuotes": [
+        {
+          "id": "vvx-king",
+          "name": "VVX 공개 가치표",
+          "url": "https://king-legacy.vaultedvaluesx.com/value-list",
+          "value": 4,
+          "unit": "목록 참고가치",
+          "unitVerified": false,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:38+09:00"
+        }
+      ],
+      "rarityStatus": "verified",
+      "rarityBasis": "item",
+      "raritySourceIds": [
+        "accessories"
+      ],
+      "historicalQuotes": [
         {
           "id": "pgg-king-legacy",
           "name": "Pro Game Guides",
@@ -1514,33 +2198,30 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "rarityStatus": "verified",
-      "rarityBasis": "item",
-      "raritySourceIds": [
-        "accessories"
-      ]
+      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
+      "priceValidUntil": "2026-11-21T20:01:38+09:00"
     },
     {
       "id": "glacies-shoulder",
       "name": "Glacies Shoulder",
       "category": "장비",
       "rarity": "Limited",
-      "value": null,
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "value": 4,
+      "valueStatus": "single",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
       "image": "images/king-legacy/glacies-shoulder.webp",
-      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "priceQuotes": [
         {
-          "id": "pgg-king-legacy",
-          "name": "Pro Game Guides",
-          "url": "https://progameguides.com/roblox/king-legacy-trading-value-list-roblox/",
-          "low": 2.5,
-          "high": 4.0,
-          "unit": "Fins",
-          "publishedAt": "2026-11-09",
-          "observedAt": "2026-11-14T18:38:17+09:00"
+          "id": "vvx-king",
+          "name": "VVX 공개 가치표",
+          "url": "https://king-legacy.vaultedvaluesx.com/value-list",
+          "value": 4,
+          "unit": "목록 참고가치",
+          "unitVerified": false,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:38+09:00"
         }
       ],
       "rarityStatus": "verified",
@@ -1549,20 +2230,52 @@
         "accessories",
         "wiki-limited",
         "wiki-glacies"
-      ]
+      ],
+      "historicalQuotes": [
+        {
+          "id": "pgg-king-legacy",
+          "name": "Pro Game Guides",
+          "url": "https://progameguides.com/roblox/king-legacy-trading-value-list-roblox/",
+          "low": 2.5,
+          "high": 4.0,
+          "unit": "Fins",
+          "publishedAt": "2026-11-09",
+          "observedAt": "2026-11-14T18:38:17+09:00"
+        }
+      ],
+      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
+      "priceValidUntil": "2026-11-21T20:01:38+09:00"
     },
     {
       "id": "nativitatis",
       "name": "Nativitatis",
       "category": "장비",
       "rarity": "Limited",
-      "value": null,
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "value": 4,
+      "valueStatus": "single",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
       "image": "images/king-legacy/nativitatis.webp",
-      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "priceQuotes": [
+        {
+          "id": "vvx-king",
+          "name": "VVX 공개 가치표",
+          "url": "https://king-legacy.vaultedvaluesx.com/value-list",
+          "value": 4,
+          "unit": "목록 참고가치",
+          "unitVerified": false,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:38+09:00"
+        }
+      ],
+      "rarityStatus": "verified",
+      "rarityBasis": "item",
+      "raritySourceIds": [
+        "accessories",
+        "wiki-limited"
+      ],
+      "historicalQuotes": [
         {
           "id": "pgg-king-legacy",
           "name": "Pro Game Guides",
@@ -1574,25 +2287,39 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "rarityStatus": "verified",
-      "rarityBasis": "item",
-      "raritySourceIds": [
-        "accessories",
-        "wiki-limited"
-      ]
+      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
+      "priceValidUntil": "2026-11-21T20:01:38+09:00"
     },
     {
       "id": "green-dryadalis",
       "name": "Green Dryadalis",
       "category": "장비",
       "rarity": "Limited",
-      "value": null,
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "value": 4,
+      "valueStatus": "single",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
       "image": "images/king-legacy/green-dryadalis.webp",
-      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "priceQuotes": [
+        {
+          "id": "vvx-king",
+          "name": "VVX 공개 가치표",
+          "url": "https://king-legacy.vaultedvaluesx.com/value-list",
+          "value": 4,
+          "unit": "목록 참고가치",
+          "unitVerified": false,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:38+09:00"
+        }
+      ],
+      "rarityStatus": "verified",
+      "rarityBasis": "item",
+      "raritySourceIds": [
+        "accessories",
+        "wiki-limited"
+      ],
+      "historicalQuotes": [
         {
           "id": "pgg-king-legacy",
           "name": "Pro Game Guides",
@@ -1604,25 +2331,39 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "rarityStatus": "verified",
-      "rarityBasis": "item",
-      "raritySourceIds": [
-        "accessories",
-        "wiki-limited"
-      ]
+      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
+      "priceValidUntil": "2026-11-21T20:01:38+09:00"
     },
     {
       "id": "cervus",
       "name": "Cervus",
       "category": "장비",
       "rarity": "Limited",
-      "value": null,
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "value": 4,
+      "valueStatus": "single",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
       "image": "images/king-legacy/cervus.webp",
-      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "priceQuotes": [
+        {
+          "id": "vvx-king",
+          "name": "VVX 공개 가치표",
+          "url": "https://king-legacy.vaultedvaluesx.com/value-list",
+          "value": 4,
+          "unit": "목록 참고가치",
+          "unitVerified": false,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:38+09:00"
+        }
+      ],
+      "rarityStatus": "verified",
+      "rarityBasis": "item",
+      "raritySourceIds": [
+        "accessories",
+        "wiki-limited"
+      ],
+      "historicalQuotes": [
         {
           "id": "pgg-king-legacy",
           "name": "Pro Game Guides",
@@ -1634,25 +2375,38 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "rarityStatus": "verified",
-      "rarityBasis": "item",
-      "raritySourceIds": [
-        "accessories",
-        "wiki-limited"
-      ]
+      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
+      "priceValidUntil": "2026-11-21T20:01:38+09:00"
     },
     {
       "id": "dark-beard-hat",
       "name": "Dark Beard Hat",
       "category": "장비",
       "rarity": "Legendary",
-      "value": null,
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "value": 3.5,
+      "valueStatus": "single",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
       "image": "images/king-legacy/dark-beard-hat.webp",
-      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "priceQuotes": [
+        {
+          "id": "vvx-king",
+          "name": "VVX 공개 가치표",
+          "url": "https://king-legacy.vaultedvaluesx.com/value-list",
+          "value": 3.5,
+          "unit": "목록 참고가치",
+          "unitVerified": false,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:38+09:00"
+        }
+      ],
+      "rarityStatus": "verified",
+      "rarityBasis": "item",
+      "raritySourceIds": [
+        "accessories"
+      ],
+      "historicalQuotes": [
         {
           "id": "pgg-king-legacy",
           "name": "Pro Game Guides",
@@ -1664,24 +2418,38 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "rarityStatus": "verified",
-      "rarityBasis": "item",
-      "raritySourceIds": [
-        "accessories"
-      ]
+      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
+      "priceValidUntil": "2026-11-21T20:01:38+09:00"
     },
     {
       "id": "abyss-sentinel-armor",
       "name": "Abyss Sentinel Armor",
       "category": "장비",
       "rarity": "Epic",
-      "value": null,
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "value": 2,
+      "valueStatus": "single",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
       "image": "images/king-legacy/abyss-sentinel-armor.webp",
-      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "priceQuotes": [
+        {
+          "id": "vvx-king",
+          "name": "VVX 공개 가치표",
+          "url": "https://king-legacy.vaultedvaluesx.com/value-list",
+          "value": 2,
+          "unit": "목록 참고가치",
+          "unitVerified": false,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:38+09:00"
+        }
+      ],
+      "rarityStatus": "verified",
+      "rarityBasis": "item",
+      "raritySourceIds": [
+        "accessories"
+      ],
+      "historicalQuotes": [
         {
           "id": "pgg-king-legacy",
           "name": "Pro Game Guides",
@@ -1693,24 +2461,38 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "rarityStatus": "verified",
-      "rarityBasis": "item",
-      "raritySourceIds": [
-        "accessories"
-      ]
+      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
+      "priceValidUntil": "2026-11-21T20:01:38+09:00"
     },
     {
       "id": "metal-fin",
       "name": "Metal Fin",
       "category": "장비",
       "rarity": "Epic",
-      "value": null,
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "value": 1.5,
+      "valueStatus": "single",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
       "image": "images/king-legacy/metal-fin.webp",
-      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "priceQuotes": [
+        {
+          "id": "vvx-king",
+          "name": "VVX 공개 가치표",
+          "url": "https://king-legacy.vaultedvaluesx.com/value-list",
+          "value": 1.5,
+          "unit": "목록 참고가치",
+          "unitVerified": false,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:38+09:00"
+        }
+      ],
+      "rarityStatus": "verified",
+      "rarityBasis": "item",
+      "raritySourceIds": [
+        "accessories"
+      ],
+      "historicalQuotes": [
         {
           "id": "pgg-king-legacy",
           "name": "Pro Game Guides",
@@ -1722,24 +2504,38 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "rarityStatus": "verified",
-      "rarityBasis": "item",
-      "raritySourceIds": [
-        "accessories"
-      ]
+      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
+      "priceValidUntil": "2026-11-21T20:01:38+09:00"
     },
     {
       "id": "oceanic-tentacle",
       "name": "Oceanic Tentacle",
       "category": "장비",
       "rarity": "Epic",
-      "value": null,
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "value": 1,
+      "valueStatus": "single",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
       "image": "images/king-legacy/oceanic-tentacle.webp",
-      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "priceQuotes": [
+        {
+          "id": "vvx-king",
+          "name": "VVX 공개 가치표",
+          "url": "https://king-legacy.vaultedvaluesx.com/value-list",
+          "value": 1,
+          "unit": "목록 참고가치",
+          "unitVerified": false,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:38+09:00"
+        }
+      ],
+      "rarityStatus": "verified",
+      "rarityBasis": "item",
+      "raritySourceIds": [
+        "accessories"
+      ],
+      "historicalQuotes": [
         {
           "id": "pgg-king-legacy",
           "name": "Pro Game Guides",
@@ -1751,24 +2547,38 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "rarityStatus": "verified",
-      "rarityBasis": "item",
-      "raritySourceIds": [
-        "accessories"
-      ]
+      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
+      "priceValidUntil": "2026-11-21T20:01:38+09:00"
     },
     {
       "id": "tomoe-taiko",
       "name": "Tomoe Taiko",
       "category": "장비",
       "rarity": "Epic",
-      "value": null,
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "value": 1,
+      "valueStatus": "single",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
       "image": "images/king-legacy/tomoe-taiko.webp",
-      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "priceQuotes": [
+        {
+          "id": "vvx-king",
+          "name": "VVX 공개 가치표",
+          "url": "https://king-legacy.vaultedvaluesx.com/value-list",
+          "value": 1,
+          "unit": "목록 참고가치",
+          "unitVerified": false,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:38+09:00"
+        }
+      ],
+      "rarityStatus": "verified",
+      "rarityBasis": "item",
+      "raritySourceIds": [
+        "accessories"
+      ],
+      "historicalQuotes": [
         {
           "id": "pgg-king-legacy",
           "name": "Pro Game Guides",
@@ -1780,24 +2590,38 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "rarityStatus": "verified",
-      "rarityBasis": "item",
-      "raritySourceIds": [
-        "accessories"
-      ]
+      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
+      "priceValidUntil": "2026-11-21T20:01:38+09:00"
     },
     {
       "id": "lucidus-coat",
       "name": "Lucidus Coat",
       "category": "장비",
       "rarity": "Epic",
-      "value": null,
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "value": 1,
+      "valueStatus": "single",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
       "image": "images/king-legacy/lucidus-coat.webp",
-      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "priceQuotes": [
+        {
+          "id": "vvx-king",
+          "name": "VVX 공개 가치표",
+          "url": "https://king-legacy.vaultedvaluesx.com/value-list",
+          "value": 1,
+          "unit": "목록 참고가치",
+          "unitVerified": false,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:38+09:00"
+        }
+      ],
+      "rarityStatus": "verified",
+      "rarityBasis": "item",
+      "raritySourceIds": [
+        "accessories"
+      ],
+      "historicalQuotes": [
         {
           "id": "pgg-king-legacy",
           "name": "Pro Game Guides",
@@ -1809,24 +2633,38 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "rarityStatus": "verified",
-      "rarityBasis": "item",
-      "raritySourceIds": [
-        "accessories"
-      ]
+      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
+      "priceValidUntil": "2026-11-21T20:01:38+09:00"
     },
     {
       "id": "sally-crown",
       "name": "Sally Crown",
       "category": "장비",
       "rarity": "Epic",
-      "value": null,
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "value": 1,
+      "valueStatus": "single",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
       "image": "images/king-legacy/sally-crown.webp",
-      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "priceQuotes": [
+        {
+          "id": "vvx-king",
+          "name": "VVX 공개 가치표",
+          "url": "https://king-legacy.vaultedvaluesx.com/value-list",
+          "value": 1,
+          "unit": "목록 참고가치",
+          "unitVerified": false,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:38+09:00"
+        }
+      ],
+      "rarityStatus": "verified",
+      "rarityBasis": "item",
+      "raritySourceIds": [
+        "accessories"
+      ],
+      "historicalQuotes": [
         {
           "id": "pgg-king-legacy",
           "name": "Pro Game Guides",
@@ -1838,24 +2676,38 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "rarityStatus": "verified",
-      "rarityBasis": "item",
-      "raritySourceIds": [
-        "accessories"
-      ]
+      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
+      "priceValidUntil": "2026-11-21T20:01:38+09:00"
     },
     {
       "id": "dragon-necklace",
       "name": "Dragon Necklace",
       "category": "장비",
       "rarity": "Legendary",
-      "value": null,
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "value": 1,
+      "valueStatus": "single",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
       "image": "images/king-legacy/dragon-necklace.webp",
-      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "priceQuotes": [
+        {
+          "id": "vvx-king",
+          "name": "VVX 공개 가치표",
+          "url": "https://king-legacy.vaultedvaluesx.com/value-list",
+          "value": 1,
+          "unit": "목록 참고가치",
+          "unitVerified": false,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:38+09:00"
+        }
+      ],
+      "rarityStatus": "verified",
+      "rarityBasis": "item",
+      "raritySourceIds": [
+        "accessories"
+      ],
+      "historicalQuotes": [
         {
           "id": "pgg-king-legacy",
           "name": "Pro Game Guides",
@@ -1867,24 +2719,38 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "rarityStatus": "verified",
-      "rarityBasis": "item",
-      "raritySourceIds": [
-        "accessories"
-      ]
+      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
+      "priceValidUntil": "2026-11-21T20:01:38+09:00"
     },
     {
       "id": "tengu-mask",
       "name": "Tengu Mask",
       "category": "장비",
       "rarity": "Epic",
-      "value": null,
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "value": 1,
+      "valueStatus": "single",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
       "image": "images/king-legacy/tengu-mask.webp",
-      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "priceQuotes": [
+        {
+          "id": "vvx-king",
+          "name": "VVX 공개 가치표",
+          "url": "https://king-legacy.vaultedvaluesx.com/value-list",
+          "value": 1,
+          "unit": "목록 참고가치",
+          "unitVerified": false,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:38+09:00"
+        }
+      ],
+      "rarityStatus": "verified",
+      "rarityBasis": "item",
+      "raritySourceIds": [
+        "accessories"
+      ],
+      "historicalQuotes": [
         {
           "id": "pgg-king-legacy",
           "name": "Pro Game Guides",
@@ -1896,24 +2762,38 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "rarityStatus": "verified",
-      "rarityBasis": "item",
-      "raritySourceIds": [
-        "accessories"
-      ]
+      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
+      "priceValidUntil": "2026-11-21T20:01:38+09:00"
     },
     {
       "id": "oni-mask",
       "name": "Oni Mask",
       "category": "장비",
       "rarity": "Epic",
-      "value": null,
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "value": 1,
+      "valueStatus": "single",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
       "image": "images/king-legacy/oni-mask.webp",
-      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "priceQuotes": [
+        {
+          "id": "vvx-king",
+          "name": "VVX 공개 가치표",
+          "url": "https://king-legacy.vaultedvaluesx.com/value-list",
+          "value": 1,
+          "unit": "목록 참고가치",
+          "unitVerified": false,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:38+09:00"
+        }
+      ],
+      "rarityStatus": "verified",
+      "rarityBasis": "item",
+      "raritySourceIds": [
+        "accessories"
+      ],
+      "historicalQuotes": [
         {
           "id": "pgg-king-legacy",
           "name": "Pro Game Guides",
@@ -1925,24 +2805,38 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "rarityStatus": "verified",
-      "rarityBasis": "item",
-      "raritySourceIds": [
-        "accessories"
-      ]
+      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
+      "priceValidUntil": "2026-11-21T20:01:38+09:00"
     },
     {
       "id": "shadow-cloak",
       "name": "Shadow Cloak",
       "category": "장비",
       "rarity": "Uncommon",
-      "value": null,
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "value": 1,
+      "valueStatus": "single",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
       "image": "images/king-legacy/shadow-cloak.webp",
-      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "priceQuotes": [
+        {
+          "id": "vvx-king",
+          "name": "VVX 공개 가치표",
+          "url": "https://king-legacy.vaultedvaluesx.com/value-list",
+          "value": 1,
+          "unit": "목록 참고가치",
+          "unitVerified": false,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:38+09:00"
+        }
+      ],
+      "rarityStatus": "verified",
+      "rarityBasis": "item",
+      "raritySourceIds": [
+        "accessories"
+      ],
+      "historicalQuotes": [
         {
           "id": "pgg-king-legacy",
           "name": "Pro Game Guides",
@@ -1954,24 +2848,38 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "rarityStatus": "verified",
-      "rarityBasis": "item",
-      "raritySourceIds": [
-        "accessories"
-      ]
+      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
+      "priceValidUntil": "2026-11-21T20:01:38+09:00"
     },
     {
       "id": "sentinel-armor",
       "name": "Sentinel Armor",
       "category": "장비",
       "rarity": "Uncommon",
-      "value": null,
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "value": 1,
+      "valueStatus": "single",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
       "image": "images/king-legacy/sentinel-armor.webp",
-      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "priceQuotes": [
+        {
+          "id": "vvx-king",
+          "name": "VVX 공개 가치표",
+          "url": "https://king-legacy.vaultedvaluesx.com/value-list",
+          "value": 1,
+          "unit": "목록 참고가치",
+          "unitVerified": false,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:38+09:00"
+        }
+      ],
+      "rarityStatus": "verified",
+      "rarityBasis": "item",
+      "raritySourceIds": [
+        "accessories"
+      ],
+      "historicalQuotes": [
         {
           "id": "pgg-king-legacy",
           "name": "Pro Game Guides",
@@ -1983,24 +2891,38 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "rarityStatus": "verified",
-      "rarityBasis": "item",
-      "raritySourceIds": [
-        "accessories"
-      ]
+      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
+      "priceValidUntil": "2026-11-21T20:01:38+09:00"
     },
     {
       "id": "flame-hair",
       "name": "Flame Hair",
       "category": "장비",
       "rarity": "Epic",
-      "value": null,
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "value": 1,
+      "valueStatus": "single",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
       "image": "images/king-legacy/flame-hair.webp",
-      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "priceQuotes": [
+        {
+          "id": "vvx-king",
+          "name": "VVX 공개 가치표",
+          "url": "https://king-legacy.vaultedvaluesx.com/value-list",
+          "value": 1,
+          "unit": "목록 참고가치",
+          "unitVerified": false,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:38+09:00"
+        }
+      ],
+      "rarityStatus": "verified",
+      "rarityBasis": "item",
+      "raritySourceIds": [
+        "accessories"
+      ],
+      "historicalQuotes": [
         {
           "id": "pgg-king-legacy",
           "name": "Pro Game Guides",
@@ -2012,24 +2934,38 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "rarityStatus": "verified",
-      "rarityBasis": "item",
-      "raritySourceIds": [
-        "accessories"
-      ]
+      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
+      "priceValidUntil": "2026-11-21T20:01:38+09:00"
     },
     {
       "id": "crimson-scarf",
       "name": "Crimson Scarf",
       "category": "장비",
       "rarity": "Epic",
-      "value": null,
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "value": 1,
+      "valueStatus": "single",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
-      "image": "",
-      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "image": "images/king-legacy/crimson-scarf.webp",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "priceQuotes": [
+        {
+          "id": "vvx-king",
+          "name": "VVX 공개 가치표",
+          "url": "https://king-legacy.vaultedvaluesx.com/value-list",
+          "value": 1,
+          "unit": "목록 참고가치",
+          "unitVerified": false,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:38+09:00"
+        }
+      ],
+      "rarityStatus": "verified",
+      "rarityBasis": "item",
+      "raritySourceIds": [
+        "accessories"
+      ],
+      "historicalQuotes": [
         {
           "id": "pgg-king-legacy",
           "name": "Pro Game Guides",
@@ -2041,11 +2977,8 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "rarityStatus": "verified",
-      "rarityBasis": "item",
-      "raritySourceIds": [
-        "accessories"
-      ]
+      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
+      "priceValidUntil": "2026-11-21T20:01:38+09:00"
     },
     {
       "id": "depth-kings-tail",
@@ -2054,11 +2987,19 @@
       "rarity": "Unknown",
       "value": null,
       "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
       "image": "",
-      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
-      "priceQuotes": [
+      "note": "현재 원문에 확인되는 숫자 없음 · 합산 보류",
+      "priceQuotes": [],
+      "rarityStatus": "unverified",
+      "rarityBasis": "item",
+      "raritySourceIds": [
+        "depth-drops",
+        "materials",
+        "bloxodes-materials"
+      ],
+      "historicalQuotes": [
         {
           "id": "pgg-king-legacy",
           "name": "Pro Game Guides",
@@ -2070,13 +3011,8 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "rarityStatus": "unverified",
-      "rarityBasis": "item",
-      "raritySourceIds": [
-        "depth-drops",
-        "materials",
-        "bloxodes-materials"
-      ]
+      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
+      "priceValidUntil": null
     },
     {
       "id": "ancient-shell",
@@ -2085,11 +3021,19 @@
       "rarity": "Unknown",
       "value": null,
       "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
       "image": "",
-      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
-      "priceQuotes": [
+      "note": "현재 원문에 확인되는 숫자 없음 · 합산 보류",
+      "priceQuotes": [],
+      "rarityStatus": "unverified",
+      "rarityBasis": "item",
+      "raritySourceIds": [
+        "depth-drops",
+        "materials",
+        "bloxodes-materials"
+      ],
+      "historicalQuotes": [
         {
           "id": "pgg-king-legacy",
           "name": "Pro Game Guides",
@@ -2101,13 +3045,8 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "rarityStatus": "unverified",
-      "rarityBasis": "item",
-      "raritySourceIds": [
-        "depth-drops",
-        "materials",
-        "bloxodes-materials"
-      ]
+      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
+      "priceValidUntil": null
     },
     {
       "id": "turtle-core",
@@ -2116,11 +3055,19 @@
       "rarity": "Unknown",
       "value": null,
       "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
       "image": "",
-      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
-      "priceQuotes": [
+      "note": "현재 원문에 확인되는 숫자 없음 · 합산 보류",
+      "priceQuotes": [],
+      "rarityStatus": "unverified",
+      "rarityBasis": "item",
+      "raritySourceIds": [
+        "depth-drops",
+        "materials",
+        "bloxodes-materials"
+      ],
+      "historicalQuotes": [
         {
           "id": "pgg-king-legacy",
           "name": "Pro Game Guides",
@@ -2132,13 +3079,8 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "rarityStatus": "unverified",
-      "rarityBasis": "item",
-      "raritySourceIds": [
-        "depth-drops",
-        "materials",
-        "bloxodes-materials"
-      ]
+      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
+      "priceValidUntil": null
     },
     {
       "id": "depth-kings-blood",
@@ -2147,11 +3089,19 @@
       "rarity": "Unknown",
       "value": null,
       "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
       "image": "",
-      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
-      "priceQuotes": [
+      "note": "현재 원문에 확인되는 숫자 없음 · 합산 보류",
+      "priceQuotes": [],
+      "rarityStatus": "unverified",
+      "rarityBasis": "item",
+      "raritySourceIds": [
+        "depth-drops",
+        "materials",
+        "bloxodes-materials"
+      ],
+      "historicalQuotes": [
         {
           "id": "pgg-king-legacy",
           "name": "Pro Game Guides",
@@ -2163,13 +3113,8 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "rarityStatus": "unverified",
-      "rarityBasis": "item",
-      "raritySourceIds": [
-        "depth-drops",
-        "materials",
-        "bloxodes-materials"
-      ]
+      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
+      "priceValidUntil": null
     },
     {
       "id": "depth-crystal",
@@ -2178,11 +3123,19 @@
       "rarity": "Unknown",
       "value": null,
       "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
       "image": "",
-      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
-      "priceQuotes": [
+      "note": "현재 원문에 확인되는 숫자 없음 · 합산 보류",
+      "priceQuotes": [],
+      "rarityStatus": "unverified",
+      "rarityBasis": "item",
+      "raritySourceIds": [
+        "depth-drops",
+        "materials",
+        "bloxodes-materials"
+      ],
+      "historicalQuotes": [
         {
           "id": "pgg-king-legacy",
           "name": "Pro Game Guides",
@@ -2194,13 +3147,8 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "rarityStatus": "unverified",
-      "rarityBasis": "item",
-      "raritySourceIds": [
-        "depth-drops",
-        "materials",
-        "bloxodes-materials"
-      ]
+      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
+      "priceValidUntil": null
     },
     {
       "id": "depth-scale",
@@ -2209,11 +3157,19 @@
       "rarity": "Unknown",
       "value": null,
       "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
       "image": "",
-      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
-      "priceQuotes": [
+      "note": "현재 원문에 확인되는 숫자 없음 · 합산 보류",
+      "priceQuotes": [],
+      "rarityStatus": "unverified",
+      "rarityBasis": "item",
+      "raritySourceIds": [
+        "depth-drops",
+        "materials",
+        "bloxodes-materials"
+      ],
+      "historicalQuotes": [
         {
           "id": "pgg-king-legacy",
           "name": "Pro Game Guides",
@@ -2225,26 +3181,38 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "rarityStatus": "unverified",
-      "rarityBasis": "item",
-      "raritySourceIds": [
-        "depth-drops",
-        "materials",
-        "bloxodes-materials"
-      ]
+      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
+      "priceValidUntil": null
     },
     {
       "id": "volt-bundle",
       "name": "Volt Bundle",
       "category": "게임패스",
       "rarity": "NotApplicable",
-      "value": null,
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "value": 775,
+      "valueStatus": "single",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
       "image": "images/king-legacy/volt-bundle.webp",
-      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "priceQuotes": [
+        {
+          "id": "vvx-king",
+          "name": "VVX 공개 가치표",
+          "url": "https://king-legacy.vaultedvaluesx.com/value-list",
+          "value": 775,
+          "unit": "목록 참고가치",
+          "unitVerified": false,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:38+09:00"
+        }
+      ],
+      "rarityStatus": "not-applicable",
+      "rarityBasis": "product-group",
+      "raritySourceIds": [
+        "pgg-types"
+      ],
+      "historicalQuotes": [
         {
           "id": "pgg-king-legacy",
           "name": "Pro Game Guides",
@@ -2256,24 +3224,38 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "rarityStatus": "not-applicable",
-      "rarityBasis": "product-group",
-      "raritySourceIds": [
-        "pgg-types"
-      ]
+      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
+      "priceValidUntil": "2026-11-21T20:01:38+09:00"
     },
     {
       "id": "conqueror",
       "name": "Conqueror",
       "category": "게임패스",
       "rarity": "NotApplicable",
-      "value": null,
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "value": 1200,
+      "valueStatus": "single",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
       "image": "images/king-legacy/conqueror.webp",
-      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "priceQuotes": [
+        {
+          "id": "vvx-king",
+          "name": "VVX 공개 가치표",
+          "url": "https://king-legacy.vaultedvaluesx.com/value-list",
+          "value": 1200,
+          "unit": "목록 참고가치",
+          "unitVerified": false,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:38+09:00"
+        }
+      ],
+      "rarityStatus": "not-applicable",
+      "rarityBasis": "product-group",
+      "raritySourceIds": [
+        "pgg-types"
+      ],
+      "historicalQuotes": [
         {
           "id": "pgg-king-legacy",
           "name": "Pro Game Guides",
@@ -2285,24 +3267,38 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "rarityStatus": "not-applicable",
-      "rarityBasis": "product-group",
-      "raritySourceIds": [
-        "pgg-types"
-      ]
+      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
+      "priceValidUntil": "2026-11-21T20:01:38+09:00"
     },
     {
       "id": "blazeice-pack",
       "name": "BlazeIce Pack",
       "category": "게임패스",
       "rarity": "NotApplicable",
-      "value": null,
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "value": 375,
+      "valueStatus": "single",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
       "image": "images/king-legacy/blazeice-pack.webp",
-      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "priceQuotes": [
+        {
+          "id": "vvx-king",
+          "name": "VVX 공개 가치표",
+          "url": "https://king-legacy.vaultedvaluesx.com/value-list",
+          "value": 375,
+          "unit": "목록 참고가치",
+          "unitVerified": false,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:38+09:00"
+        }
+      ],
+      "rarityStatus": "not-applicable",
+      "rarityBasis": "product-group",
+      "raritySourceIds": [
+        "pgg-types"
+      ],
+      "historicalQuotes": [
         {
           "id": "pgg-king-legacy",
           "name": "Pro Game Guides",
@@ -2314,24 +3310,38 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "rarityStatus": "not-applicable",
-      "rarityBasis": "product-group",
-      "raritySourceIds": [
-        "pgg-types"
-      ]
+      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
+      "priceValidUntil": "2026-11-21T20:01:38+09:00"
     },
     {
       "id": "1-slot-passive",
       "name": "+1 Slot (Passive)",
       "category": "게임패스",
       "rarity": "NotApplicable",
-      "value": null,
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "value": 290,
+      "valueStatus": "single",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
-      "image": "",
-      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "image": "images/king-legacy/1-slot-passive.webp",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "priceQuotes": [
+        {
+          "id": "vvx-king",
+          "name": "VVX 공개 가치표",
+          "url": "https://king-legacy.vaultedvaluesx.com/value-list",
+          "value": 290,
+          "unit": "목록 참고가치",
+          "unitVerified": false,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:38+09:00"
+        }
+      ],
+      "rarityStatus": "not-applicable",
+      "rarityBasis": "product-group",
+      "raritySourceIds": [
+        "pgg-types"
+      ],
+      "historicalQuotes": [
         {
           "id": "pgg-king-legacy",
           "name": "Pro Game Guides",
@@ -2343,24 +3353,38 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "rarityStatus": "not-applicable",
-      "rarityBasis": "product-group",
-      "raritySourceIds": [
-        "pgg-types"
-      ]
+      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
+      "priceValidUntil": "2026-11-21T20:01:38+09:00"
     },
     {
       "id": "2x-money",
       "name": "2x Money",
       "category": "게임패스",
       "rarity": "NotApplicable",
-      "value": null,
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "value": 265,
+      "valueStatus": "single",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
       "image": "images/king-legacy/2x-money.webp",
-      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "priceQuotes": [
+        {
+          "id": "vvx-king",
+          "name": "VVX 공개 가치표",
+          "url": "https://king-legacy.vaultedvaluesx.com/value-list",
+          "value": 265,
+          "unit": "목록 참고가치",
+          "unitVerified": false,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:38+09:00"
+        }
+      ],
+      "rarityStatus": "not-applicable",
+      "rarityBasis": "product-group",
+      "raritySourceIds": [
+        "pgg-types"
+      ],
+      "historicalQuotes": [
         {
           "id": "pgg-king-legacy",
           "name": "Pro Game Guides",
@@ -2372,24 +3396,38 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "rarityStatus": "not-applicable",
-      "rarityBasis": "product-group",
-      "raritySourceIds": [
-        "pgg-types"
-      ]
+      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
+      "priceValidUntil": "2026-11-21T20:01:38+09:00"
     },
     {
       "id": "2x-drop-item",
       "name": "2x Drop Item",
       "category": "게임패스",
       "rarity": "NotApplicable",
-      "value": null,
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "value": 300,
+      "valueStatus": "single",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
       "image": "images/king-legacy/2x-drop-item.webp",
-      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "priceQuotes": [
+        {
+          "id": "vvx-king",
+          "name": "VVX 공개 가치표",
+          "url": "https://king-legacy.vaultedvaluesx.com/value-list",
+          "value": 300,
+          "unit": "목록 참고가치",
+          "unitVerified": false,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:38+09:00"
+        }
+      ],
+      "rarityStatus": "not-applicable",
+      "rarityBasis": "product-group",
+      "raritySourceIds": [
+        "pgg-types"
+      ],
+      "historicalQuotes": [
         {
           "id": "pgg-king-legacy",
           "name": "Pro Game Guides",
@@ -2401,24 +3439,38 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "rarityStatus": "not-applicable",
-      "rarityBasis": "product-group",
-      "raritySourceIds": [
-        "pgg-types"
-      ]
+      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
+      "priceValidUntil": "2026-11-21T20:01:38+09:00"
     },
     {
       "id": "night-blade",
       "name": "Night Blade",
       "category": "게임패스",
       "rarity": "NotApplicable",
-      "value": null,
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "value": 300,
+      "valueStatus": "single",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
       "image": "images/king-legacy/night-blade.webp",
-      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "priceQuotes": [
+        {
+          "id": "vvx-king",
+          "name": "VVX 공개 가치표",
+          "url": "https://king-legacy.vaultedvaluesx.com/value-list",
+          "value": 300,
+          "unit": "목록 참고가치",
+          "unitVerified": false,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:38+09:00"
+        }
+      ],
+      "rarityStatus": "not-applicable",
+      "rarityBasis": "product-group",
+      "raritySourceIds": [
+        "pgg-types"
+      ],
+      "historicalQuotes": [
         {
           "id": "pgg-king-legacy",
           "name": "Pro Game Guides",
@@ -2430,24 +3482,38 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "rarityStatus": "not-applicable",
-      "rarityBasis": "product-group",
-      "raritySourceIds": [
-        "pgg-types"
-      ]
+      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
+      "priceValidUntil": "2026-11-21T20:01:38+09:00"
     },
     {
       "id": "coffin-boat",
       "name": "Coffin Boat",
       "category": "게임패스",
       "rarity": "NotApplicable",
-      "value": null,
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "value": 90,
+      "valueStatus": "single",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
       "image": "images/king-legacy/coffin-boat.webp",
-      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "priceQuotes": [
+        {
+          "id": "vvx-king",
+          "name": "VVX 공개 가치표",
+          "url": "https://king-legacy.vaultedvaluesx.com/value-list",
+          "value": 90,
+          "unit": "목록 참고가치",
+          "unitVerified": false,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:38+09:00"
+        }
+      ],
+      "rarityStatus": "not-applicable",
+      "rarityBasis": "product-group",
+      "raritySourceIds": [
+        "pgg-types"
+      ],
+      "historicalQuotes": [
         {
           "id": "pgg-king-legacy",
           "name": "Pro Game Guides",
@@ -2459,24 +3525,38 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "rarityStatus": "not-applicable",
-      "rarityBasis": "product-group",
-      "raritySourceIds": [
-        "pgg-types"
-      ]
+      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
+      "priceValidUntil": "2026-11-21T20:01:38+09:00"
     },
     {
       "id": "1-fruit-storage",
       "name": "+1 Fruit Storage",
       "category": "게임패스",
       "rarity": "NotApplicable",
-      "value": null,
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "value": 85,
+      "valueStatus": "single",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
       "image": "images/king-legacy/1-fruit-storage.webp",
-      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "priceQuotes": [
+        {
+          "id": "vvx-king",
+          "name": "VVX 공개 가치표",
+          "url": "https://king-legacy.vaultedvaluesx.com/value-list",
+          "value": 85,
+          "unit": "목록 참고가치",
+          "unitVerified": false,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:38+09:00"
+        }
+      ],
+      "rarityStatus": "not-applicable",
+      "rarityBasis": "product-group",
+      "raritySourceIds": [
+        "pgg-types"
+      ],
+      "historicalQuotes": [
         {
           "id": "pgg-king-legacy",
           "name": "Pro Game Guides",
@@ -2488,24 +3568,38 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "rarityStatus": "not-applicable",
-      "rarityBasis": "product-group",
-      "raritySourceIds": [
-        "pgg-types"
-      ]
+      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
+      "priceValidUntil": "2026-11-21T20:01:38+09:00"
     },
     {
       "id": "legacy-pose",
       "name": "Legacy Pose",
       "category": "게임패스",
       "rarity": "NotApplicable",
-      "value": null,
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "value": 80,
+      "valueStatus": "single",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
       "image": "images/king-legacy/legacy-pose.webp",
-      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "priceQuotes": [
+        {
+          "id": "vvx-king",
+          "name": "VVX 공개 가치표",
+          "url": "https://king-legacy.vaultedvaluesx.com/value-list",
+          "value": 80,
+          "unit": "목록 참고가치",
+          "unitVerified": false,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:38+09:00"
+        }
+      ],
+      "rarityStatus": "not-applicable",
+      "rarityBasis": "product-group",
+      "raritySourceIds": [
+        "pgg-types"
+      ],
+      "historicalQuotes": [
         {
           "id": "pgg-king-legacy",
           "name": "Pro Game Guides",
@@ -2517,24 +3611,38 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "rarityStatus": "not-applicable",
-      "rarityBasis": "product-group",
-      "raritySourceIds": [
-        "pgg-types"
-      ]
+      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
+      "priceValidUntil": "2026-11-21T20:01:38+09:00"
     },
     {
       "id": "animation-any",
       "name": "Animation (Any)",
       "category": "게임패스",
       "rarity": "NotApplicable",
-      "value": null,
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "value": 30,
+      "valueStatus": "single",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
       "image": "",
-      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "priceQuotes": [
+        {
+          "id": "vvx-king",
+          "name": "VVX 공개 가치표",
+          "url": "https://king-legacy.vaultedvaluesx.com/value-list",
+          "value": 30,
+          "unit": "목록 참고가치",
+          "unitVerified": false,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:38+09:00"
+        }
+      ],
+      "rarityStatus": "not-applicable",
+      "rarityBasis": "product-group",
+      "raritySourceIds": [
+        "pgg-types"
+      ],
+      "historicalQuotes": [
         {
           "id": "pgg-king-legacy",
           "name": "Pro Game Guides",
@@ -2546,24 +3654,38 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "rarityStatus": "not-applicable",
-      "rarityBasis": "product-group",
-      "raritySourceIds": [
-        "pgg-types"
-      ]
+      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
+      "priceValidUntil": "2026-11-21T20:01:38+09:00"
     },
     {
       "id": "2x-exp-12-hours",
       "name": "2x exp (12 hours)",
       "category": "게임패스",
       "rarity": "NotApplicable",
-      "value": null,
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "value": 5.5,
+      "valueStatus": "single",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
       "image": "images/king-legacy/2x-exp-12-hours.webp",
-      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "priceQuotes": [
+        {
+          "id": "vvx-king",
+          "name": "VVX 공개 가치표",
+          "url": "https://king-legacy.vaultedvaluesx.com/value-list",
+          "value": 5.5,
+          "unit": "목록 참고가치",
+          "unitVerified": false,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:38+09:00"
+        }
+      ],
+      "rarityStatus": "not-applicable",
+      "rarityBasis": "product-group",
+      "raritySourceIds": [
+        "pgg-types"
+      ],
+      "historicalQuotes": [
         {
           "id": "pgg-king-legacy",
           "name": "Pro Game Guides",
@@ -2575,24 +3697,38 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "rarityStatus": "not-applicable",
-      "rarityBasis": "product-group",
-      "raritySourceIds": [
-        "pgg-types"
-      ]
+      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
+      "priceValidUntil": "2026-11-21T20:01:38+09:00"
     },
     {
       "id": "race-rerolls",
       "name": "Race Rerolls",
       "category": "게임패스",
       "rarity": "NotApplicable",
-      "value": null,
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "value": 4,
+      "valueStatus": "single",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
       "image": "images/king-legacy/race-rerolls.webp",
-      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "priceQuotes": [
+        {
+          "id": "vvx-king",
+          "name": "VVX 공개 가치표",
+          "url": "https://king-legacy.vaultedvaluesx.com/value-list",
+          "value": 4,
+          "unit": "목록 참고가치",
+          "unitVerified": false,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:38+09:00"
+        }
+      ],
+      "rarityStatus": "not-applicable",
+      "rarityBasis": "product-group",
+      "raritySourceIds": [
+        "pgg-types"
+      ],
+      "historicalQuotes": [
         {
           "id": "pgg-king-legacy",
           "name": "Pro Game Guides",
@@ -2604,24 +3740,38 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "rarityStatus": "not-applicable",
-      "rarityBasis": "product-group",
-      "raritySourceIds": [
-        "pgg-types"
-      ]
+      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
+      "priceValidUntil": "2026-11-21T20:01:38+09:00"
     },
     {
       "id": "refund-stats",
       "name": "Refund Stats",
       "category": "게임패스",
       "rarity": "NotApplicable",
-      "value": null,
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "value": 2.5,
+      "valueStatus": "single",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
       "image": "images/king-legacy/refund-stats.webp",
-      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "priceQuotes": [
+        {
+          "id": "vvx-king",
+          "name": "VVX 공개 가치표",
+          "url": "https://king-legacy.vaultedvaluesx.com/value-list",
+          "value": 2.5,
+          "unit": "목록 참고가치",
+          "unitVerified": false,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:38+09:00"
+        }
+      ],
+      "rarityStatus": "not-applicable",
+      "rarityBasis": "product-group",
+      "raritySourceIds": [
+        "pgg-types"
+      ],
+      "historicalQuotes": [
         {
           "id": "pgg-king-legacy",
           "name": "Pro Game Guides",
@@ -2633,24 +3783,38 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "rarityStatus": "not-applicable",
-      "rarityBasis": "product-group",
-      "raritySourceIds": [
-        "pgg-types"
-      ]
+      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
+      "priceValidUntil": "2026-11-21T20:01:38+09:00"
     },
     {
       "id": "hellroot-bundle",
       "name": "Hellroot Bundle",
       "category": "번들",
       "rarity": "NotApplicable",
-      "value": null,
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "value": 3000,
+      "valueStatus": "single",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
       "image": "images/king-legacy/hellroot-bundle.webp",
-      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "priceQuotes": [
+        {
+          "id": "vvx-king",
+          "name": "VVX 공개 가치표",
+          "url": "https://king-legacy.vaultedvaluesx.com/value-list",
+          "value": 3000,
+          "unit": "목록 참고가치",
+          "unitVerified": false,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:38+09:00"
+        }
+      ],
+      "rarityStatus": "not-applicable",
+      "rarityBasis": "product-group",
+      "raritySourceIds": [
+        "pgg-types"
+      ],
+      "historicalQuotes": [
         {
           "id": "pgg-king-legacy",
           "name": "Pro Game Guides",
@@ -2662,24 +3826,38 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "rarityStatus": "not-applicable",
-      "rarityBasis": "product-group",
-      "raritySourceIds": [
-        "pgg-types"
-      ]
+      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
+      "priceValidUntil": "2026-11-21T20:01:38+09:00"
     },
     {
       "id": "primal-pack",
       "name": "Primal Pack",
       "category": "번들",
       "rarity": "NotApplicable",
-      "value": null,
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "value": 500,
+      "valueStatus": "single",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
       "image": "images/king-legacy/primal-pack.webp",
-      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "priceQuotes": [
+        {
+          "id": "vvx-king",
+          "name": "VVX 공개 가치표",
+          "url": "https://king-legacy.vaultedvaluesx.com/value-list",
+          "value": 500,
+          "unit": "목록 참고가치",
+          "unitVerified": false,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:38+09:00"
+        }
+      ],
+      "rarityStatus": "not-applicable",
+      "rarityBasis": "product-group",
+      "raritySourceIds": [
+        "pgg-types"
+      ],
+      "historicalQuotes": [
         {
           "id": "pgg-king-legacy",
           "name": "Pro Game Guides",
@@ -2691,24 +3869,38 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "rarityStatus": "not-applicable",
-      "rarityBasis": "product-group",
-      "raritySourceIds": [
-        "pgg-types"
-      ]
+      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
+      "priceValidUntil": "2026-11-21T20:01:38+09:00"
     },
     {
       "id": "acrospear-mats",
       "name": "Acrospear (Mats)",
       "category": "번들",
       "rarity": "NotApplicable",
-      "value": null,
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "value": 32.5,
+      "valueStatus": "single",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
       "image": "images/king-legacy/acrospear-mats.webp",
-      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "priceQuotes": [
+        {
+          "id": "vvx-king",
+          "name": "VVX 공개 가치표",
+          "url": "https://king-legacy.vaultedvaluesx.com/value-list",
+          "value": 32.5,
+          "unit": "목록 참고가치",
+          "unitVerified": false,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:38+09:00"
+        }
+      ],
+      "rarityStatus": "not-applicable",
+      "rarityBasis": "product-group",
+      "raritySourceIds": [
+        "pgg-types"
+      ],
+      "historicalQuotes": [
         {
           "id": "pgg-king-legacy",
           "name": "Pro Game Guides",
@@ -2720,24 +3912,38 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "rarityStatus": "not-applicable",
-      "rarityBasis": "product-group",
-      "raritySourceIds": [
-        "pgg-types"
-      ]
+      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
+      "priceValidUntil": "2026-11-21T20:01:38+09:00"
     },
     {
       "id": "cyborg-v2-mats",
       "name": "Cyborg V2 (Mats)",
       "category": "번들",
       "rarity": "NotApplicable",
-      "value": null,
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "value": 22.1,
+      "valueStatus": "single",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
       "image": "",
-      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "priceQuotes": [
+        {
+          "id": "vvx-king",
+          "name": "VVX 공개 가치표",
+          "url": "https://king-legacy.vaultedvaluesx.com/value-list",
+          "value": 22.1,
+          "unit": "목록 참고가치",
+          "unitVerified": false,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:38+09:00"
+        }
+      ],
+      "rarityStatus": "not-applicable",
+      "rarityBasis": "product-group",
+      "raritySourceIds": [
+        "pgg-types"
+      ],
+      "historicalQuotes": [
         {
           "id": "pgg-king-legacy",
           "name": "Pro Game Guides",
@@ -2749,24 +3955,38 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "rarityStatus": "not-applicable",
-      "rarityBasis": "product-group",
-      "raritySourceIds": [
-        "pgg-types"
-      ]
+      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
+      "priceValidUntil": "2026-11-21T20:01:38+09:00"
     },
     {
       "id": "spark-stone-mats",
       "name": "Spark Stone (Mats)",
       "category": "번들",
       "rarity": "NotApplicable",
-      "value": null,
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "value": 35,
+      "valueStatus": "single",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
       "image": "images/king-legacy/spark-stone-mats.webp",
-      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "priceQuotes": [
+        {
+          "id": "vvx-king",
+          "name": "VVX 공개 가치표",
+          "url": "https://king-legacy.vaultedvaluesx.com/value-list",
+          "value": 35,
+          "unit": "목록 참고가치",
+          "unitVerified": false,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:38+09:00"
+        }
+      ],
+      "rarityStatus": "not-applicable",
+      "rarityBasis": "product-group",
+      "raritySourceIds": [
+        "pgg-types"
+      ],
+      "historicalQuotes": [
         {
           "id": "pgg-king-legacy",
           "name": "Pro Game Guides",
@@ -2778,24 +3998,38 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "rarityStatus": "not-applicable",
-      "rarityBasis": "product-group",
-      "raritySourceIds": [
-        "pgg-types"
-      ]
+      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
+      "priceValidUntil": "2026-11-21T20:01:38+09:00"
     },
     {
       "id": "phoenix-blade-v2-mats",
       "name": "Phoenix Blade V2 (Mats)",
       "category": "번들",
       "rarity": "NotApplicable",
-      "value": null,
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "value": 27.5,
+      "valueStatus": "single",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
       "image": "images/king-legacy/phoenix-blade-v2-mats.webp",
-      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "priceQuotes": [
+        {
+          "id": "vvx-king",
+          "name": "VVX 공개 가치표",
+          "url": "https://king-legacy.vaultedvaluesx.com/value-list",
+          "value": 27.5,
+          "unit": "목록 참고가치",
+          "unitVerified": false,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:38+09:00"
+        }
+      ],
+      "rarityStatus": "not-applicable",
+      "rarityBasis": "product-group",
+      "raritySourceIds": [
+        "pgg-types"
+      ],
+      "historicalQuotes": [
         {
           "id": "pgg-king-legacy",
           "name": "Pro Game Guides",
@@ -2807,24 +4041,38 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "rarityStatus": "not-applicable",
-      "rarityBasis": "product-group",
-      "raritySourceIds": [
-        "pgg-types"
-      ]
+      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
+      "priceValidUntil": "2026-11-21T20:01:38+09:00"
     },
     {
       "id": "dark-stone-mats",
       "name": "Dark Stone (Mats)",
       "category": "번들",
       "rarity": "NotApplicable",
-      "value": null,
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "value": 25.5,
+      "valueStatus": "single",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
       "image": "images/king-legacy/dark-stone-mats.webp",
-      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "priceQuotes": [
+        {
+          "id": "vvx-king",
+          "name": "VVX 공개 가치표",
+          "url": "https://king-legacy.vaultedvaluesx.com/value-list",
+          "value": 25.5,
+          "unit": "목록 참고가치",
+          "unitVerified": false,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:38+09:00"
+        }
+      ],
+      "rarityStatus": "not-applicable",
+      "rarityBasis": "product-group",
+      "raritySourceIds": [
+        "pgg-types"
+      ],
+      "historicalQuotes": [
         {
           "id": "pgg-king-legacy",
           "name": "Pro Game Guides",
@@ -2836,24 +4084,38 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "rarityStatus": "not-applicable",
-      "rarityBasis": "product-group",
-      "raritySourceIds": [
-        "pgg-types"
-      ]
+      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
+      "priceValidUntil": "2026-11-21T20:01:38+09:00"
     },
     {
       "id": "poison-stone-mats",
       "name": "Poison Stone (Mats)",
       "category": "번들",
       "rarity": "NotApplicable",
-      "value": null,
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "value": 22.5,
+      "valueStatus": "single",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
       "image": "images/king-legacy/poison-stone-mats.webp",
-      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "priceQuotes": [
+        {
+          "id": "vvx-king",
+          "name": "VVX 공개 가치표",
+          "url": "https://king-legacy.vaultedvaluesx.com/value-list",
+          "value": 22.5,
+          "unit": "목록 참고가치",
+          "unitVerified": false,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:38+09:00"
+        }
+      ],
+      "rarityStatus": "not-applicable",
+      "rarityBasis": "product-group",
+      "raritySourceIds": [
+        "pgg-types"
+      ],
+      "historicalQuotes": [
         {
           "id": "pgg-king-legacy",
           "name": "Pro Game Guides",
@@ -2865,24 +4127,38 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "rarityStatus": "not-applicable",
-      "rarityBasis": "product-group",
-      "raritySourceIds": [
-        "pgg-types"
-      ]
+      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
+      "priceValidUntil": "2026-11-21T20:01:38+09:00"
     },
     {
       "id": "blaze-stone-mats",
       "name": "Blaze Stone (Mats)",
       "category": "번들",
       "rarity": "NotApplicable",
-      "value": null,
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "value": 14.5,
+      "valueStatus": "single",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
       "image": "images/king-legacy/blaze-stone-mats.webp",
-      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "priceQuotes": [
+        {
+          "id": "vvx-king",
+          "name": "VVX 공개 가치표",
+          "url": "https://king-legacy.vaultedvaluesx.com/value-list",
+          "value": 14.5,
+          "unit": "목록 참고가치",
+          "unitVerified": false,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:38+09:00"
+        }
+      ],
+      "rarityStatus": "not-applicable",
+      "rarityBasis": "product-group",
+      "raritySourceIds": [
+        "pgg-types"
+      ],
+      "historicalQuotes": [
         {
           "id": "pgg-king-legacy",
           "name": "Pro Game Guides",
@@ -2894,24 +4170,38 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "rarityStatus": "not-applicable",
-      "rarityBasis": "product-group",
-      "raritySourceIds": [
-        "pgg-types"
-      ]
+      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
+      "priceValidUntil": "2026-11-21T20:01:38+09:00"
     },
     {
       "id": "abyss-stone-mats",
       "name": "Abyss Stone (Mats)",
       "category": "번들",
       "rarity": "NotApplicable",
-      "value": null,
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "value": 13,
+      "valueStatus": "single",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
       "image": "images/king-legacy/abyss-stone-mats.webp",
-      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "priceQuotes": [
+        {
+          "id": "vvx-king",
+          "name": "VVX 공개 가치표",
+          "url": "https://king-legacy.vaultedvaluesx.com/value-list",
+          "value": 13,
+          "unit": "목록 참고가치",
+          "unitVerified": false,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:38+09:00"
+        }
+      ],
+      "rarityStatus": "not-applicable",
+      "rarityBasis": "product-group",
+      "raritySourceIds": [
+        "pgg-types"
+      ],
+      "historicalQuotes": [
         {
           "id": "pgg-king-legacy",
           "name": "Pro Game Guides",
@@ -2923,24 +4213,38 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "rarityStatus": "not-applicable",
-      "rarityBasis": "product-group",
-      "raritySourceIds": [
-        "pgg-types"
-      ]
+      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
+      "priceValidUntil": "2026-11-21T20:01:38+09:00"
     },
     {
       "id": "gale-stone-mats",
       "name": "Gale Stone (Mats)",
       "category": "번들",
       "rarity": "NotApplicable",
-      "value": null,
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "value": 11.5,
+      "valueStatus": "single",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
       "image": "images/king-legacy/gale-stone-mats.webp",
-      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "priceQuotes": [
+        {
+          "id": "vvx-king",
+          "name": "VVX 공개 가치표",
+          "url": "https://king-legacy.vaultedvaluesx.com/value-list",
+          "value": 11.5,
+          "unit": "목록 참고가치",
+          "unitVerified": false,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:38+09:00"
+        }
+      ],
+      "rarityStatus": "not-applicable",
+      "rarityBasis": "product-group",
+      "raritySourceIds": [
+        "pgg-types"
+      ],
+      "historicalQuotes": [
         {
           "id": "pgg-king-legacy",
           "name": "Pro Game Guides",
@@ -2952,24 +4256,38 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "rarityStatus": "not-applicable",
-      "rarityBasis": "product-group",
-      "raritySourceIds": [
-        "pgg-types"
-      ]
+      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
+      "priceValidUntil": "2026-11-21T20:01:38+09:00"
     },
     {
       "id": "bloodthirsty-stone-mats",
       "name": "Bloodthirsty Stone (Mats)",
       "category": "번들",
       "rarity": "NotApplicable",
-      "value": null,
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "value": 6,
+      "valueStatus": "single",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
       "image": "images/king-legacy/bloodthirsty-stone-mats.webp",
-      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "priceQuotes": [
+        {
+          "id": "vvx-king",
+          "name": "VVX 공개 가치표",
+          "url": "https://king-legacy.vaultedvaluesx.com/value-list",
+          "value": 6,
+          "unit": "목록 참고가치",
+          "unitVerified": false,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:38+09:00"
+        }
+      ],
+      "rarityStatus": "not-applicable",
+      "rarityBasis": "product-group",
+      "raritySourceIds": [
+        "pgg-types"
+      ],
+      "historicalQuotes": [
         {
           "id": "pgg-king-legacy",
           "name": "Pro Game Guides",
@@ -2981,24 +4299,38 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "rarityStatus": "not-applicable",
-      "rarityBasis": "product-group",
-      "raritySourceIds": [
-        "pgg-types"
-      ]
+      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
+      "priceValidUntil": "2026-11-21T20:01:38+09:00"
     },
     {
       "id": "light-stone-mats",
       "name": "Light Stone (Mats)",
       "category": "번들",
       "rarity": "NotApplicable",
-      "value": null,
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "value": 7,
+      "valueStatus": "single",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
       "image": "images/king-legacy/light-stone-mats.webp",
-      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "priceQuotes": [
+        {
+          "id": "vvx-king",
+          "name": "VVX 공개 가치표",
+          "url": "https://king-legacy.vaultedvaluesx.com/value-list",
+          "value": 7,
+          "unit": "목록 참고가치",
+          "unitVerified": false,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:38+09:00"
+        }
+      ],
+      "rarityStatus": "not-applicable",
+      "rarityBasis": "product-group",
+      "raritySourceIds": [
+        "pgg-types"
+      ],
+      "historicalQuotes": [
         {
           "id": "pgg-king-legacy",
           "name": "Pro Game Guides",
@@ -3010,24 +4342,38 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "rarityStatus": "not-applicable",
-      "rarityBasis": "product-group",
-      "raritySourceIds": [
-        "pgg-types"
-      ]
+      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
+      "priceValidUntil": "2026-11-21T20:01:38+09:00"
     },
     {
       "id": "glacier-stone-mats",
       "name": "Glacier Stone (Mats)",
       "category": "번들",
       "rarity": "NotApplicable",
-      "value": null,
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "value": 5.5,
+      "valueStatus": "single",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
       "image": "images/king-legacy/glacier-stone-mats.webp",
-      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "priceQuotes": [
+        {
+          "id": "vvx-king",
+          "name": "VVX 공개 가치표",
+          "url": "https://king-legacy.vaultedvaluesx.com/value-list",
+          "value": 5.5,
+          "unit": "목록 참고가치",
+          "unitVerified": false,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:38+09:00"
+        }
+      ],
+      "rarityStatus": "not-applicable",
+      "rarityBasis": "product-group",
+      "raritySourceIds": [
+        "pgg-types"
+      ],
+      "historicalQuotes": [
         {
           "id": "pgg-king-legacy",
           "name": "Pro Game Guides",
@@ -3039,24 +4385,38 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "rarityStatus": "not-applicable",
-      "rarityBasis": "product-group",
-      "raritySourceIds": [
-        "pgg-types"
-      ]
+      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
+      "priceValidUntil": "2026-11-21T20:01:38+09:00"
     },
     {
       "id": "tempestas-stone-mats",
       "name": "Tempestas Stone (Mats)",
       "category": "번들",
       "rarity": "NotApplicable",
-      "value": null,
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "value": 5,
+      "valueStatus": "single",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
       "image": "images/king-legacy/tempestas-stone-mats.webp",
-      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "priceQuotes": [
+        {
+          "id": "vvx-king",
+          "name": "VVX 공개 가치표",
+          "url": "https://king-legacy.vaultedvaluesx.com/value-list",
+          "value": 5,
+          "unit": "목록 참고가치",
+          "unitVerified": false,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:38+09:00"
+        }
+      ],
+      "rarityStatus": "not-applicable",
+      "rarityBasis": "product-group",
+      "raritySourceIds": [
+        "pgg-types"
+      ],
+      "historicalQuotes": [
         {
           "id": "pgg-king-legacy",
           "name": "Pro Game Guides",
@@ -3068,24 +4428,38 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "rarityStatus": "not-applicable",
-      "rarityBasis": "product-group",
-      "raritySourceIds": [
-        "pgg-types"
-      ]
+      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
+      "priceValidUntil": "2026-11-21T20:01:38+09:00"
     },
     {
       "id": "disillusion-stone-mats",
       "name": "Disillusion Stone (Mats)",
       "category": "번들",
       "rarity": "NotApplicable",
-      "value": null,
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "value": 1,
+      "valueStatus": "single",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
       "image": "images/king-legacy/disillusion-stone-mats.webp",
-      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "priceQuotes": [
+        {
+          "id": "vvx-king",
+          "name": "VVX 공개 가치표",
+          "url": "https://king-legacy.vaultedvaluesx.com/value-list",
+          "value": 1,
+          "unit": "목록 참고가치",
+          "unitVerified": false,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:38+09:00"
+        }
+      ],
+      "rarityStatus": "not-applicable",
+      "rarityBasis": "product-group",
+      "raritySourceIds": [
+        "pgg-types"
+      ],
+      "historicalQuotes": [
         {
           "id": "pgg-king-legacy",
           "name": "Pro Game Guides",
@@ -3097,11 +4471,8 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "rarityStatus": "not-applicable",
-      "rarityBasis": "product-group",
-      "raritySourceIds": [
-        "pgg-types"
-      ]
+      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
+      "priceValidUntil": "2026-11-21T20:01:38+09:00"
     },
     {
       "id": "perm-erebus",
@@ -3110,11 +4481,17 @@
       "rarity": "Mythic",
       "value": null,
       "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
       "image": "",
-      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
-      "priceQuotes": [
+      "note": "현재 원문에 확인되는 숫자 없음 · 합산 보류",
+      "priceQuotes": [],
+      "rarityStatus": "base-fruit",
+      "rarityBasis": "base-fruit",
+      "raritySourceIds": [
+        "update11"
+      ],
+      "historicalQuotes": [
         {
           "id": "pgg-king-legacy",
           "name": "Pro Game Guides",
@@ -3126,24 +4503,39 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "rarityStatus": "base-fruit",
-      "rarityBasis": "base-fruit",
-      "raritySourceIds": [
-        "update11"
-      ]
+      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
+      "priceValidUntil": null
     },
     {
       "id": "perm-dragon",
       "name": "Perm Dragon",
       "category": "영구 열매",
       "rarity": "Mythic",
-      "value": null,
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "value": 1700,
+      "valueStatus": "single",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
       "image": "images/king-legacy/perm-dragon.webp",
-      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "priceQuotes": [
+        {
+          "id": "vvx-king",
+          "name": "VVX 공개 가치표",
+          "url": "https://king-legacy.vaultedvaluesx.com/value-list",
+          "value": 1700,
+          "unit": "목록 참고가치",
+          "unitVerified": false,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:38+09:00"
+        }
+      ],
+      "rarityStatus": "base-fruit",
+      "rarityBasis": "base-fruit",
+      "raritySourceIds": [
+        "update11",
+        "fruits"
+      ],
+      "historicalQuotes": [
         {
           "id": "pgg-king-legacy",
           "name": "Pro Game Guides",
@@ -3155,25 +4547,38 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "rarityStatus": "base-fruit",
-      "rarityBasis": "base-fruit",
-      "raritySourceIds": [
-        "update11",
-        "fruits"
-      ]
+      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
+      "priceValidUntil": "2026-11-21T20:01:38+09:00"
     },
     {
       "id": "perm-dough",
       "name": "Perm Dough",
       "category": "영구 열매",
       "rarity": "Legendary",
-      "value": null,
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "value": 1200,
+      "valueStatus": "single",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
       "image": "images/king-legacy/perm-dough.webp",
-      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "priceQuotes": [
+        {
+          "id": "vvx-king",
+          "name": "VVX 공개 가치표",
+          "url": "https://king-legacy.vaultedvaluesx.com/value-list",
+          "value": 1200,
+          "unit": "목록 참고가치",
+          "unitVerified": false,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:38+09:00"
+        }
+      ],
+      "rarityStatus": "base-fruit",
+      "rarityBasis": "base-fruit",
+      "raritySourceIds": [
+        "fruits"
+      ],
+      "historicalQuotes": [
         {
           "id": "pgg-king-legacy",
           "name": "Pro Game Guides",
@@ -3185,24 +4590,38 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "rarityStatus": "base-fruit",
-      "rarityBasis": "base-fruit",
-      "raritySourceIds": [
-        "fruits"
-      ]
+      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
+      "priceValidUntil": "2026-11-21T20:01:38+09:00"
     },
     {
       "id": "perm-phoenix",
       "name": "Perm Phoenix",
       "category": "영구 열매",
       "rarity": "Legendary",
-      "value": null,
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "value": 1400,
+      "valueStatus": "single",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
       "image": "images/king-legacy/perm-phoenix.webp",
-      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "priceQuotes": [
+        {
+          "id": "vvx-king",
+          "name": "VVX 공개 가치표",
+          "url": "https://king-legacy.vaultedvaluesx.com/value-list",
+          "value": 1400,
+          "unit": "목록 참고가치",
+          "unitVerified": false,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:38+09:00"
+        }
+      ],
+      "rarityStatus": "base-fruit",
+      "rarityBasis": "base-fruit",
+      "raritySourceIds": [
+        "fruits"
+      ],
+      "historicalQuotes": [
         {
           "id": "pgg-king-legacy",
           "name": "Pro Game Guides",
@@ -3214,24 +4633,38 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "rarityStatus": "base-fruit",
-      "rarityBasis": "base-fruit",
-      "raritySourceIds": [
-        "fruits"
-      ]
+      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
+      "priceValidUntil": "2026-11-21T20:01:38+09:00"
     },
     {
       "id": "perm-pter",
       "name": "Perm Pter",
       "category": "영구 열매",
       "rarity": "Mythic",
-      "value": null,
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "value": 1000,
+      "valueStatus": "single",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
-      "image": "",
-      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "image": "images/king-legacy/perm-pter.webp",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "priceQuotes": [
+        {
+          "id": "vvx-king",
+          "name": "VVX 공개 가치표",
+          "url": "https://king-legacy.vaultedvaluesx.com/value-list",
+          "value": 1000,
+          "unit": "목록 참고가치",
+          "unitVerified": false,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:38+09:00"
+        }
+      ],
+      "rarityStatus": "base-fruit",
+      "rarityBasis": "base-fruit",
+      "raritySourceIds": [
+        "fruits"
+      ],
+      "historicalQuotes": [
         {
           "id": "pgg-king-legacy",
           "name": "Pro Game Guides",
@@ -3243,24 +4676,38 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "rarityStatus": "base-fruit",
-      "rarityBasis": "base-fruit",
-      "raritySourceIds": [
-        "fruits"
-      ]
+      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
+      "priceValidUntil": "2026-11-21T20:01:38+09:00"
     },
     {
       "id": "perm-tree",
       "name": "Perm Tree",
       "category": "영구 열매",
       "rarity": "Legendary",
-      "value": null,
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "value": 1500,
+      "valueStatus": "single",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
       "image": "images/king-legacy/perm-tree.webp",
-      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "priceQuotes": [
+        {
+          "id": "vvx-king",
+          "name": "VVX 공개 가치표",
+          "url": "https://king-legacy.vaultedvaluesx.com/value-list",
+          "value": 1500,
+          "unit": "목록 참고가치",
+          "unitVerified": false,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:38+09:00"
+        }
+      ],
+      "rarityStatus": "base-fruit",
+      "rarityBasis": "base-fruit",
+      "raritySourceIds": [
+        "fruits"
+      ],
+      "historicalQuotes": [
         {
           "id": "pgg-king-legacy",
           "name": "Pro Game Guides",
@@ -3272,24 +4719,38 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "rarityStatus": "base-fruit",
-      "rarityBasis": "base-fruit",
-      "raritySourceIds": [
-        "fruits"
-      ]
+      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
+      "priceValidUntil": "2026-11-21T20:01:38+09:00"
     },
     {
       "id": "perm-gate",
       "name": "Perm Gate",
       "category": "영구 열매",
       "rarity": "Legendary",
-      "value": null,
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "value": 690,
+      "valueStatus": "single",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
       "image": "images/king-legacy/perm-gate.webp",
-      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "priceQuotes": [
+        {
+          "id": "vvx-king",
+          "name": "VVX 공개 가치표",
+          "url": "https://king-legacy.vaultedvaluesx.com/value-list",
+          "value": 690,
+          "unit": "목록 참고가치",
+          "unitVerified": false,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:38+09:00"
+        }
+      ],
+      "rarityStatus": "base-fruit",
+      "rarityBasis": "base-fruit",
+      "raritySourceIds": [
+        "fruits"
+      ],
+      "historicalQuotes": [
         {
           "id": "pgg-king-legacy",
           "name": "Pro Game Guides",
@@ -3301,24 +4762,38 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "rarityStatus": "base-fruit",
-      "rarityBasis": "base-fruit",
-      "raritySourceIds": [
-        "fruits"
-      ]
+      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
+      "priceValidUntil": "2026-11-21T20:01:38+09:00"
     },
     {
       "id": "perm-toy",
       "name": "Perm Toy",
       "category": "영구 열매",
       "rarity": "Legendary",
-      "value": null,
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "value": 637.5,
+      "valueStatus": "single",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
       "image": "images/king-legacy/perm-toy.webp",
-      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "priceQuotes": [
+        {
+          "id": "vvx-king",
+          "name": "VVX 공개 가치표",
+          "url": "https://king-legacy.vaultedvaluesx.com/value-list",
+          "value": 637.5,
+          "unit": "목록 참고가치",
+          "unitVerified": false,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:38+09:00"
+        }
+      ],
+      "rarityStatus": "base-fruit",
+      "rarityBasis": "base-fruit",
+      "raritySourceIds": [
+        "fruits"
+      ],
+      "historicalQuotes": [
         {
           "id": "pgg-king-legacy",
           "name": "Pro Game Guides",
@@ -3330,24 +4805,38 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "rarityStatus": "base-fruit",
-      "rarityBasis": "base-fruit",
-      "raritySourceIds": [
-        "fruits"
-      ]
+      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
+      "priceValidUntil": "2026-11-21T20:01:38+09:00"
     },
     {
       "id": "perm-melody",
       "name": "Perm Melody",
       "category": "영구 열매",
       "rarity": "Legendary",
-      "value": null,
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "value": 615,
+      "valueStatus": "single",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
       "image": "images/king-legacy/perm-melody.webp",
-      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "priceQuotes": [
+        {
+          "id": "vvx-king",
+          "name": "VVX 공개 가치표",
+          "url": "https://king-legacy.vaultedvaluesx.com/value-list",
+          "value": 615,
+          "unit": "목록 참고가치",
+          "unitVerified": false,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:38+09:00"
+        }
+      ],
+      "rarityStatus": "base-fruit",
+      "rarityBasis": "base-fruit",
+      "raritySourceIds": [
+        "fruits"
+      ],
+      "historicalQuotes": [
         {
           "id": "pgg-king-legacy",
           "name": "Pro Game Guides",
@@ -3359,24 +4848,38 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "rarityStatus": "base-fruit",
-      "rarityBasis": "base-fruit",
-      "raritySourceIds": [
-        "fruits"
-      ]
+      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
+      "priceValidUntil": "2026-11-21T20:01:38+09:00"
     },
     {
       "id": "perm-demon",
       "name": "Perm Demon",
       "category": "영구 열매",
       "rarity": "Legendary",
-      "value": null,
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "value": 1400,
+      "valueStatus": "single",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
       "image": "images/king-legacy/perm-demon.webp",
-      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "priceQuotes": [
+        {
+          "id": "vvx-king",
+          "name": "VVX 공개 가치표",
+          "url": "https://king-legacy.vaultedvaluesx.com/value-list",
+          "value": 1400,
+          "unit": "목록 참고가치",
+          "unitVerified": false,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:38+09:00"
+        }
+      ],
+      "rarityStatus": "base-fruit",
+      "rarityBasis": "base-fruit",
+      "raritySourceIds": [
+        "fruits"
+      ],
+      "historicalQuotes": [
         {
           "id": "pgg-king-legacy",
           "name": "Pro Game Guides",
@@ -3388,24 +4891,38 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "rarityStatus": "base-fruit",
-      "rarityBasis": "base-fruit",
-      "raritySourceIds": [
-        "fruits"
-      ]
+      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
+      "priceValidUntil": "2026-11-21T20:01:38+09:00"
     },
     {
       "id": "perm-quake",
       "name": "Perm Quake",
       "category": "영구 열매",
       "rarity": "Epic",
-      "value": null,
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "value": 500,
+      "valueStatus": "single",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
       "image": "images/king-legacy/perm-quake.webp",
-      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "priceQuotes": [
+        {
+          "id": "vvx-king",
+          "name": "VVX 공개 가치표",
+          "url": "https://king-legacy.vaultedvaluesx.com/value-list",
+          "value": 500,
+          "unit": "목록 참고가치",
+          "unitVerified": false,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:38+09:00"
+        }
+      ],
+      "rarityStatus": "base-fruit",
+      "rarityBasis": "base-fruit",
+      "raritySourceIds": [
+        "fruits"
+      ],
+      "historicalQuotes": [
         {
           "id": "pgg-king-legacy",
           "name": "Pro Game Guides",
@@ -3417,24 +4934,38 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "rarityStatus": "base-fruit",
-      "rarityBasis": "base-fruit",
-      "raritySourceIds": [
-        "fruits"
-      ]
+      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
+      "priceValidUntil": "2026-11-21T20:01:38+09:00"
     },
     {
       "id": "perm-rumble",
       "name": "Perm Rumble",
       "category": "영구 열매",
       "rarity": "Epic",
-      "value": null,
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "value": 410,
+      "valueStatus": "single",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
       "image": "images/king-legacy/perm-rumble.webp",
-      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "priceQuotes": [
+        {
+          "id": "vvx-king",
+          "name": "VVX 공개 가치표",
+          "url": "https://king-legacy.vaultedvaluesx.com/value-list",
+          "value": 410,
+          "unit": "목록 참고가치",
+          "unitVerified": false,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:38+09:00"
+        }
+      ],
+      "rarityStatus": "base-fruit",
+      "rarityBasis": "base-fruit",
+      "raritySourceIds": [
+        "fruits"
+      ],
+      "historicalQuotes": [
         {
           "id": "pgg-king-legacy",
           "name": "Pro Game Guides",
@@ -3446,24 +4977,38 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "rarityStatus": "base-fruit",
-      "rarityBasis": "base-fruit",
-      "raritySourceIds": [
-        "fruits"
-      ]
+      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
+      "priceValidUntil": "2026-11-21T20:01:38+09:00"
     },
     {
       "id": "perm-gas",
       "name": "Perm Gas",
       "category": "영구 열매",
       "rarity": "Epic",
-      "value": null,
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "value": 410,
+      "valueStatus": "single",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
       "image": "images/king-legacy/perm-gas.webp",
-      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "priceQuotes": [
+        {
+          "id": "vvx-king",
+          "name": "VVX 공개 가치표",
+          "url": "https://king-legacy.vaultedvaluesx.com/value-list",
+          "value": 410,
+          "unit": "목록 참고가치",
+          "unitVerified": false,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:38+09:00"
+        }
+      ],
+      "rarityStatus": "base-fruit",
+      "rarityBasis": "base-fruit",
+      "raritySourceIds": [
+        "fruits"
+      ],
+      "historicalQuotes": [
         {
           "id": "pgg-king-legacy",
           "name": "Pro Game Guides",
@@ -3475,24 +5020,38 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "rarityStatus": "base-fruit",
-      "rarityBasis": "base-fruit",
-      "raritySourceIds": [
-        "fruits"
-      ]
+      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
+      "priceValidUntil": "2026-11-21T20:01:38+09:00"
     },
     {
       "id": "perm-control",
       "name": "Perm Control",
       "category": "영구 열매",
       "rarity": "Rare",
-      "value": null,
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "value": 325,
+      "valueStatus": "single",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
       "image": "images/king-legacy/perm-control.webp",
-      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "priceQuotes": [
+        {
+          "id": "vvx-king",
+          "name": "VVX 공개 가치표",
+          "url": "https://king-legacy.vaultedvaluesx.com/value-list",
+          "value": 325,
+          "unit": "목록 참고가치",
+          "unitVerified": false,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:38+09:00"
+        }
+      ],
+      "rarityStatus": "base-fruit",
+      "rarityBasis": "base-fruit",
+      "raritySourceIds": [
+        "fruits"
+      ],
+      "historicalQuotes": [
         {
           "id": "pgg-king-legacy",
           "name": "Pro Game Guides",
@@ -3504,24 +5063,38 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "rarityStatus": "base-fruit",
-      "rarityBasis": "base-fruit",
-      "raritySourceIds": [
-        "fruits"
-      ]
+      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
+      "priceValidUntil": "2026-11-21T20:01:38+09:00"
     },
     {
       "id": "perm-light",
       "name": "Perm Light",
       "category": "영구 열매",
       "rarity": "Epic",
-      "value": null,
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "value": 670,
+      "valueStatus": "single",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
       "image": "images/king-legacy/perm-light.webp",
-      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "priceQuotes": [
+        {
+          "id": "vvx-king",
+          "name": "VVX 공개 가치표",
+          "url": "https://king-legacy.vaultedvaluesx.com/value-list",
+          "value": 670,
+          "unit": "목록 참고가치",
+          "unitVerified": false,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:38+09:00"
+        }
+      ],
+      "rarityStatus": "base-fruit",
+      "rarityBasis": "base-fruit",
+      "raritySourceIds": [
+        "fruits"
+      ],
+      "historicalQuotes": [
         {
           "id": "pgg-king-legacy",
           "name": "Pro Game Guides",
@@ -3533,24 +5106,38 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "rarityStatus": "base-fruit",
-      "rarityBasis": "base-fruit",
-      "raritySourceIds": [
-        "fruits"
-      ]
+      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
+      "priceValidUntil": "2026-11-21T20:01:38+09:00"
     },
     {
       "id": "perm-snow",
       "name": "Perm Snow",
       "category": "영구 열매",
       "rarity": "Epic",
-      "value": null,
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "value": 265,
+      "valueStatus": "single",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
       "image": "images/king-legacy/perm-snow.webp",
-      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "priceQuotes": [
+        {
+          "id": "vvx-king",
+          "name": "VVX 공개 가치표",
+          "url": "https://king-legacy.vaultedvaluesx.com/value-list",
+          "value": 265,
+          "unit": "목록 참고가치",
+          "unitVerified": false,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:38+09:00"
+        }
+      ],
+      "rarityStatus": "base-fruit",
+      "rarityBasis": "base-fruit",
+      "raritySourceIds": [
+        "fruits"
+      ],
+      "historicalQuotes": [
         {
           "id": "pgg-king-legacy",
           "name": "Pro Game Guides",
@@ -3562,24 +5149,38 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "rarityStatus": "base-fruit",
-      "rarityBasis": "base-fruit",
-      "raritySourceIds": [
-        "fruits"
-      ]
+      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
+      "priceValidUntil": "2026-11-21T20:01:38+09:00"
     },
     {
       "id": "perm-spino",
       "name": "Perm Spino",
       "category": "영구 열매",
       "rarity": "Rare",
-      "value": null,
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "value": 250,
+      "valueStatus": "single",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
       "image": "images/king-legacy/perm-spino.webp",
-      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "priceQuotes": [
+        {
+          "id": "vvx-king",
+          "name": "VVX 공개 가치표",
+          "url": "https://king-legacy.vaultedvaluesx.com/value-list",
+          "value": 250,
+          "unit": "목록 참고가치",
+          "unitVerified": false,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:38+09:00"
+        }
+      ],
+      "rarityStatus": "base-fruit",
+      "rarityBasis": "base-fruit",
+      "raritySourceIds": [
+        "fruits"
+      ],
+      "historicalQuotes": [
         {
           "id": "pgg-king-legacy",
           "name": "Pro Game Guides",
@@ -3591,24 +5192,38 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "rarityStatus": "base-fruit",
-      "rarityBasis": "base-fruit",
-      "raritySourceIds": [
-        "fruits"
-      ]
+      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
+      "priceValidUntil": "2026-11-21T20:01:38+09:00"
     },
     {
       "id": "perm-gravity",
       "name": "Perm Gravity",
       "category": "영구 열매",
       "rarity": "Rare",
-      "value": null,
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "value": 215,
+      "valueStatus": "single",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
       "image": "images/king-legacy/perm-gravity.webp",
-      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "priceQuotes": [
+        {
+          "id": "vvx-king",
+          "name": "VVX 공개 가치표",
+          "url": "https://king-legacy.vaultedvaluesx.com/value-list",
+          "value": 215,
+          "unit": "목록 참고가치",
+          "unitVerified": false,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:38+09:00"
+        }
+      ],
+      "rarityStatus": "base-fruit",
+      "rarityBasis": "base-fruit",
+      "raritySourceIds": [
+        "fruits"
+      ],
+      "historicalQuotes": [
         {
           "id": "pgg-king-legacy",
           "name": "Pro Game Guides",
@@ -3620,24 +5235,38 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "rarityStatus": "base-fruit",
-      "rarityBasis": "base-fruit",
-      "raritySourceIds": [
-        "fruits"
-      ]
+      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
+      "priceValidUntil": "2026-11-21T20:01:38+09:00"
     },
     {
       "id": "perm-buddha",
       "name": "Perm Buddha",
       "category": "영구 열매",
       "rarity": "Rare",
-      "value": null,
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "value": 210,
+      "valueStatus": "single",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
       "image": "images/king-legacy/perm-buddha.webp",
-      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "priceQuotes": [
+        {
+          "id": "vvx-king",
+          "name": "VVX 공개 가치표",
+          "url": "https://king-legacy.vaultedvaluesx.com/value-list",
+          "value": 210,
+          "unit": "목록 참고가치",
+          "unitVerified": false,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:38+09:00"
+        }
+      ],
+      "rarityStatus": "base-fruit",
+      "rarityBasis": "base-fruit",
+      "raritySourceIds": [
+        "fruits"
+      ],
+      "historicalQuotes": [
         {
           "id": "pgg-king-legacy",
           "name": "Pro Game Guides",
@@ -3649,24 +5278,38 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "rarityStatus": "base-fruit",
-      "rarityBasis": "base-fruit",
-      "raritySourceIds": [
-        "fruits"
-      ]
+      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
+      "priceValidUntil": "2026-11-21T20:01:38+09:00"
     },
     {
       "id": "perm-flame",
       "name": "Perm Flame",
       "category": "영구 열매",
       "rarity": "Epic",
-      "value": null,
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "value": 205,
+      "valueStatus": "single",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
-      "image": "",
-      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "image": "images/king-legacy/perm-flame.webp",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "priceQuotes": [
+        {
+          "id": "vvx-king",
+          "name": "VVX 공개 가치표",
+          "url": "https://king-legacy.vaultedvaluesx.com/value-list",
+          "value": 205,
+          "unit": "목록 참고가치",
+          "unitVerified": false,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:38+09:00"
+        }
+      ],
+      "rarityStatus": "base-fruit",
+      "rarityBasis": "base-fruit",
+      "raritySourceIds": [
+        "fruits"
+      ],
+      "historicalQuotes": [
         {
           "id": "pgg-king-legacy",
           "name": "Pro Game Guides",
@@ -3678,24 +5321,38 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "rarityStatus": "base-fruit",
-      "rarityBasis": "base-fruit",
-      "raritySourceIds": [
-        "fruits"
-      ]
+      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
+      "priceValidUntil": "2026-11-21T20:01:38+09:00"
     },
     {
       "id": "perm-allo",
       "name": "Perm Allo",
       "category": "영구 열매",
       "rarity": "Rare",
-      "value": null,
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "value": 50,
+      "valueStatus": "single",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
       "image": "images/king-legacy/perm-allo.webp",
-      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "priceQuotes": [
+        {
+          "id": "vvx-king",
+          "name": "VVX 공개 가치표",
+          "url": "https://king-legacy.vaultedvaluesx.com/value-list",
+          "value": 50,
+          "unit": "목록 참고가치",
+          "unitVerified": false,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:38+09:00"
+        }
+      ],
+      "rarityStatus": "base-fruit",
+      "rarityBasis": "base-fruit",
+      "raritySourceIds": [
+        "fruits"
+      ],
+      "historicalQuotes": [
         {
           "id": "pgg-king-legacy",
           "name": "Pro Game Guides",
@@ -3707,24 +5364,38 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "rarityStatus": "base-fruit",
-      "rarityBasis": "base-fruit",
-      "raritySourceIds": [
-        "fruits"
-      ]
+      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
+      "priceValidUntil": "2026-11-21T20:01:38+09:00"
     },
     {
       "id": "perm-magma",
       "name": "Perm Magma",
       "category": "영구 열매",
       "rarity": "Epic",
-      "value": null,
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "value": 190,
+      "valueStatus": "single",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
       "image": "images/king-legacy/perm-magma.webp",
-      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "priceQuotes": [
+        {
+          "id": "vvx-king",
+          "name": "VVX 공개 가치표",
+          "url": "https://king-legacy.vaultedvaluesx.com/value-list",
+          "value": 190,
+          "unit": "목록 참고가치",
+          "unitVerified": false,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:38+09:00"
+        }
+      ],
+      "rarityStatus": "base-fruit",
+      "rarityBasis": "base-fruit",
+      "raritySourceIds": [
+        "fruits"
+      ],
+      "historicalQuotes": [
         {
           "id": "pgg-king-legacy",
           "name": "Pro Game Guides",
@@ -3736,24 +5407,38 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "rarityStatus": "base-fruit",
-      "rarityBasis": "base-fruit",
-      "raritySourceIds": [
-        "fruits"
-      ]
+      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
+      "priceValidUntil": "2026-11-21T20:01:38+09:00"
     },
     {
       "id": "perm-brachio",
       "name": "Perm Brachio",
       "category": "영구 열매",
       "rarity": "Rare",
-      "value": null,
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "value": 175,
+      "valueStatus": "single",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
       "image": "images/king-legacy/brachio-fruit.webp",
-      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "priceQuotes": [
+        {
+          "id": "vvx-king",
+          "name": "VVX 공개 가치표",
+          "url": "https://king-legacy.vaultedvaluesx.com/value-list",
+          "value": 175,
+          "unit": "목록 참고가치",
+          "unitVerified": false,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:38+09:00"
+        }
+      ],
+      "rarityStatus": "base-fruit",
+      "rarityBasis": "base-fruit",
+      "raritySourceIds": [
+        "fruits"
+      ],
+      "historicalQuotes": [
         {
           "id": "pgg-king-legacy",
           "name": "Pro Game Guides",
@@ -3765,24 +5450,38 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "rarityStatus": "base-fruit",
-      "rarityBasis": "base-fruit",
-      "raritySourceIds": [
-        "fruits"
-      ]
+      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
+      "priceValidUntil": "2026-11-21T20:01:38+09:00"
     },
     {
       "id": "perm-venom",
       "name": "Perm Venom",
       "category": "영구 열매",
       "rarity": "Rare",
-      "value": null,
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "value": 155,
+      "valueStatus": "single",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
-      "image": "",
-      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "image": "images/king-legacy/perm-venom.webp",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "priceQuotes": [
+        {
+          "id": "vvx-king",
+          "name": "VVX 공개 가치표",
+          "url": "https://king-legacy.vaultedvaluesx.com/value-list",
+          "value": 155,
+          "unit": "목록 참고가치",
+          "unitVerified": false,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:38+09:00"
+        }
+      ],
+      "rarityStatus": "base-fruit",
+      "rarityBasis": "base-fruit",
+      "raritySourceIds": [
+        "fruits"
+      ],
+      "historicalQuotes": [
         {
           "id": "pgg-king-legacy",
           "name": "Pro Game Guides",
@@ -3794,24 +5493,38 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "rarityStatus": "base-fruit",
-      "rarityBasis": "base-fruit",
-      "raritySourceIds": [
-        "fruits"
-      ]
+      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
+      "priceValidUntil": "2026-11-21T20:01:38+09:00"
     },
     {
       "id": "perm-ice",
       "name": "Perm Ice",
       "category": "영구 열매",
       "rarity": "Epic",
-      "value": null,
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "value": 125,
+      "valueStatus": "single",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
       "image": "images/king-legacy/perm-ice.webp",
-      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "priceQuotes": [
+        {
+          "id": "vvx-king",
+          "name": "VVX 공개 가치표",
+          "url": "https://king-legacy.vaultedvaluesx.com/value-list",
+          "value": 125,
+          "unit": "목록 참고가치",
+          "unitVerified": false,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:38+09:00"
+        }
+      ],
+      "rarityStatus": "base-fruit",
+      "rarityBasis": "base-fruit",
+      "raritySourceIds": [
+        "fruits"
+      ],
+      "historicalQuotes": [
         {
           "id": "pgg-king-legacy",
           "name": "Pro Game Guides",
@@ -3823,24 +5536,38 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "rarityStatus": "base-fruit",
-      "rarityBasis": "base-fruit",
-      "raritySourceIds": [
-        "fruits"
-      ]
+      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
+      "priceValidUntil": "2026-11-21T20:01:38+09:00"
     },
     {
       "id": "perm-dark",
       "name": "Perm Dark",
       "category": "영구 열매",
       "rarity": "Rare",
-      "value": null,
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "value": 400,
+      "valueStatus": "single",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
       "image": "images/king-legacy/perm-dark.webp",
-      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "priceQuotes": [
+        {
+          "id": "vvx-king",
+          "name": "VVX 공개 가치표",
+          "url": "https://king-legacy.vaultedvaluesx.com/value-list",
+          "value": 400,
+          "unit": "목록 참고가치",
+          "unitVerified": false,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:38+09:00"
+        }
+      ],
+      "rarityStatus": "base-fruit",
+      "rarityBasis": "base-fruit",
+      "raritySourceIds": [
+        "fruits"
+      ],
+      "historicalQuotes": [
         {
           "id": "pgg-king-legacy",
           "name": "Pro Game Guides",
@@ -3852,24 +5579,38 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "rarityStatus": "base-fruit",
-      "rarityBasis": "base-fruit",
-      "raritySourceIds": [
-        "fruits"
-      ]
+      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
+      "priceValidUntil": "2026-11-21T20:01:38+09:00"
     },
     {
       "id": "perm-love",
       "name": "Perm Love",
       "category": "영구 열매",
       "rarity": "Uncommon",
-      "value": null,
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "value": 110,
+      "valueStatus": "single",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
       "image": "images/king-legacy/perm-love.webp",
-      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "priceQuotes": [
+        {
+          "id": "vvx-king",
+          "name": "VVX 공개 가치표",
+          "url": "https://king-legacy.vaultedvaluesx.com/value-list",
+          "value": 110,
+          "unit": "목록 참고가치",
+          "unitVerified": false,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:38+09:00"
+        }
+      ],
+      "rarityStatus": "base-fruit",
+      "rarityBasis": "base-fruit",
+      "raritySourceIds": [
+        "fruits"
+      ],
+      "historicalQuotes": [
         {
           "id": "pgg-king-legacy",
           "name": "Pro Game Guides",
@@ -3881,24 +5622,38 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "rarityStatus": "base-fruit",
-      "rarityBasis": "base-fruit",
-      "raritySourceIds": [
-        "fruits"
-      ]
+      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
+      "priceValidUntil": "2026-11-21T20:01:38+09:00"
     },
     {
       "id": "perm-rubber",
       "name": "Perm Rubber",
       "category": "영구 열매",
       "rarity": "Rare",
-      "value": null,
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "value": 45,
+      "valueStatus": "single",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
-      "image": "",
-      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "image": "images/king-legacy/perm-rubber.webp",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "priceQuotes": [
+        {
+          "id": "vvx-king",
+          "name": "VVX 공개 가치표",
+          "url": "https://king-legacy.vaultedvaluesx.com/value-list",
+          "value": 45,
+          "unit": "목록 참고가치",
+          "unitVerified": false,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:38+09:00"
+        }
+      ],
+      "rarityStatus": "base-fruit",
+      "rarityBasis": "base-fruit",
+      "raritySourceIds": [
+        "fruits"
+      ],
+      "historicalQuotes": [
         {
           "id": "pgg-king-legacy",
           "name": "Pro Game Guides",
@@ -3910,33 +5665,30 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "rarityStatus": "base-fruit",
-      "rarityBasis": "base-fruit",
-      "raritySourceIds": [
-        "fruits"
-      ]
+      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
+      "priceValidUntil": "2026-11-21T20:01:38+09:00"
     },
     {
       "id": "perm-paw",
       "name": "Perm Paw",
       "category": "영구 열매",
       "rarity": "Rare",
-      "value": null,
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "value": 45,
+      "valueStatus": "single",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
-      "image": "",
-      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "image": "images/king-legacy/perm-paw.webp",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "priceQuotes": [
         {
-          "id": "pgg-king-legacy",
-          "name": "Pro Game Guides",
-          "url": "https://progameguides.com/roblox/king-legacy-trading-value-list-roblox/",
-          "low": 27.0,
-          "high": 45.0,
-          "unit": "Fins",
-          "publishedAt": "2026-11-09",
-          "observedAt": "2026-11-14T18:38:17+09:00"
+          "id": "vvx-king",
+          "name": "VVX 공개 가치표",
+          "url": "https://king-legacy.vaultedvaluesx.com/value-list",
+          "value": 45,
+          "unit": "목록 참고가치",
+          "unitVerified": false,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:38+09:00"
         }
       ],
       "rarityStatus": "base-fruit",
@@ -3944,20 +5696,51 @@
       "raritySourceIds": [
         "fruits",
         "fruit-renames"
-      ]
+      ],
+      "historicalQuotes": [
+        {
+          "id": "pgg-king-legacy",
+          "name": "Pro Game Guides",
+          "url": "https://progameguides.com/roblox/king-legacy-trading-value-list-roblox/",
+          "low": 27.0,
+          "high": 45.0,
+          "unit": "Fins",
+          "publishedAt": "2026-11-09",
+          "observedAt": "2026-11-14T18:38:17+09:00"
+        }
+      ],
+      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
+      "priceValidUntil": "2026-11-21T20:01:38+09:00"
     },
     {
       "id": "perm-telekinesis",
       "name": "Perm Telekinesis",
       "category": "영구 열매",
       "rarity": "Uncommon",
-      "value": null,
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "value": 25,
+      "valueStatus": "single",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
-      "image": "",
-      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "image": "images/king-legacy/perm-telekinesis.webp",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "priceQuotes": [
+        {
+          "id": "vvx-king",
+          "name": "VVX 공개 가치표",
+          "url": "https://king-legacy.vaultedvaluesx.com/value-list",
+          "value": 25,
+          "unit": "목록 참고가치",
+          "unitVerified": false,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:38+09:00"
+        }
+      ],
+      "rarityStatus": "base-fruit",
+      "rarityBasis": "base-fruit",
+      "raritySourceIds": [
+        "fruits"
+      ],
+      "historicalQuotes": [
         {
           "id": "pgg-king-legacy",
           "name": "Pro Game Guides",
@@ -3969,24 +5752,38 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "rarityStatus": "base-fruit",
-      "rarityBasis": "base-fruit",
-      "raritySourceIds": [
-        "fruits"
-      ]
+      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
+      "priceValidUntil": "2026-11-21T20:01:38+09:00"
     },
     {
       "id": "perm-bomb",
       "name": "Perm Bomb",
       "category": "영구 열매",
       "rarity": "Common",
-      "value": null,
-      "valueStatus": "insufficient",
-      "valueBasis": "public-range-reference-v1",
+      "value": 12.5,
+      "valueStatus": "single",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
       "image": "images/king-legacy/perm-bomb.webp",
-      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "priceQuotes": [
+        {
+          "id": "vvx-king",
+          "name": "VVX 공개 가치표",
+          "url": "https://king-legacy.vaultedvaluesx.com/value-list",
+          "value": 12.5,
+          "unit": "목록 참고가치",
+          "unitVerified": false,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:38+09:00"
+        }
+      ],
+      "rarityStatus": "base-fruit",
+      "rarityBasis": "base-fruit",
+      "raritySourceIds": [
+        "fruits"
+      ],
+      "historicalQuotes": [
         {
           "id": "pgg-king-legacy",
           "name": "Pro Game Guides",
@@ -3998,13 +5795,23 @@
           "observedAt": "2026-11-14T18:38:17+09:00"
         }
       ],
-      "rarityStatus": "base-fruit",
-      "rarityBasis": "base-fruit",
-      "raritySourceIds": [
-        "fruits"
-      ]
+      "priceReviewedAt": "2026-11-14T20:01:38+09:00",
+      "priceValidUntil": "2026-11-21T20:01:38+09:00"
     }
   ],
   "rarityCheckedAt": "2026-11-14T19:16:23+09:00",
-  "rarityNote": "등급은 게임 희귀도 기준입니다. 영구 열매는 해당 열매의 등급으로 분류하며, 패스·재료 묶음은 별도 표시합니다. 신규 재료 6개는 등급 미확인입니다."
+  "rarityNote": "등급은 게임 희귀도 기준입니다. 영구 열매는 해당 열매의 등급으로 분류하며, 패스·재료 묶음은 별도 표시합니다. 신규 재료 6개는 등급 미확인입니다.",
+  "pricePolicy": {
+    "maximumAgeDays": 7,
+    "unitVerified": false,
+    "unitNote": "원문이 단위를 명시하지 않아 Fins·Robux·현금으로 환산하지 않습니다. 같은 목록의 숫자만 비교합니다.",
+    "refreshHours": 6
+  },
+  "priceReview": {
+    "checkedAt": "2026-11-14T20:01:38+09:00",
+    "method": "whole-public-html",
+    "priced": 126,
+    "ranges": 0,
+    "unpriced": 10
+  }
 }

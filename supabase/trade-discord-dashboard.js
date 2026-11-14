@@ -547,7 +547,7 @@ var catalog_default = {
   },
   "cameraman-td": {
     "spider-tv": {
-      name: "Spider Tv",
+      name: "TV Spider",
       image: "images/cameraman-td/spider-tv.webp"
     },
     "engineer-cameraman": {
@@ -555,11 +555,11 @@ var catalog_default = {
       image: "images/cameraman-td/engineer-cameraman.webp"
     },
     "chaos-cameraman": {
-      name: "Chaos cameraman",
+      name: "Chaos Cameraman",
       image: "images/cameraman-td/chaos-cameraman.webp"
     },
     "upgraded-titan-cameraman": {
-      name: "upgraded Titan Cameraman",
+      name: "Upgraded Titan Cameraman",
       image: "images/cameraman-td/upgraded-titan-cameraman.webp"
     },
     "premium-pass": {
@@ -567,7 +567,7 @@ var catalog_default = {
       image: "images/cameraman-td/premium-pass.webp"
     },
     "executioner-tv-man": {
-      name: "executioner tv man",
+      name: "Executioner TV Man",
       image: "images/cameraman-td/executioner-tv-man.webp"
     },
     "x2-candy": {
@@ -583,7 +583,7 @@ var catalog_default = {
       image: "images/cameraman-td/2x-money.webp"
     },
     "headless-tv-man": {
-      name: "headless tv man",
+      name: "Headless TV Man",
       image: "images/cameraman-td/headless-tv-man.webp"
     },
     "large-scientist-cameraman": {
@@ -591,11 +591,11 @@ var catalog_default = {
       image: "images/cameraman-td/large-scientist-cameraman.webp"
     },
     "tv-woman": {
-      name: "Tv woman",
+      name: "TV Woman",
       image: "images/cameraman-td/tv-woman.webp"
     },
     "cinemaman-titan": {
-      name: "CinemaMan Titan",
+      name: "Titan Cinemaman",
       image: "images/cameraman-td/cinemaman-titan.webp"
     },
     "2x-speed": {
@@ -607,15 +607,15 @@ var catalog_default = {
       image: "images/cameraman-td/jetpack-cameraman.webp"
     },
     "large-prototype-titan": {
-      name: "large prototype titan",
+      name: "Upgraded Brute Prototype",
       image: "images/cameraman-td/large-prototype-titan.webp"
     },
     "glitch-plungerman": {
-      name: "Glitch plungerman",
+      name: "Glitch Cameraman",
       image: "images/cameraman-td/glitch-plungerman.webp"
     },
     "videotaper-titan": {
-      name: "videotaper titan",
+      name: "Upgraded Videotapper Prototype",
       image: "images/cameraman-td/videotaper-titan.webp"
     },
     "upgraded-titan-speakerman": {
@@ -647,11 +647,11 @@ var catalog_default = {
       image: "images/cameraman-td/woman-crate.webp"
     },
     "camera-spider": {
-      name: "Camera spider",
+      name: "Camera Spider",
       image: "images/cameraman-td/camera-spider.webp"
     },
     "dragon-cameraman": {
-      name: "dragon cameraman",
+      name: "Dragon Cameraman",
       image: "images/cameraman-td/dragon-cameraman.webp"
     },
     "halloween-crate": {
@@ -659,7 +659,7 @@ var catalog_default = {
       image: "images/cameraman-td/halloween-crate.webp"
     },
     speakerwoman: {
-      name: "SpeakerWoman",
+      name: "Speakerwoman",
       image: "images/cameraman-td/speakerwoman.webp"
     },
     "ninja-cameraman": {
@@ -696,99 +696,103 @@ var catalog_default = {
     },
     "reinforced-titan-cameraman": {
       name: "Reinforced Titan Cameraman",
-      image: ""
+      image: "images/cameraman-td/reinforced-titan-cameraman.webp"
     },
     "large-laser-cameraman": {
       name: "Large Laser Cameraman",
-      image: ""
+      image: "images/cameraman-td/large-laser-cameraman.webp"
     },
     "reinforced-titan-speakerman": {
       name: "Reinforced Titan Speakerman",
-      image: ""
+      image: "images/cameraman-td/reinforced-titan-speakerman.webp"
     },
     "prototype-duo": {
-      name: "Prototype Duo",
-      image: ""
+      name: "Prototypes Duo",
+      image: "images/cameraman-td/prototype-duo.webp"
     },
     "camera-attack-helicopter": {
       name: "Camera Attack Helicopter",
-      image: ""
+      image: "images/cameraman-td/camera-attack-helicopter.webp"
     },
     "mummy-cameraman": {
       name: "Mummy Cameraman",
-      image: ""
+      image: "images/cameraman-td/mummy-cameraman.webp"
     },
     "speaker-helicopter": {
       name: "Speaker Helicopter",
-      image: ""
+      image: "images/cameraman-td/speaker-helicopter.webp"
     },
     "vampire-camera-man": {
-      name: "Vampire Camera Man",
-      image: ""
+      name: "Vampire Cameraman",
+      image: "images/cameraman-td/vampire-camera-man.webp"
     },
     "werewolf-speakerman": {
       name: "Werewolf Speakerman",
-      image: ""
+      image: "images/cameraman-td/werewolf-speakerman.webp"
     },
     "dark-speakerman": {
       name: "Dark Speakerman",
-      image: ""
+      image: "images/cameraman-td/dark-speakerman.webp"
     },
     "rocket-cameraman": {
       name: "Rocket Cameraman",
-      image: ""
+      image: "images/cameraman-td/rocket-cameraman.webp"
     },
     "clown-speakerman": {
       name: "Clown Speakerman",
-      image: ""
+      image: "images/cameraman-td/clown-speakerman.webp"
     },
     "large-tv-man": {
       name: "Large TV Man",
-      image: ""
+      image: "images/cameraman-td/large-tv-man.webp"
     },
     "speaker-spider": {
       name: "Speaker Spider",
-      image: ""
+      image: "images/cameraman-td/speaker-spider.webp"
     },
     "large-cameraman": {
       name: "Large Cameraman",
-      image: ""
+      image: "images/cameraman-td/large-cameraman.webp"
     },
     "dark-camerawoman": {
       name: "Dark Camerawoman",
-      image: ""
+      image: "images/cameraman-td/dark-camerawoman.webp"
     },
     "large-speakerman": {
       name: "Large Speakerman",
-      image: ""
+      image: "images/cameraman-td/large-speakerman.webp"
     },
     "tv-man": {
       name: "TV Man",
-      image: ""
+      image: "images/cameraman-td/tv-man.webp"
     },
     "brown-cameraman": {
       name: "Brown Cameraman",
-      image: ""
+      image: "images/cameraman-td/brown-cameraman.webp"
     },
     "car-speakerman": {
       name: "Car Speakerman",
-      image: ""
+      image: "images/cameraman-td/car-speakerman.webp"
     },
     cameraman: {
       name: "Cameraman",
-      image: ""
+      image: "images/cameraman-td/cameraman.webp"
     },
     speakerman: {
       name: "Speakerman",
-      image: ""
+      image: "images/cameraman-td/speakerman.webp"
     },
     "camera-helicopter": {
       name: "Camera Helicopter",
-      image: ""
+      image: "images/cameraman-td/camera-helicopter.webp"
     },
     "popcorn-cameraman": {
       name: "Popcorn Cameraman",
-      image: ""
+      image: "images/cameraman-td/popcorn-cameraman.webp"
+    },
+    "sand-coffin-crate": {
+      name: "Sand Coffin Crate",
+      image: "images/cameraman-td/sand-coffin-crate.webp"
     }
   },
   "king-legacy": {
@@ -826,7 +830,7 @@ var catalog_default = {
     },
     "pter-fruit": {
       name: "Pter Fruit",
-      image: ""
+      image: "images/king-legacy/pter-fruit.webp"
     },
     "toy-fruit": {
       name: "Toy Fruit",
@@ -870,7 +874,7 @@ var catalog_default = {
     },
     "flame-fruit": {
       name: "Flame Fruit",
-      image: ""
+      image: "images/king-legacy/flame-fruit.webp"
     },
     "snow-fruit": {
       name: "Snow Fruit",
@@ -1066,7 +1070,7 @@ var catalog_default = {
     },
     "crimson-scarf": {
       name: "Crimson Scarf",
-      image: ""
+      image: "images/king-legacy/crimson-scarf.webp"
     },
     "depth-kings-tail": {
       name: "Depth King\u2019s Tail",
@@ -1106,7 +1110,7 @@ var catalog_default = {
     },
     "1-slot-passive": {
       name: "+1 Slot (Passive)",
-      image: ""
+      image: "images/king-legacy/1-slot-passive.webp"
     },
     "2x-money": {
       name: "2x Money",
@@ -1230,7 +1234,7 @@ var catalog_default = {
     },
     "perm-pter": {
       name: "Perm Pter",
-      image: ""
+      image: "images/king-legacy/perm-pter.webp"
     },
     "perm-tree": {
       name: "Perm Tree",
@@ -1290,7 +1294,7 @@ var catalog_default = {
     },
     "perm-flame": {
       name: "Perm Flame",
-      image: ""
+      image: "images/king-legacy/perm-flame.webp"
     },
     "perm-allo": {
       name: "Perm Allo",
@@ -1306,7 +1310,7 @@ var catalog_default = {
     },
     "perm-venom": {
       name: "Perm Venom",
-      image: ""
+      image: "images/king-legacy/perm-venom.webp"
     },
     "perm-ice": {
       name: "Perm Ice",
@@ -1322,15 +1326,15 @@ var catalog_default = {
     },
     "perm-rubber": {
       name: "Perm Rubber",
-      image: ""
+      image: "images/king-legacy/perm-rubber.webp"
     },
     "perm-paw": {
       name: "Perm Paw",
-      image: ""
+      image: "images/king-legacy/perm-paw.webp"
     },
     "perm-telekinesis": {
       name: "Perm Telekinesis",
-      image: ""
+      image: "images/king-legacy/perm-telekinesis.webp"
     },
     "perm-bomb": {
       name: "Perm Bomb",

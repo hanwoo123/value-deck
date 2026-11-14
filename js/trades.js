@@ -13,6 +13,10 @@ window.ValueDeckTrades = (() => {
     const active=()=>version===renderVersion&&hash===location.hash;
     const gameId=catalogs[requestedGame]?requestedGame:'blox-fruits';
     const data=catalogs[gameId];
+    if(data.tradeRegistration==='pending'){
+      main.innerHTML=`<div class="empty"><h1>${esc(data.name)} 거래 게시판 준비 중</h1><p>아이템 자료와 계산기는 이용할 수 있습니다. 거래글 등록은 준비가 끝난 뒤 열립니다.</p><a class="btn" href="#/g/${encodeURIComponent(gameId)}">참고자료 보기</a> <a class="btn" href="#/g/${encodeURIComponent(gameId)}/calc">계산기 열기</a></div>`;
+      return;
+    }
     main.innerHTML='<div class="loading" role="status">거래 게시판을 불러오는 중…</div>';
     let username='';
     try { username=localStorage.getItem(nicknameKey)||''; } catch {}
@@ -32,7 +36,7 @@ window.ValueDeckTrades = (() => {
     const picker=window.ValueDeckTradePicker.mount(main,data);
     let mine=false, next=null, loading=false, visibleDeadlines=[];
     const compact=n=>new Intl.NumberFormat('ko-KR',{notation:n>=1e6?'compact':'standard',maximumFractionDigits:1}).format(n);
-    const hasPrice=item=>typeof item?.value==='number'&&Number.isFinite(item.value)&&item.value>0;
+    const hasPrice=window.ValueDeckCatalog.hasPrice;
     const missing=['comparison','reference'].includes(data.pricingMode)?'비교 자료 부족':'점수 미정';
     const total=slots=>slots.some(x=>!hasPrice(data.byId[x.id]))?missing:compact(slots.reduce((sum,x)=>sum+data.byId[x.id].value*x.qty,0));
     const slotsHTML=slots=>slots.map(x=>{
@@ -84,7 +88,7 @@ window.ValueDeckTrades = (() => {
     main.querySelector('#trade-form')?.addEventListener('submit',async e=>{
       e.preventDefault();const button=e.target.querySelector('[type="submit"]');button.disabled=true;
       const slots=side=>[...main.querySelector(`[data-slots="${side}"]`).children].map(r=>({id:r.dataset.itemId,qty:Number(r.querySelector('input').value)}));
-      try{if (!/^[A-Za-z0-9_]{3,20}$/.test(username)) throw new Error('위에서 내 Roblox 사용자 이름을 먼저 저장해 주세요.');if([...main.querySelectorAll('.trade-slot')].some(r=>!r.dataset.itemId))throw new Error('양쪽의 아이템을 선택해 주세요.');await store.create({gameId,username,give:slots('give'),want:slots('want'),note:e.target.elements.note.value});if(!active())return;const refreshed=await list();e.target.reset();main.querySelectorAll('[data-slots]').forEach(p=>p.innerHTML=row());main.querySelector('details').open=false;message.textContent=refreshed?'거래글을 등록했습니다.':'거래글은 등록됐지만 목록을 불러오지 못했습니다. 새로고침해 주세요.';}catch(error){message.textContent=error.message;}finally{button.disabled=false;}
+      try{if([...slots('give'),...slots('want')].some(x=>x.id&&!window.ValueDeckCatalog.canRegister(data,data.byId[x.id])))throw new Error('선택한 아이템은 아직 거래글에 등록할 수 없습니다.');if (!/^[A-Za-z0-9_]{3,20}$/.test(username)) throw new Error('위에서 내 Roblox 사용자 이름을 먼저 저장해 주세요.');if([...main.querySelectorAll('.trade-slot')].some(r=>!r.dataset.itemId))throw new Error('양쪽의 아이템을 선택해 주세요.');await store.create({gameId,username,give:slots('give'),want:slots('want'),note:e.target.elements.note.value});if(!active())return;const refreshed=await list();e.target.reset();main.querySelectorAll('[data-slots]').forEach(p=>p.innerHTML=row());main.querySelector('details').open=false;message.textContent=refreshed?'거래글을 등록했습니다.':'거래글은 등록됐지만 목록을 불러오지 못했습니다. 새로고침해 주세요.';}catch(error){message.textContent=error.message;}finally{button.disabled=false;}
     });
     main.querySelector('#trade-list').onclick=async e=>{
       const complete=e.target.closest('[data-complete]'),start=e.target.closest('[data-chat]'),inquiries=e.target.closest('[data-inquiries]');

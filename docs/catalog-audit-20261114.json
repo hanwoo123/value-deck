@@ -1,0 +1,596 @@
+{
+  "checkedAt": "2026-11-14T19:51:07+09:00",
+  "ctd": {
+    "items": [
+      {
+        "id": "spider-tv",
+        "name": "TV Spider",
+        "previousName": "Spider Tv",
+        "category": "유닛",
+        "rarity": "Exclusive",
+        "rarityStatus": "catalog",
+        "tradeReady": true
+      },
+      {
+        "id": "engineer-cameraman",
+        "name": "Engineer Cameraman",
+        "previousName": "Engineer Cameraman",
+        "category": "유닛",
+        "rarity": "Exclusive",
+        "rarityStatus": "catalog",
+        "tradeReady": true
+      },
+      {
+        "id": "chaos-cameraman",
+        "name": "Chaos Cameraman",
+        "previousName": "Chaos cameraman",
+        "category": "유닛",
+        "rarity": "Mythic",
+        "rarityStatus": "catalog",
+        "tradeReady": true
+      },
+      {
+        "id": "upgraded-titan-cameraman",
+        "name": "Upgraded Titan Cameraman",
+        "previousName": "upgraded Titan Cameraman",
+        "category": "유닛",
+        "rarity": "Godly",
+        "rarityStatus": "catalog",
+        "tradeReady": true
+      },
+      {
+        "id": "premium-pass",
+        "name": "Premium Pass",
+        "previousName": "Premium Pass",
+        "category": "게임패스",
+        "rarity": "",
+        "rarityStatus": null,
+        "tradeReady": true
+      },
+      {
+        "id": "executioner-tv-man",
+        "name": "Executioner TV Man",
+        "previousName": "executioner tv man",
+        "category": "유닛",
+        "rarity": "Exclusive",
+        "rarityStatus": "catalog",
+        "tradeReady": true
+      },
+      {
+        "id": "x2-candy",
+        "name": "x2 candy",
+        "previousName": "x2 candy",
+        "category": "게임패스",
+        "rarity": "",
+        "rarityStatus": null,
+        "tradeReady": true
+      },
+      {
+        "id": "2x-lucky",
+        "name": "2x Lucky",
+        "previousName": "2x Lucky",
+        "category": "게임패스",
+        "rarity": "",
+        "rarityStatus": null,
+        "tradeReady": true
+      },
+      {
+        "id": "2x-money",
+        "name": "2x Money",
+        "previousName": "2x Money",
+        "category": "게임패스",
+        "rarity": "",
+        "rarityStatus": null,
+        "tradeReady": true
+      },
+      {
+        "id": "headless-tv-man",
+        "name": "Headless TV Man",
+        "previousName": "headless tv man",
+        "category": "유닛",
+        "rarity": "Unknown",
+        "rarityStatus": "conflict",
+        "tradeReady": true
+      },
+      {
+        "id": "large-scientist-cameraman",
+        "name": "Large Scientist Cameraman",
+        "previousName": "Large Scientist Cameraman",
+        "category": "유닛",
+        "rarity": "Exclusive",
+        "rarityStatus": "catalog",
+        "tradeReady": true
+      },
+      {
+        "id": "tv-woman",
+        "name": "TV Woman",
+        "previousName": "Tv woman",
+        "category": "유닛",
+        "rarity": "Mythic",
+        "rarityStatus": "catalog",
+        "tradeReady": true
+      },
+      {
+        "id": "cinemaman-titan",
+        "name": "Titan Cinemaman",
+        "previousName": "CinemaMan Titan",
+        "category": "유닛",
+        "rarity": "Mythic",
+        "rarityStatus": "catalog",
+        "tradeReady": true
+      },
+      {
+        "id": "2x-speed",
+        "name": "2X speed",
+        "previousName": "2X speed",
+        "category": "게임패스",
+        "rarity": "",
+        "rarityStatus": null,
+        "tradeReady": true
+      },
+      {
+        "id": "jetpack-cameraman",
+        "name": "Jetpack Cameraman",
+        "previousName": "Jetpack Cameraman",
+        "category": "유닛",
+        "rarity": "Exclusive",
+        "rarityStatus": "catalog",
+        "tradeReady": true
+      },
+      {
+        "id": "large-prototype-titan",
+        "name": "Upgraded Brute Prototype",
+        "previousName": "large prototype titan",
+        "category": "유닛",
+        "rarity": "Mythic",
+        "rarityStatus": "catalog",
+        "tradeReady": true
+      },
+      {
+        "id": "glitch-plungerman",
+        "name": "Glitch Cameraman",
+        "previousName": "Glitch plungerman",
+        "category": "유닛",
+        "rarity": "Mythic",
+        "rarityStatus": "catalog",
+        "tradeReady": true
+      },
+      {
+        "id": "videotaper-titan",
+        "name": "Upgraded Videotapper Prototype",
+        "previousName": "videotaper titan",
+        "category": "유닛",
+        "rarity": "Mythic",
+        "rarityStatus": "catalog",
+        "tradeReady": true
+      },
+      {
+        "id": "upgraded-titan-speakerman",
+        "name": "Upgraded Titan Speakerman",
+        "previousName": "Upgraded Titan Speakerman",
+        "category": "유닛",
+        "rarity": "Mythic",
+        "rarityStatus": "catalog",
+        "tradeReady": true
+      },
+      {
+        "id": "scientist-crate",
+        "name": "Scientist Crate",
+        "previousName": "Scientist Crate",
+        "category": "상자",
+        "rarity": "",
+        "rarityStatus": null,
+        "tradeReady": true
+      },
+      {
+        "id": "spider-crate",
+        "name": "Spider Crate",
+        "previousName": "Spider Crate",
+        "category": "상자",
+        "rarity": "",
+        "rarityStatus": null,
+        "tradeReady": true
+      },
+      {
+        "id": "pumpkin-farmer",
+        "name": "Pumpkin Farmer",
+        "previousName": "Pumpkin Farmer",
+        "category": "유닛",
+        "rarity": "Epic",
+        "rarityStatus": "catalog",
+        "tradeReady": true
+      },
+      {
+        "id": "scientist-cameraman",
+        "name": "Scientist Cameraman",
+        "previousName": "Scientist Cameraman",
+        "category": "유닛",
+        "rarity": "Exclusive",
+        "rarityStatus": "catalog",
+        "tradeReady": true
+      },
+      {
+        "id": "camera-repair-drone",
+        "name": "Camera Repair Drone",
+        "previousName": "Camera Repair Drone",
+        "category": "유닛",
+        "rarity": "Legendary",
+        "rarityStatus": "catalog",
+        "tradeReady": true
+      },
+      {
+        "id": "woman-crate",
+        "name": "Woman Crate",
+        "previousName": "Woman Crate",
+        "category": "상자",
+        "rarity": "",
+        "rarityStatus": null,
+        "tradeReady": true
+      },
+      {
+        "id": "camera-spider",
+        "name": "Camera Spider",
+        "previousName": "Camera spider",
+        "category": "유닛",
+        "rarity": "Exclusive",
+        "rarityStatus": "catalog",
+        "tradeReady": true
+      },
+      {
+        "id": "dragon-cameraman",
+        "name": "Dragon Cameraman",
+        "previousName": "dragon cameraman",
+        "category": "유닛",
+        "rarity": "Legendary",
+        "rarityStatus": "catalog",
+        "tradeReady": true
+      },
+      {
+        "id": "halloween-crate",
+        "name": "Halloween Crate",
+        "previousName": "Halloween Crate",
+        "category": "상자",
+        "rarity": "",
+        "rarityStatus": null,
+        "tradeReady": true
+      },
+      {
+        "id": "speakerwoman",
+        "name": "Speakerwoman",
+        "previousName": "SpeakerWoman",
+        "category": "유닛",
+        "rarity": "Legendary",
+        "rarityStatus": "catalog",
+        "tradeReady": true
+      },
+      {
+        "id": "ninja-cameraman",
+        "name": "Ninja Cameraman",
+        "previousName": "Ninja Cameraman",
+        "category": "유닛",
+        "rarity": "Legendary",
+        "rarityStatus": "catalog",
+        "tradeReady": true
+      },
+      {
+        "id": "titan-cameraman",
+        "name": "Titan Cameraman",
+        "previousName": "Titan Cameraman",
+        "category": "유닛",
+        "rarity": "Legendary",
+        "rarityStatus": "catalog",
+        "tradeReady": true
+      },
+      {
+        "id": "laser-cameraman-car",
+        "name": "Laser Cameraman Car",
+        "previousName": "Laser Cameraman Car",
+        "category": "유닛",
+        "rarity": "Legendary",
+        "rarityStatus": "catalog",
+        "tradeReady": true
+      },
+      {
+        "id": "titan-tv-man",
+        "name": "Titan TV Man",
+        "previousName": "Titan TV Man",
+        "category": "유닛",
+        "rarity": "Legendary",
+        "rarityStatus": "catalog",
+        "tradeReady": true
+      },
+      {
+        "id": "titan-speakerman",
+        "name": "Titan Speakerman",
+        "previousName": "Titan Speakerman",
+        "category": "유닛",
+        "rarity": "Legendary",
+        "rarityStatus": "catalog",
+        "tradeReady": true
+      },
+      {
+        "id": "hacked-cameraman",
+        "name": "Hacked Cameraman",
+        "previousName": "Hacked Cameraman",
+        "category": "유닛",
+        "rarity": "Exclusive",
+        "rarityStatus": "catalog",
+        "tradeReady": true
+      },
+      {
+        "id": "pharaoh-cameraman",
+        "name": "Pharaoh Cameraman",
+        "previousName": "Pharaoh Cameraman",
+        "category": "유닛",
+        "rarity": "Mythic",
+        "rarityStatus": "catalog",
+        "tradeReady": true
+      },
+      {
+        "id": "upgraded-titan-tv-man",
+        "name": "Upgraded Titan TV Man",
+        "previousName": "Upgraded Titan TV Man",
+        "category": "유닛",
+        "rarity": "Godly",
+        "rarityStatus": "catalog",
+        "tradeReady": true
+      },
+      {
+        "id": "reinforced-titan-cameraman",
+        "name": "Reinforced Titan Cameraman",
+        "previousName": "Reinforced Titan Cameraman",
+        "category": "유닛",
+        "rarity": "Exclusive",
+        "rarityStatus": "catalog",
+        "tradeReady": false
+      },
+      {
+        "id": "large-laser-cameraman",
+        "name": "Large Laser Cameraman",
+        "previousName": "Large Laser Cameraman",
+        "category": "유닛",
+        "rarity": "Mythic",
+        "rarityStatus": "catalog",
+        "tradeReady": false
+      },
+      {
+        "id": "reinforced-titan-speakerman",
+        "name": "Reinforced Titan Speakerman",
+        "previousName": "Reinforced Titan Speakerman",
+        "category": "유닛",
+        "rarity": "Exclusive",
+        "rarityStatus": "catalog",
+        "tradeReady": false
+      },
+      {
+        "id": "prototype-duo",
+        "name": "Prototypes Duo",
+        "previousName": "Prototype Duo",
+        "category": "유닛",
+        "rarity": "Exclusive",
+        "rarityStatus": "catalog",
+        "tradeReady": false
+      },
+      {
+        "id": "camera-attack-helicopter",
+        "name": "Camera Attack Helicopter",
+        "previousName": "Camera Attack Helicopter",
+        "category": "유닛",
+        "rarity": "Mythic",
+        "rarityStatus": "catalog",
+        "tradeReady": false
+      },
+      {
+        "id": "mummy-cameraman",
+        "name": "Mummy Cameraman",
+        "previousName": "Mummy Cameraman",
+        "category": "유닛",
+        "rarity": "Legendary",
+        "rarityStatus": "catalog",
+        "tradeReady": false
+      },
+      {
+        "id": "speaker-helicopter",
+        "name": "Speaker Helicopter",
+        "previousName": "Speaker Helicopter",
+        "category": "유닛",
+        "rarity": "Legendary",
+        "rarityStatus": "catalog",
+        "tradeReady": false
+      },
+      {
+        "id": "vampire-camera-man",
+        "name": "Vampire Cameraman",
+        "previousName": "Vampire Camera Man",
+        "category": "유닛",
+        "rarity": "Exclusive",
+        "rarityStatus": "catalog",
+        "tradeReady": false
+      },
+      {
+        "id": "werewolf-speakerman",
+        "name": "Werewolf Speakerman",
+        "previousName": "Werewolf Speakerman",
+        "category": "유닛",
+        "rarity": "Rare",
+        "rarityStatus": "catalog",
+        "tradeReady": false
+      },
+      {
+        "id": "dark-speakerman",
+        "name": "Dark Speakerman",
+        "previousName": "Dark Speakerman",
+        "category": "유닛",
+        "rarity": "Legendary",
+        "rarityStatus": "catalog",
+        "tradeReady": false
+      },
+      {
+        "id": "rocket-cameraman",
+        "name": "Rocket Cameraman",
+        "previousName": "Rocket Cameraman",
+        "category": "유닛",
+        "rarity": "Epic",
+        "rarityStatus": "catalog",
+        "tradeReady": false
+      },
+      {
+        "id": "clown-speakerman",
+        "name": "Clown Speakerman",
+        "previousName": "Clown Speakerman",
+        "category": "유닛",
+        "rarity": "Uncommon",
+        "rarityStatus": "catalog",
+        "tradeReady": false
+      },
+      {
+        "id": "large-tv-man",
+        "name": "Large TV Man",
+        "previousName": "Large TV Man",
+        "category": "유닛",
+        "rarity": "Epic",
+        "rarityStatus": "catalog",
+        "tradeReady": false
+      },
+      {
+        "id": "speaker-spider",
+        "name": "Speaker Spider",
+        "previousName": "Speaker Spider",
+        "category": "유닛",
+        "rarity": "Exclusive",
+        "rarityStatus": "catalog",
+        "tradeReady": false
+      },
+      {
+        "id": "large-cameraman",
+        "name": "Large Cameraman",
+        "previousName": "Large Cameraman",
+        "category": "유닛",
+        "rarity": "Epic",
+        "rarityStatus": "catalog",
+        "tradeReady": false
+      },
+      {
+        "id": "dark-camerawoman",
+        "name": "Dark Camerawoman",
+        "previousName": "Dark Camerawoman",
+        "category": "유닛",
+        "rarity": "Epic",
+        "rarityStatus": "catalog",
+        "tradeReady": false
+      },
+      {
+        "id": "large-speakerman",
+        "name": "Large Speakerman",
+        "previousName": "Large Speakerman",
+        "category": "유닛",
+        "rarity": "Epic",
+        "rarityStatus": "catalog",
+        "tradeReady": false
+      },
+      {
+        "id": "tv-man",
+        "name": "TV Man",
+        "previousName": "TV Man",
+        "category": "유닛",
+        "rarity": "Rare",
+        "rarityStatus": "catalog",
+        "tradeReady": false
+      },
+      {
+        "id": "brown-cameraman",
+        "name": "Brown Cameraman",
+        "previousName": "Brown Cameraman",
+        "category": "유닛",
+        "rarity": "Uncommon",
+        "rarityStatus": "catalog",
+        "tradeReady": false
+      },
+      {
+        "id": "car-speakerman",
+        "name": "Car Speakerman",
+        "previousName": "Car Speakerman",
+        "category": "유닛",
+        "rarity": "Uncommon",
+        "rarityStatus": "catalog",
+        "tradeReady": false
+      },
+      {
+        "id": "cameraman",
+        "name": "Cameraman",
+        "previousName": "Cameraman",
+        "category": "유닛",
+        "rarity": "Basic",
+        "rarityStatus": "catalog",
+        "tradeReady": false
+      },
+      {
+        "id": "speakerman",
+        "name": "Speakerman",
+        "previousName": "Speakerman",
+        "category": "유닛",
+        "rarity": "Basic",
+        "rarityStatus": "catalog",
+        "tradeReady": false
+      },
+      {
+        "id": "camera-helicopter",
+        "name": "Camera Helicopter",
+        "previousName": "Camera Helicopter",
+        "category": "유닛",
+        "rarity": "Epic",
+        "rarityStatus": "catalog",
+        "tradeReady": false
+      },
+      {
+        "id": "popcorn-cameraman",
+        "name": "Popcorn Cameraman",
+        "previousName": "Popcorn Cameraman",
+        "category": "유닛",
+        "rarity": "Rare",
+        "rarityStatus": "catalog",
+        "tradeReady": false
+      }
+    ],
+    "sourceUrls": [
+      "https://www.game.guide/cameraman-tower-defense/units",
+      "https://cameraman-td.vaultedvaluesx.com/value-list"
+    ],
+    "aliasEvidence": {
+      "method": "기존 VVX 아이콘과 별도 유닛 목록의 원본 이미지 대조, 같은 캐릭터/이미지 확인",
+      "items": {
+        "spider-tv": "TV Spider",
+        "cinemaman-titan": "Titan Cinemaman",
+        "large-prototype-titan": "Upgraded Brute Prototype",
+        "videotaper-titan": "Upgraded Videotapper Prototype",
+        "glitch-plungerman": "Glitch Cameraman",
+        "prototype-duo": "Prototypes Duo",
+        "vampire-camera-man": "Vampire Cameraman"
+      }
+    },
+    "rarityConflict": {
+      "headless-tv-man": {
+        "unitCatalog": "Mythic",
+        "valueListCategory": "Exclusive",
+        "decision": "Unknown; 원문 분류를 게임 희귀도로 단정하지 않음"
+      }
+    },
+    "excludedSourceRows": "서명 변형 7개, verkhniy 및 등급/원본 이미지 불명확 항목은 일반 유닛으로 자동 등록하지 않음",
+    "additionalItem": {
+      "id": "sand-coffin-crate",
+      "name": "Sand Coffin Crate",
+      "reason": "원문 전체 목록에서 누락된 상자를 확인. 서명 유닛/오류 항목과 구별해 추가.",
+      "tradeReady": false
+    }
+  },
+  "kingLegacy": {
+    "previousSource": "PGG 단일 Fins 범위; 최신 시세를 보장할 수 없어 historicalQuotes에 보존하고 계산에서 제외",
+    "selectedSource": "VVX 공개 전체 163개 표의 value 필드; 정확한 이름으로 매칭",
+    "unit": "목록 참고가치; 원문 단위 미표기. Fins·Robux·현금 환산 안 함",
+    "rejectedComparison": {
+      "source": "https://www.game.guide/king-legacy-value-list",
+      "reason": "공개 JSON의 updatedAt 2026-10-31과 화면의 상대적 업데이트 문구가 달라 오래된 가격을 오늘 값으로 취급하지 않음. VVX와 동일한 원자료를 사용할 가능성도 있어 독립 비교 출처로 세지 않음"
+    }
+  },
+  "tradeDb": "사용자 요청으로 운영 DB 미적용. 킹피스 전체와 카타디 신규 유닛 24개·상자 1개 등록 보류."
+}
