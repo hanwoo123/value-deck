@@ -1,0 +1,1043 @@
+{
+  "checkedAt": "2026-11-14T09:53:01.069396+00:00",
+  "notes": [
+    "외부 공개 페이지에서 아이템 이름을 대조한 인게임 아이콘. 시세 데이터와 관측일은 변경하지 않음.",
+    "일반/영구 열매가 같은 열매 아이콘을 공유할 수 있으며 이름과 분류로 구별함. 재료 묶음은 출처의 완성 아이템/스톤 이미지를 사용함.",
+    "이미지와 게임 자산의 권리는 원 권리자에게 있으며 출처 기록이 별도 재사용 허락을 뜻하지 않음."
+  ],
+  "images": {
+    "demon-fruit": {
+      "path": "images/king-legacy/demon-fruit.webp",
+      "url": "https://bloxtoolgrid.com/wp-content/uploads/2026/07/king-legacy-demon-fruit-150x150.webp",
+      "page": "https://bloxtoolgrid.com/king-legacy/",
+      "width": 150,
+      "height": 150,
+      "sha256": "40e4d3f9660added9f868bd0b4e271a0151b19bfcfc03d98679de6842820c076"
+    },
+    "tree-fruit": {
+      "path": "images/king-legacy/tree-fruit.webp",
+      "url": "https://bloxtoolgrid.com/wp-content/uploads/2026/07/king-legacy-tree-fruit-150x150.webp",
+      "page": "https://bloxtoolgrid.com/king-legacy/",
+      "width": 150,
+      "height": 150,
+      "sha256": "7745217e2f5099c30b2f8fb69c6990257bcadc9d3d2a569178c53791e7adb041"
+    },
+    "phoenix-fruit": {
+      "path": "images/king-legacy/phoenix-fruit.webp",
+      "url": "https://bloxtoolgrid.com/wp-content/uploads/2026/07/king-legacy-phoenix-fruit-150x150.webp",
+      "page": "https://bloxtoolgrid.com/king-legacy/",
+      "width": 150,
+      "height": 150,
+      "sha256": "13ca9a9e4bdd7a1959f98bb5268b3788bd9f1fa5e31510aff41cbba59e51513d"
+    },
+    "gate-fruit": {
+      "path": "images/king-legacy/gate-fruit.webp",
+      "url": "https://bloxtoolgrid.com/wp-content/uploads/2026/07/king-legacy-gate-fruit-150x150.webp",
+      "page": "https://bloxtoolgrid.com/king-legacy/",
+      "width": 150,
+      "height": 150,
+      "sha256": "33253e8c043eca044a23a1437641c2c83e82b04d2c4fafd578e7d82e8cde0c5e"
+    },
+    "dragon-fruit": {
+      "path": "images/king-legacy/dragon-fruit.webp",
+      "url": "https://bloxtoolgrid.com/wp-content/uploads/2026/07/king-legacy-dragon-fruit-150x150.webp",
+      "page": "https://bloxtoolgrid.com/king-legacy/",
+      "width": 150,
+      "height": 150,
+      "sha256": "beed0edd926c88678d70d6cac0f730cc1aeed95b51f49bb9b2e41b2c59746e0f"
+    },
+    "melody-fruit": {
+      "path": "images/king-legacy/melody-fruit.webp",
+      "url": "https://bloxtoolgrid.com/wp-content/uploads/2026/07/king-legacy-melody-fruit-150x150.webp",
+      "page": "https://bloxtoolgrid.com/king-legacy/",
+      "width": 150,
+      "height": 150,
+      "sha256": "82991f370b9d3b753fcc9490ec3ba62665e9eefbdd9435828e859466bd65cddd"
+    },
+    "dough-fruit": {
+      "path": "images/king-legacy/dough-fruit.webp",
+      "url": "https://bloxtoolgrid.com/wp-content/uploads/2026/07/king-legacy-dough-fruit-150x150.webp",
+      "page": "https://bloxtoolgrid.com/king-legacy/",
+      "width": 150,
+      "height": 150,
+      "sha256": "e5921f355982ad49d989dcba7c3d67c0c6f96f7501516c442dbe35561ec2ede9"
+    },
+    "toy-fruit": {
+      "path": "images/king-legacy/toy-fruit.webp",
+      "url": "https://bloxtoolgrid.com/wp-content/uploads/2026/07/king-legacy-toy-fruit-150x150.webp",
+      "page": "https://bloxtoolgrid.com/king-legacy/",
+      "width": 150,
+      "height": 150,
+      "sha256": "a6ce1791c3e5a205af7107a873cbc10e361b16d7c87cdbb83944e3678dd93bca"
+    },
+    "spino-fruit": {
+      "path": "images/king-legacy/spino-fruit.webp",
+      "url": "https://bloxtoolgrid.com/wp-content/uploads/2026/07/king-legacy-spino-fruit-150x150.webp",
+      "page": "https://bloxtoolgrid.com/king-legacy/",
+      "width": 150,
+      "height": 150,
+      "sha256": "3cf3df3b564faaa8bf61e176070117a506b58d25fb5c4b718b41f2195b91f865"
+    },
+    "allo-fruit": {
+      "path": "images/king-legacy/allo-fruit.webp",
+      "url": "https://bloxtoolgrid.com/wp-content/uploads/2026/07/king-legacy-allo-fruit-150x150.webp",
+      "page": "https://bloxtoolgrid.com/king-legacy/",
+      "width": 150,
+      "height": 150,
+      "sha256": "2bdd007f1bdcf29a9c37707d542b5a77e4b6de684f23316d02e39b7aea4189d4"
+    },
+    "rumble-fruit": {
+      "path": "images/king-legacy/rumble-fruit.webp",
+      "url": "https://bloxtoolgrid.com/wp-content/uploads/2026/07/king-legacy-rumble-fruit-150x150.webp",
+      "page": "https://bloxtoolgrid.com/king-legacy/",
+      "width": 150,
+      "height": 150,
+      "sha256": "ca863d0605663b88f02cabef8e3f2605cc2f25b14f72bf42113ca88077b453ce"
+    },
+    "brachio-fruit": {
+      "path": "images/king-legacy/brachio-fruit.webp",
+      "url": "https://bloxtoolgrid.com/wp-content/uploads/2026/07/king-legacy-brachio-fruit-150x150.webp",
+      "page": "https://bloxtoolgrid.com/king-legacy/",
+      "width": 150,
+      "height": 150,
+      "sha256": "2d5026c6ba80cc3f4f6c626bcad9dab545809d3a91cfcc7394e27591e1ff6060"
+    },
+    "palm-fruit": {
+      "path": "images/king-legacy/palm-fruit.webp",
+      "url": "https://bloxtoolgrid.com/wp-content/uploads/2026/07/king-legacy-palm-fruit-150x150.webp",
+      "page": "https://bloxtoolgrid.com/king-legacy/",
+      "width": 150,
+      "height": 150,
+      "sha256": "fdc8a92ff8f79d39f05b964d147e6f6a3886a16e9d4ac435fb04562b5a9ab9cd"
+    },
+    "gas-fruit": {
+      "path": "images/king-legacy/gas-fruit.webp",
+      "url": "https://bloxtoolgrid.com/wp-content/uploads/2026/07/king-legacy-gas-fruit-150x150.webp",
+      "page": "https://bloxtoolgrid.com/king-legacy/",
+      "width": 150,
+      "height": 150,
+      "sha256": "bfb725a5f89e6cc5d45fc84088ab3190f7a29369016d9e046a5bdd8d2f8f629d"
+    },
+    "magma-fruit": {
+      "path": "images/king-legacy/magma-fruit.webp",
+      "url": "https://bloxtoolgrid.com/wp-content/uploads/2026/07/king-legacy-magma-fruit-150x150.webp",
+      "page": "https://bloxtoolgrid.com/king-legacy/",
+      "width": 150,
+      "height": 150,
+      "sha256": "913928f896f918a22c13409bf24bd9109782c997fceddf6205177f2f07b50f15"
+    },
+    "light-fruit": {
+      "path": "images/king-legacy/light-fruit.webp",
+      "url": "https://bloxtoolgrid.com/wp-content/uploads/2026/07/king-legacy-light-fruit-150x150.webp",
+      "page": "https://bloxtoolgrid.com/king-legacy/",
+      "width": 150,
+      "height": 150,
+      "sha256": "35b84c0e453ad96da02699dc5fb92a30330b963a745849167791fa6884d0f6f4"
+    },
+    "quake-fruit": {
+      "path": "images/king-legacy/quake-fruit.webp",
+      "url": "https://bloxtoolgrid.com/wp-content/uploads/2026/07/king-legacy-quake-fruit-150x150.webp",
+      "page": "https://bloxtoolgrid.com/king-legacy/",
+      "width": 150,
+      "height": 150,
+      "sha256": "add5078e616496e3ef7a6d9b11a8045879576b1126a8a4647f5cdf277a599080"
+    },
+    "snow-fruit": {
+      "path": "images/king-legacy/perm-snow.webp",
+      "url": "https://bloxtoolgrid.com/wp-content/uploads/2026/07/king-legacy-perm-snow-150x150.webp",
+      "page": "https://bloxtoolgrid.com/king-legacy/",
+      "width": 150,
+      "height": 150,
+      "sha256": "dc123cded47e27dcc827e97eaccccf6c413ca42d0db5e12183bfda78d7abe869",
+      "sharedWith": "perm-snow"
+    },
+    "ice-fruit": {
+      "path": "images/king-legacy/ice-fruit.webp",
+      "url": "https://axeetech.com/wp-content/uploads/2026/11/klv-ice-fruit.webp",
+      "page": "https://axeetech.com/king-legacy-value-list/",
+      "width": 160,
+      "height": 160,
+      "sha256": "1e95cb5b046eceb9a4bb6943a3fdcfcc4fc5be0ec35abef525c717054594d9de"
+    },
+    "control-fruit": {
+      "path": "images/king-legacy/control-fruit.webp",
+      "url": "https://axeetech.com/wp-content/uploads/2026/11/klv-control-fruit.webp",
+      "page": "https://axeetech.com/king-legacy-value-list/",
+      "width": 160,
+      "height": 160,
+      "sha256": "576ee4155bec436ee1b4ef22eb2de29fa7e1afe1a41727ea3f482b0223392c6a"
+    },
+    "buddha-fruit": {
+      "path": "images/king-legacy/perm-buddha.webp",
+      "url": "https://bloxtoolgrid.com/wp-content/uploads/2026/07/king-legacy-perm-buddha-150x150.webp",
+      "page": "https://bloxtoolgrid.com/king-legacy/",
+      "width": 150,
+      "height": 150,
+      "sha256": "aa8e9db5f194bfc76124ffcf071cc85c659e4581c3d062846c30b4eb42093463",
+      "sharedWith": "perm-buddha"
+    },
+    "gravity-fruit": {
+      "path": "images/king-legacy/gravity-fruit.webp",
+      "url": "https://axeetech.com/wp-content/uploads/2026/11/klv-gravity-fruit.webp",
+      "page": "https://axeetech.com/king-legacy-value-list/",
+      "width": 160,
+      "height": 160,
+      "sha256": "4d0160bd25d7bffb62dd247fc80d9288f512badf6ff53795b784b17e4e873dd6"
+    },
+    "dark-fruit": {
+      "path": "images/king-legacy/dark-fruit.webp",
+      "url": "https://axeetech.com/wp-content/uploads/2026/11/klv-dark-fruit.webp",
+      "page": "https://axeetech.com/king-legacy-value-list/",
+      "width": 160,
+      "height": 160,
+      "sha256": "58e6dad2ad46dad42f36024ea5aa59e81f9c2d6565f12ca9a93292c78b9f4564"
+    },
+    "noirceur": {
+      "path": "images/king-legacy/noirceur.webp",
+      "url": "https://bloxtoolgrid.com/wp-content/uploads/2026/07/king-legacy-noirceur-150x150.webp",
+      "page": "https://bloxtoolgrid.com/king-legacy/",
+      "width": 150,
+      "height": 150,
+      "sha256": "4cce63e4d990f92ed53d5981aae79ec27508e131ba0a6067b722ca78e01aaa3c"
+    },
+    "cerulean-blossom": {
+      "path": "images/king-legacy/cerulean-blossom.webp",
+      "url": "https://bloxtoolgrid.com/wp-content/uploads/2026/07/king-legacy-cerulean-blossom-150x150.webp",
+      "page": "https://bloxtoolgrid.com/king-legacy/",
+      "width": 150,
+      "height": 150,
+      "sha256": "d9d6d7e327e0266ce6843505960d76650bacf7b75e2638701d13254b1a2af1c9"
+    },
+    "ancient-sword": {
+      "path": "images/king-legacy/ancient-sword.webp",
+      "url": "https://bloxtoolgrid.com/wp-content/uploads/2026/07/king-legacy-ancient-sword-150x150.webp",
+      "page": "https://bloxtoolgrid.com/king-legacy/",
+      "width": 150,
+      "height": 150,
+      "sha256": "f1ae370ad4df154f9f3d72c2b5e445e650eb0be99e186481ab79c0d46cf658db"
+    },
+    "true-muramasa": {
+      "path": "images/king-legacy/true-muramasa.webp",
+      "url": "https://bloxcentral.com.br/assets/tierlist/king-legacy-espadas/true-muramasa.webp",
+      "page": "https://bloxcentral.com.br/tier-list/king-legacy-espadas",
+      "width": 160,
+      "height": 160,
+      "sha256": "a038594760e2be899a794b10226ecf8cd6161a5cc2458a7bfce08a91e8e1db2e"
+    },
+    "abyssal-crab-axe": {
+      "path": "images/king-legacy/abyssal-crab-axe.webp",
+      "url": "https://bloxtoolgrid.com/wp-content/uploads/2026/07/king-legacy-abyssal-crab-axe-150x150.webp",
+      "page": "https://bloxtoolgrid.com/king-legacy/",
+      "width": 150,
+      "height": 150,
+      "sha256": "97f4d31c957958a43875c625258476ca0d1e33aada3964b610ba365c67ae2d47"
+    },
+    "dread-broom": {
+      "path": "images/king-legacy/dread-broom.webp",
+      "url": "https://bloxcentral.com.br/assets/tierlist/king-legacy-espadas/dreadbroom.webp",
+      "page": "https://bloxcentral.com.br/tier-list/king-legacy-espadas",
+      "width": 160,
+      "height": 160,
+      "sha256": "aeb408d34dd89d489f3ab87326c782d135c44f6d8b8b9171290663a554b0bc48"
+    },
+    "ethereal": {
+      "path": "images/king-legacy/ethereal.webp",
+      "url": "https://bloxtoolgrid.com/wp-content/uploads/2026/07/king-legacy-ethereal-150x150.webp",
+      "page": "https://bloxtoolgrid.com/king-legacy/",
+      "width": 150,
+      "height": 150,
+      "sha256": "31bacf67731169a9cc41d5a1303bc0a7847930fbe6e41fe88a6150510aa654f2"
+    },
+    "phoenix-blade": {
+      "path": "images/king-legacy/phoenix-blade.webp",
+      "url": "https://bloxtoolgrid.com/wp-content/uploads/2026/07/king-legacy-phoenix-blade-150x150.webp",
+      "page": "https://bloxtoolgrid.com/king-legacy/",
+      "width": 150,
+      "height": 150,
+      "sha256": "d718188f6aefda452b64fb2dbf0f6b4314f1e4f130a2d01f9de6f26ca0380c63"
+    },
+    "acroscythe": {
+      "path": "images/king-legacy/acroscythe.webp",
+      "url": "https://bloxcentral.com.br/assets/tierlist/king-legacy-espadas/acroscyth.webp",
+      "page": "https://bloxcentral.com.br/tier-list/king-legacy-espadas",
+      "width": 160,
+      "height": 160,
+      "sha256": "853593899377e18b29a70f526f3368984a31036b6d6b3662afe69de5de259e73"
+    },
+    "scepter-of-flames": {
+      "path": "images/king-legacy/scepter-of-flames.webp",
+      "url": "https://bloxcentral.com.br/assets/tierlist/king-legacy-espadas/scepters-of-flame.webp",
+      "page": "https://bloxcentral.com.br/tier-list/king-legacy-espadas",
+      "width": 160,
+      "height": 160,
+      "sha256": "d54c9c5fa834460ea41cb3312e75345cd8d668148edd200d1c8b58906f1fc108"
+    },
+    "authentic-triple-katana": {
+      "path": "images/king-legacy/authentic-triple-katana.webp",
+      "url": "https://bloxtoolgrid.com/wp-content/uploads/2026/07/king-legacy-authentic-triple-katana-150x150.webp",
+      "page": "https://bloxtoolgrid.com/king-legacy/",
+      "width": 150,
+      "height": 150,
+      "sha256": "f6e09b75727fe0410d55126b5f7ab6a0994075da31e37de5d04dee9a84f465b6"
+    },
+    "avalon": {
+      "path": "images/king-legacy/avalon.webp",
+      "url": "https://bloxtoolgrid.com/wp-content/uploads/2026/07/king-legacy-avalon-150x150.webp",
+      "page": "https://bloxtoolgrid.com/king-legacy/",
+      "width": 150,
+      "height": 150,
+      "sha256": "f549ca3c206fa4d4922e6e73de8dae0f04dacf10fc8fc42381bca1d656a011a2"
+    },
+    "longaevus": {
+      "path": "images/king-legacy/longaevus.webp",
+      "url": "https://bloxtoolgrid.com/wp-content/uploads/2026/07/king-legacy-longaevus-150x150.webp",
+      "page": "https://bloxtoolgrid.com/king-legacy/",
+      "width": 150,
+      "height": 150,
+      "sha256": "029e5f1478e69d05e0e5f817469db47c8c5e03cbd371f2ffaf7359071005269e"
+    },
+    "daybreak-cleaver": {
+      "path": "images/king-legacy/daybreak-cleaver.webp",
+      "url": "https://bloxtoolgrid.com/wp-content/uploads/2026/07/king-legacy-daybreak-cleaver-150x150.webp",
+      "page": "https://bloxtoolgrid.com/king-legacy/",
+      "width": 150,
+      "height": 150,
+      "sha256": "5307f3c9b361ac654920c80e010c6f9e98d62c73598969e75bb76a1c499327e6"
+    },
+    "aquatic-anchor": {
+      "path": "images/king-legacy/aquatic-anchor.webp",
+      "url": "https://bloxtoolgrid.com/wp-content/uploads/2026/07/king-legacy-aquatic-anchor-150x150.webp",
+      "page": "https://bloxtoolgrid.com/king-legacy/",
+      "width": 150,
+      "height": 150,
+      "sha256": "f5f278f175b2e799c3fb4f7685f4f60f20d6877b4acc9378649112f0622abf1e"
+    },
+    "dragon-band": {
+      "path": "images/king-legacy/dragon-band.webp",
+      "url": "https://bloxtoolgrid.com/wp-content/uploads/2026/07/king-legacy-dragon-band-150x150.webp",
+      "page": "https://bloxtoolgrid.com/king-legacy/",
+      "width": 150,
+      "height": 150,
+      "sha256": "932589122531bc8c9a046d7e5f339ab17fa5035bfa29f857c4b39e35fedd4cc9"
+    },
+    "crustacean-armor": {
+      "path": "images/king-legacy/crustacean-armor.webp",
+      "url": "https://bloxtoolgrid.com/wp-content/uploads/2026/07/king-legacy-crustacean-armor-150x150.webp",
+      "page": "https://bloxtoolgrid.com/king-legacy/",
+      "width": 150,
+      "height": 150,
+      "sha256": "62a0107e75011691789fbc52b048d6387e183ee85d3ef49b001bbb23f28c124a"
+    },
+    "exp-crown": {
+      "path": "images/king-legacy/exp-crown.webp",
+      "url": "https://bloxtoolgrid.com/wp-content/uploads/2026/07/king-legacy-exp-crown-150x150.webp",
+      "page": "https://bloxtoolgrid.com/king-legacy/",
+      "width": 150,
+      "height": 150,
+      "sha256": "39f33bfe4371ba2e5d299831c1fd7848faea3b7dcba46046355c59ccc379663a"
+    },
+    "water-kimono": {
+      "path": "images/king-legacy/water-kimono.webp",
+      "url": "https://bloxtoolgrid.com/wp-content/uploads/2026/07/king-legacy-water-kimono-150x150.webp",
+      "page": "https://bloxtoolgrid.com/king-legacy/",
+      "width": 150,
+      "height": 150,
+      "sha256": "87906d393b72e1aca8ec043d4e8cece6b6495e0f7f58934b7c5665b57ded7738"
+    },
+    "drakenfyr-cape": {
+      "path": "images/king-legacy/drakenfyr-cape.webp",
+      "url": "https://bloxtoolgrid.com/wp-content/uploads/2026/07/king-legacy-drakenfyr-cape-150x150.webp",
+      "page": "https://bloxtoolgrid.com/king-legacy/",
+      "width": 150,
+      "height": 150,
+      "sha256": "191c94f00aab4c35dadf0e7b2f8e2832a07c516ad6775eb5149a00063f4f0adf"
+    },
+    "night-necklace": {
+      "path": "images/king-legacy/night-necklace.webp",
+      "url": "https://bloxtoolgrid.com/wp-content/uploads/2026/07/king-legacy-night-necklace-150x150.webp",
+      "page": "https://bloxtoolgrid.com/king-legacy/",
+      "width": 150,
+      "height": 150,
+      "sha256": "4d60b1c4b17b52b54b59ee58a5824946d7fc541fb0b88d7ee56a47840a011c65"
+    },
+    "oceanic-tanto": {
+      "path": "images/king-legacy/oceanic-tanto.webp",
+      "url": "https://bloxtoolgrid.com/wp-content/uploads/2026/07/king-legacy-oceanic-tanto-150x150.webp",
+      "page": "https://bloxtoolgrid.com/king-legacy/",
+      "width": 150,
+      "height": 150,
+      "sha256": "2e54cb13ed36e41306d847aeb447e35238eb6b8e42e6e38060696d417677c176"
+    },
+    "dominion-cloak": {
+      "path": "images/king-legacy/dominion-cloak.webp",
+      "url": "https://bloxtoolgrid.com/wp-content/uploads/2026/07/king-legacy-dominion-cloak-150x150.webp",
+      "page": "https://bloxtoolgrid.com/king-legacy/",
+      "width": 150,
+      "height": 150,
+      "sha256": "f73c56b987594f1d0404a86ea90968009691966443cd1ccef7678ef8ff59f8bd"
+    },
+    "inferno-cloak": {
+      "path": "images/king-legacy/inferno-cloak.webp",
+      "url": "https://bloxtoolgrid.com/wp-content/uploads/2026/07/king-legacy-inferno-cloak-150x150.webp",
+      "page": "https://bloxtoolgrid.com/king-legacy/",
+      "width": 150,
+      "height": 150,
+      "sha256": "6d1e65254df330ee6ff015c84ecb53ebb43e162aa1ae70ef923e18afac5d5d8f"
+    },
+    "floffy-glasses": {
+      "path": "images/king-legacy/floffy-glasses.webp",
+      "url": "https://bloxtoolgrid.com/wp-content/uploads/2026/07/king-legacy-floffy-glasses-150x150.webp",
+      "page": "https://bloxtoolgrid.com/king-legacy/",
+      "width": 150,
+      "height": 150,
+      "sha256": "e6e668cfbc96f4e82ae87a5b84d83869cb3ecf3757af4b6e0af156de0e65f3a9"
+    },
+    "glacies-shoulder": {
+      "path": "images/king-legacy/glacies-shoulder.webp",
+      "url": "https://bloxtoolgrid.com/wp-content/uploads/2026/07/king-legacy-glacies-shoulder-150x150.webp",
+      "page": "https://bloxtoolgrid.com/king-legacy/",
+      "width": 150,
+      "height": 150,
+      "sha256": "4dde8d1d796d155345ca8723e5fc791346bc7860082dbe95e0d91f2bcdbd1c8f"
+    },
+    "nativitatis": {
+      "path": "images/king-legacy/nativitatis.webp",
+      "url": "https://bloxtoolgrid.com/wp-content/uploads/2026/07/king-legacy-nativitatis-150x150.webp",
+      "page": "https://bloxtoolgrid.com/king-legacy/",
+      "width": 150,
+      "height": 150,
+      "sha256": "a8d673eb6d44f314251cf866d4704a89e9c4ba6c710e1cd8fb60c340b9f3d9c3"
+    },
+    "green-dryadalis": {
+      "path": "images/king-legacy/green-dryadalis.webp",
+      "url": "https://bloxtoolgrid.com/wp-content/uploads/2026/07/king-legacy-green-dryadalis-150x150.webp",
+      "page": "https://bloxtoolgrid.com/king-legacy/",
+      "width": 150,
+      "height": 150,
+      "sha256": "42473802bf19244d06168709beeef67ee3b43c7f19eab711fdc5b90081841499"
+    },
+    "cervus": {
+      "path": "images/king-legacy/cervus.webp",
+      "url": "https://bloxtoolgrid.com/wp-content/uploads/2026/07/king-legacy-cervus-150x150.webp",
+      "page": "https://bloxtoolgrid.com/king-legacy/",
+      "width": 150,
+      "height": 150,
+      "sha256": "d18a682d748d718f682c6e703aba5a773da3b2f70ac92fea5ec399dd366ef859"
+    },
+    "dark-beard-hat": {
+      "path": "images/king-legacy/dark-beard-hat.webp",
+      "url": "https://bloxtoolgrid.com/wp-content/uploads/2026/07/king-legacy-dark-beard-hat-150x150.webp",
+      "page": "https://bloxtoolgrid.com/king-legacy/",
+      "width": 150,
+      "height": 150,
+      "sha256": "8b05c300cadcc895ee842428907d76cf2ba8fe90142c438921d30e19cf957db2"
+    },
+    "abyss-sentinel-armor": {
+      "path": "images/king-legacy/abyss-sentinel-armor.webp",
+      "url": "https://bloxtoolgrid.com/wp-content/uploads/2026/07/king-legacy-abyss-sentinel-armor-150x150.webp",
+      "page": "https://bloxtoolgrid.com/king-legacy/",
+      "width": 150,
+      "height": 150,
+      "sha256": "f47310a359bb54ee7f527c268256f07122beba3fd02fa80c41db3f90ea9752ab"
+    },
+    "metal-fin": {
+      "path": "images/king-legacy/metal-fin.webp",
+      "url": "https://bloxtoolgrid.com/wp-content/uploads/2026/07/king-legacy-metal-fin-150x150.webp",
+      "page": "https://bloxtoolgrid.com/king-legacy/",
+      "width": 150,
+      "height": 150,
+      "sha256": "15b24d66b9bba97b6a6a1f680c80be3b7c2452f936e286d7ae4dc0b6b39b2f2f"
+    },
+    "oceanic-tentacle": {
+      "path": "images/king-legacy/oceanic-tentacle.webp",
+      "url": "https://bloxtoolgrid.com/wp-content/uploads/2026/07/king-legacy-oceanic-tentacle-150x150.webp",
+      "page": "https://bloxtoolgrid.com/king-legacy/",
+      "width": 150,
+      "height": 150,
+      "sha256": "6bebb7954d1ac7442ff45669d1d16663eb7d9b2b7cacfe53a6be11fd12edce8c"
+    },
+    "tomoe-taiko": {
+      "path": "images/king-legacy/tomoe-taiko.webp",
+      "url": "https://axeetech.com/wp-content/uploads/2026/11/klv-tomoe-taiko.webp",
+      "page": "https://axeetech.com/king-legacy-value-list/",
+      "width": 160,
+      "height": 160,
+      "sha256": "7570b261fa239cc915acbf3e2c9f86939630b69e238ffcff1dfe62eb276f9d9c"
+    },
+    "lucidus-coat": {
+      "path": "images/king-legacy/lucidus-coat.webp",
+      "url": "https://axeetech.com/wp-content/uploads/2026/11/klv-lucidus-coat.webp",
+      "page": "https://axeetech.com/king-legacy-value-list/",
+      "width": 160,
+      "height": 160,
+      "sha256": "f10bdec9c4052e90f35d0cb0cbfa76c8c68bb52d604f6c906b899563133167a8"
+    },
+    "sally-crown": {
+      "path": "images/king-legacy/sally-crown.webp",
+      "url": "https://axeetech.com/wp-content/uploads/2026/11/klv-sally-crown.webp",
+      "page": "https://axeetech.com/king-legacy-value-list/",
+      "width": 160,
+      "height": 160,
+      "sha256": "af02a06e638a9cd8a8dce442f06159810df56a45be876a752294749f4fc17283"
+    },
+    "dragon-necklace": {
+      "path": "images/king-legacy/dragon-necklace.webp",
+      "url": "https://axeetech.com/wp-content/uploads/2026/11/klv-dragon-necklace.webp",
+      "page": "https://axeetech.com/king-legacy-value-list/",
+      "width": 160,
+      "height": 160,
+      "sha256": "ef4b62af70ed91e2f00c9f40314669bc286a4138c909a43c9251ad91b330e83f"
+    },
+    "tengu-mask": {
+      "path": "images/king-legacy/tengu-mask.webp",
+      "url": "https://axeetech.com/wp-content/uploads/2026/11/klv-tengu-mask.webp",
+      "page": "https://axeetech.com/king-legacy-value-list/",
+      "width": 160,
+      "height": 160,
+      "sha256": "48fece161ec1c5f92e436cbdcf3103630c60baa17b5d4b2255b5e62a78f33afe"
+    },
+    "oni-mask": {
+      "path": "images/king-legacy/oni-mask.webp",
+      "url": "https://axeetech.com/wp-content/uploads/2026/11/klv-oni-mask.webp",
+      "page": "https://axeetech.com/king-legacy-value-list/",
+      "width": 160,
+      "height": 160,
+      "sha256": "af88941a8949e6e083e2f732bedd98dd71de41db44370f7348e42909fcf13c2b"
+    },
+    "shadow-cloak": {
+      "path": "images/king-legacy/shadow-cloak.webp",
+      "url": "https://axeetech.com/wp-content/uploads/2026/11/klv-shadow-cloak.webp",
+      "page": "https://axeetech.com/king-legacy-value-list/",
+      "width": 160,
+      "height": 160,
+      "sha256": "d7bd450c8503c18d168991c8eb87acc8c8ee6d156ca310962d642a50487cc0f8"
+    },
+    "sentinel-armor": {
+      "path": "images/king-legacy/sentinel-armor.webp",
+      "url": "https://axeetech.com/wp-content/uploads/2026/11/klv-sentinel-armor.webp",
+      "page": "https://axeetech.com/king-legacy-value-list/",
+      "width": 160,
+      "height": 160,
+      "sha256": "cbe78615a01b181a9182e3c5fc40ff0607bc830247a0bda805f5f55b97bf43fa"
+    },
+    "flame-hair": {
+      "path": "images/king-legacy/flame-hair.webp",
+      "url": "https://axeetech.com/wp-content/uploads/2026/11/klv-flame-hair.webp",
+      "page": "https://axeetech.com/king-legacy-value-list/",
+      "width": 160,
+      "height": 160,
+      "sha256": "63a0733389b35828c08a0226a36ebcc42ddc3ddf5a3de8010346f7254841aa25"
+    },
+    "volt-bundle": {
+      "path": "images/king-legacy/volt-bundle.webp",
+      "url": "https://bloxtoolgrid.com/wp-content/uploads/2026/07/king-legacy-volt-bundle-150x150.webp",
+      "page": "https://bloxtoolgrid.com/king-legacy/",
+      "width": 150,
+      "height": 150,
+      "sha256": "5872792b271b721daff8de11f3961a01aaee87afa45df880ee6e6b8c60b1eaf3"
+    },
+    "conqueror": {
+      "path": "images/king-legacy/conqueror.webp",
+      "url": "https://bloxtoolgrid.com/wp-content/uploads/2026/07/king-legacy-conqueror-150x150.webp",
+      "page": "https://bloxtoolgrid.com/king-legacy/",
+      "width": 150,
+      "height": 150,
+      "sha256": "17b509b03d02a6b4619d38f41772d0cfe7a8f62f379bcc85bc5b9bc847eabfe5"
+    },
+    "blazeice-pack": {
+      "path": "images/king-legacy/blazeice-pack.webp",
+      "url": "https://bloxtoolgrid.com/wp-content/uploads/2026/07/king-legacy-blazeice-pack-150x150.webp",
+      "page": "https://bloxtoolgrid.com/king-legacy/",
+      "width": 150,
+      "height": 150,
+      "sha256": "d129dfd522001bd845603b5962c0cd2815e3348158b27558b8775ee6d1e3328c"
+    },
+    "2x-money": {
+      "path": "images/king-legacy/2x-money.webp",
+      "url": "https://bloxtoolgrid.com/wp-content/uploads/2026/07/king-legacy-2x-money-150x150.webp",
+      "page": "https://bloxtoolgrid.com/king-legacy/",
+      "width": 150,
+      "height": 150,
+      "sha256": "89aa85d77e9a7360ef1ff74dd5e71602c3c11be4292b7ce9285e80fd914159e1"
+    },
+    "2x-drop-item": {
+      "path": "images/king-legacy/2x-drop-item.webp",
+      "url": "https://axeetech.com/wp-content/uploads/2026/11/klv-2x-drop-item.webp",
+      "page": "https://axeetech.com/king-legacy-value-list/",
+      "width": 160,
+      "height": 160,
+      "sha256": "8b387fd2b6162c6439b0c41a4137f5923f005e8a5c0afb364271d801d2e11e52"
+    },
+    "night-blade": {
+      "path": "images/king-legacy/night-blade.webp",
+      "url": "https://bloxtoolgrid.com/wp-content/uploads/2026/07/king-legacy-night-blade-150x150.webp",
+      "page": "https://bloxtoolgrid.com/king-legacy/",
+      "width": 150,
+      "height": 150,
+      "sha256": "69a5eb4c39867377bc1e91001197c7694bb6550c23c54a4c711cda53ef2c81ba"
+    },
+    "coffin-boat": {
+      "path": "images/king-legacy/coffin-boat.webp",
+      "url": "https://axeetech.com/wp-content/uploads/2026/11/klv-coffin-boat.webp",
+      "page": "https://axeetech.com/king-legacy-value-list/",
+      "width": 160,
+      "height": 160,
+      "sha256": "cfa8df714f1b856ed936b922eca59f7464e45f0c24dbd74a65e7d30c734914a8"
+    },
+    "1-fruit-storage": {
+      "path": "images/king-legacy/1-fruit-storage.webp",
+      "url": "https://bloxtoolgrid.com/wp-content/uploads/2026/07/king-legacy-1-fruit-storage-150x150.webp",
+      "page": "https://bloxtoolgrid.com/king-legacy/",
+      "width": 150,
+      "height": 150,
+      "sha256": "428f0118de9c673f403121a2d396dd21a3a1db54c0e5f36fcefee4c7ac79167d"
+    },
+    "legacy-pose": {
+      "path": "images/king-legacy/legacy-pose.webp",
+      "url": "https://bloxtoolgrid.com/wp-content/uploads/2026/07/king-legacy-legacy-pose-150x150.webp",
+      "page": "https://bloxtoolgrid.com/king-legacy/",
+      "width": 150,
+      "height": 150,
+      "sha256": "6483b75abcdeca3f3b22f23e6c87bfcee6a0c5dd0b185f43d7b480f4bfba4593"
+    },
+    "2x-exp-12-hours": {
+      "path": "images/king-legacy/2x-exp-12-hours.webp",
+      "url": "https://bloxtoolgrid.com/wp-content/uploads/2026/07/king-legacy-2x-exp-12-hours-150x150.webp",
+      "page": "https://bloxtoolgrid.com/king-legacy/",
+      "width": 150,
+      "height": 150,
+      "sha256": "22ac2418f4953612cc38ebd7e8d7ee6803c32e06e2ea69143a4a392159b85dca"
+    },
+    "race-rerolls": {
+      "path": "images/king-legacy/race-rerolls.webp",
+      "url": "https://bloxtoolgrid.com/wp-content/uploads/2026/07/king-legacy-race-rerolls-150x150.webp",
+      "page": "https://bloxtoolgrid.com/king-legacy/",
+      "width": 150,
+      "height": 150,
+      "sha256": "ecb64a2bf1b6b8d101934835006690851b4b09fdbebc0bb662a8bdd513910008"
+    },
+    "refund-stats": {
+      "path": "images/king-legacy/refund-stats.webp",
+      "url": "https://bloxtoolgrid.com/wp-content/uploads/2026/07/king-legacy-refund-stats-150x150.webp",
+      "page": "https://bloxtoolgrid.com/king-legacy/",
+      "width": 150,
+      "height": 150,
+      "sha256": "ac4b5a5bfef590615705d01c1b37e0594cff882fc7cdccc10c24902e4ff8d332"
+    },
+    "hellroot-bundle": {
+      "path": "images/king-legacy/hellroot-bundle.webp",
+      "url": "https://bloxtoolgrid.com/wp-content/uploads/2026/07/king-legacy-hellroot-bundle-150x150.webp",
+      "page": "https://bloxtoolgrid.com/king-legacy/",
+      "width": 150,
+      "height": 150,
+      "sha256": "a1a4c141784296e456f24f3a0c910de969067c1d2233050868358b6e8e2d3ae3"
+    },
+    "primal-pack": {
+      "path": "images/king-legacy/primal-pack.webp",
+      "url": "https://bloxtoolgrid.com/wp-content/uploads/2026/07/king-legacy-primal-pack-150x150.webp",
+      "page": "https://bloxtoolgrid.com/king-legacy/",
+      "width": 150,
+      "height": 150,
+      "sha256": "d456ae035f7ed9e4dcba0399b0d4c659dfacd2dbfe88acac097cb932a67a4ae3"
+    },
+    "acrospear-mats": {
+      "path": "images/king-legacy/acrospear-mats.webp",
+      "url": "https://bloxtoolgrid.com/wp-content/uploads/2026/07/king-legacy-acrospear-mats-150x150.webp",
+      "page": "https://bloxtoolgrid.com/king-legacy/",
+      "width": 150,
+      "height": 150,
+      "sha256": "7bd8ea8e1747e887be530fd4a8144002e8b3afa232efbd1413d4dd13db277dd2"
+    },
+    "spark-stone-mats": {
+      "path": "images/king-legacy/spark-stone-mats.webp",
+      "url": "https://bloxtoolgrid.com/wp-content/uploads/2026/07/king-legacy-spark-stone-mats-150x150.webp",
+      "page": "https://bloxtoolgrid.com/king-legacy/",
+      "width": 150,
+      "height": 150,
+      "sha256": "34ce0896b459c20dd633443b6d472a1bfbd46cb3dadf1895b3b13e333d38c14c"
+    },
+    "phoenix-blade-v2-mats": {
+      "path": "images/king-legacy/phoenix-blade-v2-mats.webp",
+      "url": "https://bloxtoolgrid.com/wp-content/uploads/2026/07/king-legacy-phoenix-blade-v2-mats-150x150.webp",
+      "page": "https://bloxtoolgrid.com/king-legacy/",
+      "width": 150,
+      "height": 150,
+      "sha256": "d718188f6aefda452b64fb2dbf0f6b4314f1e4f130a2d01f9de6f26ca0380c63"
+    },
+    "dark-stone-mats": {
+      "path": "images/king-legacy/dark-stone-mats.webp",
+      "url": "https://bloxtoolgrid.com/wp-content/uploads/2026/07/king-legacy-dark-stone-mats-150x150.webp",
+      "page": "https://bloxtoolgrid.com/king-legacy/",
+      "width": 150,
+      "height": 150,
+      "sha256": "34f17dbfda9417630a6ff01734f2b441113f29caea6071766f5bbb5c20f8e43a"
+    },
+    "poison-stone-mats": {
+      "path": "images/king-legacy/poison-stone-mats.webp",
+      "url": "https://bloxtoolgrid.com/wp-content/uploads/2026/07/king-legacy-poison-stone-mats-150x150.webp",
+      "page": "https://bloxtoolgrid.com/king-legacy/",
+      "width": 150,
+      "height": 150,
+      "sha256": "6103426661f1ceaf6df449d14ac7a05343af250062dcfdbacd38b74e869d6715"
+    },
+    "blaze-stone-mats": {
+      "path": "images/king-legacy/blaze-stone-mats.webp",
+      "url": "https://bloxtoolgrid.com/wp-content/uploads/2026/07/king-legacy-blaze-stone-mats-150x150.webp",
+      "page": "https://bloxtoolgrid.com/king-legacy/",
+      "width": 150,
+      "height": 150,
+      "sha256": "92afdecef23445b2c923b5cf4c2c54a30a996e49a9ec270253518b8b354806e8"
+    },
+    "abyss-stone-mats": {
+      "path": "images/king-legacy/abyss-stone-mats.webp",
+      "url": "https://bloxtoolgrid.com/wp-content/uploads/2026/07/king-legacy-abyss-stone-mats-150x150.webp",
+      "page": "https://bloxtoolgrid.com/king-legacy/",
+      "width": 150,
+      "height": 150,
+      "sha256": "1772545ae5905c65a291de6d8be325a5172493a6e829ad53ad593a77975211a9"
+    },
+    "gale-stone-mats": {
+      "path": "images/king-legacy/gale-stone-mats.webp",
+      "url": "https://bloxtoolgrid.com/wp-content/uploads/2026/07/king-legacy-gale-stone-mats-150x150.webp",
+      "page": "https://bloxtoolgrid.com/king-legacy/",
+      "width": 150,
+      "height": 150,
+      "sha256": "675cb5fa724e20cf235baa12ac1899dabd3ec785872f1e7c8044cf0d26d413ff"
+    },
+    "bloodthirsty-stone-mats": {
+      "path": "images/king-legacy/bloodthirsty-stone-mats.webp",
+      "url": "https://bloxtoolgrid.com/wp-content/uploads/2026/07/king-legacy-bloodthirsty-stone-mats-150x150.webp",
+      "page": "https://bloxtoolgrid.com/king-legacy/",
+      "width": 150,
+      "height": 150,
+      "sha256": "ea258a14b01002f010c74d872ea619ccdb5e32a61023e020d3bc28b7f424b8e5"
+    },
+    "light-stone-mats": {
+      "path": "images/king-legacy/light-stone-mats.webp",
+      "url": "https://bloxtoolgrid.com/wp-content/uploads/2026/07/king-legacy-light-stone-mats-150x150.webp",
+      "page": "https://bloxtoolgrid.com/king-legacy/",
+      "width": 150,
+      "height": 150,
+      "sha256": "57bf7f84f00bfa9dfaefaf097cf512bf98abd94530ccd0fae18a8e04d1876ce6"
+    },
+    "glacier-stone-mats": {
+      "path": "images/king-legacy/glacier-stone-mats.webp",
+      "url": "https://bloxtoolgrid.com/wp-content/uploads/2026/07/king-legacy-glacier-stone-mats-150x150.webp",
+      "page": "https://bloxtoolgrid.com/king-legacy/",
+      "width": 150,
+      "height": 150,
+      "sha256": "cbefd60c16cda6646aa1e8ec1ad44e4dc3499b36e3c6c0dea0c11c5e80854057"
+    },
+    "tempestas-stone-mats": {
+      "path": "images/king-legacy/tempestas-stone-mats.webp",
+      "url": "https://bloxtoolgrid.com/wp-content/uploads/2026/07/king-legacy-tempestas-stone-mats-150x150.webp",
+      "page": "https://bloxtoolgrid.com/king-legacy/",
+      "width": 150,
+      "height": 150,
+      "sha256": "fa030e736d25dc6ec59ca674e463008f3f80e4522b37e65ce2e92d467b365abd"
+    },
+    "disillusion-stone-mats": {
+      "path": "images/king-legacy/disillusion-stone-mats.webp",
+      "url": "https://bloxtoolgrid.com/wp-content/uploads/2026/07/king-legacy-disillusion-stone-mats-150x150.webp",
+      "page": "https://bloxtoolgrid.com/king-legacy/",
+      "width": 150,
+      "height": 150,
+      "sha256": "3a39803d15c09ba3ee5f5186c5a4eb4778736a379a37f5ed4a9ab3d593f223c2"
+    },
+    "perm-dragon": {
+      "path": "images/king-legacy/perm-dragon.webp",
+      "url": "https://bloxtoolgrid.com/wp-content/uploads/2026/07/king-legacy-perm-dragon-150x150.webp",
+      "page": "https://bloxtoolgrid.com/king-legacy/",
+      "width": 150,
+      "height": 150,
+      "sha256": "beed0edd926c88678d70d6cac0f730cc1aeed95b51f49bb9b2e41b2c59746e0f"
+    },
+    "perm-dough": {
+      "path": "images/king-legacy/perm-dough.webp",
+      "url": "https://bloxtoolgrid.com/wp-content/uploads/2026/07/king-legacy-perm-dough-150x150.webp",
+      "page": "https://bloxtoolgrid.com/king-legacy/",
+      "width": 150,
+      "height": 150,
+      "sha256": "e5921f355982ad49d989dcba7c3d67c0c6f96f7501516c442dbe35561ec2ede9"
+    },
+    "perm-phoenix": {
+      "path": "images/king-legacy/perm-phoenix.webp",
+      "url": "https://bloxtoolgrid.com/wp-content/uploads/2026/07/king-legacy-perm-phoenix-150x150.webp",
+      "page": "https://bloxtoolgrid.com/king-legacy/",
+      "width": 150,
+      "height": 150,
+      "sha256": "13ca9a9e4bdd7a1959f98bb5268b3788bd9f1fa5e31510aff41cbba59e51513d"
+    },
+    "perm-tree": {
+      "path": "images/king-legacy/perm-tree.webp",
+      "url": "https://bloxtoolgrid.com/wp-content/uploads/2026/07/king-legacy-perm-tree-150x150.webp",
+      "page": "https://bloxtoolgrid.com/king-legacy/",
+      "width": 150,
+      "height": 150,
+      "sha256": "7745217e2f5099c30b2f8fb69c6990257bcadc9d3d2a569178c53791e7adb041"
+    },
+    "perm-gate": {
+      "path": "images/king-legacy/perm-gate.webp",
+      "url": "https://bloxtoolgrid.com/wp-content/uploads/2026/07/king-legacy-perm-gate-150x150.webp",
+      "page": "https://bloxtoolgrid.com/king-legacy/",
+      "width": 150,
+      "height": 150,
+      "sha256": "33253e8c043eca044a23a1437641c2c83e82b04d2c4fafd578e7d82e8cde0c5e"
+    },
+    "perm-toy": {
+      "path": "images/king-legacy/perm-toy.webp",
+      "url": "https://bloxtoolgrid.com/wp-content/uploads/2026/07/king-legacy-perm-toy-150x150.webp",
+      "page": "https://bloxtoolgrid.com/king-legacy/",
+      "width": 150,
+      "height": 150,
+      "sha256": "a6ce1791c3e5a205af7107a873cbc10e361b16d7c87cdbb83944e3678dd93bca"
+    },
+    "perm-melody": {
+      "path": "images/king-legacy/perm-melody.webp",
+      "url": "https://bloxtoolgrid.com/wp-content/uploads/2026/07/king-legacy-perm-melody-150x150.webp",
+      "page": "https://bloxtoolgrid.com/king-legacy/",
+      "width": 150,
+      "height": 150,
+      "sha256": "82991f370b9d3b753fcc9490ec3ba62665e9eefbdd9435828e859466bd65cddd"
+    },
+    "perm-demon": {
+      "path": "images/king-legacy/perm-demon.webp",
+      "url": "https://bloxtoolgrid.com/wp-content/uploads/2026/07/king-legacy-perm-demon-150x150.webp",
+      "page": "https://bloxtoolgrid.com/king-legacy/",
+      "width": 150,
+      "height": 150,
+      "sha256": "40e4d3f9660added9f868bd0b4e271a0151b19bfcfc03d98679de6842820c076"
+    },
+    "perm-quake": {
+      "path": "images/king-legacy/perm-quake.webp",
+      "url": "https://bloxtoolgrid.com/wp-content/uploads/2026/07/king-legacy-perm-quake-150x150.webp",
+      "page": "https://bloxtoolgrid.com/king-legacy/",
+      "width": 150,
+      "height": 150,
+      "sha256": "add5078e616496e3ef7a6d9b11a8045879576b1126a8a4647f5cdf277a599080"
+    },
+    "perm-rumble": {
+      "path": "images/king-legacy/perm-rumble.webp",
+      "url": "https://bloxtoolgrid.com/wp-content/uploads/2026/07/king-legacy-perm-rumble-150x150.webp",
+      "page": "https://bloxtoolgrid.com/king-legacy/",
+      "width": 150,
+      "height": 150,
+      "sha256": "ca863d0605663b88f02cabef8e3f2605cc2f25b14f72bf42113ca88077b453ce"
+    },
+    "perm-gas": {
+      "path": "images/king-legacy/perm-gas.webp",
+      "url": "https://bloxtoolgrid.com/wp-content/uploads/2026/07/king-legacy-perm-gas-150x150.webp",
+      "page": "https://bloxtoolgrid.com/king-legacy/",
+      "width": 150,
+      "height": 150,
+      "sha256": "bfb725a5f89e6cc5d45fc84088ab3190f7a29369016d9e046a5bdd8d2f8f629d"
+    },
+    "perm-control": {
+      "path": "images/king-legacy/perm-control.webp",
+      "url": "https://bloxtoolgrid.com/wp-content/uploads/2026/07/king-legacy-perm-control-150x150.webp",
+      "page": "https://bloxtoolgrid.com/king-legacy/",
+      "width": 150,
+      "height": 150,
+      "sha256": "91beb46a39df87a5d1159445348200691525beaf3b061ae6b986d4606d359954"
+    },
+    "perm-light": {
+      "path": "images/king-legacy/perm-light.webp",
+      "url": "https://bloxtoolgrid.com/wp-content/uploads/2026/07/king-legacy-perm-light-150x150.webp",
+      "page": "https://bloxtoolgrid.com/king-legacy/",
+      "width": 150,
+      "height": 150,
+      "sha256": "35b84c0e453ad96da02699dc5fb92a30330b963a745849167791fa6884d0f6f4"
+    },
+    "perm-snow": {
+      "path": "images/king-legacy/perm-snow.webp",
+      "url": "https://bloxtoolgrid.com/wp-content/uploads/2026/07/king-legacy-perm-snow-150x150.webp",
+      "page": "https://bloxtoolgrid.com/king-legacy/",
+      "width": 150,
+      "height": 150,
+      "sha256": "dc123cded47e27dcc827e97eaccccf6c413ca42d0db5e12183bfda78d7abe869"
+    },
+    "perm-spino": {
+      "path": "images/king-legacy/perm-spino.webp",
+      "url": "https://bloxtoolgrid.com/wp-content/uploads/2026/07/king-legacy-perm-spino-150x150.webp",
+      "page": "https://bloxtoolgrid.com/king-legacy/",
+      "width": 150,
+      "height": 150,
+      "sha256": "3cf3df3b564faaa8bf61e176070117a506b58d25fb5c4b718b41f2195b91f865"
+    },
+    "perm-gravity": {
+      "path": "images/king-legacy/perm-gravity.webp",
+      "url": "https://bloxtoolgrid.com/wp-content/uploads/2026/07/king-legacy-perm-gravity-150x150.webp",
+      "page": "https://bloxtoolgrid.com/king-legacy/",
+      "width": 150,
+      "height": 150,
+      "sha256": "8bc32be3bd7c9acbb53cc7b027ae38bb4dc0ce1c22a281dc1b9bf147ba4c4410"
+    },
+    "perm-buddha": {
+      "path": "images/king-legacy/perm-buddha.webp",
+      "url": "https://bloxtoolgrid.com/wp-content/uploads/2026/07/king-legacy-perm-buddha-150x150.webp",
+      "page": "https://bloxtoolgrid.com/king-legacy/",
+      "width": 150,
+      "height": 150,
+      "sha256": "aa8e9db5f194bfc76124ffcf071cc85c659e4581c3d062846c30b4eb42093463"
+    },
+    "perm-allo": {
+      "path": "images/king-legacy/perm-allo.webp",
+      "url": "https://axeetech.com/wp-content/uploads/2026/11/klv-perm-allo.webp",
+      "page": "https://axeetech.com/king-legacy-value-list/",
+      "width": 160,
+      "height": 160,
+      "sha256": "622cedb0221500b6edc5ffd05720f0fee85c670337f9fcab4f4792ddeca8e14e"
+    },
+    "perm-magma": {
+      "path": "images/king-legacy/perm-magma.webp",
+      "url": "https://axeetech.com/wp-content/uploads/2026/11/klv-perm-magma.webp",
+      "page": "https://axeetech.com/king-legacy-value-list/",
+      "width": 160,
+      "height": 160,
+      "sha256": "a4edc1c4d5190cfa17a245f050bef93aab40405dd81c679a33aae5b4795767b9"
+    },
+    "perm-brachio": {
+      "path": "images/king-legacy/brachio-fruit.webp",
+      "url": "https://bloxtoolgrid.com/wp-content/uploads/2026/07/king-legacy-brachio-fruit-150x150.webp",
+      "page": "https://bloxtoolgrid.com/king-legacy/",
+      "width": 150,
+      "height": 150,
+      "sha256": "2d5026c6ba80cc3f4f6c626bcad9dab545809d3a91cfcc7394e27591e1ff6060",
+      "sharedWith": "brachio-fruit"
+    },
+    "perm-ice": {
+      "path": "images/king-legacy/perm-ice.webp",
+      "url": "https://axeetech.com/wp-content/uploads/2026/11/klv-perm-ice.webp",
+      "page": "https://axeetech.com/king-legacy-value-list/",
+      "width": 160,
+      "height": 160,
+      "sha256": "6bcf11e64f4647a0e23c6ddb213d2645948a8ae57fd77cccb182efc89fcbecd2"
+    },
+    "perm-dark": {
+      "path": "images/king-legacy/perm-dark.webp",
+      "url": "https://axeetech.com/wp-content/uploads/2026/11/klv-perm-dark.webp",
+      "page": "https://axeetech.com/king-legacy-value-list/",
+      "width": 160,
+      "height": 160,
+      "sha256": "d920e4cf592a78e9575c801a41cbf0583037cf21a76ee2d01d29b4266794bad2"
+    },
+    "perm-love": {
+      "path": "images/king-legacy/perm-love.webp",
+      "url": "https://axeetech.com/wp-content/uploads/2026/11/klv-perm-love.webp",
+      "page": "https://axeetech.com/king-legacy-value-list/",
+      "width": 160,
+      "height": 160,
+      "sha256": "84685d6d01889ed88987cba0e9d4790c18ddcd48b74856607bf979789f77c9b3"
+    },
+    "perm-bomb": {
+      "path": "images/king-legacy/perm-bomb.webp",
+      "url": "https://axeetech.com/wp-content/uploads/2026/11/klv-perm-bomb.webp",
+      "page": "https://axeetech.com/king-legacy-value-list/",
+      "width": 160,
+      "height": 160,
+      "sha256": "da8758729e89c2e01b4ce53ee4043f3ac286833ab5f4738908dbc92a3c437da4"
+    }
+  },
+  "missing": [
+    {
+      "id": "erebus",
+      "name": "Erebus",
+      "reason": "정확한 아이템 이미지 미확인"
+    },
+    {
+      "id": "pter-fruit",
+      "name": "Pter Fruit",
+      "reason": "정확한 아이템 이미지 미확인"
+    },
+    {
+      "id": "flame-fruit",
+      "name": "Flame Fruit",
+      "reason": "정확한 아이템 이미지 미확인"
+    },
+    {
+      "id": "crimson-scarf",
+      "name": "Crimson Scarf",
+      "reason": "정확한 아이템 이미지 미확인"
+    },
+    {
+      "id": "depth-kings-tail",
+      "name": "Depth King’s Tail",
+      "reason": "정확한 아이템 이미지 미확인"
+    },
+    {
+      "id": "ancient-shell",
+      "name": "Ancient Shell",
+      "reason": "정확한 아이템 이미지 미확인"
+    },
+    {
+      "id": "turtle-core",
+      "name": "Turtle Core",
+      "reason": "정확한 아이템 이미지 미확인"
+    },
+    {
+      "id": "depth-kings-blood",
+      "name": "Depth King’s Blood",
+      "reason": "정확한 아이템 이미지 미확인"
+    },
+    {
+      "id": "depth-crystal",
+      "name": "Depth Crystal",
+      "reason": "정확한 아이템 이미지 미확인"
+    },
+    {
+      "id": "depth-scale",
+      "name": "Depth Scale",
+      "reason": "정확한 아이템 이미지 미확인"
+    },
+    {
+      "id": "1-slot-passive",
+      "name": "+1 Slot (Passive)",
+      "reason": "정확한 아이템 이미지 미확인"
+    },
+    {
+      "id": "animation-any",
+      "name": "Animation (Any)",
+      "reason": "정확한 아이템 이미지 미확인"
+    },
+    {
+      "id": "cyborg-v2-mats",
+      "name": "Cyborg V2 (Mats)",
+      "reason": "정확한 아이템 이미지 미확인"
+    },
+    {
+      "id": "perm-erebus",
+      "name": "Perm Erebus",
+      "reason": "정확한 아이템 이미지 미확인"
+    },
+    {
+      "id": "perm-pter",
+      "name": "Perm Pter",
+      "reason": "정확한 아이템 이미지 미확인"
+    },
+    {
+      "id": "perm-flame",
+      "name": "Perm Flame",
+      "reason": "정확한 아이템 이미지 미확인"
+    },
+    {
+      "id": "perm-venom",
+      "name": "Perm Venom",
+      "reason": "정확한 아이템 이미지 미확인"
+    },
+    {
+      "id": "perm-rubber",
+      "name": "Perm Rubber",
+      "reason": "정확한 아이템 이미지 미확인"
+    },
+    {
+      "id": "perm-paw",
+      "name": "Perm Paw",
+      "reason": "정확한 아이템 이미지 미확인"
+    },
+    {
+      "id": "perm-telekinesis",
+      "name": "Perm Telekinesis",
+      "reason": "정확한 아이템 이미지 미확인"
+    }
+  ]
+}

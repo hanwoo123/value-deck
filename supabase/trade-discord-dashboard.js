@@ -702,31 +702,31 @@ var catalog_default = {
     },
     "demon-fruit": {
       name: "Demon Fruit",
-      image: ""
+      image: "images/king-legacy/demon-fruit.webp"
     },
     "tree-fruit": {
       name: "Tree Fruit",
-      image: ""
+      image: "images/king-legacy/tree-fruit.webp"
     },
     "phoenix-fruit": {
       name: "Phoenix Fruit",
-      image: ""
+      image: "images/king-legacy/phoenix-fruit.webp"
     },
     "gate-fruit": {
       name: "Gate Fruit",
-      image: ""
+      image: "images/king-legacy/gate-fruit.webp"
     },
     "dragon-fruit": {
       name: "Dragon Fruit",
-      image: ""
+      image: "images/king-legacy/dragon-fruit.webp"
     },
     "melody-fruit": {
       name: "Melody Fruit",
-      image: ""
+      image: "images/king-legacy/melody-fruit.webp"
     },
     "dough-fruit": {
       name: "Dough Fruit",
-      image: ""
+      image: "images/king-legacy/dough-fruit.webp"
     },
     "pter-fruit": {
       name: "Pter Fruit",
@@ -734,43 +734,43 @@ var catalog_default = {
     },
     "toy-fruit": {
       name: "Toy Fruit",
-      image: ""
+      image: "images/king-legacy/toy-fruit.webp"
     },
     "spino-fruit": {
       name: "Spino Fruit",
-      image: ""
+      image: "images/king-legacy/spino-fruit.webp"
     },
     "allo-fruit": {
       name: "Allo Fruit",
-      image: ""
+      image: "images/king-legacy/allo-fruit.webp"
     },
     "rumble-fruit": {
       name: "Rumble Fruit",
-      image: ""
+      image: "images/king-legacy/rumble-fruit.webp"
     },
     "brachio-fruit": {
       name: "Brachio Fruit",
-      image: ""
+      image: "images/king-legacy/brachio-fruit.webp"
     },
     "palm-fruit": {
       name: "Palm Fruit",
-      image: ""
+      image: "images/king-legacy/palm-fruit.webp"
     },
     "gas-fruit": {
       name: "Gas Fruit",
-      image: ""
+      image: "images/king-legacy/gas-fruit.webp"
     },
     "magma-fruit": {
       name: "Magma Fruit",
-      image: ""
+      image: "images/king-legacy/magma-fruit.webp"
     },
     "light-fruit": {
       name: "Light Fruit",
-      image: ""
+      image: "images/king-legacy/light-fruit.webp"
     },
     "quake-fruit": {
       name: "Quake Fruit",
-      image: ""
+      image: "images/king-legacy/quake-fruit.webp"
     },
     "flame-fruit": {
       name: "Flame Fruit",
@@ -778,195 +778,195 @@ var catalog_default = {
     },
     "snow-fruit": {
       name: "Snow Fruit",
-      image: ""
+      image: "images/king-legacy/perm-snow.webp"
     },
     "ice-fruit": {
       name: "Ice Fruit",
-      image: ""
+      image: "images/king-legacy/ice-fruit.webp"
     },
     "control-fruit": {
       name: "Control Fruit",
-      image: ""
+      image: "images/king-legacy/control-fruit.webp"
     },
     "buddha-fruit": {
       name: "Buddha Fruit",
-      image: ""
+      image: "images/king-legacy/perm-buddha.webp"
     },
     "gravity-fruit": {
       name: "Gravity Fruit",
-      image: ""
+      image: "images/king-legacy/gravity-fruit.webp"
     },
     "dark-fruit": {
       name: "Dark Fruit",
-      image: ""
+      image: "images/king-legacy/dark-fruit.webp"
     },
     noirceur: {
       name: "Noirceur",
-      image: ""
+      image: "images/king-legacy/noirceur.webp"
     },
     "cerulean-blossom": {
       name: "Cerulean Blossom",
-      image: ""
+      image: "images/king-legacy/cerulean-blossom.webp"
     },
     "ancient-sword": {
       name: "Ancient Sword",
-      image: ""
+      image: "images/king-legacy/ancient-sword.webp"
     },
     "true-muramasa": {
       name: "True Muramasa",
-      image: ""
+      image: "images/king-legacy/true-muramasa.webp"
     },
     "abyssal-crab-axe": {
       name: "Abyssal Crab Axe",
-      image: ""
+      image: "images/king-legacy/abyssal-crab-axe.webp"
     },
     "dread-broom": {
       name: "Dread Broom",
-      image: ""
+      image: "images/king-legacy/dread-broom.webp"
     },
     ethereal: {
       name: "Ethereal",
-      image: ""
+      image: "images/king-legacy/ethereal.webp"
     },
     "phoenix-blade": {
       name: "Phoenix Blade",
-      image: ""
+      image: "images/king-legacy/phoenix-blade.webp"
     },
     acroscythe: {
       name: "Acroscythe",
-      image: ""
+      image: "images/king-legacy/acroscythe.webp"
     },
     "scepter-of-flames": {
       name: "Scepter of Flames",
-      image: ""
+      image: "images/king-legacy/scepter-of-flames.webp"
     },
     "authentic-triple-katana": {
       name: "Authentic Triple Katana",
-      image: ""
+      image: "images/king-legacy/authentic-triple-katana.webp"
     },
     avalon: {
       name: "Avalon",
-      image: ""
+      image: "images/king-legacy/avalon.webp"
     },
     longaevus: {
       name: "Longaevus",
-      image: ""
+      image: "images/king-legacy/longaevus.webp"
     },
     "daybreak-cleaver": {
       name: "Daybreak Cleaver",
-      image: ""
+      image: "images/king-legacy/daybreak-cleaver.webp"
     },
     "aquatic-anchor": {
       name: "Aquatic Anchor",
-      image: ""
+      image: "images/king-legacy/aquatic-anchor.webp"
     },
     "dragon-band": {
       name: "Dragon Band",
-      image: ""
+      image: "images/king-legacy/dragon-band.webp"
     },
     "crustacean-armor": {
       name: "Crustacean Armor",
-      image: ""
+      image: "images/king-legacy/crustacean-armor.webp"
     },
     "exp-crown": {
       name: "EXP Crown",
-      image: ""
+      image: "images/king-legacy/exp-crown.webp"
     },
     "water-kimono": {
       name: "Water Kimono",
-      image: ""
+      image: "images/king-legacy/water-kimono.webp"
     },
     "drakenfyr-cape": {
       name: "Drakenfyr Cape",
-      image: ""
+      image: "images/king-legacy/drakenfyr-cape.webp"
     },
     "night-necklace": {
       name: "Night Necklace",
-      image: ""
+      image: "images/king-legacy/night-necklace.webp"
     },
     "oceanic-tanto": {
       name: "Oceanic tanto",
-      image: ""
+      image: "images/king-legacy/oceanic-tanto.webp"
     },
     "dominion-cloak": {
       name: "Dominion Cloak",
-      image: ""
+      image: "images/king-legacy/dominion-cloak.webp"
     },
     "inferno-cloak": {
       name: "Inferno Cloak",
-      image: ""
+      image: "images/king-legacy/inferno-cloak.webp"
     },
     "floffy-glasses": {
       name: "Floffy Glasses",
-      image: ""
+      image: "images/king-legacy/floffy-glasses.webp"
     },
     "glacies-shoulder": {
       name: "Glacies Shoulder",
-      image: ""
+      image: "images/king-legacy/glacies-shoulder.webp"
     },
     nativitatis: {
       name: "Nativitatis",
-      image: ""
+      image: "images/king-legacy/nativitatis.webp"
     },
     "green-dryadalis": {
       name: "Green Dryadalis",
-      image: ""
+      image: "images/king-legacy/green-dryadalis.webp"
     },
     cervus: {
       name: "Cervus",
-      image: ""
+      image: "images/king-legacy/cervus.webp"
     },
     "dark-beard-hat": {
       name: "Dark Beard Hat",
-      image: ""
+      image: "images/king-legacy/dark-beard-hat.webp"
     },
     "abyss-sentinel-armor": {
       name: "Abyss Sentinel Armor",
-      image: ""
+      image: "images/king-legacy/abyss-sentinel-armor.webp"
     },
     "metal-fin": {
       name: "Metal Fin",
-      image: ""
+      image: "images/king-legacy/metal-fin.webp"
     },
     "oceanic-tentacle": {
       name: "Oceanic Tentacle",
-      image: ""
+      image: "images/king-legacy/oceanic-tentacle.webp"
     },
     "tomoe-taiko": {
       name: "Tomoe Taiko",
-      image: ""
+      image: "images/king-legacy/tomoe-taiko.webp"
     },
     "lucidus-coat": {
       name: "Lucidus Coat",
-      image: ""
+      image: "images/king-legacy/lucidus-coat.webp"
     },
     "sally-crown": {
       name: "Sally Crown",
-      image: ""
+      image: "images/king-legacy/sally-crown.webp"
     },
     "dragon-necklace": {
       name: "Dragon Necklace",
-      image: ""
+      image: "images/king-legacy/dragon-necklace.webp"
     },
     "tengu-mask": {
       name: "Tengu Mask",
-      image: ""
+      image: "images/king-legacy/tengu-mask.webp"
     },
     "oni-mask": {
       name: "Oni Mask",
-      image: ""
+      image: "images/king-legacy/oni-mask.webp"
     },
     "shadow-cloak": {
       name: "Shadow Cloak",
-      image: ""
+      image: "images/king-legacy/shadow-cloak.webp"
     },
     "sentinel-armor": {
       name: "Sentinel Armor",
-      image: ""
+      image: "images/king-legacy/sentinel-armor.webp"
     },
     "flame-hair": {
       name: "Flame Hair",
-      image: ""
+      image: "images/king-legacy/flame-hair.webp"
     },
     "crimson-scarf": {
       name: "Crimson Scarf",
@@ -998,15 +998,15 @@ var catalog_default = {
     },
     "volt-bundle": {
       name: "Volt Bundle",
-      image: ""
+      image: "images/king-legacy/volt-bundle.webp"
     },
     conqueror: {
       name: "Conqueror",
-      image: ""
+      image: "images/king-legacy/conqueror.webp"
     },
     "blazeice-pack": {
       name: "BlazeIce Pack",
-      image: ""
+      image: "images/king-legacy/blazeice-pack.webp"
     },
     "1-slot-passive": {
       name: "+1 Slot (Passive)",
@@ -1014,27 +1014,27 @@ var catalog_default = {
     },
     "2x-money": {
       name: "2x Money",
-      image: ""
+      image: "images/king-legacy/2x-money.webp"
     },
     "2x-drop-item": {
       name: "2x Drop Item",
-      image: ""
+      image: "images/king-legacy/2x-drop-item.webp"
     },
     "night-blade": {
       name: "Night Blade",
-      image: ""
+      image: "images/king-legacy/night-blade.webp"
     },
     "coffin-boat": {
       name: "Coffin Boat",
-      image: ""
+      image: "images/king-legacy/coffin-boat.webp"
     },
     "1-fruit-storage": {
       name: "+1 Fruit Storage",
-      image: ""
+      image: "images/king-legacy/1-fruit-storage.webp"
     },
     "legacy-pose": {
       name: "Legacy Pose",
-      image: ""
+      image: "images/king-legacy/legacy-pose.webp"
     },
     "animation-any": {
       name: "Animation (Any)",
@@ -1042,27 +1042,27 @@ var catalog_default = {
     },
     "2x-exp-12-hours": {
       name: "2x exp (12 hours)",
-      image: ""
+      image: "images/king-legacy/2x-exp-12-hours.webp"
     },
     "race-rerolls": {
       name: "Race Rerolls",
-      image: ""
+      image: "images/king-legacy/race-rerolls.webp"
     },
     "refund-stats": {
       name: "Refund Stats",
-      image: ""
+      image: "images/king-legacy/refund-stats.webp"
     },
     "hellroot-bundle": {
       name: "Hellroot Bundle",
-      image: ""
+      image: "images/king-legacy/hellroot-bundle.webp"
     },
     "primal-pack": {
       name: "Primal Pack",
-      image: ""
+      image: "images/king-legacy/primal-pack.webp"
     },
     "acrospear-mats": {
       name: "Acrospear (Mats)",
-      image: ""
+      image: "images/king-legacy/acrospear-mats.webp"
     },
     "cyborg-v2-mats": {
       name: "Cyborg V2 (Mats)",
@@ -1070,51 +1070,51 @@ var catalog_default = {
     },
     "spark-stone-mats": {
       name: "Spark Stone (Mats)",
-      image: ""
+      image: "images/king-legacy/spark-stone-mats.webp"
     },
     "phoenix-blade-v2-mats": {
       name: "Phoenix Blade V2 (Mats)",
-      image: ""
+      image: "images/king-legacy/phoenix-blade-v2-mats.webp"
     },
     "dark-stone-mats": {
       name: "Dark Stone (Mats)",
-      image: ""
+      image: "images/king-legacy/dark-stone-mats.webp"
     },
     "poison-stone-mats": {
       name: "Poison Stone (Mats)",
-      image: ""
+      image: "images/king-legacy/poison-stone-mats.webp"
     },
     "blaze-stone-mats": {
       name: "Blaze Stone (Mats)",
-      image: ""
+      image: "images/king-legacy/blaze-stone-mats.webp"
     },
     "abyss-stone-mats": {
       name: "Abyss Stone (Mats)",
-      image: ""
+      image: "images/king-legacy/abyss-stone-mats.webp"
     },
     "gale-stone-mats": {
       name: "Gale Stone (Mats)",
-      image: ""
+      image: "images/king-legacy/gale-stone-mats.webp"
     },
     "bloodthirsty-stone-mats": {
       name: "Bloodthirsty Stone (Mats)",
-      image: ""
+      image: "images/king-legacy/bloodthirsty-stone-mats.webp"
     },
     "light-stone-mats": {
       name: "Light Stone (Mats)",
-      image: ""
+      image: "images/king-legacy/light-stone-mats.webp"
     },
     "glacier-stone-mats": {
       name: "Glacier Stone (Mats)",
-      image: ""
+      image: "images/king-legacy/glacier-stone-mats.webp"
     },
     "tempestas-stone-mats": {
       name: "Tempestas Stone (Mats)",
-      image: ""
+      image: "images/king-legacy/tempestas-stone-mats.webp"
     },
     "disillusion-stone-mats": {
       name: "Disillusion Stone (Mats)",
-      image: ""
+      image: "images/king-legacy/disillusion-stone-mats.webp"
     },
     "perm-erebus": {
       name: "Perm Erebus",
@@ -1122,15 +1122,15 @@ var catalog_default = {
     },
     "perm-dragon": {
       name: "Perm Dragon",
-      image: ""
+      image: "images/king-legacy/perm-dragon.webp"
     },
     "perm-dough": {
       name: "Perm Dough",
-      image: ""
+      image: "images/king-legacy/perm-dough.webp"
     },
     "perm-phoenix": {
       name: "Perm Phoenix",
-      image: ""
+      image: "images/king-legacy/perm-phoenix.webp"
     },
     "perm-pter": {
       name: "Perm Pter",
@@ -1138,59 +1138,59 @@ var catalog_default = {
     },
     "perm-tree": {
       name: "Perm Tree",
-      image: ""
+      image: "images/king-legacy/perm-tree.webp"
     },
     "perm-gate": {
       name: "Perm Gate",
-      image: ""
+      image: "images/king-legacy/perm-gate.webp"
     },
     "perm-toy": {
       name: "Perm Toy",
-      image: ""
+      image: "images/king-legacy/perm-toy.webp"
     },
     "perm-melody": {
       name: "Perm Melody",
-      image: ""
+      image: "images/king-legacy/perm-melody.webp"
     },
     "perm-demon": {
       name: "Perm Demon",
-      image: ""
+      image: "images/king-legacy/perm-demon.webp"
     },
     "perm-quake": {
       name: "Perm Quake",
-      image: ""
+      image: "images/king-legacy/perm-quake.webp"
     },
     "perm-rumble": {
       name: "Perm Rumble",
-      image: ""
+      image: "images/king-legacy/perm-rumble.webp"
     },
     "perm-gas": {
       name: "Perm Gas",
-      image: ""
+      image: "images/king-legacy/perm-gas.webp"
     },
     "perm-control": {
       name: "Perm Control",
-      image: ""
+      image: "images/king-legacy/perm-control.webp"
     },
     "perm-light": {
       name: "Perm Light",
-      image: ""
+      image: "images/king-legacy/perm-light.webp"
     },
     "perm-snow": {
       name: "Perm Snow",
-      image: ""
+      image: "images/king-legacy/perm-snow.webp"
     },
     "perm-spino": {
       name: "Perm Spino",
-      image: ""
+      image: "images/king-legacy/perm-spino.webp"
     },
     "perm-gravity": {
       name: "Perm Gravity",
-      image: ""
+      image: "images/king-legacy/perm-gravity.webp"
     },
     "perm-buddha": {
       name: "Perm Buddha",
-      image: ""
+      image: "images/king-legacy/perm-buddha.webp"
     },
     "perm-flame": {
       name: "Perm Flame",
@@ -1198,15 +1198,15 @@ var catalog_default = {
     },
     "perm-allo": {
       name: "Perm Allo",
-      image: ""
+      image: "images/king-legacy/perm-allo.webp"
     },
     "perm-magma": {
       name: "Perm Magma",
-      image: ""
+      image: "images/king-legacy/perm-magma.webp"
     },
     "perm-brachio": {
       name: "Perm Brachio",
-      image: ""
+      image: "images/king-legacy/brachio-fruit.webp"
     },
     "perm-venom": {
       name: "Perm Venom",
@@ -1214,15 +1214,15 @@ var catalog_default = {
     },
     "perm-ice": {
       name: "Perm Ice",
-      image: ""
+      image: "images/king-legacy/perm-ice.webp"
     },
     "perm-dark": {
       name: "Perm Dark",
-      image: ""
+      image: "images/king-legacy/perm-dark.webp"
     },
     "perm-love": {
       name: "Perm Love",
-      image: ""
+      image: "images/king-legacy/perm-love.webp"
     },
     "perm-rubber": {
       name: "Perm Rubber",
@@ -1238,7 +1238,7 @@ var catalog_default = {
     },
     "perm-bomb": {
       name: "Perm Bomb",
-      image: ""
+      image: "images/king-legacy/perm-bomb.webp"
     }
   }
 };
