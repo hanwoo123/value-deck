@@ -18,9 +18,9 @@ test('waits for confirmed message ID; 429 and network failure are retryable with
  const failed=await sendTrade(post,webhook,async()=>{throw new Error(webhook)});assert.equal(failed.error,'discord_network_error');assert(!JSON.stringify(failed).includes('test-token'));
  const unconfirmed=await sendTrade(post,webhook,async()=>new Response('{}'));assert.equal(unconfirmed.outcome,'retry');
 });
-test('notification catalog matches both live item catalogs',()=>{
+test('notification catalog matches all live item catalogs',()=>{
  const catalog=JSON.parse(readFileSync(new URL('../supabase/functions/trade-discord/catalog.json',import.meta.url)));
- for(const game of ['blox-fruits','cameraman-td']){const data=JSON.parse(readFileSync(new URL('../data/'+game+'.json',import.meta.url)));assert.deepEqual(catalog[game],Object.fromEntries(data.items.map(i=>[i.id,{name:i.name,image:i.image||''}])));}
+ for(const game of ['blox-fruits','cameraman-td','king-legacy']){const data=JSON.parse(readFileSync(new URL('../data/'+game+'.json',import.meta.url)));assert.deepEqual(catalog[game],Object.fromEntries(data.items.map(i=>[i.id,{name:i.name,image:i.image||''}])));}
 });
 
 test('existing bot uses only Discord channel API and sends token in Authorization header',async()=>{
@@ -30,3 +30,5 @@ test('existing bot uses only Discord channel API and sends token in Authorizatio
  const result=await sendTradeBot(post,token,channel,async(url,options)=>{assert.equal(url,'https://discord.com/api/v10/channels/'+channel+'/messages');assert.equal(options.headers.Authorization,'Bot '+token);assert(!options.body.includes(token));assert.deepEqual(JSON.parse(options.body).allowed_mentions,{parse:[]});return Response.json({id:'98765'});});
  assert.equal(result.outcome,'sent');assert.equal(result.messageId,'98765');assert(!JSON.stringify(result).includes(token));
 });
+
+test('King Legacy notification uses its own catalog and board',()=>{const result=formatTrade({...post,game_id:'king-legacy',give_items:[{id:'dragon-fruit',qty:1}],want_items:[{id:'perm-dragon',qty:1}]});assert(result.embeds[0].title.includes('킹피스'));assert(result.embeds[0].url.endsWith('/king-legacy'));assert.equal(result.embeds[0].fields[0].value,'Dragon Fruit × 1');});

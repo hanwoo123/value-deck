@@ -694,11 +694,557 @@ var catalog_default = {
       name: "Upgraded Titan TV Man",
       image: "images/cameraman-td/upgraded-titan-tv-man.webp"
     }
+  },
+  "king-legacy": {
+    erebus: {
+      name: "Erebus",
+      image: ""
+    },
+    "demon-fruit": {
+      name: "Demon Fruit",
+      image: ""
+    },
+    "tree-fruit": {
+      name: "Tree Fruit",
+      image: ""
+    },
+    "phoenix-fruit": {
+      name: "Phoenix Fruit",
+      image: ""
+    },
+    "gate-fruit": {
+      name: "Gate Fruit",
+      image: ""
+    },
+    "dragon-fruit": {
+      name: "Dragon Fruit",
+      image: ""
+    },
+    "melody-fruit": {
+      name: "Melody Fruit",
+      image: ""
+    },
+    "dough-fruit": {
+      name: "Dough Fruit",
+      image: ""
+    },
+    "pter-fruit": {
+      name: "Pter Fruit",
+      image: ""
+    },
+    "toy-fruit": {
+      name: "Toy Fruit",
+      image: ""
+    },
+    "spino-fruit": {
+      name: "Spino Fruit",
+      image: ""
+    },
+    "allo-fruit": {
+      name: "Allo Fruit",
+      image: ""
+    },
+    "rumble-fruit": {
+      name: "Rumble Fruit",
+      image: ""
+    },
+    "brachio-fruit": {
+      name: "Brachio Fruit",
+      image: ""
+    },
+    "palm-fruit": {
+      name: "Palm Fruit",
+      image: ""
+    },
+    "gas-fruit": {
+      name: "Gas Fruit",
+      image: ""
+    },
+    "magma-fruit": {
+      name: "Magma Fruit",
+      image: ""
+    },
+    "light-fruit": {
+      name: "Light Fruit",
+      image: ""
+    },
+    "quake-fruit": {
+      name: "Quake Fruit",
+      image: ""
+    },
+    "flame-fruit": {
+      name: "Flame Fruit",
+      image: ""
+    },
+    "snow-fruit": {
+      name: "Snow Fruit",
+      image: ""
+    },
+    "ice-fruit": {
+      name: "Ice Fruit",
+      image: ""
+    },
+    "control-fruit": {
+      name: "Control Fruit",
+      image: ""
+    },
+    "buddha-fruit": {
+      name: "Buddha Fruit",
+      image: ""
+    },
+    "gravity-fruit": {
+      name: "Gravity Fruit",
+      image: ""
+    },
+    "dark-fruit": {
+      name: "Dark Fruit",
+      image: ""
+    },
+    noirceur: {
+      name: "Noirceur",
+      image: ""
+    },
+    "cerulean-blossom": {
+      name: "Cerulean Blossom",
+      image: ""
+    },
+    "ancient-sword": {
+      name: "Ancient Sword",
+      image: ""
+    },
+    "true-muramasa": {
+      name: "True Muramasa",
+      image: ""
+    },
+    "abyssal-crab-axe": {
+      name: "Abyssal Crab Axe",
+      image: ""
+    },
+    "dread-broom": {
+      name: "Dread Broom",
+      image: ""
+    },
+    ethereal: {
+      name: "Ethereal",
+      image: ""
+    },
+    "phoenix-blade": {
+      name: "Phoenix Blade",
+      image: ""
+    },
+    acroscythe: {
+      name: "Acroscythe",
+      image: ""
+    },
+    "scepter-of-flames": {
+      name: "Scepter of Flames",
+      image: ""
+    },
+    "authentic-triple-katana": {
+      name: "Authentic Triple Katana",
+      image: ""
+    },
+    avalon: {
+      name: "Avalon",
+      image: ""
+    },
+    longaevus: {
+      name: "Longaevus",
+      image: ""
+    },
+    "daybreak-cleaver": {
+      name: "Daybreak Cleaver",
+      image: ""
+    },
+    "aquatic-anchor": {
+      name: "Aquatic Anchor",
+      image: ""
+    },
+    "dragon-band": {
+      name: "Dragon Band",
+      image: ""
+    },
+    "crustacean-armor": {
+      name: "Crustacean Armor",
+      image: ""
+    },
+    "exp-crown": {
+      name: "EXP Crown",
+      image: ""
+    },
+    "water-kimono": {
+      name: "Water Kimono",
+      image: ""
+    },
+    "drakenfyr-cape": {
+      name: "Drakenfyr Cape",
+      image: ""
+    },
+    "night-necklace": {
+      name: "Night Necklace",
+      image: ""
+    },
+    "oceanic-tanto": {
+      name: "Oceanic tanto",
+      image: ""
+    },
+    "dominion-cloak": {
+      name: "Dominion Cloak",
+      image: ""
+    },
+    "inferno-cloak": {
+      name: "Inferno Cloak",
+      image: ""
+    },
+    "floffy-glasses": {
+      name: "Floffy Glasses",
+      image: ""
+    },
+    "glacies-shoulder": {
+      name: "Glacies Shoulder",
+      image: ""
+    },
+    nativitatis: {
+      name: "Nativitatis",
+      image: ""
+    },
+    "green-dryadalis": {
+      name: "Green Dryadalis",
+      image: ""
+    },
+    cervus: {
+      name: "Cervus",
+      image: ""
+    },
+    "dark-beard-hat": {
+      name: "Dark Beard Hat",
+      image: ""
+    },
+    "abyss-sentinel-armor": {
+      name: "Abyss Sentinel Armor",
+      image: ""
+    },
+    "metal-fin": {
+      name: "Metal Fin",
+      image: ""
+    },
+    "oceanic-tentacle": {
+      name: "Oceanic Tentacle",
+      image: ""
+    },
+    "tomoe-taiko": {
+      name: "Tomoe Taiko",
+      image: ""
+    },
+    "lucidus-coat": {
+      name: "Lucidus Coat",
+      image: ""
+    },
+    "sally-crown": {
+      name: "Sally Crown",
+      image: ""
+    },
+    "dragon-necklace": {
+      name: "Dragon Necklace",
+      image: ""
+    },
+    "tengu-mask": {
+      name: "Tengu Mask",
+      image: ""
+    },
+    "oni-mask": {
+      name: "Oni Mask",
+      image: ""
+    },
+    "shadow-cloak": {
+      name: "Shadow Cloak",
+      image: ""
+    },
+    "sentinel-armor": {
+      name: "Sentinel Armor",
+      image: ""
+    },
+    "flame-hair": {
+      name: "Flame Hair",
+      image: ""
+    },
+    "crimson-scarf": {
+      name: "Crimson Scarf",
+      image: ""
+    },
+    "depth-kings-tail": {
+      name: "Depth King\u2019s Tail",
+      image: ""
+    },
+    "ancient-shell": {
+      name: "Ancient Shell",
+      image: ""
+    },
+    "turtle-core": {
+      name: "Turtle Core",
+      image: ""
+    },
+    "depth-kings-blood": {
+      name: "Depth King\u2019s Blood",
+      image: ""
+    },
+    "depth-crystal": {
+      name: "Depth Crystal",
+      image: ""
+    },
+    "depth-scale": {
+      name: "Depth Scale",
+      image: ""
+    },
+    "volt-bundle": {
+      name: "Volt Bundle",
+      image: ""
+    },
+    conqueror: {
+      name: "Conqueror",
+      image: ""
+    },
+    "blazeice-pack": {
+      name: "BlazeIce Pack",
+      image: ""
+    },
+    "1-slot-passive": {
+      name: "+1 Slot (Passive)",
+      image: ""
+    },
+    "2x-money": {
+      name: "2x Money",
+      image: ""
+    },
+    "2x-drop-item": {
+      name: "2x Drop Item",
+      image: ""
+    },
+    "night-blade": {
+      name: "Night Blade",
+      image: ""
+    },
+    "coffin-boat": {
+      name: "Coffin Boat",
+      image: ""
+    },
+    "1-fruit-storage": {
+      name: "+1 Fruit Storage",
+      image: ""
+    },
+    "legacy-pose": {
+      name: "Legacy Pose",
+      image: ""
+    },
+    "animation-any": {
+      name: "Animation (Any)",
+      image: ""
+    },
+    "2x-exp-12-hours": {
+      name: "2x exp (12 hours)",
+      image: ""
+    },
+    "race-rerolls": {
+      name: "Race Rerolls",
+      image: ""
+    },
+    "refund-stats": {
+      name: "Refund Stats",
+      image: ""
+    },
+    "hellroot-bundle": {
+      name: "Hellroot Bundle",
+      image: ""
+    },
+    "primal-pack": {
+      name: "Primal Pack",
+      image: ""
+    },
+    "acrospear-mats": {
+      name: "Acrospear (Mats)",
+      image: ""
+    },
+    "cyborg-v2-mats": {
+      name: "Cyborg V2 (Mats)",
+      image: ""
+    },
+    "spark-stone-mats": {
+      name: "Spark Stone (Mats)",
+      image: ""
+    },
+    "phoenix-blade-v2-mats": {
+      name: "Phoenix Blade V2 (Mats)",
+      image: ""
+    },
+    "dark-stone-mats": {
+      name: "Dark Stone (Mats)",
+      image: ""
+    },
+    "poison-stone-mats": {
+      name: "Poison Stone (Mats)",
+      image: ""
+    },
+    "blaze-stone-mats": {
+      name: "Blaze Stone (Mats)",
+      image: ""
+    },
+    "abyss-stone-mats": {
+      name: "Abyss Stone (Mats)",
+      image: ""
+    },
+    "gale-stone-mats": {
+      name: "Gale Stone (Mats)",
+      image: ""
+    },
+    "bloodthirsty-stone-mats": {
+      name: "Bloodthirsty Stone (Mats)",
+      image: ""
+    },
+    "light-stone-mats": {
+      name: "Light Stone (Mats)",
+      image: ""
+    },
+    "glacier-stone-mats": {
+      name: "Glacier Stone (Mats)",
+      image: ""
+    },
+    "tempestas-stone-mats": {
+      name: "Tempestas Stone (Mats)",
+      image: ""
+    },
+    "disillusion-stone-mats": {
+      name: "Disillusion Stone (Mats)",
+      image: ""
+    },
+    "perm-erebus": {
+      name: "Perm Erebus",
+      image: ""
+    },
+    "perm-dragon": {
+      name: "Perm Dragon",
+      image: ""
+    },
+    "perm-dough": {
+      name: "Perm Dough",
+      image: ""
+    },
+    "perm-phoenix": {
+      name: "Perm Phoenix",
+      image: ""
+    },
+    "perm-pter": {
+      name: "Perm Pter",
+      image: ""
+    },
+    "perm-tree": {
+      name: "Perm Tree",
+      image: ""
+    },
+    "perm-gate": {
+      name: "Perm Gate",
+      image: ""
+    },
+    "perm-toy": {
+      name: "Perm Toy",
+      image: ""
+    },
+    "perm-melody": {
+      name: "Perm Melody",
+      image: ""
+    },
+    "perm-demon": {
+      name: "Perm Demon",
+      image: ""
+    },
+    "perm-quake": {
+      name: "Perm Quake",
+      image: ""
+    },
+    "perm-rumble": {
+      name: "Perm Rumble",
+      image: ""
+    },
+    "perm-gas": {
+      name: "Perm Gas",
+      image: ""
+    },
+    "perm-control": {
+      name: "Perm Control",
+      image: ""
+    },
+    "perm-light": {
+      name: "Perm Light",
+      image: ""
+    },
+    "perm-snow": {
+      name: "Perm Snow",
+      image: ""
+    },
+    "perm-spino": {
+      name: "Perm Spino",
+      image: ""
+    },
+    "perm-gravity": {
+      name: "Perm Gravity",
+      image: ""
+    },
+    "perm-buddha": {
+      name: "Perm Buddha",
+      image: ""
+    },
+    "perm-flame": {
+      name: "Perm Flame",
+      image: ""
+    },
+    "perm-allo": {
+      name: "Perm Allo",
+      image: ""
+    },
+    "perm-magma": {
+      name: "Perm Magma",
+      image: ""
+    },
+    "perm-brachio": {
+      name: "Perm Brachio",
+      image: ""
+    },
+    "perm-venom": {
+      name: "Perm Venom",
+      image: ""
+    },
+    "perm-ice": {
+      name: "Perm Ice",
+      image: ""
+    },
+    "perm-dark": {
+      name: "Perm Dark",
+      image: ""
+    },
+    "perm-love": {
+      name: "Perm Love",
+      image: ""
+    },
+    "perm-rubber": {
+      name: "Perm Rubber",
+      image: ""
+    },
+    "perm-paw": {
+      name: "Perm Paw",
+      image: ""
+    },
+    "perm-telekinesis": {
+      name: "Perm Telekinesis",
+      image: ""
+    },
+    "perm-bomb": {
+      name: "Perm Bomb",
+      image: ""
+    }
   }
 };
 
 // supabase/functions/trade-discord/format.mjs
-var names = { "blox-fruits": "\uBE14\uB85D\uC2A4 \uD504\uB8E8\uCE20", "cameraman-td": "\uCE74\uBA54\uB77C\uB9E8 \uD0C0\uC6CC \uB514\uD39C\uC2A4" };
+var names = { "blox-fruits": "\uBE14\uB85D\uC2A4 \uD504\uB8E8\uCE20", "cameraman-td": "\uCE74\uBA54\uB77C\uB9E8 \uD0C0\uC6CC \uB514\uD39C\uC2A4", "king-legacy": "\uD0B9\uD53C\uC2A4 (King Legacy)" };
 var escape = (s) => String(s).replace(/[\\`*_{}\[\]()<>|~]/g, "\\$&");
 function formatTrade(post) {
   if (!names[post.game_id] || !Number.isSafeInteger(Number(post.id)) || Number(post.id) < 1 || !/^[A-Za-z0-9_]{3,20}$/.test(post.roblox_username)) throw new Error("invalid_trade");
@@ -714,7 +1260,7 @@ function formatTrade(post) {
   const embed = {
     title: `\uC0C8 \uAC70\uB798\uAE00 #${post.id} \xB7 ${names[post.game_id]}`,
     url,
-    color: post.game_id === "blox-fruits" ? 4040191 : 16731501,
+    color: post.game_id === "blox-fruits" ? 4040191 : post.game_id === "king-legacy" ? 16105045 : 16731501,
     description: `\uC791\uC131\uC790 **@${escape(post.roblox_username)}**`,
     fields: [{ name: "\uC8FC\uB294 \uC544\uC774\uD15C", value: slots(post.give_items), inline: true }, { name: "\uBC1B\uACE0 \uC2F6\uC740 \uC544\uC774\uD15C", value: slots(post.want_items), inline: true }],
     footer: { text: "\uB2C9\uB124\uC784\uC740 \uC0AC\uC6A9\uC790\uAC00 \uC9C1\uC811 \uC785\uB825\uD569\uB2C8\uB2E4. \uC2E4\uC81C \uAD50\uD658\uC740 \uAC8C\uC784 \uC548\uC5D0\uC11C \uC9C4\uD589\uD558\uC138\uC694." }

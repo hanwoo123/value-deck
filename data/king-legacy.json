@@ -1,0 +1,3284 @@
+{
+  "updated": "2026-11-14",
+  "valueUnit": "Fins",
+  "pricingMode": "reference",
+  "rarities": [
+    "Unknown"
+  ],
+  "categories": [
+    "열매",
+    "무기",
+    "장비",
+    "재료",
+    "게임패스",
+    "번들",
+    "영구 열매"
+  ],
+  "source": "공개 자료의 단일 출처 범위 · 원문 수정 2026-11-09 · 확정 시세·비교 평균 아님 · 수동 확인 · 합산 보류",
+  "items": [
+    {
+      "id": "erebus",
+      "name": "Erebus",
+      "category": "열매",
+      "rarity": "Unknown",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "public-range-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "priceQuotes": [
+        {
+          "id": "pgg-king-legacy",
+          "name": "Pro Game Guides",
+          "url": "https://progameguides.com/roblox/king-legacy-trading-value-list-roblox/",
+          "low": 15.0,
+          "high": 25.0,
+          "unit": "Fins",
+          "publishedAt": "2026-11-09",
+          "observedAt": "2026-11-14T18:38:17+09:00"
+        }
+      ]
+    },
+    {
+      "id": "demon-fruit",
+      "name": "Demon Fruit",
+      "category": "열매",
+      "rarity": "Unknown",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "public-range-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "priceQuotes": [
+        {
+          "id": "pgg-king-legacy",
+          "name": "Pro Game Guides",
+          "url": "https://progameguides.com/roblox/king-legacy-trading-value-list-roblox/",
+          "low": 9.0,
+          "high": 15.0,
+          "unit": "Fins",
+          "publishedAt": "2026-11-09",
+          "observedAt": "2026-11-14T18:38:17+09:00"
+        }
+      ]
+    },
+    {
+      "id": "tree-fruit",
+      "name": "Tree Fruit",
+      "category": "열매",
+      "rarity": "Unknown",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "public-range-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "priceQuotes": [
+        {
+          "id": "pgg-king-legacy",
+          "name": "Pro Game Guides",
+          "url": "https://progameguides.com/roblox/king-legacy-trading-value-list-roblox/",
+          "low": 9.0,
+          "high": 15.0,
+          "unit": "Fins",
+          "publishedAt": "2026-11-09",
+          "observedAt": "2026-11-14T18:38:17+09:00"
+        }
+      ]
+    },
+    {
+      "id": "phoenix-fruit",
+      "name": "Phoenix Fruit",
+      "category": "열매",
+      "rarity": "Unknown",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "public-range-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "priceQuotes": [
+        {
+          "id": "pgg-king-legacy",
+          "name": "Pro Game Guides",
+          "url": "https://progameguides.com/roblox/king-legacy-trading-value-list-roblox/",
+          "low": 8.0,
+          "high": 13.0,
+          "unit": "Fins",
+          "publishedAt": "2026-11-09",
+          "observedAt": "2026-11-14T18:38:17+09:00"
+        }
+      ]
+    },
+    {
+      "id": "gate-fruit",
+      "name": "Gate Fruit",
+      "category": "열매",
+      "rarity": "Unknown",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "public-range-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "priceQuotes": [
+        {
+          "id": "pgg-king-legacy",
+          "name": "Pro Game Guides",
+          "url": "https://progameguides.com/roblox/king-legacy-trading-value-list-roblox/",
+          "low": 7.0,
+          "high": 11.5,
+          "unit": "Fins",
+          "publishedAt": "2026-11-09",
+          "observedAt": "2026-11-14T18:38:17+09:00"
+        }
+      ]
+    },
+    {
+      "id": "dragon-fruit",
+      "name": "Dragon Fruit",
+      "category": "열매",
+      "rarity": "Unknown",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "public-range-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "priceQuotes": [
+        {
+          "id": "pgg-king-legacy",
+          "name": "Pro Game Guides",
+          "url": "https://progameguides.com/roblox/king-legacy-trading-value-list-roblox/",
+          "low": 6.0,
+          "high": 10.0,
+          "unit": "Fins",
+          "publishedAt": "2026-11-09",
+          "observedAt": "2026-11-14T18:38:17+09:00"
+        }
+      ]
+    },
+    {
+      "id": "melody-fruit",
+      "name": "Melody Fruit",
+      "category": "열매",
+      "rarity": "Unknown",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "public-range-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "priceQuotes": [
+        {
+          "id": "pgg-king-legacy",
+          "name": "Pro Game Guides",
+          "url": "https://progameguides.com/roblox/king-legacy-trading-value-list-roblox/",
+          "low": 5.5,
+          "high": 9.5,
+          "unit": "Fins",
+          "publishedAt": "2026-11-09",
+          "observedAt": "2026-11-14T18:38:17+09:00"
+        }
+      ]
+    },
+    {
+      "id": "dough-fruit",
+      "name": "Dough Fruit",
+      "category": "열매",
+      "rarity": "Unknown",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "public-range-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "priceQuotes": [
+        {
+          "id": "pgg-king-legacy",
+          "name": "Pro Game Guides",
+          "url": "https://progameguides.com/roblox/king-legacy-trading-value-list-roblox/",
+          "low": 5.5,
+          "high": 9.0,
+          "unit": "Fins",
+          "publishedAt": "2026-11-09",
+          "observedAt": "2026-11-14T18:38:17+09:00"
+        }
+      ]
+    },
+    {
+      "id": "pter-fruit",
+      "name": "Pter Fruit",
+      "category": "열매",
+      "rarity": "Unknown",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "public-range-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "priceQuotes": [
+        {
+          "id": "pgg-king-legacy",
+          "name": "Pro Game Guides",
+          "url": "https://progameguides.com/roblox/king-legacy-trading-value-list-roblox/",
+          "low": 4.0,
+          "high": 6.5,
+          "unit": "Fins",
+          "publishedAt": "2026-11-09",
+          "observedAt": "2026-11-14T18:38:17+09:00"
+        }
+      ]
+    },
+    {
+      "id": "toy-fruit",
+      "name": "Toy Fruit",
+      "category": "열매",
+      "rarity": "Unknown",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "public-range-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "priceQuotes": [
+        {
+          "id": "pgg-king-legacy",
+          "name": "Pro Game Guides",
+          "url": "https://progameguides.com/roblox/king-legacy-trading-value-list-roblox/",
+          "low": 2.5,
+          "high": 4.0,
+          "unit": "Fins",
+          "publishedAt": "2026-11-09",
+          "observedAt": "2026-11-14T18:38:17+09:00"
+        }
+      ]
+    },
+    {
+      "id": "spino-fruit",
+      "name": "Spino Fruit",
+      "category": "열매",
+      "rarity": "Unknown",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "public-range-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "priceQuotes": [
+        {
+          "id": "pgg-king-legacy",
+          "name": "Pro Game Guides",
+          "url": "https://progameguides.com/roblox/king-legacy-trading-value-list-roblox/",
+          "low": 2.5,
+          "high": 4.0,
+          "unit": "Fins",
+          "publishedAt": "2026-11-09",
+          "observedAt": "2026-11-14T18:38:17+09:00"
+        }
+      ]
+    },
+    {
+      "id": "allo-fruit",
+      "name": "Allo Fruit",
+      "category": "열매",
+      "rarity": "Unknown",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "public-range-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "priceQuotes": [
+        {
+          "id": "pgg-king-legacy",
+          "name": "Pro Game Guides",
+          "url": "https://progameguides.com/roblox/king-legacy-trading-value-list-roblox/",
+          "low": 2.0,
+          "high": 3.0,
+          "unit": "Fins",
+          "publishedAt": "2026-11-09",
+          "observedAt": "2026-11-14T18:38:17+09:00"
+        }
+      ]
+    },
+    {
+      "id": "rumble-fruit",
+      "name": "Rumble Fruit",
+      "category": "열매",
+      "rarity": "Unknown",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "public-range-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "priceQuotes": [
+        {
+          "id": "pgg-king-legacy",
+          "name": "Pro Game Guides",
+          "url": "https://progameguides.com/roblox/king-legacy-trading-value-list-roblox/",
+          "low": 1.0,
+          "high": 2.0,
+          "unit": "Fins",
+          "publishedAt": "2026-11-09",
+          "observedAt": "2026-11-14T18:38:17+09:00"
+        }
+      ]
+    },
+    {
+      "id": "brachio-fruit",
+      "name": "Brachio Fruit",
+      "category": "열매",
+      "rarity": "Unknown",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "public-range-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "priceQuotes": [
+        {
+          "id": "pgg-king-legacy",
+          "name": "Pro Game Guides",
+          "url": "https://progameguides.com/roblox/king-legacy-trading-value-list-roblox/",
+          "low": 1.0,
+          "high": 2.0,
+          "unit": "Fins",
+          "publishedAt": "2026-11-09",
+          "observedAt": "2026-11-14T18:38:17+09:00"
+        }
+      ]
+    },
+    {
+      "id": "palm-fruit",
+      "name": "Palm Fruit",
+      "category": "열매",
+      "rarity": "Unknown",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "public-range-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "priceQuotes": [
+        {
+          "id": "pgg-king-legacy",
+          "name": "Pro Game Guides",
+          "url": "https://progameguides.com/roblox/king-legacy-trading-value-list-roblox/",
+          "low": 1.0,
+          "high": 2.0,
+          "unit": "Fins",
+          "publishedAt": "2026-11-09",
+          "observedAt": "2026-11-14T18:38:17+09:00"
+        }
+      ]
+    },
+    {
+      "id": "gas-fruit",
+      "name": "Gas Fruit",
+      "category": "열매",
+      "rarity": "Unknown",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "public-range-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "priceQuotes": [
+        {
+          "id": "pgg-king-legacy",
+          "name": "Pro Game Guides",
+          "url": "https://progameguides.com/roblox/king-legacy-trading-value-list-roblox/",
+          "low": 0.5,
+          "high": 1.0,
+          "unit": "Fins",
+          "publishedAt": "2026-11-09",
+          "observedAt": "2026-11-14T18:38:17+09:00"
+        }
+      ]
+    },
+    {
+      "id": "magma-fruit",
+      "name": "Magma Fruit",
+      "category": "열매",
+      "rarity": "Unknown",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "public-range-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "priceQuotes": [
+        {
+          "id": "pgg-king-legacy",
+          "name": "Pro Game Guides",
+          "url": "https://progameguides.com/roblox/king-legacy-trading-value-list-roblox/",
+          "low": 0.5,
+          "high": 1.0,
+          "unit": "Fins",
+          "publishedAt": "2026-11-09",
+          "observedAt": "2026-11-14T18:38:17+09:00"
+        }
+      ]
+    },
+    {
+      "id": "light-fruit",
+      "name": "Light Fruit",
+      "category": "열매",
+      "rarity": "Unknown",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "public-range-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "priceQuotes": [
+        {
+          "id": "pgg-king-legacy",
+          "name": "Pro Game Guides",
+          "url": "https://progameguides.com/roblox/king-legacy-trading-value-list-roblox/",
+          "low": 0.5,
+          "high": 1.0,
+          "unit": "Fins",
+          "publishedAt": "2026-11-09",
+          "observedAt": "2026-11-14T18:38:17+09:00"
+        }
+      ]
+    },
+    {
+      "id": "quake-fruit",
+      "name": "Quake Fruit",
+      "category": "열매",
+      "rarity": "Unknown",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "public-range-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "priceQuotes": [
+        {
+          "id": "pgg-king-legacy",
+          "name": "Pro Game Guides",
+          "url": "https://progameguides.com/roblox/king-legacy-trading-value-list-roblox/",
+          "low": 0.5,
+          "high": 1.0,
+          "unit": "Fins",
+          "publishedAt": "2026-11-09",
+          "observedAt": "2026-11-14T18:38:17+09:00"
+        }
+      ]
+    },
+    {
+      "id": "flame-fruit",
+      "name": "Flame Fruit",
+      "category": "열매",
+      "rarity": "Unknown",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "public-range-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "priceQuotes": [
+        {
+          "id": "pgg-king-legacy",
+          "name": "Pro Game Guides",
+          "url": "https://progameguides.com/roblox/king-legacy-trading-value-list-roblox/",
+          "low": 0.5,
+          "high": 1.0,
+          "unit": "Fins",
+          "publishedAt": "2026-11-09",
+          "observedAt": "2026-11-14T18:38:17+09:00"
+        }
+      ]
+    },
+    {
+      "id": "snow-fruit",
+      "name": "Snow Fruit",
+      "category": "열매",
+      "rarity": "Unknown",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "public-range-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "priceQuotes": [
+        {
+          "id": "pgg-king-legacy",
+          "name": "Pro Game Guides",
+          "url": "https://progameguides.com/roblox/king-legacy-trading-value-list-roblox/",
+          "low": 0.5,
+          "high": 1.0,
+          "unit": "Fins",
+          "publishedAt": "2026-11-09",
+          "observedAt": "2026-11-14T18:38:17+09:00"
+        }
+      ]
+    },
+    {
+      "id": "ice-fruit",
+      "name": "Ice Fruit",
+      "category": "열매",
+      "rarity": "Unknown",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "public-range-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "priceQuotes": [
+        {
+          "id": "pgg-king-legacy",
+          "name": "Pro Game Guides",
+          "url": "https://progameguides.com/roblox/king-legacy-trading-value-list-roblox/",
+          "low": 0.5,
+          "high": 1.0,
+          "unit": "Fins",
+          "publishedAt": "2026-11-09",
+          "observedAt": "2026-11-14T18:38:17+09:00"
+        }
+      ]
+    },
+    {
+      "id": "control-fruit",
+      "name": "Control Fruit",
+      "category": "열매",
+      "rarity": "Unknown",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "public-range-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "priceQuotes": [
+        {
+          "id": "pgg-king-legacy",
+          "name": "Pro Game Guides",
+          "url": "https://progameguides.com/roblox/king-legacy-trading-value-list-roblox/",
+          "low": 0.5,
+          "high": 1.0,
+          "unit": "Fins",
+          "publishedAt": "2026-11-09",
+          "observedAt": "2026-11-14T18:38:17+09:00"
+        }
+      ]
+    },
+    {
+      "id": "buddha-fruit",
+      "name": "Buddha Fruit",
+      "category": "열매",
+      "rarity": "Unknown",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "public-range-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "priceQuotes": [
+        {
+          "id": "pgg-king-legacy",
+          "name": "Pro Game Guides",
+          "url": "https://progameguides.com/roblox/king-legacy-trading-value-list-roblox/",
+          "low": 0.5,
+          "high": 1.0,
+          "unit": "Fins",
+          "publishedAt": "2026-11-09",
+          "observedAt": "2026-11-14T18:38:17+09:00"
+        }
+      ]
+    },
+    {
+      "id": "gravity-fruit",
+      "name": "Gravity Fruit",
+      "category": "열매",
+      "rarity": "Unknown",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "public-range-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "priceQuotes": [
+        {
+          "id": "pgg-king-legacy",
+          "name": "Pro Game Guides",
+          "url": "https://progameguides.com/roblox/king-legacy-trading-value-list-roblox/",
+          "low": 0.5,
+          "high": 1.0,
+          "unit": "Fins",
+          "publishedAt": "2026-11-09",
+          "observedAt": "2026-11-14T18:38:17+09:00"
+        }
+      ]
+    },
+    {
+      "id": "dark-fruit",
+      "name": "Dark Fruit",
+      "category": "열매",
+      "rarity": "Unknown",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "public-range-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "priceQuotes": [
+        {
+          "id": "pgg-king-legacy",
+          "name": "Pro Game Guides",
+          "url": "https://progameguides.com/roblox/king-legacy-trading-value-list-roblox/",
+          "low": 0.5,
+          "high": 1.0,
+          "unit": "Fins",
+          "publishedAt": "2026-11-09",
+          "observedAt": "2026-11-14T18:38:17+09:00"
+        }
+      ]
+    },
+    {
+      "id": "noirceur",
+      "name": "Noirceur",
+      "category": "무기",
+      "rarity": "Unknown",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "public-range-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "priceQuotes": [
+        {
+          "id": "pgg-king-legacy",
+          "name": "Pro Game Guides",
+          "url": "https://progameguides.com/roblox/king-legacy-trading-value-list-roblox/",
+          "low": 780.0,
+          "high": 1300.0,
+          "unit": "Fins",
+          "publishedAt": "2026-11-09",
+          "observedAt": "2026-11-14T18:38:17+09:00"
+        }
+      ]
+    },
+    {
+      "id": "cerulean-blossom",
+      "name": "Cerulean Blossom",
+      "category": "무기",
+      "rarity": "Unknown",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "public-range-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "priceQuotes": [
+        {
+          "id": "pgg-king-legacy",
+          "name": "Pro Game Guides",
+          "url": "https://progameguides.com/roblox/king-legacy-trading-value-list-roblox/",
+          "low": 354.0,
+          "high": 590.0,
+          "unit": "Fins",
+          "publishedAt": "2026-11-09",
+          "observedAt": "2026-11-14T18:38:17+09:00"
+        }
+      ]
+    },
+    {
+      "id": "ancient-sword",
+      "name": "Ancient Sword",
+      "category": "무기",
+      "rarity": "Unknown",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "public-range-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "priceQuotes": [
+        {
+          "id": "pgg-king-legacy",
+          "name": "Pro Game Guides",
+          "url": "https://progameguides.com/roblox/king-legacy-trading-value-list-roblox/",
+          "low": 57.0,
+          "high": 95.0,
+          "unit": "Fins",
+          "publishedAt": "2026-11-09",
+          "observedAt": "2026-11-14T18:38:17+09:00"
+        }
+      ]
+    },
+    {
+      "id": "true-muramasa",
+      "name": "True Muramasa",
+      "category": "무기",
+      "rarity": "Unknown",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "public-range-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "priceQuotes": [
+        {
+          "id": "pgg-king-legacy",
+          "name": "Pro Game Guides",
+          "url": "https://progameguides.com/roblox/king-legacy-trading-value-list-roblox/",
+          "low": 50.0,
+          "high": 90.0,
+          "unit": "Fins",
+          "publishedAt": "2026-11-09",
+          "observedAt": "2026-11-14T18:38:17+09:00"
+        }
+      ]
+    },
+    {
+      "id": "abyssal-crab-axe",
+      "name": "Abyssal Crab Axe",
+      "category": "무기",
+      "rarity": "Unknown",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "public-range-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "priceQuotes": [
+        {
+          "id": "pgg-king-legacy",
+          "name": "Pro Game Guides",
+          "url": "https://progameguides.com/roblox/king-legacy-trading-value-list-roblox/",
+          "low": 12.0,
+          "high": 20.0,
+          "unit": "Fins",
+          "publishedAt": "2026-11-09",
+          "observedAt": "2026-11-14T18:38:17+09:00"
+        }
+      ]
+    },
+    {
+      "id": "dread-broom",
+      "name": "Dread Broom",
+      "category": "무기",
+      "rarity": "Unknown",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "public-range-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "priceQuotes": [
+        {
+          "id": "pgg-king-legacy",
+          "name": "Pro Game Guides",
+          "url": "https://progameguides.com/roblox/king-legacy-trading-value-list-roblox/",
+          "low": 12.0,
+          "high": 20.0,
+          "unit": "Fins",
+          "publishedAt": "2026-11-09",
+          "observedAt": "2026-11-14T18:38:17+09:00"
+        }
+      ]
+    },
+    {
+      "id": "ethereal",
+      "name": "Ethereal",
+      "category": "무기",
+      "rarity": "Unknown",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "public-range-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "priceQuotes": [
+        {
+          "id": "pgg-king-legacy",
+          "name": "Pro Game Guides",
+          "url": "https://progameguides.com/roblox/king-legacy-trading-value-list-roblox/",
+          "low": 2.5,
+          "high": 4.5,
+          "unit": "Fins",
+          "publishedAt": "2026-11-09",
+          "observedAt": "2026-11-14T18:38:17+09:00"
+        }
+      ]
+    },
+    {
+      "id": "phoenix-blade",
+      "name": "Phoenix Blade",
+      "category": "무기",
+      "rarity": "Unknown",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "public-range-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "priceQuotes": [
+        {
+          "id": "pgg-king-legacy",
+          "name": "Pro Game Guides",
+          "url": "https://progameguides.com/roblox/king-legacy-trading-value-list-roblox/",
+          "low": 2.5,
+          "high": 4.5,
+          "unit": "Fins",
+          "publishedAt": "2026-11-09",
+          "observedAt": "2026-11-14T18:38:17+09:00"
+        }
+      ]
+    },
+    {
+      "id": "acroscythe",
+      "name": "Acroscythe",
+      "category": "무기",
+      "rarity": "Unknown",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "public-range-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "priceQuotes": [
+        {
+          "id": "pgg-king-legacy",
+          "name": "Pro Game Guides",
+          "url": "https://progameguides.com/roblox/king-legacy-trading-value-list-roblox/",
+          "low": 2.5,
+          "high": 4.0,
+          "unit": "Fins",
+          "publishedAt": "2026-11-09",
+          "observedAt": "2026-11-14T18:38:17+09:00"
+        }
+      ]
+    },
+    {
+      "id": "scepter-of-flames",
+      "name": "Scepter of Flames",
+      "category": "무기",
+      "rarity": "Unknown",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "public-range-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "priceQuotes": [
+        {
+          "id": "pgg-king-legacy",
+          "name": "Pro Game Guides",
+          "url": "https://progameguides.com/roblox/king-legacy-trading-value-list-roblox/",
+          "low": 2.0,
+          "high": 3.5,
+          "unit": "Fins",
+          "publishedAt": "2026-11-09",
+          "observedAt": "2026-11-14T18:38:17+09:00"
+        }
+      ]
+    },
+    {
+      "id": "authentic-triple-katana",
+      "name": "Authentic Triple Katana",
+      "category": "무기",
+      "rarity": "Unknown",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "public-range-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "priceQuotes": [
+        {
+          "id": "pgg-king-legacy",
+          "name": "Pro Game Guides",
+          "url": "https://progameguides.com/roblox/king-legacy-trading-value-list-roblox/",
+          "low": 2.0,
+          "high": 3.5,
+          "unit": "Fins",
+          "publishedAt": "2026-11-09",
+          "observedAt": "2026-11-14T18:38:17+09:00"
+        }
+      ]
+    },
+    {
+      "id": "avalon",
+      "name": "Avalon",
+      "category": "무기",
+      "rarity": "Unknown",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "public-range-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "priceQuotes": [
+        {
+          "id": "pgg-king-legacy",
+          "name": "Pro Game Guides",
+          "url": "https://progameguides.com/roblox/king-legacy-trading-value-list-roblox/",
+          "low": 0.5,
+          "high": 1.0,
+          "unit": "Fins",
+          "publishedAt": "2026-11-09",
+          "observedAt": "2026-11-14T18:38:17+09:00"
+        }
+      ]
+    },
+    {
+      "id": "longaevus",
+      "name": "Longaevus",
+      "category": "무기",
+      "rarity": "Unknown",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "public-range-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "priceQuotes": [
+        {
+          "id": "pgg-king-legacy",
+          "name": "Pro Game Guides",
+          "url": "https://progameguides.com/roblox/king-legacy-trading-value-list-roblox/",
+          "low": 0.5,
+          "high": 1.0,
+          "unit": "Fins",
+          "publishedAt": "2026-11-09",
+          "observedAt": "2026-11-14T18:38:17+09:00"
+        }
+      ]
+    },
+    {
+      "id": "daybreak-cleaver",
+      "name": "Daybreak Cleaver",
+      "category": "무기",
+      "rarity": "Unknown",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "public-range-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "priceQuotes": [
+        {
+          "id": "pgg-king-legacy",
+          "name": "Pro Game Guides",
+          "url": "https://progameguides.com/roblox/king-legacy-trading-value-list-roblox/",
+          "low": 0.5,
+          "high": 1.0,
+          "unit": "Fins",
+          "publishedAt": "2026-11-09",
+          "observedAt": "2026-11-14T18:38:17+09:00"
+        }
+      ]
+    },
+    {
+      "id": "aquatic-anchor",
+      "name": "Aquatic Anchor",
+      "category": "무기",
+      "rarity": "Unknown",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "public-range-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "priceQuotes": [
+        {
+          "id": "pgg-king-legacy",
+          "name": "Pro Game Guides",
+          "url": "https://progameguides.com/roblox/king-legacy-trading-value-list-roblox/",
+          "low": 0.5,
+          "high": 1.0,
+          "unit": "Fins",
+          "publishedAt": "2026-11-09",
+          "observedAt": "2026-11-14T18:38:17+09:00"
+        }
+      ]
+    },
+    {
+      "id": "dragon-band",
+      "name": "Dragon Band",
+      "category": "장비",
+      "rarity": "Unknown",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "public-range-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "priceQuotes": [
+        {
+          "id": "pgg-king-legacy",
+          "name": "Pro Game Guides",
+          "url": "https://progameguides.com/roblox/king-legacy-trading-value-list-roblox/",
+          "low": 81.0,
+          "high": 135.0,
+          "unit": "Fins",
+          "publishedAt": "2026-11-09",
+          "observedAt": "2026-11-14T18:38:17+09:00"
+        }
+      ]
+    },
+    {
+      "id": "crustacean-armor",
+      "name": "Crustacean Armor",
+      "category": "장비",
+      "rarity": "Unknown",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "public-range-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "priceQuotes": [
+        {
+          "id": "pgg-king-legacy",
+          "name": "Pro Game Guides",
+          "url": "https://progameguides.com/roblox/king-legacy-trading-value-list-roblox/",
+          "low": 54.0,
+          "high": 90.0,
+          "unit": "Fins",
+          "publishedAt": "2026-11-09",
+          "observedAt": "2026-11-14T18:38:17+09:00"
+        }
+      ]
+    },
+    {
+      "id": "exp-crown",
+      "name": "EXP Crown",
+      "category": "장비",
+      "rarity": "Unknown",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "public-range-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "priceQuotes": [
+        {
+          "id": "pgg-king-legacy",
+          "name": "Pro Game Guides",
+          "url": "https://progameguides.com/roblox/king-legacy-trading-value-list-roblox/",
+          "low": 33.0,
+          "high": 55.0,
+          "unit": "Fins",
+          "publishedAt": "2026-11-09",
+          "observedAt": "2026-11-14T18:38:17+09:00"
+        }
+      ]
+    },
+    {
+      "id": "water-kimono",
+      "name": "Water Kimono",
+      "category": "장비",
+      "rarity": "Unknown",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "public-range-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "priceQuotes": [
+        {
+          "id": "pgg-king-legacy",
+          "name": "Pro Game Guides",
+          "url": "https://progameguides.com/roblox/king-legacy-trading-value-list-roblox/",
+          "low": 25.5,
+          "high": 42.5,
+          "unit": "Fins",
+          "publishedAt": "2026-11-09",
+          "observedAt": "2026-11-14T18:38:17+09:00"
+        }
+      ]
+    },
+    {
+      "id": "drakenfyr-cape",
+      "name": "Drakenfyr Cape",
+      "category": "장비",
+      "rarity": "Unknown",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "public-range-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "priceQuotes": [
+        {
+          "id": "pgg-king-legacy",
+          "name": "Pro Game Guides",
+          "url": "https://progameguides.com/roblox/king-legacy-trading-value-list-roblox/",
+          "low": 18.0,
+          "high": 30.0,
+          "unit": "Fins",
+          "publishedAt": "2026-11-09",
+          "observedAt": "2026-11-14T18:38:17+09:00"
+        }
+      ]
+    },
+    {
+      "id": "night-necklace",
+      "name": "Night Necklace",
+      "category": "장비",
+      "rarity": "Unknown",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "public-range-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "priceQuotes": [
+        {
+          "id": "pgg-king-legacy",
+          "name": "Pro Game Guides",
+          "url": "https://progameguides.com/roblox/king-legacy-trading-value-list-roblox/",
+          "low": 11.5,
+          "high": 19.0,
+          "unit": "Fins",
+          "publishedAt": "2026-11-09",
+          "observedAt": "2026-11-14T18:38:17+09:00"
+        }
+      ]
+    },
+    {
+      "id": "oceanic-tanto",
+      "name": "Oceanic tanto",
+      "category": "장비",
+      "rarity": "Unknown",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "public-range-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "priceQuotes": [
+        {
+          "id": "pgg-king-legacy",
+          "name": "Pro Game Guides",
+          "url": "https://progameguides.com/roblox/king-legacy-trading-value-list-roblox/",
+          "low": 7.0,
+          "high": 12.0,
+          "unit": "Fins",
+          "publishedAt": "2026-11-09",
+          "observedAt": "2026-11-14T18:38:17+09:00"
+        }
+      ]
+    },
+    {
+      "id": "dominion-cloak",
+      "name": "Dominion Cloak",
+      "category": "장비",
+      "rarity": "Unknown",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "public-range-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "priceQuotes": [
+        {
+          "id": "pgg-king-legacy",
+          "name": "Pro Game Guides",
+          "url": "https://progameguides.com/roblox/king-legacy-trading-value-list-roblox/",
+          "low": 6.0,
+          "high": 10.0,
+          "unit": "Fins",
+          "publishedAt": "2026-11-09",
+          "observedAt": "2026-11-14T18:38:17+09:00"
+        }
+      ]
+    },
+    {
+      "id": "inferno-cloak",
+      "name": "Inferno Cloak",
+      "category": "장비",
+      "rarity": "Unknown",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "public-range-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "priceQuotes": [
+        {
+          "id": "pgg-king-legacy",
+          "name": "Pro Game Guides",
+          "url": "https://progameguides.com/roblox/king-legacy-trading-value-list-roblox/",
+          "low": 2.5,
+          "high": 4.0,
+          "unit": "Fins",
+          "publishedAt": "2026-11-09",
+          "observedAt": "2026-11-14T18:38:17+09:00"
+        }
+      ]
+    },
+    {
+      "id": "floffy-glasses",
+      "name": "Floffy Glasses",
+      "category": "장비",
+      "rarity": "Unknown",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "public-range-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "priceQuotes": [
+        {
+          "id": "pgg-king-legacy",
+          "name": "Pro Game Guides",
+          "url": "https://progameguides.com/roblox/king-legacy-trading-value-list-roblox/",
+          "low": 2.5,
+          "high": 4.0,
+          "unit": "Fins",
+          "publishedAt": "2026-11-09",
+          "observedAt": "2026-11-14T18:38:17+09:00"
+        }
+      ]
+    },
+    {
+      "id": "glacies-shoulder",
+      "name": "Glacies Shoulder",
+      "category": "장비",
+      "rarity": "Unknown",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "public-range-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "priceQuotes": [
+        {
+          "id": "pgg-king-legacy",
+          "name": "Pro Game Guides",
+          "url": "https://progameguides.com/roblox/king-legacy-trading-value-list-roblox/",
+          "low": 2.5,
+          "high": 4.0,
+          "unit": "Fins",
+          "publishedAt": "2026-11-09",
+          "observedAt": "2026-11-14T18:38:17+09:00"
+        }
+      ]
+    },
+    {
+      "id": "nativitatis",
+      "name": "Nativitatis",
+      "category": "장비",
+      "rarity": "Unknown",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "public-range-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "priceQuotes": [
+        {
+          "id": "pgg-king-legacy",
+          "name": "Pro Game Guides",
+          "url": "https://progameguides.com/roblox/king-legacy-trading-value-list-roblox/",
+          "low": 2.5,
+          "high": 4.0,
+          "unit": "Fins",
+          "publishedAt": "2026-11-09",
+          "observedAt": "2026-11-14T18:38:17+09:00"
+        }
+      ]
+    },
+    {
+      "id": "green-dryadalis",
+      "name": "Green Dryadalis",
+      "category": "장비",
+      "rarity": "Unknown",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "public-range-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "priceQuotes": [
+        {
+          "id": "pgg-king-legacy",
+          "name": "Pro Game Guides",
+          "url": "https://progameguides.com/roblox/king-legacy-trading-value-list-roblox/",
+          "low": 2.5,
+          "high": 4.0,
+          "unit": "Fins",
+          "publishedAt": "2026-11-09",
+          "observedAt": "2026-11-14T18:38:17+09:00"
+        }
+      ]
+    },
+    {
+      "id": "cervus",
+      "name": "Cervus",
+      "category": "장비",
+      "rarity": "Unknown",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "public-range-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "priceQuotes": [
+        {
+          "id": "pgg-king-legacy",
+          "name": "Pro Game Guides",
+          "url": "https://progameguides.com/roblox/king-legacy-trading-value-list-roblox/",
+          "low": 2.5,
+          "high": 4.0,
+          "unit": "Fins",
+          "publishedAt": "2026-11-09",
+          "observedAt": "2026-11-14T18:38:17+09:00"
+        }
+      ]
+    },
+    {
+      "id": "dark-beard-hat",
+      "name": "Dark Beard Hat",
+      "category": "장비",
+      "rarity": "Unknown",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "public-range-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "priceQuotes": [
+        {
+          "id": "pgg-king-legacy",
+          "name": "Pro Game Guides",
+          "url": "https://progameguides.com/roblox/king-legacy-trading-value-list-roblox/",
+          "low": 2.0,
+          "high": 3.5,
+          "unit": "Fins",
+          "publishedAt": "2026-11-09",
+          "observedAt": "2026-11-14T18:38:17+09:00"
+        }
+      ]
+    },
+    {
+      "id": "abyss-sentinel-armor",
+      "name": "Abyss Sentinel Armor",
+      "category": "장비",
+      "rarity": "Unknown",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "public-range-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "priceQuotes": [
+        {
+          "id": "pgg-king-legacy",
+          "name": "Pro Game Guides",
+          "url": "https://progameguides.com/roblox/king-legacy-trading-value-list-roblox/",
+          "low": 1.0,
+          "high": 2.0,
+          "unit": "Fins",
+          "publishedAt": "2026-11-09",
+          "observedAt": "2026-11-14T18:38:17+09:00"
+        }
+      ]
+    },
+    {
+      "id": "metal-fin",
+      "name": "Metal Fin",
+      "category": "장비",
+      "rarity": "Unknown",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "public-range-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "priceQuotes": [
+        {
+          "id": "pgg-king-legacy",
+          "name": "Pro Game Guides",
+          "url": "https://progameguides.com/roblox/king-legacy-trading-value-list-roblox/",
+          "low": 1.0,
+          "high": 1.5,
+          "unit": "Fins",
+          "publishedAt": "2026-11-09",
+          "observedAt": "2026-11-14T18:38:17+09:00"
+        }
+      ]
+    },
+    {
+      "id": "oceanic-tentacle",
+      "name": "Oceanic Tentacle",
+      "category": "장비",
+      "rarity": "Unknown",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "public-range-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "priceQuotes": [
+        {
+          "id": "pgg-king-legacy",
+          "name": "Pro Game Guides",
+          "url": "https://progameguides.com/roblox/king-legacy-trading-value-list-roblox/",
+          "low": 0.5,
+          "high": 1.0,
+          "unit": "Fins",
+          "publishedAt": "2026-11-09",
+          "observedAt": "2026-11-14T18:38:17+09:00"
+        }
+      ]
+    },
+    {
+      "id": "tomoe-taiko",
+      "name": "Tomoe Taiko",
+      "category": "장비",
+      "rarity": "Unknown",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "public-range-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "priceQuotes": [
+        {
+          "id": "pgg-king-legacy",
+          "name": "Pro Game Guides",
+          "url": "https://progameguides.com/roblox/king-legacy-trading-value-list-roblox/",
+          "low": 0.5,
+          "high": 1.0,
+          "unit": "Fins",
+          "publishedAt": "2026-11-09",
+          "observedAt": "2026-11-14T18:38:17+09:00"
+        }
+      ]
+    },
+    {
+      "id": "lucidus-coat",
+      "name": "Lucidus Coat",
+      "category": "장비",
+      "rarity": "Unknown",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "public-range-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "priceQuotes": [
+        {
+          "id": "pgg-king-legacy",
+          "name": "Pro Game Guides",
+          "url": "https://progameguides.com/roblox/king-legacy-trading-value-list-roblox/",
+          "low": 0.5,
+          "high": 1.0,
+          "unit": "Fins",
+          "publishedAt": "2026-11-09",
+          "observedAt": "2026-11-14T18:38:17+09:00"
+        }
+      ]
+    },
+    {
+      "id": "sally-crown",
+      "name": "Sally Crown",
+      "category": "장비",
+      "rarity": "Unknown",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "public-range-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "priceQuotes": [
+        {
+          "id": "pgg-king-legacy",
+          "name": "Pro Game Guides",
+          "url": "https://progameguides.com/roblox/king-legacy-trading-value-list-roblox/",
+          "low": 0.5,
+          "high": 1.0,
+          "unit": "Fins",
+          "publishedAt": "2026-11-09",
+          "observedAt": "2026-11-14T18:38:17+09:00"
+        }
+      ]
+    },
+    {
+      "id": "dragon-necklace",
+      "name": "Dragon Necklace",
+      "category": "장비",
+      "rarity": "Unknown",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "public-range-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "priceQuotes": [
+        {
+          "id": "pgg-king-legacy",
+          "name": "Pro Game Guides",
+          "url": "https://progameguides.com/roblox/king-legacy-trading-value-list-roblox/",
+          "low": 0.5,
+          "high": 1.0,
+          "unit": "Fins",
+          "publishedAt": "2026-11-09",
+          "observedAt": "2026-11-14T18:38:17+09:00"
+        }
+      ]
+    },
+    {
+      "id": "tengu-mask",
+      "name": "Tengu Mask",
+      "category": "장비",
+      "rarity": "Unknown",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "public-range-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "priceQuotes": [
+        {
+          "id": "pgg-king-legacy",
+          "name": "Pro Game Guides",
+          "url": "https://progameguides.com/roblox/king-legacy-trading-value-list-roblox/",
+          "low": 0.5,
+          "high": 1.0,
+          "unit": "Fins",
+          "publishedAt": "2026-11-09",
+          "observedAt": "2026-11-14T18:38:17+09:00"
+        }
+      ]
+    },
+    {
+      "id": "oni-mask",
+      "name": "Oni Mask",
+      "category": "장비",
+      "rarity": "Unknown",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "public-range-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "priceQuotes": [
+        {
+          "id": "pgg-king-legacy",
+          "name": "Pro Game Guides",
+          "url": "https://progameguides.com/roblox/king-legacy-trading-value-list-roblox/",
+          "low": 0.5,
+          "high": 1.0,
+          "unit": "Fins",
+          "publishedAt": "2026-11-09",
+          "observedAt": "2026-11-14T18:38:17+09:00"
+        }
+      ]
+    },
+    {
+      "id": "shadow-cloak",
+      "name": "Shadow Cloak",
+      "category": "장비",
+      "rarity": "Unknown",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "public-range-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "priceQuotes": [
+        {
+          "id": "pgg-king-legacy",
+          "name": "Pro Game Guides",
+          "url": "https://progameguides.com/roblox/king-legacy-trading-value-list-roblox/",
+          "low": 0.5,
+          "high": 1.0,
+          "unit": "Fins",
+          "publishedAt": "2026-11-09",
+          "observedAt": "2026-11-14T18:38:17+09:00"
+        }
+      ]
+    },
+    {
+      "id": "sentinel-armor",
+      "name": "Sentinel Armor",
+      "category": "장비",
+      "rarity": "Unknown",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "public-range-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "priceQuotes": [
+        {
+          "id": "pgg-king-legacy",
+          "name": "Pro Game Guides",
+          "url": "https://progameguides.com/roblox/king-legacy-trading-value-list-roblox/",
+          "low": 0.5,
+          "high": 1.0,
+          "unit": "Fins",
+          "publishedAt": "2026-11-09",
+          "observedAt": "2026-11-14T18:38:17+09:00"
+        }
+      ]
+    },
+    {
+      "id": "flame-hair",
+      "name": "Flame Hair",
+      "category": "장비",
+      "rarity": "Unknown",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "public-range-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "priceQuotes": [
+        {
+          "id": "pgg-king-legacy",
+          "name": "Pro Game Guides",
+          "url": "https://progameguides.com/roblox/king-legacy-trading-value-list-roblox/",
+          "low": 0.5,
+          "high": 1.0,
+          "unit": "Fins",
+          "publishedAt": "2026-11-09",
+          "observedAt": "2026-11-14T18:38:17+09:00"
+        }
+      ]
+    },
+    {
+      "id": "crimson-scarf",
+      "name": "Crimson Scarf",
+      "category": "장비",
+      "rarity": "Unknown",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "public-range-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "priceQuotes": [
+        {
+          "id": "pgg-king-legacy",
+          "name": "Pro Game Guides",
+          "url": "https://progameguides.com/roblox/king-legacy-trading-value-list-roblox/",
+          "low": 0.5,
+          "high": 1.0,
+          "unit": "Fins",
+          "publishedAt": "2026-11-09",
+          "observedAt": "2026-11-14T18:38:17+09:00"
+        }
+      ]
+    },
+    {
+      "id": "depth-kings-tail",
+      "name": "Depth King’s Tail",
+      "category": "재료",
+      "rarity": "Unknown",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "public-range-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "priceQuotes": [
+        {
+          "id": "pgg-king-legacy",
+          "name": "Pro Game Guides",
+          "url": "https://progameguides.com/roblox/king-legacy-trading-value-list-roblox/",
+          "low": 50.0,
+          "high": 80.0,
+          "unit": "Fins",
+          "publishedAt": "2026-11-09",
+          "observedAt": "2026-11-14T18:38:17+09:00"
+        }
+      ]
+    },
+    {
+      "id": "ancient-shell",
+      "name": "Ancient Shell",
+      "category": "재료",
+      "rarity": "Unknown",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "public-range-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "priceQuotes": [
+        {
+          "id": "pgg-king-legacy",
+          "name": "Pro Game Guides",
+          "url": "https://progameguides.com/roblox/king-legacy-trading-value-list-roblox/",
+          "low": 50.0,
+          "high": 80.0,
+          "unit": "Fins",
+          "publishedAt": "2026-11-09",
+          "observedAt": "2026-11-14T18:38:17+09:00"
+        }
+      ]
+    },
+    {
+      "id": "turtle-core",
+      "name": "Turtle Core",
+      "category": "재료",
+      "rarity": "Unknown",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "public-range-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "priceQuotes": [
+        {
+          "id": "pgg-king-legacy",
+          "name": "Pro Game Guides",
+          "url": "https://progameguides.com/roblox/king-legacy-trading-value-list-roblox/",
+          "low": 7.0,
+          "high": 10.0,
+          "unit": "Fins",
+          "publishedAt": "2026-11-09",
+          "observedAt": "2026-11-14T18:38:17+09:00"
+        }
+      ]
+    },
+    {
+      "id": "depth-kings-blood",
+      "name": "Depth King’s Blood",
+      "category": "재료",
+      "rarity": "Unknown",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "public-range-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "priceQuotes": [
+        {
+          "id": "pgg-king-legacy",
+          "name": "Pro Game Guides",
+          "url": "https://progameguides.com/roblox/king-legacy-trading-value-list-roblox/",
+          "low": 7.0,
+          "high": 10.0,
+          "unit": "Fins",
+          "publishedAt": "2026-11-09",
+          "observedAt": "2026-11-14T18:38:17+09:00"
+        }
+      ]
+    },
+    {
+      "id": "depth-crystal",
+      "name": "Depth Crystal",
+      "category": "재료",
+      "rarity": "Unknown",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "public-range-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "priceQuotes": [
+        {
+          "id": "pgg-king-legacy",
+          "name": "Pro Game Guides",
+          "url": "https://progameguides.com/roblox/king-legacy-trading-value-list-roblox/",
+          "low": 2.5,
+          "high": 4.0,
+          "unit": "Fins",
+          "publishedAt": "2026-11-09",
+          "observedAt": "2026-11-14T18:38:17+09:00"
+        }
+      ]
+    },
+    {
+      "id": "depth-scale",
+      "name": "Depth Scale",
+      "category": "재료",
+      "rarity": "Unknown",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "public-range-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "priceQuotes": [
+        {
+          "id": "pgg-king-legacy",
+          "name": "Pro Game Guides",
+          "url": "https://progameguides.com/roblox/king-legacy-trading-value-list-roblox/",
+          "low": 2.5,
+          "high": 4.0,
+          "unit": "Fins",
+          "publishedAt": "2026-11-09",
+          "observedAt": "2026-11-14T18:38:17+09:00"
+        }
+      ]
+    },
+    {
+      "id": "volt-bundle",
+      "name": "Volt Bundle",
+      "category": "게임패스",
+      "rarity": "Unknown",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "public-range-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "priceQuotes": [
+        {
+          "id": "pgg-king-legacy",
+          "name": "Pro Game Guides",
+          "url": "https://progameguides.com/roblox/king-legacy-trading-value-list-roblox/",
+          "low": 465.0,
+          "high": 775.0,
+          "unit": "Fins",
+          "publishedAt": "2026-11-09",
+          "observedAt": "2026-11-14T18:38:17+09:00"
+        }
+      ]
+    },
+    {
+      "id": "conqueror",
+      "name": "Conqueror",
+      "category": "게임패스",
+      "rarity": "Unknown",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "public-range-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "priceQuotes": [
+        {
+          "id": "pgg-king-legacy",
+          "name": "Pro Game Guides",
+          "url": "https://progameguides.com/roblox/king-legacy-trading-value-list-roblox/",
+          "low": 435.0,
+          "high": 725.0,
+          "unit": "Fins",
+          "publishedAt": "2026-11-09",
+          "observedAt": "2026-11-14T18:38:17+09:00"
+        }
+      ]
+    },
+    {
+      "id": "blazeice-pack",
+      "name": "BlazeIce Pack",
+      "category": "게임패스",
+      "rarity": "Unknown",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "public-range-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "priceQuotes": [
+        {
+          "id": "pgg-king-legacy",
+          "name": "Pro Game Guides",
+          "url": "https://progameguides.com/roblox/king-legacy-trading-value-list-roblox/",
+          "low": 225.0,
+          "high": 375.0,
+          "unit": "Fins",
+          "publishedAt": "2026-11-09",
+          "observedAt": "2026-11-14T18:38:17+09:00"
+        }
+      ]
+    },
+    {
+      "id": "1-slot-passive",
+      "name": "+1 Slot (Passive)",
+      "category": "게임패스",
+      "rarity": "Unknown",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "public-range-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "priceQuotes": [
+        {
+          "id": "pgg-king-legacy",
+          "name": "Pro Game Guides",
+          "url": "https://progameguides.com/roblox/king-legacy-trading-value-list-roblox/",
+          "low": 174.0,
+          "high": 290.0,
+          "unit": "Fins",
+          "publishedAt": "2026-11-09",
+          "observedAt": "2026-11-14T18:38:17+09:00"
+        }
+      ]
+    },
+    {
+      "id": "2x-money",
+      "name": "2x Money",
+      "category": "게임패스",
+      "rarity": "Unknown",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "public-range-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "priceQuotes": [
+        {
+          "id": "pgg-king-legacy",
+          "name": "Pro Game Guides",
+          "url": "https://progameguides.com/roblox/king-legacy-trading-value-list-roblox/",
+          "low": 159.0,
+          "high": 265.0,
+          "unit": "Fins",
+          "publishedAt": "2026-11-09",
+          "observedAt": "2026-11-14T18:38:17+09:00"
+        }
+      ]
+    },
+    {
+      "id": "2x-drop-item",
+      "name": "2x Drop Item",
+      "category": "게임패스",
+      "rarity": "Unknown",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "public-range-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "priceQuotes": [
+        {
+          "id": "pgg-king-legacy",
+          "name": "Pro Game Guides",
+          "url": "https://progameguides.com/roblox/king-legacy-trading-value-list-roblox/",
+          "low": 144.0,
+          "high": 240.0,
+          "unit": "Fins",
+          "publishedAt": "2026-11-09",
+          "observedAt": "2026-11-14T18:38:17+09:00"
+        }
+      ]
+    },
+    {
+      "id": "night-blade",
+      "name": "Night Blade",
+      "category": "게임패스",
+      "rarity": "Unknown",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "public-range-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "priceQuotes": [
+        {
+          "id": "pgg-king-legacy",
+          "name": "Pro Game Guides",
+          "url": "https://progameguides.com/roblox/king-legacy-trading-value-list-roblox/",
+          "low": 126.0,
+          "high": 210.0,
+          "unit": "Fins",
+          "publishedAt": "2026-11-09",
+          "observedAt": "2026-11-14T18:38:17+09:00"
+        }
+      ]
+    },
+    {
+      "id": "coffin-boat",
+      "name": "Coffin Boat",
+      "category": "게임패스",
+      "rarity": "Unknown",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "public-range-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "priceQuotes": [
+        {
+          "id": "pgg-king-legacy",
+          "name": "Pro Game Guides",
+          "url": "https://progameguides.com/roblox/king-legacy-trading-value-list-roblox/",
+          "low": 54.0,
+          "high": 90.0,
+          "unit": "Fins",
+          "publishedAt": "2026-11-09",
+          "observedAt": "2026-11-14T18:38:17+09:00"
+        }
+      ]
+    },
+    {
+      "id": "1-fruit-storage",
+      "name": "+1 Fruit Storage",
+      "category": "게임패스",
+      "rarity": "Unknown",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "public-range-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "priceQuotes": [
+        {
+          "id": "pgg-king-legacy",
+          "name": "Pro Game Guides",
+          "url": "https://progameguides.com/roblox/king-legacy-trading-value-list-roblox/",
+          "low": 51.0,
+          "high": 85.0,
+          "unit": "Fins",
+          "publishedAt": "2026-11-09",
+          "observedAt": "2026-11-14T18:38:17+09:00"
+        }
+      ]
+    },
+    {
+      "id": "legacy-pose",
+      "name": "Legacy Pose",
+      "category": "게임패스",
+      "rarity": "Unknown",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "public-range-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "priceQuotes": [
+        {
+          "id": "pgg-king-legacy",
+          "name": "Pro Game Guides",
+          "url": "https://progameguides.com/roblox/king-legacy-trading-value-list-roblox/",
+          "low": 43.5,
+          "high": 72.5,
+          "unit": "Fins",
+          "publishedAt": "2026-11-09",
+          "observedAt": "2026-11-14T18:38:17+09:00"
+        }
+      ]
+    },
+    {
+      "id": "animation-any",
+      "name": "Animation (Any)",
+      "category": "게임패스",
+      "rarity": "Unknown",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "public-range-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "priceQuotes": [
+        {
+          "id": "pgg-king-legacy",
+          "name": "Pro Game Guides",
+          "url": "https://progameguides.com/roblox/king-legacy-trading-value-list-roblox/",
+          "low": 19.5,
+          "high": 32.5,
+          "unit": "Fins",
+          "publishedAt": "2026-11-09",
+          "observedAt": "2026-11-14T18:38:17+09:00"
+        }
+      ]
+    },
+    {
+      "id": "2x-exp-12-hours",
+      "name": "2x exp (12 hours)",
+      "category": "게임패스",
+      "rarity": "Unknown",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "public-range-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "priceQuotes": [
+        {
+          "id": "pgg-king-legacy",
+          "name": "Pro Game Guides",
+          "url": "https://progameguides.com/roblox/king-legacy-trading-value-list-roblox/",
+          "low": 3.5,
+          "high": 5.5,
+          "unit": "Fins",
+          "publishedAt": "2026-11-09",
+          "observedAt": "2026-11-14T18:38:17+09:00"
+        }
+      ]
+    },
+    {
+      "id": "race-rerolls",
+      "name": "Race Rerolls",
+      "category": "게임패스",
+      "rarity": "Unknown",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "public-range-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "priceQuotes": [
+        {
+          "id": "pgg-king-legacy",
+          "name": "Pro Game Guides",
+          "url": "https://progameguides.com/roblox/king-legacy-trading-value-list-roblox/",
+          "low": 2.5,
+          "high": 4.0,
+          "unit": "Fins",
+          "publishedAt": "2026-11-09",
+          "observedAt": "2026-11-14T18:38:17+09:00"
+        }
+      ]
+    },
+    {
+      "id": "refund-stats",
+      "name": "Refund Stats",
+      "category": "게임패스",
+      "rarity": "Unknown",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "public-range-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "priceQuotes": [
+        {
+          "id": "pgg-king-legacy",
+          "name": "Pro Game Guides",
+          "url": "https://progameguides.com/roblox/king-legacy-trading-value-list-roblox/",
+          "low": 1.5,
+          "high": 2.5,
+          "unit": "Fins",
+          "publishedAt": "2026-11-09",
+          "observedAt": "2026-11-14T18:38:17+09:00"
+        }
+      ]
+    },
+    {
+      "id": "hellroot-bundle",
+      "name": "Hellroot Bundle",
+      "category": "번들",
+      "rarity": "Unknown",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "public-range-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "priceQuotes": [
+        {
+          "id": "pgg-king-legacy",
+          "name": "Pro Game Guides",
+          "url": "https://progameguides.com/roblox/king-legacy-trading-value-list-roblox/",
+          "low": 780.0,
+          "high": 1300.0,
+          "unit": "Fins",
+          "publishedAt": "2026-11-09",
+          "observedAt": "2026-11-14T18:38:17+09:00"
+        }
+      ]
+    },
+    {
+      "id": "primal-pack",
+      "name": "Primal Pack",
+      "category": "번들",
+      "rarity": "Unknown",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "public-range-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "priceQuotes": [
+        {
+          "id": "pgg-king-legacy",
+          "name": "Pro Game Guides",
+          "url": "https://progameguides.com/roblox/king-legacy-trading-value-list-roblox/",
+          "low": 300.0,
+          "high": 500.0,
+          "unit": "Fins",
+          "publishedAt": "2026-11-09",
+          "observedAt": "2026-11-14T18:38:17+09:00"
+        }
+      ]
+    },
+    {
+      "id": "acrospear-mats",
+      "name": "Acrospear (Mats)",
+      "category": "번들",
+      "rarity": "Unknown",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "public-range-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "priceQuotes": [
+        {
+          "id": "pgg-king-legacy",
+          "name": "Pro Game Guides",
+          "url": "https://progameguides.com/roblox/king-legacy-trading-value-list-roblox/",
+          "low": 19.5,
+          "high": 32.5,
+          "unit": "Fins",
+          "publishedAt": "2026-11-09",
+          "observedAt": "2026-11-14T18:38:17+09:00"
+        }
+      ]
+    },
+    {
+      "id": "cyborg-v2-mats",
+      "name": "Cyborg V2 (Mats)",
+      "category": "번들",
+      "rarity": "Unknown",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "public-range-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "priceQuotes": [
+        {
+          "id": "pgg-king-legacy",
+          "name": "Pro Game Guides",
+          "url": "https://progameguides.com/roblox/king-legacy-trading-value-list-roblox/",
+          "low": 19.5,
+          "high": 32.5,
+          "unit": "Fins",
+          "publishedAt": "2026-11-09",
+          "observedAt": "2026-11-14T18:38:17+09:00"
+        }
+      ]
+    },
+    {
+      "id": "spark-stone-mats",
+      "name": "Spark Stone (Mats)",
+      "category": "번들",
+      "rarity": "Unknown",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "public-range-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "priceQuotes": [
+        {
+          "id": "pgg-king-legacy",
+          "name": "Pro Game Guides",
+          "url": "https://progameguides.com/roblox/king-legacy-trading-value-list-roblox/",
+          "low": 19.0,
+          "high": 31.5,
+          "unit": "Fins",
+          "publishedAt": "2026-11-09",
+          "observedAt": "2026-11-14T18:38:17+09:00"
+        }
+      ]
+    },
+    {
+      "id": "phoenix-blade-v2-mats",
+      "name": "Phoenix Blade V2 (Mats)",
+      "category": "번들",
+      "rarity": "Unknown",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "public-range-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "priceQuotes": [
+        {
+          "id": "pgg-king-legacy",
+          "name": "Pro Game Guides",
+          "url": "https://progameguides.com/roblox/king-legacy-trading-value-list-roblox/",
+          "low": 16.5,
+          "high": 27.5,
+          "unit": "Fins",
+          "publishedAt": "2026-11-09",
+          "observedAt": "2026-11-14T18:38:17+09:00"
+        }
+      ]
+    },
+    {
+      "id": "dark-stone-mats",
+      "name": "Dark Stone (Mats)",
+      "category": "번들",
+      "rarity": "Unknown",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "public-range-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "priceQuotes": [
+        {
+          "id": "pgg-king-legacy",
+          "name": "Pro Game Guides",
+          "url": "https://progameguides.com/roblox/king-legacy-trading-value-list-roblox/",
+          "low": 15.5,
+          "high": 25.5,
+          "unit": "Fins",
+          "publishedAt": "2026-11-09",
+          "observedAt": "2026-11-14T18:38:17+09:00"
+        }
+      ]
+    },
+    {
+      "id": "poison-stone-mats",
+      "name": "Poison Stone (Mats)",
+      "category": "번들",
+      "rarity": "Unknown",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "public-range-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "priceQuotes": [
+        {
+          "id": "pgg-king-legacy",
+          "name": "Pro Game Guides",
+          "url": "https://progameguides.com/roblox/king-legacy-trading-value-list-roblox/",
+          "low": 13.5,
+          "high": 22.5,
+          "unit": "Fins",
+          "publishedAt": "2026-11-09",
+          "observedAt": "2026-11-14T18:38:17+09:00"
+        }
+      ]
+    },
+    {
+      "id": "blaze-stone-mats",
+      "name": "Blaze Stone (Mats)",
+      "category": "번들",
+      "rarity": "Unknown",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "public-range-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "priceQuotes": [
+        {
+          "id": "pgg-king-legacy",
+          "name": "Pro Game Guides",
+          "url": "https://progameguides.com/roblox/king-legacy-trading-value-list-roblox/",
+          "low": 8.5,
+          "high": 14.5,
+          "unit": "Fins",
+          "publishedAt": "2026-11-09",
+          "observedAt": "2026-11-14T18:38:17+09:00"
+        }
+      ]
+    },
+    {
+      "id": "abyss-stone-mats",
+      "name": "Abyss Stone (Mats)",
+      "category": "번들",
+      "rarity": "Unknown",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "public-range-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "priceQuotes": [
+        {
+          "id": "pgg-king-legacy",
+          "name": "Pro Game Guides",
+          "url": "https://progameguides.com/roblox/king-legacy-trading-value-list-roblox/",
+          "low": 8.0,
+          "high": 13.0,
+          "unit": "Fins",
+          "publishedAt": "2026-11-09",
+          "observedAt": "2026-11-14T18:38:17+09:00"
+        }
+      ]
+    },
+    {
+      "id": "gale-stone-mats",
+      "name": "Gale Stone (Mats)",
+      "category": "번들",
+      "rarity": "Unknown",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "public-range-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "priceQuotes": [
+        {
+          "id": "pgg-king-legacy",
+          "name": "Pro Game Guides",
+          "url": "https://progameguides.com/roblox/king-legacy-trading-value-list-roblox/",
+          "low": 7.0,
+          "high": 11.5,
+          "unit": "Fins",
+          "publishedAt": "2026-11-09",
+          "observedAt": "2026-11-14T18:38:17+09:00"
+        }
+      ]
+    },
+    {
+      "id": "bloodthirsty-stone-mats",
+      "name": "Bloodthirsty Stone (Mats)",
+      "category": "번들",
+      "rarity": "Unknown",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "public-range-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "priceQuotes": [
+        {
+          "id": "pgg-king-legacy",
+          "name": "Pro Game Guides",
+          "url": "https://progameguides.com/roblox/king-legacy-trading-value-list-roblox/",
+          "low": 6.5,
+          "high": 11.0,
+          "unit": "Fins",
+          "publishedAt": "2026-11-09",
+          "observedAt": "2026-11-14T18:38:17+09:00"
+        }
+      ]
+    },
+    {
+      "id": "light-stone-mats",
+      "name": "Light Stone (Mats)",
+      "category": "번들",
+      "rarity": "Unknown",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "public-range-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "priceQuotes": [
+        {
+          "id": "pgg-king-legacy",
+          "name": "Pro Game Guides",
+          "url": "https://progameguides.com/roblox/king-legacy-trading-value-list-roblox/",
+          "low": 4.0,
+          "high": 7.0,
+          "unit": "Fins",
+          "publishedAt": "2026-11-09",
+          "observedAt": "2026-11-14T18:38:17+09:00"
+        }
+      ]
+    },
+    {
+      "id": "glacier-stone-mats",
+      "name": "Glacier Stone (Mats)",
+      "category": "번들",
+      "rarity": "Unknown",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "public-range-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "priceQuotes": [
+        {
+          "id": "pgg-king-legacy",
+          "name": "Pro Game Guides",
+          "url": "https://progameguides.com/roblox/king-legacy-trading-value-list-roblox/",
+          "low": 3.5,
+          "high": 5.5,
+          "unit": "Fins",
+          "publishedAt": "2026-11-09",
+          "observedAt": "2026-11-14T18:38:17+09:00"
+        }
+      ]
+    },
+    {
+      "id": "tempestas-stone-mats",
+      "name": "Tempestas Stone (Mats)",
+      "category": "번들",
+      "rarity": "Unknown",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "public-range-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "priceQuotes": [
+        {
+          "id": "pgg-king-legacy",
+          "name": "Pro Game Guides",
+          "url": "https://progameguides.com/roblox/king-legacy-trading-value-list-roblox/",
+          "low": 3.0,
+          "high": 5.0,
+          "unit": "Fins",
+          "publishedAt": "2026-11-09",
+          "observedAt": "2026-11-14T18:38:17+09:00"
+        }
+      ]
+    },
+    {
+      "id": "disillusion-stone-mats",
+      "name": "Disillusion Stone (Mats)",
+      "category": "번들",
+      "rarity": "Unknown",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "public-range-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "priceQuotes": [
+        {
+          "id": "pgg-king-legacy",
+          "name": "Pro Game Guides",
+          "url": "https://progameguides.com/roblox/king-legacy-trading-value-list-roblox/",
+          "low": 0.5,
+          "high": 1.0,
+          "unit": "Fins",
+          "publishedAt": "2026-11-09",
+          "observedAt": "2026-11-14T18:38:17+09:00"
+        }
+      ]
+    },
+    {
+      "id": "perm-erebus",
+      "name": "Perm Erebus",
+      "category": "영구 열매",
+      "rarity": "Unknown",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "public-range-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "priceQuotes": [
+        {
+          "id": "pgg-king-legacy",
+          "name": "Pro Game Guides",
+          "url": "https://progameguides.com/roblox/king-legacy-trading-value-list-roblox/",
+          "low": 600.0,
+          "high": 1000.0,
+          "unit": "Fins",
+          "publishedAt": "2026-11-09",
+          "observedAt": "2026-11-14T18:38:17+09:00"
+        }
+      ]
+    },
+    {
+      "id": "perm-dragon",
+      "name": "Perm Dragon",
+      "category": "영구 열매",
+      "rarity": "Unknown",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "public-range-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "priceQuotes": [
+        {
+          "id": "pgg-king-legacy",
+          "name": "Pro Game Guides",
+          "url": "https://progameguides.com/roblox/king-legacy-trading-value-list-roblox/",
+          "low": 495.0,
+          "high": 825.0,
+          "unit": "Fins",
+          "publishedAt": "2026-11-09",
+          "observedAt": "2026-11-14T18:38:17+09:00"
+        }
+      ]
+    },
+    {
+      "id": "perm-dough",
+      "name": "Perm Dough",
+      "category": "영구 열매",
+      "rarity": "Unknown",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "public-range-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "priceQuotes": [
+        {
+          "id": "pgg-king-legacy",
+          "name": "Pro Game Guides",
+          "url": "https://progameguides.com/roblox/king-legacy-trading-value-list-roblox/",
+          "low": 465.0,
+          "high": 775.0,
+          "unit": "Fins",
+          "publishedAt": "2026-11-09",
+          "observedAt": "2026-11-14T18:38:17+09:00"
+        }
+      ]
+    },
+    {
+      "id": "perm-phoenix",
+      "name": "Perm Phoenix",
+      "category": "영구 열매",
+      "rarity": "Unknown",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "public-range-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "priceQuotes": [
+        {
+          "id": "pgg-king-legacy",
+          "name": "Pro Game Guides",
+          "url": "https://progameguides.com/roblox/king-legacy-trading-value-list-roblox/",
+          "low": 441.0,
+          "high": 735.0,
+          "unit": "Fins",
+          "publishedAt": "2026-11-09",
+          "observedAt": "2026-11-14T18:38:17+09:00"
+        }
+      ]
+    },
+    {
+      "id": "perm-pter",
+      "name": "Perm Pter",
+      "category": "영구 열매",
+      "rarity": "Unknown",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "public-range-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "priceQuotes": [
+        {
+          "id": "pgg-king-legacy",
+          "name": "Pro Game Guides",
+          "url": "https://progameguides.com/roblox/king-legacy-trading-value-list-roblox/",
+          "low": 435.0,
+          "high": 725.0,
+          "unit": "Fins",
+          "publishedAt": "2026-11-09",
+          "observedAt": "2026-11-14T18:38:17+09:00"
+        }
+      ]
+    },
+    {
+      "id": "perm-tree",
+      "name": "Perm Tree",
+      "category": "영구 열매",
+      "rarity": "Unknown",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "public-range-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "priceQuotes": [
+        {
+          "id": "pgg-king-legacy",
+          "name": "Pro Game Guides",
+          "url": "https://progameguides.com/roblox/king-legacy-trading-value-list-roblox/",
+          "low": 420.0,
+          "high": 700.0,
+          "unit": "Fins",
+          "publishedAt": "2026-11-09",
+          "observedAt": "2026-11-14T18:38:17+09:00"
+        }
+      ]
+    },
+    {
+      "id": "perm-gate",
+      "name": "Perm Gate",
+      "category": "영구 열매",
+      "rarity": "Unknown",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "public-range-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "priceQuotes": [
+        {
+          "id": "pgg-king-legacy",
+          "name": "Pro Game Guides",
+          "url": "https://progameguides.com/roblox/king-legacy-trading-value-list-roblox/",
+          "low": 414.0,
+          "high": 690.0,
+          "unit": "Fins",
+          "publishedAt": "2026-11-09",
+          "observedAt": "2026-11-14T18:38:17+09:00"
+        }
+      ]
+    },
+    {
+      "id": "perm-toy",
+      "name": "Perm Toy",
+      "category": "영구 열매",
+      "rarity": "Unknown",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "public-range-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "priceQuotes": [
+        {
+          "id": "pgg-king-legacy",
+          "name": "Pro Game Guides",
+          "url": "https://progameguides.com/roblox/king-legacy-trading-value-list-roblox/",
+          "low": 382.5,
+          "high": 637.5,
+          "unit": "Fins",
+          "publishedAt": "2026-11-09",
+          "observedAt": "2026-11-14T18:38:17+09:00"
+        }
+      ]
+    },
+    {
+      "id": "perm-melody",
+      "name": "Perm Melody",
+      "category": "영구 열매",
+      "rarity": "Unknown",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "public-range-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "priceQuotes": [
+        {
+          "id": "pgg-king-legacy",
+          "name": "Pro Game Guides",
+          "url": "https://progameguides.com/roblox/king-legacy-trading-value-list-roblox/",
+          "low": 369.0,
+          "high": 615.0,
+          "unit": "Fins",
+          "publishedAt": "2026-11-09",
+          "observedAt": "2026-11-14T18:38:17+09:00"
+        }
+      ]
+    },
+    {
+      "id": "perm-demon",
+      "name": "Perm Demon",
+      "category": "영구 열매",
+      "rarity": "Unknown",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "public-range-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "priceQuotes": [
+        {
+          "id": "pgg-king-legacy",
+          "name": "Pro Game Guides",
+          "url": "https://progameguides.com/roblox/king-legacy-trading-value-list-roblox/",
+          "low": 330.0,
+          "high": 550.0,
+          "unit": "Fins",
+          "publishedAt": "2026-11-09",
+          "observedAt": "2026-11-14T18:38:17+09:00"
+        }
+      ]
+    },
+    {
+      "id": "perm-quake",
+      "name": "Perm Quake",
+      "category": "영구 열매",
+      "rarity": "Unknown",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "public-range-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "priceQuotes": [
+        {
+          "id": "pgg-king-legacy",
+          "name": "Pro Game Guides",
+          "url": "https://progameguides.com/roblox/king-legacy-trading-value-list-roblox/",
+          "low": 255.0,
+          "high": 425.0,
+          "unit": "Fins",
+          "publishedAt": "2026-11-09",
+          "observedAt": "2026-11-14T18:38:17+09:00"
+        }
+      ]
+    },
+    {
+      "id": "perm-rumble",
+      "name": "Perm Rumble",
+      "category": "영구 열매",
+      "rarity": "Unknown",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "public-range-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "priceQuotes": [
+        {
+          "id": "pgg-king-legacy",
+          "name": "Pro Game Guides",
+          "url": "https://progameguides.com/roblox/king-legacy-trading-value-list-roblox/",
+          "low": 246.0,
+          "high": 410.0,
+          "unit": "Fins",
+          "publishedAt": "2026-11-09",
+          "observedAt": "2026-11-14T18:38:17+09:00"
+        }
+      ]
+    },
+    {
+      "id": "perm-gas",
+      "name": "Perm Gas",
+      "category": "영구 열매",
+      "rarity": "Unknown",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "public-range-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "priceQuotes": [
+        {
+          "id": "pgg-king-legacy",
+          "name": "Pro Game Guides",
+          "url": "https://progameguides.com/roblox/king-legacy-trading-value-list-roblox/",
+          "low": 246.0,
+          "high": 410.0,
+          "unit": "Fins",
+          "publishedAt": "2026-11-09",
+          "observedAt": "2026-11-14T18:38:17+09:00"
+        }
+      ]
+    },
+    {
+      "id": "perm-control",
+      "name": "Perm Control",
+      "category": "영구 열매",
+      "rarity": "Unknown",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "public-range-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "priceQuotes": [
+        {
+          "id": "pgg-king-legacy",
+          "name": "Pro Game Guides",
+          "url": "https://progameguides.com/roblox/king-legacy-trading-value-list-roblox/",
+          "low": 195.0,
+          "high": 325.0,
+          "unit": "Fins",
+          "publishedAt": "2026-11-09",
+          "observedAt": "2026-11-14T18:38:17+09:00"
+        }
+      ]
+    },
+    {
+      "id": "perm-light",
+      "name": "Perm Light",
+      "category": "영구 열매",
+      "rarity": "Unknown",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "public-range-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "priceQuotes": [
+        {
+          "id": "pgg-king-legacy",
+          "name": "Pro Game Guides",
+          "url": "https://progameguides.com/roblox/king-legacy-trading-value-list-roblox/",
+          "low": 165.0,
+          "high": 275.0,
+          "unit": "Fins",
+          "publishedAt": "2026-11-09",
+          "observedAt": "2026-11-14T18:38:17+09:00"
+        }
+      ]
+    },
+    {
+      "id": "perm-snow",
+      "name": "Perm Snow",
+      "category": "영구 열매",
+      "rarity": "Unknown",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "public-range-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "priceQuotes": [
+        {
+          "id": "pgg-king-legacy",
+          "name": "Pro Game Guides",
+          "url": "https://progameguides.com/roblox/king-legacy-trading-value-list-roblox/",
+          "low": 159.0,
+          "high": 265.0,
+          "unit": "Fins",
+          "publishedAt": "2026-11-09",
+          "observedAt": "2026-11-14T18:38:17+09:00"
+        }
+      ]
+    },
+    {
+      "id": "perm-spino",
+      "name": "Perm Spino",
+      "category": "영구 열매",
+      "rarity": "Unknown",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "public-range-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "priceQuotes": [
+        {
+          "id": "pgg-king-legacy",
+          "name": "Pro Game Guides",
+          "url": "https://progameguides.com/roblox/king-legacy-trading-value-list-roblox/",
+          "low": 150.0,
+          "high": 250.0,
+          "unit": "Fins",
+          "publishedAt": "2026-11-09",
+          "observedAt": "2026-11-14T18:38:17+09:00"
+        }
+      ]
+    },
+    {
+      "id": "perm-gravity",
+      "name": "Perm Gravity",
+      "category": "영구 열매",
+      "rarity": "Unknown",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "public-range-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "priceQuotes": [
+        {
+          "id": "pgg-king-legacy",
+          "name": "Pro Game Guides",
+          "url": "https://progameguides.com/roblox/king-legacy-trading-value-list-roblox/",
+          "low": 129.0,
+          "high": 215.0,
+          "unit": "Fins",
+          "publishedAt": "2026-11-09",
+          "observedAt": "2026-11-14T18:38:17+09:00"
+        }
+      ]
+    },
+    {
+      "id": "perm-buddha",
+      "name": "Perm Buddha",
+      "category": "영구 열매",
+      "rarity": "Unknown",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "public-range-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "priceQuotes": [
+        {
+          "id": "pgg-king-legacy",
+          "name": "Pro Game Guides",
+          "url": "https://progameguides.com/roblox/king-legacy-trading-value-list-roblox/",
+          "low": 126.0,
+          "high": 210.0,
+          "unit": "Fins",
+          "publishedAt": "2026-11-09",
+          "observedAt": "2026-11-14T18:38:17+09:00"
+        }
+      ]
+    },
+    {
+      "id": "perm-flame",
+      "name": "Perm Flame",
+      "category": "영구 열매",
+      "rarity": "Unknown",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "public-range-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "priceQuotes": [
+        {
+          "id": "pgg-king-legacy",
+          "name": "Pro Game Guides",
+          "url": "https://progameguides.com/roblox/king-legacy-trading-value-list-roblox/",
+          "low": 123.0,
+          "high": 205.0,
+          "unit": "Fins",
+          "publishedAt": "2026-11-09",
+          "observedAt": "2026-11-14T18:38:17+09:00"
+        }
+      ]
+    },
+    {
+      "id": "perm-allo",
+      "name": "Perm Allo",
+      "category": "영구 열매",
+      "rarity": "Unknown",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "public-range-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "priceQuotes": [
+        {
+          "id": "pgg-king-legacy",
+          "name": "Pro Game Guides",
+          "url": "https://progameguides.com/roblox/king-legacy-trading-value-list-roblox/",
+          "low": 120.0,
+          "high": 200.0,
+          "unit": "Fins",
+          "publishedAt": "2026-11-09",
+          "observedAt": "2026-11-14T18:38:17+09:00"
+        }
+      ]
+    },
+    {
+      "id": "perm-magma",
+      "name": "Perm Magma",
+      "category": "영구 열매",
+      "rarity": "Unknown",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "public-range-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "priceQuotes": [
+        {
+          "id": "pgg-king-legacy",
+          "name": "Pro Game Guides",
+          "url": "https://progameguides.com/roblox/king-legacy-trading-value-list-roblox/",
+          "low": 114.0,
+          "high": 190.0,
+          "unit": "Fins",
+          "publishedAt": "2026-11-09",
+          "observedAt": "2026-11-14T18:38:17+09:00"
+        }
+      ]
+    },
+    {
+      "id": "perm-brachio",
+      "name": "Perm Brachio",
+      "category": "영구 열매",
+      "rarity": "Unknown",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "public-range-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "priceQuotes": [
+        {
+          "id": "pgg-king-legacy",
+          "name": "Pro Game Guides",
+          "url": "https://progameguides.com/roblox/king-legacy-trading-value-list-roblox/",
+          "low": 105.0,
+          "high": 175.0,
+          "unit": "Fins",
+          "publishedAt": "2026-11-09",
+          "observedAt": "2026-11-14T18:38:17+09:00"
+        }
+      ]
+    },
+    {
+      "id": "perm-venom",
+      "name": "Perm Venom",
+      "category": "영구 열매",
+      "rarity": "Unknown",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "public-range-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "priceQuotes": [
+        {
+          "id": "pgg-king-legacy",
+          "name": "Pro Game Guides",
+          "url": "https://progameguides.com/roblox/king-legacy-trading-value-list-roblox/",
+          "low": 93.0,
+          "high": 155.0,
+          "unit": "Fins",
+          "publishedAt": "2026-11-09",
+          "observedAt": "2026-11-14T18:38:17+09:00"
+        }
+      ]
+    },
+    {
+      "id": "perm-ice",
+      "name": "Perm Ice",
+      "category": "영구 열매",
+      "rarity": "Unknown",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "public-range-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "priceQuotes": [
+        {
+          "id": "pgg-king-legacy",
+          "name": "Pro Game Guides",
+          "url": "https://progameguides.com/roblox/king-legacy-trading-value-list-roblox/",
+          "low": 75.0,
+          "high": 125.0,
+          "unit": "Fins",
+          "publishedAt": "2026-11-09",
+          "observedAt": "2026-11-14T18:38:17+09:00"
+        }
+      ]
+    },
+    {
+      "id": "perm-dark",
+      "name": "Perm Dark",
+      "category": "영구 열매",
+      "rarity": "Unknown",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "public-range-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "priceQuotes": [
+        {
+          "id": "pgg-king-legacy",
+          "name": "Pro Game Guides",
+          "url": "https://progameguides.com/roblox/king-legacy-trading-value-list-roblox/",
+          "low": 66.0,
+          "high": 110.0,
+          "unit": "Fins",
+          "publishedAt": "2026-11-09",
+          "observedAt": "2026-11-14T18:38:17+09:00"
+        }
+      ]
+    },
+    {
+      "id": "perm-love",
+      "name": "Perm Love",
+      "category": "영구 열매",
+      "rarity": "Unknown",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "public-range-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "priceQuotes": [
+        {
+          "id": "pgg-king-legacy",
+          "name": "Pro Game Guides",
+          "url": "https://progameguides.com/roblox/king-legacy-trading-value-list-roblox/",
+          "low": 66.0,
+          "high": 110.0,
+          "unit": "Fins",
+          "publishedAt": "2026-11-09",
+          "observedAt": "2026-11-14T18:38:17+09:00"
+        }
+      ]
+    },
+    {
+      "id": "perm-rubber",
+      "name": "Perm Rubber",
+      "category": "영구 열매",
+      "rarity": "Unknown",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "public-range-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "priceQuotes": [
+        {
+          "id": "pgg-king-legacy",
+          "name": "Pro Game Guides",
+          "url": "https://progameguides.com/roblox/king-legacy-trading-value-list-roblox/",
+          "low": 27.0,
+          "high": 45.0,
+          "unit": "Fins",
+          "publishedAt": "2026-11-09",
+          "observedAt": "2026-11-14T18:38:17+09:00"
+        }
+      ]
+    },
+    {
+      "id": "perm-paw",
+      "name": "Perm Paw",
+      "category": "영구 열매",
+      "rarity": "Unknown",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "public-range-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "priceQuotes": [
+        {
+          "id": "pgg-king-legacy",
+          "name": "Pro Game Guides",
+          "url": "https://progameguides.com/roblox/king-legacy-trading-value-list-roblox/",
+          "low": 27.0,
+          "high": 45.0,
+          "unit": "Fins",
+          "publishedAt": "2026-11-09",
+          "observedAt": "2026-11-14T18:38:17+09:00"
+        }
+      ]
+    },
+    {
+      "id": "perm-telekinesis",
+      "name": "Perm Telekinesis",
+      "category": "영구 열매",
+      "rarity": "Unknown",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "public-range-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "priceQuotes": [
+        {
+          "id": "pgg-king-legacy",
+          "name": "Pro Game Guides",
+          "url": "https://progameguides.com/roblox/king-legacy-trading-value-list-roblox/",
+          "low": 24.0,
+          "high": 40.0,
+          "unit": "Fins",
+          "publishedAt": "2026-11-09",
+          "observedAt": "2026-11-14T18:38:17+09:00"
+        }
+      ]
+    },
+    {
+      "id": "perm-bomb",
+      "name": "Perm Bomb",
+      "category": "영구 열매",
+      "rarity": "Unknown",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "public-range-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "단일 출처 참고 범위 · 확정 가격이 아니며 합산 보류",
+      "priceQuotes": [
+        {
+          "id": "pgg-king-legacy",
+          "name": "Pro Game Guides",
+          "url": "https://progameguides.com/roblox/king-legacy-trading-value-list-roblox/",
+          "low": 7.5,
+          "high": 12.5,
+          "unit": "Fins",
+          "publishedAt": "2026-11-09",
+          "observedAt": "2026-11-14T18:38:17+09:00"
+        }
+      ]
+    }
+  ]
+}

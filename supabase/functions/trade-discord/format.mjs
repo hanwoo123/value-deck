@@ -1,5 +1,5 @@
 import catalog from './catalog.json' with {type:'json'};
-const names={'blox-fruits':'블록스 프루츠','cameraman-td':'카메라맨 타워 디펜스'};
+const names={'blox-fruits':'블록스 프루츠','cameraman-td':'카메라맨 타워 디펜스','king-legacy':'킹피스 (King Legacy)'};
 const escape=s=>String(s).replace(/[\\`*_{}\[\]()<>|~]/g,'\\$&');
 export function formatTrade(post){
   if(!names[post.game_id]||!Number.isSafeInteger(Number(post.id))||Number(post.id)<1||!/^[A-Za-z0-9_]{3,20}$/.test(post.roblox_username))throw new Error('invalid_trade');
@@ -9,7 +9,7 @@ export function formatTrade(post){
     return list.map(x=>{if(!game[x.id]||!Number.isInteger(x.qty)||x.qty<1||x.qty>99)throw new Error('invalid_item');return `${escape(game[x.id].name)} × ${x.qty}`;}).join('\n');
   }
   const url=`https://bloxdecks.com/#/trades/${post.game_id}`;
-  const embed={title:`새 거래글 #${post.id} · ${names[post.game_id]}`,url,color:post.game_id==='blox-fruits'?0x3da5ff:0xff4d6d,
+  const embed={title:`새 거래글 #${post.id} · ${names[post.game_id]}`,url,color:post.game_id==='blox-fruits'?0x3da5ff:post.game_id==='king-legacy'?0xf5be55:0xff4d6d,
     description:`작성자 **@${escape(post.roblox_username)}**`,fields:[{name:'주는 아이템',value:slots(post.give_items),inline:true},{name:'받고 싶은 아이템',value:slots(post.want_items),inline:true}],
     footer:{text:'닉네임은 사용자가 직접 입력합니다. 실제 교환은 게임 안에서 진행하세요.'}};
   if(typeof post.note==='string'&&post.note.trim())embed.fields.push({name:'메모',value:escape(post.note.slice(0,200)),inline:false});
