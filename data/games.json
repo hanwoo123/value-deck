@@ -27,8 +27,7 @@
       "dataFile": "data/king-legacy.json",
       "cover": "images/king-legacy/cover.svg",
       "accent": "#f5be55",
-      "description": "현재 목록 참고값 · 단위 구분 · 미확인 합산 보류",
-      "tradeRegistration": "pending"
+      "description": "현재 목록 참고값 · 단위 구분 · 미확인 합산 보류"
     },
     {
       "id": "sample-pirate",
