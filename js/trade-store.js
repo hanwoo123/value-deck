@@ -52,11 +52,11 @@ window.ValueDeckTradeStore = (() => {
       if(before)q=q.lt('id',before);
       return await q;
     }
-    if(supportsGames===false&&gameId!=='blox-fruits')throw new Error('카메라맨 TD 거래 연결을 준비 중입니다. 잠시 후 새로고침해 주세요.');
+    if(supportsGames===false&&gameId!=='blox-fruits')throw new Error('이 게임의 거래 연결을 준비 중입니다. 잠시 후 새로고침해 주세요.');
     let result=await query(supportsGames!==false);
     if(missingGame(result.error)){
       supportsGames=false;
-      if(gameId!=='blox-fruits')throw new Error('카메라맨 TD 거래 연결을 준비 중입니다. 잠시 후 새로고침해 주세요.');
+      if(gameId!=='blox-fruits')throw new Error('이 게임의 거래 연결을 준비 중입니다. 잠시 후 새로고침해 주세요.');
       result=await query(false);
     }else if(!result.error&&supportsGames!==false)supportsGames=true;
     if(result.error)throw failure(result.error);
@@ -66,7 +66,7 @@ window.ValueDeckTradeStore = (() => {
   async function create(input) {
     await identity();const gameId=input.gameId||'blox-fruits';
     const body={roblox_username:input.username,give_items:input.give,want_items:input.want,note:input.note};
-    if(supportsGames===false&&gameId!=='blox-fruits')throw new Error('카메라맨 TD 거래 연결을 준비 중입니다. 잠시 후 새로고침해 주세요.');
+    if(supportsGames===false&&gameId!=='blox-fruits')throw new Error('이 게임의 거래 연결을 준비 중입니다. 잠시 후 새로고침해 주세요.');
     let result=await getClient().from('trade_posts').insert(supportsGames===false?body:{...body,game_id:gameId});
     if(missingGame(result.error)&&gameId==='blox-fruits'){supportsGames=false;result=await getClient().from('trade_posts').insert(body);}
     if(result.error)throw failure(result.error);

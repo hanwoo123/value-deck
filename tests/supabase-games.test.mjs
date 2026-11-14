@@ -29,5 +29,30 @@ for(const id of ['hacked-cameraman','pharaoh-cameraman','upgraded-titan-tv-man']
  assert.equal((await db.query('select public.valid_game_trade_slots($1,$2::jsonb) as valid',['cameraman-td',JSON.stringify([{id,qty:1}])])).rows[0].valid,true);
  assert.equal((await db.query('select public.valid_game_trade_slots($1,$2::jsonb) as valid',['blox-fruits',JSON.stringify([{id,qty:1}])])).rows[0].valid,false);
 }
+await db.exec('reset role');
+await db.exec(sql('202611140001_king_legacy.sql'));
+await db.exec(sql('202611140001_king_legacy.sql'));
+const king=JSON.parse(readFileSync(new URL('../data/king-legacy.json',import.meta.url),'utf8'));
+assert.equal(new Set(king.items.map(i=>i.id)).size,king.items.length);
+assert.equal((await db.query("select count(*) as n from public.trade_game_items where game_id='king-legacy'")).rows[0].n,king.items.length);
+const kingAuthor='44444444-1111-4111-8111-111111111111';
+await db.query('insert into auth.users values($1)',[kingAuthor]);
+await role(kingAuthor);
+for(const item of king.items){
+ assert.equal((await db.query('select public.valid_game_trade_slots($1,$2::jsonb) as valid',['king-legacy',JSON.stringify([{id:item.id,qty:1}])])).rows[0].valid,true);
+ assert.equal(item.value,null);
+ assert(item.priceQuotes[0].low<=item.priceQuotes[0].high);
+ assert.equal(item.priceQuotes[0].unit,'Fins');
+}
+await deny(insert,['king-legacy',ctd,ctd]);
+const kingPost=(await db.query(insert,['king-legacy','[{"id":"dragon-fruit","qty":1}]','[{"id":"perm-dragon","qty":1}]'])).rows[0];
+assert.equal(kingPost.game_id,'king-legacy');
+await deny("update public.trade_posts set game_id='blox-fruits' where id=$1",[kingPost.id]);
+await role(b);
+const kingRoom=(await db.query('select public.start_trade_chat($1,$2) as id',[kingPost.id,'Buyer'])).rows[0].id;
+assert.equal((await db.query('select game_id from public.trade_conversations where id=$1',[kingRoom])).rows[0].game_id,'king-legacy');
+await db.exec('reset role');
+assert.equal((await db.query('select count(*) as n from public.trade_messages')).rows[0].n,1);
+console.log('PASS King Legacy catalog, range integrity, migration repeatability, cross-game rejection and chat');
 console.log('PASS new CTD allowlist, repeatability and post/message preservation');
 console.log('PASS both game catalogs, cross-game rejection, immutable game/author, legacy posts/chats preserved, game-aware conversations, migration repeatability');await db.close();

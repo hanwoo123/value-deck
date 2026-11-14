@@ -132,7 +132,7 @@
       if (route.view === 'trades') {
         document.title = '거래 게시판 — VALUE DECK';
         const tradeHash=location.hash;
-        const games=state.games.filter(g=>['blox-fruits','cameraman-td'].includes(g.id));
+        const games=state.games.filter(g=>['blox-fruits','cameraman-td','king-legacy'].includes(g.id));
         const catalogs=Object.fromEntries(await Promise.all(games.map(async g=>[g.id,{...await loadGame(g.id),name:g.name}])));
         if(tradeHash!==location.hash)return;
         return window.ValueDeckTrades.render(main,catalogs,route.gameId);
@@ -152,6 +152,11 @@
   }
 
   async function renderPriceCheck(node,gameId=null) {
+    if(gameId==='king-legacy'){
+      const data=await loadGame(gameId);
+      if(node?.isConnected)node.textContent=`공개 참고 범위 · 수동 확인 ${data.updated} · 원문 수정 2026-11-09 · 단일 출처 · 합산 보류`;
+      return;
+    }
     try {
       const report=await getJSON('data/value-update-status.json');
       if(['paused','provisional'].includes(report.state)){if(node?.isConnected)node.textContent=report.state==='paused'?'자동 갱신 중단 · 기존 기준값을 사용합니다.':'임시 기준값 · 실제 거래가격이 아닙니다.';return;}
