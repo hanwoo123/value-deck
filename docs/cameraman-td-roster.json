@@ -1,0 +1,299 @@
+{
+  "checkedAt": "2026-11-14T19:32:42+09:00",
+  "previousUnitCount": 28,
+  "addedUnitCount": 24,
+  "currentUnitCount": 52,
+  "currentItemCount": 61,
+  "sources": [
+    {
+      "id": "game-guide-ctd",
+      "name": "Game.Guide unit rarity catalog",
+      "url": "https://www.game.guide/cameraman-tower-defense/units",
+      "note": "공개 명단·희귀도 필드만 확인. 가격·DPS·존재 수·설명은 복제하지 않음."
+    },
+    {
+      "id": "bloxron-ctd",
+      "name": "Bloxron unit rarity catalog",
+      "url": "https://bloxron.com/cameraman-tower-defense/units",
+      "publishedAt": "2026-11-12"
+    },
+    {
+      "id": "eggvalues-ctd",
+      "name": "EggValues unit index",
+      "url": "https://www.eggvalues.com/cameraman-tower-defense/units/",
+      "publishedAt": "2026-11-13",
+      "note": "일부 가격은 추정값, Clown/Werewolf 등급도 다른 목록과 달라 이 출처의 가격과 해당 등급은 채택하지 않음."
+    }
+  ],
+  "added": [
+    {
+      "id": "reinforced-titan-cameraman",
+      "name": "Reinforced Titan Cameraman",
+      "rarity": "Exclusive",
+      "rosterSourceIds": [
+        "game-guide-ctd",
+        "bloxron-ctd"
+      ]
+    },
+    {
+      "id": "large-laser-cameraman",
+      "name": "Large Laser Cameraman",
+      "rarity": "Mythic",
+      "rosterSourceIds": [
+        "game-guide-ctd",
+        "bloxron-ctd"
+      ]
+    },
+    {
+      "id": "reinforced-titan-speakerman",
+      "name": "Reinforced Titan Speakerman",
+      "rarity": "Exclusive",
+      "rosterSourceIds": [
+        "game-guide-ctd",
+        "bloxron-ctd"
+      ]
+    },
+    {
+      "id": "prototype-duo",
+      "name": "Prototype Duo",
+      "rarity": "Exclusive",
+      "rosterSourceIds": [
+        "game-guide-ctd",
+        "bloxron-ctd"
+      ]
+    },
+    {
+      "id": "camera-attack-helicopter",
+      "name": "Camera Attack Helicopter",
+      "rarity": "Mythic",
+      "rosterSourceIds": [
+        "game-guide-ctd",
+        "bloxron-ctd"
+      ]
+    },
+    {
+      "id": "mummy-cameraman",
+      "name": "Mummy Cameraman",
+      "rarity": "Legendary",
+      "rosterSourceIds": [
+        "game-guide-ctd",
+        "bloxron-ctd"
+      ]
+    },
+    {
+      "id": "speaker-helicopter",
+      "name": "Speaker Helicopter",
+      "rarity": "Legendary",
+      "rosterSourceIds": [
+        "game-guide-ctd",
+        "bloxron-ctd"
+      ]
+    },
+    {
+      "id": "vampire-camera-man",
+      "name": "Vampire Camera Man",
+      "rarity": "Exclusive",
+      "rosterSourceIds": [
+        "game-guide-ctd",
+        "bloxron-ctd"
+      ]
+    },
+    {
+      "id": "werewolf-speakerman",
+      "name": "Werewolf Speakerman",
+      "rarity": "Rare",
+      "rosterSourceIds": [
+        "game-guide-ctd",
+        "bloxron-ctd"
+      ]
+    },
+    {
+      "id": "dark-speakerman",
+      "name": "Dark Speakerman",
+      "rarity": "Legendary",
+      "rosterSourceIds": [
+        "game-guide-ctd",
+        "bloxron-ctd"
+      ]
+    },
+    {
+      "id": "rocket-cameraman",
+      "name": "Rocket Cameraman",
+      "rarity": "Epic",
+      "rosterSourceIds": [
+        "game-guide-ctd",
+        "bloxron-ctd"
+      ]
+    },
+    {
+      "id": "clown-speakerman",
+      "name": "Clown Speakerman",
+      "rarity": "Uncommon",
+      "rosterSourceIds": [
+        "game-guide-ctd",
+        "bloxron-ctd"
+      ]
+    },
+    {
+      "id": "large-tv-man",
+      "name": "Large TV Man",
+      "rarity": "Epic",
+      "rosterSourceIds": [
+        "game-guide-ctd",
+        "bloxron-ctd"
+      ]
+    },
+    {
+      "id": "speaker-spider",
+      "name": "Speaker Spider",
+      "rarity": "Exclusive",
+      "rosterSourceIds": [
+        "game-guide-ctd",
+        "bloxron-ctd"
+      ]
+    },
+    {
+      "id": "large-cameraman",
+      "name": "Large Cameraman",
+      "rarity": "Epic",
+      "rosterSourceIds": [
+        "game-guide-ctd",
+        "bloxron-ctd"
+      ]
+    },
+    {
+      "id": "dark-camerawoman",
+      "name": "Dark Camerawoman",
+      "rarity": "Epic",
+      "rosterSourceIds": [
+        "game-guide-ctd",
+        "bloxron-ctd"
+      ]
+    },
+    {
+      "id": "large-speakerman",
+      "name": "Large Speakerman",
+      "rarity": "Epic",
+      "rosterSourceIds": [
+        "game-guide-ctd",
+        "bloxron-ctd"
+      ]
+    },
+    {
+      "id": "tv-man",
+      "name": "TV Man",
+      "rarity": "Rare",
+      "rosterSourceIds": [
+        "game-guide-ctd",
+        "bloxron-ctd"
+      ]
+    },
+    {
+      "id": "brown-cameraman",
+      "name": "Brown Cameraman",
+      "rarity": "Uncommon",
+      "rosterSourceIds": [
+        "game-guide-ctd",
+        "bloxron-ctd"
+      ]
+    },
+    {
+      "id": "car-speakerman",
+      "name": "Car Speakerman",
+      "rarity": "Uncommon",
+      "rosterSourceIds": [
+        "game-guide-ctd",
+        "bloxron-ctd"
+      ]
+    },
+    {
+      "id": "cameraman",
+      "name": "Cameraman",
+      "rarity": "Basic",
+      "rosterSourceIds": [
+        "game-guide-ctd",
+        "bloxron-ctd"
+      ]
+    },
+    {
+      "id": "speakerman",
+      "name": "Speakerman",
+      "rarity": "Basic",
+      "rosterSourceIds": [
+        "game-guide-ctd",
+        "bloxron-ctd"
+      ]
+    },
+    {
+      "id": "camera-helicopter",
+      "name": "Camera Helicopter",
+      "rarity": "Epic",
+      "rosterSourceIds": [
+        "game-guide-ctd",
+        "bloxron-ctd"
+      ]
+    },
+    {
+      "id": "popcorn-cameraman",
+      "name": "Popcorn Cameraman",
+      "rarity": "Rare",
+      "rosterSourceIds": [
+        "bloxron-ctd",
+        "eggvalues-ctd"
+      ]
+    }
+  ],
+  "rarityCorrections": [
+    {
+      "id": "headless-tv-man",
+      "before": "Exclusive",
+      "after": "Mythic",
+      "sourceIds": [
+        "game-guide-ctd",
+        "bloxron-ctd"
+      ]
+    },
+    {
+      "id": "speakerwoman",
+      "before": "Epic",
+      "after": "Legendary",
+      "sourceIds": [
+        "game-guide-ctd",
+        "bloxron-ctd"
+      ]
+    },
+    {
+      "id": "pharaoh-cameraman",
+      "before": "Unknown",
+      "after": "Mythic",
+      "sourceIds": [
+        "game-guide-ctd",
+        "bloxron-ctd"
+      ]
+    }
+  ],
+  "deferredNameMatches": [
+    {
+      "existingId": "large-prototype-titan",
+      "candidateName": "Upgraded Brute Prototype",
+      "reason": "기존 VVX 이름과 다른 목록의 이름이 동일 유닛인지 확정할 수 없어 기존 항목을 유지하고 중복 가능 항목을 추가하지 않음."
+    },
+    {
+      "existingId": "videotaper-titan",
+      "candidateName": "Upgraded Videotapper Prototype",
+      "reason": "기존 VVX 이름과 다른 목록의 이름이 동일 유닛인지 확정할 수 없어 기존 항목을 유지하고 중복 가능 항목을 추가하지 않음."
+    },
+    {
+      "existingId": "glitch-plungerman",
+      "candidateName": "Glitch Cameraman",
+      "reason": "기존 VVX 이름과 다른 목록의 이름이 동일 유닛인지 확정할 수 없어 기존 항목을 유지하고 중복 가능 항목을 추가하지 않음."
+    }
+  ],
+  "limitations": [
+    "공식 전체 명단이 아닌 공개 커뮤니티 목록을 대조한 결과. 별칭 후보 3개는 미확정이므로 게임 내 전체 개수를 보장하지 않음.",
+    "신규 24개 시세는 null. 외부의 등급별 임시 점수·추정 시세·다른 단위 숫자를 가져오지 않음. 기존 37개 가격·관측일 유지.",
+    "이미지 원문/CDN 요청이 HTTP 403을 반환하여 신규 이미지는 추가하지 않음. 기존 이름 대체 표시 사용.",
+    "기존 6시간 갱신기가 동일 이름으로 VVX 공개 숫자를 확인하는 경우 기존 로직으로 가격 반영.",
+    "신규 거래 아이템 ID는 별도 SQL 적용 전 운영 DB에서 허용되지 않음."
+  ]
+}

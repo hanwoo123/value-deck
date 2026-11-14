@@ -8,7 +8,9 @@
     "Mythic",
     "Legendary",
     "Epic",
-    "Unknown"
+    "Rare",
+    "Uncommon",
+    "Basic"
   ],
   "categories": [
     "유닛",
@@ -210,7 +212,7 @@
       "id": "headless-tv-man",
       "name": "headless tv man",
       "category": "유닛",
-      "rarity": "Exclusive",
+      "rarity": "Mythic",
       "value": 400,
       "trend": "stable",
       "image": "images/cameraman-td/headless-tv-man.webp",
@@ -226,6 +228,11 @@
           "publishedAt": null,
           "observedAt": "2026-11-14T15:46:32+09:00"
         }
+      ],
+      "rosterObservedAt": "2026-11-14T19:32:42+09:00",
+      "rosterSourceIds": [
+        "game-guide-ctd",
+        "bloxron-ctd"
       ]
     },
     {
@@ -628,7 +635,7 @@
       "id": "speakerwoman",
       "name": "SpeakerWoman",
       "category": "유닛",
-      "rarity": "Epic",
+      "rarity": "Legendary",
       "value": 3,
       "trend": "stable",
       "image": "images/cameraman-td/speakerwoman.webp",
@@ -644,6 +651,11 @@
           "publishedAt": null,
           "observedAt": "2026-11-14T15:46:32+09:00"
         }
+      ],
+      "rosterObservedAt": "2026-11-14T19:32:42+09:00",
+      "rosterSourceIds": [
+        "game-guide-ctd",
+        "bloxron-ctd"
       ]
     },
     {
@@ -783,7 +795,7 @@
       "id": "pharaoh-cameraman",
       "name": "Pharaoh Cameraman",
       "category": "유닛",
-      "rarity": "Unknown",
+      "rarity": "Mythic",
       "value": 23000,
       "valueStatus": "single",
       "trend": "stable",
@@ -800,6 +812,11 @@
           "publishedAt": null,
           "observedAt": "2026-11-14T15:46:32+09:00"
         }
+      ],
+      "rosterObservedAt": "2026-11-14T19:32:42+09:00",
+      "rosterSourceIds": [
+        "game-guide-ctd",
+        "bloxron-ctd"
       ]
     },
     {
@@ -824,7 +841,446 @@
           "observedAt": "2026-11-14T15:46:32+09:00"
         }
       ]
+    },
+    {
+      "id": "reinforced-titan-cameraman",
+      "name": "Reinforced Titan Cameraman",
+      "category": "유닛",
+      "rarity": "Exclusive",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "vvx-public-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "캐릭터 등록 · 숫자로 확인된 기준값이 없어 합산 보류",
+      "priceQuotes": [],
+      "rosterObservedAt": "2026-11-14T19:32:42+09:00",
+      "rosterSourceIds": [
+        "game-guide-ctd",
+        "bloxron-ctd"
+      ]
+    },
+    {
+      "id": "large-laser-cameraman",
+      "name": "Large Laser Cameraman",
+      "category": "유닛",
+      "rarity": "Mythic",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "vvx-public-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "캐릭터 등록 · 숫자로 확인된 기준값이 없어 합산 보류",
+      "priceQuotes": [],
+      "rosterObservedAt": "2026-11-14T19:32:42+09:00",
+      "rosterSourceIds": [
+        "game-guide-ctd",
+        "bloxron-ctd"
+      ]
+    },
+    {
+      "id": "reinforced-titan-speakerman",
+      "name": "Reinforced Titan Speakerman",
+      "category": "유닛",
+      "rarity": "Exclusive",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "vvx-public-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "캐릭터 등록 · 숫자로 확인된 기준값이 없어 합산 보류",
+      "priceQuotes": [],
+      "rosterObservedAt": "2026-11-14T19:32:42+09:00",
+      "rosterSourceIds": [
+        "game-guide-ctd",
+        "bloxron-ctd"
+      ]
+    },
+    {
+      "id": "prototype-duo",
+      "name": "Prototype Duo",
+      "category": "유닛",
+      "rarity": "Exclusive",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "vvx-public-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "캐릭터 등록 · 숫자로 확인된 기준값이 없어 합산 보류",
+      "priceQuotes": [],
+      "rosterObservedAt": "2026-11-14T19:32:42+09:00",
+      "rosterSourceIds": [
+        "game-guide-ctd",
+        "bloxron-ctd"
+      ],
+      "aliases": [
+        "Prototypes Duo"
+      ]
+    },
+    {
+      "id": "camera-attack-helicopter",
+      "name": "Camera Attack Helicopter",
+      "category": "유닛",
+      "rarity": "Mythic",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "vvx-public-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "캐릭터 등록 · 숫자로 확인된 기준값이 없어 합산 보류",
+      "priceQuotes": [],
+      "rosterObservedAt": "2026-11-14T19:32:42+09:00",
+      "rosterSourceIds": [
+        "game-guide-ctd",
+        "bloxron-ctd"
+      ]
+    },
+    {
+      "id": "mummy-cameraman",
+      "name": "Mummy Cameraman",
+      "category": "유닛",
+      "rarity": "Legendary",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "vvx-public-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "캐릭터 등록 · 숫자로 확인된 기준값이 없어 합산 보류",
+      "priceQuotes": [],
+      "rosterObservedAt": "2026-11-14T19:32:42+09:00",
+      "rosterSourceIds": [
+        "game-guide-ctd",
+        "bloxron-ctd"
+      ]
+    },
+    {
+      "id": "speaker-helicopter",
+      "name": "Speaker Helicopter",
+      "category": "유닛",
+      "rarity": "Legendary",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "vvx-public-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "캐릭터 등록 · 숫자로 확인된 기준값이 없어 합산 보류",
+      "priceQuotes": [],
+      "rosterObservedAt": "2026-11-14T19:32:42+09:00",
+      "rosterSourceIds": [
+        "game-guide-ctd",
+        "bloxron-ctd"
+      ]
+    },
+    {
+      "id": "vampire-camera-man",
+      "name": "Vampire Camera Man",
+      "category": "유닛",
+      "rarity": "Exclusive",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "vvx-public-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "캐릭터 등록 · 숫자로 확인된 기준값이 없어 합산 보류",
+      "priceQuotes": [],
+      "rosterObservedAt": "2026-11-14T19:32:42+09:00",
+      "rosterSourceIds": [
+        "game-guide-ctd",
+        "bloxron-ctd"
+      ],
+      "aliases": [
+        "Vampire Cameraman"
+      ]
+    },
+    {
+      "id": "werewolf-speakerman",
+      "name": "Werewolf Speakerman",
+      "category": "유닛",
+      "rarity": "Rare",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "vvx-public-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "캐릭터 등록 · 숫자로 확인된 기준값이 없어 합산 보류",
+      "priceQuotes": [],
+      "rosterObservedAt": "2026-11-14T19:32:42+09:00",
+      "rosterSourceIds": [
+        "game-guide-ctd",
+        "bloxron-ctd"
+      ]
+    },
+    {
+      "id": "dark-speakerman",
+      "name": "Dark Speakerman",
+      "category": "유닛",
+      "rarity": "Legendary",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "vvx-public-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "캐릭터 등록 · 숫자로 확인된 기준값이 없어 합산 보류",
+      "priceQuotes": [],
+      "rosterObservedAt": "2026-11-14T19:32:42+09:00",
+      "rosterSourceIds": [
+        "game-guide-ctd",
+        "bloxron-ctd"
+      ]
+    },
+    {
+      "id": "rocket-cameraman",
+      "name": "Rocket Cameraman",
+      "category": "유닛",
+      "rarity": "Epic",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "vvx-public-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "캐릭터 등록 · 숫자로 확인된 기준값이 없어 합산 보류",
+      "priceQuotes": [],
+      "rosterObservedAt": "2026-11-14T19:32:42+09:00",
+      "rosterSourceIds": [
+        "game-guide-ctd",
+        "bloxron-ctd"
+      ]
+    },
+    {
+      "id": "clown-speakerman",
+      "name": "Clown Speakerman",
+      "category": "유닛",
+      "rarity": "Uncommon",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "vvx-public-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "캐릭터 등록 · 숫자로 확인된 기준값이 없어 합산 보류",
+      "priceQuotes": [],
+      "rosterObservedAt": "2026-11-14T19:32:42+09:00",
+      "rosterSourceIds": [
+        "game-guide-ctd",
+        "bloxron-ctd"
+      ]
+    },
+    {
+      "id": "large-tv-man",
+      "name": "Large TV Man",
+      "category": "유닛",
+      "rarity": "Epic",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "vvx-public-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "캐릭터 등록 · 숫자로 확인된 기준값이 없어 합산 보류",
+      "priceQuotes": [],
+      "rosterObservedAt": "2026-11-14T19:32:42+09:00",
+      "rosterSourceIds": [
+        "game-guide-ctd",
+        "bloxron-ctd"
+      ]
+    },
+    {
+      "id": "speaker-spider",
+      "name": "Speaker Spider",
+      "category": "유닛",
+      "rarity": "Exclusive",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "vvx-public-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "캐릭터 등록 · 숫자로 확인된 기준값이 없어 합산 보류",
+      "priceQuotes": [],
+      "rosterObservedAt": "2026-11-14T19:32:42+09:00",
+      "rosterSourceIds": [
+        "game-guide-ctd",
+        "bloxron-ctd"
+      ]
+    },
+    {
+      "id": "large-cameraman",
+      "name": "Large Cameraman",
+      "category": "유닛",
+      "rarity": "Epic",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "vvx-public-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "캐릭터 등록 · 숫자로 확인된 기준값이 없어 합산 보류",
+      "priceQuotes": [],
+      "rosterObservedAt": "2026-11-14T19:32:42+09:00",
+      "rosterSourceIds": [
+        "game-guide-ctd",
+        "bloxron-ctd"
+      ]
+    },
+    {
+      "id": "dark-camerawoman",
+      "name": "Dark Camerawoman",
+      "category": "유닛",
+      "rarity": "Epic",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "vvx-public-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "캐릭터 등록 · 숫자로 확인된 기준값이 없어 합산 보류",
+      "priceQuotes": [],
+      "rosterObservedAt": "2026-11-14T19:32:42+09:00",
+      "rosterSourceIds": [
+        "game-guide-ctd",
+        "bloxron-ctd"
+      ]
+    },
+    {
+      "id": "large-speakerman",
+      "name": "Large Speakerman",
+      "category": "유닛",
+      "rarity": "Epic",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "vvx-public-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "캐릭터 등록 · 숫자로 확인된 기준값이 없어 합산 보류",
+      "priceQuotes": [],
+      "rosterObservedAt": "2026-11-14T19:32:42+09:00",
+      "rosterSourceIds": [
+        "game-guide-ctd",
+        "bloxron-ctd"
+      ]
+    },
+    {
+      "id": "tv-man",
+      "name": "TV Man",
+      "category": "유닛",
+      "rarity": "Rare",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "vvx-public-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "캐릭터 등록 · 숫자로 확인된 기준값이 없어 합산 보류",
+      "priceQuotes": [],
+      "rosterObservedAt": "2026-11-14T19:32:42+09:00",
+      "rosterSourceIds": [
+        "game-guide-ctd",
+        "bloxron-ctd"
+      ]
+    },
+    {
+      "id": "brown-cameraman",
+      "name": "Brown Cameraman",
+      "category": "유닛",
+      "rarity": "Uncommon",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "vvx-public-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "캐릭터 등록 · 숫자로 확인된 기준값이 없어 합산 보류",
+      "priceQuotes": [],
+      "rosterObservedAt": "2026-11-14T19:32:42+09:00",
+      "rosterSourceIds": [
+        "game-guide-ctd",
+        "bloxron-ctd"
+      ]
+    },
+    {
+      "id": "car-speakerman",
+      "name": "Car Speakerman",
+      "category": "유닛",
+      "rarity": "Uncommon",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "vvx-public-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "캐릭터 등록 · 숫자로 확인된 기준값이 없어 합산 보류",
+      "priceQuotes": [],
+      "rosterObservedAt": "2026-11-14T19:32:42+09:00",
+      "rosterSourceIds": [
+        "game-guide-ctd",
+        "bloxron-ctd"
+      ]
+    },
+    {
+      "id": "cameraman",
+      "name": "Cameraman",
+      "category": "유닛",
+      "rarity": "Basic",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "vvx-public-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "캐릭터 등록 · 숫자로 확인된 기준값이 없어 합산 보류",
+      "priceQuotes": [],
+      "rosterObservedAt": "2026-11-14T19:32:42+09:00",
+      "rosterSourceIds": [
+        "game-guide-ctd",
+        "bloxron-ctd"
+      ]
+    },
+    {
+      "id": "speakerman",
+      "name": "Speakerman",
+      "category": "유닛",
+      "rarity": "Basic",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "vvx-public-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "캐릭터 등록 · 숫자로 확인된 기준값이 없어 합산 보류",
+      "priceQuotes": [],
+      "rosterObservedAt": "2026-11-14T19:32:42+09:00",
+      "rosterSourceIds": [
+        "game-guide-ctd",
+        "bloxron-ctd"
+      ]
+    },
+    {
+      "id": "camera-helicopter",
+      "name": "Camera Helicopter",
+      "category": "유닛",
+      "rarity": "Epic",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "vvx-public-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "캐릭터 등록 · 숫자로 확인된 기준값이 없어 합산 보류",
+      "priceQuotes": [],
+      "rosterObservedAt": "2026-11-14T19:32:42+09:00",
+      "rosterSourceIds": [
+        "game-guide-ctd",
+        "bloxron-ctd"
+      ]
+    },
+    {
+      "id": "popcorn-cameraman",
+      "name": "Popcorn Cameraman",
+      "category": "유닛",
+      "rarity": "Rare",
+      "value": null,
+      "valueStatus": "insufficient",
+      "valueBasis": "vvx-public-reference-v1",
+      "trend": "stable",
+      "image": "",
+      "note": "캐릭터 등록 · 숫자로 확인된 기준값이 없어 합산 보류",
+      "priceQuotes": [],
+      "rosterObservedAt": "2026-11-14T19:32:42+09:00",
+      "rosterSourceIds": [
+        "bloxron-ctd",
+        "eggvalues-ctd"
+      ]
     }
   ],
-  "pricingMode": "comparison"
+  "pricingMode": "comparison",
+  "rosterUpdatedAt": "2026-11-14T19:32:42+09:00"
 }
