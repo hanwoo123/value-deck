@@ -21,7 +21,7 @@
   };
 
   const RARITY_ORDER_DEFAULT = ['Mythic', 'Legendary', 'Epic', 'Rare', 'Common'];
-  const RARITY_KO = { NotApplicable: '패스·묶음', Limited: '한정', Exclusive: '한정', Godly: '갓', Mythic: '신화', Legendary: '전설', Epic: '영웅', Rare: '희귀', Uncommon: '고급', Common: '일반' };
+  const RARITY_KO = { Basic: '기본', NotApplicable: '패스·묶음', Limited: '한정', Exclusive: '한정', Godly: '갓', Mythic: '신화', Legendary: '전설', Epic: '영웅', Rare: '희귀', Uncommon: '고급', Common: '일반' };
   const FAIR_RANGE = 0.05; // ±5% 이내면 "비슷함"
 
   // ---------- utils ----------
@@ -289,7 +289,7 @@
       const q = f.q.trim().toLowerCase();
       const rIdx = (r) => { const i = data.rarities.indexOf(r); return i < 0 ? 99 : i; };
       let list = data.items.filter((i) =>
-        (!q || i.name.toLowerCase().includes(q)) &&
+        (!q || [i.name, ...(i.aliases || [])].some(name => name.toLowerCase().includes(q))) &&
         (f.rarity === 'all' || i.rarity === f.rarity) &&
         (f.category === 'all' || i.category === f.category));
       const sorters = {

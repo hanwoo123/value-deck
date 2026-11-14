@@ -136,7 +136,7 @@ p { margin: 0; }
 [data-rarity="Epic"] { --rc: var(--r-epic); }
 [data-rarity="Rare"] { --rc: var(--r-rare); }
 [data-rarity="Uncommon"] { --rc: var(--r-uncommon); }
-[data-rarity="Common"] { --rc: var(--r-common); }
+[data-rarity="Common"], [data-rarity="Basic"] { --rc: var(--r-common); }
 
 /* item grid */
 .items { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: var(--space-3); }

@@ -141,3 +141,11 @@
 Update 11의 Dragon·Erebus는 Mythic(원문 Mythical), Pter도 Mythic으로 분류합니다. True Muramasa는 별도 항목의 Legendary 명시 문장을 확인했고, Dreadbroom과 이벤트 장비는 Limited 표기를 적용했습니다. 기존 시세표의 Perm Paw 이름은 유지하되 Paw→Palm 및 Rare 변경 기록을 근거로 해당 열매 기준 Rare로 분류합니다.
 
 전체 항목별 판정·별칭·원본 링크·검토 시각은 `docs/king-legacy-rarities.json`에 있습니다. 시세·이미지·가격 관측일은 변경하지 않습니다.
+
+### 카타디 누락 캐릭터 추가 — 2026-11-14
+
+캐릭터 28개에서 52개로 확장했습니다(패스 5개·상자 4개 포함 전체 61개). 기본 Cameraman/Speakerman, TV Man, 대형 유닛, Speaker Spider, 할로윈·신규 팩 유닛 등 24개를 공개 명단과 희귀도 필드로 대조해 추가했습니다. Headless TV Man·Speakerwoman·Pharaoh Cameraman의 희귀도도 두 목록에 맞춰 수정했습니다. 원본 목록과 별칭·보류한 이름 매칭은 `docs/cameraman-td-roster.json`에 기록했습니다.
+
+새 유닛 24개는 `value: null`로 시작하며 가격이 확인될 때까지 합산하지 않습니다. 외부 사이트의 등급별 추정 숫자를 시세로 가져오지 않았고 기존 가격·관측일도 유지합니다. 신규 이미지 원문/CDN 요청이 403이어서 이미지 경로는 비워 두었습니다. 기존 이름 표시로 동작합니다.
+
+신규 유닛을 운영 거래 게시판에 등록하려면 `supabase/migrations/202611140002_ctd_roster.sql`을 적용해야 합니다. 기존 글·채팅을 보존하며 재실행 가능합니다. 알림용 카탈로그와 Edge Function 배포용 번들도 갱신했습니다. 운영 DB·Edge Function에는 이 파일 변경만으로 자동 적용되지 않습니다.

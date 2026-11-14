@@ -689,6 +689,102 @@
     "upgraded-titan-tv-man": {
       "name": "Upgraded Titan TV Man",
       "image": "images/cameraman-td/upgraded-titan-tv-man.webp"
+    },
+    "reinforced-titan-cameraman": {
+      "name": "Reinforced Titan Cameraman",
+      "image": ""
+    },
+    "large-laser-cameraman": {
+      "name": "Large Laser Cameraman",
+      "image": ""
+    },
+    "reinforced-titan-speakerman": {
+      "name": "Reinforced Titan Speakerman",
+      "image": ""
+    },
+    "prototype-duo": {
+      "name": "Prototype Duo",
+      "image": ""
+    },
+    "camera-attack-helicopter": {
+      "name": "Camera Attack Helicopter",
+      "image": ""
+    },
+    "mummy-cameraman": {
+      "name": "Mummy Cameraman",
+      "image": ""
+    },
+    "speaker-helicopter": {
+      "name": "Speaker Helicopter",
+      "image": ""
+    },
+    "vampire-camera-man": {
+      "name": "Vampire Camera Man",
+      "image": ""
+    },
+    "werewolf-speakerman": {
+      "name": "Werewolf Speakerman",
+      "image": ""
+    },
+    "dark-speakerman": {
+      "name": "Dark Speakerman",
+      "image": ""
+    },
+    "rocket-cameraman": {
+      "name": "Rocket Cameraman",
+      "image": ""
+    },
+    "clown-speakerman": {
+      "name": "Clown Speakerman",
+      "image": ""
+    },
+    "large-tv-man": {
+      "name": "Large TV Man",
+      "image": ""
+    },
+    "speaker-spider": {
+      "name": "Speaker Spider",
+      "image": ""
+    },
+    "large-cameraman": {
+      "name": "Large Cameraman",
+      "image": ""
+    },
+    "dark-camerawoman": {
+      "name": "Dark Camerawoman",
+      "image": ""
+    },
+    "large-speakerman": {
+      "name": "Large Speakerman",
+      "image": ""
+    },
+    "tv-man": {
+      "name": "TV Man",
+      "image": ""
+    },
+    "brown-cameraman": {
+      "name": "Brown Cameraman",
+      "image": ""
+    },
+    "car-speakerman": {
+      "name": "Car Speakerman",
+      "image": ""
+    },
+    "cameraman": {
+      "name": "Cameraman",
+      "image": ""
+    },
+    "speakerman": {
+      "name": "Speakerman",
+      "image": ""
+    },
+    "camera-helicopter": {
+      "name": "Camera Helicopter",
+      "image": ""
+    },
+    "popcorn-cameraman": {
+      "name": "Popcorn Cameraman",
+      "image": ""
     }
   },
   "king-legacy": {
