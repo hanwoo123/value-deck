@@ -21,8 +21,13 @@ test('pending registration is independent of calculators and legacy IDs remain u
 test('catalog publication has valid source records, full CTD images and explicit unknown King units',()=>{
  const ctd=JSON.parse(readFileSync(new URL('../data/cameraman-td.json',import.meta.url)));
  const king=JSON.parse(readFileSync(new URL('../data/king-legacy.json',import.meta.url)));
- assert.equal(ctd.items.length,62);assert.equal(ctd.items.filter(i=>i.tradeReady===false).length,25);
+ assert.equal(ctd.items.length,62);assert.equal(ctd.items.filter(i=>i.tradeReady===false).length,0);
  assert(ctd.items.every(i=>i.image));assert.equal(ctd.items.find(i=>i.id==='headless-tv-man').rarity,'Unknown');
+ const games=JSON.parse(readFileSync(new URL('../data/games.json',import.meta.url))).games;
+ for(const [id,data] of [['cameraman-td',ctd],['king-legacy',king]]){
+  const game=games.find(g=>g.id===id);assert(game);
+  assert(data.items.every(i=>q.canRegister(game,i)));
+ }
  assert.equal(king.valueUnit,'목록 참고가치');assert.equal(king.pricePolicy.unitVerified,false);
  for(const data of [ctd,king])for(const i of data.items){
   if(i.value!==null){assert(i.value>0);assert.equal(i.priceQuotes.length,1);assert(i.priceValidUntil);assert.equal(i.priceQuotes[0].value,i.value);}

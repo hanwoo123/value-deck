@@ -1,4 +1,4 @@
--- Pending only: user explicitly deferred the production database change.
+-- User confirmed applying the combined catalog SQL; frontend registration is enabled.
 -- Apply to the existing configured project when requested; rerunnable, no deletions.
 begin;
 -- 202611140001_king_legacy.sql
