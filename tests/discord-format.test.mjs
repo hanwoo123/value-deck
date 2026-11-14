@@ -5,7 +5,7 @@ import {formatTrade,sendTrade,discordDestination} from '../supabase/functions/tr
 const post={id:123,game_id:'cameraman-td',roblox_username:'my_name',give_items:[{id:'hacked-cameraman',qty:1}],want_items:[{id:'spider-tv',qty:2}],note:'@everyone **offer**',created_at:'2026-11-05T00:00:00Z'};
 const webhook='https://discord.com/api/webhooks/123/test-token';
 test('new public trade embed has names, quantities, board link, safe mentions and image',()=>{
- const payload=formatTrade(post);assert.deepEqual(payload.allowed_mentions,{parse:[]});const e=payload.embeds[0];assert(e.title.includes('카메라맨'));assert.equal(e.fields[0].value,'Hacked Cameraman × 1');assert.equal(e.fields[1].value,'Spider Tv × 2');assert(e.description.includes('my\\_name'));assert(e.url.endsWith('/cameraman-td'));assert(e.thumbnail.url.startsWith('https://bloxdecks.com/images/'));assert(!JSON.stringify(payload).includes('owner_id'));
+ const payload=formatTrade(post);assert.deepEqual(payload.allowed_mentions,{parse:[]});const e=payload.embeds[0];assert(e.title.includes('카메라맨'));assert.equal(e.fields[0].value,'Hacked Cameraman × 1');assert.equal(e.fields[1].value,'TV Spider × 2');assert(e.description.includes('my\\_name'));assert(e.url.endsWith('/cameraman-td'));assert(e.thumbnail.url.startsWith('https://bloxdecks.com/images/'));assert(!JSON.stringify(payload).includes('owner_id'));
  assert.throws(()=>formatTrade({...post,give_items:[{id:'kitsune',qty:1}]}));assert.throws(()=>formatTrade({...post,game_id:'unknown'}));
 });
 test('only Discord webhook destinations; no network call for unknown items',async()=>{

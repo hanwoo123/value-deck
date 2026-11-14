@@ -24,6 +24,7 @@ insert into public.trade_game_items(game_id,id) values
 ('cameraman-td','cameraman'),
 ('cameraman-td','speakerman'),
 ('cameraman-td','camera-helicopter'),
-('cameraman-td','popcorn-cameraman')
+('cameraman-td','popcorn-cameraman'),
+('cameraman-td','sand-coffin-crate')
 on conflict do nothing;
 commit;

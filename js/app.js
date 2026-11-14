@@ -21,7 +21,7 @@
   };
 
   const RARITY_ORDER_DEFAULT = ['Mythic', 'Legendary', 'Epic', 'Rare', 'Common'];
-  const RARITY_KO = { Basic: '기본', NotApplicable: '패스·묶음', Limited: '한정', Exclusive: '한정', Godly: '갓', Mythic: '신화', Legendary: '전설', Epic: '영웅', Rare: '희귀', Uncommon: '고급', Common: '일반' };
+  const RARITY_KO = { Basic: '기본', NotApplicable: '등급 미적용', Limited: '한정', Exclusive: '한정', Godly: '갓', Mythic: '신화', Legendary: '전설', Epic: '영웅', Rare: '희귀', Uncommon: '고급', Common: '일반' };
   const FAIR_RANGE = 0.05; // ±5% 이내면 "비슷함"
 
   // ---------- utils ----------
@@ -52,9 +52,10 @@
   }
   const externalPrices = data => ['comparison','reference'].includes(data.pricingMode);
   const quoteText = (q,format=compact) => q.low!==undefined?format(q.low)+'–'+format(q.high):format(q.value);
-  const missingPrice = data => externalPrices(data)?'비교 자료 부족':'점수 미정';
-  const hasPrice = item => typeof item?.value === 'number' && Number.isFinite(item.value) && item.value > 0;
-  const rarityLabel = (r) => r === 'Unknown' ? '등급 확인 중' : RARITY_KO[r] ? `${RARITY_KO[r]}` : r;
+  const missingPrice = data => data.pricePolicy?'합산 보류':externalPrices(data)?'비교 자료 부족':'점수 미정';
+  const catalog = window.ValueDeckCatalog;
+  const hasPrice = catalog.hasPrice;
+  const rarityLabel = (r) => r === 'Unknown' ? '등급 미확인' : RARITY_KO[r] ? `${RARITY_KO[r]}` : r;
   const initial = (name) => esc(String(name || '?').trim().slice(0, 1));
 
   function thumb(item) {
@@ -133,7 +134,7 @@
         document.title = '거래 게시판 — VALUE DECK';
         const tradeHash=location.hash;
         const games=state.games.filter(g=>['blox-fruits','cameraman-td','king-legacy'].includes(g.id));
-        const catalogs=Object.fromEntries(await Promise.all(games.map(async g=>[g.id,{...await loadGame(g.id),name:g.name}])));
+        const catalogs=Object.fromEntries(await Promise.all(games.map(async g=>[g.id,{...await loadGame(g.id),name:g.name,tradeRegistration:g.tradeRegistration}])));
         if(tradeHash!==location.hash)return;
         return window.ValueDeckTrades.render(main,catalogs,route.gameId);
       }
@@ -152,9 +153,13 @@
   }
 
   async function renderPriceCheck(node,gameId=null) {
-    if(gameId==='king-legacy'){
-      const data=await loadGame(gameId);
-      if(node?.isConnected)node.textContent=`공개 참고 범위 · 수동 확인 ${data.updated} · 원문 수정 2026-11-09 · 단일 출처 · 합산 보류`;
+    if(!gameId){if(node?.isConnected)node.textContent='게임별 자료 확인 시각과 가격 상태는 각 참고자료에서 확인하세요. 원문은 6시간 간격으로 확인합니다.';return;}
+    const data=gameId?await loadGame(gameId):null;
+    if(data?.priceReview){
+      let info={};try{info=(await getJSON('data/value-update-status.json')).games?.[gameId]||{};}catch{}
+      const counts={priced:0,range:0,unpriced:0,stale:0};data.items.forEach(i=>counts[catalog.status(i)]++);
+      const time=new Date(data.priceReview.checkedAt).toLocaleString('ko-KR',{timeZone:'Asia/Seoul'});
+      if(node?.isConnected)node.textContent=`원문 전체 확인 ${time} (한국 시간) · 참고값 ${counts.priced}개 · 범위 ${counts.range}개 · 미확인 ${counts.unpriced}개${counts.stale?' · 기한 경과 '+counts.stale+'개':''} · 6시간마다 확인${info.refreshState&&info.refreshState!=='ok'?' · 최근 갱신 실패: 이전 자료 날짜 유지':''}`;
       return;
     }
     try {
@@ -247,10 +252,10 @@
 
   // ---------- values ----------
   function renderValues(meta, data, itemId = null) {
-    const f = state.filters[meta.id] ||= { q: '', rarity: 'all', category: 'all', sort: 'value-desc' };
+    const f = state.filters[meta.id] ||= { q: '', rarity: 'all', category: 'all', price: 'all', sort: 'value-desc' };
     // A direct item link must remain visible even after previous filtering.
     const target = itemId && data.byId[itemId];
-    if (target) Object.assign(f, { q: '', rarity: 'all', category: 'all' });
+    if (target) Object.assign(f, { q: '', rarity: 'all', category: 'all', price: 'all' });
     main.innerHTML = `
       <div class="pagehead">
         <div>
@@ -261,13 +266,15 @@
         <a class="btn btn--accent" href="#/g/${encodeURIComponent(meta.id)}/calc">거래 계산기 열기</a>
       </div>
       <p class="muted price-check" id="gamePriceCheckStatus" role="status">기준 안내를 불러오는 중…</p>
-      ${data.rarityNote ? `<p class="muted">${esc(data.rarityNote)}</p>` : ''}
+      ${data.pricePolicy ? `<p class="muted catalog-note">${esc(data.pricePolicy.unitNote)}</p>` : ''}
+      ${data.rarityNote ? `<p class="muted catalog-note">${esc(data.rarityNote)}</p>` : ''}
       <div class="toolbar">
         <input class="input" id="q" type="search" placeholder="아이템 이름 검색" value="${esc(f.q)}" aria-label="아이템 검색" />
         <select class="select" id="cat" aria-label="분류">
           <option value="all">전체 분류</option>
           ${data.categories.map((c) => `<option value="${esc(c)}"${f.category === c ? ' selected' : ''}>${esc(c)}</option>`).join('')}
         </select>
+        <select class="select" id="price-filter" aria-label="가격 확인 상태"><option value="all">모든 가격 상태</option><option value="priced">합산 가능한 참고값</option><option value="range">범위 참고</option><option value="unpriced">가격 미확인</option><option value="stale">자료 기한 경과</option></select>
         <select class="select" id="sort" aria-label="정렬">
           <option value="value-desc">가치 높은 순</option>
           <option value="value-asc">가치 낮은 순</option>
@@ -283,15 +290,17 @@
       <div class="items" id="items"></div>
     `;
     main.querySelector('#sort').value = f.sort;
+    main.querySelector('#price-filter').value = f.price||'all';
     renderPriceCheck(main.querySelector('#gamePriceCheckStatus'),meta.id);
 
     const draw = () => {
       const q = f.q.trim().toLowerCase();
       const rIdx = (r) => { const i = data.rarities.indexOf(r); return i < 0 ? 99 : i; };
       let list = data.items.filter((i) =>
-        (!q || [i.name, ...(i.aliases || [])].some(name => name.toLowerCase().includes(q))) &&
+        (!q || catalog.matches(i,q)) &&
         (f.rarity === 'all' || i.rarity === f.rarity) &&
-        (f.category === 'all' || i.category === f.category));
+        (f.category === 'all' || i.category === f.category) &&
+        (!f.price || f.price==='all' || catalog.status(i)===f.price));
       const sorters = {
         'value-desc': (a, b) => b.value - a.value,
         'value-asc': (a, b) => a.value - b.value,
@@ -306,6 +315,7 @@
 
     main.querySelector('#q').addEventListener('input', (e) => { f.q = e.target.value; draw(); });
     main.querySelector('#cat').addEventListener('change', (e) => { f.category = e.target.value; draw(); });
+    main.querySelector('#price-filter').addEventListener('change',e=>{f.price=e.target.value;draw();});
     main.querySelector('#sort').addEventListener('change', (e) => { f.sort = e.target.value; draw(); });
     main.querySelector('.chips').addEventListener('click', (e) => {
       const b = e.target.closest('.chip'); if (!b) return;
@@ -332,7 +342,7 @@
 
   function itemCard(i, data) {
     const singleQuote=i.valueStatus==='insufficient'&&i.priceQuotes?.length===1?i.priceQuotes[0]:null;
-    const display=hasPrice(i)?compact(i.value):singleQuote?quoteText(singleQuote)+(singleQuote.unit?' '+singleQuote.unit:'')+' · 합산 보류':missingPrice(data);
+    const display=data.pricePolicy?catalog.display(i,compact,data.valueUnit):hasPrice(i)?compact(i.value):singleQuote?quoteText(singleQuote)+(singleQuote.unit?' '+singleQuote.unit:'')+' · 합산 보류':missingPrice(data);
     const dmax = Number(data.demandMax) || 5;
     const dval = Math.max(0, Math.min(dmax, Number(i.demand) || 0));
     const d = Math.round((dval / dmax) * 5);
@@ -345,9 +355,9 @@
         <div class="item__body">
           <div class="item__top"><span class="rarity">${esc(rarityLabel(i.rarity))}</span><span class="cat">${esc(i.category || '')}</span></div>
           <h3 class="item__name">${esc(i.name)}</h3>
-          <div class="item__value" title="${hasPrice(i)?full(i.value):singleQuote?quoteText(singleQuote,full)+' · 참고값':missingPrice(data)}">${display}${hasPrice(i)&&data.valueUnit ? ' ' + esc(data.valueUnit) : ''}${changeBadge(changeOf(i))}</div>
+          <div class="item__value" title="${hasPrice(i)?full(i.value):singleQuote?quoteText(singleQuote,full)+' · 참고값':missingPrice(data)}">${display}${!data.pricePolicy&&hasPrice(i)&&data.valueUnit ? ' ' + esc(data.valueUnit) : ''}${changeBadge(changeOf(i))}</div>
           ${!externalPrices(data)&&i.note ? `<p class="item__note">${esc(i.note)}</p>` : ''}
-          <div class="item__foot"><span class="muted">${externalPrices(data)?(hasPrice(i)?(i.valueStatus==='single'?'참고 기준값':i.valueStatus==='disputed-reference'?'가격 편차 큼 · 참고값':'비교 기준값'):singleQuote?'참고값 · 합산 보류':'숫자 미확인 · 합산 보류'):(hasPrice(i)?'임시 비교점수':'점수 미정')}</span></div>
+          <div class="item__foot"><span class="muted">${data.pricePolicy?catalog.label(i):externalPrices(data)?(hasPrice(i)?(i.valueStatus==='single'?'참고 기준값':i.valueStatus==='disputed-reference'?'가격 편차 큼 · 참고값':'비교 기준값'):singleQuote?'참고값 · 합산 보류':'숫자 미확인 · 합산 보류'):(hasPrice(i)?'임시 비교점수':'점수 미정')}</span></div>
         </div>
       </article>`;
   }
@@ -359,7 +369,7 @@
     const ex = c[side].find((s) => s.id === itemId);
     if (ex) ex.qty = Math.min(999, ex.qty + 1); else c[side].push({ id: itemId, qty: 1 });
   }
-  const sideTotal = (list, data) => list.some(x=>!hasPrice(data.byId[x.id]))?null:list.reduce((s,x)=>s+data.byId[x.id].value*x.qty,0);
+  const sideTotal = catalog.total;
 
   function renderCalc(meta, data) {
     const c = calcOf(meta.id);
@@ -371,7 +381,7 @@
         <div>
           <div class="eyebrow">Trade Calculator</div>
           <h1>${esc(meta.name)} 거래 계산기</h1>
-          <p>${data.pricingMode==='reference'?'현재 자료는 범위로 표시됩니다. 확정 기준값이 없어 합산을 보류합니다.':externalPrices(data)?'표시된 기준값으로 합산합니다. 편차가 큰 참고값이 포함될 수 있으며 실제 거래 체결가가 아닙니다.':'등급·분류별 임시 점수를 합산합니다. 실제 거래가격이 아닙니다.'} 업데이트 ${esc(data.updated || '-')}</p>
+          <p>${data.pricePolicy?esc(data.pricePolicy.unitNote)+' 참고값이 없는 항목이나 범위 자료는 합산을 보류합니다.':data.pricingMode==='reference'?'현재 자료는 범위로 표시됩니다. 확정 기준값이 없어 합산을 보류합니다.':externalPrices(data)?'표시된 기준값으로 합산합니다. 편차가 큰 참고값이 포함될 수 있으며 실제 거래 체결가가 아닙니다.':'등급·분류별 임시 점수를 합산합니다. 실제 거래가격이 아닙니다.'} 업데이트 ${esc(data.updated || '-')}</p>
         </div>
         <button class="btn" id="swap" type="button">⇄ 양쪽 바꾸기</button>
       </div>
@@ -469,7 +479,7 @@
   function drawPicker() {
     const data = state.cache[state.pickerGame]; if (!data) return;
     const q = pickerSearch.value.trim().toLowerCase();
-    const list = data.items.filter((i) => !q || i.name.toLowerCase().includes(q)).sort((a, b) => b.value - a.value);
+    const list = data.items.filter((i) => !q || catalog.matches(i,q)).sort((a, b) => b.value - a.value);
     pickerList.innerHTML = list.length ? list.map((i) => `
       <button class="pick" type="button" data-pick="${esc(i.id)}" data-rarity="${esc(i.rarity)}">
         <span class="slot__thumb">${thumb(i)}</span>

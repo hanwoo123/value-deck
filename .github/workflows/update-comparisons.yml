@@ -35,12 +35,16 @@ jobs:
         id: ctd
         continue-on-error: true
         run: python tools/update_ctd_references.py --write
+      - name: Refresh King Legacy public reference prices
+        id: king
+        continue-on-error: true
+        run: python tools/update_king_references.py --write
       - name: Commit changed values and history
         id: commit
         shell: bash
         run: |
           set -euo pipefail
-          git add data/blox-fruits.json data/cameraman-td.json
+          git add data/blox-fruits.json data/cameraman-td.json data/king-legacy.json
           if [ -f data/value-update-status.json ]; then git add data/value-update-status.json; fi
           if [ -f data/value-history.json ]; then git add data/value-history.json; fi
           if git diff --cached --quiet; then
@@ -76,4 +80,8 @@ jobs:
 
       - name: Report CTD reference collection failure
         if: always() && steps.ctd.outcome == 'failure'
+        run: exit 1
+
+      - name: Report King Legacy reference collection failure
+        if: always() && steps.king.outcome == 'failure'
         run: exit 1

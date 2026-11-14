@@ -1,6 +1,6 @@
 {
   "updated": "2026-11-14",
-  "valueUnit": "참고가치",
+  "valueUnit": "자료 표기 젬",
   "demandMax": 10,
   "rarities": [
     "Exclusive",
@@ -10,27 +10,48 @@
     "Epic",
     "Rare",
     "Uncommon",
-    "Basic"
+    "Basic",
+    "Unknown",
+    "NotApplicable"
   ],
   "categories": [
     "유닛",
     "게임패스",
     "상자"
   ],
-  "source": "VVX 공개 가치표의 숫자 · 단일 출처 참고 · 게임 화폐 환산·실거래가 보장 아님",
+  "source": "공개 가치 목록의 단일 출처 표기값 · 평균·확정 거래가 아님",
   "items": [
     {
       "id": "spider-tv",
-      "name": "Spider Tv",
+      "name": "TV Spider",
       "category": "유닛",
       "rarity": "Exclusive",
       "value": null,
       "trend": "stable",
       "image": "images/cameraman-td/spider-tv.webp",
-      "note": "숫자로 확정된 값이 없어 가격 보류",
-      "valueStatus": "insufficient",
-      "valueBasis": "vvx-public-reference-v1",
-      "priceQuotes": []
+      "note": "범위 참고 · 합산 보류",
+      "valueStatus": "range",
+      "valueBasis": "reviewed-public-list-v2",
+      "priceQuotes": [
+        {
+          "id": "vvx-ctd",
+          "name": "VVX 공개 가치표",
+          "url": "https://cameraman-td.vaultedvaluesx.com/value-list",
+          "low": 14000,
+          "high": 15000,
+          "unit": "자료 표기 젬",
+          "unitVerified": true,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:36+09:00"
+        }
+      ],
+      "aliases": [
+        "Spider Tv"
+      ],
+      "rarityStatus": "catalog",
+      "rosterObservedAt": "2026-11-14T19:51:07+09:00",
+      "priceReviewedAt": "2026-11-14T20:01:36+09:00",
+      "priceValidUntil": "2026-11-21T20:01:36+09:00"
     },
     {
       "id": "engineer-cameraman",
@@ -40,10 +61,25 @@
       "value": 6350,
       "trend": "stable",
       "image": "images/cameraman-td/engineer-cameraman.webp",
-      "note": "VVX 공개 표기값 · 단일 출처 참고가",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "valueStatus": "single",
-      "valueBasis": "vvx-public-reference-v1",
+      "valueBasis": "reviewed-public-list-v2",
       "priceQuotes": [
+        {
+          "id": "vvx-ctd",
+          "name": "VVX 공개 가치표",
+          "url": "https://cameraman-td.vaultedvaluesx.com/value-list",
+          "value": 6350,
+          "unit": "자료 표기 젬",
+          "unitVerified": true,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:36+09:00"
+        }
+      ],
+      "aliases": [],
+      "rarityStatus": "catalog",
+      "rosterObservedAt": "2026-11-14T19:51:07+09:00",
+      "historicalQuotes": [
         {
           "id": "vvx-ctd",
           "name": "VVX 공개 가치표",
@@ -52,20 +88,39 @@
           "publishedAt": null,
           "observedAt": "2026-11-14T15:46:32+09:00"
         }
-      ]
+      ],
+      "priceReviewedAt": "2026-11-14T20:01:36+09:00",
+      "priceValidUntil": "2026-11-21T20:01:36+09:00"
     },
     {
       "id": "chaos-cameraman",
-      "name": "Chaos cameraman",
+      "name": "Chaos Cameraman",
       "category": "유닛",
       "rarity": "Mythic",
       "value": 5000,
       "trend": "stable",
       "image": "images/cameraman-td/chaos-cameraman.webp",
-      "note": "VVX 공개 표기값 · 단일 출처 참고가",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "valueStatus": "single",
-      "valueBasis": "vvx-public-reference-v1",
+      "valueBasis": "reviewed-public-list-v2",
       "priceQuotes": [
+        {
+          "id": "vvx-ctd",
+          "name": "VVX 공개 가치표",
+          "url": "https://cameraman-td.vaultedvaluesx.com/value-list",
+          "value": 5000,
+          "unit": "자료 표기 젬",
+          "unitVerified": true,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:36+09:00"
+        }
+      ],
+      "aliases": [
+        "Chaos cameraman"
+      ],
+      "rarityStatus": "catalog",
+      "rosterObservedAt": "2026-11-14T19:51:07+09:00",
+      "historicalQuotes": [
         {
           "id": "vvx-ctd",
           "name": "VVX 공개 가치표",
@@ -74,20 +129,39 @@
           "publishedAt": null,
           "observedAt": "2026-11-14T15:46:32+09:00"
         }
-      ]
+      ],
+      "priceReviewedAt": "2026-11-14T20:01:36+09:00",
+      "priceValidUntil": "2026-11-21T20:01:36+09:00"
     },
     {
       "id": "upgraded-titan-cameraman",
-      "name": "upgraded Titan Cameraman",
+      "name": "Upgraded Titan Cameraman",
       "category": "유닛",
       "rarity": "Godly",
       "value": 2800,
       "trend": "stable",
       "image": "images/cameraman-td/upgraded-titan-cameraman.webp",
-      "note": "VVX 공개 표기값 · 단일 출처 참고가",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "valueStatus": "single",
-      "valueBasis": "vvx-public-reference-v1",
+      "valueBasis": "reviewed-public-list-v2",
       "priceQuotes": [
+        {
+          "id": "vvx-ctd",
+          "name": "VVX 공개 가치표",
+          "url": "https://cameraman-td.vaultedvaluesx.com/value-list",
+          "value": 2800,
+          "unit": "자료 표기 젬",
+          "unitVerified": true,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:36+09:00"
+        }
+      ],
+      "aliases": [
+        "upgraded Titan Cameraman"
+      ],
+      "rarityStatus": "catalog",
+      "rosterObservedAt": "2026-11-14T19:51:07+09:00",
+      "historicalQuotes": [
         {
           "id": "vvx-ctd",
           "name": "VVX 공개 가치표",
@@ -96,20 +170,34 @@
           "publishedAt": null,
           "observedAt": "2026-11-14T15:46:32+09:00"
         }
-      ]
+      ],
+      "priceReviewedAt": "2026-11-14T20:01:36+09:00",
+      "priceValidUntil": "2026-11-21T20:01:36+09:00"
     },
     {
       "id": "premium-pass",
       "name": "Premium Pass",
       "category": "게임패스",
-      "rarity": "",
+      "rarity": "NotApplicable",
       "value": 1900,
       "trend": "stable",
       "image": "images/cameraman-td/premium-pass.webp",
-      "note": "VVX 공개 표기값 · 단일 출처 참고가",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "valueStatus": "single",
-      "valueBasis": "vvx-public-reference-v1",
+      "valueBasis": "reviewed-public-list-v2",
       "priceQuotes": [
+        {
+          "id": "vvx-ctd",
+          "name": "VVX 공개 가치표",
+          "url": "https://cameraman-td.vaultedvaluesx.com/value-list",
+          "value": 1900,
+          "unit": "자료 표기 젬",
+          "unitVerified": true,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:36+09:00"
+        }
+      ],
+      "historicalQuotes": [
         {
           "id": "vvx-ctd",
           "name": "VVX 공개 가치표",
@@ -118,20 +206,39 @@
           "publishedAt": null,
           "observedAt": "2026-11-14T15:46:32+09:00"
         }
-      ]
+      ],
+      "priceReviewedAt": "2026-11-14T20:01:36+09:00",
+      "priceValidUntil": "2026-11-21T20:01:36+09:00"
     },
     {
       "id": "executioner-tv-man",
-      "name": "executioner tv man",
+      "name": "Executioner TV Man",
       "category": "유닛",
       "rarity": "Exclusive",
       "value": 1700,
       "trend": "stable",
       "image": "images/cameraman-td/executioner-tv-man.webp",
-      "note": "VVX 공개 표기값 · 단일 출처 참고가",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "valueStatus": "single",
-      "valueBasis": "vvx-public-reference-v1",
+      "valueBasis": "reviewed-public-list-v2",
       "priceQuotes": [
+        {
+          "id": "vvx-ctd",
+          "name": "VVX 공개 가치표",
+          "url": "https://cameraman-td.vaultedvaluesx.com/value-list",
+          "value": 1700,
+          "unit": "자료 표기 젬",
+          "unitVerified": true,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:36+09:00"
+        }
+      ],
+      "aliases": [
+        "executioner tv man"
+      ],
+      "rarityStatus": "catalog",
+      "rosterObservedAt": "2026-11-14T19:51:07+09:00",
+      "historicalQuotes": [
         {
           "id": "vvx-ctd",
           "name": "VVX 공개 가치표",
@@ -140,20 +247,34 @@
           "publishedAt": null,
           "observedAt": "2026-11-14T15:46:32+09:00"
         }
-      ]
+      ],
+      "priceReviewedAt": "2026-11-14T20:01:36+09:00",
+      "priceValidUntil": "2026-11-21T20:01:36+09:00"
     },
     {
       "id": "x2-candy",
       "name": "x2 candy",
       "category": "게임패스",
-      "rarity": "",
+      "rarity": "NotApplicable",
       "value": 2350,
       "trend": "stable",
       "image": "images/cameraman-td/x2-candy.webp",
-      "note": "VVX 공개 표기값 · 단일 출처 참고가",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "valueStatus": "single",
-      "valueBasis": "vvx-public-reference-v1",
+      "valueBasis": "reviewed-public-list-v2",
       "priceQuotes": [
+        {
+          "id": "vvx-ctd",
+          "name": "VVX 공개 가치표",
+          "url": "https://cameraman-td.vaultedvaluesx.com/value-list",
+          "value": 2350,
+          "unit": "자료 표기 젬",
+          "unitVerified": true,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:36+09:00"
+        }
+      ],
+      "historicalQuotes": [
         {
           "id": "vvx-ctd",
           "name": "VVX 공개 가치표",
@@ -162,20 +283,34 @@
           "publishedAt": null,
           "observedAt": "2026-11-14T15:46:32+09:00"
         }
-      ]
+      ],
+      "priceReviewedAt": "2026-11-14T20:01:36+09:00",
+      "priceValidUntil": "2026-11-21T20:01:36+09:00"
     },
     {
       "id": "2x-lucky",
       "name": "2x Lucky",
       "category": "게임패스",
-      "rarity": "",
+      "rarity": "NotApplicable",
       "value": 1800,
       "trend": "stable",
       "image": "images/cameraman-td/2x-lucky.webp",
-      "note": "VVX 공개 표기값 · 단일 출처 참고가",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "valueStatus": "single",
-      "valueBasis": "vvx-public-reference-v1",
+      "valueBasis": "reviewed-public-list-v2",
       "priceQuotes": [
+        {
+          "id": "vvx-ctd",
+          "name": "VVX 공개 가치표",
+          "url": "https://cameraman-td.vaultedvaluesx.com/value-list",
+          "value": 1800,
+          "unit": "자료 표기 젬",
+          "unitVerified": true,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:36+09:00"
+        }
+      ],
+      "historicalQuotes": [
         {
           "id": "vvx-ctd",
           "name": "VVX 공개 가치표",
@@ -184,20 +319,34 @@
           "publishedAt": null,
           "observedAt": "2026-11-14T15:46:32+09:00"
         }
-      ]
+      ],
+      "priceReviewedAt": "2026-11-14T20:01:36+09:00",
+      "priceValidUntil": "2026-11-21T20:01:36+09:00"
     },
     {
       "id": "2x-money",
       "name": "2x Money",
       "category": "게임패스",
-      "rarity": "",
+      "rarity": "NotApplicable",
       "value": 2200,
       "trend": "stable",
       "image": "images/cameraman-td/2x-money.webp",
-      "note": "VVX 공개 표기값 · 단일 출처 참고가",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "valueStatus": "single",
-      "valueBasis": "vvx-public-reference-v1",
+      "valueBasis": "reviewed-public-list-v2",
       "priceQuotes": [
+        {
+          "id": "vvx-ctd",
+          "name": "VVX 공개 가치표",
+          "url": "https://cameraman-td.vaultedvaluesx.com/value-list",
+          "value": 2200,
+          "unit": "자료 표기 젬",
+          "unitVerified": true,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:36+09:00"
+        }
+      ],
+      "historicalQuotes": [
         {
           "id": "vvx-ctd",
           "name": "VVX 공개 가치표",
@@ -206,20 +355,43 @@
           "publishedAt": null,
           "observedAt": "2026-11-14T15:46:32+09:00"
         }
-      ]
+      ],
+      "priceReviewedAt": "2026-11-14T20:01:36+09:00",
+      "priceValidUntil": "2026-11-21T20:01:36+09:00"
     },
     {
       "id": "headless-tv-man",
-      "name": "headless tv man",
+      "name": "Headless TV Man",
       "category": "유닛",
-      "rarity": "Mythic",
+      "rarity": "Unknown",
       "value": 400,
       "trend": "stable",
       "image": "images/cameraman-td/headless-tv-man.webp",
-      "note": "VVX 공개 표기값 · 단일 출처 참고가",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "valueStatus": "single",
-      "valueBasis": "vvx-public-reference-v1",
+      "valueBasis": "reviewed-public-list-v2",
       "priceQuotes": [
+        {
+          "id": "vvx-ctd",
+          "name": "VVX 공개 가치표",
+          "url": "https://cameraman-td.vaultedvaluesx.com/value-list",
+          "value": 400,
+          "unit": "자료 표기 젬",
+          "unitVerified": true,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:36+09:00"
+        }
+      ],
+      "rosterObservedAt": "2026-11-14T19:51:07+09:00",
+      "rosterSourceIds": [
+        "game-guide-ctd",
+        "bloxron-ctd"
+      ],
+      "aliases": [
+        "headless tv man"
+      ],
+      "rarityStatus": "conflict",
+      "historicalQuotes": [
         {
           "id": "vvx-ctd",
           "name": "VVX 공개 가치표",
@@ -229,11 +401,8 @@
           "observedAt": "2026-11-14T15:46:32+09:00"
         }
       ],
-      "rosterObservedAt": "2026-11-14T19:32:42+09:00",
-      "rosterSourceIds": [
-        "game-guide-ctd",
-        "bloxron-ctd"
-      ]
+      "priceReviewedAt": "2026-11-14T20:01:36+09:00",
+      "priceValidUntil": "2026-11-21T20:01:36+09:00"
     },
     {
       "id": "large-scientist-cameraman",
@@ -243,10 +412,25 @@
       "value": 350,
       "trend": "stable",
       "image": "images/cameraman-td/large-scientist-cameraman.webp",
-      "note": "VVX 공개 표기값 · 단일 출처 참고가",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "valueStatus": "single",
-      "valueBasis": "vvx-public-reference-v1",
+      "valueBasis": "reviewed-public-list-v2",
       "priceQuotes": [
+        {
+          "id": "vvx-ctd",
+          "name": "VVX 공개 가치표",
+          "url": "https://cameraman-td.vaultedvaluesx.com/value-list",
+          "value": 350,
+          "unit": "자료 표기 젬",
+          "unitVerified": true,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:36+09:00"
+        }
+      ],
+      "aliases": [],
+      "rarityStatus": "catalog",
+      "rosterObservedAt": "2026-11-14T19:51:07+09:00",
+      "historicalQuotes": [
         {
           "id": "vvx-ctd",
           "name": "VVX 공개 가치표",
@@ -255,20 +439,39 @@
           "publishedAt": null,
           "observedAt": "2026-11-14T15:46:32+09:00"
         }
-      ]
+      ],
+      "priceReviewedAt": "2026-11-14T20:01:36+09:00",
+      "priceValidUntil": "2026-11-21T20:01:36+09:00"
     },
     {
       "id": "tv-woman",
-      "name": "Tv woman",
+      "name": "TV Woman",
       "category": "유닛",
       "rarity": "Mythic",
       "value": 235,
       "trend": "stable",
       "image": "images/cameraman-td/tv-woman.webp",
-      "note": "VVX 공개 표기값 · 단일 출처 참고가",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "valueStatus": "single",
-      "valueBasis": "vvx-public-reference-v1",
+      "valueBasis": "reviewed-public-list-v2",
       "priceQuotes": [
+        {
+          "id": "vvx-ctd",
+          "name": "VVX 공개 가치표",
+          "url": "https://cameraman-td.vaultedvaluesx.com/value-list",
+          "value": 235,
+          "unit": "자료 표기 젬",
+          "unitVerified": true,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:36+09:00"
+        }
+      ],
+      "aliases": [
+        "Tv woman"
+      ],
+      "rarityStatus": "catalog",
+      "rosterObservedAt": "2026-11-14T19:51:07+09:00",
+      "historicalQuotes": [
         {
           "id": "vvx-ctd",
           "name": "VVX 공개 가치표",
@@ -277,20 +480,39 @@
           "publishedAt": null,
           "observedAt": "2026-11-14T15:46:32+09:00"
         }
-      ]
+      ],
+      "priceReviewedAt": "2026-11-14T20:01:36+09:00",
+      "priceValidUntil": "2026-11-21T20:01:36+09:00"
     },
     {
       "id": "cinemaman-titan",
-      "name": "CinemaMan Titan",
+      "name": "Titan Cinemaman",
       "category": "유닛",
       "rarity": "Mythic",
       "value": 300,
       "trend": "stable",
       "image": "images/cameraman-td/cinemaman-titan.webp",
-      "note": "VVX 공개 표기값 · 단일 출처 참고가",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "valueStatus": "single",
-      "valueBasis": "vvx-public-reference-v1",
+      "valueBasis": "reviewed-public-list-v2",
       "priceQuotes": [
+        {
+          "id": "vvx-ctd",
+          "name": "VVX 공개 가치표",
+          "url": "https://cameraman-td.vaultedvaluesx.com/value-list",
+          "value": 300,
+          "unit": "자료 표기 젬",
+          "unitVerified": true,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:36+09:00"
+        }
+      ],
+      "aliases": [
+        "CinemaMan Titan"
+      ],
+      "rarityStatus": "catalog",
+      "rosterObservedAt": "2026-11-14T19:51:07+09:00",
+      "historicalQuotes": [
         {
           "id": "vvx-ctd",
           "name": "VVX 공개 가치표",
@@ -299,20 +521,34 @@
           "publishedAt": null,
           "observedAt": "2026-11-14T15:46:32+09:00"
         }
-      ]
+      ],
+      "priceReviewedAt": "2026-11-14T20:01:36+09:00",
+      "priceValidUntil": "2026-11-21T20:01:36+09:00"
     },
     {
       "id": "2x-speed",
       "name": "2X speed",
       "category": "게임패스",
-      "rarity": "",
+      "rarity": "NotApplicable",
       "value": 1050,
       "trend": "stable",
       "image": "images/cameraman-td/2x-speed.webp",
-      "note": "VVX 공개 표기값 · 단일 출처 참고가",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "valueStatus": "single",
-      "valueBasis": "vvx-public-reference-v1",
+      "valueBasis": "reviewed-public-list-v2",
       "priceQuotes": [
+        {
+          "id": "vvx-ctd",
+          "name": "VVX 공개 가치표",
+          "url": "https://cameraman-td.vaultedvaluesx.com/value-list",
+          "value": 1050,
+          "unit": "자료 표기 젬",
+          "unitVerified": true,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:36+09:00"
+        }
+      ],
+      "historicalQuotes": [
         {
           "id": "vvx-ctd",
           "name": "VVX 공개 가치표",
@@ -321,7 +557,9 @@
           "publishedAt": null,
           "observedAt": "2026-11-14T15:46:32+09:00"
         }
-      ]
+      ],
+      "priceReviewedAt": "2026-11-14T20:01:36+09:00",
+      "priceValidUntil": "2026-11-21T20:01:36+09:00"
     },
     {
       "id": "jetpack-cameraman",
@@ -331,10 +569,25 @@
       "value": 350,
       "trend": "stable",
       "image": "images/cameraman-td/jetpack-cameraman.webp",
-      "note": "VVX 공개 표기값 · 단일 출처 참고가",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "valueStatus": "single",
-      "valueBasis": "vvx-public-reference-v1",
+      "valueBasis": "reviewed-public-list-v2",
       "priceQuotes": [
+        {
+          "id": "vvx-ctd",
+          "name": "VVX 공개 가치표",
+          "url": "https://cameraman-td.vaultedvaluesx.com/value-list",
+          "value": 350,
+          "unit": "자료 표기 젬",
+          "unitVerified": true,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:36+09:00"
+        }
+      ],
+      "aliases": [],
+      "rarityStatus": "catalog",
+      "rosterObservedAt": "2026-11-14T19:51:07+09:00",
+      "historicalQuotes": [
         {
           "id": "vvx-ctd",
           "name": "VVX 공개 가치표",
@@ -343,20 +596,39 @@
           "publishedAt": null,
           "observedAt": "2026-11-14T15:46:32+09:00"
         }
-      ]
+      ],
+      "priceReviewedAt": "2026-11-14T20:01:36+09:00",
+      "priceValidUntil": "2026-11-21T20:01:36+09:00"
     },
     {
       "id": "large-prototype-titan",
-      "name": "large prototype titan",
+      "name": "Upgraded Brute Prototype",
       "category": "유닛",
       "rarity": "Mythic",
       "value": 220,
       "trend": "stable",
       "image": "images/cameraman-td/large-prototype-titan.webp",
-      "note": "VVX 공개 표기값 · 단일 출처 참고가",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "valueStatus": "single",
-      "valueBasis": "vvx-public-reference-v1",
+      "valueBasis": "reviewed-public-list-v2",
       "priceQuotes": [
+        {
+          "id": "vvx-ctd",
+          "name": "VVX 공개 가치표",
+          "url": "https://cameraman-td.vaultedvaluesx.com/value-list",
+          "value": 220,
+          "unit": "자료 표기 젬",
+          "unitVerified": true,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:36+09:00"
+        }
+      ],
+      "aliases": [
+        "large prototype titan"
+      ],
+      "rarityStatus": "catalog",
+      "rosterObservedAt": "2026-11-14T19:51:07+09:00",
+      "historicalQuotes": [
         {
           "id": "vvx-ctd",
           "name": "VVX 공개 가치표",
@@ -365,20 +637,39 @@
           "publishedAt": null,
           "observedAt": "2026-11-14T15:46:32+09:00"
         }
-      ]
+      ],
+      "priceReviewedAt": "2026-11-14T20:01:36+09:00",
+      "priceValidUntil": "2026-11-21T20:01:36+09:00"
     },
     {
       "id": "glitch-plungerman",
-      "name": "Glitch plungerman",
+      "name": "Glitch Cameraman",
       "category": "유닛",
       "rarity": "Mythic",
       "value": 150,
       "trend": "stable",
       "image": "images/cameraman-td/glitch-plungerman.webp",
-      "note": "VVX 공개 표기값 · 단일 출처 참고가",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "valueStatus": "single",
-      "valueBasis": "vvx-public-reference-v1",
+      "valueBasis": "reviewed-public-list-v2",
       "priceQuotes": [
+        {
+          "id": "vvx-ctd",
+          "name": "VVX 공개 가치표",
+          "url": "https://cameraman-td.vaultedvaluesx.com/value-list",
+          "value": 150,
+          "unit": "자료 표기 젬",
+          "unitVerified": true,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:36+09:00"
+        }
+      ],
+      "aliases": [
+        "Glitch plungerman"
+      ],
+      "rarityStatus": "catalog",
+      "rosterObservedAt": "2026-11-14T19:51:07+09:00",
+      "historicalQuotes": [
         {
           "id": "vvx-ctd",
           "name": "VVX 공개 가치표",
@@ -387,20 +678,39 @@
           "publishedAt": null,
           "observedAt": "2026-11-14T15:46:32+09:00"
         }
-      ]
+      ],
+      "priceReviewedAt": "2026-11-14T20:01:36+09:00",
+      "priceValidUntil": "2026-11-21T20:01:36+09:00"
     },
     {
       "id": "videotaper-titan",
-      "name": "videotaper titan",
+      "name": "Upgraded Videotapper Prototype",
       "category": "유닛",
       "rarity": "Mythic",
       "value": 150,
       "trend": "stable",
       "image": "images/cameraman-td/videotaper-titan.webp",
-      "note": "VVX 공개 표기값 · 단일 출처 참고가",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "valueStatus": "single",
-      "valueBasis": "vvx-public-reference-v1",
+      "valueBasis": "reviewed-public-list-v2",
       "priceQuotes": [
+        {
+          "id": "vvx-ctd",
+          "name": "VVX 공개 가치표",
+          "url": "https://cameraman-td.vaultedvaluesx.com/value-list",
+          "value": 150,
+          "unit": "자료 표기 젬",
+          "unitVerified": true,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:36+09:00"
+        }
+      ],
+      "aliases": [
+        "videotaper titan"
+      ],
+      "rarityStatus": "catalog",
+      "rosterObservedAt": "2026-11-14T19:51:07+09:00",
+      "historicalQuotes": [
         {
           "id": "vvx-ctd",
           "name": "VVX 공개 가치표",
@@ -409,7 +719,9 @@
           "publishedAt": null,
           "observedAt": "2026-11-14T15:46:32+09:00"
         }
-      ]
+      ],
+      "priceReviewedAt": "2026-11-14T20:01:36+09:00",
+      "priceValidUntil": "2026-11-21T20:01:36+09:00"
     },
     {
       "id": "upgraded-titan-speakerman",
@@ -419,10 +731,25 @@
       "value": 160,
       "trend": "stable",
       "image": "images/cameraman-td/upgraded-titan-speakerman.webp",
-      "note": "VVX 공개 표기값 · 단일 출처 참고가",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "valueStatus": "single",
-      "valueBasis": "vvx-public-reference-v1",
+      "valueBasis": "reviewed-public-list-v2",
       "priceQuotes": [
+        {
+          "id": "vvx-ctd",
+          "name": "VVX 공개 가치표",
+          "url": "https://cameraman-td.vaultedvaluesx.com/value-list",
+          "value": 160,
+          "unit": "자료 표기 젬",
+          "unitVerified": true,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:36+09:00"
+        }
+      ],
+      "aliases": [],
+      "rarityStatus": "catalog",
+      "rosterObservedAt": "2026-11-14T19:51:07+09:00",
+      "historicalQuotes": [
         {
           "id": "vvx-ctd",
           "name": "VVX 공개 가치표",
@@ -431,20 +758,34 @@
           "publishedAt": null,
           "observedAt": "2026-11-14T15:46:32+09:00"
         }
-      ]
+      ],
+      "priceReviewedAt": "2026-11-14T20:01:36+09:00",
+      "priceValidUntil": "2026-11-21T20:01:36+09:00"
     },
     {
       "id": "scientist-crate",
       "name": "Scientist Crate",
       "category": "상자",
-      "rarity": "",
+      "rarity": "NotApplicable",
       "value": 425,
       "trend": "stable",
       "image": "images/cameraman-td/scientist-crate.webp",
-      "note": "VVX 공개 표기값 · 단일 출처 참고가",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "valueStatus": "single",
-      "valueBasis": "vvx-public-reference-v1",
+      "valueBasis": "reviewed-public-list-v2",
       "priceQuotes": [
+        {
+          "id": "vvx-ctd",
+          "name": "VVX 공개 가치표",
+          "url": "https://cameraman-td.vaultedvaluesx.com/value-list",
+          "value": 425,
+          "unit": "자료 표기 젬",
+          "unitVerified": true,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:36+09:00"
+        }
+      ],
+      "historicalQuotes": [
         {
           "id": "vvx-ctd",
           "name": "VVX 공개 가치표",
@@ -453,20 +794,34 @@
           "publishedAt": null,
           "observedAt": "2026-11-14T15:46:32+09:00"
         }
-      ]
+      ],
+      "priceReviewedAt": "2026-11-14T20:01:36+09:00",
+      "priceValidUntil": "2026-11-21T20:01:36+09:00"
     },
     {
       "id": "spider-crate",
       "name": "Spider Crate",
       "category": "상자",
-      "rarity": "",
+      "rarity": "NotApplicable",
       "value": 70,
       "trend": "stable",
       "image": "images/cameraman-td/spider-crate.webp",
-      "note": "VVX 공개 표기값 · 단일 출처 참고가",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "valueStatus": "single",
-      "valueBasis": "vvx-public-reference-v1",
+      "valueBasis": "reviewed-public-list-v2",
       "priceQuotes": [
+        {
+          "id": "vvx-ctd",
+          "name": "VVX 공개 가치표",
+          "url": "https://cameraman-td.vaultedvaluesx.com/value-list",
+          "value": 70,
+          "unit": "자료 표기 젬",
+          "unitVerified": true,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:36+09:00"
+        }
+      ],
+      "historicalQuotes": [
         {
           "id": "vvx-ctd",
           "name": "VVX 공개 가치표",
@@ -475,7 +830,9 @@
           "publishedAt": null,
           "observedAt": "2026-11-14T15:46:32+09:00"
         }
-      ]
+      ],
+      "priceReviewedAt": "2026-11-14T20:01:36+09:00",
+      "priceValidUntil": "2026-11-21T20:01:36+09:00"
     },
     {
       "id": "pumpkin-farmer",
@@ -485,10 +842,25 @@
       "value": 10,
       "trend": "stable",
       "image": "images/cameraman-td/pumpkin-farmer.webp",
-      "note": "VVX 공개 표기값 · 단일 출처 참고가",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "valueStatus": "single",
-      "valueBasis": "vvx-public-reference-v1",
+      "valueBasis": "reviewed-public-list-v2",
       "priceQuotes": [
+        {
+          "id": "vvx-ctd",
+          "name": "VVX 공개 가치표",
+          "url": "https://cameraman-td.vaultedvaluesx.com/value-list",
+          "value": 10,
+          "unit": "자료 표기 젬",
+          "unitVerified": true,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:36+09:00"
+        }
+      ],
+      "aliases": [],
+      "rarityStatus": "catalog",
+      "rosterObservedAt": "2026-11-14T19:51:07+09:00",
+      "historicalQuotes": [
         {
           "id": "vvx-ctd",
           "name": "VVX 공개 가치표",
@@ -497,7 +869,9 @@
           "publishedAt": null,
           "observedAt": "2026-11-14T15:46:32+09:00"
         }
-      ]
+      ],
+      "priceReviewedAt": "2026-11-14T20:01:36+09:00",
+      "priceValidUntil": "2026-11-21T20:01:36+09:00"
     },
     {
       "id": "scientist-cameraman",
@@ -507,10 +881,25 @@
       "value": 115,
       "trend": "stable",
       "image": "images/cameraman-td/scientist-cameraman.webp",
-      "note": "VVX 공개 표기값 · 단일 출처 참고가",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "valueStatus": "single",
-      "valueBasis": "vvx-public-reference-v1",
+      "valueBasis": "reviewed-public-list-v2",
       "priceQuotes": [
+        {
+          "id": "vvx-ctd",
+          "name": "VVX 공개 가치표",
+          "url": "https://cameraman-td.vaultedvaluesx.com/value-list",
+          "value": 115,
+          "unit": "자료 표기 젬",
+          "unitVerified": true,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:36+09:00"
+        }
+      ],
+      "aliases": [],
+      "rarityStatus": "catalog",
+      "rosterObservedAt": "2026-11-14T19:51:07+09:00",
+      "historicalQuotes": [
         {
           "id": "vvx-ctd",
           "name": "VVX 공개 가치표",
@@ -519,7 +908,9 @@
           "publishedAt": null,
           "observedAt": "2026-11-14T15:46:32+09:00"
         }
-      ]
+      ],
+      "priceReviewedAt": "2026-11-14T20:01:36+09:00",
+      "priceValidUntil": "2026-11-21T20:01:36+09:00"
     },
     {
       "id": "camera-repair-drone",
@@ -529,10 +920,25 @@
       "value": 25,
       "trend": "stable",
       "image": "images/cameraman-td/camera-repair-drone.webp",
-      "note": "VVX 공개 표기값 · 단일 출처 참고가",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "valueStatus": "single",
-      "valueBasis": "vvx-public-reference-v1",
+      "valueBasis": "reviewed-public-list-v2",
       "priceQuotes": [
+        {
+          "id": "vvx-ctd",
+          "name": "VVX 공개 가치표",
+          "url": "https://cameraman-td.vaultedvaluesx.com/value-list",
+          "value": 25,
+          "unit": "자료 표기 젬",
+          "unitVerified": true,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:36+09:00"
+        }
+      ],
+      "aliases": [],
+      "rarityStatus": "catalog",
+      "rosterObservedAt": "2026-11-14T19:51:07+09:00",
+      "historicalQuotes": [
         {
           "id": "vvx-ctd",
           "name": "VVX 공개 가치표",
@@ -541,20 +947,34 @@
           "publishedAt": null,
           "observedAt": "2026-11-14T15:46:32+09:00"
         }
-      ]
+      ],
+      "priceReviewedAt": "2026-11-14T20:01:36+09:00",
+      "priceValidUntil": "2026-11-21T20:01:36+09:00"
     },
     {
       "id": "woman-crate",
       "name": "Woman Crate",
       "category": "상자",
-      "rarity": "",
+      "rarity": "NotApplicable",
       "value": 7,
       "trend": "stable",
       "image": "images/cameraman-td/woman-crate.webp",
-      "note": "VVX 공개 표기값 · 단일 출처 참고가",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "valueStatus": "single",
-      "valueBasis": "vvx-public-reference-v1",
+      "valueBasis": "reviewed-public-list-v2",
       "priceQuotes": [
+        {
+          "id": "vvx-ctd",
+          "name": "VVX 공개 가치표",
+          "url": "https://cameraman-td.vaultedvaluesx.com/value-list",
+          "value": 7,
+          "unit": "자료 표기 젬",
+          "unitVerified": true,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:36+09:00"
+        }
+      ],
+      "historicalQuotes": [
         {
           "id": "vvx-ctd",
           "name": "VVX 공개 가치표",
@@ -563,20 +983,39 @@
           "publishedAt": null,
           "observedAt": "2026-11-14T15:46:32+09:00"
         }
-      ]
+      ],
+      "priceReviewedAt": "2026-11-14T20:01:36+09:00",
+      "priceValidUntil": "2026-11-21T20:01:36+09:00"
     },
     {
       "id": "camera-spider",
-      "name": "Camera spider",
+      "name": "Camera Spider",
       "category": "유닛",
       "rarity": "Exclusive",
       "value": 15,
       "trend": "stable",
       "image": "images/cameraman-td/camera-spider.webp",
-      "note": "VVX 공개 표기값 · 단일 출처 참고가",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "valueStatus": "single",
-      "valueBasis": "vvx-public-reference-v1",
+      "valueBasis": "reviewed-public-list-v2",
       "priceQuotes": [
+        {
+          "id": "vvx-ctd",
+          "name": "VVX 공개 가치표",
+          "url": "https://cameraman-td.vaultedvaluesx.com/value-list",
+          "value": 15,
+          "unit": "자료 표기 젬",
+          "unitVerified": true,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:36+09:00"
+        }
+      ],
+      "aliases": [
+        "Camera spider"
+      ],
+      "rarityStatus": "catalog",
+      "rosterObservedAt": "2026-11-14T19:51:07+09:00",
+      "historicalQuotes": [
         {
           "id": "vvx-ctd",
           "name": "VVX 공개 가치표",
@@ -585,20 +1024,39 @@
           "publishedAt": null,
           "observedAt": "2026-11-14T15:46:32+09:00"
         }
-      ]
+      ],
+      "priceReviewedAt": "2026-11-14T20:01:36+09:00",
+      "priceValidUntil": "2026-11-21T20:01:36+09:00"
     },
     {
       "id": "dragon-cameraman",
-      "name": "dragon cameraman",
+      "name": "Dragon Cameraman",
       "category": "유닛",
       "rarity": "Legendary",
       "value": 2,
       "trend": "stable",
       "image": "images/cameraman-td/dragon-cameraman.webp",
-      "note": "VVX 공개 표기값 · 단일 출처 참고가",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "valueStatus": "single",
-      "valueBasis": "vvx-public-reference-v1",
+      "valueBasis": "reviewed-public-list-v2",
       "priceQuotes": [
+        {
+          "id": "vvx-ctd",
+          "name": "VVX 공개 가치표",
+          "url": "https://cameraman-td.vaultedvaluesx.com/value-list",
+          "value": 2,
+          "unit": "자료 표기 젬",
+          "unitVerified": true,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:36+09:00"
+        }
+      ],
+      "aliases": [
+        "dragon cameraman"
+      ],
+      "rarityStatus": "catalog",
+      "rosterObservedAt": "2026-11-14T19:51:07+09:00",
+      "historicalQuotes": [
         {
           "id": "vvx-ctd",
           "name": "VVX 공개 가치표",
@@ -607,20 +1065,34 @@
           "publishedAt": null,
           "observedAt": "2026-11-14T15:46:32+09:00"
         }
-      ]
+      ],
+      "priceReviewedAt": "2026-11-14T20:01:36+09:00",
+      "priceValidUntil": "2026-11-21T20:01:36+09:00"
     },
     {
       "id": "halloween-crate",
       "name": "Halloween Crate",
       "category": "상자",
-      "rarity": "",
+      "rarity": "NotApplicable",
       "value": 15,
       "trend": "stable",
       "image": "images/cameraman-td/halloween-crate.webp",
-      "note": "VVX 공개 표기값 · 단일 출처 참고가",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "valueStatus": "single",
-      "valueBasis": "vvx-public-reference-v1",
+      "valueBasis": "reviewed-public-list-v2",
       "priceQuotes": [
+        {
+          "id": "vvx-ctd",
+          "name": "VVX 공개 가치표",
+          "url": "https://cameraman-td.vaultedvaluesx.com/value-list",
+          "value": 15,
+          "unit": "자료 표기 젬",
+          "unitVerified": true,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:36+09:00"
+        }
+      ],
+      "historicalQuotes": [
         {
           "id": "vvx-ctd",
           "name": "VVX 공개 가치표",
@@ -629,20 +1101,43 @@
           "publishedAt": null,
           "observedAt": "2026-11-14T15:46:32+09:00"
         }
-      ]
+      ],
+      "priceReviewedAt": "2026-11-14T20:01:36+09:00",
+      "priceValidUntil": "2026-11-21T20:01:36+09:00"
     },
     {
       "id": "speakerwoman",
-      "name": "SpeakerWoman",
+      "name": "Speakerwoman",
       "category": "유닛",
       "rarity": "Legendary",
       "value": 3,
       "trend": "stable",
       "image": "images/cameraman-td/speakerwoman.webp",
-      "note": "VVX 공개 표기값 · 단일 출처 참고가",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "valueStatus": "single",
-      "valueBasis": "vvx-public-reference-v1",
+      "valueBasis": "reviewed-public-list-v2",
       "priceQuotes": [
+        {
+          "id": "vvx-ctd",
+          "name": "VVX 공개 가치표",
+          "url": "https://cameraman-td.vaultedvaluesx.com/value-list",
+          "value": 3,
+          "unit": "자료 표기 젬",
+          "unitVerified": true,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:36+09:00"
+        }
+      ],
+      "rosterObservedAt": "2026-11-14T19:51:07+09:00",
+      "rosterSourceIds": [
+        "game-guide-ctd",
+        "bloxron-ctd"
+      ],
+      "aliases": [
+        "SpeakerWoman"
+      ],
+      "rarityStatus": "catalog",
+      "historicalQuotes": [
         {
           "id": "vvx-ctd",
           "name": "VVX 공개 가치표",
@@ -652,11 +1147,8 @@
           "observedAt": "2026-11-14T15:46:32+09:00"
         }
       ],
-      "rosterObservedAt": "2026-11-14T19:32:42+09:00",
-      "rosterSourceIds": [
-        "game-guide-ctd",
-        "bloxron-ctd"
-      ]
+      "priceReviewedAt": "2026-11-14T20:01:36+09:00",
+      "priceValidUntil": "2026-11-21T20:01:36+09:00"
     },
     {
       "id": "ninja-cameraman",
@@ -666,10 +1158,25 @@
       "value": 2,
       "trend": "stable",
       "image": "images/cameraman-td/ninja-cameraman.webp",
-      "note": "VVX 공개 표기값 · 단일 출처 참고가",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "valueStatus": "single",
-      "valueBasis": "vvx-public-reference-v1",
+      "valueBasis": "reviewed-public-list-v2",
       "priceQuotes": [
+        {
+          "id": "vvx-ctd",
+          "name": "VVX 공개 가치표",
+          "url": "https://cameraman-td.vaultedvaluesx.com/value-list",
+          "value": 2,
+          "unit": "자료 표기 젬",
+          "unitVerified": true,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:36+09:00"
+        }
+      ],
+      "aliases": [],
+      "rarityStatus": "catalog",
+      "rosterObservedAt": "2026-11-14T19:51:07+09:00",
+      "historicalQuotes": [
         {
           "id": "vvx-ctd",
           "name": "VVX 공개 가치표",
@@ -678,7 +1185,9 @@
           "publishedAt": null,
           "observedAt": "2026-11-14T15:46:32+09:00"
         }
-      ]
+      ],
+      "priceReviewedAt": "2026-11-14T20:01:36+09:00",
+      "priceValidUntil": "2026-11-21T20:01:36+09:00"
     },
     {
       "id": "titan-cameraman",
@@ -688,10 +1197,25 @@
       "value": 2,
       "trend": "stable",
       "image": "images/cameraman-td/titan-cameraman.webp",
-      "note": "VVX 공개 표기값 · 단일 출처 참고가",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "valueStatus": "single",
-      "valueBasis": "vvx-public-reference-v1",
+      "valueBasis": "reviewed-public-list-v2",
       "priceQuotes": [
+        {
+          "id": "vvx-ctd",
+          "name": "VVX 공개 가치표",
+          "url": "https://cameraman-td.vaultedvaluesx.com/value-list",
+          "value": 2,
+          "unit": "자료 표기 젬",
+          "unitVerified": true,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:36+09:00"
+        }
+      ],
+      "aliases": [],
+      "rarityStatus": "catalog",
+      "rosterObservedAt": "2026-11-14T19:51:07+09:00",
+      "historicalQuotes": [
         {
           "id": "vvx-ctd",
           "name": "VVX 공개 가치표",
@@ -700,7 +1224,9 @@
           "publishedAt": null,
           "observedAt": "2026-11-14T15:46:32+09:00"
         }
-      ]
+      ],
+      "priceReviewedAt": "2026-11-14T20:01:36+09:00",
+      "priceValidUntil": "2026-11-21T20:01:36+09:00"
     },
     {
       "id": "laser-cameraman-car",
@@ -710,10 +1236,25 @@
       "value": 2,
       "trend": "stable",
       "image": "images/cameraman-td/laser-cameraman-car.webp",
-      "note": "VVX 공개 표기값 · 단일 출처 참고가",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "valueStatus": "single",
-      "valueBasis": "vvx-public-reference-v1",
+      "valueBasis": "reviewed-public-list-v2",
       "priceQuotes": [
+        {
+          "id": "vvx-ctd",
+          "name": "VVX 공개 가치표",
+          "url": "https://cameraman-td.vaultedvaluesx.com/value-list",
+          "value": 2,
+          "unit": "자료 표기 젬",
+          "unitVerified": true,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:36+09:00"
+        }
+      ],
+      "aliases": [],
+      "rarityStatus": "catalog",
+      "rosterObservedAt": "2026-11-14T19:51:07+09:00",
+      "historicalQuotes": [
         {
           "id": "vvx-ctd",
           "name": "VVX 공개 가치표",
@@ -722,7 +1263,9 @@
           "publishedAt": null,
           "observedAt": "2026-11-14T15:46:32+09:00"
         }
-      ]
+      ],
+      "priceReviewedAt": "2026-11-14T20:01:36+09:00",
+      "priceValidUntil": "2026-11-21T20:01:36+09:00"
     },
     {
       "id": "titan-tv-man",
@@ -732,10 +1275,25 @@
       "value": 2,
       "trend": "stable",
       "image": "images/cameraman-td/titan-tv-man.webp",
-      "note": "VVX 공개 표기값 · 단일 출처 참고가",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "valueStatus": "single",
-      "valueBasis": "vvx-public-reference-v1",
+      "valueBasis": "reviewed-public-list-v2",
       "priceQuotes": [
+        {
+          "id": "vvx-ctd",
+          "name": "VVX 공개 가치표",
+          "url": "https://cameraman-td.vaultedvaluesx.com/value-list",
+          "value": 2,
+          "unit": "자료 표기 젬",
+          "unitVerified": true,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:36+09:00"
+        }
+      ],
+      "aliases": [],
+      "rarityStatus": "catalog",
+      "rosterObservedAt": "2026-11-14T19:51:07+09:00",
+      "historicalQuotes": [
         {
           "id": "vvx-ctd",
           "name": "VVX 공개 가치표",
@@ -744,7 +1302,9 @@
           "publishedAt": null,
           "observedAt": "2026-11-14T15:46:32+09:00"
         }
-      ]
+      ],
+      "priceReviewedAt": "2026-11-14T20:01:36+09:00",
+      "priceValidUntil": "2026-11-21T20:01:36+09:00"
     },
     {
       "id": "titan-speakerman",
@@ -754,10 +1314,25 @@
       "value": 1,
       "trend": "stable",
       "image": "images/cameraman-td/titan-speakerman.webp",
-      "note": "VVX 공개 표기값 · 단일 출처 참고가",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "valueStatus": "single",
-      "valueBasis": "vvx-public-reference-v1",
+      "valueBasis": "reviewed-public-list-v2",
       "priceQuotes": [
+        {
+          "id": "vvx-ctd",
+          "name": "VVX 공개 가치표",
+          "url": "https://cameraman-td.vaultedvaluesx.com/value-list",
+          "value": 1,
+          "unit": "자료 표기 젬",
+          "unitVerified": true,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:36+09:00"
+        }
+      ],
+      "aliases": [],
+      "rarityStatus": "catalog",
+      "rosterObservedAt": "2026-11-14T19:51:07+09:00",
+      "historicalQuotes": [
         {
           "id": "vvx-ctd",
           "name": "VVX 공개 가치표",
@@ -766,7 +1341,9 @@
           "publishedAt": null,
           "observedAt": "2026-11-14T15:46:32+09:00"
         }
-      ]
+      ],
+      "priceReviewedAt": "2026-11-14T20:01:36+09:00",
+      "priceValidUntil": "2026-11-21T20:01:36+09:00"
     },
     {
       "id": "hacked-cameraman",
@@ -777,10 +1354,25 @@
       "valueStatus": "single",
       "trend": "stable",
       "image": "images/cameraman-td/hacked-cameraman.webp",
-      "note": "VVX 공개 표기값 · 단일 출처 참고가",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "addedAt": "2026-11-05T06:29:01+09:00",
-      "valueBasis": "vvx-public-reference-v1",
+      "valueBasis": "reviewed-public-list-v2",
       "priceQuotes": [
+        {
+          "id": "vvx-ctd",
+          "name": "VVX 공개 가치표",
+          "url": "https://cameraman-td.vaultedvaluesx.com/value-list",
+          "value": 2000,
+          "unit": "자료 표기 젬",
+          "unitVerified": true,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:36+09:00"
+        }
+      ],
+      "aliases": [],
+      "rarityStatus": "catalog",
+      "rosterObservedAt": "2026-11-14T19:51:07+09:00",
+      "historicalQuotes": [
         {
           "id": "vvx-ctd",
           "name": "VVX 공개 가치표",
@@ -789,7 +1381,9 @@
           "publishedAt": null,
           "observedAt": "2026-11-14T15:46:32+09:00"
         }
-      ]
+      ],
+      "priceReviewedAt": "2026-11-14T20:01:36+09:00",
+      "priceValidUntil": "2026-11-21T20:01:36+09:00"
     },
     {
       "id": "pharaoh-cameraman",
@@ -800,10 +1394,29 @@
       "valueStatus": "single",
       "trend": "stable",
       "image": "images/cameraman-td/pharaoh-cameraman.webp",
-      "note": "VVX 공개 표기값 · 단일 출처 참고가",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "addedAt": "2026-11-05T06:29:01+09:00",
-      "valueBasis": "vvx-public-reference-v1",
+      "valueBasis": "reviewed-public-list-v2",
       "priceQuotes": [
+        {
+          "id": "vvx-ctd",
+          "name": "VVX 공개 가치표",
+          "url": "https://cameraman-td.vaultedvaluesx.com/value-list",
+          "value": 23000,
+          "unit": "자료 표기 젬",
+          "unitVerified": true,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:36+09:00"
+        }
+      ],
+      "rosterObservedAt": "2026-11-14T19:51:07+09:00",
+      "rosterSourceIds": [
+        "game-guide-ctd",
+        "bloxron-ctd"
+      ],
+      "aliases": [],
+      "rarityStatus": "catalog",
+      "historicalQuotes": [
         {
           "id": "vvx-ctd",
           "name": "VVX 공개 가치표",
@@ -813,11 +1426,8 @@
           "observedAt": "2026-11-14T15:46:32+09:00"
         }
       ],
-      "rosterObservedAt": "2026-11-14T19:32:42+09:00",
-      "rosterSourceIds": [
-        "game-guide-ctd",
-        "bloxron-ctd"
-      ]
+      "priceReviewedAt": "2026-11-14T20:01:36+09:00",
+      "priceValidUntil": "2026-11-21T20:01:36+09:00"
     },
     {
       "id": "upgraded-titan-tv-man",
@@ -828,10 +1438,25 @@
       "valueStatus": "single",
       "trend": "stable",
       "image": "images/cameraman-td/upgraded-titan-tv-man.webp",
-      "note": "VVX 공개 표기값 · 단일 출처 참고가",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
       "addedAt": "2026-11-05T06:29:01+09:00",
-      "valueBasis": "vvx-public-reference-v1",
+      "valueBasis": "reviewed-public-list-v2",
       "priceQuotes": [
+        {
+          "id": "vvx-ctd",
+          "name": "VVX 공개 가치표",
+          "url": "https://cameraman-td.vaultedvaluesx.com/value-list",
+          "value": 4650,
+          "unit": "자료 표기 젬",
+          "unitVerified": true,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:36+09:00"
+        }
+      ],
+      "aliases": [],
+      "rarityStatus": "catalog",
+      "rosterObservedAt": "2026-11-14T19:51:07+09:00",
+      "historicalQuotes": [
         {
           "id": "vvx-ctd",
           "name": "VVX 공개 가치표",
@@ -840,100 +1465,181 @@
           "publishedAt": null,
           "observedAt": "2026-11-14T15:46:32+09:00"
         }
-      ]
+      ],
+      "priceReviewedAt": "2026-11-14T20:01:36+09:00",
+      "priceValidUntil": "2026-11-21T20:01:36+09:00"
     },
     {
       "id": "reinforced-titan-cameraman",
       "name": "Reinforced Titan Cameraman",
       "category": "유닛",
       "rarity": "Exclusive",
-      "value": null,
-      "valueStatus": "insufficient",
-      "valueBasis": "vvx-public-reference-v1",
+      "value": 1100,
+      "valueStatus": "single",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
-      "image": "",
-      "note": "캐릭터 등록 · 숫자로 확인된 기준값이 없어 합산 보류",
-      "priceQuotes": [],
-      "rosterObservedAt": "2026-11-14T19:32:42+09:00",
+      "image": "images/cameraman-td/reinforced-titan-cameraman.webp",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
+      "priceQuotes": [
+        {
+          "id": "vvx-ctd",
+          "name": "VVX 공개 가치표",
+          "url": "https://cameraman-td.vaultedvaluesx.com/value-list",
+          "value": 1100,
+          "unit": "자료 표기 젬",
+          "unitVerified": true,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:36+09:00"
+        }
+      ],
+      "rosterObservedAt": "2026-11-14T19:51:07+09:00",
       "rosterSourceIds": [
         "game-guide-ctd",
         "bloxron-ctd"
-      ]
+      ],
+      "aliases": [],
+      "rarityStatus": "catalog",
+      "tradeReady": false,
+      "priceReviewedAt": "2026-11-14T20:01:36+09:00",
+      "priceValidUntil": "2026-11-21T20:01:36+09:00"
     },
     {
       "id": "large-laser-cameraman",
       "name": "Large Laser Cameraman",
       "category": "유닛",
       "rarity": "Mythic",
-      "value": null,
-      "valueStatus": "insufficient",
-      "valueBasis": "vvx-public-reference-v1",
+      "value": 240,
+      "valueStatus": "single",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
-      "image": "",
-      "note": "캐릭터 등록 · 숫자로 확인된 기준값이 없어 합산 보류",
-      "priceQuotes": [],
-      "rosterObservedAt": "2026-11-14T19:32:42+09:00",
+      "image": "images/cameraman-td/large-laser-cameraman.webp",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
+      "priceQuotes": [
+        {
+          "id": "vvx-ctd",
+          "name": "VVX 공개 가치표",
+          "url": "https://cameraman-td.vaultedvaluesx.com/value-list",
+          "value": 240,
+          "unit": "자료 표기 젬",
+          "unitVerified": true,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:36+09:00"
+        }
+      ],
+      "rosterObservedAt": "2026-11-14T19:51:07+09:00",
       "rosterSourceIds": [
         "game-guide-ctd",
         "bloxron-ctd"
-      ]
+      ],
+      "aliases": [],
+      "rarityStatus": "catalog",
+      "tradeReady": false,
+      "priceReviewedAt": "2026-11-14T20:01:36+09:00",
+      "priceValidUntil": "2026-11-21T20:01:36+09:00"
     },
     {
       "id": "reinforced-titan-speakerman",
       "name": "Reinforced Titan Speakerman",
       "category": "유닛",
       "rarity": "Exclusive",
-      "value": null,
-      "valueStatus": "insufficient",
-      "valueBasis": "vvx-public-reference-v1",
+      "value": 700,
+      "valueStatus": "single",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
-      "image": "",
-      "note": "캐릭터 등록 · 숫자로 확인된 기준값이 없어 합산 보류",
-      "priceQuotes": [],
-      "rosterObservedAt": "2026-11-14T19:32:42+09:00",
+      "image": "images/cameraman-td/reinforced-titan-speakerman.webp",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
+      "priceQuotes": [
+        {
+          "id": "vvx-ctd",
+          "name": "VVX 공개 가치표",
+          "url": "https://cameraman-td.vaultedvaluesx.com/value-list",
+          "value": 700,
+          "unit": "자료 표기 젬",
+          "unitVerified": true,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:36+09:00"
+        }
+      ],
+      "rosterObservedAt": "2026-11-14T19:51:07+09:00",
       "rosterSourceIds": [
         "game-guide-ctd",
         "bloxron-ctd"
-      ]
+      ],
+      "aliases": [],
+      "rarityStatus": "catalog",
+      "tradeReady": false,
+      "priceReviewedAt": "2026-11-14T20:01:36+09:00",
+      "priceValidUntil": "2026-11-21T20:01:36+09:00"
     },
     {
       "id": "prototype-duo",
-      "name": "Prototype Duo",
+      "name": "Prototypes Duo",
       "category": "유닛",
       "rarity": "Exclusive",
-      "value": null,
-      "valueStatus": "insufficient",
-      "valueBasis": "vvx-public-reference-v1",
+      "value": 500,
+      "valueStatus": "single",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
-      "image": "",
-      "note": "캐릭터 등록 · 숫자로 확인된 기준값이 없어 합산 보류",
-      "priceQuotes": [],
-      "rosterObservedAt": "2026-11-14T19:32:42+09:00",
+      "image": "images/cameraman-td/prototype-duo.webp",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
+      "priceQuotes": [
+        {
+          "id": "vvx-ctd",
+          "name": "VVX 공개 가치표",
+          "url": "https://cameraman-td.vaultedvaluesx.com/value-list",
+          "value": 500,
+          "unit": "자료 표기 젬",
+          "unitVerified": true,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:36+09:00"
+        }
+      ],
+      "rosterObservedAt": "2026-11-14T19:51:07+09:00",
       "rosterSourceIds": [
         "game-guide-ctd",
         "bloxron-ctd"
       ],
       "aliases": [
-        "Prototypes Duo"
-      ]
+        "Prototype Duo"
+      ],
+      "rarityStatus": "catalog",
+      "tradeReady": false,
+      "priceReviewedAt": "2026-11-14T20:01:36+09:00",
+      "priceValidUntil": "2026-11-21T20:01:36+09:00"
     },
     {
       "id": "camera-attack-helicopter",
       "name": "Camera Attack Helicopter",
       "category": "유닛",
       "rarity": "Mythic",
-      "value": null,
-      "valueStatus": "insufficient",
-      "valueBasis": "vvx-public-reference-v1",
+      "value": 300,
+      "valueStatus": "single",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
-      "image": "",
-      "note": "캐릭터 등록 · 숫자로 확인된 기준값이 없어 합산 보류",
-      "priceQuotes": [],
-      "rosterObservedAt": "2026-11-14T19:32:42+09:00",
+      "image": "images/cameraman-td/camera-attack-helicopter.webp",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
+      "priceQuotes": [
+        {
+          "id": "vvx-ctd",
+          "name": "VVX 공개 가치표",
+          "url": "https://cameraman-td.vaultedvaluesx.com/value-list",
+          "value": 300,
+          "unit": "자료 표기 젬",
+          "unitVerified": true,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:36+09:00"
+        }
+      ],
+      "rosterObservedAt": "2026-11-14T19:51:07+09:00",
       "rosterSourceIds": [
         "game-guide-ctd",
         "bloxron-ctd"
-      ]
+      ],
+      "aliases": [],
+      "rarityStatus": "catalog",
+      "tradeReady": false,
+      "priceReviewedAt": "2026-11-14T20:01:36+09:00",
+      "priceValidUntil": "2026-11-21T20:01:36+09:00"
     },
     {
       "id": "mummy-cameraman",
@@ -942,55 +1648,91 @@
       "rarity": "Legendary",
       "value": null,
       "valueStatus": "insufficient",
-      "valueBasis": "vvx-public-reference-v1",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
-      "image": "",
-      "note": "캐릭터 등록 · 숫자로 확인된 기준값이 없어 합산 보류",
+      "image": "images/cameraman-td/mummy-cameraman.webp",
+      "note": "현재 원문에 확인되는 숫자 없음 · 합산 보류",
       "priceQuotes": [],
-      "rosterObservedAt": "2026-11-14T19:32:42+09:00",
+      "rosterObservedAt": "2026-11-14T19:51:07+09:00",
       "rosterSourceIds": [
         "game-guide-ctd",
         "bloxron-ctd"
-      ]
+      ],
+      "aliases": [],
+      "rarityStatus": "catalog",
+      "tradeReady": false,
+      "priceReviewedAt": "2026-11-14T20:01:36+09:00",
+      "priceValidUntil": null
     },
     {
       "id": "speaker-helicopter",
       "name": "Speaker Helicopter",
       "category": "유닛",
       "rarity": "Legendary",
-      "value": null,
-      "valueStatus": "insufficient",
-      "valueBasis": "vvx-public-reference-v1",
+      "value": 35,
+      "valueStatus": "single",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
-      "image": "",
-      "note": "캐릭터 등록 · 숫자로 확인된 기준값이 없어 합산 보류",
-      "priceQuotes": [],
-      "rosterObservedAt": "2026-11-14T19:32:42+09:00",
+      "image": "images/cameraman-td/speaker-helicopter.webp",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
+      "priceQuotes": [
+        {
+          "id": "vvx-ctd",
+          "name": "VVX 공개 가치표",
+          "url": "https://cameraman-td.vaultedvaluesx.com/value-list",
+          "value": 35,
+          "unit": "자료 표기 젬",
+          "unitVerified": true,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:36+09:00"
+        }
+      ],
+      "rosterObservedAt": "2026-11-14T19:51:07+09:00",
       "rosterSourceIds": [
         "game-guide-ctd",
         "bloxron-ctd"
-      ]
+      ],
+      "aliases": [],
+      "rarityStatus": "catalog",
+      "tradeReady": false,
+      "priceReviewedAt": "2026-11-14T20:01:36+09:00",
+      "priceValidUntil": "2026-11-21T20:01:36+09:00"
     },
     {
       "id": "vampire-camera-man",
-      "name": "Vampire Camera Man",
+      "name": "Vampire Cameraman",
       "category": "유닛",
       "rarity": "Exclusive",
-      "value": null,
-      "valueStatus": "insufficient",
-      "valueBasis": "vvx-public-reference-v1",
+      "value": 750,
+      "valueStatus": "single",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
-      "image": "",
-      "note": "캐릭터 등록 · 숫자로 확인된 기준값이 없어 합산 보류",
-      "priceQuotes": [],
-      "rosterObservedAt": "2026-11-14T19:32:42+09:00",
+      "image": "images/cameraman-td/vampire-camera-man.webp",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
+      "priceQuotes": [
+        {
+          "id": "vvx-ctd",
+          "name": "VVX 공개 가치표",
+          "url": "https://cameraman-td.vaultedvaluesx.com/value-list",
+          "value": 750,
+          "unit": "자료 표기 젬",
+          "unitVerified": true,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:36+09:00"
+        }
+      ],
+      "rosterObservedAt": "2026-11-14T19:51:07+09:00",
       "rosterSourceIds": [
         "game-guide-ctd",
         "bloxron-ctd"
       ],
       "aliases": [
-        "Vampire Cameraman"
-      ]
+        "Vampire Camera Man"
+      ],
+      "rarityStatus": "catalog",
+      "tradeReady": false,
+      "priceReviewedAt": "2026-11-14T20:01:36+09:00",
+      "priceValidUntil": "2026-11-21T20:01:36+09:00"
     },
     {
       "id": "werewolf-speakerman",
@@ -999,34 +1741,55 @@
       "rarity": "Rare",
       "value": null,
       "valueStatus": "insufficient",
-      "valueBasis": "vvx-public-reference-v1",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
-      "image": "",
-      "note": "캐릭터 등록 · 숫자로 확인된 기준값이 없어 합산 보류",
+      "image": "images/cameraman-td/werewolf-speakerman.webp",
+      "note": "현재 원문에 확인되는 숫자 없음 · 합산 보류",
       "priceQuotes": [],
-      "rosterObservedAt": "2026-11-14T19:32:42+09:00",
+      "rosterObservedAt": "2026-11-14T19:51:07+09:00",
       "rosterSourceIds": [
         "game-guide-ctd",
         "bloxron-ctd"
-      ]
+      ],
+      "aliases": [],
+      "rarityStatus": "catalog",
+      "tradeReady": false,
+      "priceReviewedAt": "2026-11-14T20:01:36+09:00",
+      "priceValidUntil": null
     },
     {
       "id": "dark-speakerman",
       "name": "Dark Speakerman",
       "category": "유닛",
       "rarity": "Legendary",
-      "value": null,
-      "valueStatus": "insufficient",
-      "valueBasis": "vvx-public-reference-v1",
+      "value": 35,
+      "valueStatus": "single",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
-      "image": "",
-      "note": "캐릭터 등록 · 숫자로 확인된 기준값이 없어 합산 보류",
-      "priceQuotes": [],
-      "rosterObservedAt": "2026-11-14T19:32:42+09:00",
+      "image": "images/cameraman-td/dark-speakerman.webp",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님",
+      "priceQuotes": [
+        {
+          "id": "vvx-ctd",
+          "name": "VVX 공개 가치표",
+          "url": "https://cameraman-td.vaultedvaluesx.com/value-list",
+          "value": 35,
+          "unit": "자료 표기 젬",
+          "unitVerified": true,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:36+09:00"
+        }
+      ],
+      "rosterObservedAt": "2026-11-14T19:51:07+09:00",
       "rosterSourceIds": [
         "game-guide-ctd",
         "bloxron-ctd"
-      ]
+      ],
+      "aliases": [],
+      "rarityStatus": "catalog",
+      "tradeReady": false,
+      "priceReviewedAt": "2026-11-14T20:01:36+09:00",
+      "priceValidUntil": "2026-11-21T20:01:36+09:00"
     },
     {
       "id": "rocket-cameraman",
@@ -1035,16 +1798,21 @@
       "rarity": "Epic",
       "value": null,
       "valueStatus": "insufficient",
-      "valueBasis": "vvx-public-reference-v1",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
-      "image": "",
-      "note": "캐릭터 등록 · 숫자로 확인된 기준값이 없어 합산 보류",
+      "image": "images/cameraman-td/rocket-cameraman.webp",
+      "note": "현재 원문에 확인되는 숫자 없음 · 합산 보류",
       "priceQuotes": [],
-      "rosterObservedAt": "2026-11-14T19:32:42+09:00",
+      "rosterObservedAt": "2026-11-14T19:51:07+09:00",
       "rosterSourceIds": [
         "game-guide-ctd",
         "bloxron-ctd"
-      ]
+      ],
+      "aliases": [],
+      "rarityStatus": "catalog",
+      "tradeReady": false,
+      "priceReviewedAt": "2026-11-14T20:01:36+09:00",
+      "priceValidUntil": null
     },
     {
       "id": "clown-speakerman",
@@ -1053,16 +1821,21 @@
       "rarity": "Uncommon",
       "value": null,
       "valueStatus": "insufficient",
-      "valueBasis": "vvx-public-reference-v1",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
-      "image": "",
-      "note": "캐릭터 등록 · 숫자로 확인된 기준값이 없어 합산 보류",
+      "image": "images/cameraman-td/clown-speakerman.webp",
+      "note": "현재 원문에 확인되는 숫자 없음 · 합산 보류",
       "priceQuotes": [],
-      "rosterObservedAt": "2026-11-14T19:32:42+09:00",
+      "rosterObservedAt": "2026-11-14T19:51:07+09:00",
       "rosterSourceIds": [
         "game-guide-ctd",
         "bloxron-ctd"
-      ]
+      ],
+      "aliases": [],
+      "rarityStatus": "catalog",
+      "tradeReady": false,
+      "priceReviewedAt": "2026-11-14T20:01:36+09:00",
+      "priceValidUntil": null
     },
     {
       "id": "large-tv-man",
@@ -1071,16 +1844,21 @@
       "rarity": "Epic",
       "value": null,
       "valueStatus": "insufficient",
-      "valueBasis": "vvx-public-reference-v1",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
-      "image": "",
-      "note": "캐릭터 등록 · 숫자로 확인된 기준값이 없어 합산 보류",
+      "image": "images/cameraman-td/large-tv-man.webp",
+      "note": "현재 원문에 확인되는 숫자 없음 · 합산 보류",
       "priceQuotes": [],
-      "rosterObservedAt": "2026-11-14T19:32:42+09:00",
+      "rosterObservedAt": "2026-11-14T19:51:07+09:00",
       "rosterSourceIds": [
         "game-guide-ctd",
         "bloxron-ctd"
-      ]
+      ],
+      "aliases": [],
+      "rarityStatus": "catalog",
+      "tradeReady": false,
+      "priceReviewedAt": "2026-11-14T20:01:36+09:00",
+      "priceValidUntil": null
     },
     {
       "id": "speaker-spider",
@@ -1089,16 +1867,21 @@
       "rarity": "Exclusive",
       "value": null,
       "valueStatus": "insufficient",
-      "valueBasis": "vvx-public-reference-v1",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
-      "image": "",
-      "note": "캐릭터 등록 · 숫자로 확인된 기준값이 없어 합산 보류",
+      "image": "images/cameraman-td/speaker-spider.webp",
+      "note": "현재 원문에 확인되는 숫자 없음 · 합산 보류",
       "priceQuotes": [],
-      "rosterObservedAt": "2026-11-14T19:32:42+09:00",
+      "rosterObservedAt": "2026-11-14T19:51:07+09:00",
       "rosterSourceIds": [
         "game-guide-ctd",
         "bloxron-ctd"
-      ]
+      ],
+      "aliases": [],
+      "rarityStatus": "catalog",
+      "tradeReady": false,
+      "priceReviewedAt": "2026-11-14T20:01:36+09:00",
+      "priceValidUntil": null
     },
     {
       "id": "large-cameraman",
@@ -1107,16 +1890,21 @@
       "rarity": "Epic",
       "value": null,
       "valueStatus": "insufficient",
-      "valueBasis": "vvx-public-reference-v1",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
-      "image": "",
-      "note": "캐릭터 등록 · 숫자로 확인된 기준값이 없어 합산 보류",
+      "image": "images/cameraman-td/large-cameraman.webp",
+      "note": "현재 원문에 확인되는 숫자 없음 · 합산 보류",
       "priceQuotes": [],
-      "rosterObservedAt": "2026-11-14T19:32:42+09:00",
+      "rosterObservedAt": "2026-11-14T19:51:07+09:00",
       "rosterSourceIds": [
         "game-guide-ctd",
         "bloxron-ctd"
-      ]
+      ],
+      "aliases": [],
+      "rarityStatus": "catalog",
+      "tradeReady": false,
+      "priceReviewedAt": "2026-11-14T20:01:36+09:00",
+      "priceValidUntil": null
     },
     {
       "id": "dark-camerawoman",
@@ -1125,16 +1913,21 @@
       "rarity": "Epic",
       "value": null,
       "valueStatus": "insufficient",
-      "valueBasis": "vvx-public-reference-v1",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
-      "image": "",
-      "note": "캐릭터 등록 · 숫자로 확인된 기준값이 없어 합산 보류",
+      "image": "images/cameraman-td/dark-camerawoman.webp",
+      "note": "현재 원문에 확인되는 숫자 없음 · 합산 보류",
       "priceQuotes": [],
-      "rosterObservedAt": "2026-11-14T19:32:42+09:00",
+      "rosterObservedAt": "2026-11-14T19:51:07+09:00",
       "rosterSourceIds": [
         "game-guide-ctd",
         "bloxron-ctd"
-      ]
+      ],
+      "aliases": [],
+      "rarityStatus": "catalog",
+      "tradeReady": false,
+      "priceReviewedAt": "2026-11-14T20:01:36+09:00",
+      "priceValidUntil": null
     },
     {
       "id": "large-speakerman",
@@ -1143,16 +1936,21 @@
       "rarity": "Epic",
       "value": null,
       "valueStatus": "insufficient",
-      "valueBasis": "vvx-public-reference-v1",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
-      "image": "",
-      "note": "캐릭터 등록 · 숫자로 확인된 기준값이 없어 합산 보류",
+      "image": "images/cameraman-td/large-speakerman.webp",
+      "note": "현재 원문에 확인되는 숫자 없음 · 합산 보류",
       "priceQuotes": [],
-      "rosterObservedAt": "2026-11-14T19:32:42+09:00",
+      "rosterObservedAt": "2026-11-14T19:51:07+09:00",
       "rosterSourceIds": [
         "game-guide-ctd",
         "bloxron-ctd"
-      ]
+      ],
+      "aliases": [],
+      "rarityStatus": "catalog",
+      "tradeReady": false,
+      "priceReviewedAt": "2026-11-14T20:01:36+09:00",
+      "priceValidUntil": null
     },
     {
       "id": "tv-man",
@@ -1161,16 +1959,21 @@
       "rarity": "Rare",
       "value": null,
       "valueStatus": "insufficient",
-      "valueBasis": "vvx-public-reference-v1",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
-      "image": "",
-      "note": "캐릭터 등록 · 숫자로 확인된 기준값이 없어 합산 보류",
+      "image": "images/cameraman-td/tv-man.webp",
+      "note": "현재 원문에 확인되는 숫자 없음 · 합산 보류",
       "priceQuotes": [],
-      "rosterObservedAt": "2026-11-14T19:32:42+09:00",
+      "rosterObservedAt": "2026-11-14T19:51:07+09:00",
       "rosterSourceIds": [
         "game-guide-ctd",
         "bloxron-ctd"
-      ]
+      ],
+      "aliases": [],
+      "rarityStatus": "catalog",
+      "tradeReady": false,
+      "priceReviewedAt": "2026-11-14T20:01:36+09:00",
+      "priceValidUntil": null
     },
     {
       "id": "brown-cameraman",
@@ -1179,16 +1982,21 @@
       "rarity": "Uncommon",
       "value": null,
       "valueStatus": "insufficient",
-      "valueBasis": "vvx-public-reference-v1",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
-      "image": "",
-      "note": "캐릭터 등록 · 숫자로 확인된 기준값이 없어 합산 보류",
+      "image": "images/cameraman-td/brown-cameraman.webp",
+      "note": "현재 원문에 확인되는 숫자 없음 · 합산 보류",
       "priceQuotes": [],
-      "rosterObservedAt": "2026-11-14T19:32:42+09:00",
+      "rosterObservedAt": "2026-11-14T19:51:07+09:00",
       "rosterSourceIds": [
         "game-guide-ctd",
         "bloxron-ctd"
-      ]
+      ],
+      "aliases": [],
+      "rarityStatus": "catalog",
+      "tradeReady": false,
+      "priceReviewedAt": "2026-11-14T20:01:36+09:00",
+      "priceValidUntil": null
     },
     {
       "id": "car-speakerman",
@@ -1197,16 +2005,21 @@
       "rarity": "Uncommon",
       "value": null,
       "valueStatus": "insufficient",
-      "valueBasis": "vvx-public-reference-v1",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
-      "image": "",
-      "note": "캐릭터 등록 · 숫자로 확인된 기준값이 없어 합산 보류",
+      "image": "images/cameraman-td/car-speakerman.webp",
+      "note": "현재 원문에 확인되는 숫자 없음 · 합산 보류",
       "priceQuotes": [],
-      "rosterObservedAt": "2026-11-14T19:32:42+09:00",
+      "rosterObservedAt": "2026-11-14T19:51:07+09:00",
       "rosterSourceIds": [
         "game-guide-ctd",
         "bloxron-ctd"
-      ]
+      ],
+      "aliases": [],
+      "rarityStatus": "catalog",
+      "tradeReady": false,
+      "priceReviewedAt": "2026-11-14T20:01:36+09:00",
+      "priceValidUntil": null
     },
     {
       "id": "cameraman",
@@ -1215,16 +2028,21 @@
       "rarity": "Basic",
       "value": null,
       "valueStatus": "insufficient",
-      "valueBasis": "vvx-public-reference-v1",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
-      "image": "",
-      "note": "캐릭터 등록 · 숫자로 확인된 기준값이 없어 합산 보류",
+      "image": "images/cameraman-td/cameraman.webp",
+      "note": "현재 원문에 확인되는 숫자 없음 · 합산 보류",
       "priceQuotes": [],
-      "rosterObservedAt": "2026-11-14T19:32:42+09:00",
+      "rosterObservedAt": "2026-11-14T19:51:07+09:00",
       "rosterSourceIds": [
         "game-guide-ctd",
         "bloxron-ctd"
-      ]
+      ],
+      "aliases": [],
+      "rarityStatus": "catalog",
+      "tradeReady": false,
+      "priceReviewedAt": "2026-11-14T20:01:36+09:00",
+      "priceValidUntil": null
     },
     {
       "id": "speakerman",
@@ -1233,16 +2051,21 @@
       "rarity": "Basic",
       "value": null,
       "valueStatus": "insufficient",
-      "valueBasis": "vvx-public-reference-v1",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
-      "image": "",
-      "note": "캐릭터 등록 · 숫자로 확인된 기준값이 없어 합산 보류",
+      "image": "images/cameraman-td/speakerman.webp",
+      "note": "현재 원문에 확인되는 숫자 없음 · 합산 보류",
       "priceQuotes": [],
-      "rosterObservedAt": "2026-11-14T19:32:42+09:00",
+      "rosterObservedAt": "2026-11-14T19:51:07+09:00",
       "rosterSourceIds": [
         "game-guide-ctd",
         "bloxron-ctd"
-      ]
+      ],
+      "aliases": [],
+      "rarityStatus": "catalog",
+      "tradeReady": false,
+      "priceReviewedAt": "2026-11-14T20:01:36+09:00",
+      "priceValidUntil": null
     },
     {
       "id": "camera-helicopter",
@@ -1251,16 +2074,21 @@
       "rarity": "Epic",
       "value": null,
       "valueStatus": "insufficient",
-      "valueBasis": "vvx-public-reference-v1",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
-      "image": "",
-      "note": "캐릭터 등록 · 숫자로 확인된 기준값이 없어 합산 보류",
+      "image": "images/cameraman-td/camera-helicopter.webp",
+      "note": "현재 원문에 확인되는 숫자 없음 · 합산 보류",
       "priceQuotes": [],
-      "rosterObservedAt": "2026-11-14T19:32:42+09:00",
+      "rosterObservedAt": "2026-11-14T19:51:07+09:00",
       "rosterSourceIds": [
         "game-guide-ctd",
         "bloxron-ctd"
-      ]
+      ],
+      "aliases": [],
+      "rarityStatus": "catalog",
+      "tradeReady": false,
+      "priceReviewedAt": "2026-11-14T20:01:36+09:00",
+      "priceValidUntil": null
     },
     {
       "id": "popcorn-cameraman",
@@ -1269,18 +2097,64 @@
       "rarity": "Rare",
       "value": null,
       "valueStatus": "insufficient",
-      "valueBasis": "vvx-public-reference-v1",
+      "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
-      "image": "",
-      "note": "캐릭터 등록 · 숫자로 확인된 기준값이 없어 합산 보류",
+      "image": "images/cameraman-td/popcorn-cameraman.webp",
+      "note": "현재 원문에 확인되는 숫자 없음 · 합산 보류",
       "priceQuotes": [],
-      "rosterObservedAt": "2026-11-14T19:32:42+09:00",
+      "rosterObservedAt": "2026-11-14T19:51:07+09:00",
       "rosterSourceIds": [
         "bloxron-ctd",
         "eggvalues-ctd"
-      ]
+      ],
+      "aliases": [],
+      "rarityStatus": "catalog",
+      "tradeReady": false,
+      "priceReviewedAt": "2026-11-14T20:01:36+09:00",
+      "priceValidUntil": null
+    },
+    {
+      "id": "sand-coffin-crate",
+      "name": "Sand Coffin Crate",
+      "category": "상자",
+      "rarity": "NotApplicable",
+      "value": 235,
+      "valueStatus": "single",
+      "image": "images/cameraman-td/sand-coffin-crate.webp",
+      "tradeReady": false,
+      "priceQuotes": [
+        {
+          "id": "vvx-ctd",
+          "name": "VVX 공개 가치표",
+          "url": "https://cameraman-td.vaultedvaluesx.com/value-list",
+          "value": 235,
+          "unit": "자료 표기 젬",
+          "unitVerified": true,
+          "publishedAt": null,
+          "observedAt": "2026-11-14T20:01:36+09:00"
+        }
+      ],
+      "valueBasis": "reviewed-public-list-v2",
+      "trend": "stable",
+      "priceReviewedAt": "2026-11-14T20:01:36+09:00",
+      "priceValidUntil": "2026-11-21T20:01:36+09:00",
+      "note": "단일 목록 참고값 · 실제 거래 체결가 아님"
     }
   ],
   "pricingMode": "comparison",
-  "rosterUpdatedAt": "2026-11-14T19:32:42+09:00"
+  "rosterUpdatedAt": "2026-11-14T19:32:42+09:00",
+  "rarityNote": "게임 유닛 목록의 희귀도를 표시합니다. Headless TV Man은 자료마다 등급이 달라 확인 중입니다.",
+  "pricePolicy": {
+    "maximumAgeDays": 7,
+    "unitVerified": true,
+    "unitNote": "원문에 젬 단위로 표기된 참고값이며 실제 거래 체결가가 아닙니다.",
+    "refreshHours": 6
+  },
+  "priceReview": {
+    "checkedAt": "2026-11-14T20:01:36+09:00",
+    "method": "whole-public-html",
+    "priced": 45,
+    "ranges": 1,
+    "unpriced": 16
+  }
 }

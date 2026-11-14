@@ -18,7 +18,7 @@
       "dataFile": "data/cameraman-td.json",
       "cover": "images/cameraman-td/cover.png",
       "accent": "#ff4d6d",
-      "description": "유닛 참고값 · 숫자 없는 항목은 합산 보류"
+      "description": "유닛·상자·패스 참고값 · 미확인 합산 보류"
     },
     {
       "id": "king-legacy",
@@ -27,7 +27,8 @@
       "dataFile": "data/king-legacy.json",
       "cover": "images/king-legacy/cover.svg",
       "accent": "#f5be55",
-      "description": "열매·영구 열매·장비·재료 참고 범위 · 합산 보류"
+      "description": "현재 목록 참고값 · 단위 구분 · 미확인 합산 보류",
+      "tradeRegistration": "pending"
     },
     {
       "id": "sample-pirate",

@@ -1,0 +1,379 @@
+{
+  "checkedAt": "2026-11-14T19:51:07+09:00",
+  "images": [
+    {
+      "gameId": "cameraman-td",
+      "id": "reinforced-titan-cameraman",
+      "path": "images/cameraman-td/reinforced-titan-cameraman.webp",
+      "url": "https://www.vaultedvaluesx.com/api/media/public/approved/a425777b-a78c-435c-ac5a-21f222a484b2/approved/05bc46ab-1f88-4fc5-bec9-3700b3b1d6b4/4c30e904123968368294a31800cd0079613eccbe405899b54f6d08ace87998b8.webp",
+      "page": "https://cameraman-td.vaultedvaluesx.com/value-list",
+      "sha256": "4c30e904123968368294a31800cd0079613eccbe405899b54f6d08ace87998b8",
+      "width": 1920,
+      "height": 1920
+    },
+    {
+      "gameId": "cameraman-td",
+      "id": "large-laser-cameraman",
+      "path": "images/cameraman-td/large-laser-cameraman.webp",
+      "url": "https://www.vaultedvaluesx.com/api/media/public/approved/71eba3d7-c384-4549-aa56-1f6b25cc574a/approved/863118df-1159-4021-8158-083bdc8c23ab/976587a9102f41446f7018e36c914d7b3f35e35bdf3cea5376dbe04c143d006e.webp",
+      "page": "https://cameraman-td.vaultedvaluesx.com/value-list",
+      "sha256": "976587a9102f41446f7018e36c914d7b3f35e35bdf3cea5376dbe04c143d006e",
+      "width": 1920,
+      "height": 1920
+    },
+    {
+      "gameId": "cameraman-td",
+      "id": "reinforced-titan-speakerman",
+      "path": "images/cameraman-td/reinforced-titan-speakerman.webp",
+      "url": "https://www.vaultedvaluesx.com/api/media/public/approved/a425777b-a78c-435c-ac5a-21f222a484b2/approved/11c1c6d3-65fc-4382-a278-39ac39176217/5ea2949738d82ae69605e0ab7729c57629c0bd58b2e6202f69ba9422fda25558.webp",
+      "page": "https://cameraman-td.vaultedvaluesx.com/value-list",
+      "sha256": "5ea2949738d82ae69605e0ab7729c57629c0bd58b2e6202f69ba9422fda25558",
+      "width": 1920,
+      "height": 1920
+    },
+    {
+      "gameId": "cameraman-td",
+      "id": "prototype-duo",
+      "path": "images/cameraman-td/prototype-duo.webp",
+      "url": "https://www.vaultedvaluesx.com/api/media/public/approved/a425777b-a78c-435c-ac5a-21f222a484b2/approved/1043b5bd-2143-4136-9203-0c19d5f96e76/f09a163ba94cb608ff4b54cfd74c93c05513daf8c54c94f2e3ea8989cab30269.webp",
+      "page": "https://cameraman-td.vaultedvaluesx.com/value-list",
+      "sha256": "f09a163ba94cb608ff4b54cfd74c93c05513daf8c54c94f2e3ea8989cab30269",
+      "width": 1920,
+      "height": 1920
+    },
+    {
+      "gameId": "cameraman-td",
+      "id": "camera-attack-helicopter",
+      "path": "images/cameraman-td/camera-attack-helicopter.webp",
+      "url": "https://www.vaultedvaluesx.com/api/media/public/approved/66d8cfd1-7eb6-4387-88f7-122e3018674b/approved/5047cb47-9d22-4dd9-afe4-186215b68a7d/5e4f6b6804823a9a1d69462600f91649fff5e46a3ff6c48b29c5997dfeccf8c2.webp",
+      "page": "https://cameraman-td.vaultedvaluesx.com/value-list",
+      "sha256": "5e4f6b6804823a9a1d69462600f91649fff5e46a3ff6c48b29c5997dfeccf8c2",
+      "width": 1920,
+      "height": 1920
+    },
+    {
+      "gameId": "cameraman-td",
+      "id": "mummy-cameraman",
+      "path": "images/cameraman-td/mummy-cameraman.webp",
+      "url": "https://www.game.guide/images/cameraman-tower-defense/game/mummy-cameraman.webp",
+      "page": "https://www.game.guide/cameraman-tower-defense/units",
+      "sha256": "686e2490ed84afd5ba1ae05adc3c02630e465bcf06f5ad7d6c6b9631af4d50b9",
+      "width": 420,
+      "height": 420
+    },
+    {
+      "gameId": "cameraman-td",
+      "id": "speaker-helicopter",
+      "path": "images/cameraman-td/speaker-helicopter.webp",
+      "url": "https://www.vaultedvaluesx.com/api/media/public/approved/66d8cfd1-7eb6-4387-88f7-122e3018674b/approved/22a04178-3b29-4f31-9148-dfbfbcc8fc05/9273c5b22fe24ba27bb4c225f4d66866734a2a13c15bef86d6884dc8455e3ca4.webp",
+      "page": "https://cameraman-td.vaultedvaluesx.com/value-list",
+      "sha256": "9273c5b22fe24ba27bb4c225f4d66866734a2a13c15bef86d6884dc8455e3ca4",
+      "width": 1920,
+      "height": 1920
+    },
+    {
+      "gameId": "cameraman-td",
+      "id": "vampire-camera-man",
+      "path": "images/cameraman-td/vampire-camera-man.webp",
+      "url": "https://www.vaultedvaluesx.com/api/media/public/approved/71eba3d7-c384-4549-aa56-1f6b25cc574a/approved/a9208d25-b17f-42ca-8f3d-3dca80f216c9/d62e23483eb2dfa49c3b4c85c0e73ef7f4d5fb6c6156328a5f75c0bc30f3e310.webp",
+      "page": "https://cameraman-td.vaultedvaluesx.com/value-list",
+      "sha256": "d62e23483eb2dfa49c3b4c85c0e73ef7f4d5fb6c6156328a5f75c0bc30f3e310",
+      "width": 1920,
+      "height": 1920
+    },
+    {
+      "gameId": "cameraman-td",
+      "id": "werewolf-speakerman",
+      "path": "images/cameraman-td/werewolf-speakerman.webp",
+      "url": "https://www.game.guide/images/cameraman-tower-defense/game/werewolf-speakerman.webp",
+      "page": "https://www.game.guide/cameraman-tower-defense/units",
+      "sha256": "8daaf67f38ee5854996ce3c366a2cb88d5adc8027d95fa1524ccab92b091367f",
+      "width": 420,
+      "height": 420
+    },
+    {
+      "gameId": "cameraman-td",
+      "id": "dark-speakerman",
+      "path": "images/cameraman-td/dark-speakerman.webp",
+      "url": "https://www.vaultedvaluesx.com/api/media/public/approved/66d8cfd1-7eb6-4387-88f7-122e3018674b/approved/d4a327b7-9309-476b-9383-e2e2aeab3339/2057fa5650fab5333e6bced7ea31ce344cb8eb965019da1bbb0811c085914224.webp",
+      "page": "https://cameraman-td.vaultedvaluesx.com/value-list",
+      "sha256": "2057fa5650fab5333e6bced7ea31ce344cb8eb965019da1bbb0811c085914224",
+      "width": 1920,
+      "height": 1920
+    },
+    {
+      "gameId": "cameraman-td",
+      "id": "rocket-cameraman",
+      "path": "images/cameraman-td/rocket-cameraman.webp",
+      "url": "https://www.game.guide/images/cameraman-tower-defense/game/rocket-cameraman.webp",
+      "page": "https://www.game.guide/cameraman-tower-defense/units",
+      "sha256": "92c7e8da54b35c4a7daf1c4e79f915bb6adb63d0271fd066df9b827dffaffa72",
+      "width": 420,
+      "height": 420
+    },
+    {
+      "gameId": "cameraman-td",
+      "id": "clown-speakerman",
+      "path": "images/cameraman-td/clown-speakerman.webp",
+      "url": "https://www.game.guide/images/cameraman-tower-defense/game/clown-speakerman.webp",
+      "page": "https://www.game.guide/cameraman-tower-defense/units",
+      "sha256": "756f33568a92919f483a451acb692d9c5d5e6fc86e9178e2e832faa5895e785d",
+      "width": 420,
+      "height": 420
+    },
+    {
+      "gameId": "cameraman-td",
+      "id": "large-tv-man",
+      "path": "images/cameraman-td/large-tv-man.webp",
+      "url": "https://www.vaultedvaluesx.com/api/media/public/approved/a425777b-a78c-435c-ac5a-21f222a484b2/approved/e5d4357f-3102-4963-848f-ac23cde04b6a/e5601149ce35546bd7b060765b485f5007b44ed1b320d7d758dcfa3075ecec0b.webp",
+      "page": "https://cameraman-td.vaultedvaluesx.com/value-list",
+      "sha256": "e5601149ce35546bd7b060765b485f5007b44ed1b320d7d758dcfa3075ecec0b",
+      "width": 1920,
+      "height": 1920
+    },
+    {
+      "gameId": "cameraman-td",
+      "id": "speaker-spider",
+      "path": "images/cameraman-td/speaker-spider.webp",
+      "url": "https://www.game.guide/images/cameraman-tower-defense/game/speaker-spider.webp",
+      "page": "https://www.game.guide/cameraman-tower-defense/units",
+      "sha256": "a474e0e4b26255a820aa3e5316b5c8d67f7610264f82b04334a42d4b10e8ccfc",
+      "width": 420,
+      "height": 420
+    },
+    {
+      "gameId": "cameraman-td",
+      "id": "large-cameraman",
+      "path": "images/cameraman-td/large-cameraman.webp",
+      "url": "https://www.game.guide/images/cameraman-tower-defense/game/large-cameraman.webp",
+      "page": "https://www.game.guide/cameraman-tower-defense/units",
+      "sha256": "f2ce88c7090dfb6ee2aa408251fbf81d494091ccc7309cd29c5e7b4c3695b918",
+      "width": 420,
+      "height": 420
+    },
+    {
+      "gameId": "cameraman-td",
+      "id": "dark-camerawoman",
+      "path": "images/cameraman-td/dark-camerawoman.webp",
+      "url": "https://www.vaultedvaluesx.com/api/media/public/approved/d1d7ac3e-b8ab-41d5-9130-a5fec3962e04/approved/6f33ad73-742a-4a4d-af76-eb38db06caa8/fc3fc89e002eb414f61b2395b058d89f40ee7e51a757b0eea1a59293ca3c9a19.webp",
+      "page": "https://cameraman-td.vaultedvaluesx.com/value-list",
+      "sha256": "fc3fc89e002eb414f61b2395b058d89f40ee7e51a757b0eea1a59293ca3c9a19",
+      "width": 1920,
+      "height": 1920
+    },
+    {
+      "gameId": "cameraman-td",
+      "id": "large-speakerman",
+      "path": "images/cameraman-td/large-speakerman.webp",
+      "url": "https://www.game.guide/images/cameraman-tower-defense/game/large-speakerman.webp",
+      "page": "https://www.game.guide/cameraman-tower-defense/units",
+      "sha256": "5df30b0febb3bca83255226676803de3e25d507e7f068382998ead4de2771ab4",
+      "width": 420,
+      "height": 420
+    },
+    {
+      "gameId": "cameraman-td",
+      "id": "tv-man",
+      "path": "images/cameraman-td/tv-man.webp",
+      "url": "https://www.game.guide/images/cameraman-tower-defense/game/tv-man.webp",
+      "page": "https://www.game.guide/cameraman-tower-defense/units",
+      "sha256": "031a5dc4b64312c6229507052a0a58fa567a6d236c0ec245c152f3b91739d371",
+      "width": 420,
+      "height": 420
+    },
+    {
+      "gameId": "cameraman-td",
+      "id": "brown-cameraman",
+      "path": "images/cameraman-td/brown-cameraman.webp",
+      "url": "https://www.game.guide/images/cameraman-tower-defense/game/brown-cameraman.webp",
+      "page": "https://www.game.guide/cameraman-tower-defense/units",
+      "sha256": "fc892e81fe413a531d5098cfecb2b6423bd39b3f266936ef4a26c7b8700bda04",
+      "width": 420,
+      "height": 420
+    },
+    {
+      "gameId": "cameraman-td",
+      "id": "car-speakerman",
+      "path": "images/cameraman-td/car-speakerman.webp",
+      "url": "https://www.vaultedvaluesx.com/api/media/public/approved/a425777b-a78c-435c-ac5a-21f222a484b2/approved/ff4f4e70-1ce9-44f7-b3b7-a25091da0a63/f0b170d64d512cc1590d9c33a79436146cb83ea325e757dd3016ba86c7f62dfd.webp",
+      "page": "https://cameraman-td.vaultedvaluesx.com/value-list",
+      "sha256": "f0b170d64d512cc1590d9c33a79436146cb83ea325e757dd3016ba86c7f62dfd",
+      "width": 500,
+      "height": 500
+    },
+    {
+      "gameId": "cameraman-td",
+      "id": "cameraman",
+      "path": "images/cameraman-td/cameraman.webp",
+      "url": "https://www.game.guide/images/cameraman-tower-defense/game/cameraman.webp",
+      "page": "https://www.game.guide/cameraman-tower-defense/units",
+      "sha256": "007ccf317afff9039914037aa267715d8a0ba4b850d12c93338e2514895a2f34",
+      "width": 420,
+      "height": 420
+    },
+    {
+      "gameId": "cameraman-td",
+      "id": "speakerman",
+      "path": "images/cameraman-td/speakerman.webp",
+      "url": "https://www.game.guide/images/cameraman-tower-defense/game/speakerman.webp",
+      "page": "https://www.game.guide/cameraman-tower-defense/units",
+      "sha256": "6370934eb0e0df9fb888c25fbbb44efd3a641407230d627a4d611cc9f671d3cc",
+      "width": 420,
+      "height": 420
+    },
+    {
+      "gameId": "cameraman-td",
+      "id": "camera-helicopter",
+      "path": "images/cameraman-td/camera-helicopter.webp",
+      "url": "https://www.vaultedvaluesx.com/api/media/public/approved/a425777b-a78c-435c-ac5a-21f222a484b2/approved/787df8b6-cb40-493f-b348-995b8f949fe6/af2b6ceadaa1c76c5497ff198657da718cdee74be1566d7e84bbb6565ebd1cf5.webp",
+      "page": "https://cameraman-td.vaultedvaluesx.com/value-list",
+      "sha256": "af2b6ceadaa1c76c5497ff198657da718cdee74be1566d7e84bbb6565ebd1cf5",
+      "width": 1920,
+      "height": 1920
+    },
+    {
+      "gameId": "cameraman-td",
+      "id": "popcorn-cameraman",
+      "path": "images/cameraman-td/popcorn-cameraman.webp",
+      "url": "https://www.game.guide/images/cameraman-tower-defense/game/popcorn-cameraman.webp",
+      "page": "https://www.game.guide/cameraman-tower-defense/units",
+      "sha256": "fa5d2e1e83e9d1e7de198437d42c35d5308e24c1e04e29fbba514c9f941352cb",
+      "width": 420,
+      "height": 420
+    },
+    {
+      "gameId": "king-legacy",
+      "id": "pter-fruit",
+      "path": "images/king-legacy/pter-fruit.webp",
+      "url": "https://static.wixstatic.com/media/2814ef_cb394a40818741d298b3ccce1785001d~mv2.webp",
+      "page": "https://king-legacy.vaultedvaluesx.com/value-list",
+      "sha256": "5faf90cf5fc7ba337163411a6b4df1d784c1a7b695b3f6e5dc1911cdea759aa8",
+      "width": 500,
+      "height": 500
+    },
+    {
+      "gameId": "king-legacy",
+      "id": "flame-fruit",
+      "path": "images/king-legacy/flame-fruit.webp",
+      "url": "https://static.wixstatic.com/media/2814ef_52105e7957ad4f54b044ddc973576cd3~mv2.webp",
+      "page": "https://king-legacy.vaultedvaluesx.com/value-list",
+      "sha256": "35849d27d4c2a0a4e1fa28a2fd533ba9d4dfcc5c2af84c6146489fd6723c7e96",
+      "width": 500,
+      "height": 500
+    },
+    {
+      "gameId": "king-legacy",
+      "id": "crimson-scarf",
+      "path": "images/king-legacy/crimson-scarf.webp",
+      "url": "https://static.wixstatic.com/media/2814ef_52a47bc2a1bf48bba7bdee86ed687a9f~mv2.webp",
+      "page": "https://king-legacy.vaultedvaluesx.com/value-list",
+      "sha256": "290e234aa89d27c1861328b2e23268bc8cadca2ef4569cab5ddc12d2a4ea7a01",
+      "width": 500,
+      "height": 500
+    },
+    {
+      "gameId": "king-legacy",
+      "id": "1-slot-passive",
+      "path": "images/king-legacy/1-slot-passive.webp",
+      "url": "https://static.wixstatic.com/media/2814ef_e6f4eebce15d4ffc9fb7d0cffde70379~mv2.webp",
+      "page": "https://king-legacy.vaultedvaluesx.com/value-list",
+      "sha256": "813eec31cb03b5829361a48288ade51f89c5910639885de30f809043e508347d",
+      "width": 500,
+      "height": 500
+    },
+    {
+      "gameId": "king-legacy",
+      "id": "perm-pter",
+      "path": "images/king-legacy/perm-pter.webp",
+      "url": "https://static.wixstatic.com/media/2814ef_45e56fa7454845718c12784940d6a05e~mv2.webp",
+      "page": "https://king-legacy.vaultedvaluesx.com/value-list",
+      "sha256": "b14e7d300df758b72bf57f51ffda4d3872347182f4541eb3afbcaf3e32fccfd6",
+      "width": 500,
+      "height": 500
+    },
+    {
+      "gameId": "king-legacy",
+      "id": "perm-flame",
+      "path": "images/king-legacy/perm-flame.webp",
+      "url": "https://static.wixstatic.com/media/2814ef_d89091c241b94acdbecfed841c028a6e~mv2.webp",
+      "page": "https://king-legacy.vaultedvaluesx.com/value-list",
+      "sha256": "1d1fb0eab14b4de07db5003db37eb7218f0eed069d5bdffa4c316d62b5dc494f",
+      "width": 500,
+      "height": 500
+    },
+    {
+      "gameId": "king-legacy",
+      "id": "perm-venom",
+      "path": "images/king-legacy/perm-venom.webp",
+      "url": "https://static.wixstatic.com/media/2814ef_ab74aaa7ae6149d383c69f11bcf217c0~mv2.webp",
+      "page": "https://king-legacy.vaultedvaluesx.com/value-list",
+      "sha256": "cb76dc01ba01977b1d575704924ae9ec48271399acd937cdf67488569f2797f3",
+      "width": 500,
+      "height": 500
+    },
+    {
+      "gameId": "king-legacy",
+      "id": "perm-rubber",
+      "path": "images/king-legacy/perm-rubber.webp",
+      "url": "https://static.wixstatic.com/media/2814ef_11f8ad407cdb4476a2ba7c40353cc65c~mv2.webp",
+      "page": "https://king-legacy.vaultedvaluesx.com/value-list",
+      "sha256": "8c142595ea2fcd2057a2b184cfc0fb9819a015072b08fc7d4e6504fda1c3ddb5",
+      "width": 500,
+      "height": 500
+    },
+    {
+      "gameId": "king-legacy",
+      "id": "perm-paw",
+      "path": "images/king-legacy/perm-paw.webp",
+      "url": "https://static.wixstatic.com/media/2814ef_94e47ebe7a3c4005830a581165e3cdfb~mv2.webp",
+      "page": "https://king-legacy.vaultedvaluesx.com/value-list",
+      "sha256": "cbc452c9b2d0222ba85e1cfab3a93af2e48e322913e3020afffb6c840911f17c",
+      "width": 500,
+      "height": 500
+    },
+    {
+      "gameId": "king-legacy",
+      "id": "perm-telekinesis",
+      "path": "images/king-legacy/perm-telekinesis.webp",
+      "url": "https://static.wixstatic.com/media/2814ef_a4bf3776fc6849c99fc7b6207d5ebec7~mv2.webp",
+      "page": "https://king-legacy.vaultedvaluesx.com/value-list",
+      "sha256": "f82e15316a043ff76aa049aa0d0c6e04ccb86b5384dbcfe29fb8c480d7809ae4",
+      "width": 500,
+      "height": 500
+    },
+    {
+      "gameId": "cameraman-td",
+      "id": "sand-coffin-crate",
+      "path": "images/cameraman-td/sand-coffin-crate.webp",
+      "url": "https://www.vaultedvaluesx.com/api/media/public/approved/66d8cfd1-7eb6-4387-88f7-122e3018674b/approved/afc2631b-377e-4e1a-ac25-f8337d7a1a9a/effcca4c72f97918920fedc1f92da0646aeb052862ba4c2599661103e2619c9a.webp",
+      "page": "https://cameraman-td.vaultedvaluesx.com/value-list",
+      "sha256": "effcca4c72f97918920fedc1f92da0646aeb052862ba4c2599661103e2619c9a",
+      "width": 1574,
+      "height": 1260
+    }
+  ],
+  "rejectedImages": [
+    {
+      "gameId": "king-legacy",
+      "id": "animation-any",
+      "path": "images/king-legacy/animation-any.webp",
+      "url": "https://ogeudwotjxschiubuvmz.supabase.co/storage/v1/object/public/vvx-item-images/items/13fcaa388a572fa5a8be0ef672e01696e4837a0bcba2f3cfe002f6c7623401f5.webp",
+      "page": "https://king-legacy.vaultedvaluesx.com/value-list",
+      "sha256": "13fcaa388a572fa5a8be0ef672e01696e4837a0bcba2f3cfe002f6c7623401f5",
+      "width": 450,
+      "height": 233,
+      "reason": "원문이 일반 게임 로고를 아이템 이미지로 연결하고 있어 실제 아이템 아이콘으로 사용하지 않음."
+    },
+    {
+      "gameId": "king-legacy",
+      "id": "cyborg-v2-mats",
+      "path": "images/king-legacy/cyborg-v2-mats.webp",
+      "url": "https://ogeudwotjxschiubuvmz.supabase.co/storage/v1/object/public/vvx-item-images/items/13fcaa388a572fa5a8be0ef672e01696e4837a0bcba2f3cfe002f6c7623401f5.webp",
+      "page": "https://king-legacy.vaultedvaluesx.com/value-list",
+      "sha256": "13fcaa388a572fa5a8be0ef672e01696e4837a0bcba2f3cfe002f6c7623401f5",
+      "width": 450,
+      "height": 233,
+      "reason": "원문이 일반 게임 로고를 아이템 이미지로 연결하고 있어 실제 아이템 아이콘으로 사용하지 않음."
+    }
+  ]
+}

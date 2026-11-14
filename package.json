@@ -2,7 +2,7 @@
   "name": "value-deck",
   "private": true,
   "scripts": {
-    "test": "node tools/build-discord.mjs --check && node --test tests/supabase-*.test.mjs tests/discord-*.test.mjs",
+    "test": "node tools/build-discord.mjs --check && node --test tests/supabase-*.test.mjs tests/discord-*.test.mjs tests/catalog-*.test.mjs",
     "build:discord": "node tools/build-discord.mjs"
   },
   "devDependencies": {
