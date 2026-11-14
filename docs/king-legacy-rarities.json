@@ -1,0 +1,1753 @@
+{
+  "checkedAt": "2026-11-14T19:16:23+09:00",
+  "summary": {
+    "verified": 69,
+    "unverified": 6,
+    "not-applicable": 30,
+    "base-fruit": 31
+  },
+  "sources": {
+    "fruits": {
+      "name": "KingLegacy.app fruit table (community wiki snapshot)",
+      "url": "https://kinglegacy.app/fruits/",
+      "publisherCheckedAt": "2026-11-07"
+    },
+    "accessories": {
+      "name": "KingLegacy.app accessory table (community wiki snapshot)",
+      "url": "https://kinglegacy.app/accessories/",
+      "publisherCheckedAt": "2026-11-07"
+    },
+    "swords": {
+      "name": "KingLegacy.app sword table (community wiki snapshot)",
+      "url": "https://kinglegacy.app/swords/",
+      "publisherCheckedAt": "2026-11-07"
+    },
+    "update11": {
+      "name": "Pro Game Guides Update 11",
+      "url": "https://progameguides.com/roblox/king-legacy-update-11-guide/",
+      "publishedAt": "2026-11-06"
+    },
+    "fruit-renames": {
+      "name": "King Legacy Wiki update history",
+      "url": "https://king-legacy-official.fandom.com/wiki/Updates"
+    },
+    "namu-swords": {
+      "name": "King Legacy/검 community wiki mirror",
+      "url": "https://namu.moe/w/King%20Legacy/%EA%B2%80"
+    },
+    "central-swords": {
+      "name": "BloxCentral sword descriptions (rarity text, not tier letters)",
+      "url": "https://bloxcentral.com.br/tier-list/king-legacy-espadas"
+    },
+    "bloxodes-swords": {
+      "name": "Bloxodes sword rarity catalog",
+      "url": "https://bloxodes.com/wiki/king-legacy/swords",
+      "publishedAt": "2026-11-09"
+    },
+    "wiki-limited": {
+      "name": "King Legacy Wiki accessory catalog",
+      "url": "https://king-legacy.fandom.com/wiki/Accessories"
+    },
+    "wiki-exp": {
+      "name": "King Legacy Wiki EXP Crown",
+      "url": "https://king-legacy.fandom.com/wiki/Exp_crown"
+    },
+    "wiki-glacies": {
+      "name": "King Legacy Wiki Glacies Shoulder",
+      "url": "https://king-legacy.fandom.com/wiki/Glacies_Shoulder"
+    },
+    "pgg-types": {
+      "name": "Pro Game Guides trading catalog (gamepasses/bundles)",
+      "url": "https://progameguides.com/roblox/king-legacy-trading-value-list-roblox/",
+      "publishedAt": "2026-11-09"
+    },
+    "depth-drops": {
+      "name": "Pro Game Guides Depth King drops (drop rates only, no explicit rarity grades)",
+      "url": "https://progameguides.com/roblox/king-legacy-depth-king-raid-boss-guide-respawn-times-drops-more/"
+    },
+    "materials": {
+      "name": "KingLegacy.app materials table (no new Depth King entries)",
+      "url": "https://kinglegacy.app/materials/"
+    },
+    "bloxodes-materials": {
+      "name": "Bloxodes materials catalog (no matched Depth King entries in checked list)",
+      "url": "https://bloxodes.com/wiki/king-legacy/materials"
+    }
+  },
+  "items": [
+    {
+      "id": "erebus",
+      "name": "Erebus",
+      "category": "열매",
+      "rarity": "Mythic",
+      "status": "verified",
+      "basis": "item",
+      "sourceIds": [
+        "update11"
+      ],
+      "note": "Update 11 신규 Mythical 열매."
+    },
+    {
+      "id": "demon-fruit",
+      "name": "Demon Fruit",
+      "category": "열매",
+      "rarity": "Legendary",
+      "status": "verified",
+      "basis": "item",
+      "sourceIds": [
+        "fruits"
+      ],
+      "note": ""
+    },
+    {
+      "id": "tree-fruit",
+      "name": "Tree Fruit",
+      "category": "열매",
+      "rarity": "Legendary",
+      "status": "verified",
+      "basis": "item",
+      "sourceIds": [
+        "fruits"
+      ],
+      "note": ""
+    },
+    {
+      "id": "phoenix-fruit",
+      "name": "Phoenix Fruit",
+      "category": "열매",
+      "rarity": "Legendary",
+      "status": "verified",
+      "basis": "item",
+      "sourceIds": [
+        "fruits"
+      ],
+      "note": ""
+    },
+    {
+      "id": "gate-fruit",
+      "name": "Gate Fruit",
+      "category": "열매",
+      "rarity": "Legendary",
+      "status": "verified",
+      "basis": "item",
+      "sourceIds": [
+        "fruits"
+      ],
+      "note": ""
+    },
+    {
+      "id": "dragon-fruit",
+      "name": "Dragon Fruit",
+      "category": "열매",
+      "rarity": "Mythic",
+      "status": "verified",
+      "basis": "item",
+      "sourceIds": [
+        "update11",
+        "fruits"
+      ],
+      "note": "Update 11 기준. 오래된 Dragon Legendary 표기는 사용하지 않음."
+    },
+    {
+      "id": "melody-fruit",
+      "name": "Melody Fruit",
+      "category": "열매",
+      "rarity": "Legendary",
+      "status": "verified",
+      "basis": "item",
+      "sourceIds": [
+        "fruits"
+      ],
+      "note": ""
+    },
+    {
+      "id": "dough-fruit",
+      "name": "Dough Fruit",
+      "category": "열매",
+      "rarity": "Legendary",
+      "status": "verified",
+      "basis": "item",
+      "sourceIds": [
+        "fruits"
+      ],
+      "note": ""
+    },
+    {
+      "id": "pter-fruit",
+      "name": "Pter Fruit",
+      "category": "열매",
+      "rarity": "Mythic",
+      "status": "verified",
+      "basis": "item",
+      "sourceIds": [
+        "fruits"
+      ],
+      "note": ""
+    },
+    {
+      "id": "toy-fruit",
+      "name": "Toy Fruit",
+      "category": "열매",
+      "rarity": "Legendary",
+      "status": "verified",
+      "basis": "item",
+      "sourceIds": [
+        "fruits"
+      ],
+      "note": ""
+    },
+    {
+      "id": "spino-fruit",
+      "name": "Spino Fruit",
+      "category": "열매",
+      "rarity": "Rare",
+      "status": "verified",
+      "basis": "item",
+      "sourceIds": [
+        "fruits"
+      ],
+      "note": ""
+    },
+    {
+      "id": "allo-fruit",
+      "name": "Allo Fruit",
+      "category": "열매",
+      "rarity": "Rare",
+      "status": "verified",
+      "basis": "item",
+      "sourceIds": [
+        "fruits"
+      ],
+      "note": ""
+    },
+    {
+      "id": "rumble-fruit",
+      "name": "Rumble Fruit",
+      "category": "열매",
+      "rarity": "Epic",
+      "status": "verified",
+      "basis": "item",
+      "sourceIds": [
+        "fruits"
+      ],
+      "note": ""
+    },
+    {
+      "id": "brachio-fruit",
+      "name": "Brachio Fruit",
+      "category": "열매",
+      "rarity": "Rare",
+      "status": "verified",
+      "basis": "item",
+      "sourceIds": [
+        "fruits"
+      ],
+      "note": ""
+    },
+    {
+      "id": "palm-fruit",
+      "name": "Palm Fruit",
+      "category": "열매",
+      "rarity": "Rare",
+      "status": "verified",
+      "basis": "item",
+      "sourceIds": [
+        "fruits"
+      ],
+      "note": ""
+    },
+    {
+      "id": "gas-fruit",
+      "name": "Gas Fruit",
+      "category": "열매",
+      "rarity": "Epic",
+      "status": "verified",
+      "basis": "item",
+      "sourceIds": [
+        "fruits"
+      ],
+      "note": ""
+    },
+    {
+      "id": "magma-fruit",
+      "name": "Magma Fruit",
+      "category": "열매",
+      "rarity": "Epic",
+      "status": "verified",
+      "basis": "item",
+      "sourceIds": [
+        "fruits"
+      ],
+      "note": ""
+    },
+    {
+      "id": "light-fruit",
+      "name": "Light Fruit",
+      "category": "열매",
+      "rarity": "Epic",
+      "status": "verified",
+      "basis": "item",
+      "sourceIds": [
+        "fruits"
+      ],
+      "note": ""
+    },
+    {
+      "id": "quake-fruit",
+      "name": "Quake Fruit",
+      "category": "열매",
+      "rarity": "Epic",
+      "status": "verified",
+      "basis": "item",
+      "sourceIds": [
+        "fruits"
+      ],
+      "note": ""
+    },
+    {
+      "id": "flame-fruit",
+      "name": "Flame Fruit",
+      "category": "열매",
+      "rarity": "Epic",
+      "status": "verified",
+      "basis": "item",
+      "sourceIds": [
+        "fruits"
+      ],
+      "note": ""
+    },
+    {
+      "id": "snow-fruit",
+      "name": "Snow Fruit",
+      "category": "열매",
+      "rarity": "Epic",
+      "status": "verified",
+      "basis": "item",
+      "sourceIds": [
+        "fruits"
+      ],
+      "note": ""
+    },
+    {
+      "id": "ice-fruit",
+      "name": "Ice Fruit",
+      "category": "열매",
+      "rarity": "Epic",
+      "status": "verified",
+      "basis": "item",
+      "sourceIds": [
+        "fruits"
+      ],
+      "note": ""
+    },
+    {
+      "id": "control-fruit",
+      "name": "Control Fruit",
+      "category": "열매",
+      "rarity": "Rare",
+      "status": "verified",
+      "basis": "item",
+      "sourceIds": [
+        "fruits"
+      ],
+      "note": ""
+    },
+    {
+      "id": "buddha-fruit",
+      "name": "Buddha Fruit",
+      "category": "열매",
+      "rarity": "Rare",
+      "status": "verified",
+      "basis": "item",
+      "sourceIds": [
+        "fruits"
+      ],
+      "note": ""
+    },
+    {
+      "id": "gravity-fruit",
+      "name": "Gravity Fruit",
+      "category": "열매",
+      "rarity": "Rare",
+      "status": "verified",
+      "basis": "item",
+      "sourceIds": [
+        "fruits"
+      ],
+      "note": ""
+    },
+    {
+      "id": "dark-fruit",
+      "name": "Dark Fruit",
+      "category": "열매",
+      "rarity": "Rare",
+      "status": "verified",
+      "basis": "item",
+      "sourceIds": [
+        "fruits"
+      ],
+      "note": ""
+    },
+    {
+      "id": "noirceur",
+      "name": "Noirceur",
+      "category": "무기",
+      "rarity": "Epic",
+      "status": "verified",
+      "basis": "item",
+      "sourceIds": [
+        "swords",
+        "bloxodes-swords"
+      ],
+      "note": ""
+    },
+    {
+      "id": "cerulean-blossom",
+      "name": "Cerulean Blossom",
+      "category": "무기",
+      "rarity": "Epic",
+      "status": "verified",
+      "basis": "item",
+      "sourceIds": [
+        "swords",
+        "bloxodes-swords"
+      ],
+      "note": ""
+    },
+    {
+      "id": "ancient-sword",
+      "name": "Ancient Sword",
+      "category": "무기",
+      "rarity": "Epic",
+      "status": "verified",
+      "basis": "item",
+      "sourceIds": [
+        "swords",
+        "bloxodes-swords"
+      ],
+      "note": ""
+    },
+    {
+      "id": "true-muramasa",
+      "name": "True Muramasa",
+      "category": "무기",
+      "rarity": "Legendary",
+      "status": "verified",
+      "basis": "item",
+      "sourceIds": [
+        "central-swords",
+        "namu-swords"
+      ],
+      "note": "일반 Muramasa의 등급을 복사하지 않고 True Muramasa의 전설 명시 문장 확인."
+    },
+    {
+      "id": "abyssal-crab-axe",
+      "name": "Abyssal Crab Axe",
+      "category": "무기",
+      "rarity": "Legendary",
+      "status": "verified",
+      "basis": "item",
+      "sourceIds": [
+        "swords",
+        "bloxodes-swords"
+      ],
+      "note": ""
+    },
+    {
+      "id": "dread-broom",
+      "name": "Dread Broom",
+      "category": "무기",
+      "rarity": "Limited",
+      "status": "verified",
+      "basis": "item",
+      "sourceIds": [
+        "bloxodes-swords"
+      ],
+      "note": "Dreadbroom 별칭. 카탈로그 Rarity=Limited 항목을 적용; 드롭률로 추정하지 않음."
+    },
+    {
+      "id": "ethereal",
+      "name": "Ethereal",
+      "category": "무기",
+      "rarity": "Legendary",
+      "status": "verified",
+      "basis": "item",
+      "sourceIds": [
+        "swords",
+        "bloxodes-swords"
+      ],
+      "note": ""
+    },
+    {
+      "id": "phoenix-blade",
+      "name": "Phoenix Blade",
+      "category": "무기",
+      "rarity": "Epic",
+      "status": "verified",
+      "basis": "item",
+      "sourceIds": [
+        "swords",
+        "bloxodes-swords"
+      ],
+      "note": ""
+    },
+    {
+      "id": "acroscythe",
+      "name": "Acroscythe",
+      "category": "무기",
+      "rarity": "Legendary",
+      "status": "verified",
+      "basis": "item",
+      "sourceIds": [
+        "swords",
+        "bloxodes-swords"
+      ],
+      "note": "출처 이름 Acroscyth와 대조."
+    },
+    {
+      "id": "scepter-of-flames",
+      "name": "Scepter of Flames",
+      "category": "무기",
+      "rarity": "Epic",
+      "status": "verified",
+      "basis": "item",
+      "sourceIds": [
+        "swords",
+        "bloxodes-swords"
+      ],
+      "note": "출처 이름 Scepters of Flame와 대조."
+    },
+    {
+      "id": "authentic-triple-katana",
+      "name": "Authentic Triple Katana",
+      "category": "무기",
+      "rarity": "Legendary",
+      "status": "verified",
+      "basis": "item",
+      "sourceIds": [
+        "swords",
+        "bloxodes-swords"
+      ],
+      "note": ""
+    },
+    {
+      "id": "avalon",
+      "name": "Avalon",
+      "category": "무기",
+      "rarity": "Legendary",
+      "status": "verified",
+      "basis": "item",
+      "sourceIds": [
+        "swords",
+        "bloxodes-swords"
+      ],
+      "note": ""
+    },
+    {
+      "id": "longaevus",
+      "name": "Longaevus",
+      "category": "무기",
+      "rarity": "Legendary",
+      "status": "verified",
+      "basis": "item",
+      "sourceIds": [
+        "swords",
+        "bloxodes-swords"
+      ],
+      "note": ""
+    },
+    {
+      "id": "daybreak-cleaver",
+      "name": "Daybreak Cleaver",
+      "category": "무기",
+      "rarity": "Epic",
+      "status": "verified",
+      "basis": "item",
+      "sourceIds": [
+        "swords",
+        "bloxodes-swords"
+      ],
+      "note": ""
+    },
+    {
+      "id": "aquatic-anchor",
+      "name": "Aquatic Anchor",
+      "category": "무기",
+      "rarity": "Epic",
+      "status": "verified",
+      "basis": "item",
+      "sourceIds": [
+        "swords",
+        "bloxodes-swords"
+      ],
+      "note": ""
+    },
+    {
+      "id": "dragon-band",
+      "name": "Dragon Band",
+      "category": "장비",
+      "rarity": "Legendary",
+      "status": "verified",
+      "basis": "item",
+      "sourceIds": [
+        "accessories"
+      ],
+      "note": ""
+    },
+    {
+      "id": "crustacean-armor",
+      "name": "Crustacean Armor",
+      "category": "장비",
+      "rarity": "Legendary",
+      "status": "verified",
+      "basis": "item",
+      "sourceIds": [
+        "accessories"
+      ],
+      "note": ""
+    },
+    {
+      "id": "exp-crown",
+      "name": "EXP Crown",
+      "category": "장비",
+      "rarity": "Limited",
+      "status": "verified",
+      "basis": "item",
+      "sourceIds": [
+        "accessories",
+        "wiki-limited",
+        "wiki-exp"
+      ],
+      "note": ""
+    },
+    {
+      "id": "water-kimono",
+      "name": "Water Kimono",
+      "category": "장비",
+      "rarity": "Epic",
+      "status": "verified",
+      "basis": "item",
+      "sourceIds": [
+        "accessories"
+      ],
+      "note": ""
+    },
+    {
+      "id": "drakenfyr-cape",
+      "name": "Drakenfyr Cape",
+      "category": "장비",
+      "rarity": "Legendary",
+      "status": "verified",
+      "basis": "item",
+      "sourceIds": [
+        "accessories"
+      ],
+      "note": ""
+    },
+    {
+      "id": "night-necklace",
+      "name": "Night Necklace",
+      "category": "장비",
+      "rarity": "Legendary",
+      "status": "verified",
+      "basis": "item",
+      "sourceIds": [
+        "accessories"
+      ],
+      "note": ""
+    },
+    {
+      "id": "oceanic-tanto",
+      "name": "Oceanic tanto",
+      "category": "장비",
+      "rarity": "Legendary",
+      "status": "verified",
+      "basis": "item",
+      "sourceIds": [
+        "accessories"
+      ],
+      "note": ""
+    },
+    {
+      "id": "dominion-cloak",
+      "name": "Dominion Cloak",
+      "category": "장비",
+      "rarity": "Legendary",
+      "status": "verified",
+      "basis": "item",
+      "sourceIds": [
+        "accessories"
+      ],
+      "note": ""
+    },
+    {
+      "id": "inferno-cloak",
+      "name": "Inferno Cloak",
+      "category": "장비",
+      "rarity": "Legendary",
+      "status": "verified",
+      "basis": "item",
+      "sourceIds": [
+        "accessories"
+      ],
+      "note": ""
+    },
+    {
+      "id": "floffy-glasses",
+      "name": "Floffy Glasses",
+      "category": "장비",
+      "rarity": "Legendary",
+      "status": "verified",
+      "basis": "item",
+      "sourceIds": [
+        "accessories"
+      ],
+      "note": ""
+    },
+    {
+      "id": "glacies-shoulder",
+      "name": "Glacies Shoulder",
+      "category": "장비",
+      "rarity": "Limited",
+      "status": "verified",
+      "basis": "item",
+      "sourceIds": [
+        "accessories",
+        "wiki-limited",
+        "wiki-glacies"
+      ],
+      "note": ""
+    },
+    {
+      "id": "nativitatis",
+      "name": "Nativitatis",
+      "category": "장비",
+      "rarity": "Limited",
+      "status": "verified",
+      "basis": "item",
+      "sourceIds": [
+        "accessories",
+        "wiki-limited"
+      ],
+      "note": ""
+    },
+    {
+      "id": "green-dryadalis",
+      "name": "Green Dryadalis",
+      "category": "장비",
+      "rarity": "Limited",
+      "status": "verified",
+      "basis": "item",
+      "sourceIds": [
+        "accessories",
+        "wiki-limited"
+      ],
+      "note": ""
+    },
+    {
+      "id": "cervus",
+      "name": "Cervus",
+      "category": "장비",
+      "rarity": "Limited",
+      "status": "verified",
+      "basis": "item",
+      "sourceIds": [
+        "accessories",
+        "wiki-limited"
+      ],
+      "note": ""
+    },
+    {
+      "id": "dark-beard-hat",
+      "name": "Dark Beard Hat",
+      "category": "장비",
+      "rarity": "Legendary",
+      "status": "verified",
+      "basis": "item",
+      "sourceIds": [
+        "accessories"
+      ],
+      "note": ""
+    },
+    {
+      "id": "abyss-sentinel-armor",
+      "name": "Abyss Sentinel Armor",
+      "category": "장비",
+      "rarity": "Epic",
+      "status": "verified",
+      "basis": "item",
+      "sourceIds": [
+        "accessories"
+      ],
+      "note": ""
+    },
+    {
+      "id": "metal-fin",
+      "name": "Metal Fin",
+      "category": "장비",
+      "rarity": "Epic",
+      "status": "verified",
+      "basis": "item",
+      "sourceIds": [
+        "accessories"
+      ],
+      "note": ""
+    },
+    {
+      "id": "oceanic-tentacle",
+      "name": "Oceanic Tentacle",
+      "category": "장비",
+      "rarity": "Epic",
+      "status": "verified",
+      "basis": "item",
+      "sourceIds": [
+        "accessories"
+      ],
+      "note": ""
+    },
+    {
+      "id": "tomoe-taiko",
+      "name": "Tomoe Taiko",
+      "category": "장비",
+      "rarity": "Epic",
+      "status": "verified",
+      "basis": "item",
+      "sourceIds": [
+        "accessories"
+      ],
+      "note": ""
+    },
+    {
+      "id": "lucidus-coat",
+      "name": "Lucidus Coat",
+      "category": "장비",
+      "rarity": "Epic",
+      "status": "verified",
+      "basis": "item",
+      "sourceIds": [
+        "accessories"
+      ],
+      "note": ""
+    },
+    {
+      "id": "sally-crown",
+      "name": "Sally Crown",
+      "category": "장비",
+      "rarity": "Epic",
+      "status": "verified",
+      "basis": "item",
+      "sourceIds": [
+        "accessories"
+      ],
+      "note": ""
+    },
+    {
+      "id": "dragon-necklace",
+      "name": "Dragon Necklace",
+      "category": "장비",
+      "rarity": "Legendary",
+      "status": "verified",
+      "basis": "item",
+      "sourceIds": [
+        "accessories"
+      ],
+      "note": ""
+    },
+    {
+      "id": "tengu-mask",
+      "name": "Tengu Mask",
+      "category": "장비",
+      "rarity": "Epic",
+      "status": "verified",
+      "basis": "item",
+      "sourceIds": [
+        "accessories"
+      ],
+      "note": ""
+    },
+    {
+      "id": "oni-mask",
+      "name": "Oni Mask",
+      "category": "장비",
+      "rarity": "Epic",
+      "status": "verified",
+      "basis": "item",
+      "sourceIds": [
+        "accessories"
+      ],
+      "note": ""
+    },
+    {
+      "id": "shadow-cloak",
+      "name": "Shadow Cloak",
+      "category": "장비",
+      "rarity": "Uncommon",
+      "status": "verified",
+      "basis": "item",
+      "sourceIds": [
+        "accessories"
+      ],
+      "note": ""
+    },
+    {
+      "id": "sentinel-armor",
+      "name": "Sentinel Armor",
+      "category": "장비",
+      "rarity": "Uncommon",
+      "status": "verified",
+      "basis": "item",
+      "sourceIds": [
+        "accessories"
+      ],
+      "note": ""
+    },
+    {
+      "id": "flame-hair",
+      "name": "Flame Hair",
+      "category": "장비",
+      "rarity": "Epic",
+      "status": "verified",
+      "basis": "item",
+      "sourceIds": [
+        "accessories"
+      ],
+      "note": ""
+    },
+    {
+      "id": "crimson-scarf",
+      "name": "Crimson Scarf",
+      "category": "장비",
+      "rarity": "Epic",
+      "status": "verified",
+      "basis": "item",
+      "sourceIds": [
+        "accessories"
+      ],
+      "note": ""
+    },
+    {
+      "id": "depth-kings-tail",
+      "name": "Depth King’s Tail",
+      "category": "재료",
+      "rarity": "Unknown",
+      "status": "unverified",
+      "basis": "item",
+      "sourceIds": [
+        "depth-drops",
+        "materials",
+        "bloxodes-materials"
+      ],
+      "note": "개별 이름으로 영문 rarity 및 한글 등급 검색, 공개 재료 목록과 보스 드롭 표 대조. 확인되는 드롭률·pity·일반적 rare 표현을 인게임 희귀도 등급으로 변환하지 않음."
+    },
+    {
+      "id": "ancient-shell",
+      "name": "Ancient Shell",
+      "category": "재료",
+      "rarity": "Unknown",
+      "status": "unverified",
+      "basis": "item",
+      "sourceIds": [
+        "depth-drops",
+        "materials",
+        "bloxodes-materials"
+      ],
+      "note": "개별 이름으로 영문 rarity 및 한글 등급 검색, 공개 재료 목록과 보스 드롭 표 대조. 확인되는 드롭률·pity·일반적 rare 표현을 인게임 희귀도 등급으로 변환하지 않음."
+    },
+    {
+      "id": "turtle-core",
+      "name": "Turtle Core",
+      "category": "재료",
+      "rarity": "Unknown",
+      "status": "unverified",
+      "basis": "item",
+      "sourceIds": [
+        "depth-drops",
+        "materials",
+        "bloxodes-materials"
+      ],
+      "note": "개별 이름으로 영문 rarity 및 한글 등급 검색, 공개 재료 목록과 보스 드롭 표 대조. 확인되는 드롭률·pity·일반적 rare 표현을 인게임 희귀도 등급으로 변환하지 않음."
+    },
+    {
+      "id": "depth-kings-blood",
+      "name": "Depth King’s Blood",
+      "category": "재료",
+      "rarity": "Unknown",
+      "status": "unverified",
+      "basis": "item",
+      "sourceIds": [
+        "depth-drops",
+        "materials",
+        "bloxodes-materials"
+      ],
+      "note": "개별 이름으로 영문 rarity 및 한글 등급 검색, 공개 재료 목록과 보스 드롭 표 대조. 확인되는 드롭률·pity·일반적 rare 표현을 인게임 희귀도 등급으로 변환하지 않음."
+    },
+    {
+      "id": "depth-crystal",
+      "name": "Depth Crystal",
+      "category": "재료",
+      "rarity": "Unknown",
+      "status": "unverified",
+      "basis": "item",
+      "sourceIds": [
+        "depth-drops",
+        "materials",
+        "bloxodes-materials"
+      ],
+      "note": "개별 이름으로 영문 rarity 및 한글 등급 검색, 공개 재료 목록과 보스 드롭 표 대조. 확인되는 드롭률·pity·일반적 rare 표현을 인게임 희귀도 등급으로 변환하지 않음."
+    },
+    {
+      "id": "depth-scale",
+      "name": "Depth Scale",
+      "category": "재료",
+      "rarity": "Unknown",
+      "status": "unverified",
+      "basis": "item",
+      "sourceIds": [
+        "depth-drops",
+        "materials",
+        "bloxodes-materials"
+      ],
+      "note": "개별 이름으로 영문 rarity 및 한글 등급 검색, 공개 재료 목록과 보스 드롭 표 대조. 확인되는 드롭률·pity·일반적 rare 표현을 인게임 희귀도 등급으로 변환하지 않음."
+    },
+    {
+      "id": "volt-bundle",
+      "name": "Volt Bundle",
+      "category": "게임패스",
+      "rarity": "NotApplicable",
+      "status": "not-applicable",
+      "basis": "product-group",
+      "sourceIds": [
+        "pgg-types"
+      ],
+      "note": "게임패스/상품 또는 여러 재료의 묶음으로 분류. 구매로 얻는 무기·완성 스톤의 등급을 구매권/재료 묶음 자체의 희귀도로 복사하지 않음."
+    },
+    {
+      "id": "conqueror",
+      "name": "Conqueror",
+      "category": "게임패스",
+      "rarity": "NotApplicable",
+      "status": "not-applicable",
+      "basis": "product-group",
+      "sourceIds": [
+        "pgg-types"
+      ],
+      "note": "게임패스/상품 또는 여러 재료의 묶음으로 분류. 구매로 얻는 무기·완성 스톤의 등급을 구매권/재료 묶음 자체의 희귀도로 복사하지 않음."
+    },
+    {
+      "id": "blazeice-pack",
+      "name": "BlazeIce Pack",
+      "category": "게임패스",
+      "rarity": "NotApplicable",
+      "status": "not-applicable",
+      "basis": "product-group",
+      "sourceIds": [
+        "pgg-types"
+      ],
+      "note": "게임패스/상품 또는 여러 재료의 묶음으로 분류. 구매로 얻는 무기·완성 스톤의 등급을 구매권/재료 묶음 자체의 희귀도로 복사하지 않음."
+    },
+    {
+      "id": "1-slot-passive",
+      "name": "+1 Slot (Passive)",
+      "category": "게임패스",
+      "rarity": "NotApplicable",
+      "status": "not-applicable",
+      "basis": "product-group",
+      "sourceIds": [
+        "pgg-types"
+      ],
+      "note": "게임패스/상품 또는 여러 재료의 묶음으로 분류. 구매로 얻는 무기·완성 스톤의 등급을 구매권/재료 묶음 자체의 희귀도로 복사하지 않음."
+    },
+    {
+      "id": "2x-money",
+      "name": "2x Money",
+      "category": "게임패스",
+      "rarity": "NotApplicable",
+      "status": "not-applicable",
+      "basis": "product-group",
+      "sourceIds": [
+        "pgg-types"
+      ],
+      "note": "게임패스/상품 또는 여러 재료의 묶음으로 분류. 구매로 얻는 무기·완성 스톤의 등급을 구매권/재료 묶음 자체의 희귀도로 복사하지 않음."
+    },
+    {
+      "id": "2x-drop-item",
+      "name": "2x Drop Item",
+      "category": "게임패스",
+      "rarity": "NotApplicable",
+      "status": "not-applicable",
+      "basis": "product-group",
+      "sourceIds": [
+        "pgg-types"
+      ],
+      "note": "게임패스/상품 또는 여러 재료의 묶음으로 분류. 구매로 얻는 무기·완성 스톤의 등급을 구매권/재료 묶음 자체의 희귀도로 복사하지 않음."
+    },
+    {
+      "id": "night-blade",
+      "name": "Night Blade",
+      "category": "게임패스",
+      "rarity": "NotApplicable",
+      "status": "not-applicable",
+      "basis": "product-group",
+      "sourceIds": [
+        "pgg-types"
+      ],
+      "note": "게임패스/상품 또는 여러 재료의 묶음으로 분류. 구매로 얻는 무기·완성 스톤의 등급을 구매권/재료 묶음 자체의 희귀도로 복사하지 않음."
+    },
+    {
+      "id": "coffin-boat",
+      "name": "Coffin Boat",
+      "category": "게임패스",
+      "rarity": "NotApplicable",
+      "status": "not-applicable",
+      "basis": "product-group",
+      "sourceIds": [
+        "pgg-types"
+      ],
+      "note": "게임패스/상품 또는 여러 재료의 묶음으로 분류. 구매로 얻는 무기·완성 스톤의 등급을 구매권/재료 묶음 자체의 희귀도로 복사하지 않음."
+    },
+    {
+      "id": "1-fruit-storage",
+      "name": "+1 Fruit Storage",
+      "category": "게임패스",
+      "rarity": "NotApplicable",
+      "status": "not-applicable",
+      "basis": "product-group",
+      "sourceIds": [
+        "pgg-types"
+      ],
+      "note": "게임패스/상품 또는 여러 재료의 묶음으로 분류. 구매로 얻는 무기·완성 스톤의 등급을 구매권/재료 묶음 자체의 희귀도로 복사하지 않음."
+    },
+    {
+      "id": "legacy-pose",
+      "name": "Legacy Pose",
+      "category": "게임패스",
+      "rarity": "NotApplicable",
+      "status": "not-applicable",
+      "basis": "product-group",
+      "sourceIds": [
+        "pgg-types"
+      ],
+      "note": "게임패스/상품 또는 여러 재료의 묶음으로 분류. 구매로 얻는 무기·완성 스톤의 등급을 구매권/재료 묶음 자체의 희귀도로 복사하지 않음."
+    },
+    {
+      "id": "animation-any",
+      "name": "Animation (Any)",
+      "category": "게임패스",
+      "rarity": "NotApplicable",
+      "status": "not-applicable",
+      "basis": "product-group",
+      "sourceIds": [
+        "pgg-types"
+      ],
+      "note": "게임패스/상품 또는 여러 재료의 묶음으로 분류. 구매로 얻는 무기·완성 스톤의 등급을 구매권/재료 묶음 자체의 희귀도로 복사하지 않음."
+    },
+    {
+      "id": "2x-exp-12-hours",
+      "name": "2x exp (12 hours)",
+      "category": "게임패스",
+      "rarity": "NotApplicable",
+      "status": "not-applicable",
+      "basis": "product-group",
+      "sourceIds": [
+        "pgg-types"
+      ],
+      "note": "게임패스/상품 또는 여러 재료의 묶음으로 분류. 구매로 얻는 무기·완성 스톤의 등급을 구매권/재료 묶음 자체의 희귀도로 복사하지 않음."
+    },
+    {
+      "id": "race-rerolls",
+      "name": "Race Rerolls",
+      "category": "게임패스",
+      "rarity": "NotApplicable",
+      "status": "not-applicable",
+      "basis": "product-group",
+      "sourceIds": [
+        "pgg-types"
+      ],
+      "note": "게임패스/상품 또는 여러 재료의 묶음으로 분류. 구매로 얻는 무기·완성 스톤의 등급을 구매권/재료 묶음 자체의 희귀도로 복사하지 않음."
+    },
+    {
+      "id": "refund-stats",
+      "name": "Refund Stats",
+      "category": "게임패스",
+      "rarity": "NotApplicable",
+      "status": "not-applicable",
+      "basis": "product-group",
+      "sourceIds": [
+        "pgg-types"
+      ],
+      "note": "게임패스/상품 또는 여러 재료의 묶음으로 분류. 구매로 얻는 무기·완성 스톤의 등급을 구매권/재료 묶음 자체의 희귀도로 복사하지 않음."
+    },
+    {
+      "id": "hellroot-bundle",
+      "name": "Hellroot Bundle",
+      "category": "번들",
+      "rarity": "NotApplicable",
+      "status": "not-applicable",
+      "basis": "product-group",
+      "sourceIds": [
+        "pgg-types"
+      ],
+      "note": "게임패스/상품 또는 여러 재료의 묶음으로 분류. 구매로 얻는 무기·완성 스톤의 등급을 구매권/재료 묶음 자체의 희귀도로 복사하지 않음."
+    },
+    {
+      "id": "primal-pack",
+      "name": "Primal Pack",
+      "category": "번들",
+      "rarity": "NotApplicable",
+      "status": "not-applicable",
+      "basis": "product-group",
+      "sourceIds": [
+        "pgg-types"
+      ],
+      "note": "게임패스/상품 또는 여러 재료의 묶음으로 분류. 구매로 얻는 무기·완성 스톤의 등급을 구매권/재료 묶음 자체의 희귀도로 복사하지 않음."
+    },
+    {
+      "id": "acrospear-mats",
+      "name": "Acrospear (Mats)",
+      "category": "번들",
+      "rarity": "NotApplicable",
+      "status": "not-applicable",
+      "basis": "product-group",
+      "sourceIds": [
+        "pgg-types"
+      ],
+      "note": "게임패스/상품 또는 여러 재료의 묶음으로 분류. 구매로 얻는 무기·완성 스톤의 등급을 구매권/재료 묶음 자체의 희귀도로 복사하지 않음."
+    },
+    {
+      "id": "cyborg-v2-mats",
+      "name": "Cyborg V2 (Mats)",
+      "category": "번들",
+      "rarity": "NotApplicable",
+      "status": "not-applicable",
+      "basis": "product-group",
+      "sourceIds": [
+        "pgg-types"
+      ],
+      "note": "게임패스/상품 또는 여러 재료의 묶음으로 분류. 구매로 얻는 무기·완성 스톤의 등급을 구매권/재료 묶음 자체의 희귀도로 복사하지 않음."
+    },
+    {
+      "id": "spark-stone-mats",
+      "name": "Spark Stone (Mats)",
+      "category": "번들",
+      "rarity": "NotApplicable",
+      "status": "not-applicable",
+      "basis": "product-group",
+      "sourceIds": [
+        "pgg-types"
+      ],
+      "note": "게임패스/상품 또는 여러 재료의 묶음으로 분류. 구매로 얻는 무기·완성 스톤의 등급을 구매권/재료 묶음 자체의 희귀도로 복사하지 않음."
+    },
+    {
+      "id": "phoenix-blade-v2-mats",
+      "name": "Phoenix Blade V2 (Mats)",
+      "category": "번들",
+      "rarity": "NotApplicable",
+      "status": "not-applicable",
+      "basis": "product-group",
+      "sourceIds": [
+        "pgg-types"
+      ],
+      "note": "게임패스/상품 또는 여러 재료의 묶음으로 분류. 구매로 얻는 무기·완성 스톤의 등급을 구매권/재료 묶음 자체의 희귀도로 복사하지 않음."
+    },
+    {
+      "id": "dark-stone-mats",
+      "name": "Dark Stone (Mats)",
+      "category": "번들",
+      "rarity": "NotApplicable",
+      "status": "not-applicable",
+      "basis": "product-group",
+      "sourceIds": [
+        "pgg-types"
+      ],
+      "note": "게임패스/상품 또는 여러 재료의 묶음으로 분류. 구매로 얻는 무기·완성 스톤의 등급을 구매권/재료 묶음 자체의 희귀도로 복사하지 않음."
+    },
+    {
+      "id": "poison-stone-mats",
+      "name": "Poison Stone (Mats)",
+      "category": "번들",
+      "rarity": "NotApplicable",
+      "status": "not-applicable",
+      "basis": "product-group",
+      "sourceIds": [
+        "pgg-types"
+      ],
+      "note": "게임패스/상품 또는 여러 재료의 묶음으로 분류. 구매로 얻는 무기·완성 스톤의 등급을 구매권/재료 묶음 자체의 희귀도로 복사하지 않음."
+    },
+    {
+      "id": "blaze-stone-mats",
+      "name": "Blaze Stone (Mats)",
+      "category": "번들",
+      "rarity": "NotApplicable",
+      "status": "not-applicable",
+      "basis": "product-group",
+      "sourceIds": [
+        "pgg-types"
+      ],
+      "note": "게임패스/상품 또는 여러 재료의 묶음으로 분류. 구매로 얻는 무기·완성 스톤의 등급을 구매권/재료 묶음 자체의 희귀도로 복사하지 않음."
+    },
+    {
+      "id": "abyss-stone-mats",
+      "name": "Abyss Stone (Mats)",
+      "category": "번들",
+      "rarity": "NotApplicable",
+      "status": "not-applicable",
+      "basis": "product-group",
+      "sourceIds": [
+        "pgg-types"
+      ],
+      "note": "게임패스/상품 또는 여러 재료의 묶음으로 분류. 구매로 얻는 무기·완성 스톤의 등급을 구매권/재료 묶음 자체의 희귀도로 복사하지 않음."
+    },
+    {
+      "id": "gale-stone-mats",
+      "name": "Gale Stone (Mats)",
+      "category": "번들",
+      "rarity": "NotApplicable",
+      "status": "not-applicable",
+      "basis": "product-group",
+      "sourceIds": [
+        "pgg-types"
+      ],
+      "note": "게임패스/상품 또는 여러 재료의 묶음으로 분류. 구매로 얻는 무기·완성 스톤의 등급을 구매권/재료 묶음 자체의 희귀도로 복사하지 않음."
+    },
+    {
+      "id": "bloodthirsty-stone-mats",
+      "name": "Bloodthirsty Stone (Mats)",
+      "category": "번들",
+      "rarity": "NotApplicable",
+      "status": "not-applicable",
+      "basis": "product-group",
+      "sourceIds": [
+        "pgg-types"
+      ],
+      "note": "게임패스/상품 또는 여러 재료의 묶음으로 분류. 구매로 얻는 무기·완성 스톤의 등급을 구매권/재료 묶음 자체의 희귀도로 복사하지 않음."
+    },
+    {
+      "id": "light-stone-mats",
+      "name": "Light Stone (Mats)",
+      "category": "번들",
+      "rarity": "NotApplicable",
+      "status": "not-applicable",
+      "basis": "product-group",
+      "sourceIds": [
+        "pgg-types"
+      ],
+      "note": "게임패스/상품 또는 여러 재료의 묶음으로 분류. 구매로 얻는 무기·완성 스톤의 등급을 구매권/재료 묶음 자체의 희귀도로 복사하지 않음."
+    },
+    {
+      "id": "glacier-stone-mats",
+      "name": "Glacier Stone (Mats)",
+      "category": "번들",
+      "rarity": "NotApplicable",
+      "status": "not-applicable",
+      "basis": "product-group",
+      "sourceIds": [
+        "pgg-types"
+      ],
+      "note": "게임패스/상품 또는 여러 재료의 묶음으로 분류. 구매로 얻는 무기·완성 스톤의 등급을 구매권/재료 묶음 자체의 희귀도로 복사하지 않음."
+    },
+    {
+      "id": "tempestas-stone-mats",
+      "name": "Tempestas Stone (Mats)",
+      "category": "번들",
+      "rarity": "NotApplicable",
+      "status": "not-applicable",
+      "basis": "product-group",
+      "sourceIds": [
+        "pgg-types"
+      ],
+      "note": "게임패스/상품 또는 여러 재료의 묶음으로 분류. 구매로 얻는 무기·완성 스톤의 등급을 구매권/재료 묶음 자체의 희귀도로 복사하지 않음."
+    },
+    {
+      "id": "disillusion-stone-mats",
+      "name": "Disillusion Stone (Mats)",
+      "category": "번들",
+      "rarity": "NotApplicable",
+      "status": "not-applicable",
+      "basis": "product-group",
+      "sourceIds": [
+        "pgg-types"
+      ],
+      "note": "게임패스/상품 또는 여러 재료의 묶음으로 분류. 구매로 얻는 무기·완성 스톤의 등급을 구매권/재료 묶음 자체의 희귀도로 복사하지 않음."
+    },
+    {
+      "id": "perm-erebus",
+      "name": "Perm Erebus",
+      "category": "영구 열매",
+      "rarity": "Mythic",
+      "status": "base-fruit",
+      "basis": "base-fruit",
+      "sourceIds": [
+        "update11"
+      ],
+      "note": "영구 구매권 자체의 희귀도 확인이 아니라 해당 열매 희귀도로 분류. Update 11 신규 Mythical 열매."
+    },
+    {
+      "id": "perm-dragon",
+      "name": "Perm Dragon",
+      "category": "영구 열매",
+      "rarity": "Mythic",
+      "status": "base-fruit",
+      "basis": "base-fruit",
+      "sourceIds": [
+        "update11",
+        "fruits"
+      ],
+      "note": "영구 구매권 자체의 희귀도 확인이 아니라 해당 열매 희귀도로 분류. Update 11 기준. 오래된 Dragon Legendary 표기는 사용하지 않음."
+    },
+    {
+      "id": "perm-dough",
+      "name": "Perm Dough",
+      "category": "영구 열매",
+      "rarity": "Legendary",
+      "status": "base-fruit",
+      "basis": "base-fruit",
+      "sourceIds": [
+        "fruits"
+      ],
+      "note": "영구 구매권 자체의 희귀도 확인이 아니라 해당 열매 희귀도로 분류."
+    },
+    {
+      "id": "perm-phoenix",
+      "name": "Perm Phoenix",
+      "category": "영구 열매",
+      "rarity": "Legendary",
+      "status": "base-fruit",
+      "basis": "base-fruit",
+      "sourceIds": [
+        "fruits"
+      ],
+      "note": "영구 구매권 자체의 희귀도 확인이 아니라 해당 열매 희귀도로 분류."
+    },
+    {
+      "id": "perm-pter",
+      "name": "Perm Pter",
+      "category": "영구 열매",
+      "rarity": "Mythic",
+      "status": "base-fruit",
+      "basis": "base-fruit",
+      "sourceIds": [
+        "fruits"
+      ],
+      "note": "영구 구매권 자체의 희귀도 확인이 아니라 해당 열매 희귀도로 분류."
+    },
+    {
+      "id": "perm-tree",
+      "name": "Perm Tree",
+      "category": "영구 열매",
+      "rarity": "Legendary",
+      "status": "base-fruit",
+      "basis": "base-fruit",
+      "sourceIds": [
+        "fruits"
+      ],
+      "note": "영구 구매권 자체의 희귀도 확인이 아니라 해당 열매 희귀도로 분류."
+    },
+    {
+      "id": "perm-gate",
+      "name": "Perm Gate",
+      "category": "영구 열매",
+      "rarity": "Legendary",
+      "status": "base-fruit",
+      "basis": "base-fruit",
+      "sourceIds": [
+        "fruits"
+      ],
+      "note": "영구 구매권 자체의 희귀도 확인이 아니라 해당 열매 희귀도로 분류."
+    },
+    {
+      "id": "perm-toy",
+      "name": "Perm Toy",
+      "category": "영구 열매",
+      "rarity": "Legendary",
+      "status": "base-fruit",
+      "basis": "base-fruit",
+      "sourceIds": [
+        "fruits"
+      ],
+      "note": "영구 구매권 자체의 희귀도 확인이 아니라 해당 열매 희귀도로 분류."
+    },
+    {
+      "id": "perm-melody",
+      "name": "Perm Melody",
+      "category": "영구 열매",
+      "rarity": "Legendary",
+      "status": "base-fruit",
+      "basis": "base-fruit",
+      "sourceIds": [
+        "fruits"
+      ],
+      "note": "영구 구매권 자체의 희귀도 확인이 아니라 해당 열매 희귀도로 분류."
+    },
+    {
+      "id": "perm-demon",
+      "name": "Perm Demon",
+      "category": "영구 열매",
+      "rarity": "Legendary",
+      "status": "base-fruit",
+      "basis": "base-fruit",
+      "sourceIds": [
+        "fruits"
+      ],
+      "note": "영구 구매권 자체의 희귀도 확인이 아니라 해당 열매 희귀도로 분류."
+    },
+    {
+      "id": "perm-quake",
+      "name": "Perm Quake",
+      "category": "영구 열매",
+      "rarity": "Epic",
+      "status": "base-fruit",
+      "basis": "base-fruit",
+      "sourceIds": [
+        "fruits"
+      ],
+      "note": "영구 구매권 자체의 희귀도 확인이 아니라 해당 열매 희귀도로 분류."
+    },
+    {
+      "id": "perm-rumble",
+      "name": "Perm Rumble",
+      "category": "영구 열매",
+      "rarity": "Epic",
+      "status": "base-fruit",
+      "basis": "base-fruit",
+      "sourceIds": [
+        "fruits"
+      ],
+      "note": "영구 구매권 자체의 희귀도 확인이 아니라 해당 열매 희귀도로 분류."
+    },
+    {
+      "id": "perm-gas",
+      "name": "Perm Gas",
+      "category": "영구 열매",
+      "rarity": "Epic",
+      "status": "base-fruit",
+      "basis": "base-fruit",
+      "sourceIds": [
+        "fruits"
+      ],
+      "note": "영구 구매권 자체의 희귀도 확인이 아니라 해당 열매 희귀도로 분류."
+    },
+    {
+      "id": "perm-control",
+      "name": "Perm Control",
+      "category": "영구 열매",
+      "rarity": "Rare",
+      "status": "base-fruit",
+      "basis": "base-fruit",
+      "sourceIds": [
+        "fruits"
+      ],
+      "note": "영구 구매권 자체의 희귀도 확인이 아니라 해당 열매 희귀도로 분류."
+    },
+    {
+      "id": "perm-light",
+      "name": "Perm Light",
+      "category": "영구 열매",
+      "rarity": "Epic",
+      "status": "base-fruit",
+      "basis": "base-fruit",
+      "sourceIds": [
+        "fruits"
+      ],
+      "note": "영구 구매권 자체의 희귀도 확인이 아니라 해당 열매 희귀도로 분류."
+    },
+    {
+      "id": "perm-snow",
+      "name": "Perm Snow",
+      "category": "영구 열매",
+      "rarity": "Epic",
+      "status": "base-fruit",
+      "basis": "base-fruit",
+      "sourceIds": [
+        "fruits"
+      ],
+      "note": "영구 구매권 자체의 희귀도 확인이 아니라 해당 열매 희귀도로 분류."
+    },
+    {
+      "id": "perm-spino",
+      "name": "Perm Spino",
+      "category": "영구 열매",
+      "rarity": "Rare",
+      "status": "base-fruit",
+      "basis": "base-fruit",
+      "sourceIds": [
+        "fruits"
+      ],
+      "note": "영구 구매권 자체의 희귀도 확인이 아니라 해당 열매 희귀도로 분류."
+    },
+    {
+      "id": "perm-gravity",
+      "name": "Perm Gravity",
+      "category": "영구 열매",
+      "rarity": "Rare",
+      "status": "base-fruit",
+      "basis": "base-fruit",
+      "sourceIds": [
+        "fruits"
+      ],
+      "note": "영구 구매권 자체의 희귀도 확인이 아니라 해당 열매 희귀도로 분류."
+    },
+    {
+      "id": "perm-buddha",
+      "name": "Perm Buddha",
+      "category": "영구 열매",
+      "rarity": "Rare",
+      "status": "base-fruit",
+      "basis": "base-fruit",
+      "sourceIds": [
+        "fruits"
+      ],
+      "note": "영구 구매권 자체의 희귀도 확인이 아니라 해당 열매 희귀도로 분류."
+    },
+    {
+      "id": "perm-flame",
+      "name": "Perm Flame",
+      "category": "영구 열매",
+      "rarity": "Epic",
+      "status": "base-fruit",
+      "basis": "base-fruit",
+      "sourceIds": [
+        "fruits"
+      ],
+      "note": "영구 구매권 자체의 희귀도 확인이 아니라 해당 열매 희귀도로 분류."
+    },
+    {
+      "id": "perm-allo",
+      "name": "Perm Allo",
+      "category": "영구 열매",
+      "rarity": "Rare",
+      "status": "base-fruit",
+      "basis": "base-fruit",
+      "sourceIds": [
+        "fruits"
+      ],
+      "note": "영구 구매권 자체의 희귀도 확인이 아니라 해당 열매 희귀도로 분류."
+    },
+    {
+      "id": "perm-magma",
+      "name": "Perm Magma",
+      "category": "영구 열매",
+      "rarity": "Epic",
+      "status": "base-fruit",
+      "basis": "base-fruit",
+      "sourceIds": [
+        "fruits"
+      ],
+      "note": "영구 구매권 자체의 희귀도 확인이 아니라 해당 열매 희귀도로 분류."
+    },
+    {
+      "id": "perm-brachio",
+      "name": "Perm Brachio",
+      "category": "영구 열매",
+      "rarity": "Rare",
+      "status": "base-fruit",
+      "basis": "base-fruit",
+      "sourceIds": [
+        "fruits"
+      ],
+      "note": "영구 구매권 자체의 희귀도 확인이 아니라 해당 열매 희귀도로 분류."
+    },
+    {
+      "id": "perm-venom",
+      "name": "Perm Venom",
+      "category": "영구 열매",
+      "rarity": "Rare",
+      "status": "base-fruit",
+      "basis": "base-fruit",
+      "sourceIds": [
+        "fruits"
+      ],
+      "note": "영구 구매권 자체의 희귀도 확인이 아니라 해당 열매 희귀도로 분류."
+    },
+    {
+      "id": "perm-ice",
+      "name": "Perm Ice",
+      "category": "영구 열매",
+      "rarity": "Epic",
+      "status": "base-fruit",
+      "basis": "base-fruit",
+      "sourceIds": [
+        "fruits"
+      ],
+      "note": "영구 구매권 자체의 희귀도 확인이 아니라 해당 열매 희귀도로 분류."
+    },
+    {
+      "id": "perm-dark",
+      "name": "Perm Dark",
+      "category": "영구 열매",
+      "rarity": "Rare",
+      "status": "base-fruit",
+      "basis": "base-fruit",
+      "sourceIds": [
+        "fruits"
+      ],
+      "note": "영구 구매권 자체의 희귀도 확인이 아니라 해당 열매 희귀도로 분류."
+    },
+    {
+      "id": "perm-love",
+      "name": "Perm Love",
+      "category": "영구 열매",
+      "rarity": "Uncommon",
+      "status": "base-fruit",
+      "basis": "base-fruit",
+      "sourceIds": [
+        "fruits"
+      ],
+      "note": "영구 구매권 자체의 희귀도 확인이 아니라 해당 열매 희귀도로 분류."
+    },
+    {
+      "id": "perm-rubber",
+      "name": "Perm Rubber",
+      "category": "영구 열매",
+      "rarity": "Rare",
+      "status": "base-fruit",
+      "basis": "base-fruit",
+      "sourceIds": [
+        "fruits"
+      ],
+      "note": "영구 구매권 자체의 희귀도 확인이 아니라 해당 열매 희귀도로 분류."
+    },
+    {
+      "id": "perm-paw",
+      "name": "Perm Paw",
+      "category": "영구 열매",
+      "rarity": "Rare",
+      "status": "base-fruit",
+      "basis": "base-fruit",
+      "sourceIds": [
+        "fruits",
+        "fruit-renames"
+      ],
+      "note": "영구 구매권 자체의 희귀도 확인이 아니라 해당 열매 희귀도로 분류. 기존 시세표 이름 Paw를 유지하되 Paw → Palm, Uncommon → Rare 변경 기록을 적용. 해당 열매 기준."
+    },
+    {
+      "id": "perm-telekinesis",
+      "name": "Perm Telekinesis",
+      "category": "영구 열매",
+      "rarity": "Uncommon",
+      "status": "base-fruit",
+      "basis": "base-fruit",
+      "sourceIds": [
+        "fruits"
+      ],
+      "note": "영구 구매권 자체의 희귀도 확인이 아니라 해당 열매 희귀도로 분류."
+    },
+    {
+      "id": "perm-bomb",
+      "name": "Perm Bomb",
+      "category": "영구 열매",
+      "rarity": "Common",
+      "status": "base-fruit",
+      "basis": "base-fruit",
+      "sourceIds": [
+        "fruits"
+      ],
+      "note": "영구 구매권 자체의 희귀도 확인이 아니라 해당 열매 희귀도로 분류."
+    }
+  ],
+  "limitations": [
+    "커뮤니티 자료의 희귀도 필드 대조이며 게임 개발사의 인증을 뜻하지 않음.",
+    "S/A/B 티어, 시세, 이미지 테두리 색, 드롭 확률로 희귀도를 만들어내지 않음.",
+    "최신 Update 11의 Dragon 승격을 오래된 wiki Legendary 값보다 우선.",
+    "신규 Depth King 재료 여섯 개는 드롭률만 확인되고 명시적인 희귀도는 확인되지 않아 Unknown 유지."
+  ]
+}
