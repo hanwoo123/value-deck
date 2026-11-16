@@ -41,7 +41,7 @@
           "unit": "자료 표기 젬",
           "unitVerified": true,
           "publishedAt": null,
-          "observedAt": "2026-11-16T03:59:38+09:00"
+          "observedAt": "2026-11-16T15:51:39+09:00"
         }
       ],
       "aliases": [
@@ -49,8 +49,8 @@
       ],
       "rarityStatus": "catalog",
       "rosterObservedAt": "2026-11-14T19:51:07+09:00",
-      "priceReviewedAt": "2026-11-16T03:59:38+09:00",
-      "priceValidUntil": "2026-11-23T03:59:38+09:00"
+      "priceReviewedAt": "2026-11-16T15:51:39+09:00",
+      "priceValidUntil": "2026-11-23T15:51:39+09:00"
     },
     {
       "id": "engineer-cameraman",
@@ -72,7 +72,7 @@
           "unit": "자료 표기 젬",
           "unitVerified": true,
           "publishedAt": null,
-          "observedAt": "2026-11-16T03:59:38+09:00"
+          "observedAt": "2026-11-16T15:51:39+09:00"
         }
       ],
       "aliases": [],
@@ -88,8 +88,8 @@
           "observedAt": "2026-11-14T15:46:32+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-16T03:59:38+09:00",
-      "priceValidUntil": "2026-11-23T03:59:38+09:00"
+      "priceReviewedAt": "2026-11-16T15:51:39+09:00",
+      "priceValidUntil": "2026-11-23T15:51:39+09:00"
     },
     {
       "id": "chaos-cameraman",
@@ -111,7 +111,7 @@
           "unit": "자료 표기 젬",
           "unitVerified": true,
           "publishedAt": null,
-          "observedAt": "2026-11-16T03:59:38+09:00"
+          "observedAt": "2026-11-16T15:51:39+09:00"
         }
       ],
       "aliases": [
@@ -129,8 +129,8 @@
           "observedAt": "2026-11-14T15:46:32+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-16T03:59:38+09:00",
-      "priceValidUntil": "2026-11-23T03:59:38+09:00"
+      "priceReviewedAt": "2026-11-16T15:51:39+09:00",
+      "priceValidUntil": "2026-11-23T15:51:39+09:00"
     },
     {
       "id": "upgraded-titan-cameraman",
@@ -152,7 +152,7 @@
           "unit": "자료 표기 젬",
           "unitVerified": true,
           "publishedAt": null,
-          "observedAt": "2026-11-16T03:59:38+09:00"
+          "observedAt": "2026-11-16T15:51:39+09:00"
         }
       ],
       "aliases": [
@@ -170,8 +170,8 @@
           "observedAt": "2026-11-14T15:46:32+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-16T03:59:38+09:00",
-      "priceValidUntil": "2026-11-23T03:59:38+09:00"
+      "priceReviewedAt": "2026-11-16T15:51:39+09:00",
+      "priceValidUntil": "2026-11-23T15:51:39+09:00"
     },
     {
       "id": "premium-pass",
@@ -193,7 +193,7 @@
           "unit": "자료 표기 젬",
           "unitVerified": true,
           "publishedAt": null,
-          "observedAt": "2026-11-16T03:59:38+09:00"
+          "observedAt": "2026-11-16T15:51:39+09:00"
         }
       ],
       "historicalQuotes": [
@@ -206,8 +206,8 @@
           "observedAt": "2026-11-14T15:46:32+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-16T03:59:38+09:00",
-      "priceValidUntil": "2026-11-23T03:59:38+09:00"
+      "priceReviewedAt": "2026-11-16T15:51:39+09:00",
+      "priceValidUntil": "2026-11-23T15:51:39+09:00"
     },
     {
       "id": "executioner-tv-man",
@@ -229,7 +229,7 @@
           "unit": "자료 표기 젬",
           "unitVerified": true,
           "publishedAt": null,
-          "observedAt": "2026-11-16T03:59:38+09:00"
+          "observedAt": "2026-11-16T15:51:39+09:00"
         }
       ],
       "aliases": [
@@ -247,8 +247,8 @@
           "observedAt": "2026-11-14T15:46:32+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-16T03:59:38+09:00",
-      "priceValidUntil": "2026-11-23T03:59:38+09:00"
+      "priceReviewedAt": "2026-11-16T15:51:39+09:00",
+      "priceValidUntil": "2026-11-23T15:51:39+09:00"
     },
     {
       "id": "x2-candy",
@@ -270,7 +270,7 @@
           "unit": "자료 표기 젬",
           "unitVerified": true,
           "publishedAt": null,
-          "observedAt": "2026-11-16T03:59:38+09:00"
+          "observedAt": "2026-11-16T15:51:39+09:00"
         }
       ],
       "historicalQuotes": [
@@ -283,8 +283,8 @@
           "observedAt": "2026-11-14T15:46:32+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-16T03:59:38+09:00",
-      "priceValidUntil": "2026-11-23T03:59:38+09:00"
+      "priceReviewedAt": "2026-11-16T15:51:39+09:00",
+      "priceValidUntil": "2026-11-23T15:51:39+09:00"
     },
     {
       "id": "2x-lucky",
@@ -306,7 +306,7 @@
           "unit": "자료 표기 젬",
           "unitVerified": true,
           "publishedAt": null,
-          "observedAt": "2026-11-16T03:59:38+09:00"
+          "observedAt": "2026-11-16T15:51:39+09:00"
         }
       ],
       "historicalQuotes": [
@@ -319,8 +319,8 @@
           "observedAt": "2026-11-14T15:46:32+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-16T03:59:38+09:00",
-      "priceValidUntil": "2026-11-23T03:59:38+09:00"
+      "priceReviewedAt": "2026-11-16T15:51:39+09:00",
+      "priceValidUntil": "2026-11-23T15:51:39+09:00"
     },
     {
       "id": "2x-money",
@@ -342,7 +342,7 @@
           "unit": "자료 표기 젬",
           "unitVerified": true,
           "publishedAt": null,
-          "observedAt": "2026-11-16T03:59:38+09:00"
+          "observedAt": "2026-11-16T15:51:39+09:00"
         }
       ],
       "historicalQuotes": [
@@ -355,8 +355,8 @@
           "observedAt": "2026-11-14T15:46:32+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-16T03:59:38+09:00",
-      "priceValidUntil": "2026-11-23T03:59:38+09:00"
+      "priceReviewedAt": "2026-11-16T15:51:39+09:00",
+      "priceValidUntil": "2026-11-23T15:51:39+09:00"
     },
     {
       "id": "headless-tv-man",
@@ -378,7 +378,7 @@
           "unit": "자료 표기 젬",
           "unitVerified": true,
           "publishedAt": null,
-          "observedAt": "2026-11-16T03:59:38+09:00"
+          "observedAt": "2026-11-16T15:51:39+09:00"
         }
       ],
       "rosterObservedAt": "2026-11-14T19:51:07+09:00",
@@ -400,8 +400,8 @@
           "observedAt": "2026-11-14T15:46:32+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-16T03:59:38+09:00",
-      "priceValidUntil": "2026-11-23T03:59:38+09:00"
+      "priceReviewedAt": "2026-11-16T15:51:39+09:00",
+      "priceValidUntil": "2026-11-23T15:51:39+09:00"
     },
     {
       "id": "large-scientist-cameraman",
@@ -423,7 +423,7 @@
           "unit": "자료 표기 젬",
           "unitVerified": true,
           "publishedAt": null,
-          "observedAt": "2026-11-16T03:59:38+09:00"
+          "observedAt": "2026-11-16T15:51:39+09:00"
         }
       ],
       "aliases": [],
@@ -439,8 +439,8 @@
           "observedAt": "2026-11-14T15:46:32+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-16T03:59:38+09:00",
-      "priceValidUntil": "2026-11-23T03:59:38+09:00"
+      "priceReviewedAt": "2026-11-16T15:51:39+09:00",
+      "priceValidUntil": "2026-11-23T15:51:39+09:00"
     },
     {
       "id": "tv-woman",
@@ -462,7 +462,7 @@
           "unit": "자료 표기 젬",
           "unitVerified": true,
           "publishedAt": null,
-          "observedAt": "2026-11-16T03:59:38+09:00"
+          "observedAt": "2026-11-16T15:51:39+09:00"
         }
       ],
       "aliases": [
@@ -480,8 +480,8 @@
           "observedAt": "2026-11-14T15:46:32+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-16T03:59:38+09:00",
-      "priceValidUntil": "2026-11-23T03:59:38+09:00"
+      "priceReviewedAt": "2026-11-16T15:51:39+09:00",
+      "priceValidUntil": "2026-11-23T15:51:39+09:00"
     },
     {
       "id": "cinemaman-titan",
@@ -503,7 +503,7 @@
           "unit": "자료 표기 젬",
           "unitVerified": true,
           "publishedAt": null,
-          "observedAt": "2026-11-16T03:59:38+09:00"
+          "observedAt": "2026-11-16T15:51:39+09:00"
         }
       ],
       "aliases": [
@@ -521,8 +521,8 @@
           "observedAt": "2026-11-14T15:46:32+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-16T03:59:38+09:00",
-      "priceValidUntil": "2026-11-23T03:59:38+09:00"
+      "priceReviewedAt": "2026-11-16T15:51:39+09:00",
+      "priceValidUntil": "2026-11-23T15:51:39+09:00"
     },
     {
       "id": "2x-speed",
@@ -544,7 +544,7 @@
           "unit": "자료 표기 젬",
           "unitVerified": true,
           "publishedAt": null,
-          "observedAt": "2026-11-16T03:59:38+09:00"
+          "observedAt": "2026-11-16T15:51:39+09:00"
         }
       ],
       "historicalQuotes": [
@@ -557,8 +557,8 @@
           "observedAt": "2026-11-14T15:46:32+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-16T03:59:38+09:00",
-      "priceValidUntil": "2026-11-23T03:59:38+09:00"
+      "priceReviewedAt": "2026-11-16T15:51:39+09:00",
+      "priceValidUntil": "2026-11-23T15:51:39+09:00"
     },
     {
       "id": "jetpack-cameraman",
@@ -580,7 +580,7 @@
           "unit": "자료 표기 젬",
           "unitVerified": true,
           "publishedAt": null,
-          "observedAt": "2026-11-16T03:59:38+09:00"
+          "observedAt": "2026-11-16T15:51:39+09:00"
         }
       ],
       "aliases": [],
@@ -596,8 +596,8 @@
           "observedAt": "2026-11-14T15:46:32+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-16T03:59:38+09:00",
-      "priceValidUntil": "2026-11-23T03:59:38+09:00"
+      "priceReviewedAt": "2026-11-16T15:51:39+09:00",
+      "priceValidUntil": "2026-11-23T15:51:39+09:00"
     },
     {
       "id": "large-prototype-titan",
@@ -619,7 +619,7 @@
           "unit": "자료 표기 젬",
           "unitVerified": true,
           "publishedAt": null,
-          "observedAt": "2026-11-16T03:59:38+09:00"
+          "observedAt": "2026-11-16T15:51:39+09:00"
         }
       ],
       "aliases": [
@@ -637,8 +637,8 @@
           "observedAt": "2026-11-14T15:46:32+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-16T03:59:38+09:00",
-      "priceValidUntil": "2026-11-23T03:59:38+09:00"
+      "priceReviewedAt": "2026-11-16T15:51:39+09:00",
+      "priceValidUntil": "2026-11-23T15:51:39+09:00"
     },
     {
       "id": "glitch-plungerman",
@@ -660,7 +660,7 @@
           "unit": "자료 표기 젬",
           "unitVerified": true,
           "publishedAt": null,
-          "observedAt": "2026-11-16T03:59:38+09:00"
+          "observedAt": "2026-11-16T15:51:39+09:00"
         }
       ],
       "aliases": [
@@ -678,8 +678,8 @@
           "observedAt": "2026-11-14T15:46:32+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-16T03:59:38+09:00",
-      "priceValidUntil": "2026-11-23T03:59:38+09:00"
+      "priceReviewedAt": "2026-11-16T15:51:39+09:00",
+      "priceValidUntil": "2026-11-23T15:51:39+09:00"
     },
     {
       "id": "videotaper-titan",
@@ -701,7 +701,7 @@
           "unit": "자료 표기 젬",
           "unitVerified": true,
           "publishedAt": null,
-          "observedAt": "2026-11-16T03:59:38+09:00"
+          "observedAt": "2026-11-16T15:51:39+09:00"
         }
       ],
       "aliases": [
@@ -719,8 +719,8 @@
           "observedAt": "2026-11-14T15:46:32+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-16T03:59:38+09:00",
-      "priceValidUntil": "2026-11-23T03:59:38+09:00"
+      "priceReviewedAt": "2026-11-16T15:51:39+09:00",
+      "priceValidUntil": "2026-11-23T15:51:39+09:00"
     },
     {
       "id": "upgraded-titan-speakerman",
@@ -742,7 +742,7 @@
           "unit": "자료 표기 젬",
           "unitVerified": true,
           "publishedAt": null,
-          "observedAt": "2026-11-16T03:59:38+09:00"
+          "observedAt": "2026-11-16T15:51:39+09:00"
         }
       ],
       "aliases": [],
@@ -758,8 +758,8 @@
           "observedAt": "2026-11-14T15:46:32+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-16T03:59:38+09:00",
-      "priceValidUntil": "2026-11-23T03:59:38+09:00"
+      "priceReviewedAt": "2026-11-16T15:51:39+09:00",
+      "priceValidUntil": "2026-11-23T15:51:39+09:00"
     },
     {
       "id": "scientist-crate",
@@ -781,7 +781,7 @@
           "unit": "자료 표기 젬",
           "unitVerified": true,
           "publishedAt": null,
-          "observedAt": "2026-11-16T03:59:38+09:00"
+          "observedAt": "2026-11-16T15:51:39+09:00"
         }
       ],
       "historicalQuotes": [
@@ -794,8 +794,8 @@
           "observedAt": "2026-11-14T15:46:32+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-16T03:59:38+09:00",
-      "priceValidUntil": "2026-11-23T03:59:38+09:00"
+      "priceReviewedAt": "2026-11-16T15:51:39+09:00",
+      "priceValidUntil": "2026-11-23T15:51:39+09:00"
     },
     {
       "id": "spider-crate",
@@ -817,7 +817,7 @@
           "unit": "자료 표기 젬",
           "unitVerified": true,
           "publishedAt": null,
-          "observedAt": "2026-11-16T03:59:38+09:00"
+          "observedAt": "2026-11-16T15:51:39+09:00"
         }
       ],
       "historicalQuotes": [
@@ -830,8 +830,8 @@
           "observedAt": "2026-11-14T15:46:32+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-16T03:59:38+09:00",
-      "priceValidUntil": "2026-11-23T03:59:38+09:00"
+      "priceReviewedAt": "2026-11-16T15:51:39+09:00",
+      "priceValidUntil": "2026-11-23T15:51:39+09:00"
     },
     {
       "id": "pumpkin-farmer",
@@ -853,7 +853,7 @@
           "unit": "자료 표기 젬",
           "unitVerified": true,
           "publishedAt": null,
-          "observedAt": "2026-11-16T03:59:38+09:00"
+          "observedAt": "2026-11-16T15:51:39+09:00"
         }
       ],
       "aliases": [],
@@ -869,8 +869,8 @@
           "observedAt": "2026-11-14T15:46:32+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-16T03:59:38+09:00",
-      "priceValidUntil": "2026-11-23T03:59:38+09:00"
+      "priceReviewedAt": "2026-11-16T15:51:39+09:00",
+      "priceValidUntil": "2026-11-23T15:51:39+09:00"
     },
     {
       "id": "scientist-cameraman",
@@ -892,7 +892,7 @@
           "unit": "자료 표기 젬",
           "unitVerified": true,
           "publishedAt": null,
-          "observedAt": "2026-11-16T03:59:38+09:00"
+          "observedAt": "2026-11-16T15:51:39+09:00"
         }
       ],
       "aliases": [],
@@ -908,8 +908,8 @@
           "observedAt": "2026-11-14T15:46:32+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-16T03:59:38+09:00",
-      "priceValidUntil": "2026-11-23T03:59:38+09:00"
+      "priceReviewedAt": "2026-11-16T15:51:39+09:00",
+      "priceValidUntil": "2026-11-23T15:51:39+09:00"
     },
     {
       "id": "camera-repair-drone",
@@ -931,7 +931,7 @@
           "unit": "자료 표기 젬",
           "unitVerified": true,
           "publishedAt": null,
-          "observedAt": "2026-11-16T03:59:38+09:00"
+          "observedAt": "2026-11-16T15:51:39+09:00"
         }
       ],
       "aliases": [],
@@ -947,8 +947,8 @@
           "observedAt": "2026-11-14T15:46:32+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-16T03:59:38+09:00",
-      "priceValidUntil": "2026-11-23T03:59:38+09:00"
+      "priceReviewedAt": "2026-11-16T15:51:39+09:00",
+      "priceValidUntil": "2026-11-23T15:51:39+09:00"
     },
     {
       "id": "woman-crate",
@@ -970,7 +970,7 @@
           "unit": "자료 표기 젬",
           "unitVerified": true,
           "publishedAt": null,
-          "observedAt": "2026-11-16T03:59:38+09:00"
+          "observedAt": "2026-11-16T15:51:39+09:00"
         }
       ],
       "historicalQuotes": [
@@ -983,8 +983,8 @@
           "observedAt": "2026-11-14T15:46:32+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-16T03:59:38+09:00",
-      "priceValidUntil": "2026-11-23T03:59:38+09:00"
+      "priceReviewedAt": "2026-11-16T15:51:39+09:00",
+      "priceValidUntil": "2026-11-23T15:51:39+09:00"
     },
     {
       "id": "camera-spider",
@@ -1006,7 +1006,7 @@
           "unit": "자료 표기 젬",
           "unitVerified": true,
           "publishedAt": null,
-          "observedAt": "2026-11-16T03:59:38+09:00"
+          "observedAt": "2026-11-16T15:51:39+09:00"
         }
       ],
       "aliases": [
@@ -1024,8 +1024,8 @@
           "observedAt": "2026-11-14T15:46:32+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-16T03:59:38+09:00",
-      "priceValidUntil": "2026-11-23T03:59:38+09:00"
+      "priceReviewedAt": "2026-11-16T15:51:39+09:00",
+      "priceValidUntil": "2026-11-23T15:51:39+09:00"
     },
     {
       "id": "dragon-cameraman",
@@ -1047,7 +1047,7 @@
           "unit": "자료 표기 젬",
           "unitVerified": true,
           "publishedAt": null,
-          "observedAt": "2026-11-16T03:59:38+09:00"
+          "observedAt": "2026-11-16T15:51:39+09:00"
         }
       ],
       "aliases": [
@@ -1065,8 +1065,8 @@
           "observedAt": "2026-11-14T15:46:32+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-16T03:59:38+09:00",
-      "priceValidUntil": "2026-11-23T03:59:38+09:00"
+      "priceReviewedAt": "2026-11-16T15:51:39+09:00",
+      "priceValidUntil": "2026-11-23T15:51:39+09:00"
     },
     {
       "id": "halloween-crate",
@@ -1088,7 +1088,7 @@
           "unit": "자료 표기 젬",
           "unitVerified": true,
           "publishedAt": null,
-          "observedAt": "2026-11-16T03:59:38+09:00"
+          "observedAt": "2026-11-16T15:51:39+09:00"
         }
       ],
       "historicalQuotes": [
@@ -1101,8 +1101,8 @@
           "observedAt": "2026-11-14T15:46:32+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-16T03:59:38+09:00",
-      "priceValidUntil": "2026-11-23T03:59:38+09:00"
+      "priceReviewedAt": "2026-11-16T15:51:39+09:00",
+      "priceValidUntil": "2026-11-23T15:51:39+09:00"
     },
     {
       "id": "speakerwoman",
@@ -1124,7 +1124,7 @@
           "unit": "자료 표기 젬",
           "unitVerified": true,
           "publishedAt": null,
-          "observedAt": "2026-11-16T03:59:38+09:00"
+          "observedAt": "2026-11-16T15:51:39+09:00"
         }
       ],
       "rosterObservedAt": "2026-11-14T19:51:07+09:00",
@@ -1146,8 +1146,8 @@
           "observedAt": "2026-11-14T15:46:32+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-16T03:59:38+09:00",
-      "priceValidUntil": "2026-11-23T03:59:38+09:00"
+      "priceReviewedAt": "2026-11-16T15:51:39+09:00",
+      "priceValidUntil": "2026-11-23T15:51:39+09:00"
     },
     {
       "id": "ninja-cameraman",
@@ -1169,7 +1169,7 @@
           "unit": "자료 표기 젬",
           "unitVerified": true,
           "publishedAt": null,
-          "observedAt": "2026-11-16T03:59:38+09:00"
+          "observedAt": "2026-11-16T15:51:39+09:00"
         }
       ],
       "aliases": [],
@@ -1185,8 +1185,8 @@
           "observedAt": "2026-11-14T15:46:32+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-16T03:59:38+09:00",
-      "priceValidUntil": "2026-11-23T03:59:38+09:00"
+      "priceReviewedAt": "2026-11-16T15:51:39+09:00",
+      "priceValidUntil": "2026-11-23T15:51:39+09:00"
     },
     {
       "id": "titan-cameraman",
@@ -1208,7 +1208,7 @@
           "unit": "자료 표기 젬",
           "unitVerified": true,
           "publishedAt": null,
-          "observedAt": "2026-11-16T03:59:38+09:00"
+          "observedAt": "2026-11-16T15:51:39+09:00"
         }
       ],
       "aliases": [],
@@ -1224,8 +1224,8 @@
           "observedAt": "2026-11-14T15:46:32+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-16T03:59:38+09:00",
-      "priceValidUntil": "2026-11-23T03:59:38+09:00"
+      "priceReviewedAt": "2026-11-16T15:51:39+09:00",
+      "priceValidUntil": "2026-11-23T15:51:39+09:00"
     },
     {
       "id": "laser-cameraman-car",
@@ -1247,7 +1247,7 @@
           "unit": "자료 표기 젬",
           "unitVerified": true,
           "publishedAt": null,
-          "observedAt": "2026-11-16T03:59:38+09:00"
+          "observedAt": "2026-11-16T15:51:39+09:00"
         }
       ],
       "aliases": [],
@@ -1263,8 +1263,8 @@
           "observedAt": "2026-11-14T15:46:32+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-16T03:59:38+09:00",
-      "priceValidUntil": "2026-11-23T03:59:38+09:00"
+      "priceReviewedAt": "2026-11-16T15:51:39+09:00",
+      "priceValidUntil": "2026-11-23T15:51:39+09:00"
     },
     {
       "id": "titan-tv-man",
@@ -1286,7 +1286,7 @@
           "unit": "자료 표기 젬",
           "unitVerified": true,
           "publishedAt": null,
-          "observedAt": "2026-11-16T03:59:38+09:00"
+          "observedAt": "2026-11-16T15:51:39+09:00"
         }
       ],
       "aliases": [],
@@ -1302,8 +1302,8 @@
           "observedAt": "2026-11-14T15:46:32+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-16T03:59:38+09:00",
-      "priceValidUntil": "2026-11-23T03:59:38+09:00"
+      "priceReviewedAt": "2026-11-16T15:51:39+09:00",
+      "priceValidUntil": "2026-11-23T15:51:39+09:00"
     },
     {
       "id": "titan-speakerman",
@@ -1325,7 +1325,7 @@
           "unit": "자료 표기 젬",
           "unitVerified": true,
           "publishedAt": null,
-          "observedAt": "2026-11-16T03:59:38+09:00"
+          "observedAt": "2026-11-16T15:51:39+09:00"
         }
       ],
       "aliases": [],
@@ -1341,8 +1341,8 @@
           "observedAt": "2026-11-14T15:46:32+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-16T03:59:38+09:00",
-      "priceValidUntil": "2026-11-23T03:59:38+09:00"
+      "priceReviewedAt": "2026-11-16T15:51:39+09:00",
+      "priceValidUntil": "2026-11-23T15:51:39+09:00"
     },
     {
       "id": "hacked-cameraman",
@@ -1365,7 +1365,7 @@
           "unit": "자료 표기 젬",
           "unitVerified": true,
           "publishedAt": null,
-          "observedAt": "2026-11-16T03:59:38+09:00"
+          "observedAt": "2026-11-16T15:51:39+09:00"
         }
       ],
       "aliases": [],
@@ -1381,8 +1381,8 @@
           "observedAt": "2026-11-14T15:46:32+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-16T03:59:38+09:00",
-      "priceValidUntil": "2026-11-23T03:59:38+09:00"
+      "priceReviewedAt": "2026-11-16T15:51:39+09:00",
+      "priceValidUntil": "2026-11-23T15:51:39+09:00"
     },
     {
       "id": "pharaoh-cameraman",
@@ -1405,7 +1405,7 @@
           "unit": "자료 표기 젬",
           "unitVerified": true,
           "publishedAt": null,
-          "observedAt": "2026-11-16T03:59:38+09:00"
+          "observedAt": "2026-11-16T15:51:39+09:00"
         }
       ],
       "rosterObservedAt": "2026-11-14T19:51:07+09:00",
@@ -1425,8 +1425,8 @@
           "observedAt": "2026-11-14T15:46:32+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-16T03:59:38+09:00",
-      "priceValidUntil": "2026-11-23T03:59:38+09:00"
+      "priceReviewedAt": "2026-11-16T15:51:39+09:00",
+      "priceValidUntil": "2026-11-23T15:51:39+09:00"
     },
     {
       "id": "upgraded-titan-tv-man",
@@ -1449,7 +1449,7 @@
           "unit": "자료 표기 젬",
           "unitVerified": true,
           "publishedAt": null,
-          "observedAt": "2026-11-16T03:59:38+09:00"
+          "observedAt": "2026-11-16T15:51:39+09:00"
         }
       ],
       "aliases": [],
@@ -1465,8 +1465,8 @@
           "observedAt": "2026-11-14T15:46:32+09:00"
         }
       ],
-      "priceReviewedAt": "2026-11-16T03:59:38+09:00",
-      "priceValidUntil": "2026-11-23T03:59:38+09:00"
+      "priceReviewedAt": "2026-11-16T15:51:39+09:00",
+      "priceValidUntil": "2026-11-23T15:51:39+09:00"
     },
     {
       "id": "reinforced-titan-cameraman",
@@ -1488,7 +1488,7 @@
           "unit": "자료 표기 젬",
           "unitVerified": true,
           "publishedAt": null,
-          "observedAt": "2026-11-16T03:59:38+09:00"
+          "observedAt": "2026-11-16T15:51:39+09:00"
         }
       ],
       "rosterObservedAt": "2026-11-14T19:51:07+09:00",
@@ -1498,8 +1498,8 @@
       ],
       "aliases": [],
       "rarityStatus": "catalog",
-      "priceReviewedAt": "2026-11-16T03:59:38+09:00",
-      "priceValidUntil": "2026-11-23T03:59:38+09:00"
+      "priceReviewedAt": "2026-11-16T15:51:39+09:00",
+      "priceValidUntil": "2026-11-23T15:51:39+09:00"
     },
     {
       "id": "large-laser-cameraman",
@@ -1521,7 +1521,7 @@
           "unit": "자료 표기 젬",
           "unitVerified": true,
           "publishedAt": null,
-          "observedAt": "2026-11-16T03:59:38+09:00"
+          "observedAt": "2026-11-16T15:51:39+09:00"
         }
       ],
       "rosterObservedAt": "2026-11-14T19:51:07+09:00",
@@ -1531,8 +1531,8 @@
       ],
       "aliases": [],
       "rarityStatus": "catalog",
-      "priceReviewedAt": "2026-11-16T03:59:38+09:00",
-      "priceValidUntil": "2026-11-23T03:59:38+09:00"
+      "priceReviewedAt": "2026-11-16T15:51:39+09:00",
+      "priceValidUntil": "2026-11-23T15:51:39+09:00"
     },
     {
       "id": "reinforced-titan-speakerman",
@@ -1554,7 +1554,7 @@
           "unit": "자료 표기 젬",
           "unitVerified": true,
           "publishedAt": null,
-          "observedAt": "2026-11-16T03:59:38+09:00"
+          "observedAt": "2026-11-16T15:51:39+09:00"
         }
       ],
       "rosterObservedAt": "2026-11-14T19:51:07+09:00",
@@ -1564,8 +1564,8 @@
       ],
       "aliases": [],
       "rarityStatus": "catalog",
-      "priceReviewedAt": "2026-11-16T03:59:38+09:00",
-      "priceValidUntil": "2026-11-23T03:59:38+09:00"
+      "priceReviewedAt": "2026-11-16T15:51:39+09:00",
+      "priceValidUntil": "2026-11-23T15:51:39+09:00"
     },
     {
       "id": "prototype-duo",
@@ -1587,7 +1587,7 @@
           "unit": "자료 표기 젬",
           "unitVerified": true,
           "publishedAt": null,
-          "observedAt": "2026-11-16T03:59:38+09:00"
+          "observedAt": "2026-11-16T15:51:39+09:00"
         }
       ],
       "rosterObservedAt": "2026-11-14T19:51:07+09:00",
@@ -1599,8 +1599,8 @@
         "Prototype Duo"
       ],
       "rarityStatus": "catalog",
-      "priceReviewedAt": "2026-11-16T03:59:38+09:00",
-      "priceValidUntil": "2026-11-23T03:59:38+09:00"
+      "priceReviewedAt": "2026-11-16T15:51:39+09:00",
+      "priceValidUntil": "2026-11-23T15:51:39+09:00"
     },
     {
       "id": "camera-attack-helicopter",
@@ -1622,7 +1622,7 @@
           "unit": "자료 표기 젬",
           "unitVerified": true,
           "publishedAt": null,
-          "observedAt": "2026-11-16T03:59:38+09:00"
+          "observedAt": "2026-11-16T15:51:39+09:00"
         }
       ],
       "rosterObservedAt": "2026-11-14T19:51:07+09:00",
@@ -1632,8 +1632,8 @@
       ],
       "aliases": [],
       "rarityStatus": "catalog",
-      "priceReviewedAt": "2026-11-16T03:59:38+09:00",
-      "priceValidUntil": "2026-11-23T03:59:38+09:00"
+      "priceReviewedAt": "2026-11-16T15:51:39+09:00",
+      "priceValidUntil": "2026-11-23T15:51:39+09:00"
     },
     {
       "id": "mummy-cameraman",
@@ -1654,7 +1654,7 @@
       ],
       "aliases": [],
       "rarityStatus": "catalog",
-      "priceReviewedAt": "2026-11-16T03:59:38+09:00",
+      "priceReviewedAt": "2026-11-16T15:51:39+09:00",
       "priceValidUntil": null
     },
     {
@@ -1677,7 +1677,7 @@
           "unit": "자료 표기 젬",
           "unitVerified": true,
           "publishedAt": null,
-          "observedAt": "2026-11-16T03:59:38+09:00"
+          "observedAt": "2026-11-16T15:51:39+09:00"
         }
       ],
       "rosterObservedAt": "2026-11-14T19:51:07+09:00",
@@ -1687,8 +1687,8 @@
       ],
       "aliases": [],
       "rarityStatus": "catalog",
-      "priceReviewedAt": "2026-11-16T03:59:38+09:00",
-      "priceValidUntil": "2026-11-23T03:59:38+09:00"
+      "priceReviewedAt": "2026-11-16T15:51:39+09:00",
+      "priceValidUntil": "2026-11-23T15:51:39+09:00"
     },
     {
       "id": "vampire-camera-man",
@@ -1710,7 +1710,7 @@
           "unit": "자료 표기 젬",
           "unitVerified": true,
           "publishedAt": null,
-          "observedAt": "2026-11-16T03:59:38+09:00"
+          "observedAt": "2026-11-16T15:51:39+09:00"
         }
       ],
       "rosterObservedAt": "2026-11-14T19:51:07+09:00",
@@ -1722,8 +1722,8 @@
         "Vampire Camera Man"
       ],
       "rarityStatus": "catalog",
-      "priceReviewedAt": "2026-11-16T03:59:38+09:00",
-      "priceValidUntil": "2026-11-23T03:59:38+09:00"
+      "priceReviewedAt": "2026-11-16T15:51:39+09:00",
+      "priceValidUntil": "2026-11-23T15:51:39+09:00"
     },
     {
       "id": "werewolf-speakerman",
@@ -1744,7 +1744,7 @@
       ],
       "aliases": [],
       "rarityStatus": "catalog",
-      "priceReviewedAt": "2026-11-16T03:59:38+09:00",
+      "priceReviewedAt": "2026-11-16T15:51:39+09:00",
       "priceValidUntil": null
     },
     {
@@ -1767,7 +1767,7 @@
           "unit": "자료 표기 젬",
           "unitVerified": true,
           "publishedAt": null,
-          "observedAt": "2026-11-16T03:59:38+09:00"
+          "observedAt": "2026-11-16T15:51:39+09:00"
         }
       ],
       "rosterObservedAt": "2026-11-14T19:51:07+09:00",
@@ -1777,8 +1777,8 @@
       ],
       "aliases": [],
       "rarityStatus": "catalog",
-      "priceReviewedAt": "2026-11-16T03:59:38+09:00",
-      "priceValidUntil": "2026-11-23T03:59:38+09:00"
+      "priceReviewedAt": "2026-11-16T15:51:39+09:00",
+      "priceValidUntil": "2026-11-23T15:51:39+09:00"
     },
     {
       "id": "rocket-cameraman",
@@ -1799,7 +1799,7 @@
       ],
       "aliases": [],
       "rarityStatus": "catalog",
-      "priceReviewedAt": "2026-11-16T03:59:38+09:00",
+      "priceReviewedAt": "2026-11-16T15:51:39+09:00",
       "priceValidUntil": null
     },
     {
@@ -1821,7 +1821,7 @@
       ],
       "aliases": [],
       "rarityStatus": "catalog",
-      "priceReviewedAt": "2026-11-16T03:59:38+09:00",
+      "priceReviewedAt": "2026-11-16T15:51:39+09:00",
       "priceValidUntil": null
     },
     {
@@ -1843,7 +1843,7 @@
       ],
       "aliases": [],
       "rarityStatus": "catalog",
-      "priceReviewedAt": "2026-11-16T03:59:38+09:00",
+      "priceReviewedAt": "2026-11-16T15:51:39+09:00",
       "priceValidUntil": null
     },
     {
@@ -1865,7 +1865,7 @@
       ],
       "aliases": [],
       "rarityStatus": "catalog",
-      "priceReviewedAt": "2026-11-16T03:59:38+09:00",
+      "priceReviewedAt": "2026-11-16T15:51:39+09:00",
       "priceValidUntil": null
     },
     {
@@ -1887,7 +1887,7 @@
       ],
       "aliases": [],
       "rarityStatus": "catalog",
-      "priceReviewedAt": "2026-11-16T03:59:38+09:00",
+      "priceReviewedAt": "2026-11-16T15:51:39+09:00",
       "priceValidUntil": null
     },
     {
@@ -1909,7 +1909,7 @@
       ],
       "aliases": [],
       "rarityStatus": "catalog",
-      "priceReviewedAt": "2026-11-16T03:59:38+09:00",
+      "priceReviewedAt": "2026-11-16T15:51:39+09:00",
       "priceValidUntil": null
     },
     {
@@ -1931,7 +1931,7 @@
       ],
       "aliases": [],
       "rarityStatus": "catalog",
-      "priceReviewedAt": "2026-11-16T03:59:38+09:00",
+      "priceReviewedAt": "2026-11-16T15:51:39+09:00",
       "priceValidUntil": null
     },
     {
@@ -1953,7 +1953,7 @@
       ],
       "aliases": [],
       "rarityStatus": "catalog",
-      "priceReviewedAt": "2026-11-16T03:59:38+09:00",
+      "priceReviewedAt": "2026-11-16T15:51:39+09:00",
       "priceValidUntil": null
     },
     {
@@ -1975,7 +1975,7 @@
       ],
       "aliases": [],
       "rarityStatus": "catalog",
-      "priceReviewedAt": "2026-11-16T03:59:38+09:00",
+      "priceReviewedAt": "2026-11-16T15:51:39+09:00",
       "priceValidUntil": null
     },
     {
@@ -1997,7 +1997,7 @@
       ],
       "aliases": [],
       "rarityStatus": "catalog",
-      "priceReviewedAt": "2026-11-16T03:59:38+09:00",
+      "priceReviewedAt": "2026-11-16T15:51:39+09:00",
       "priceValidUntil": null
     },
     {
@@ -2019,7 +2019,7 @@
       ],
       "aliases": [],
       "rarityStatus": "catalog",
-      "priceReviewedAt": "2026-11-16T03:59:38+09:00",
+      "priceReviewedAt": "2026-11-16T15:51:39+09:00",
       "priceValidUntil": null
     },
     {
@@ -2041,7 +2041,7 @@
       ],
       "aliases": [],
       "rarityStatus": "catalog",
-      "priceReviewedAt": "2026-11-16T03:59:38+09:00",
+      "priceReviewedAt": "2026-11-16T15:51:39+09:00",
       "priceValidUntil": null
     },
     {
@@ -2063,7 +2063,7 @@
       ],
       "aliases": [],
       "rarityStatus": "catalog",
-      "priceReviewedAt": "2026-11-16T03:59:38+09:00",
+      "priceReviewedAt": "2026-11-16T15:51:39+09:00",
       "priceValidUntil": null
     },
     {
@@ -2085,7 +2085,7 @@
       ],
       "aliases": [],
       "rarityStatus": "catalog",
-      "priceReviewedAt": "2026-11-16T03:59:38+09:00",
+      "priceReviewedAt": "2026-11-16T15:51:39+09:00",
       "priceValidUntil": null
     },
     {
@@ -2105,13 +2105,13 @@
           "unit": "자료 표기 젬",
           "unitVerified": true,
           "publishedAt": null,
-          "observedAt": "2026-11-16T03:59:38+09:00"
+          "observedAt": "2026-11-16T15:51:39+09:00"
         }
       ],
       "valueBasis": "reviewed-public-list-v2",
       "trend": "stable",
-      "priceReviewedAt": "2026-11-16T03:59:38+09:00",
-      "priceValidUntil": "2026-11-23T03:59:38+09:00",
+      "priceReviewedAt": "2026-11-16T15:51:39+09:00",
+      "priceValidUntil": "2026-11-23T15:51:39+09:00",
       "note": "단일 목록 참고값 · 실제 거래 체결가 아님"
     }
   ],
@@ -2125,7 +2125,7 @@
     "refreshHours": 6
   },
   "priceReview": {
-    "checkedAt": "2026-11-16T03:59:38+09:00",
+    "checkedAt": "2026-11-16T15:51:39+09:00",
     "method": "whole-public-html",
     "priced": 46,
     "ranges": 0,
