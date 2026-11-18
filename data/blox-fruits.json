@@ -35,166 +35,126 @@
           "name": "VVX 공개 가치표",
           "url": "https://blox-fruits.vaultedvaluesx.com/value-list",
           "value": 54000000000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
+          "observedAt": "2026-11-18T16:44:02+09:00",
           "publishedAt": null
         }
       ],
-      "valueUpdatedAt": "2026-11-18T06:06:24+09:00"
+      "valueUpdatedAt": "2026-11-18T16:44:02+09:00"
     },
     {
       "id": "rabid-dogblade",
       "name": "Rabid DogBlade",
       "category": "한정 아이템",
       "rarity": "Limited",
-      "value": 21955000000,
+      "value": 21500000000,
       "trend": "stable",
       "image": "images/blox-fruits/rabid-dogblade.webp",
-      "note": "2개 사이트 공개값 비교 · 범위 21,500,000,000~22,410,000,000",
-      "valueStatus": "comparison",
+      "note": "단일 출처 표기값 참고 · 비교 평균 아님",
+      "valueStatus": "single",
       "valueBasis": "public-comparison-v1",
       "priceQuotes": [
-        {
-          "id": "cosmic-bfv",
-          "name": "BloxFruitsValues.com (Cosmic Values)",
-          "url": "https://bloxfruitsvalues.com/values/limiteds",
-          "value": 22410000000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
-          "publishedAt": "2026-11-16T00:37:10.000Z"
-        },
         {
           "id": "vvx-bf",
           "name": "VVX 공개 가치표",
           "url": "https://blox-fruits.vaultedvaluesx.com/value-list",
           "value": 21500000000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
+          "observedAt": "2026-11-18T16:44:02+09:00",
           "publishedAt": null
         }
       ],
-      "valueUpdatedAt": "2026-11-18T06:06:24+09:00"
+      "valueUpdatedAt": "2026-11-18T16:44:02+09:00"
     },
     {
       "id": "doghouse-frame-break",
       "name": "Doghouse (Frame Break)",
       "category": "한정 아이템",
       "rarity": "Limited",
-      "value": 11525000000,
+      "value": 11500000000,
       "trend": "stable",
       "image": "",
-      "note": "2개 사이트 공개값 비교 · 범위 11,500,000,000~11,550,000,000",
-      "valueStatus": "comparison",
+      "note": "단일 출처 표기값 참고 · 비교 평균 아님",
+      "valueStatus": "single",
       "valueBasis": "public-comparison-v1",
       "priceQuotes": [
-        {
-          "id": "cosmic-bfv",
-          "name": "BloxFruitsValues.com (Cosmic Values)",
-          "url": "https://bloxfruitsvalues.com/values/limiteds",
-          "value": 11550000000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
-          "publishedAt": "2026-11-16T00:42:26.000Z"
-        },
         {
           "id": "vvx-bf",
           "name": "VVX 공개 가치표",
           "url": "https://blox-fruits.vaultedvaluesx.com/value-list",
           "value": 11500000000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
+          "observedAt": "2026-11-18T16:44:02+09:00",
           "publishedAt": null
         }
       ],
-      "valueUpdatedAt": "2026-11-18T06:06:24+09:00"
+      "valueUpdatedAt": "2026-11-18T16:44:02+09:00"
     },
     {
       "id": "vibe-frame-break",
       "name": "Vibe (Frame Break)",
       "category": "한정 아이템",
       "rarity": "Limited",
-      "value": 8385000000,
+      "value": 8400000000,
       "trend": "stable",
       "image": "",
-      "note": "2개 사이트 공개값 비교 · 범위 8,370,000,000~8,400,000,000",
-      "valueStatus": "comparison",
+      "note": "단일 출처 표기값 참고 · 비교 평균 아님",
+      "valueStatus": "single",
       "valueBasis": "public-comparison-v1",
       "priceQuotes": [
-        {
-          "id": "cosmic-bfv",
-          "name": "BloxFruitsValues.com (Cosmic Values)",
-          "url": "https://bloxfruitsvalues.com/values/limiteds",
-          "value": 8370000000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
-          "publishedAt": "2026-11-16T00:42:39.000Z"
-        },
         {
           "id": "vvx-bf",
           "name": "VVX 공개 가치표",
           "url": "https://blox-fruits.vaultedvaluesx.com/value-list",
           "value": 8400000000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
+          "observedAt": "2026-11-18T16:44:02+09:00",
           "publishedAt": null
         }
       ],
-      "valueUpdatedAt": "2026-11-18T06:06:24+09:00"
+      "valueUpdatedAt": "2026-11-18T16:44:02+09:00"
     },
     {
       "id": "galaxy-empyrean-kitsune",
       "name": "Galaxy Empyrean Kitsune",
       "category": "한정 아이템",
       "rarity": "Limited",
-      "value": 9580000000,
+      "value": 9800000000,
       "trend": "stable",
       "image": "images/blox-fruits/galaxy-empyrean-kitsune.webp",
-      "note": "2개 사이트 공개값 비교 · 범위 9,360,000,000~9,800,000,000",
-      "valueStatus": "comparison",
+      "note": "단일 출처 표기값 참고 · 비교 평균 아님",
+      "valueStatus": "single",
       "valueBasis": "public-comparison-v1",
       "priceQuotes": [
-        {
-          "id": "cosmic-bfv",
-          "name": "BloxFruitsValues.com (Cosmic Values)",
-          "url": "https://bloxfruitsvalues.com/values/limiteds",
-          "value": 9360000000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
-          "publishedAt": "2026-11-16T00:39:11.000Z"
-        },
         {
           "id": "vvx-bf",
           "name": "VVX 공개 가치표",
           "url": "https://blox-fruits.vaultedvaluesx.com/value-list",
           "value": 9800000000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
+          "observedAt": "2026-11-18T16:44:02+09:00",
           "publishedAt": null
         }
       ],
-      "valueUpdatedAt": "2026-11-18T06:06:24+09:00"
+      "valueUpdatedAt": "2026-11-18T16:44:02+09:00"
     },
     {
       "id": "crimson-kitsune",
       "name": "Crimson Kitsune",
       "category": "한정 아이템",
       "rarity": "Limited",
-      "value": 6830000000,
+      "value": 6940000000,
       "trend": "stable",
       "image": "images/blox-fruits/crimson-kitsune.webp",
-      "note": "2개 사이트 공개값 비교 · 범위 6,720,000,000~6,940,000,000",
-      "valueStatus": "comparison",
+      "note": "단일 출처 표기값 참고 · 비교 평균 아님",
+      "valueStatus": "single",
       "valueBasis": "public-comparison-v1",
       "priceQuotes": [
-        {
-          "id": "cosmic-bfv",
-          "name": "BloxFruitsValues.com (Cosmic Values)",
-          "url": "https://bloxfruitsvalues.com/values/limiteds",
-          "value": 6720000000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
-          "publishedAt": "2026-11-16T00:42:43.000Z"
-        },
         {
           "id": "vvx-bf",
           "name": "VVX 공개 가치표",
           "url": "https://blox-fruits.vaultedvaluesx.com/value-list",
           "value": 6940000000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
+          "observedAt": "2026-11-18T16:44:02+09:00",
           "publishedAt": null
         }
       ],
-      "valueUpdatedAt": "2026-11-18T06:06:24+09:00"
+      "valueUpdatedAt": "2026-11-18T16:44:02+09:00"
     },
     {
       "id": "parrot",
@@ -204,59 +164,43 @@
       "value": 600000000,
       "trend": "stable",
       "image": "images/blox-fruits/parrot.webp",
-      "note": "출처 간 차이 큼 · VVX 표기값 참고 (평균 아님)",
-      "valueStatus": "disputed-reference",
+      "note": "단일 출처 표기값 참고 · 비교 평균 아님",
+      "valueStatus": "single",
       "valueBasis": "public-comparison-v1",
       "priceQuotes": [
-        {
-          "id": "cosmic-bfv",
-          "name": "BloxFruitsValues.com (Cosmic Values)",
-          "url": "https://bloxfruitsvalues.com/values/limiteds",
-          "value": 6720000000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
-          "publishedAt": "2026-11-16T00:39:50.000Z"
-        },
         {
           "id": "vvx-bf",
           "name": "VVX 공개 가치표",
           "url": "https://blox-fruits.vaultedvaluesx.com/value-list",
           "value": 600000000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
+          "observedAt": "2026-11-18T16:44:02+09:00",
           "publishedAt": null
         }
       ],
-      "valueUpdatedAt": "2026-11-18T06:06:24+09:00"
+      "valueUpdatedAt": "2026-11-18T16:44:02+09:00"
     },
     {
       "id": "ember-west-dragon",
       "name": "Ember West Dragon",
       "category": "한정 아이템",
       "rarity": "Limited",
-      "value": 6175000000,
+      "value": 6200000000,
       "trend": "stable",
       "image": "images/blox-fruits/ember-west-dragon.webp",
-      "note": "2개 사이트 공개값 비교 · 범위 6,150,000,000~6,200,000,000",
-      "valueStatus": "comparison",
+      "note": "단일 출처 표기값 참고 · 비교 평균 아님",
+      "valueStatus": "single",
       "valueBasis": "public-comparison-v1",
       "priceQuotes": [
-        {
-          "id": "cosmic-bfv",
-          "name": "BloxFruitsValues.com (Cosmic Values)",
-          "url": "https://bloxfruitsvalues.com/values/limiteds",
-          "value": 6150000000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
-          "publishedAt": "2026-11-16T00:40:05.000Z"
-        },
         {
           "id": "vvx-bf",
           "name": "VVX 공개 가치표",
           "url": "https://blox-fruits.vaultedvaluesx.com/value-list",
           "value": 6200000000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
+          "observedAt": "2026-11-18T16:44:02+09:00",
           "publishedAt": null
         }
       ],
-      "valueUpdatedAt": "2026-11-18T06:06:24+09:00"
+      "valueUpdatedAt": "2026-11-18T16:44:02+09:00"
     },
     {
       "id": "permanent-dragon-token",
@@ -276,93 +220,69 @@
       "name": "Meme-Meme",
       "category": "한정 아이템",
       "rarity": "Limited",
-      "value": 5550000000,
+      "value": 5250000000,
       "trend": "stable",
       "image": "images/blox-fruits/meme-meme.webp",
-      "note": "2개 사이트 공개값 비교 · 범위 5,250,000,000~5,850,000,000",
-      "valueStatus": "comparison",
+      "note": "단일 출처 표기값 참고 · 비교 평균 아님",
+      "valueStatus": "single",
       "valueBasis": "public-comparison-v1",
       "priceQuotes": [
-        {
-          "id": "cosmic-bfv",
-          "name": "BloxFruitsValues.com (Cosmic Values)",
-          "url": "https://bloxfruitsvalues.com/values/limiteds",
-          "value": 5850000000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
-          "publishedAt": "2026-11-16T00:42:50.000Z"
-        },
         {
           "id": "vvx-bf",
           "name": "VVX 공개 가치표",
           "url": "https://blox-fruits.vaultedvaluesx.com/value-list",
           "value": 5250000000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
+          "observedAt": "2026-11-18T16:44:02+09:00",
           "publishedAt": null
         }
       ],
-      "valueUpdatedAt": "2026-11-18T06:06:24+09:00"
+      "valueUpdatedAt": "2026-11-18T16:44:02+09:00"
     },
     {
       "id": "east-dragon-perm",
       "name": "East Dragon (영구)",
       "category": "영구 열매",
       "rarity": "Mythic",
-      "value": 5320000000,
+      "value": 5600000000,
       "trend": "stable",
       "image": "images/blox-fruits/east-dragon.webp",
-      "note": "2개 사이트 공개값 비교 · 범위 5,040,000,000~5,600,000,000",
-      "valueStatus": "comparison",
+      "note": "단일 출처 표기값 참고 · 비교 평균 아님",
+      "valueStatus": "single",
       "valueBasis": "public-comparison-v1",
       "priceQuotes": [
-        {
-          "id": "cosmic-bfv",
-          "name": "BloxFruitsValues.com (Cosmic Values)",
-          "url": "https://bloxfruitsvalues.com/values",
-          "value": 5040000000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
-          "publishedAt": "2026-11-11T05:21:09.000Z"
-        },
         {
           "id": "vvx-bf",
           "name": "VVX 공개 가치표",
           "url": "https://blox-fruits.vaultedvaluesx.com/value-list",
           "value": 5600000000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
+          "observedAt": "2026-11-18T16:44:02+09:00",
           "publishedAt": null
         }
       ],
-      "valueUpdatedAt": "2026-11-18T06:06:24+09:00"
+      "valueUpdatedAt": "2026-11-18T16:44:02+09:00"
     },
     {
       "id": "west-dragon-perm",
       "name": "West Dragon (영구)",
       "category": "영구 열매",
       "rarity": "Mythic",
-      "value": 5320000000,
+      "value": 5600000000,
       "trend": "stable",
       "image": "images/blox-fruits/west-dragon.webp",
-      "note": "2개 사이트 공개값 비교 · 범위 5,040,000,000~5,600,000,000",
-      "valueStatus": "comparison",
+      "note": "단일 출처 표기값 참고 · 비교 평균 아님",
+      "valueStatus": "single",
       "valueBasis": "public-comparison-v1",
       "priceQuotes": [
-        {
-          "id": "cosmic-bfv",
-          "name": "BloxFruitsValues.com (Cosmic Values)",
-          "url": "https://bloxfruitsvalues.com/values",
-          "value": 5040000000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
-          "publishedAt": "2026-11-11T05:21:07.000Z"
-        },
         {
           "id": "vvx-bf",
           "name": "VVX 공개 가치표",
           "url": "https://blox-fruits.vaultedvaluesx.com/value-list",
           "value": 5600000000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
+          "observedAt": "2026-11-18T16:44:02+09:00",
           "publishedAt": null
         }
       ],
-      "valueUpdatedAt": "2026-11-18T06:06:24+09:00"
+      "valueUpdatedAt": "2026-11-18T16:44:02+09:00"
     },
     {
       "id": "kitsune-perm",
@@ -381,11 +301,11 @@
           "name": "VVX 공개 가치표",
           "url": "https://blox-fruits.vaultedvaluesx.com/value-list",
           "value": 4500000000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
+          "observedAt": "2026-11-18T16:44:02+09:00",
           "publishedAt": null
         }
       ],
-      "valueUpdatedAt": "2026-11-18T06:06:24+09:00"
+      "valueUpdatedAt": "2026-11-18T16:44:02+09:00"
     },
     {
       "id": "control-perm",
@@ -404,73 +324,57 @@
           "name": "VVX 공개 가치표",
           "url": "https://blox-fruits.vaultedvaluesx.com/value-list",
           "value": 4500000000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
+          "observedAt": "2026-11-18T16:44:02+09:00",
           "publishedAt": null
         }
       ],
-      "valueUpdatedAt": "2026-11-18T06:06:24+09:00"
+      "valueUpdatedAt": "2026-11-18T16:44:02+09:00"
     },
     {
       "id": "purple-lightning",
       "name": "Purple Lightning",
       "category": "한정 아이템",
       "rarity": "Limited",
-      "value": 5435000000,
+      "value": 5230000000,
       "trend": "stable",
       "image": "images/blox-fruits/purple-lightning.webp",
-      "note": "2개 사이트 공개값 비교 · 범위 5,230,000,000~5,640,000,000",
-      "valueStatus": "comparison",
+      "note": "단일 출처 표기값 참고 · 비교 평균 아님",
+      "valueStatus": "single",
       "valueBasis": "public-comparison-v1",
       "priceQuotes": [
-        {
-          "id": "cosmic-bfv",
-          "name": "BloxFruitsValues.com (Cosmic Values)",
-          "url": "https://bloxfruitsvalues.com/values/limiteds",
-          "value": 5640000000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
-          "publishedAt": "2026-11-16T00:42:57.000Z"
-        },
         {
           "id": "vvx-bf",
           "name": "VVX 공개 가치표",
           "url": "https://blox-fruits.vaultedvaluesx.com/value-list",
           "value": 5230000000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
+          "observedAt": "2026-11-18T16:44:02+09:00",
           "publishedAt": null
         }
       ],
-      "valueUpdatedAt": "2026-11-18T06:06:24+09:00"
+      "valueUpdatedAt": "2026-11-18T16:44:02+09:00"
     },
     {
       "id": "magnet-perm",
       "name": "Magnet (영구)",
       "category": "영구 열매",
       "rarity": "Mythic",
-      "value": 3710000000,
+      "value": 4000000000,
       "trend": "stable",
       "image": "images/blox-fruits/magnet.webp",
-      "note": "2개 사이트 공개값 비교 · 범위 3,420,000,000~4,000,000,000",
-      "valueStatus": "comparison",
+      "note": "단일 출처 표기값 참고 · 비교 평균 아님",
+      "valueStatus": "single",
       "valueBasis": "public-comparison-v1",
       "priceQuotes": [
-        {
-          "id": "cosmic-bfv",
-          "name": "BloxFruitsValues.com (Cosmic Values)",
-          "url": "https://bloxfruitsvalues.com/values",
-          "value": 3420000000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
-          "publishedAt": "2026-11-16T01:04:53.000Z"
-        },
         {
           "id": "vvx-bf",
           "name": "VVX 공개 가치표",
           "url": "https://blox-fruits.vaultedvaluesx.com/value-list",
           "value": 4000000000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
+          "observedAt": "2026-11-18T16:44:02+09:00",
           "publishedAt": null
         }
       ],
-      "valueUpdatedAt": "2026-11-18T06:06:24+09:00"
+      "valueUpdatedAt": "2026-11-18T16:44:02+09:00"
     },
     {
       "id": "tiger-perm",
@@ -489,11 +393,11 @@
           "name": "VVX 공개 가치표",
           "url": "https://blox-fruits.vaultedvaluesx.com/value-list",
           "value": 3500000000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
+          "observedAt": "2026-11-18T16:44:02+09:00",
           "publishedAt": null
         }
       ],
-      "valueUpdatedAt": "2026-11-18T06:06:24+09:00"
+      "valueUpdatedAt": "2026-11-18T16:44:02+09:00"
     },
     {
       "id": "yeti-perm",
@@ -512,11 +416,11 @@
           "name": "VVX 공개 가치표",
           "url": "https://blox-fruits.vaultedvaluesx.com/value-list",
           "value": 3500000000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
+          "observedAt": "2026-11-18T16:44:02+09:00",
           "publishedAt": null
         }
       ],
-      "valueUpdatedAt": "2026-11-18T06:06:24+09:00"
+      "valueUpdatedAt": "2026-11-18T16:44:02+09:00"
     },
     {
       "id": "fruit-notifier",
@@ -535,42 +439,34 @@
           "name": "VVX 공개 가치표",
           "url": "https://blox-fruits.vaultedvaluesx.com/value-list",
           "value": 2870000000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
+          "observedAt": "2026-11-18T16:44:02+09:00",
           "publishedAt": null
         }
       ],
-      "valueUpdatedAt": "2026-11-18T06:06:24+09:00"
+      "valueUpdatedAt": "2026-11-18T16:44:02+09:00"
     },
     {
       "id": "west-dragon",
       "name": "West Dragon",
       "category": "열매",
       "rarity": "Mythic",
-      "value": 2740000000,
+      "value": 2720000000,
       "trend": "stable",
       "image": "images/blox-fruits/west-dragon.webp",
-      "note": "2개 사이트 공개값 비교 · 범위 2,720,000,000~2,760,000,000",
-      "valueStatus": "comparison",
+      "note": "단일 출처 표기값 참고 · 비교 평균 아님",
+      "valueStatus": "single",
       "valueBasis": "public-comparison-v1",
       "priceQuotes": [
-        {
-          "id": "cosmic-bfv",
-          "name": "BloxFruitsValues.com (Cosmic Values)",
-          "url": "https://bloxfruitsvalues.com/values",
-          "value": 2760000000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
-          "publishedAt": "2026-11-11T05:21:07.000Z"
-        },
         {
           "id": "vvx-bf",
           "name": "VVX 공개 가치표",
           "url": "https://blox-fruits.vaultedvaluesx.com/value-list",
           "value": 2720000000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
+          "observedAt": "2026-11-18T16:44:02+09:00",
           "publishedAt": null
         }
       ],
-      "valueUpdatedAt": "2026-11-18T06:06:24+09:00"
+      "valueUpdatedAt": "2026-11-18T16:44:02+09:00"
     },
     {
       "id": "spirit-perm",
@@ -589,42 +485,34 @@
           "name": "VVX 공개 가치표",
           "url": "https://blox-fruits.vaultedvaluesx.com/value-list",
           "value": 2780000000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
+          "observedAt": "2026-11-18T16:44:02+09:00",
           "publishedAt": null
         }
       ],
-      "valueUpdatedAt": "2026-11-18T06:06:24+09:00"
+      "valueUpdatedAt": "2026-11-18T16:44:02+09:00"
     },
     {
       "id": "super-spirit-pain",
       "name": "Super Spirit Pain",
       "category": "한정 아이템",
       "rarity": "Limited",
-      "value": 2485000000,
+      "value": 2480000000,
       "trend": "stable",
       "image": "images/blox-fruits/super-spirit-pain.webp",
-      "note": "2개 사이트 공개값 비교 · 범위 2,480,000,000~2,490,000,000",
-      "valueStatus": "comparison",
+      "note": "단일 출처 표기값 참고 · 비교 평균 아님",
+      "valueStatus": "single",
       "valueBasis": "public-comparison-v1",
       "priceQuotes": [
-        {
-          "id": "cosmic-bfv",
-          "name": "BloxFruitsValues.com (Cosmic Values)",
-          "url": "https://bloxfruitsvalues.com/values/limiteds/super-spirit-pain",
-          "value": 2490000000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
-          "publishedAt": "2026-11-16T00:40:51.000Z"
-        },
         {
           "id": "vvx-bf",
           "name": "VVX 공개 가치표",
           "url": "https://blox-fruits.vaultedvaluesx.com/value-list",
           "value": 2480000000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
+          "observedAt": "2026-11-18T16:44:02+09:00",
           "publishedAt": null
         }
       ],
-      "valueUpdatedAt": "2026-11-18T06:06:24+09:00"
+      "valueUpdatedAt": "2026-11-18T16:44:02+09:00"
     },
     {
       "id": "gas-perm",
@@ -643,11 +531,11 @@
           "name": "VVX 공개 가치표",
           "url": "https://blox-fruits.vaultedvaluesx.com/value-list",
           "value": 2700000000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
+          "observedAt": "2026-11-18T16:44:02+09:00",
           "publishedAt": null
         }
       ],
-      "valueUpdatedAt": "2026-11-18T06:06:24+09:00"
+      "valueUpdatedAt": "2026-11-18T16:44:02+09:00"
     },
     {
       "id": "dragon-token",
@@ -680,31 +568,23 @@
       "name": "East Dragon",
       "category": "열매",
       "rarity": "Mythic",
-      "value": 2325000000,
+      "value": 2340000000,
       "trend": "stable",
       "image": "images/blox-fruits/east-dragon.webp",
-      "note": "2개 사이트 공개값 비교 · 범위 2,310,000,000~2,340,000,000",
-      "valueStatus": "comparison",
+      "note": "단일 출처 표기값 참고 · 비교 평균 아님",
+      "valueStatus": "single",
       "valueBasis": "public-comparison-v1",
       "priceQuotes": [
-        {
-          "id": "cosmic-bfv",
-          "name": "BloxFruitsValues.com (Cosmic Values)",
-          "url": "https://bloxfruitsvalues.com/values",
-          "value": 2310000000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
-          "publishedAt": "2026-11-11T05:21:09.000Z"
-        },
         {
           "id": "vvx-bf",
           "name": "VVX 공개 가치표",
           "url": "https://blox-fruits.vaultedvaluesx.com/value-list",
           "value": 2340000000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
+          "observedAt": "2026-11-18T16:44:02+09:00",
           "publishedAt": null
         }
       ],
-      "valueUpdatedAt": "2026-11-18T06:06:24+09:00"
+      "valueUpdatedAt": "2026-11-18T16:44:02+09:00"
     },
     {
       "id": "shadow-perm",
@@ -723,11 +603,11 @@
           "name": "VVX 공개 가치표",
           "url": "https://blox-fruits.vaultedvaluesx.com/value-list",
           "value": 2500000000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
+          "observedAt": "2026-11-18T16:44:02+09:00",
           "publishedAt": null
         }
       ],
-      "valueUpdatedAt": "2026-11-18T06:06:24+09:00"
+      "valueUpdatedAt": "2026-11-18T16:44:02+09:00"
     },
     {
       "id": "dough-perm",
@@ -746,11 +626,11 @@
           "name": "VVX 공개 가치표",
           "url": "https://blox-fruits.vaultedvaluesx.com/value-list",
           "value": 2500000000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
+          "observedAt": "2026-11-18T16:44:02+09:00",
           "publishedAt": null
         }
       ],
-      "valueUpdatedAt": "2026-11-18T06:06:24+09:00"
+      "valueUpdatedAt": "2026-11-18T16:44:02+09:00"
     },
     {
       "id": "t-rex-perm",
@@ -769,11 +649,11 @@
           "name": "VVX 공개 가치표",
           "url": "https://blox-fruits.vaultedvaluesx.com/value-list",
           "value": 2450000000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
+          "observedAt": "2026-11-18T16:44:02+09:00",
           "publishedAt": null
         }
       ],
-      "valueUpdatedAt": "2026-11-18T06:06:24+09:00"
+      "valueUpdatedAt": "2026-11-18T16:44:02+09:00"
     },
     {
       "id": "mammoth-perm",
@@ -792,73 +672,57 @@
           "name": "VVX 공개 가치표",
           "url": "https://blox-fruits.vaultedvaluesx.com/value-list",
           "value": 2400000000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
+          "observedAt": "2026-11-18T16:44:02+09:00",
           "publishedAt": null
         }
       ],
-      "valueUpdatedAt": "2026-11-18T06:06:24+09:00"
+      "valueUpdatedAt": "2026-11-18T16:44:02+09:00"
     },
     {
       "id": "divine-portal",
       "name": "Divine Portal",
       "category": "한정 아이템",
       "rarity": "Limited",
-      "value": 1855000000,
+      "value": 1850000000,
       "trend": "stable",
       "image": "images/blox-fruits/divine-portal.webp",
-      "note": "2개 사이트 공개값 비교 · 범위 1,850,000,000~1,860,000,000",
-      "valueStatus": "comparison",
+      "note": "단일 출처 표기값 참고 · 비교 평균 아님",
+      "valueStatus": "single",
       "valueBasis": "public-comparison-v1",
       "priceQuotes": [
-        {
-          "id": "cosmic-bfv",
-          "name": "BloxFruitsValues.com (Cosmic Values)",
-          "url": "https://bloxfruitsvalues.com/values/limiteds",
-          "value": 1860000000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
-          "publishedAt": "2026-11-11T05:18:09.000Z"
-        },
         {
           "id": "vvx-bf",
           "name": "VVX 공개 가치표",
           "url": "https://blox-fruits.vaultedvaluesx.com/value-list",
           "value": 1850000000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
+          "observedAt": "2026-11-18T16:44:02+09:00",
           "publishedAt": null
         }
       ],
-      "valueUpdatedAt": "2026-11-18T06:06:24+09:00"
+      "valueUpdatedAt": "2026-11-18T16:44:02+09:00"
     },
     {
       "id": "arcsteel-magnet",
       "name": "Arcsteel Magnet",
       "category": "한정 아이템",
       "rarity": "Limited",
-      "value": 1895000000,
+      "value": 1900000000,
       "trend": "stable",
       "image": "images/blox-fruits/arcsteel-magnet.webp",
-      "note": "2개 사이트 공개값 비교 · 범위 1,890,000,000~1,900,000,000",
-      "valueStatus": "comparison",
+      "note": "단일 출처 표기값 참고 · 비교 평균 아님",
+      "valueStatus": "single",
       "valueBasis": "public-comparison-v1",
       "priceQuotes": [
-        {
-          "id": "cosmic-bfv",
-          "name": "BloxFruitsValues.com (Cosmic Values)",
-          "url": "https://bloxfruitsvalues.com/values/limiteds",
-          "value": 1890000000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
-          "publishedAt": "2026-11-16T00:43:11.000Z"
-        },
         {
           "id": "vvx-bf",
           "name": "VVX 공개 가치표",
           "url": "https://blox-fruits.vaultedvaluesx.com/value-list",
           "value": 1900000000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
+          "observedAt": "2026-11-18T16:44:02+09:00",
           "publishedAt": null
         }
       ],
-      "valueUpdatedAt": "2026-11-18T06:06:24+09:00"
+      "valueUpdatedAt": "2026-11-18T16:44:02+09:00"
     },
     {
       "id": "gravity-perm",
@@ -877,11 +741,11 @@
           "name": "VVX 공개 가치표",
           "url": "https://blox-fruits.vaultedvaluesx.com/value-list",
           "value": 2300000000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
+          "observedAt": "2026-11-18T16:44:02+09:00",
           "publishedAt": null
         }
       ],
-      "valueUpdatedAt": "2026-11-18T06:06:24+09:00"
+      "valueUpdatedAt": "2026-11-18T16:44:02+09:00"
     },
     {
       "id": "blizzard-perm",
@@ -900,11 +764,11 @@
           "name": "VVX 공개 가치표",
           "url": "https://blox-fruits.vaultedvaluesx.com/value-list",
           "value": 2000000000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
+          "observedAt": "2026-11-18T16:44:02+09:00",
           "publishedAt": null
         }
       ],
-      "valueUpdatedAt": "2026-11-18T06:06:24+09:00"
+      "valueUpdatedAt": "2026-11-18T16:44:02+09:00"
     },
     {
       "id": "pain-perm",
@@ -923,11 +787,11 @@
           "name": "VVX 공개 가치표",
           "url": "https://blox-fruits.vaultedvaluesx.com/value-list",
           "value": 2000000000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
+          "observedAt": "2026-11-18T16:44:02+09:00",
           "publishedAt": null
         }
       ],
-      "valueUpdatedAt": "2026-11-18T06:06:24+09:00"
+      "valueUpdatedAt": "2026-11-18T16:44:02+09:00"
     },
     {
       "id": "lightning-perm",
@@ -946,11 +810,11 @@
           "name": "VVX 공개 가치표",
           "url": "https://blox-fruits.vaultedvaluesx.com/value-list",
           "value": 1830000000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
+          "observedAt": "2026-11-18T16:44:02+09:00",
           "publishedAt": null
         }
       ],
-      "valueUpdatedAt": "2026-11-18T06:06:24+09:00"
+      "valueUpdatedAt": "2026-11-18T16:44:02+09:00"
     },
     {
       "id": "red-lightning",
@@ -969,11 +833,11 @@
           "name": "VVX 공개 가치표",
           "url": "https://blox-fruits.vaultedvaluesx.com/value-list",
           "value": 1840000000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
+          "observedAt": "2026-11-18T16:44:02+09:00",
           "publishedAt": null
         }
       ],
-      "valueUpdatedAt": "2026-11-18T06:06:24+09:00"
+      "valueUpdatedAt": "2026-11-18T16:44:02+09:00"
     },
     {
       "id": "portal-perm",
@@ -992,11 +856,11 @@
           "name": "VVX 공개 가치표",
           "url": "https://blox-fruits.vaultedvaluesx.com/value-list",
           "value": 1700000000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
+          "observedAt": "2026-11-18T16:44:02+09:00",
           "publishedAt": null
         }
       ],
-      "valueUpdatedAt": "2026-11-18T06:06:24+09:00"
+      "valueUpdatedAt": "2026-11-18T16:44:02+09:00"
     },
     {
       "id": "phoenix-perm",
@@ -1015,11 +879,11 @@
           "name": "VVX 공개 가치표",
           "url": "https://blox-fruits.vaultedvaluesx.com/value-list",
           "value": 1750000000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
+          "observedAt": "2026-11-18T16:44:02+09:00",
           "publishedAt": null
         }
       ],
-      "valueUpdatedAt": "2026-11-18T06:06:24+09:00"
+      "valueUpdatedAt": "2026-11-18T16:44:02+09:00"
     },
     {
       "id": "sound-perm",
@@ -1038,42 +902,34 @@
           "name": "VVX 공개 가치표",
           "url": "https://blox-fruits.vaultedvaluesx.com/value-list",
           "value": 1750000000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
+          "observedAt": "2026-11-18T16:44:02+09:00",
           "publishedAt": null
         }
       ],
-      "valueUpdatedAt": "2026-11-18T06:06:24+09:00"
+      "valueUpdatedAt": "2026-11-18T16:44:02+09:00"
     },
     {
       "id": "dog-blade",
       "name": "Dog Blade",
       "category": "한정 아이템",
       "rarity": "Limited",
-      "value": 1515000000,
+      "value": 1500000000,
       "trend": "stable",
       "image": "images/blox-fruits/dog-blade.webp",
-      "note": "2개 사이트 공개값 비교 · 범위 1,500,000,000~1,530,000,000",
-      "valueStatus": "comparison",
+      "note": "단일 출처 표기값 참고 · 비교 평균 아님",
+      "valueStatus": "single",
       "valueBasis": "public-comparison-v1",
       "priceQuotes": [
-        {
-          "id": "cosmic-bfv",
-          "name": "BloxFruitsValues.com (Cosmic Values)",
-          "url": "https://bloxfruitsvalues.com/values/limiteds",
-          "value": 1530000000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
-          "publishedAt": "2026-11-16T00:43:31.000Z"
-        },
         {
           "id": "vvx-bf",
           "name": "VVX 공개 가치표",
           "url": "https://blox-fruits.vaultedvaluesx.com/value-list",
           "value": 1500000000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
+          "observedAt": "2026-11-18T16:44:02+09:00",
           "publishedAt": null
         }
       ],
-      "valueUpdatedAt": "2026-11-18T06:06:24+09:00"
+      "valueUpdatedAt": "2026-11-18T16:44:02+09:00"
     },
     {
       "id": "spider-perm",
@@ -1092,73 +948,57 @@
           "name": "VVX 공개 가치표",
           "url": "https://blox-fruits.vaultedvaluesx.com/value-list",
           "value": 1500000000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
+          "observedAt": "2026-11-18T16:44:02+09:00",
           "publishedAt": null
         }
       ],
-      "valueUpdatedAt": "2026-11-18T06:06:24+09:00"
+      "valueUpdatedAt": "2026-11-18T16:44:02+09:00"
     },
     {
       "id": "creation-perm",
       "name": "Creation (영구)",
       "category": "영구 열매",
       "rarity": "Legendary",
-      "value": 1405000000,
+      "value": 1400000000,
       "trend": "stable",
       "image": "images/blox-fruits/creation.webp",
-      "note": "2개 사이트 공개값 비교 · 범위 1,400,000,000~1,410,000,000",
-      "valueStatus": "comparison",
+      "note": "단일 출처 표기값 참고 · 비교 평균 아님",
+      "valueStatus": "single",
       "valueBasis": "public-comparison-v1",
       "priceQuotes": [
-        {
-          "id": "cosmic-bfv",
-          "name": "BloxFruitsValues.com (Cosmic Values)",
-          "url": "https://bloxfruitsvalues.com/values",
-          "value": 1410000000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
-          "publishedAt": "2026-11-16T00:36:50.000Z"
-        },
         {
           "id": "vvx-bf",
           "name": "VVX 공개 가치표",
           "url": "https://blox-fruits.vaultedvaluesx.com/value-list",
           "value": 1400000000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
+          "observedAt": "2026-11-18T16:44:02+09:00",
           "publishedAt": null
         }
       ],
-      "valueUpdatedAt": "2026-11-18T06:06:24+09:00"
+      "valueUpdatedAt": "2026-11-18T16:44:02+09:00"
     },
     {
       "id": "runic-fiend",
       "name": "Runic Fiend",
       "category": "한정 아이템",
       "rarity": "Limited",
-      "value": 1635000000,
+      "value": 1650000000,
       "trend": "stable",
       "image": "",
-      "note": "2개 사이트 공개값 비교 · 범위 1,620,000,000~1,650,000,000",
-      "valueStatus": "comparison",
+      "note": "단일 출처 표기값 참고 · 비교 평균 아님",
+      "valueStatus": "single",
       "valueBasis": "public-comparison-v1",
       "priceQuotes": [
-        {
-          "id": "cosmic-bfv",
-          "name": "BloxFruitsValues.com (Cosmic Values)",
-          "url": "https://bloxfruitsvalues.com/values/limiteds",
-          "value": 1620000000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
-          "publishedAt": "2026-11-16T00:43:22.000Z"
-        },
         {
           "id": "vvx-bf",
           "name": "VVX 공개 가치표",
           "url": "https://blox-fruits.vaultedvaluesx.com/value-list",
           "value": 1650000000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
+          "observedAt": "2026-11-18T16:44:02+09:00",
           "publishedAt": null
         }
       ],
-      "valueUpdatedAt": "2026-11-18T06:06:24+09:00"
+      "valueUpdatedAt": "2026-11-18T16:44:02+09:00"
     },
     {
       "id": "buddha-perm",
@@ -1177,11 +1017,11 @@
           "name": "VVX 공개 가치표",
           "url": "https://blox-fruits.vaultedvaluesx.com/value-list",
           "value": 1300000000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
+          "observedAt": "2026-11-18T16:44:02+09:00",
           "publishedAt": null
         }
       ],
-      "valueUpdatedAt": "2026-11-18T06:06:24+09:00"
+      "valueUpdatedAt": "2026-11-18T16:44:02+09:00"
     },
     {
       "id": "love-perm",
@@ -1200,11 +1040,11 @@
           "name": "VVX 공개 가치표",
           "url": "https://blox-fruits.vaultedvaluesx.com/value-list",
           "value": 1300000000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
+          "observedAt": "2026-11-18T16:44:02+09:00",
           "publishedAt": null
         }
       ],
-      "valueUpdatedAt": "2026-11-18T06:06:24+09:00"
+      "valueUpdatedAt": "2026-11-18T16:44:02+09:00"
     },
     {
       "id": "mythical-scrolls",
@@ -1223,11 +1063,11 @@
           "name": "VVX 공개 가치표",
           "url": "https://blox-fruits.vaultedvaluesx.com/value-list",
           "value": 1520000000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
+          "observedAt": "2026-11-18T16:44:02+09:00",
           "publishedAt": null
         }
       ],
-      "valueUpdatedAt": "2026-11-18T06:06:24+09:00"
+      "valueUpdatedAt": "2026-11-18T16:44:02+09:00"
     },
     {
       "id": "quake-perm",
@@ -1246,73 +1086,57 @@
           "name": "VVX 공개 가치표",
           "url": "https://blox-fruits.vaultedvaluesx.com/value-list",
           "value": 1080000000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
+          "observedAt": "2026-11-18T16:44:02+09:00",
           "publishedAt": null
         }
       ],
-      "valueUpdatedAt": "2026-11-18T06:06:24+09:00"
+      "valueUpdatedAt": "2026-11-18T16:44:02+09:00"
     },
     {
       "id": "werewolf",
       "name": "Werewolf",
       "category": "한정 아이템",
       "rarity": "Limited",
-      "value": 925000000,
+      "value": 950000000,
       "trend": "stable",
       "image": "images/blox-fruits/werewolf.webp",
-      "note": "2개 사이트 공개값 비교 · 범위 900,000,000~950,000,000",
-      "valueStatus": "comparison",
+      "note": "단일 출처 표기값 참고 · 비교 평균 아님",
+      "valueStatus": "single",
       "valueBasis": "public-comparison-v1",
       "priceQuotes": [
-        {
-          "id": "cosmic-bfv",
-          "name": "BloxFruitsValues.com (Cosmic Values)",
-          "url": "https://bloxfruitsvalues.com/values/limiteds",
-          "value": 900000000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
-          "publishedAt": "2026-11-16T00:41:55.000Z"
-        },
         {
           "id": "vvx-bf",
           "name": "VVX 공개 가치표",
           "url": "https://blox-fruits.vaultedvaluesx.com/value-list",
           "value": 950000000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
+          "observedAt": "2026-11-18T16:44:02+09:00",
           "publishedAt": null
         }
       ],
-      "valueUpdatedAt": "2026-11-18T06:06:24+09:00"
+      "valueUpdatedAt": "2026-11-18T16:44:02+09:00"
     },
     {
       "id": "fiend-yeti",
       "name": "Fiend Yeti",
       "category": "한정 아이템",
       "rarity": "Limited",
-      "value": 935000000,
+      "value": 940000000,
       "trend": "stable",
       "image": "images/blox-fruits/fiend-yeti.webp",
-      "note": "2개 사이트 공개값 비교 · 범위 930,000,000~940,000,000",
-      "valueStatus": "comparison",
+      "note": "단일 출처 표기값 참고 · 비교 평균 아님",
+      "valueStatus": "single",
       "valueBasis": "public-comparison-v1",
       "priceQuotes": [
-        {
-          "id": "cosmic-bfv",
-          "name": "BloxFruitsValues.com (Cosmic Values)",
-          "url": "https://bloxfruitsvalues.com/values/limiteds",
-          "value": 930000000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
-          "publishedAt": "2026-11-16T00:41:43.000Z"
-        },
         {
           "id": "vvx-bf",
           "name": "VVX 공개 가치표",
           "url": "https://blox-fruits.vaultedvaluesx.com/value-list",
           "value": 940000000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
+          "observedAt": "2026-11-18T16:44:02+09:00",
           "publishedAt": null
         }
       ],
-      "valueUpdatedAt": "2026-11-18T06:06:24+09:00"
+      "valueUpdatedAt": "2026-11-18T16:44:02+09:00"
     },
     {
       "id": "magma-perm",
@@ -1331,11 +1155,11 @@
           "name": "VVX 공개 가치표",
           "url": "https://blox-fruits.vaultedvaluesx.com/value-list",
           "value": 1300000000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
+          "observedAt": "2026-11-18T16:44:02+09:00",
           "publishedAt": null
         }
       ],
-      "valueUpdatedAt": "2026-11-18T06:06:24+09:00"
+      "valueUpdatedAt": "2026-11-18T16:44:02+09:00"
     },
     {
       "id": "dark-blade",
@@ -1354,11 +1178,11 @@
           "name": "VVX 공개 가치표",
           "url": "https://blox-fruits.vaultedvaluesx.com/value-list",
           "value": 800000000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
+          "observedAt": "2026-11-18T16:44:02+09:00",
           "publishedAt": null
         }
       ],
-      "valueUpdatedAt": "2026-11-18T06:06:24+09:00"
+      "valueUpdatedAt": "2026-11-18T16:44:02+09:00"
     },
     {
       "id": "ghost-perm",
@@ -1377,11 +1201,11 @@
           "name": "VVX 공개 가치표",
           "url": "https://blox-fruits.vaultedvaluesx.com/value-list",
           "value": 1200000000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
+          "observedAt": "2026-11-18T16:44:02+09:00",
           "publishedAt": null
         }
       ],
-      "valueUpdatedAt": "2026-11-18T06:06:24+09:00"
+      "valueUpdatedAt": "2026-11-18T16:44:02+09:00"
     },
     {
       "id": "rubber-perm",
@@ -1400,11 +1224,11 @@
           "name": "VVX 공개 가치표",
           "url": "https://blox-fruits.vaultedvaluesx.com/value-list",
           "value": 1000000000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
+          "observedAt": "2026-11-18T16:44:02+09:00",
           "publishedAt": null
         }
       ],
-      "valueUpdatedAt": "2026-11-18T06:06:24+09:00"
+      "valueUpdatedAt": "2026-11-18T16:44:02+09:00"
     },
     {
       "id": "light-perm",
@@ -1423,11 +1247,11 @@
           "name": "VVX 공개 가치표",
           "url": "https://blox-fruits.vaultedvaluesx.com/value-list",
           "value": 960000000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
+          "observedAt": "2026-11-18T16:44:02+09:00",
           "publishedAt": null
         }
       ],
-      "valueUpdatedAt": "2026-11-18T06:06:24+09:00"
+      "valueUpdatedAt": "2026-11-18T16:44:02+09:00"
     },
     {
       "id": "diamond-perm",
@@ -1446,42 +1270,34 @@
           "name": "VVX 공개 가치표",
           "url": "https://blox-fruits.vaultedvaluesx.com/value-list",
           "value": 840000000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
+          "observedAt": "2026-11-18T16:44:02+09:00",
           "publishedAt": null
         }
       ],
-      "valueUpdatedAt": "2026-11-18T06:06:24+09:00"
+      "valueUpdatedAt": "2026-11-18T16:44:02+09:00"
     },
     {
       "id": "celestial-pain",
       "name": "Celestial Pain",
       "category": "한정 아이템",
       "rarity": "Limited",
-      "value": 850000000,
+      "value": 860000000,
       "trend": "stable",
       "image": "images/blox-fruits/celestial-pain.webp",
-      "note": "2개 사이트 공개값 비교 · 범위 840,000,000~860,000,000",
-      "valueStatus": "comparison",
+      "note": "단일 출처 표기값 참고 · 비교 평균 아님",
+      "valueStatus": "single",
       "valueBasis": "public-comparison-v1",
       "priceQuotes": [
-        {
-          "id": "cosmic-bfv",
-          "name": "BloxFruitsValues.com (Cosmic Values)",
-          "url": "https://bloxfruitsvalues.com/values/limiteds/celestial-pain",
-          "value": 840000000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
-          "publishedAt": "2026-11-16T00:43:46.000Z"
-        },
         {
           "id": "vvx-bf",
           "name": "VVX 공개 가치표",
           "url": "https://blox-fruits.vaultedvaluesx.com/value-list",
           "value": 860000000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
+          "observedAt": "2026-11-18T16:44:02+09:00",
           "publishedAt": null
         }
       ],
-      "valueUpdatedAt": "2026-11-18T06:06:24+09:00"
+      "valueUpdatedAt": "2026-11-18T16:44:02+09:00"
     },
     {
       "id": "eagle-perm",
@@ -1500,11 +1316,11 @@
           "name": "VVX 공개 가치표",
           "url": "https://blox-fruits.vaultedvaluesx.com/value-list",
           "value": 820000000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
+          "observedAt": "2026-11-18T16:44:02+09:00",
           "publishedAt": null
         }
       ],
-      "valueUpdatedAt": "2026-11-18T06:06:24+09:00"
+      "valueUpdatedAt": "2026-11-18T16:44:02+09:00"
     },
     {
       "id": "dark-perm",
@@ -1523,42 +1339,34 @@
           "name": "VVX 공개 가치표",
           "url": "https://blox-fruits.vaultedvaluesx.com/value-list",
           "value": 5800000000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
+          "observedAt": "2026-11-18T16:44:02+09:00",
           "publishedAt": null
         }
       ],
-      "valueUpdatedAt": "2026-11-18T06:06:24+09:00"
+      "valueUpdatedAt": "2026-11-18T16:44:02+09:00"
     },
     {
       "id": "sadness-pain",
       "name": "Sadness Pain",
       "category": "한정 아이템",
       "rarity": "Limited",
-      "value": 635000000,
+      "value": 640000000,
       "trend": "stable",
       "image": "images/blox-fruits/sadness-pain.webp",
-      "note": "2개 사이트 공개값 비교 · 범위 630,000,000~640,000,000",
-      "valueStatus": "comparison",
+      "note": "단일 출처 표기값 참고 · 비교 평균 아님",
+      "valueStatus": "single",
       "valueBasis": "public-comparison-v1",
       "priceQuotes": [
-        {
-          "id": "cosmic-bfv",
-          "name": "BloxFruitsValues.com (Cosmic Values)",
-          "url": "https://bloxfruitsvalues.com/values/limiteds/sadness-pain",
-          "value": 630000000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
-          "publishedAt": "2026-11-11T05:19:25.000Z"
-        },
         {
           "id": "vvx-bf",
           "name": "VVX 공개 가치표",
           "url": "https://blox-fruits.vaultedvaluesx.com/value-list",
           "value": 640000000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
+          "observedAt": "2026-11-18T16:44:02+09:00",
           "publishedAt": null
         }
       ],
-      "valueUpdatedAt": "2026-11-18T06:06:24+09:00"
+      "valueUpdatedAt": "2026-11-18T16:44:02+09:00"
     },
     {
       "id": "sand-perm",
@@ -1577,11 +1385,11 @@
           "name": "VVX 공개 가치표",
           "url": "https://blox-fruits.vaultedvaluesx.com/value-list",
           "value": 510000000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
+          "observedAt": "2026-11-18T16:44:02+09:00",
           "publishedAt": null
         }
       ],
-      "valueUpdatedAt": "2026-11-18T06:06:24+09:00"
+      "valueUpdatedAt": "2026-11-18T16:44:02+09:00"
     },
     {
       "id": "legendary-scrolls",
@@ -1600,11 +1408,11 @@
           "name": "VVX 공개 가치표",
           "url": "https://blox-fruits.vaultedvaluesx.com/value-list",
           "value": 480000000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
+          "observedAt": "2026-11-18T16:44:02+09:00",
           "publishedAt": null
         }
       ],
-      "valueUpdatedAt": "2026-11-18T06:06:24+09:00"
+      "valueUpdatedAt": "2026-11-18T16:44:02+09:00"
     },
     {
       "id": "ice-perm",
@@ -1623,11 +1431,11 @@
           "name": "VVX 공개 가치표",
           "url": "https://blox-fruits.vaultedvaluesx.com/value-list",
           "value": 460000000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
+          "observedAt": "2026-11-18T16:44:02+09:00",
           "publishedAt": null
         }
       ],
-      "valueUpdatedAt": "2026-11-18T06:06:24+09:00"
+      "valueUpdatedAt": "2026-11-18T16:44:02+09:00"
     },
     {
       "id": "kitsune",
@@ -1646,104 +1454,80 @@
           "name": "VVX 공개 가치표",
           "url": "https://blox-fruits.vaultedvaluesx.com/value-list",
           "value": 470000000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
+          "observedAt": "2026-11-18T16:44:02+09:00",
           "publishedAt": null
         }
       ],
-      "valueUpdatedAt": "2026-11-18T06:06:24+09:00"
+      "valueUpdatedAt": "2026-11-18T16:44:02+09:00"
     },
     {
       "id": "azura-bomb",
       "name": "Azura Bomb",
       "category": "한정 아이템",
       "rarity": "Limited",
-      "value": 425000000,
+      "value": 400000000,
       "trend": "stable",
       "image": "images/blox-fruits/azura-bomb.webp",
-      "note": "2개 사이트 공개값 비교 · 범위 400,000,000~450,000,000",
-      "valueStatus": "comparison",
+      "note": "단일 출처 표기값 참고 · 비교 평균 아님",
+      "valueStatus": "single",
       "valueBasis": "public-comparison-v1",
       "priceQuotes": [
-        {
-          "id": "cosmic-bfv",
-          "name": "BloxFruitsValues.com (Cosmic Values)",
-          "url": "https://bloxfruitsvalues.com/values/limiteds/azura-bomb",
-          "value": 450000000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
-          "publishedAt": "2026-11-16T00:44:16.000Z"
-        },
         {
           "id": "vvx-bf",
           "name": "VVX 공개 가치표",
           "url": "https://blox-fruits.vaultedvaluesx.com/value-list",
           "value": 400000000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
+          "observedAt": "2026-11-18T16:44:02+09:00",
           "publishedAt": null
         }
       ],
-      "valueUpdatedAt": "2026-11-18T06:06:24+09:00"
+      "valueUpdatedAt": "2026-11-18T16:44:02+09:00"
     },
     {
       "id": "frustration-pain",
       "name": "Frustration Pain",
       "category": "한정 아이템",
       "rarity": "Limited",
-      "value": 332500000,
+      "value": 335000000,
       "trend": "stable",
       "image": "images/blox-fruits/frustration-pain.webp",
-      "note": "2개 사이트 공개값 비교 · 범위 330,000,000~335,000,000",
-      "valueStatus": "comparison",
+      "note": "단일 출처 표기값 참고 · 비교 평균 아님",
+      "valueStatus": "single",
       "valueBasis": "public-comparison-v1",
       "priceQuotes": [
-        {
-          "id": "cosmic-bfv",
-          "name": "BloxFruitsValues.com (Cosmic Values)",
-          "url": "https://bloxfruitsvalues.com/values/limiteds/frustration-pain",
-          "value": 330000000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
-          "publishedAt": "2026-11-11T05:19:32.000Z"
-        },
         {
           "id": "vvx-bf",
           "name": "VVX 공개 가치표",
           "url": "https://blox-fruits.vaultedvaluesx.com/value-list",
           "value": 335000000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
+          "observedAt": "2026-11-18T16:44:02+09:00",
           "publishedAt": null
         }
       ],
-      "valueUpdatedAt": "2026-11-18T06:06:24+09:00"
+      "valueUpdatedAt": "2026-11-18T16:44:02+09:00"
     },
     {
       "id": "nuclear-bomb",
       "name": "Nuclear Bomb",
       "category": "한정 아이템",
       "rarity": "Limited",
-      "value": 410000000,
+      "value": 400000000,
       "trend": "stable",
       "image": "images/blox-fruits/nuclear-bomb.webp",
-      "note": "2개 사이트 공개값 비교 · 범위 400,000,000~420,000,000",
-      "valueStatus": "comparison",
+      "note": "단일 출처 표기값 참고 · 비교 평균 아님",
+      "valueStatus": "single",
       "valueBasis": "public-comparison-v1",
       "priceQuotes": [
-        {
-          "id": "cosmic-bfv",
-          "name": "BloxFruitsValues.com (Cosmic Values)",
-          "url": "https://bloxfruitsvalues.com/values/limiteds/nuclear-bomb",
-          "value": 420000000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
-          "publishedAt": "2026-11-16T00:44:19.000Z"
-        },
         {
           "id": "vvx-bf",
           "name": "VVX 공개 가치표",
           "url": "https://blox-fruits.vaultedvaluesx.com/value-list",
           "value": 400000000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
+          "observedAt": "2026-11-18T16:44:02+09:00",
           "publishedAt": null
         }
       ],
-      "valueUpdatedAt": "2026-11-18T06:06:24+09:00"
+      "valueUpdatedAt": "2026-11-18T16:44:02+09:00"
     },
     {
       "id": "thermite-bomb",
@@ -1762,11 +1546,11 @@
           "name": "VVX 공개 가치표",
           "url": "https://blox-fruits.vaultedvaluesx.com/value-list",
           "value": 380000000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
+          "observedAt": "2026-11-18T16:44:02+09:00",
           "publishedAt": null
         }
       ],
-      "valueUpdatedAt": "2026-11-18T06:06:24+09:00"
+      "valueUpdatedAt": "2026-11-18T16:44:02+09:00"
     },
     {
       "id": "magnet",
@@ -1776,28 +1560,20 @@
       "value": 300000000,
       "trend": "stable",
       "image": "images/blox-fruits/magnet.webp",
-      "note": "2개 사이트 공개값 비교 · 범위 300,000,000~300,000,000",
-      "valueStatus": "comparison",
+      "note": "단일 출처 표기값 참고 · 비교 평균 아님",
+      "valueStatus": "single",
       "valueBasis": "public-comparison-v1",
       "priceQuotes": [
-        {
-          "id": "cosmic-bfv",
-          "name": "BloxFruitsValues.com (Cosmic Values)",
-          "url": "https://bloxfruitsvalues.com/values",
-          "value": 300000000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
-          "publishedAt": "2026-11-16T01:04:53.000Z"
-        },
         {
           "id": "vvx-bf",
           "name": "VVX 공개 가치표",
           "url": "https://blox-fruits.vaultedvaluesx.com/value-list",
           "value": 300000000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
+          "observedAt": "2026-11-18T16:44:02+09:00",
           "publishedAt": null
         }
       ],
-      "valueUpdatedAt": "2026-11-18T06:06:24+09:00"
+      "valueUpdatedAt": "2026-11-18T16:44:02+09:00"
     },
     {
       "id": "flame-perm",
@@ -1816,11 +1592,11 @@
           "name": "VVX 공개 가치표",
           "url": "https://blox-fruits.vaultedvaluesx.com/value-list",
           "value": 340000000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
+          "observedAt": "2026-11-18T16:44:02+09:00",
           "publishedAt": null
         }
       ],
-      "valueUpdatedAt": "2026-11-18T06:06:24+09:00"
+      "valueUpdatedAt": "2026-11-18T16:44:02+09:00"
     },
     {
       "id": "starlight-gravity",
@@ -1830,28 +1606,20 @@
       "value": 300000000,
       "trend": "stable",
       "image": "images/blox-fruits/starlight-gravity.webp",
-      "note": "2개 사이트 공개값 비교 · 범위 300,000,000~300,000,000",
-      "valueStatus": "comparison",
+      "note": "단일 출처 표기값 참고 · 비교 평균 아님",
+      "valueStatus": "single",
       "valueBasis": "public-comparison-v1",
       "priceQuotes": [
-        {
-          "id": "cosmic-bfv",
-          "name": "BloxFruitsValues.com (Cosmic Values)",
-          "url": "https://bloxfruitsvalues.com/values/limiteds",
-          "value": 300000000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
-          "publishedAt": "2026-11-16T00:44:41.000Z"
-        },
         {
           "id": "vvx-bf",
           "name": "VVX 공개 가치표",
           "url": "https://blox-fruits.vaultedvaluesx.com/value-list",
           "value": 300000000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
+          "observedAt": "2026-11-18T16:44:02+09:00",
           "publishedAt": null
         }
       ],
-      "valueUpdatedAt": "2026-11-18T06:06:24+09:00"
+      "valueUpdatedAt": "2026-11-18T16:44:02+09:00"
     },
     {
       "id": "2x-money",
@@ -1870,11 +1638,11 @@
           "name": "VVX 공개 가치표",
           "url": "https://blox-fruits.vaultedvaluesx.com/value-list",
           "value": 300000000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
+          "observedAt": "2026-11-18T16:44:02+09:00",
           "publishedAt": null
         }
       ],
-      "valueUpdatedAt": "2026-11-18T06:06:24+09:00"
+      "valueUpdatedAt": "2026-11-18T16:44:02+09:00"
     },
     {
       "id": "2x-mastery",
@@ -1893,11 +1661,11 @@
           "name": "VVX 공개 가치표",
           "url": "https://blox-fruits.vaultedvaluesx.com/value-list",
           "value": 300000000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
+          "observedAt": "2026-11-18T16:44:02+09:00",
           "publishedAt": null
         }
       ],
-      "valueUpdatedAt": "2026-11-18T06:06:24+09:00"
+      "valueUpdatedAt": "2026-11-18T16:44:02+09:00"
     },
     {
       "id": "eagle-matrix",
@@ -1916,11 +1684,11 @@
           "name": "VVX 공개 가치표",
           "url": "https://blox-fruits.vaultedvaluesx.com/value-list",
           "value": 250000000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
+          "observedAt": "2026-11-18T16:44:02+09:00",
           "publishedAt": null
         }
       ],
-      "valueUpdatedAt": "2026-11-18T06:06:24+09:00"
+      "valueUpdatedAt": "2026-11-18T16:44:02+09:00"
     },
     {
       "id": "1-fruit-storage",
@@ -1939,11 +1707,11 @@
           "name": "VVX 공개 가치표",
           "url": "https://blox-fruits.vaultedvaluesx.com/value-list",
           "value": 270000000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
+          "observedAt": "2026-11-18T16:44:02+09:00",
           "publishedAt": null
         }
       ],
-      "valueUpdatedAt": "2026-11-18T06:06:24+09:00"
+      "valueUpdatedAt": "2026-11-18T16:44:02+09:00"
     },
     {
       "id": "green-lightning",
@@ -1962,11 +1730,11 @@
           "name": "VVX 공개 가치표",
           "url": "https://blox-fruits.vaultedvaluesx.com/value-list",
           "value": 200000000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
+          "observedAt": "2026-11-18T16:44:02+09:00",
           "publishedAt": null
         }
       ],
-      "valueUpdatedAt": "2026-11-18T06:06:24+09:00"
+      "valueUpdatedAt": "2026-11-18T16:44:02+09:00"
     },
     {
       "id": "rose-quartz-diamond",
@@ -1985,11 +1753,11 @@
           "name": "VVX 공개 가치표",
           "url": "https://blox-fruits.vaultedvaluesx.com/value-list",
           "value": 190000000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
+          "observedAt": "2026-11-18T16:44:02+09:00",
           "publishedAt": null
         }
       ],
-      "valueUpdatedAt": "2026-11-18T06:06:24+09:00"
+      "valueUpdatedAt": "2026-11-18T16:44:02+09:00"
     },
     {
       "id": "2x-boss-drops",
@@ -2008,11 +1776,11 @@
           "name": "VVX 공개 가치표",
           "url": "https://blox-fruits.vaultedvaluesx.com/value-list",
           "value": 180000000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
+          "observedAt": "2026-11-18T16:44:02+09:00",
           "publishedAt": null
         }
       ],
-      "valueUpdatedAt": "2026-11-18T06:06:24+09:00"
+      "valueUpdatedAt": "2026-11-18T16:44:02+09:00"
     },
     {
       "id": "fast-boats",
@@ -2031,11 +1799,11 @@
           "name": "VVX 공개 가치표",
           "url": "https://blox-fruits.vaultedvaluesx.com/value-list",
           "value": 180000000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
+          "observedAt": "2026-11-18T16:44:02+09:00",
           "publishedAt": null
         }
       ],
-      "valueUpdatedAt": "2026-11-18T06:06:24+09:00"
+      "valueUpdatedAt": "2026-11-18T16:44:02+09:00"
     },
     {
       "id": "eagle-requiem",
@@ -2054,11 +1822,11 @@
           "name": "VVX 공개 가치표",
           "url": "https://blox-fruits.vaultedvaluesx.com/value-list",
           "value": 160000000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
+          "observedAt": "2026-11-18T16:44:02+09:00",
           "publishedAt": null
         }
       ],
-      "valueUpdatedAt": "2026-11-18T06:06:24+09:00"
+      "valueUpdatedAt": "2026-11-18T16:44:02+09:00"
     },
     {
       "id": "emerald-diamond",
@@ -2077,11 +1845,11 @@
           "name": "VVX 공개 가치표",
           "url": "https://blox-fruits.vaultedvaluesx.com/value-list",
           "value": 150000000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
+          "observedAt": "2026-11-18T16:44:02+09:00",
           "publishedAt": null
         }
       ],
-      "valueUpdatedAt": "2026-11-18T06:06:24+09:00"
+      "valueUpdatedAt": "2026-11-18T16:44:02+09:00"
     },
     {
       "id": "yellow-lightning",
@@ -2091,28 +1859,20 @@
       "value": 120000000,
       "trend": "stable",
       "image": "images/blox-fruits/yellow-lightning.webp",
-      "note": "2개 사이트 공개값 비교 · 범위 120,000,000~120,000,000",
-      "valueStatus": "comparison",
+      "note": "단일 출처 표기값 참고 · 비교 평균 아님",
+      "valueStatus": "single",
       "valueBasis": "public-comparison-v1",
       "priceQuotes": [
-        {
-          "id": "cosmic-bfv",
-          "name": "BloxFruitsValues.com (Cosmic Values)",
-          "url": "https://bloxfruitsvalues.com/values/limiteds",
-          "value": 120000000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
-          "publishedAt": "2026-11-16T00:45:02.000Z"
-        },
         {
           "id": "vvx-bf",
           "name": "VVX 공개 가치표",
           "url": "https://blox-fruits.vaultedvaluesx.com/value-list",
           "value": 120000000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
+          "observedAt": "2026-11-18T16:44:02+09:00",
           "publishedAt": null
         }
       ],
-      "valueUpdatedAt": "2026-11-18T06:06:24+09:00"
+      "valueUpdatedAt": "2026-11-18T16:44:02+09:00"
     },
     {
       "id": "spike-perm",
@@ -2131,11 +1891,11 @@
           "name": "VVX 공개 가치표",
           "url": "https://blox-fruits.vaultedvaluesx.com/value-list",
           "value": 140000000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
+          "observedAt": "2026-11-18T16:44:02+09:00",
           "publishedAt": null
         }
       ],
-      "valueUpdatedAt": "2026-11-18T06:06:24+09:00"
+      "valueUpdatedAt": "2026-11-18T16:44:02+09:00"
     },
     {
       "id": "ruby-diamond",
@@ -2154,11 +1914,11 @@
           "name": "VVX 공개 가치표",
           "url": "https://blox-fruits.vaultedvaluesx.com/value-list",
           "value": 90000000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
+          "observedAt": "2026-11-18T16:44:02+09:00",
           "publishedAt": null
         }
       ],
-      "valueUpdatedAt": "2026-11-18T06:06:24+09:00"
+      "valueUpdatedAt": "2026-11-18T16:44:02+09:00"
     },
     {
       "id": "control",
@@ -2177,11 +1937,11 @@
           "name": "VVX 공개 가치표",
           "url": "https://blox-fruits.vaultedvaluesx.com/value-list",
           "value": 90000000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
+          "observedAt": "2026-11-18T16:44:02+09:00",
           "publishedAt": null
         }
       ],
-      "valueUpdatedAt": "2026-11-18T06:06:24+09:00"
+      "valueUpdatedAt": "2026-11-18T16:44:02+09:00"
     },
     {
       "id": "torment-pain",
@@ -2200,11 +1960,11 @@
           "name": "VVX 공개 가치표",
           "url": "https://blox-fruits.vaultedvaluesx.com/value-list",
           "value": 80000000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
+          "observedAt": "2026-11-18T16:44:02+09:00",
           "publishedAt": null
         }
       ],
-      "valueUpdatedAt": "2026-11-18T06:06:24+09:00"
+      "valueUpdatedAt": "2026-11-18T16:44:02+09:00"
     },
     {
       "id": "smoke-perm",
@@ -2223,11 +1983,11 @@
           "name": "VVX 공개 가치표",
           "url": "https://blox-fruits.vaultedvaluesx.com/value-list",
           "value": 120000000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
+          "observedAt": "2026-11-18T16:44:02+09:00",
           "publishedAt": null
         }
       ],
-      "valueUpdatedAt": "2026-11-18T06:06:24+09:00"
+      "valueUpdatedAt": "2026-11-18T16:44:02+09:00"
     },
     {
       "id": "tiger",
@@ -2246,11 +2006,11 @@
           "name": "VVX 공개 가치표",
           "url": "https://blox-fruits.vaultedvaluesx.com/value-list",
           "value": 80000000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
+          "observedAt": "2026-11-18T16:44:02+09:00",
           "publishedAt": null
         }
       ],
-      "valueUpdatedAt": "2026-11-18T06:06:24+09:00"
+      "valueUpdatedAt": "2026-11-18T16:44:02+09:00"
     },
     {
       "id": "yeti",
@@ -2269,11 +2029,11 @@
           "name": "VVX 공개 가치표",
           "url": "https://blox-fruits.vaultedvaluesx.com/value-list",
           "value": 70000000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
+          "observedAt": "2026-11-18T16:44:02+09:00",
           "publishedAt": null
         }
       ],
-      "valueUpdatedAt": "2026-11-18T06:06:24+09:00"
+      "valueUpdatedAt": "2026-11-18T16:44:02+09:00"
     },
     {
       "id": "bomb-perm",
@@ -2292,11 +2052,11 @@
           "name": "VVX 공개 가치표",
           "url": "https://blox-fruits.vaultedvaluesx.com/value-list",
           "value": 90000000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
+          "observedAt": "2026-11-18T16:44:02+09:00",
           "publishedAt": null
         }
       ],
-      "valueUpdatedAt": "2026-11-18T06:06:24+09:00"
+      "valueUpdatedAt": "2026-11-18T16:44:02+09:00"
     },
     {
       "id": "gas",
@@ -2315,11 +2075,11 @@
           "name": "VVX 공개 가치표",
           "url": "https://blox-fruits.vaultedvaluesx.com/value-list",
           "value": 60000000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
+          "observedAt": "2026-11-18T16:44:02+09:00",
           "publishedAt": null
         }
       ],
-      "valueUpdatedAt": "2026-11-18T06:06:24+09:00"
+      "valueUpdatedAt": "2026-11-18T16:44:02+09:00"
     },
     {
       "id": "spring-perm",
@@ -2338,11 +2098,11 @@
           "name": "VVX 공개 가치표",
           "url": "https://blox-fruits.vaultedvaluesx.com/value-list",
           "value": 60000000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
+          "observedAt": "2026-11-18T16:44:02+09:00",
           "publishedAt": null
         }
       ],
-      "valueUpdatedAt": "2026-11-18T06:06:24+09:00"
+      "valueUpdatedAt": "2026-11-18T16:44:02+09:00"
     },
     {
       "id": "dough",
@@ -2361,11 +2121,11 @@
           "name": "VVX 공개 가치표",
           "url": "https://blox-fruits.vaultedvaluesx.com/value-list",
           "value": 30000000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
+          "observedAt": "2026-11-18T16:44:02+09:00",
           "publishedAt": null
         }
       ],
-      "valueUpdatedAt": "2026-11-18T06:06:24+09:00"
+      "valueUpdatedAt": "2026-11-18T16:44:02+09:00"
     },
     {
       "id": "venom",
@@ -2384,11 +2144,11 @@
           "name": "VVX 공개 가치표",
           "url": "https://blox-fruits.vaultedvaluesx.com/value-list",
           "value": 110000000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
+          "observedAt": "2026-11-18T16:44:02+09:00",
           "publishedAt": null
         }
       ],
-      "valueUpdatedAt": "2026-11-18T06:06:24+09:00"
+      "valueUpdatedAt": "2026-11-18T16:44:02+09:00"
     },
     {
       "id": "lightning",
@@ -2411,28 +2171,20 @@
       "value": 20000000,
       "trend": "stable",
       "image": "images/blox-fruits/scarlet-ghost.webp",
-      "note": "2개 사이트 공개값 비교 · 범위 20,000,000~20,000,000",
-      "valueStatus": "comparison",
+      "note": "단일 출처 표기값 참고 · 비교 평균 아님",
+      "valueStatus": "single",
       "valueBasis": "public-comparison-v1",
       "priceQuotes": [
-        {
-          "id": "cosmic-bfv",
-          "name": "BloxFruitsValues.com (Cosmic Values)",
-          "url": "https://bloxfruitsvalues.com/values/limiteds",
-          "value": 20000000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
-          "publishedAt": "2026-11-16T00:45:27.000Z"
-        },
         {
           "id": "vvx-bf",
           "name": "VVX 공개 가치표",
           "url": "https://blox-fruits.vaultedvaluesx.com/value-list",
           "value": 20000000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
+          "observedAt": "2026-11-18T16:44:02+09:00",
           "publishedAt": null
         }
       ],
-      "valueUpdatedAt": "2026-11-18T06:06:24+09:00"
+      "valueUpdatedAt": "2026-11-18T16:44:02+09:00"
     },
     {
       "id": "t-rex",
@@ -2451,42 +2203,34 @@
           "name": "VVX 공개 가치표",
           "url": "https://blox-fruits.vaultedvaluesx.com/value-list",
           "value": 20000000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
+          "observedAt": "2026-11-18T16:44:02+09:00",
           "publishedAt": null
         }
       ],
-      "valueUpdatedAt": "2026-11-18T06:06:24+09:00"
+      "valueUpdatedAt": "2026-11-18T16:44:02+09:00"
     },
     {
       "id": "eagle-glacier",
       "name": "Eagle Glacier",
       "category": "한정 아이템",
       "rarity": "Limited",
-      "value": 22500000,
+      "value": 20000000,
       "trend": "stable",
       "image": "images/blox-fruits/eagle-glacier.webp",
-      "note": "2개 사이트 공개값 비교 · 범위 20,000,000~25,000,000",
-      "valueStatus": "comparison",
+      "note": "단일 출처 표기값 참고 · 비교 평균 아님",
+      "valueStatus": "single",
       "valueBasis": "public-comparison-v1",
       "priceQuotes": [
-        {
-          "id": "cosmic-bfv",
-          "name": "BloxFruitsValues.com (Cosmic Values)",
-          "url": "https://bloxfruitsvalues.com/values/limiteds/eagle-glacier",
-          "value": 25000000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
-          "publishedAt": "2026-11-16T00:45:16.000Z"
-        },
         {
           "id": "vvx-bf",
           "name": "VVX 공개 가치표",
           "url": "https://blox-fruits.vaultedvaluesx.com/value-list",
           "value": 20000000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
+          "observedAt": "2026-11-18T16:44:02+09:00",
           "publishedAt": null
         }
       ],
-      "valueUpdatedAt": "2026-11-18T06:06:24+09:00"
+      "valueUpdatedAt": "2026-11-18T16:44:02+09:00"
     },
     {
       "id": "blade-perm",
@@ -2505,11 +2249,11 @@
           "name": "VVX 공개 가치표",
           "url": "https://blox-fruits.vaultedvaluesx.com/value-list",
           "value": 20000000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
+          "observedAt": "2026-11-18T16:44:02+09:00",
           "publishedAt": null
         }
       ],
-      "valueUpdatedAt": "2026-11-18T06:06:24+09:00"
+      "valueUpdatedAt": "2026-11-18T16:44:02+09:00"
     },
     {
       "id": "spin-perm",
@@ -2528,11 +2272,11 @@
           "name": "VVX 공개 가치표",
           "url": "https://blox-fruits.vaultedvaluesx.com/value-list",
           "value": 15000000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
+          "observedAt": "2026-11-18T16:44:02+09:00",
           "publishedAt": null
         }
       ],
-      "valueUpdatedAt": "2026-11-18T06:06:24+09:00"
+      "valueUpdatedAt": "2026-11-18T16:44:02+09:00"
     },
     {
       "id": "topaz-diamond",
@@ -2551,11 +2295,11 @@
           "name": "VVX 공개 가치표",
           "url": "https://blox-fruits.vaultedvaluesx.com/value-list",
           "value": 10000000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
+          "observedAt": "2026-11-18T16:44:02+09:00",
           "publishedAt": null
         }
       ],
-      "valueUpdatedAt": "2026-11-18T06:06:24+09:00"
+      "valueUpdatedAt": "2026-11-18T16:44:02+09:00"
     },
     {
       "id": "pain",
@@ -2574,11 +2318,11 @@
           "name": "VVX 공개 가치표",
           "url": "https://blox-fruits.vaultedvaluesx.com/value-list",
           "value": 10000000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
+          "observedAt": "2026-11-18T16:44:02+09:00",
           "publishedAt": null
         }
       ],
-      "valueUpdatedAt": "2026-11-18T06:06:24+09:00"
+      "valueUpdatedAt": "2026-11-18T16:44:02+09:00"
     },
     {
       "id": "gravity",
@@ -2597,11 +2341,11 @@
           "name": "VVX 공개 가치표",
           "url": "https://blox-fruits.vaultedvaluesx.com/value-list",
           "value": 10000000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
+          "observedAt": "2026-11-18T16:44:02+09:00",
           "publishedAt": null
         }
       ],
-      "valueUpdatedAt": "2026-11-18T06:06:24+09:00"
+      "valueUpdatedAt": "2026-11-18T16:44:02+09:00"
     },
     {
       "id": "mammoth",
@@ -2620,11 +2364,11 @@
           "name": "VVX 공개 가치표",
           "url": "https://blox-fruits.vaultedvaluesx.com/value-list",
           "value": 10000000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
+          "observedAt": "2026-11-18T16:44:02+09:00",
           "publishedAt": null
         }
       ],
-      "valueUpdatedAt": "2026-11-18T06:06:24+09:00"
+      "valueUpdatedAt": "2026-11-18T16:44:02+09:00"
     },
     {
       "id": "spirit",
@@ -2643,11 +2387,11 @@
           "name": "VVX 공개 가치표",
           "url": "https://blox-fruits.vaultedvaluesx.com/value-list",
           "value": 10000000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
+          "observedAt": "2026-11-18T16:44:02+09:00",
           "publishedAt": null
         }
       ],
-      "valueUpdatedAt": "2026-11-18T06:06:24+09:00"
+      "valueUpdatedAt": "2026-11-18T16:44:02+09:00"
     },
     {
       "id": "portal",
@@ -2666,11 +2410,11 @@
           "name": "VVX 공개 가치표",
           "url": "https://blox-fruits.vaultedvaluesx.com/value-list",
           "value": 10000000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
+          "observedAt": "2026-11-18T16:44:02+09:00",
           "publishedAt": null
         }
       ],
-      "valueUpdatedAt": "2026-11-18T06:06:24+09:00"
+      "valueUpdatedAt": "2026-11-18T16:44:02+09:00"
     },
     {
       "id": "buddha",
@@ -2689,42 +2433,34 @@
           "name": "VVX 공개 가치표",
           "url": "https://blox-fruits.vaultedvaluesx.com/value-list",
           "value": 10000000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
+          "observedAt": "2026-11-18T16:44:02+09:00",
           "publishedAt": null
         }
       ],
-      "valueUpdatedAt": "2026-11-18T06:06:24+09:00"
+      "valueUpdatedAt": "2026-11-18T16:44:02+09:00"
     },
     {
       "id": "celebration-bomb",
       "name": "Celebration Bomb",
       "category": "한정 아이템",
       "rarity": "Limited",
-      "value": 7500000,
+      "value": 5000000,
       "trend": "stable",
       "image": "images/blox-fruits/celebration-bomb.webp",
-      "note": "2개 사이트 공개값 비교 · 범위 5,000,000~10,000,000",
-      "valueStatus": "comparison",
+      "note": "단일 출처 표기값 참고 · 비교 평균 아님",
+      "valueStatus": "single",
       "valueBasis": "public-comparison-v1",
       "priceQuotes": [
-        {
-          "id": "cosmic-bfv",
-          "name": "BloxFruitsValues.com (Cosmic Values)",
-          "url": "https://bloxfruitsvalues.com/values/limiteds/celebration-bomb",
-          "value": 10000000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
-          "publishedAt": "2026-11-16T00:45:36.000Z"
-        },
         {
           "id": "vvx-bf",
           "name": "VVX 공개 가치표",
           "url": "https://blox-fruits.vaultedvaluesx.com/value-list",
           "value": 5000000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
+          "observedAt": "2026-11-18T16:44:02+09:00",
           "publishedAt": null
         }
       ],
-      "valueUpdatedAt": "2026-11-18T06:06:24+09:00"
+      "valueUpdatedAt": "2026-11-18T16:44:02+09:00"
     },
     {
       "id": "lime-blade",
@@ -2734,28 +2470,20 @@
       "value": 10000000,
       "trend": "stable",
       "image": "images/blox-fruits/lime-blade.webp",
-      "note": "2개 사이트 공개값 비교 · 범위 10,000,000~10,000,000",
-      "valueStatus": "comparison",
+      "note": "단일 출처 표기값 참고 · 비교 평균 아님",
+      "valueStatus": "single",
       "valueBasis": "public-comparison-v1",
       "priceQuotes": [
-        {
-          "id": "cosmic-bfv",
-          "name": "BloxFruitsValues.com (Cosmic Values)",
-          "url": "https://bloxfruitsvalues.com/values/limiteds",
-          "value": 10000000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
-          "publishedAt": "2026-11-16T00:45:51.000Z"
-        },
         {
           "id": "vvx-bf",
           "name": "VVX 공개 가치표",
           "url": "https://blox-fruits.vaultedvaluesx.com/value-list",
           "value": 10000000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
+          "observedAt": "2026-11-18T16:44:02+09:00",
           "publishedAt": null
         }
       ],
-      "valueUpdatedAt": "2026-11-18T06:06:24+09:00"
+      "valueUpdatedAt": "2026-11-18T16:44:02+09:00"
     },
     {
       "id": "rocket-perm",
@@ -2774,11 +2502,11 @@
           "name": "VVX 공개 가치표",
           "url": "https://blox-fruits.vaultedvaluesx.com/value-list",
           "value": 10000000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
+          "observedAt": "2026-11-18T16:44:02+09:00",
           "publishedAt": null
         }
       ],
-      "valueUpdatedAt": "2026-11-18T06:06:24+09:00"
+      "valueUpdatedAt": "2026-11-18T16:44:02+09:00"
     },
     {
       "id": "shadow",
@@ -2797,11 +2525,11 @@
           "name": "VVX 공개 가치표",
           "url": "https://blox-fruits.vaultedvaluesx.com/value-list",
           "value": 8000000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
+          "observedAt": "2026-11-18T16:44:02+09:00",
           "publishedAt": null
         }
       ],
-      "valueUpdatedAt": "2026-11-18T06:06:24+09:00"
+      "valueUpdatedAt": "2026-11-18T16:44:02+09:00"
     },
     {
       "id": "blizzard",
@@ -2820,11 +2548,11 @@
           "name": "VVX 공개 가치표",
           "url": "https://blox-fruits.vaultedvaluesx.com/value-list",
           "value": 5000000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
+          "observedAt": "2026-11-18T16:44:02+09:00",
           "publishedAt": null
         }
       ],
-      "valueUpdatedAt": "2026-11-18T06:06:24+09:00"
+      "valueUpdatedAt": "2026-11-18T16:44:02+09:00"
     },
     {
       "id": "phoenix",
@@ -2843,42 +2571,34 @@
           "name": "VVX 공개 가치표",
           "url": "https://blox-fruits.vaultedvaluesx.com/value-list",
           "value": 2750000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
+          "observedAt": "2026-11-18T16:44:02+09:00",
           "publishedAt": null
         }
       ],
-      "valueUpdatedAt": "2026-11-18T06:06:24+09:00"
+      "valueUpdatedAt": "2026-11-18T16:44:02+09:00"
     },
     {
       "id": "creation",
       "name": "Creation",
       "category": "열매",
       "rarity": "Legendary",
-      "value": 2250000,
+      "value": 2500000,
       "trend": "stable",
       "image": "images/blox-fruits/creation.webp",
-      "note": "2개 사이트 공개값 비교 · 범위 2,000,000~2,500,000",
-      "valueStatus": "comparison",
+      "note": "단일 출처 표기값 참고 · 비교 평균 아님",
+      "valueStatus": "single",
       "valueBasis": "public-comparison-v1",
       "priceQuotes": [
-        {
-          "id": "cosmic-bfv",
-          "name": "BloxFruitsValues.com (Cosmic Values)",
-          "url": "https://bloxfruitsvalues.com/values",
-          "value": 2000000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
-          "publishedAt": "2026-11-16T00:36:50.000Z"
-        },
         {
           "id": "vvx-bf",
           "name": "VVX 공개 가치표",
           "url": "https://blox-fruits.vaultedvaluesx.com/value-list",
           "value": 2500000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
+          "observedAt": "2026-11-18T16:44:02+09:00",
           "publishedAt": null
         }
       ],
-      "valueUpdatedAt": "2026-11-18T06:06:24+09:00"
+      "valueUpdatedAt": "2026-11-18T16:44:02+09:00"
     },
     {
       "id": "sound",
@@ -2897,11 +2617,11 @@
           "name": "VVX 공개 가치표",
           "url": "https://blox-fruits.vaultedvaluesx.com/value-list",
           "value": 2500000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
+          "observedAt": "2026-11-18T16:44:02+09:00",
           "publishedAt": null
         }
       ],
-      "valueUpdatedAt": "2026-11-18T06:06:24+09:00"
+      "valueUpdatedAt": "2026-11-18T16:44:02+09:00"
     },
     {
       "id": "spider",
@@ -2920,11 +2640,11 @@
           "name": "VVX 공개 가치표",
           "url": "https://blox-fruits.vaultedvaluesx.com/value-list",
           "value": 1500000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
+          "observedAt": "2026-11-18T16:44:02+09:00",
           "publishedAt": null
         }
       ],
-      "valueUpdatedAt": "2026-11-18T06:06:24+09:00"
+      "valueUpdatedAt": "2026-11-18T16:44:02+09:00"
     },
     {
       "id": "love",
@@ -2943,11 +2663,11 @@
           "name": "VVX 공개 가치표",
           "url": "https://blox-fruits.vaultedvaluesx.com/value-list",
           "value": 1500000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
+          "observedAt": "2026-11-18T16:44:02+09:00",
           "publishedAt": null
         }
       ],
-      "valueUpdatedAt": "2026-11-18T06:06:24+09:00"
+      "valueUpdatedAt": "2026-11-18T16:44:02+09:00"
     },
     {
       "id": "magma",
@@ -2966,11 +2686,11 @@
           "name": "VVX 공개 가치표",
           "url": "https://blox-fruits.vaultedvaluesx.com/value-list",
           "value": 1150000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
+          "observedAt": "2026-11-18T16:44:02+09:00",
           "publishedAt": null
         }
       ],
-      "valueUpdatedAt": "2026-11-18T06:06:24+09:00"
+      "valueUpdatedAt": "2026-11-18T16:44:02+09:00"
     },
     {
       "id": "quake",
@@ -2989,11 +2709,11 @@
           "name": "VVX 공개 가치표",
           "url": "https://blox-fruits.vaultedvaluesx.com/value-list",
           "value": 1000000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
+          "observedAt": "2026-11-18T16:44:02+09:00",
           "publishedAt": null
         }
       ],
-      "valueUpdatedAt": "2026-11-18T06:06:24+09:00"
+      "valueUpdatedAt": "2026-11-18T16:44:02+09:00"
     },
     {
       "id": "diamond",
@@ -3012,11 +2732,11 @@
           "name": "VVX 공개 가치표",
           "url": "https://blox-fruits.vaultedvaluesx.com/value-list",
           "value": 1000000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
+          "observedAt": "2026-11-18T16:44:02+09:00",
           "publishedAt": null
         }
       ],
-      "valueUpdatedAt": "2026-11-18T06:06:24+09:00"
+      "valueUpdatedAt": "2026-11-18T16:44:02+09:00"
     },
     {
       "id": "light",
@@ -3035,11 +2755,11 @@
           "name": "VVX 공개 가치표",
           "url": "https://blox-fruits.vaultedvaluesx.com/value-list",
           "value": 800000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
+          "observedAt": "2026-11-18T16:44:02+09:00",
           "publishedAt": null
         }
       ],
-      "valueUpdatedAt": "2026-11-18T06:06:24+09:00"
+      "valueUpdatedAt": "2026-11-18T16:44:02+09:00"
     },
     {
       "id": "ghost",
@@ -3058,11 +2778,11 @@
           "name": "VVX 공개 가치표",
           "url": "https://blox-fruits.vaultedvaluesx.com/value-list",
           "value": 800000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
+          "observedAt": "2026-11-18T16:44:02+09:00",
           "publishedAt": null
         }
       ],
-      "valueUpdatedAt": "2026-11-18T06:06:24+09:00"
+      "valueUpdatedAt": "2026-11-18T16:44:02+09:00"
     },
     {
       "id": "eagle",
@@ -3081,11 +2801,11 @@
           "name": "VVX 공개 가치표",
           "url": "https://blox-fruits.vaultedvaluesx.com/value-list",
           "value": 800000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
+          "observedAt": "2026-11-18T16:44:02+09:00",
           "publishedAt": null
         }
       ],
-      "valueUpdatedAt": "2026-11-18T06:06:24+09:00"
+      "valueUpdatedAt": "2026-11-18T16:44:02+09:00"
     },
     {
       "id": "rubber",
@@ -3104,11 +2824,11 @@
           "name": "VVX 공개 가치표",
           "url": "https://blox-fruits.vaultedvaluesx.com/value-list",
           "value": 700000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
+          "observedAt": "2026-11-18T16:44:02+09:00",
           "publishedAt": null
         }
       ],
-      "valueUpdatedAt": "2026-11-18T06:06:24+09:00"
+      "valueUpdatedAt": "2026-11-18T16:44:02+09:00"
     },
     {
       "id": "ice",
@@ -3127,11 +2847,11 @@
           "name": "VVX 공개 가치표",
           "url": "https://blox-fruits.vaultedvaluesx.com/value-list",
           "value": 550000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
+          "observedAt": "2026-11-18T16:44:02+09:00",
           "publishedAt": null
         }
       ],
-      "valueUpdatedAt": "2026-11-18T06:06:24+09:00"
+      "valueUpdatedAt": "2026-11-18T16:44:02+09:00"
     },
     {
       "id": "sand",
@@ -3150,11 +2870,11 @@
           "name": "VVX 공개 가치표",
           "url": "https://blox-fruits.vaultedvaluesx.com/value-list",
           "value": 420000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
+          "observedAt": "2026-11-18T16:44:02+09:00",
           "publishedAt": null
         }
       ],
-      "valueUpdatedAt": "2026-11-18T06:06:24+09:00"
+      "valueUpdatedAt": "2026-11-18T16:44:02+09:00"
     },
     {
       "id": "dark",
@@ -3173,11 +2893,11 @@
           "name": "VVX 공개 가치표",
           "url": "https://blox-fruits.vaultedvaluesx.com/value-list",
           "value": 400000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
+          "observedAt": "2026-11-18T16:44:02+09:00",
           "publishedAt": null
         }
       ],
-      "valueUpdatedAt": "2026-11-18T06:06:24+09:00"
+      "valueUpdatedAt": "2026-11-18T16:44:02+09:00"
     },
     {
       "id": "flame",
@@ -3196,11 +2916,11 @@
           "name": "VVX 공개 가치표",
           "url": "https://blox-fruits.vaultedvaluesx.com/value-list",
           "value": 250000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
+          "observedAt": "2026-11-18T16:44:02+09:00",
           "publishedAt": null
         }
       ],
-      "valueUpdatedAt": "2026-11-18T06:06:24+09:00"
+      "valueUpdatedAt": "2026-11-18T16:44:02+09:00"
     },
     {
       "id": "spike",
@@ -3219,11 +2939,11 @@
           "name": "VVX 공개 가치표",
           "url": "https://blox-fruits.vaultedvaluesx.com/value-list",
           "value": 180000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
+          "observedAt": "2026-11-18T16:44:02+09:00",
           "publishedAt": null
         }
       ],
-      "valueUpdatedAt": "2026-11-18T06:06:24+09:00"
+      "valueUpdatedAt": "2026-11-18T16:44:02+09:00"
     },
     {
       "id": "smoke",
@@ -3242,11 +2962,11 @@
           "name": "VVX 공개 가치표",
           "url": "https://blox-fruits.vaultedvaluesx.com/value-list",
           "value": 100000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
+          "observedAt": "2026-11-18T16:44:02+09:00",
           "publishedAt": null
         }
       ],
-      "valueUpdatedAt": "2026-11-18T06:06:24+09:00"
+      "valueUpdatedAt": "2026-11-18T16:44:02+09:00"
     },
     {
       "id": "bomb",
@@ -3265,11 +2985,11 @@
           "name": "VVX 공개 가치표",
           "url": "https://blox-fruits.vaultedvaluesx.com/value-list",
           "value": 80000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
+          "observedAt": "2026-11-18T16:44:02+09:00",
           "publishedAt": null
         }
       ],
-      "valueUpdatedAt": "2026-11-18T06:06:24+09:00"
+      "valueUpdatedAt": "2026-11-18T16:44:02+09:00"
     },
     {
       "id": "spring",
@@ -3288,11 +3008,11 @@
           "name": "VVX 공개 가치표",
           "url": "https://blox-fruits.vaultedvaluesx.com/value-list",
           "value": 60000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
+          "observedAt": "2026-11-18T16:44:02+09:00",
           "publishedAt": null
         }
       ],
-      "valueUpdatedAt": "2026-11-18T06:06:24+09:00"
+      "valueUpdatedAt": "2026-11-18T16:44:02+09:00"
     },
     {
       "id": "blade",
@@ -3311,11 +3031,11 @@
           "name": "VVX 공개 가치표",
           "url": "https://blox-fruits.vaultedvaluesx.com/value-list",
           "value": 50000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
+          "observedAt": "2026-11-18T16:44:02+09:00",
           "publishedAt": null
         }
       ],
-      "valueUpdatedAt": "2026-11-18T06:06:24+09:00"
+      "valueUpdatedAt": "2026-11-18T16:44:02+09:00"
     },
     {
       "id": "spin",
@@ -3334,11 +3054,11 @@
           "name": "VVX 공개 가치표",
           "url": "https://blox-fruits.vaultedvaluesx.com/value-list",
           "value": 7500,
-          "observedAt": "2026-11-18T06:06:24+09:00",
+          "observedAt": "2026-11-18T16:44:02+09:00",
           "publishedAt": null
         }
       ],
-      "valueUpdatedAt": "2026-11-18T06:06:24+09:00"
+      "valueUpdatedAt": "2026-11-18T16:44:02+09:00"
     },
     {
       "id": "rocket",
@@ -3357,11 +3077,11 @@
           "name": "VVX 공개 가치표",
           "url": "https://blox-fruits.vaultedvaluesx.com/value-list",
           "value": 5000,
-          "observedAt": "2026-11-18T06:06:24+09:00",
+          "observedAt": "2026-11-18T16:44:02+09:00",
           "publishedAt": null
         }
       ],
-      "valueUpdatedAt": "2026-11-18T06:06:24+09:00"
+      "valueUpdatedAt": "2026-11-18T16:44:02+09:00"
     }
   ],
   "pricingMode": "comparison"
