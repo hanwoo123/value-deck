@@ -1,6 +1,6 @@
 {
   "state": "comparison",
-  "checkedAt": "2026-11-19T16:40:05+09:00",
+  "checkedAt": "2026-11-20T05:49:22+09:00",
   "games": {
     "blox-fruits": {
       "mode": "comparison",
@@ -15,7 +15,7 @@
       "unpricedItems": 16,
       "sourceCount": 1,
       "checkedAt": "2026-11-16T15:51:39+09:00",
-      "lastAttemptAt": "2026-11-19T16:40:56+09:00",
+      "lastAttemptAt": "2026-11-20T05:49:29+09:00",
       "refreshState": "error",
       "message": "공개 원문 전체 확인 · 단일 목록 참고값",
       "error": "ValueError: Duplicate public item name"
@@ -26,8 +26,8 @@
       "rangeItems": 0,
       "unpricedItems": 10,
       "sourceCount": 1,
-      "checkedAt": "2026-11-19T16:40:56+09:00",
-      "lastAttemptAt": "2026-11-19T16:40:56+09:00",
+      "checkedAt": "2026-11-20T05:49:30+09:00",
+      "lastAttemptAt": "2026-11-20T05:49:30+09:00",
       "refreshState": "ok",
       "message": "공개 원문 전체 확인 · 단일 목록 참고값"
     }
@@ -39,7 +39,7 @@
     },
     {
       "id": "cosmic-bfv",
-      "error": "Unexpected aggregate public quote coverage"
+      "error": "Terms changed: review required before collection"
     }
   ]
 }
