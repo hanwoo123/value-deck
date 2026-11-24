@@ -1,6 +1,6 @@
 {
   "state": "comparison",
-  "checkedAt": "2026-11-24T19:07:44+09:00",
+  "checkedAt": "2026-11-25T07:37:41+09:00",
   "games": {
     "blox-fruits": {
       "mode": "comparison",
@@ -15,7 +15,7 @@
       "unpricedItems": 16,
       "sourceCount": 1,
       "checkedAt": "2026-11-16T15:51:39+09:00",
-      "lastAttemptAt": "2026-11-24T19:07:47+09:00",
+      "lastAttemptAt": "2026-11-25T07:37:47+09:00",
       "refreshState": "error",
       "message": "공개 원문 전체 확인 · 단일 목록 참고값",
       "error": "ValueError: Duplicate public item name"
@@ -26,8 +26,8 @@
       "rangeItems": 0,
       "unpricedItems": 7,
       "sourceCount": 1,
-      "checkedAt": "2026-11-24T19:07:47+09:00",
-      "lastAttemptAt": "2026-11-24T19:07:47+09:00",
+      "checkedAt": "2026-11-25T07:37:48+09:00",
+      "lastAttemptAt": "2026-11-25T07:37:48+09:00",
       "refreshState": "ok",
       "message": "공개 원문 전체 확인 · 단일 목록 참고값"
     }
@@ -35,7 +35,7 @@
   "comparisonErrors": [
     {
       "id": "bfv-gg",
-      "error": "Terms changed: review required before collection"
+      "error": "Command '['curl', '--fail', '--silent', '--show-error', '--proto', '=https', '--retry', '1', '--retry-delay', '2', '--retry-max-time', '15', '--max-time', '25', '--max-filesize', '5000000', '--user-agent', 'BLOX-DECKS-price-comparison/1.0', 'https://"
     },
     {
       "id": "cosmic-bfv",
