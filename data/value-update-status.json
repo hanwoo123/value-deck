@@ -1,6 +1,6 @@
 {
   "state": "comparison",
-  "checkedAt": "2026-11-25T17:52:40+09:00",
+  "checkedAt": "2026-11-26T06:51:04+09:00",
   "games": {
     "blox-fruits": {
       "mode": "comparison",
@@ -15,7 +15,7 @@
       "unpricedItems": 16,
       "sourceCount": 1,
       "checkedAt": "2026-11-16T15:51:39+09:00",
-      "lastAttemptAt": "2026-11-25T17:52:42+09:00",
+      "lastAttemptAt": "2026-11-26T06:51:07+09:00",
       "refreshState": "error",
       "message": "공개 원문 전체 확인 · 단일 목록 참고값",
       "error": "ValueError: Duplicate public item name"
@@ -26,8 +26,8 @@
       "rangeItems": 0,
       "unpricedItems": 7,
       "sourceCount": 1,
-      "checkedAt": "2026-11-25T17:52:43+09:00",
-      "lastAttemptAt": "2026-11-25T17:52:43+09:00",
+      "checkedAt": "2026-11-26T06:51:07+09:00",
+      "lastAttemptAt": "2026-11-26T06:51:07+09:00",
       "refreshState": "ok",
       "message": "공개 원문 전체 확인 · 단일 목록 참고값"
     }
