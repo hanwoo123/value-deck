@@ -15,10 +15,10 @@
       "unpricedItems": 16,
       "sourceCount": 1,
       "checkedAt": "2026-11-16T15:51:39+09:00",
-      "lastAttemptAt": "2026-11-26T06:51:07+09:00",
+      "lastAttemptAt": "2026-11-26T17:38:51+09:00",
       "refreshState": "error",
       "message": "공개 원문 전체 확인 · 단일 목록 참고값",
-      "error": "ValueError: Duplicate public item name"
+      "error": "ValueError: Terms changed: review required before collection"
     },
     "king-legacy": {
       "mode": "reference-list",
@@ -27,9 +27,10 @@
       "unpricedItems": 7,
       "sourceCount": 1,
       "checkedAt": "2026-11-26T06:51:07+09:00",
-      "lastAttemptAt": "2026-11-26T06:51:07+09:00",
-      "refreshState": "ok",
-      "message": "공개 원문 전체 확인 · 단일 목록 참고값"
+      "lastAttemptAt": "2026-11-26T17:38:52+09:00",
+      "refreshState": "error",
+      "message": "공개 원문 전체 확인 · 단일 목록 참고값",
+      "error": "ValueError: Terms changed: review required before collection"
     }
   },
   "comparisonErrors": [
@@ -40,6 +41,11 @@
     {
       "id": "cosmic-bfv",
       "error": "Terms changed: review required before collection"
+    },
+    {
+      "id": "vvx-bf",
+      "error": "Terms changed: review required before collection"
     }
-  ]
+  ],
+  "lastAttemptAt": "2026-11-26T17:38:50+09:00"
 }
