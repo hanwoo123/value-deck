@@ -15,7 +15,7 @@
       "unpricedItems": 16,
       "sourceCount": 1,
       "checkedAt": "2026-11-16T15:51:39+09:00",
-      "lastAttemptAt": "2026-11-28T06:29:08+09:00",
+      "lastAttemptAt": "2026-11-28T17:07:23+09:00",
       "refreshState": "error",
       "message": "공개 원문 전체 확인 · 단일 목록 참고값",
       "error": "ValueError: Terms changed: review required before collection"
@@ -27,7 +27,7 @@
       "unpricedItems": 7,
       "sourceCount": 1,
       "checkedAt": "2026-11-26T06:51:07+09:00",
-      "lastAttemptAt": "2026-11-28T06:29:08+09:00",
+      "lastAttemptAt": "2026-11-28T17:07:24+09:00",
       "refreshState": "error",
       "message": "공개 원문 전체 확인 · 단일 목록 참고값",
       "error": "ValueError: Terms changed: review required before collection"
@@ -36,7 +36,7 @@
   "comparisonErrors": [
     {
       "id": "bfv-gg",
-      "error": "Command '['curl', '--fail', '--silent', '--show-error', '--proto', '=https', '--retry', '1', '--retry-delay', '2', '--retry-max-time', '15', '--max-time', '25', '--max-filesize', '5000000', '--user-agent', 'BLOX-DECKS-price-comparison/1.0', 'https://"
+      "error": "Terms changed: review required before collection"
     },
     {
       "id": "cosmic-bfv",
@@ -47,5 +47,5 @@
       "error": "Terms changed: review required before collection"
     }
   ],
-  "lastAttemptAt": "2026-11-28T06:29:06+09:00"
+  "lastAttemptAt": "2026-11-28T17:07:21+09:00"
 }
